@@ -7,14 +7,14 @@
 #Argument 4 is the organization name.
 #It is hoped that batch scripts like jsonCreator.sh that runs the needed instances of this script can be heavily reduced by creating recursion based on organization name and dialect code in the recordSetPath
 
-mkdir -p /data/bedi/collections/$4/$1/$3/reports/ |
+mkdir -p /Users/*/CrosswalksWorkflow/collections/$4/$1/$3/reports/ |
 if [ $# = 4 ]; then
     java net.sf.saxon.Transform \
-    -s:/data/bedi/collections/dummy.xml \
-    -xsl:/data/bedi/xml/RubricTransforms/$3/rubric_$2_$3.xsl \
+    -s:/Users/*/CrosswalkWorkflow/collections/dummy.xml \
+    -xsl:/Users/*/Crosswalks/RubricTransforms/$3/rubric_$2_$3.xsl \
     fileNamePattern=*.xml \
-    recordSetPath=/data/bedi/collections/$4/$1/$3/XML \
-    > /data/bedi/collections/$4/$1/$3/reports/rubric_$2_$3.json
+    recordSetPath=/Users/*/CrosswalksWorkflow/collections/$4/$1/$3/XML \
+    > /Users/*/CrosswalksWorkflow/collections/$4/$1/$3/reports/rubric_$2_$3.json
 else
     echo 'runTransform collection (GHRC) recommendation (CSW) dialect (DIF) organization (NASA)'
 fi

@@ -4,7 +4,7 @@
 # Argument 1 is the tag element's content for the recommendation components desired (cw:spiral/cw:tag).
 # Argument 2 is the cw:dialect/cw:code of the records you wish to assess.
 # Eventually it would be good to make this script read AllCrosswalks.xml for the cw:spiral/cw:tag, and write the cooresponding cw:spiral/cw:code to the spiralDisplayListString. This will ensure that the Recommendation Tags in this script do not drift from those available in AllCrossWalks.xml, ensuring all options are viable.
-CrosswalkHome="/data/bedi/xml"
+CrosswalkHome="/Users/*/Crosswalks"
 
 declare -A RecommendationTag
 RecommendationTag[ACDD]="ACDD_highlyRecommended,ACDD_recommended,ACDD_suggested"
@@ -15,7 +15,7 @@ RecommendationTag[ISO-1]="ISO-1_Discovery-Mandatory,ISO-1_Discovery-Conditional,
 RecommendationTag[LTER]="LTER_Identification,LTER_Discovery,LTER_Evaluation"
 RecommendationTag[FGDC]="FGDC_Discovery-Mandatory"
 echo Transform Recommendation Tag: ${RecommendationTag[$1]}
-echo /data/bedi/xml/RubricTransforms/$2/rubric_$1_$2 
+
 
 java net.sf.saxon.Transform \
 -s:$CrosswalkHome/AllCrosswalks.xml \
@@ -25,6 +25,6 @@ displayFormat=jsonRubric \
 rubricDialect=$2 \
 rubricType=$1 \
 spiralDisplayListString=${RecommendationTag[$1]} \
-> /data/bedi/xml/RubricTransforms/$2/rubric_$1_$2.xsl
+> $CrosswalkHome/RubricTransforms/$2/rubric_$1_$2.xsl
 
 
