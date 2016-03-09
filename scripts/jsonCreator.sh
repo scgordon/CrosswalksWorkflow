@@ -24,6 +24,8 @@
 ./runTransform.sh TFRI FGDC EML DataOne
 ./runTransform.sh USANPN FGDC EML DataOne
 ./runTransform.sh CLOEBIRD FGDC EML DataOne
+./runTransform.sh PISCO FGDC EML DataOne
+./runTransform.sh SANPARKS FGDC EML DataOne
 
 #Dryad collections
 ./runTransform.sh Dryad FGDC Dryad DataOne

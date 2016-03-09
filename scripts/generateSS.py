@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+#!../anaconda/bin/python
 import json
 import xlsxwriter
 import sys
