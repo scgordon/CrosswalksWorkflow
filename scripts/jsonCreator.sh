@@ -1,47 +1,38 @@
 #This is an example batch script required to run runTransform.sh to create the json scorecards for each record in the organizations collections.
 
-#FGDC collections
-/Users/*/CrosswalksWorkflow/runTransform.sh USGSCSAS FGDC FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh SEAD FGDC FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh RGD FGDC FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh ORNLDAAC FGDC FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh NMEPSCOR FGDC FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh CDL FGDC FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh EDACGSTORE FGDC FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh EDORA FGDC FGDC DataOne
-
-/Users/*/CrosswalksWorkflow/runTransform.sh USGSCSAS LTER FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh SEAD LTER FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh RGD LTER FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh ORNLDAAC LTER FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh NMEPSCOR LTER FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh CDL LTER FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh EDACGSTORE LTER FGDC DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh EDORA LTER FGDC DataOne
+#CSDGM collections
+./runTransform.sh USGSCSAS FGDC CSDGM DataOne
+./runTransform.sh SEAD FGDC CSDGM DataOne
+./runTransform.sh RGD FGDC CSDGM DataOne
+./runTransform.sh ORNLDAAC FGDC CSDGM DataOne
+./runTransform.sh NMEPSCOR FGDC CSDGM DataOne
+./runTransform.sh CDL FGDC CSDGM DataOne
+./runTransform.sh EDACGSTORE FGDC CSDGM DataOne
+./runTransform.sh EDORA FGDC CSDGM DataOne
 
 #EML collections
-/Users/*/CrosswalksWorkflow/runTransform.sh ESA FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh GLEON FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh GOA FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh IOE FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh KNB FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh KUBI FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh LTER FGDC DataOne EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh LTER_EUROPE FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh ONEShare FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh TERN FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh TFRI FGDC EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh USANPN FGDC EML DataOne
+./runTransform.sh ESA FGDC EML DataOne
+./runTransform.sh GLEON FGDC EML DataOne
+./runTransform.sh GOA FGDC EML DataOne
+./runTransform.sh IOE FGDC EML DataOne
+./runTransform.sh KNB FGDC EML DataOne
+./runTransform.sh KUBI FGDC EML DataOne
+./runTransform.sh LTER FGDC EML DataOne
+./runTransform.sh LTER_EUROPE FGDC EML DataOne
+./runTransform.sh ONEShare FGDC EML DataOne
+./runTransform.sh TERN FGDC EML DataOne
+./runTransform.sh TFRI FGDC EML DataOne
+./runTransform.sh USANPN FGDC EML DataOne
+./runTransform.sh CLOEBIRD FGDC EML DataOne
+./runTransform.sh PISCO FGDC EML DataOne
+./runTransform.sh SANPARKS FGDC EML DataOne
 
-/Users/*/CrosswalksWorkflow/runTransform.sh ESA LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh GLEON LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh GOA LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh IOE LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh KNB LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh KUBI LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh LTER LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh LTER_EUROPE LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh ONEShare LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh TERN LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh TFRI LTER EML DataOne
-/Users/*/CrosswalksWorkflow/runTransform.sh USANPN LTER EML DataOne
+#Dryad collections
+./runTransform.sh Dryad FGDC Dryad DataOne
+
+#Onedcx collections
+./runTransform.sh IARC FGDC Onedcx DataOne
+./runTransform.sh US_MPC FGDC Onedcx DataOne
+
+#BDP collections
+./runTransform.sh USGSCSAS FGDC BDP DataOne
