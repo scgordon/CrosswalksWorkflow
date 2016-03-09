@@ -4,6 +4,8 @@ import json
 import xlsxwriter
 from xlsxwriter.utility import xl_rowcol_to_cell
 
+start_col = -1
+lastPercentCol = -1
 ## write the header row in the worksheet.
 def writeHeaders(sheet,rubric,style):
 	##print "adding header for rubric type="+rubric
@@ -126,56 +128,58 @@ def addTitle(sheet,title,col,style):
 	sheet.write(row,col,title, style)
 	return col+1
 
-def initialize_summary_formulas(sheet,start_row,end_row,rubric):
-		start_row = start_row + 1
+def initialize_summary_formulas(sheet,start_row,end_row,rubric,spiralCount):
+        start_row = start_row + 1
 
-		formulaStr = "=MAX(K"+str(start_row)+":K"+str(end_row)+")"
-		cell_address = xl_rowcol_to_cell(0,11)
-		sheet.write_formula(cell_address,formulaStr)
+        if (spiralCount > 0):
+            formulaStr = "=MAX(K"+str(start_row)+":K"+str(end_row)+")"
+            cell_address = xl_rowcol_to_cell(0,11)
+            sheet.write_formula(cell_address,formulaStr)
 
-		formulaStr = "MAX(P"+str(start_row)+":P"+str(end_row)+")"
-		cell_address = xl_rowcol_to_cell(0,16)
-		sheet.write_formula(cell_address,formulaStr)
+        if (spiralCount > 1):
+            formulaStr = "MAX(P"+str(start_row)+":P"+str(end_row)+")"
+            cell_address = xl_rowcol_to_cell(0,16)
+            sheet.write_formula(cell_address,formulaStr)
 
-		formulaStr = "MAX(U"+str(start_row)+":U"+str(end_row)+")"
-		cell_address = xl_rowcol_to_cell(0,21)
-		sheet.write_formula(cell_address,formulaStr)
+        if (spiralCount > 2):
+            formulaStr = "MAX(U"+str(start_row)+":U"+str(end_row)+")"
+            cell_address = xl_rowcol_to_cell(0,21)
+            sheet.write_formula(cell_address,formulaStr)
 
-def add_summary_formulas(sheet,start_row,end_row,rubric,dialect_name,dialect_row):
-		start_row = start_row + 1
-		range_name =  simplify("dialectList"+rubric)
-		dialect_cellname = "C"+str(dialect_row+1)
+def add_summary_formulas(sheet,start_row,end_row,rubric,dialect_name,dialect_row,spiralCount):
+            global start_col
+            start_row = start_row + 2
+            range_name =  simplify("dialectList"+rubric)
+            dialect_cellname = "C"+str(dialect_row+1)
 
-		cell_address = xl_rowcol_to_cell(dialect_row,2)
-		sheet.write(cell_address,dialect_name)
+            cell_address = xl_rowcol_to_cell(dialect_row,2)
+            sheet.write(cell_address,dialect_name)
 		
+            if (spiralCount > 0):
 		formulaStr = "{=MAX(IF("+range_name+"="+dialect_cellname+",L"+str(start_row)+":L"+str(end_row)+"))}"
 		cell_address = xl_rowcol_to_cell(dialect_row,11)
 		sheet.write_formula(cell_address,formulaStr)
 	
+            if (spiralCount > 1):
 		formulaStr = "{=MAX(IF("+range_name+"=$"+dialect_cellname+",Q$"+str(start_row)+":Q$"+str(end_row)+"))}"
 		cell_address = xl_rowcol_to_cell(dialect_row,16)
 		sheet.write_formula(cell_address,formulaStr)
 		
+            if (spiralCount > 2):
 		formulaStr = "{=MAX(IF("+range_name+"=$"+dialect_cellname+",V$"+str(start_row)+":V$"+str(end_row)+"))}"
 		cell_address = xl_rowcol_to_cell(dialect_row,21)
 		sheet.write_formula(cell_address,formulaStr)
 	
-		formulaStr = "=COUNTIF("+range_name+","+dialect_cellname+")"
-		cell_address = xl_rowcol_to_cell(dialect_row,24)
-		sheet.write_formula(cell_address,formulaStr)
+            formulaStr = "=COUNTIF("+range_name+","+dialect_cellname+")"
+            cell_address = xl_rowcol_to_cell(dialect_row,start_col-2)
+            sheet.write_formula(cell_address,formulaStr)
 	
 
-def	add_exists_formulas(sheet,top_row,bottom_row,rubric,number_of_dialects,wb):
+def	add_exists_formulas(sheet,top_row,bottom_row,existsCount,rubric,number_of_dialects,wb):
+        global start_col
+        global lastPercentCol
 	dlist = "C$"+str(top_row)+":C$"+str(bottom_row)
-	start_col = 26
-	end_col = 60
-	if (rubric == "UMM-C"):
-		end_col = 93
-	if (rubric == "CSW"):
-		end_col = 60
-	if (rubric == "DCITE"):
-		end_col = 50
+	end_col = start_col + existsCount
 	drange = "$C"+str(top_row+1)+":$C"+str(bottom_row)
 	percent = wb.add_format({'num_format':'0%'})
 	range_name =  define_name("dialectList",rubric)
@@ -185,49 +189,77 @@ def	add_exists_formulas(sheet,top_row,bottom_row,rubric,number_of_dialects,wb):
 			cell_start =  xl_rowcol_to_cell(top_row,col-1)
 			cell_end =  xl_rowcol_to_cell(bottom_row-1, col-1)
 			loc_list = cell_start+":"+cell_end
-			formulaStr = "{=SUMIF("+range_name+",C$"+str(row+1)+","+loc_list+")/$Y"+str(row+1)+"}"
+			formulaStr = "{=SUMIF("+range_name+",C$"+str(row+1)+","+loc_list+")/$"+lastPercentCol+str(row+1)+"}"
 			cell_address = xl_rowcol_to_cell(row,col-1)
 			sheet.write_formula(cell_address,formulaStr,percent)
 
 
-def	add_named_ranges(top_row,bottom_row,rubric,wb,sheetRows,sheet):
+def	add_named_ranges(top_row,bottom_row,dialectCount, existsCount, rubric,wb,sheetRows,sheet,spiralCount):
+        global start_col
+        global lastPercentCol
 	cell_address = xl_rowcol_to_cell(0,2)
 	sheet.write(cell_address,"Recommendation")
+        dialectRowStart = 2
+        dialectRowEnd = dialectRowStart + dialectCount -1
+        dataRowStart = dialectCount+3
+        if (spiralCount == 1):
+            lastPercentCol = 'O'
+            existsStartCol = "P"
+            start_col = 16
+        if (spiralCount == 2):
+            lastPercentCol = 'T'
+            existsStartCol = "U"
+            start_col = 21
+        if (spiralCount == 3):
+            lastPercentCol = 'Y'
+            existsStartCol = "Z"
+            start_col = 26
+        if (spiralCount == 4):
+            lastPercentCol = 'AD'
+            existsStartCol = "AE"
+            start_col = 31
 
-	rnge = "="+simplify(rubric)+"!$Y$2:$Y$4"
+	rnge = "="+simplify(rubric)+"!$"+lastPercentCol+"$"+str(dialectRowStart)+":$"+lastPercentCol+"$"+str(dialectRowEnd)
+        ## rnge = "="+simplify(rubric)+"!$Y$2:$Y$4"
 	range_name =  define_name("dialectCounts",rubric)
 	add_defined_name(wb,range_name,rnge)
 
-	rnge = "="+simplify(rubric)+"!$C$8:$C$"+str(sheetRows[rubric]+1)
+        dialectListStartRow = dialectRowEnd+2
+	rnge = "="+simplify(rubric)+"!$C$"+str(dialectListStartRow)+":$C$"+str(sheetRows[rubric]+dialectCount-(dialectCount))
+        ## rnge = "="+simplify(rubric)+"!$C$8:$C$"+str(sheetRows[rubric]+1)
 	range_name = define_name("dialectList",rubric)
 	add_defined_name(wb,range_name,rnge)
 
-	rnge = "="+simplify(rubric)+"!$C$2:$C$4"
+	rnge = "="+simplify(rubric)+"!$C$"+str(dialectRowStart)+":$C$"+str(dialectRowEnd)
+        ## rnge = "="+simplify(rubric)+"!$C$2:$C$4"
 	range_name = define_name("dialectNames",rubric)
 	add_defined_name(wb,range_name,rnge)
 
-	rnge = "="+simplify(rubric)+"!$Z$7:$CO$7"
-	if (rubric == "CSW"):
-		rnge = "="+simplify(rubric)+"!$Z$7:$BG$7"
-	if (rubric == "DCITE"):
-		rnge = "="+simplify(rubric)+"!$Z$7:$AW$7"
-	if (rubric == "UMM-C"):
-		rnge = "="+simplify(rubric)+"!$Z$7:$CN$7"
+        existsEndCol = calculateColumn(start_col+existsCount-3)
+	rnge = "="+simplify(rubric)+"!$"+existsStartCol+"$"+str(dataRowStart-1)+":$"+str(existsEndCol)+"$"+str(dataRowStart-1)
+	## rnge = "="+simplify(rubric)+"!$Z$7:$CO$7"
 	range_name = define_name("existsColumns",rubric)
 	add_defined_name(wb,range_name,rnge)
 
-	rnge = "="+simplify(rubric)+"!$Z$2:$CO$4"
-	if (rubric == "CSW"):
-		rnge = "="+simplify(rubric)+"!$Z$2:$BG$4"
-	if (rubric == "DCITE"):
-		rnge = "="+simplify(rubric)+"!$Z$2:$AW$4"
-	if (rubric == "UMM-C"):
-		rnge = "="+simplify(rubric)+"!$Z$2:$CN$4"
+	rnge = "="+simplify(rubric)+"!$"+existsStartCol+"$"+str(dialectRowStart)+":$"+existsEndCol+"$"+str(dialectRowEnd)
+	## rnge = "="+simplify(rubric)+"!$Z$2:$CO$4"
 	range_name = define_name("existsSummary",rubric)
 	add_defined_name(wb,range_name,rnge)
 
 def add_defined_name(wb,name,drange):
+        print "AddDefinedName: "+name+" " +drange
 	wb.define_name(name,drange)
+
+def calculateColumn(colNum):
+    cell = xl_rowcol_to_cell(0,colNum+1)
+    colName = ""
+    for idx in range(0,len(cell)):
+            s = cell[idx]
+            if (not s.isdigit()):
+                colName += s
+
+    print "colnum="+str(colNum)+" colName="+colName
+    return colName
 
 
 def load_summary_fields(wb, sheet, data, rubric_name, summary_name, start_row):
