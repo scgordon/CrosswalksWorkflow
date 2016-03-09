@@ -1,4 +1,4 @@
-#!/Users/scgordon/anaconda/bin/python
+#!../anaconda/bin/python
 
 import json
 import xlsxwriter
