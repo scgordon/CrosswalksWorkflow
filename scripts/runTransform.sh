@@ -6,15 +6,24 @@
 #Argument 3 is the dialect of the records in the organizations collections being assessed.
 #Argument 4 is the organization name.
 #It is hoped that batch scripts like jsonCreator.sh that runs the needed instances of this script can be heavily reduced by creating recursion based on organization name and dialect code in the recordSetPath
-
-mkdir -p /Users/*/CrosswalksWorkflow/collections/$4/$1/$3/reports/ |
+cd ../
+CrosswalkWorkflow=$(pwd) &&
+cd ../Crosswalks 
+CrosswalkHome=$(pwd) 
+#if [ -d $CrosswalkWorkflow/collections/$4/$1/$3 ]; then
+mkdir -p CrosswalkWorkflow/collections/$4/$1/$3/reports #else
+#	echo "This collection ($collectionName) does not use that dialect ($dialectCode)"
+#fi |
 if [ $# = 4 ]; then
     java net.sf.saxon.Transform \
-    -s:/Users/*/CrosswalkWorkflow/collections/dummy.xml \
-    -xsl:/Users/*/Crosswalks/RubricTransforms/$3/rubric_$2_$3.xsl \
+    -s:$CrosswalkWorkflow/collections/dummy.xml \
+    -xsl:$CrosswalkHome/RubricTransforms/$3/rubric_$2_$3.xsl \
     fileNamePattern=*.xml \
-    recordSetPath=/Users/*/CrosswalksWorkflow/collections/$4/$1/$3/XML \
-    > /Users/*/CrosswalksWorkflow/collections/$4/$1/$3/reports/rubric_$2_$3.json
+    recordSetPath=$CrosswalkWorkflow/collections/$4/$1/$3/xml \
+    > $CrosswalkWorkflow/collections/$4/$1/$3/reports/rubric_$2_$3.json
+    echo 'json created. Please verify before creating a spreadsheet!'
 else
-    echo 'runTransform collection (GHRC) recommendation (CSW) dialect (DIF) organization (NASA)'
+    echo 'runTransform argument order: collection (GHRC) recommendation (CSW) dialect (DIF) organization (NASA). Try again.'
 fi
+
+	

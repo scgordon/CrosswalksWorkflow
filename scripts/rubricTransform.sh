@@ -3,8 +3,10 @@
 # It requires two arguments.
 # Argument 1 is the tag element's content for the recommendation components desired (cw:spiral/cw:tag).
 # Argument 2 is the cw:dialect/cw:code of the records you wish to assess.
-# Eventually it would be good to make this script read AllCrosswalks.xml for the cw:spiral/cw:tag, and write the cooresponding cw:spiral/cw:code to the spiralDisplayListString. This will ensure that the Recommendation Tags in this script do not drift from those available in AllCrossWalks.xml, ensuring all options are viable.
-CrosswalkHome="/Users/*/Crosswalks"
+# Eventually it would be good to make this script read AllCrosswalks.xml for the cw:spiral/cw:tag, and write the cooresponding cw:spiral/cw:code to the spiralDisplayListString. This will ensure that the Recommendation Tags in this script do not drift from those available in AllCrossWalks.xml, ensuring all documented options on the ESIP wiki are viable.
+cd ../../Crosswalks
+CrosswalkHome=$(pwd)
+mkdir -p $CrosswalkHome/RubricTransforms/$2 |
 
 declare -A RecommendationTag
 RecommendationTag[ACDD]="ACDD_highlyRecommended,ACDD_recommended,ACDD_suggested"
@@ -13,7 +15,7 @@ RecommendationTag[DCITE]="DataCite3.1Mandatory,DataCite3.1Recommended,DataCite3.
 RecommendationTag[UMM-C]="UMM-C_Required,UMM-C_HighlyRecommended,UMM-C_Recommended"
 RecommendationTag[ISO-1]="ISO-1_Discovery-Mandatory,ISO-1_Discovery-Conditional,ISO-1_Discovery-Optional"
 RecommendationTag[LTER]="LTER_Identification,LTER_Discovery,LTER_Evaluation"
-RecommendationTag[FGDC]="FGDC_Discovery-Mandatory"
+RecommendationTag[FGDC]="FGDC_Mandatory,FGDC_MandatoryIfApplicable"
 echo Transform Recommendation Tag: ${RecommendationTag[$1]}
 
 
