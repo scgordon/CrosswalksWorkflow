@@ -4,6 +4,8 @@
 # Argument 1 is the tag element's content for the recommendation components desired (cw:spiral/cw:tag).
 # Argument 2 is the cw:dialect/cw:code of the records you wish to assess.
 # Eventually it would be good to make this script read AllCrosswalks.xml for the cw:spiral/cw:tag, and write the cooresponding cw:spiral/cw:code to the spiralDisplayListString. This will ensure that the Recommendation Tags in this script do not drift from those available in AllCrossWalks.xml, ensuring all documented options on the ESIP wiki are viable.
+cd../
+CrosswalkWorkflow=$(pwd)
 cd ../../Crosswalks
 CrosswalkHome=$(pwd)
 mkdir -p $CrosswalkHome/RubricTransforms/$2 |
@@ -27,6 +29,6 @@ displayFormat=jsonRubric \
 rubricDialect=$2 \
 rubricType=$1 \
 spiralDisplayListString=${RecommendationTag[$1]} \
-> $CrosswalkHome/RubricTransforms/$2/rubric_$1_$2.xsl
+> $CrosswalkWorkflow/RubricTransforms/$2/rubric_$1_$2.xsl
 
 
