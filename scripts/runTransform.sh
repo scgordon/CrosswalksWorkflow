@@ -23,7 +23,7 @@ mkdir -p $CrosswalkWorkflow/collections/$orgName/$collectionName/$dialectCode/re
 if [ $# = 4 ]; then
     java net.sf.saxon.Transform \
     -s:$CrosswalkWorkflow/collections/dummy.xml \
-    -xsl:$CrosswalkWorkflow/RubricTransforms/$dialectCode/rubric_$3_$dialectCode.xsl \
+    -xsl:$CrosswalkWorkflow/RubricTransforms/$dialectCode/rubric_$recTag'_'$dialectCode.xsl \
     fileNamePattern=*.xml \
     recordSetPath=$CrosswalkWorkflow/collections/$orgName/$collectionName/$dialectCode/xml \
     > $CrosswalkWorkflow/collections/$orgName/$collectionName/$dialectCode/reports/rubric_$recTag'_'$dialectCode.json
