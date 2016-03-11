@@ -1,38 +1,42 @@
-#This is an example batch script required to run runTransform.sh to create the json scorecards for each record in the organizations collections.
+#This is an example batch script required to run runTransform.sh DataOne to create the json scorecards for each record in the organizations collections.
+#orgName=$1
+#dialectCode=$2
+#recTag=$3
+#collectionName=$4
 
-#CSDGM collections
-./runTransform.sh USGSCSAS FGDC CSDGM DataOne
-./runTransform.sh SEAD FGDC CSDGM DataOne
-./runTransform.sh RGD FGDC CSDGM DataOne
-./runTransform.sh ORNLDAAC FGDC CSDGM DataOne
-./runTransform.sh NMEPSCOR FGDC CSDGM DataOne
-./runTransform.sh CDL FGDC CSDGM DataOne
-./runTransform.sh EDACGSTORE FGDC CSDGM DataOne
-./runTransform.sh EDORA FGDC CSDGM DataOne
+# collections
+./runTransform.sh DataOne CSDGM FGDC USGSCSAS   
+./runTransform.sh DataOne CSDGM FGDC SEAD  
+./runTransform.sh DataOne CSDGM FGDC RGD  
+./runTransform.sh DataOne CSDGM FGDC ORNLDAAC 
+./runTransform.sh DataOne CSDGM FGDC NMEPSCOR 
+./runTransform.sh DataOne CSDGM FGDC CDL  
+./runTransform.sh DataOne CSDGM FGDC EDACGSTORE  
+./runTransform.sh DataOne CSDGM FGDC EDORA
 
-#EML collections
-./runTransform.sh ESA FGDC EML DataOne
-./runTransform.sh GLEON FGDC EML DataOne
-./runTransform.sh GOA FGDC EML DataOne
-./runTransform.sh IOE FGDC EML DataOne
-./runTransform.sh KNB FGDC EML DataOne
-./runTransform.sh KUBI FGDC EML DataOne
-./runTransform.sh LTER FGDC EML DataOne
-./runTransform.sh LTER_EUROPE FGDC EML DataOne
-./runTransform.sh ONEShare FGDC EML DataOne
-./runTransform.sh TERN FGDC EML DataOne
-./runTransform.sh TFRI FGDC EML DataOne
-./runTransform.sh USANPN FGDC EML DataOne
-./runTransform.sh CLOEBIRD FGDC EML DataOne
-./runTransform.sh PISCO FGDC EML DataOne
-./runTransform.sh SANPARKS FGDC EML DataOne
+# collections
+./runTransform.sh DataOne EML FGDC ESA  
+./runTransform.sh DataOne EML FGDC GLEON  
+./runTransform.sh DataOne EML FGDC GOA  
+./runTransform.sh DataOne EML FGDC IOE  
+./runTransform.sh DataOne EML FGDC KNB  
+./runTransform.sh DataOne EML FGDC KUBI  
+./runTransform.sh DataOne EML FGDC LTER  
+./runTransform.sh DataOne EML FGDC LTER_EUROPE  
+./runTransform.sh DataOne EML FGDC ONEShare  
+./runTransform.sh DataOne EML FGDC TERN  
+./runTransform.sh DataOne EML FGDC TFRI  
+./runTransform.sh DataOne EML FGDC USANPN  
+./runTransform.sh DataOne EML FGDC CLOEBIRD  
+./runTransform.sh DataOne EML FGDC PISCO  
+./runTransform.sh DataOne EML FGDC SANPARKS  
 
 #Dryad collections
-./runTransform.sh Dryad FGDC Dryad DataOne
+./runTransform.sh DataOne Dryad FGDC Dryad 
 
 #Onedcx collections
-./runTransform.sh IARC FGDC Onedcx DataOne
-./runTransform.sh US_MPC FGDC Onedcx DataOne
+./runTransform.sh DataOne Onedcx FGDC IARC 
+./runTransform.sh DataOne Onedcx FGDC US_MPC
 
 #BDP collections
-./runTransform.sh USGSCSAS FGDC BDP DataOne
+./runTransform.sh DataOne BDP FGDC USGSCSAS  
