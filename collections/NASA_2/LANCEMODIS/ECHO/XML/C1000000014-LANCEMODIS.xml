@@ -1,0 +1,286 @@
+<Collection>
+  <ShortName>MOD00F</ShortName>
+  <VersionId>5</VersionId>
+  <InsertTime>2006-03-17T00:00:00.000Z</InsertTime>
+  <LastUpdate>2012-06-18T00:00:00.000Z</LastUpdate>
+  <LongName>MODIS/Terra Level 0 Raw Instrument Packets in 5-Min L0 Swath</LongName>
+  <DataSetId>MODIS/Terra Level 0 Raw Instrument Packets in 5-Min L0 Swath V005 NRT</DataSetId>
+  <Description>Level 1A collection contains packetized raw detector counts for the 36 MODIS spectral bands as well as engineering and spacecraft ancillary data. Only bands 20 to 36 are used to collect measurements in night mode, while all bands are used in day mode.</Description>
+  <CollectionDataType>NEAR_REAL_TIME</CollectionDataType>
+  <Orderable>false</Orderable>
+  <Visible>true</Visible>
+  <RevisionDate>2012-06-18T00:00:00.000Z</RevisionDate>
+  <SuggestedUsage>Science Research </SuggestedUsage>
+  <ProcessingCenter>MODAPS</ProcessingCenter>
+  <ProcessingLevelId>1A</ProcessingLevelId>
+  <ProcessingLevelDescription>RAW</ProcessingLevelDescription>
+  <ArchiveCenter>LAADS</ArchiveCenter>
+  <VersionDescription>Terra MODIS Version 5 Data Collection Reprocessing</VersionDescription>
+  <CitationForExternalPublication>This data set was provided by the NASA EOS Project</CitationForExternalPublication>
+  <CollectionState>In Work</CollectionState>
+  <MaintenanceAndUpdateFrequency>As Needed</MaintenanceAndUpdateFrequency>
+  <SpatialKeywords/>
+  <TemporalKeywords/>
+  <Temporal>
+    <TimeType>UTC</TimeType>
+    <DateType>Gregorian</DateType>
+    <TemporalRangeType>Continuous Range</TemporalRangeType>
+    <PrecisionOfSeconds>1</PrecisionOfSeconds>
+    <EndsAtPresentFlag>true</EndsAtPresentFlag>
+    <RangeDateTime>
+      <BeginningDateTime>2014-12-25T05:05:00.000000Z</BeginningDateTime>
+    </RangeDateTime>
+  </Temporal>
+  <Contacts>
+    <Contact>
+      <Role>Archive</Role>
+      <Instructions>Contact for format/distribution issues.</Instructions>
+      <OrganizationName>MODIS Science Data Support Team</OrganizationName>
+      <OrganizationAddresses>
+        <Address>
+          <StreetAddress>4801 Forbes Blvd</StreetAddress>
+          <City>Lanham-Seabrook</City>
+          <StateProvince>MD</StateProvince>
+          <PostalCode>20706</PostalCode>
+          <Country>USA</Country>
+        </Address>
+        <Address>
+          <StreetAddress>NASA/GSFC Code 619</StreetAddress>
+          <City>GREENBELT</City>
+          <StateProvince>MD</StateProvince>
+          <PostalCode>20771</PostalCode>
+          <Country>USA</Country>
+        </Address>
+      </OrganizationAddresses>
+      <OrganizationPhones>
+        <Phone>
+          <Number>301-731-2928</Number>
+          <Type>phone</Type>
+        </Phone>
+        <Phone>
+          <Number>301-731-2934</Number>
+          <Type>phone</Type>
+        </Phone>
+        <Phone>
+          <Number>866-506-6347</Number>
+          <Type>phone (Toll-free-US only)</Type>
+        </Phone>
+      </OrganizationPhones>
+      <OrganizationEmails>
+        <Email>modapsuso@sigmaspace.com</Email>
+      </OrganizationEmails>
+      <ContactPersons/>
+    </Contact>
+    <Contact>
+      <Role>Producer</Role>
+      <Instructions>Contact for data content concerns</Instructions>
+      <OrganizationName>MODIS Science Data Support Team</OrganizationName>
+      <OrganizationAddresses>
+        <Address>
+          <StreetAddress>NASA/GSFC Code 619</StreetAddress>
+          <City>GREENBELT</City>
+          <StateProvince>MD</StateProvince>
+          <PostalCode>20771</PostalCode>
+          <Country>USA</Country>
+        </Address>
+      </OrganizationAddresses>
+      <OrganizationPhones>
+        <Phone>
+          <Number>301-614-5515</Number>
+          <Type>phone</Type>
+        </Phone>
+      </OrganizationPhones>
+      <OrganizationEmails>
+        <Email>Edward.J.Masuoka@nasa.gov</Email>
+      </OrganizationEmails>
+      <ContactPersons/>
+    </Contact>
+  </Contacts>
+  <ScienceKeywords>
+    <ScienceKeyword>
+      <CategoryKeyword>EARTH SCIENCE</CategoryKeyword>
+      <TopicKeyword>SPECTRAL/ENGINEERING</TopicKeyword>
+            <TermKeyword>VISIBLE WAVELENGTHS</TermKeyword>
+      <VariableLevel1Keyword>
+        <Value>SENSOR COUNTS</Value>
+      </VariableLevel1Keyword>
+    </ScienceKeyword>
+    <ScienceKeyword>
+      <CategoryKeyword>EARTH SCIENCE</CategoryKeyword>
+      <TopicKeyword>SPECTRAL/ENGINEERING</TopicKeyword>
+            <TermKeyword>VISIBLE WAVELENGTHS</TermKeyword>
+      <VariableLevel1Keyword>
+        <Value>VISIBLE IMAGERY</Value>
+      </VariableLevel1Keyword>
+    </ScienceKeyword>
+    <ScienceKeyword>
+      <CategoryKeyword>EARTH SCIENCE</CategoryKeyword>
+      <TopicKeyword>SPECTRAL/ENGINEERING</TopicKeyword>
+            <TermKeyword>VISIBLE WAVELENGTHS</TermKeyword>
+      <VariableLevel1Keyword>
+        <Value>VISIBLE RADIANCE</Value>
+      </VariableLevel1Keyword>
+    </ScienceKeyword>
+  </ScienceKeywords>
+  <Platforms>
+    <Platform>
+      <ShortName>Terra</ShortName>
+      <LongName>First EOS Polar Orbiting Satellite, 10:30 AM Descending Equator Crossing</LongName>
+      <Type>Spacecraft</Type>
+      <Characteristics>
+        <Characteristic>
+          <Name>EquatorCrossingTime</Name>
+          <Description>Local time of the equator crossing and direction (ascending or descending)</Description>
+          <DataType>varchar</DataType>
+          <Unit>Local Mean Time</Unit>
+          <Value>10:30, descending</Value>
+        </Characteristic>
+      </Characteristics>
+      <Instruments>
+        <Instrument>
+          <ShortName>MODIS</ShortName>
+          <LongName>Moderate-Resolution Imaging Spectroradiometer</LongName>
+          <Technique>Imaging Spectroradiometry</Technique>
+          <NumberOfSensors>1</NumberOfSensors>
+          <Characteristics/>
+          <Sensors>
+            <Sensor>
+              <ShortName>MODIS</ShortName>
+              <LongName>Cross-track Scanning Radiometer</LongName>
+              <Technique>Radiometry</Technique>
+              <Characteristics/>
+            </Sensor>
+          </Sensors>
+          <OperationModes/>
+        </Instrument>
+      </Instruments>
+    </Platform>
+  </Platforms>
+  <AdditionalAttributes>
+    <AdditionalAttribute>
+      <Name>SuccessCloudPhaseRtrPct_IR</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>CloudCoverFractionPct_VIS</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SCI_STATE</Name>
+      <DataType>INT</DataType>
+      <Description>Flag set (to 0) if science_state, the L1A engineering data  flag that indicates  the Normal/Test configuration of  the MODIS instrument, was set for at least one  scan in the granule.</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SuccessfulRetrievalPct_NIR</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SuccessCloudOptPropRtrPct_VIS</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SuccessfulRetrievalPct_IR</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SuccessfulRetrievalPct</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>IceCloudDetectedPct_VIS</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SCI_ABNORM</Name>
+      <DataType>INT</DataType>
+      <Description>Flag set (to 0) if science_abnormal, the L1A engineering data ground-set flag thatindicates potentially  abnormal science data due to things other than MODIS (such as maneuvers, data link, etc.), was set for at least one scan in the granule.</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SuccessCloudTopPropRtrPct_IR</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>VeryHighConfidentClearPct</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>LowConfidentClearPct</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>HighConfidentClearPct</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>CloudCoverPct250m</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SuccessfulRetrievalPct_Land</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>ClearPct250m</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>SuccessfulRetrievalPct_Ocean</Name>
+      <DataType>FLOAT</DataType>
+      <Description>None</Description>
+    </AdditionalAttribute>
+  </AdditionalAttributes>
+  <CSDTDescriptions>
+    <CSDTDescription>
+      <PrimaryCSDT>Simple Swath</PrimaryCSDT>
+      <Implementation>HDF-EOS</Implementation>
+      <CSDTComments>None</CSDTComments>
+      <IndirectReference>N/A</IndirectReference>
+    </CSDTDescription>
+  </CSDTDescriptions>
+  <OnlineResources>
+    <OnlineResource>
+      <URL>http://modis.gsfc.nasa.gov/data/dataprod/dataproducts.php?MOD_NUMBER=01</URL>
+      <Description>Overview of MODIS Terra Raw Radiances data</Description>
+      <Type>Overview</Type>
+    </OnlineResource>
+    <OnlineResource>
+      <URL>http://modaps.nascom.nasa.gov/services/about/products/MOD00F.html</URL>
+      <Description>Product Descriptions</Description>
+      <Type>MiscInformation</Type>
+    </OnlineResource>
+  </OnlineResources>
+  <AssociatedDIFs>
+    <DIF>
+      <EntryId>MOD00F</EntryId>
+    </DIF>
+  </AssociatedDIFs>
+  <Spatial>
+    <SpatialCoverageType>Horizontal</SpatialCoverageType>
+    <HorizontalSpatialDomain>
+      <Geometry>
+        <CoordinateSystem>CARTESIAN</CoordinateSystem>
+        <BoundingRectangle>
+          <WestBoundingCoordinate>-180</WestBoundingCoordinate>
+          <NorthBoundingCoordinate>90</NorthBoundingCoordinate>
+          <EastBoundingCoordinate>180</EastBoundingCoordinate>
+          <SouthBoundingCoordinate>-90</SouthBoundingCoordinate>
+        </BoundingRectangle>
+      </Geometry>
+    </HorizontalSpatialDomain>
+    <GranuleSpatialRepresentation>CARTESIAN</GranuleSpatialRepresentation>
+  </Spatial>
+</Collection>

@@ -1,0 +1,89 @@
+<Collection><ShortName>OMCLDRRG</ShortName><VersionId>003</VersionId><InsertTime>2007-11-15T00:00:00.000Z</InsertTime><LastUpdate>2015-08-25T00:00:00.000Z</LastUpdate><LongName>OMI/Aura Effective Cloud Pressure and Fraction (Raman Scattering) Daily L2 Global 0.25 deg Lat/Lon Grid</LongName><DataSetId>OMI/Aura Effective Cloud Pressure and Fraction (Raman Scattering) Daily L2 Global 0.25 deg Lat/Lon Grid V003</DataSetId><Description>The reprocessed Version-3 Aura OMI Level-2G Cloud data product OMCLDRRG has been made available (in April 2012) to the public from the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC).(http://disc.gsfc.nasa.gov/Aura/OMI/omcldrrg_v003.shtml
+
+      Aura OMI provides two Level-2G Cloud products (OMCLDRRG and
+      OMCLDO2G)that are based on two different algorithms, the Rotational
+      Raman Scattering method and the O2-O2 absorption method. This level-2G
+      global cloud product (OMCLDRRG) provides effective cloud pressure and
+      effective cloud fraction that is based on the least square fitting of
+      the Ring spectrum (filling-in of Fraunhofer lines in the range 392 to
+      398 nm due to rotational Raman scattering).  This product also
+      contains many ancillary and derived parameters, terrain and
+      geolocation information, solar and satellite viewing angles, and
+      quality flags.
+      
+      (The shortname for this Level-2G OMI Cloud Pressure and Fraction product is OMCLDRRG)
+	    The algorithm lead for the products OMCLDRR and OMCLDRRG is NASA OMI scientist Dr. Joanna Joinner(Joanna.Joiner.1 at nasa.gov ).
+      
+      OMCLDRRG data product is a special Level-2G Gridded Global Product
+      where pixel level data (OMCLDRR)are binned into 0.25x0.25 degree
+      global grids. It contains the OMCLDRR data for all L2 scenes that
+      have observation time betweeen UTC times of 00:00:00 and
+      23:59:59.9999. All data pixels that fall in a grid box are saved
+      Without Averaging. Scientist can apply data filtering scheme of
+      their choice and create new gridded products.
+      
+      OMCLDRRG data products are stored in EOS Hierarchical Data Format
+      (HDF-EOS5).  Each daily file contains data from the day lit portion of
+      the orbits (~14 orbits).  The average file size for the OMCLDRRG data
+      product is about 75 Mbytes. A list of tools for browsing and
+      extracting data from these files can be found at:
+      http://daac.gsfc.nasa.gov/Aura/tools.shtml. The GES DISC developed
+      interactive tool Giovanni ( http://giovanni.gsfc.nasa.gov/ ) provides
+      on-line web based capabilities to browse and explore Aura data.
+      
+      A README document containing brief algorithm description and known
+      data quality related issues and file spec are provided by the OMCLDRR
+      and OMCLDRRG Algorithm lead (see
+      http://disc.sci.gsfc.nasa.gov/Aura/OMI/omcldrrg_v003.shtml ).
+      
+      Data Category Parameters:
+         
+      The OMCLDRRG data file consists of a Grid Data Object which contains
+      complete information of each pixel binned into the grid.
+          
+      Cloud Parameters (and Precision): Two Effective Cloud Fraction and
+      Cloud Pressure (based on two different clear and cloudy scene
+      reflectivity criteria), Cloud Mask
+          
+        Ancillary Data:
+           Terrain Pressure, Terrain Height, Reflectivity,
+           Chlorophyll Amount, Effective Reflectivity (394.1 micron),
+           UV Aerosol Index (based on 360 and 388 nm),
+           and many other Algorithm Parameters 
+             
+        Quality Flags:
+            Ground Pixel QualityFlags, 
+            Measurement QualityFlags, 
+            Processing Quality Flags
+      
+         Time and Geolocation Data:
+            Time,  Latitude, Longitude, Solar Zenith Angle, Viewing Zenith Angle,  
+            Relative Azimuth Angle, Line Number, Scene Number, 
+            Number Of Candidate Scenes, Path Length, Orbit Number</Description><Orderable>false</Orderable><Visible>true</Visible><RevisionDate>2015-08-25T00:00:00.000Z</RevisionDate><ArchiveCenter>GESDISC</ArchiveCenter><CitationForExternalPublication>
+ ORIGINATOR: Joanna Joiner
+ PUBLICATION DATE: 2012
+ TITLE: OMI/Aura Effective Cloud Pressure and Fraction (Raman Scattering) Daily L2 Global 0.25 deg Lat/Lon Grid</CitationForExternalPublication><CollectionState>IN WORK</CollectionState><RestrictionFlag>0</RestrictionFlag><Price>0</Price><DataFormat>HDF-EOS5</DataFormat><SpatialKeywords><Keyword>GEOGRAPHIC REGION</Keyword><Keyword>GLOBAL</Keyword></SpatialKeywords><TemporalKeywords /><Temporal><RangeDateTime><BeginningDateTime>2004-10-01T00:00:00.000Z</BeginningDateTime></RangeDateTime></Temporal><Contacts><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>NASA Goddard Space Flight Center, Code 613.3, Bldg 33</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>+1 301-614-6247</Number><Type>Direct Line</Type></Phone><Phone><Number>+1 301 614-5903</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>Joanna.Joiner@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>JOANNA</FirstName><LastName>JOINER, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DIF AUTHOR</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-6558</Number><Type>Direct Line</Type></Phone></OrganizationPhones><OrganizationEmails><Email>jennifer.c.wei@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>JENNIFER</FirstName><MiddleName>C.</MiddleName><LastName>WEI, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DATA CENTER CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5224</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>GES DISC HELP DESK SUPPORT GROUP</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DATA CENTER CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5224</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>ACDISC USER SUPPORT OFFICE</LastName></ContactPerson></ContactPersons></Contact></Contacts><ScienceKeywords><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>CLOUDS</TermKeyword><VariableLevel1Keyword><Value>CLOUD PROPERTIES</Value><VariableLevel2Keyword><Value>CLOUD FRACTION</Value></VariableLevel2Keyword></VariableLevel1Keyword></ScienceKeyword><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>CLOUDS</TermKeyword><VariableLevel1Keyword><Value>CLOUD PROPERTIES</Value><VariableLevel2Keyword><Value>CLOUD TOP PRESSURE</Value></VariableLevel2Keyword></VariableLevel1Keyword></ScienceKeyword></ScienceKeywords><Platforms><Platform><ShortName>AURA</ShortName><LongName>Earth Observing System, Aura</LongName><Type>Not Specified</Type><Characteristics /><Instruments><Instrument><ShortName>OMI</ShortName><LongName>Ozone Monitoring Instrument</LongName><Characteristics /><Sensors><Sensor><ShortName>OMI</ShortName><LongName>Ozone Monitoring Instrument</LongName><Characteristics /></Sensor></Sensors><OperationModes /></Instrument></Instruments></Platform></Platforms><AdditionalAttributes /><CSDTDescriptions /><CollectionAssociations /><Campaigns><Campaign><ShortName>AURA</ShortName><LongName>Earth Observing System (EOS), AURA</LongName></Campaign></Campaigns><AlgorithmPackages /><TwoDCoordinateSystems /><OnlineAccessURLs /><OnlineResources><OnlineResource><URL>ftp://acdisc.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level2G/OMCLDRRG.003/</URL><Description>
+         Access the OMI Level-2G global binned 0.25x0.25 deg Cloud Data Product OMCLDRRG by FTP.
+      </Description><Type>GET DATA : ON-LINE ARCHIVE</Type></OnlineResource><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/homepageAlt.pl?keyword=OMCLDRRG</URL><Description>
+         Direct Access to OMI Level-2G global binned 0.25x0.25 deg Cloud Data Product OMCLDRRG from the GES DISC Mirador fast search and download system
+      </Description><Type>GET DATA : MIRADOR</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/SSW/#keywords=OMCLDRRG 003</URL><Description>
+         Access the OMI Level-2G global binned 0.25x0.25 deg Cloud Data Product OMCLDRRG using Simple Subset Wizard (Search and subset by date and spatial region).
+      </Description><Type>GET DATA : SSW</Type></OnlineResource><OnlineResource><URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;spatial_map=satellite&amp;spatial_type=rectangle&amp;keywords=GES_DISC_OMCLDRRG_V003</URL><Description>
+         Search OMI Level-2G global binned 0.25x0.25 deg Cloud Data Product OMCLDRRG using ECHO's next generation Earth Science discovery tool (Reverb).
+      </Description><Type>GET DATA : ECHO</Type></OnlineResource><OnlineResource><URL>http://gdata2.sci.gsfc.nasa.gov/daac-bin/G3/gui.cgi?instance_id=omil2g</URL><Description>
+         Giovanni OMI L2G instance
+      </Description><Type>GET DATA : GIOVANNI</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/Aura/data-holdings/OMI/</URL><Description>
+         OMCLDRRG Related Documents
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://hyperion.gsfc.nasa.gov/People/Joiner/</URL><Description>
+         OMCLDRRG Related Documents
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://www.knmi.nl/omi/research/news/index.html</URL><Description>
+         OMI Home Pages (KNMI AND US)
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://toms.gsfc.nasa.gov/</URL><Description>
+         OMI Home Pages (KNMI AND US)
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://acdisc.gsfc.nasa.gov/data/s4pa//Aura_OMI_Level2G/OMCLDRRG.003/doc/README.OMI_DUG.pdf</URL><Description>product README file</Description><Type>VIEW RELATED INFORMATION : USER'S GUIDE</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/Aura/data-holdings/OMI/documents/v003/OMCLDRRG_OSIPS_README_V003.doc</URL><Description>
+         ReadMe for OMCLDRRG_V003
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/Aura/data-holdings/OMI/documents/v003/OMCLDRRG_FileSpec_V003.txt</URL><Description>
+         FileSpec for OMCLDRRG_V003
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/Aura/data-holdings/OMI/documents/v003/L2_cloud_spec_issue2_3.pdf</URL><Description>
+         Release details and known issues
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource></OnlineResources><AssociatedDIFs><DIF><EntryId>GES_DISC_OMCLDRRG_V003</EntryId></DIF></AssociatedDIFs><Spatial><SpatialCoverageType>Horizontal</SpatialCoverageType><HorizontalSpatialDomain><Geometry><CoordinateSystem>CARTESIAN</CoordinateSystem><BoundingRectangle><WestBoundingCoordinate>-180.0</WestBoundingCoordinate><NorthBoundingCoordinate>90.0</NorthBoundingCoordinate><EastBoundingCoordinate>180.0</EastBoundingCoordinate><SouthBoundingCoordinate>-90.0</SouthBoundingCoordinate></BoundingRectangle></Geometry></HorizontalSpatialDomain><GranuleSpatialRepresentation>CARTESIAN</GranuleSpatialRepresentation></Spatial></Collection>

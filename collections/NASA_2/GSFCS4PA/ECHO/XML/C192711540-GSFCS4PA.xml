@@ -1,0 +1,95 @@
+<Collection><ShortName>TOMSN7OVP</ShortName><VersionId>008</VersionId><InsertTime>2011-02-23T00:00:00.000Z</InsertTime><LastUpdate>2013-06-10T00:00:00.000Z</LastUpdate><LongName>TOMS/Nimbus-7 Ground Station Overpass Data</LongName><DataSetId>TOMS/Nimbus-7 Ground Station Overpass Data V008</DataSetId><Description>This data product contains TOMS/Nimbus-7 Ground Station Overpass Data Version 8 in ASCII format. The overpass data files contain the data derived from the best-matched TOMS field-of-view (FOV) to a site for every day the TOMS instrument was operational.
+
+Four TOMS instruments were successfully flown on the following satellites:  Nimbus-7 (Nov. 1978 - May 1993), Meteor-3 (Aug. 1991 - Dec. 1994), Earth Probe (July 1996 - current), and ADEOS (Sep. 1996 - June 1997). The TOMS Earth Probe, Meteor-3 and Nimbus-7 data were reprocessed using the Version-8 algorithm by the Laboratory for Atmospheres at NASA Goddard Space Flight Center (Code 614).
+
+Each overpass file contains four (4) header records, followed by all the data records.
+
+HEADER RECORDS
+--------------
+The file header consists of four (4) records:
+
+  1. Site name, ID, and location.
+  2. Overpass program run information
+  3. Column headings
+  4. Marker record.
+
+An example of the first header record is:
+
+  Edmonton/Stony Plain, Canada  ID:  21   Lat:  53.55  Lon: -114.10  Alt:  766
+
+In this example, the site ID number is 21, the latitude is 53.55N and
+longitude is 114.10E, and the verified elevation is 766 m (above sea level).
+
+The FORTRAN format code for reading the first header record is:
+
+  (A30, 4X, I3, 7X, F7.2, 7X, F7.2, 7X, I4)
+
+An example of the second header record is:
+
+  Nimbus 7 TOMS V.8 Archive Overpass.  Generated:   1-January-1993
+
+This indicates the spacecraft instrument, the data version used to generate
+the overpass data, and the date on which the file was generated (created or
+updated).
+
+The third header record contains the column headings for the data records.
+The header looks like this:
+
+  MJD   Year Day sec-UT SCN  LAT     LON  DIS  PT  SZA  OZONE   REF   A.I.   SOI
+
+The contents of each column is described below in the section on Data
+Records.
+
+The fourth header record simply contains a pound-sign (#) in the first
+column, and signals that the data begin with the next record in the file.
+
+DATA RECORDS
+------------
+
+Each data record contains fourteen (14) values. They are as follows.
+
+ MJD     Modified Julian Day. Astronomical Julian Day number, less
+   2,400,000.5. The number is given to the nearest 1/10 day.
+
+ Year    The four-digit Gregorian year number of the TOMS measurement.
+
+ Day     The day number (day 1 through 366) of the TOMS measurement.
+
+ sec-UT  The number of seconds from midnight, Universal Time. on the day
+   specified by Year and Day.
+
+ SCN     TOMS instrument scan position (1--35 for N7, M3, EP; 1--37 for
+   Adeos)
+
+ LAT     Latitude of the center of the IFOV.
+
+ LON     Longitude of the same.
+
+ DIS     Distance from site and IFOV center position, in km.
+
+ PT      Terrain pressure at IFOV center, in (atm x 100)
+
+ SZA     Solar zenith angle, in degrees, at time and location of IFOV
+
+ OZONE   TOMS best total ozone, in Dobson Units (DU)
+
+ REF     TOMS reflectivity at 380 nm (N7, M3) or 360 nm (EP,
+   Adeos).
+
+ A.I.    TOMS aerosol index.
+
+ SOI     TOMS sulfur dioxide index.
+
+The FORTRAN format code for reading a data record is:
+
+  (F7.1, 1X, I4, 1X, I3, 1X, I5, 2X, I2, 1X, F6.2, 1X, F7.2, 1X,
+   I3, 1X, I3, 1X, F5.2, 1X, F5.1, 1X, F5.1, 1X, F6.2, 1X, I4)This product can be used to compare TOMS with ground station data.</Description><Orderable>false</Orderable><Visible>true</Visible><RevisionDate>2013-06-10T00:00:00.000Z</RevisionDate><ArchiveCenter>GESDISC</ArchiveCenter><CitationForExternalPublication>
+ ORIGINATOR: TOMS Science Team
+ PUBLICATION DATE: 1993
+ TITLE: TOMS/Nimbus-7 Ground Station Overpass Data</CitationForExternalPublication><CollectionState>COMPLETE</CollectionState><RestrictionFlag>0</RestrictionFlag><Price>0</Price><DataFormat>ASCII</DataFormat><SpatialKeywords><Keyword>VERTICAL LOCATION</Keyword><Keyword>STRATOSPHERE</Keyword><Keyword>GEOGRAPHIC REGION</Keyword><Keyword>TROPOSPHERE</Keyword><Keyword>GLOBAL</Keyword></SpatialKeywords><TemporalKeywords /><Temporal><RangeDateTime><BeginningDateTime>1978-11-01T00:00:00.000Z</BeginningDateTime><EndingDateTime>1993-05-07T23:59:59.999Z</EndingDateTime></RangeDateTime></Temporal><Contacts><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>NASA, Goddard Space Flight Center, Mailstop 613.3</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5731</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5903</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>Pawan.K.Bhartia@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PAWAN</FirstName><MiddleName>K</MiddleName><LastName>BHARTIA, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>NASA Goddard Space Flight Center, Code 614</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-6776</Number><Type>Direct Line</Type></Phone></OrganizationPhones><OrganizationEmails><Email>omar.o.torres@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>OMAR</FirstName><MiddleName>O.</MiddleName><LastName>TORRES, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>NASA, Goddard Space Flight Center, Mailstop 614.0</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones /><OrganizationEmails><Email>Jay.R.Herman@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>JAY</FirstName><MiddleName>R.</MiddleName><LastName>HERMAN, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>NASA, Goddard Space Flight Center, Mailstop 613.3</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-6038</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5903</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>richard.d.mcpeters@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>RICHARD</FirstName><MiddleName>D</MiddleName><LastName>MCPETERS, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>TECHNICAL CONTACT</Role><OrganizationAddresses><Address><StreetAddress>NASA Goddard Space Flight Center, Code 610.2</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5284</Number><Type>Direct Line</Type></Phone></OrganizationPhones><OrganizationEmails><Email>Suraiya.Ahmad@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>SURAIYA</FirstName><MiddleName>P.</MiddleName><LastName>AHMAD, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DIF AUTHOR</Role><OrganizationAddresses><Address><StreetAddress>NASA Goddard Space Flight Center, Code 610.2</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5121</Number><Type>Direct Line</Type></Phone></OrganizationPhones><OrganizationEmails><Email>James.Johnson@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>JAMES</FirstName><MiddleName>EDWARD</MiddleName><LastName>JOHNSON</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DATA CENTER CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5224</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>GES DISC HELP DESK SUPPORT GROUP</LastName></ContactPerson></ContactPersons></Contact></Contacts><ScienceKeywords><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>AEROSOLS</TermKeyword><DetailedVariableKeyword>AEROSOL INDEX</DetailedVariableKeyword></ScienceKeyword><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>ATMOSPHERIC CHEMISTRY</TermKeyword><VariableLevel1Keyword><Value>OXYGEN COMPOUNDS</Value><VariableLevel2Keyword><Value>OZONE</Value></VariableLevel2Keyword></VariableLevel1Keyword><DetailedVariableKeyword>TOTAL OZONE</DetailedVariableKeyword></ScienceKeyword><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>ATMOSPHERIC RADIATION</TermKeyword><VariableLevel1Keyword><Value>REFLECTANCE</Value></VariableLevel1Keyword><DetailedVariableKeyword>REFLECTIVITY</DetailedVariableKeyword></ScienceKeyword></ScienceKeywords><Platforms><Platform><ShortName>NIMBUS-7</ShortName><LongName>NIMBUS-7</LongName><Type>Not Specified</Type><Characteristics /><Instruments><Instrument><ShortName>TOMS</ShortName><LongName>Total Ozone Mapping Spectrometer</LongName><Characteristics /><Sensors><Sensor><ShortName>TOMS</ShortName><LongName>Total Ozone Mapping Spectrometer</LongName><Characteristics /></Sensor></Sensors><OperationModes /></Instrument></Instruments></Platform></Platforms><AdditionalAttributes /><CSDTDescriptions /><CollectionAssociations /><Campaigns><Campaign><ShortName>EOSDIS</ShortName><LongName>Earth Observing System Data Information System</LongName></Campaign><Campaign><ShortName>ESIP</ShortName><LongName>Earth Science Information Partners Program</LongName></Campaign><Campaign><ShortName>TOMS-N7</ShortName><LongName>Total Ozone Mapping Spectrometer-Nimbus7</LongName></Campaign></Campaigns><AlgorithmPackages /><TwoDCoordinateSystems /><OnlineAccessURLs /><OnlineResources><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/collectionlist.pl?keyword=TOMSN7OVP</URL><Description>
+         Data from the GES-DISC Mirador fast data search and download system.
+      </Description><Type>GET DATA : MIRADOR</Type></OnlineResource><OnlineResource><URL>ftp://acdisc.gsfc.nasa.gov/data/s4pa/Nimbus7_TOMS_Level3/TOMSN7OVP.008/</URL><Description>
+         Access the data by anonymous FTP.
+      </Description><Type>GET DATA : ON-LINE ARCHIVE</Type></OnlineResource><OnlineResource><URL>http://ozoneaq.gsfc.nasa.gov/n7sat.md</URL><Description>
+         Information and access to TOMS data from the TOMS home page.
+      </Description><Type>VIEW PROJECT HOME PAGE</Type></OnlineResource></OnlineResources><AssociatedDIFs><DIF><EntryId>GES_DISC_TOMSN7OVP_V008</EntryId></DIF></AssociatedDIFs><Spatial><SpatialCoverageType>Horizontal</SpatialCoverageType><HorizontalSpatialDomain><Geometry><CoordinateSystem>CARTESIAN</CoordinateSystem><BoundingRectangle><WestBoundingCoordinate>-180.0</WestBoundingCoordinate><NorthBoundingCoordinate>90.0</NorthBoundingCoordinate><EastBoundingCoordinate>180.0</EastBoundingCoordinate><SouthBoundingCoordinate>-90.0</SouthBoundingCoordinate></BoundingRectangle></Geometry></HorizontalSpatialDomain><GranuleSpatialRepresentation>CARTESIAN</GranuleSpatialRepresentation></Spatial></Collection>

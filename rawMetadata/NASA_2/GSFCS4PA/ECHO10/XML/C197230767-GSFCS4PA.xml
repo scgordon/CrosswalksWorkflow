@@ -1,0 +1,71 @@
+<Collection><ShortName>TRMM_2A25</ShortName><VersionId>6</VersionId><InsertTime>1999-07-01T00:00:00.000Z</InsertTime><LastUpdate>2012-01-04T00:00:00.000Z</LastUpdate><LongName>TRMM Precipitation Radar (PR) Level 2 Rainfall Rate and Profile Product (TRMM Product 2A25)</LongName><DataSetId>TRMM Precipitation Radar (PR) Level 2 Rainfall Rate and Profile Product (TRMM Product 2A25) V6</DataSetId><Description>The TRMM Precipitation Radar (PR), the first of its kind in space, is
+                        an electronically scanning radar, operating at 13.8 GHz that measures
+                        the 3-D rainfall distribution over both land and ocean, and defines
+                        the layer depth of the precipitation.
+                        
+                        The objectives of 2A25 is to correct for the rain attenuation in
+                        measured radar reflectivity and to estimate the instantaneous
+                        three-dimensional distribution of rain from the TRMM Precipitation
+                        Radar (PR) data.  The estimates of attenuation-corrected radar
+                        reflectivity factor and rainfall rate are given at each resolution
+                        cell of the PR.  The estimated near-surface rainfall rate and average
+                        rainfall rate between the two pre-defined altitudes (2 and 4 km) are
+                        also calculated for each beam position.
+                        
+                        2A25 basically uses a hybrid of the Hitschfeld-Bordan method and the
+                        surface reference method to estimate the vertical true radar
+                        reflectivity (Z) profile.  (The hybrid method is described in Iguchi
+                        and Meneghini (1994)).  The vertical rain profile is then calculated
+                        from the estimated true Z profile by using an appropriate Z-R
+                        relationship.
+                        
+                        The attenuation correction is, in principle, based on the surface
+                        reference method. This method assumes that the decrease in the
+                        apparent surface cross section (delta sigma-zero) is caused by the
+                        propagation loss in rain. The coefficient a in the k-Z relationship,
+                        k=a Z**b, is adjusted in such a way that the path-integrated
+                        attenuation (PIA) estimated from the measured Zm-profile will match
+                        the delta sigma-zero.  The attenuation correction of Z is carried out
+                        by the Hitschfeld-Bordan method with the modified a.  Since a is
+                        adjusted, this type of surface reference method is called the
+                        a-adjustment method.  The a-adjustment method assumes that the
+                        discrepancy between the PIA estimate from delta sigma-zero and that
+                        from the measured Zm-profile can be attributed to the inappropriate
+                        choice of a values, which may vary depending on the raindrop size
+                        distribution and other conditions.  It assumes that the radar is
+                        properly calibrated and that the measured Zm has no error.
+                        
+                        In order to avoid inaccuracies in the attenuation correction when rain
+                        is weak, a hybrid of the surface reference method and the
+                        Hitschfeld-Bordan method is used (Iguchi and Meneghini, 1994).  The
+                        PIA is first estimated from the precipitation echo alone.  The weight
+                        given by the hybrid method to the PIA estimate from the surface
+                        reference increases as the attenuation estimate increases.  When rain
+                        is very weak and the attenuation estimate is small, the PIA estimate
+                        from the surface reference is effectively neglected.  With the
+                        introduction of the hybrid method, the divergence associated with the
+                        Hitschfeld-Bordan method is also prevented.
+                        
+                        One major difference from the method described in the above reference
+                        is that, in order to deal ...</Description><Orderable>false</Orderable><Visible>true</Visible><RevisionDate>2012-01-04T00:00:00.000Z</RevisionDate><ProcessingCenter>GSFC_DAAC</ProcessingCenter><ArchiveCenter>GESDISC</ArchiveCenter><CitationForExternalPublication>
+ ORIGINATOR: NASA, JAXA, Tropical Rainfall Measuring Mission (TRMM)
+ TITLE: TRMM Precipitation Radar (PR) Level 2 Rainfall Rate and Profile Product (TRMM Product 2A25)</CitationForExternalPublication><CollectionState>IN WORK</CollectionState><RestrictionFlag>0</RestrictionFlag><RestrictionComment>
+      None
+   </RestrictionComment><Price>0</Price><DataFormat>HDF</DataFormat><SpatialKeywords><Keyword>GEOGRAPHIC REGION</Keyword><Keyword>TROPICS</Keyword></SpatialKeywords><TemporalKeywords /><Temporal><RangeDateTime><BeginningDateTime>1997-12-07T00:00:00.000Z</BeginningDateTime></RangeDateTime></Temporal><Contacts><Contact><Role>TECHNICAL CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Hydrology Data Support Team, Code 610.2, Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>(301) 614-5165</Number><Type>Direct Line</Type></Phone><Phone><Number>(301) 614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>HYDROLOGY DATA SUPPORT TEAM</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>Communications Research Laboratory, Global Environment Division, 4-2-1 Nukui-Kita-Machi</StreetAddress><City>Koganei,</City><StateProvince>Tokyo</StateProvince><PostalCode>184-8795</PostalCode><Country>Japan</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>81-299-84-7117</Number><Type>Direct Line</Type></Phone><Phone><Number>81-299-84-7157</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>iguchi@crl.go.jp</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>TOSHIO</FirstName><LastName>IGUCHI</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DATA CENTER CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5224</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>GES DISC HELP DESK SUPPORT GROUP</LastName></ContactPerson></ContactPersons></Contact></Contacts><ScienceKeywords><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>PRECIPITATION</TermKeyword><VariableLevel1Keyword><Value>PRECIPITATION AMOUNT</Value></VariableLevel1Keyword></ScienceKeyword><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>PRECIPITATION</TermKeyword><VariableLevel1Keyword><Value>PRECIPITATION ANOMALIES</Value></VariableLevel1Keyword></ScienceKeyword><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>PRECIPITATION</TermKeyword><VariableLevel1Keyword><Value>PRECIPITATION RATE</Value></VariableLevel1Keyword></ScienceKeyword></ScienceKeywords><Platforms><Platform><ShortName>TRMM</ShortName><LongName>Tropical Rainfall Measuring Mission</LongName><Type>Not Specified</Type><Characteristics /><Instruments><Instrument><ShortName>PR</ShortName><LongName>TRMM Precipitation Radar</LongName><Characteristics /><Sensors><Sensor><ShortName>PR</ShortName><LongName>TRMM Precipitation Radar</LongName><Characteristics /></Sensor></Sensors><OperationModes /></Instrument></Instruments></Platform></Platforms><AdditionalAttributes /><CSDTDescriptions /><CollectionAssociations /><Campaigns><Campaign><ShortName>ESIP</ShortName><LongName>Earth Science Information Partners Program</LongName></Campaign><Campaign><ShortName>TRMM</ShortName><LongName>Tropical Rainfall Measuring Mission Project</LongName></Campaign><Campaign><ShortName>EOS</ShortName><LongName>Earth Observing System</LongName></Campaign><Campaign><ShortName>EOSDIS</ShortName><LongName>Earth Observing System Data Information System</LongName></Campaign></Campaigns><AlgorithmPackages /><TwoDCoordinateSystems /><OnlineAccessURLs /><OnlineResources><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/presentNavigation.pl?tree=project&amp;project=TRMM&amp;dataGroup=Orbital&amp;dataset=2A25: Radar Rainfall Rate and Profile (PR)&amp;version=006</URL><Description>
+         Data access for TRMM Precipitation Radar (PR) Level 2 Rainfall Rate and Profile
+                  Product, TRMM 2A25
+      </Description><Type>GET DATA</Type></OnlineResource><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/homepageAlt.pl?keyword=TRMM_2A25</URL><Description>
+         The Mirador Earth Science Data Search Tool includes TRMM 2A25, Level 2A-25F
+                  Precipitation rate profile. Mirador features include location and event
+                  gazetteers.
+      </Description><Type>GET DATA : MIRADOR</Type></OnlineResource><OnlineResource><URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;spatial_map=satellite&amp;spatial_type=rectangle&amp;keywords=GES_DISC_TRMM_PR_2A25_V6</URL><Description>
+         Refine your granule search with ECHO's next generation Earth Science discovery tool (Reverb) using information from this record.
+      </Description><Type>GET DATA : REVERB</Type></OnlineResource><OnlineResource><URL>http://daac.gsfc.nasa.gov/precipitation/TRMM_README/TRMM_2A25_readme.shtml</URL><Description>
+         Documentation and data access for TRMM Precipitation Radar (PR) Level 2
+                  Rainfall Rate and Profile Product, TRMM 2A25
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://disc.gsfc.nasa.gov/precipitation/index.shtml</URL><Description>
+         Information and data access for all of the Goddard DAAC's hydrology data
+                  holdings, including TRMM data from the TMI, Precipitation Radar (PR) and
+                  Visible and Infrared Scanner (VIRS) instruments, the Ground Validation (GV)
+                  radar data, and ancillary and correlative data products.
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource></OnlineResources><AssociatedDIFs><DIF><EntryId>GES_DISC_TRMM_2A25_V6</EntryId></DIF></AssociatedDIFs><Spatial><SpatialCoverageType>Horizontal</SpatialCoverageType><HorizontalSpatialDomain><Geometry><CoordinateSystem>CARTESIAN</CoordinateSystem><BoundingRectangle><WestBoundingCoordinate>-180</WestBoundingCoordinate><NorthBoundingCoordinate>38</NorthBoundingCoordinate><EastBoundingCoordinate>180</EastBoundingCoordinate><SouthBoundingCoordinate>-38</SouthBoundingCoordinate></BoundingRectangle></Geometry></HorizontalSpatialDomain><GranuleSpatialRepresentation>CARTESIAN</GranuleSpatialRepresentation></Spatial></Collection>

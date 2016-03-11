@@ -1,0 +1,62 @@
+<Collection><ShortName>TRMM_1B21</ShortName><VersionId>6</VersionId><InsertTime>2006-01-18T00:00:00.000Z</InsertTime><LastUpdate>2012-01-04T00:00:00.000Z</LastUpdate><LongName>TRMM Precipitation Radar (PR) Level 1 Power and Reflectivity Products (TRMM Product 1B21)</LongName><DataSetId>TRMM Precipitation Radar (PR) Level 1 Power and Reflectivity Products (TRMM Product 1B21) V6</DataSetId><Description>The Tropical Rainfall Measuring Mission (TRMM) is a joint U.S.-Japan  
+                                    satellite mission to monitor tropical and subtropical precipitation and to
+                                    estimate its associated latent heating.
+                                    
+                                    The TRMM Precipitation Radar (PR), the first of its kind in space, is
+                                    an electronically scanning radar, operating at 13.8 GHz that measures
+                                    the 3-D rainfall distribution over both land and ocean, and defines
+                                    the layer depth of the precipitation.
+                                    
+                                    The 1B21 calculates the received power at the PR receiver input point
+                                    from the Level-0 count value which is linearly proportional to the
+                                    logarithm of the PR receiver output power. To convert the count value
+                                    to the input power, extensive internal calibrations are applied, which
+                                    are mainly based upon the system model, temperature dependence of
+                                    model parameters and many temperature sensors attached at various
+                                    locations of the PR. Periodically the input-output characteristics are
+                                    measured using an internal calibration loop for the IF unit and later
+                                    receiver stages. To make an absolute calibration, an Active Radar
+                                    Calibrator (ARC) is placed at Kansai Branch of CRL and overall system
+                                    gain of the PR is being measured every 2 months.  Using the transfer
+                                    function based on the above internal and external calibrations, the PR
+                                    received power is obtained. Note that the value assumes that the
+                                    signal follows the Rayleigh fading, so if the fading characteristics
+                                    of a scatter is different, a small bias error may occur (within 1 or 2
+                                    dB).
+                                    
+                                    The data are stored in the Hierarchical Data Format (HDF), which
+                                    includes both core and product specific metadata applicable to the PR
+                                    measurements.  A file contains a single orbit of data with a file size
+                                    of about 139 MB (uncompressed). The HDF-EOS &amp;quot;swath&amp;quot; structure is used
+                                    to accommodate the actual geophysical data arrays. There are 16 files
+                                    each of PR 1B21 and 1C21 data produced per day.
+                                    
+                                    Spatial coverage is between 38 degrees North and 38 degrees South,
+                                    owing to the 35 degree inclination of the TRMM satellite. This orbit
+                                    provides extensive coverage in the tropics and allows each location to
+                                    be covered at a different local time each day, enabling the analysis
+                                    of the diurnal cycle of precipitation. There are, in general, 9150
+                                    scans along the orbit, with each scan consisting of 49 rays.  The scan
+                                    width is about 220 km.</Description><Orderable>false</Orderable><Visible>true</Visible><RevisionDate>2012-01-04T00:00:00.000Z</RevisionDate><ProcessingCenter>GSFC_DAAC</ProcessingCenter><ArchiveCenter>GESDISC</ArchiveCenter><CitationForExternalPublication>
+ ORIGINATOR: NASA,JAXA, Tropical Rainfall Measuring Mission (TRMM)
+ TITLE: TRMM Precipitation Radar (PR) Level 1 Power and Reflectivity Products (TRMM Product 1B21)</CitationForExternalPublication><CollectionState>IN WORK</CollectionState><RestrictionFlag>0</RestrictionFlag><RestrictionComment>
+      None
+   </RestrictionComment><Price>0</Price><DataFormat>HDF</DataFormat><SpatialKeywords><Keyword>GEOGRAPHIC REGION</Keyword><Keyword>TROPICS</Keyword></SpatialKeywords><TemporalKeywords /><Temporal><RangeDateTime><BeginningDateTime>1997-12-07T00:00:00.000Z</BeginningDateTime></RangeDateTime></Temporal><Contacts><Contact><Role>TECHNICAL CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Japan Aerospace Exploration Agency (JAXA), Earth Observation Center</StreetAddress><City>1401 NUMANOUE OHASHI HATOYAMA-MACHI</City><StateProvince>HIKI-GUN SAITAMA-KEN</StateProvince><PostalCode>350-0302</PostalCode><Country>JAPAN</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>+81-49-298-1307</Number><Type>Direct Line</Type></Phone><Phone><Number>N/A</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>orderdesk@eoc.jaxa.jp</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>JAXA EOC</FirstName><MiddleName>USER</MiddleName><LastName>SERVICES</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>TECHNICAL CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Hydrology Data Support Team, Code 610.2, Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>(301) 614-5165</Number><Type>Direct Line</Type></Phone><Phone><Number>(301) 614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>HYDROLOGY DATA SUPPORT TEAM</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DATA CENTER CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5224</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>GES DISC HELP DESK SUPPORT GROUP</LastName></ContactPerson></ContactPersons></Contact></Contacts><ScienceKeywords><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>SPECTRAL/ENGINEERING</TopicKeyword><TermKeyword>RADAR</TermKeyword><VariableLevel1Keyword><Value>RADAR BACKSCATTER</Value></VariableLevel1Keyword></ScienceKeyword><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>SPECTRAL/ENGINEERING</TopicKeyword><TermKeyword>RADAR</TermKeyword><VariableLevel1Keyword><Value>RADAR REFLECTIVITY</Value></VariableLevel1Keyword></ScienceKeyword></ScienceKeywords><Platforms><Platform><ShortName>TRMM</ShortName><LongName>Tropical Rainfall Measuring Mission</LongName><Type>Not Specified</Type><Characteristics /><Instruments><Instrument><ShortName>PR</ShortName><LongName>TRMM Precipitation Radar</LongName><Characteristics /><Sensors><Sensor><ShortName>PR</ShortName><LongName>TRMM Precipitation Radar</LongName><Characteristics /></Sensor></Sensors><OperationModes /></Instrument></Instruments></Platform></Platforms><AdditionalAttributes /><CSDTDescriptions /><CollectionAssociations /><Campaigns><Campaign><ShortName>TRMM</ShortName><LongName>Tropical Rainfall Measuring Mission Project</LongName></Campaign><Campaign><ShortName>EOS</ShortName><LongName>Earth Observing System</LongName></Campaign><Campaign><ShortName>ESIP</ShortName><LongName>Earth Science Information Partners Program</LongName></Campaign><Campaign><ShortName>EOSDIS</ShortName><LongName>Earth Observing System Data Information System</LongName></Campaign></Campaigns><AlgorithmPackages /><TwoDCoordinateSystems /><OnlineAccessURLs /><OnlineResources><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/presentNavigation.pl?tree=project&amp;project=TRMM&amp;dataGroup=Orbital&amp;dataset=1B21: Radar Power (PR)&amp;version=006</URL><Description>
+         Access to TRMM Level 1B Product Precipitation Radar (PR) Power 1B21 data
+                  online.
+      </Description><Type>GET DATA : MIRADOR</Type></OnlineResource><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/homepageAlt.pl?keyword=TRMM_1B21</URL><Description>
+         The Mirador Earth Science Data Search Tool includes TRMM 1B21, TRMM
+                  Precipitation Radar (PR) Level 1 Power and Reflectivity Products Mirador
+                  features include location and event gazetteers.
+      </Description><Type>GET DATA : MIRADOR</Type></OnlineResource><OnlineResource><URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;spatial_map=satellite&amp;spatial_type=rectangle&amp;keywords=GES_DISC_TRMM_PR_1B21_V6</URL><Description>
+         Refine your granule search with ECHO's next generation Earth Science discovery tool (Reverb) using information from this record.
+      </Description><Type>GET DATA : REVERB</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/precipitation/documentation/TRMM_README/TRMM_1B21_readme.shtml/</URL><Description>
+         Readme page for TRMM Level 1B Product Precipitation Radar (PR) Power 1B21 data
+                  set.
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>ftp://disc2.nascom.nasa.gov/ftp/data/s4pa/TRMM_L1/TRMM_1B21.6/doc/README.TRMM_PR.pdf</URL><Description>product README file</Description><Type>VIEW RELATED INFORMATION : USER'S GUIDE</Type></OnlineResource><OnlineResource><URL>http://disc.gsfc.nasa.gov/precipitation/index.shtml</URL><Description>
+         This URL contains information and data access for all of the
+                  Goddard DAAC's hydrology data holdings, including TRMM data
+                  from the TMI, Precipitation Radar (PR) and Visible and Infrared
+                  Scanner (VIRS) instruments, the Ground Validation (GV) radar
+                  data, and ancillary and correlative data products.
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource></OnlineResources><AssociatedDIFs><DIF><EntryId>GES_DISC_TRMM_1B21_V6</EntryId></DIF></AssociatedDIFs><Spatial><SpatialCoverageType>Horizontal</SpatialCoverageType><HorizontalSpatialDomain><Geometry><CoordinateSystem>CARTESIAN</CoordinateSystem><BoundingRectangle><WestBoundingCoordinate>-180</WestBoundingCoordinate><NorthBoundingCoordinate>38</NorthBoundingCoordinate><EastBoundingCoordinate>180</EastBoundingCoordinate><SouthBoundingCoordinate>-38</SouthBoundingCoordinate></BoundingRectangle></Geometry></HorizontalSpatialDomain><GranuleSpatialRepresentation>CARTESIAN</GranuleSpatialRepresentation></Spatial></Collection>

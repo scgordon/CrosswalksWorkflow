@@ -1,0 +1,57 @@
+<Collection><ShortName>TRMM_2A21</ShortName><VersionId>6</VersionId><InsertTime>2006-07-03T00:00:00.000Z</InsertTime><LastUpdate>2012-01-04T00:00:00.000Z</LastUpdate><LongName>TRMM Precipitation Radar (PR) Level 2 Surface Cross-Section Product (TRMM Product 2A21)</LongName><DataSetId>TRMM Precipitation Radar (PR) Level 2 Surface Cross-Section Product (TRMM Product 2A21) V6</DataSetId><Description>The Tropical Rainfall Measuring Mission (TRMM) is a joint U.S.-Japan  
+                                    satellite mission to monitor tropical and subtropical precipitation   and to
+                                    estimate its associated latent heating.
+                                    
+                                    The primary objective of the 2A21 is to compute the path integrated
+                                    attenuation (PIA), using the surface reference technique (SRT).  The
+                                    SRT relies on the assumption that the difference between the
+                                    measurements of the normalized surface cross section within and
+                                    outside the rain provides a measure of the PIA.
+                                    
+                                    Two types of non-rain surface cross section (sigma-zero) reference
+                                    estimates are used: spatial and temporal.  In the spatial surface
+                                    reference data set, the mean and standard deviation of the surface
+                                    cross sections are calculated over a running window of Ns fields of
+                                    view before rain is encountered.  These operations are performed
+                                    separately for each of the 49+2 incidence angles of TRMM
+                                    (corresponding to the cross-track scan from -17 degrees to + 17
+                                    degrees with respect to nadir).  The two additional angle bins (making
+                                    the total 51 rather than 49) are to account for non-zero pitch/roll
+                                    angles that can shift the incidence angle with respect to nadir
+                                    outside the normal range.
+                                    
+                                    For the temporal surface reference data set, the running mean and
+                                    standard deviation are computed over a 1 degree x 1 degree (latitude,
+                                    longitude) grid.  Within each 1 degree x 1 degree grid cell, the data
+                                    are further categorized into incidence angle categories (26).  The
+                                    number of observations in each category, Nt, are also recorded.  Note
+                                    that, for the temporal reference data set, no distinction is made
+                                    between the port and starboard incidence angles.  So, instead of 49
+                                    incidence angles, there are only 25 + 1, where the additional bin
+                                    corresponds to angles greater than the normal range.
+                                    
+                                    When rain is encountered, the mean and standard deviations of the
+                                    reference sigma-zero values are retrieved from the spatial and
+                                    temporal surface reference data sets.  To determine which reference
+                                    measurement is to be used, the algorithm checks whether Nt >= Ntmin
+                                    and Ns >= Nsmin, where Ntmin and Nsmin are the minimum number of
+                                    samples that are needed to be considered a valid reference estimate
+                                    for the temporal and spatial reference data sets, respectively.
+                                    (Presently, Ntmin = 50 and Nsmin = 8).  If neither condition is
+                                    satisfied, no estimate of the PIA is made and the flags are set
+                                    accordingly.  If only one condition is met, then the surface reference
+                                    data which corresponds to this is used.  If...</Description><Orderable>false</Orderable><Visible>true</Visible><RevisionDate>2012-01-04T00:00:00.000Z</RevisionDate><ProcessingCenter>GSFC_DAAC</ProcessingCenter><ArchiveCenter>GESDISC</ArchiveCenter><CitationForExternalPublication>
+ ORIGINATOR: NASA,JAXA, Tropical Rainfall Measuring Mission (TRMM)
+ TITLE: TRMM Precipitation Radar (PR) Level 2 Surface Cross-Section Product (TRMM Product 2A21)</CitationForExternalPublication><CollectionState>IN WORK</CollectionState><RestrictionFlag>0</RestrictionFlag><RestrictionComment>
+      None
+   </RestrictionComment><Price>0</Price><DataFormat>HDF</DataFormat><SpatialKeywords><Keyword>GEOGRAPHIC REGION</Keyword><Keyword>TROPICS</Keyword></SpatialKeywords><TemporalKeywords /><Temporal><RangeDateTime><BeginningDateTime>1997-12-07T00:00:00.000Z</BeginningDateTime></RangeDateTime></Temporal><Contacts><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>Mailstop 614.6, Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>(301) 614-5652</Number><Type>Direct Line</Type></Phone><Phone><Number>(301) 614-5558</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>robert.meneghini-1@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>ROBERT</FirstName><LastName>MENEGHINI</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>TECHNICAL CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>(301) 614-5164</Number><Type>Direct Line</Type></Phone><Phone><Number>(301) 614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>william.l.teng@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>WILLIAM</FirstName><MiddleName>L.</MiddleName><LastName>TENG</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DATA CENTER CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5224</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>GES DISC HELP DESK SUPPORT GROUP</LastName></ContactPerson></ContactPersons></Contact></Contacts><ScienceKeywords><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>SPECTRAL/ENGINEERING</TopicKeyword><TermKeyword>RADAR</TermKeyword><VariableLevel1Keyword><Value>SIGMA NAUGHT</Value></VariableLevel1Keyword></ScienceKeyword></ScienceKeywords><Platforms><Platform><ShortName>TRMM</ShortName><LongName>Tropical Rainfall Measuring Mission</LongName><Type>Not Specified</Type><Characteristics /><Instruments><Instrument><ShortName>PR</ShortName><LongName>TRMM Precipitation Radar</LongName><Characteristics /><Sensors><Sensor><ShortName>PR</ShortName><LongName>TRMM Precipitation Radar</LongName><Characteristics /></Sensor></Sensors><OperationModes /></Instrument></Instruments></Platform></Platforms><AdditionalAttributes /><CSDTDescriptions /><CollectionAssociations /><Campaigns><Campaign><ShortName>TRMM</ShortName><LongName>Tropical Rainfall Measuring Mission Project</LongName></Campaign><Campaign><ShortName>EOS</ShortName><LongName>Earth Observing System</LongName></Campaign><Campaign><ShortName>ESIP</ShortName><LongName>Earth Science Information Partners Program</LongName></Campaign><Campaign><ShortName>EOSDIS</ShortName><LongName>Earth Observing System Data Information System</LongName></Campaign></Campaigns><AlgorithmPackages /><TwoDCoordinateSystems /><OnlineAccessURLs /><OnlineResources><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/presentNavigation.pl?tree=project&amp;project=TRMM&amp;dataGroup=Orbital&amp;dataset=2A21:%20Radar%20Surface%20Cross-Section%20(PR)&amp;version=006</URL><Description>
+         Access to TRMM Product Level 2A Precipitation Radar (PR) Surface Cross Section (2A21)
+      </Description><Type>GET DATA</Type></OnlineResource><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/homepageAlt.pl?keyword=TRMM_2A21</URL><Description>
+         The Mirador Earth Science Data Search Tool includes TRMM 2A21, TRMM Product Level 2A Precipitation Radar (PR) Surface Cross Section. Mirador features include location and event gazetteers.
+      </Description><Type>GET DATA : MIRADOR</Type></OnlineResource><OnlineResource><URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;spatial_map=satellite&amp;spatial_type=rectangle&amp;keywords=GES_DISC_TRMM_PR_2A21_V6</URL><Description>
+         Refine your granule search with ECHO's next generation Earth Science discovery tool (Reverb) using information from this record.
+      </Description><Type>GET DATA : REVERB</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/precipitation/documentation/TRMM_README/TRMM_2A21_readme.shtml</URL><Description>
+         Readme document for TRMM Product Level 2A Precipitation Radar (PR) Surface Cross Section (2A21)
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>ftp://disc2.nascom.nasa.gov/ftp/data/s4pa/TRMM_L2/TRMM_2A21.6/doc/README.TRMM_2A21.pdf</URL><Description>product README file</Description><Type>VIEW RELATED INFORMATION : USER'S GUIDE</Type></OnlineResource><OnlineResource><URL>http://disc.gsfc.nasa.gov/precipitation/index.shtml</URL><Description>
+         Information and data access for all of the Goddard DAAC's hydrology data holdings, including TRMM data from the TMI, Precipitation Radar (PR) and Visible and Infrared Scanner (VIRS) instruments, the Ground Validation (GV) radar data, and ancillary and correlative data products.
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource></OnlineResources><AssociatedDIFs><DIF><EntryId>GES_DISC_TRMM_2A21_V6</EntryId></DIF></AssociatedDIFs><Spatial><SpatialCoverageType>Horizontal</SpatialCoverageType><HorizontalSpatialDomain><Geometry><CoordinateSystem>CARTESIAN</CoordinateSystem><BoundingRectangle><WestBoundingCoordinate>-180</WestBoundingCoordinate><NorthBoundingCoordinate>38</NorthBoundingCoordinate><EastBoundingCoordinate>180</EastBoundingCoordinate><SouthBoundingCoordinate>-38</SouthBoundingCoordinate></BoundingRectangle></Geometry></HorizontalSpatialDomain><GranuleSpatialRepresentation>CARTESIAN</GranuleSpatialRepresentation></Spatial></Collection>

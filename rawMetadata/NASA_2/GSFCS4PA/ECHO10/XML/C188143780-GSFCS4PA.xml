@@ -1,0 +1,74 @@
+<Collection><ShortName>OMNO2G</ShortName><VersionId>003</VersionId><InsertTime>2007-03-28T00:00:00.000Z</InsertTime><LastUpdate>2015-08-25T00:00:00.000Z</LastUpdate><LongName>OMI/Aura NO2 Total and Tropospheric Column Daily L2 Global 0.25 deg Lat/Lon Grid</LongName><DataSetId>OMI/Aura NO2 Total and Tropospheric Column Daily L2 Global 0.25 deg Lat/Lon Grid V003</DataSetId><Description>The second Release of Collection 003 of OMI/Aura Global Gridded Nitrogen Dioxide Product 'OMNO2G' is now available, from the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC). http://disc.sci.gsfc.nasa.gov/Aura/data-holdings/OMI/omno2g_v003.shtml
+
+(The shortname for this Level-2G Global Gridded Nitrogen Dioxide Product is OMNO2G_V003) 
+     
+Nitrogen dioxide is an important chemical species in both the
+stratosphere, where it plays a key role in ozone chemistry, and in the
+troposphere, where it is a precursor to ozone production. In the
+troposphere, it is produced in various combustion processes and in
+lightning and is an indicator of poor air quality.
+
+The algorithm leads for the NO2 products OMNO2 and OMNO2G are NASA OMI
+scientist Dr. Nickolay Krotkov and KNMI Scientist Dr. Pepijn Veefkind.
+            
+OMNO2G data product is a special Level-2 Gridded Product where pixel
+level data are binned into 0.25x0.25 degree global grids. It contains
+the data for all L2 scenes that have observation time betweeen UTC
+times of 00:00:00 and 23:59:59.9999. All data pixels that fall in a
+grid box are saved Without Averaging. Scientist can apply data
+filtering scheme of their choice and create new gridded products. The
+GES DISC developed interactive tool Giovanni ( http://giovanni.gsfc.nasa.gov/ ) 
+provides on-line web based capabilities to browse and explore these data.
+
+The OMNO2G data product contains almost all parameters that are
+contained in OMNO2 product. OMNO2G data are stored in EOS Hierarchical
+Data Format (HDF-EOS5). Each file contains data from the day lit
+portion of the orbit (~14 orbits).  The average file size for the
+OMNO2G data product is about 115 Mbytes.
+     
+
+Data Category Parameters:
+      
+The OMNO2G data file consists of a Grid Data Object which contains
+complete information for each pixel binned into a grid.
+      
+      NO2 Parameters (and STD):
+      Column Amount NO2, Column Amount NO2 Statosphere, 
+      Column Amount NO2 Troposphere, Slant Column Amount NO2, Atmospheric Mass Factors,---
+      
+      Ancillary Data: Cloud Fraction (and STD), Cloud Pressure (and
+      STD), Cloud Radiance Fraction Terrain Pressure, Terrain
+      Reflectivity
+                
+      Quality Flags: VCD Quality Flags, Ground Pixel QualityFlags,
+      Measurement QualityFlags Processing QualityFlags, Fit Quality
+      Flags, Root Mean Square Error Of Fit
+
+      Time and Geolocation Data: Time, Latitude, Longitude Solar
+      Zenith Angle, Viewing Zenith Angle, Relative Azimuth Angle Line
+      Number, Scene Number, Number Of Candidate Scenes</Description><Orderable>false</Orderable><Visible>true</Visible><RevisionDate>2015-08-25T00:00:00.000Z</RevisionDate><ArchiveCenter>GESDISC</ArchiveCenter><CitationForExternalPublication>
+ ORIGINATOR: Nickolay A. Krotkov
+ PUBLICATION DATE: July 2012
+ TITLE: OMI/Aura NO2 Total and Tropospheric Column Daily L2 Global 0.25 deg Lat/Lon Grid</CitationForExternalPublication><CollectionState>IN WORK</CollectionState><RestrictionFlag>0</RestrictionFlag><Price>0</Price><DataFormat>HDF-EOS5</DataFormat><SpatialKeywords><Keyword>GEOGRAPHIC REGION</Keyword><Keyword>GLOBAL</Keyword></SpatialKeywords><TemporalKeywords /><Temporal><RangeDateTime><BeginningDateTime>2004-10-01T00:00:00.000Z</BeginningDateTime></RangeDateTime></Temporal><Contacts><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>NASA, Goddard Space Flight Center, Mailstop 613.3</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5553</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5903</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>Nickolay.A.Krotkov@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>NICKOLAY</FirstName><MiddleName>A</MiddleName><LastName>KROTKOV, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>INVESTIGATOR</Role><OrganizationAddresses><Address><StreetAddress>KNMI, P.O.Box 201</StreetAddress><City>De Bilt</City><StateProvince>AE</StateProvince><PostalCode>3730</PostalCode><Country>NL</Country></Address></OrganizationAddresses><OrganizationPhones /><OrganizationEmails /><ContactPersons><ContactPerson><FirstName>PEPIJN</FirstName><LastName>VEEFKIND, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DIF AUTHOR</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-6558</Number><Type>Direct Line</Type></Phone></OrganizationPhones><OrganizationEmails><Email>jennifer.c.wei@nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>JENNIFER</FirstName><MiddleName>C.</MiddleName><LastName>WEI, PH. D</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DATA CENTER CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5224</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>GES DISC HELP DESK SUPPORT GROUP</LastName></ContactPerson></ContactPersons></Contact><Contact><Role>DATA CENTER CONTACT</Role><OrganizationAddresses><Address><StreetAddress>Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center</StreetAddress><City>Greenbelt</City><StateProvince>MD</StateProvince><PostalCode>20771</PostalCode><Country>USA</Country></Address></OrganizationAddresses><OrganizationPhones><Phone><Number>301-614-5224</Number><Type>Direct Line</Type></Phone><Phone><Number>301-614-5268</Number><Type>Fax</Type></Phone></OrganizationPhones><OrganizationEmails><Email>gsfc-help-disc@lists.nasa.gov</Email></OrganizationEmails><ContactPersons><ContactPerson><FirstName>PLEASE CONTACT</FirstName><LastName>ACDISC USER SUPPORT OFFICE</LastName></ContactPerson></ContactPersons></Contact></Contacts><ScienceKeywords><ScienceKeyword><CategoryKeyword>EARTH SCIENCE</CategoryKeyword><TopicKeyword>ATMOSPHERE</TopicKeyword><TermKeyword>ATMOSPHERIC CHEMISTRY</TermKeyword><VariableLevel1Keyword><Value>NITROGEN COMPOUNDS</Value><VariableLevel2Keyword><Value>NITROGEN DIOXIDE</Value></VariableLevel2Keyword></VariableLevel1Keyword><DetailedVariableKeyword>TOTAL AND TROPOSPHERIC NITROGEN DIOXIDE (NO2)</DetailedVariableKeyword></ScienceKeyword></ScienceKeywords><Platforms><Platform><ShortName>AURA</ShortName><LongName>Earth Observing System, Aura</LongName><Type>Not Specified</Type><Characteristics /><Instruments><Instrument><ShortName>OMI</ShortName><LongName>Ozone Monitoring Instrument</LongName><Characteristics /><Sensors><Sensor><ShortName>OMI</ShortName><LongName>Ozone Monitoring Instrument</LongName><Characteristics /></Sensor></Sensors><OperationModes /></Instrument></Instruments></Platform></Platforms><AdditionalAttributes /><CSDTDescriptions /><CollectionAssociations /><Campaigns><Campaign><ShortName>AURA</ShortName><LongName>Earth Observing System (EOS), AURA</LongName></Campaign></Campaigns><AlgorithmPackages /><TwoDCoordinateSystems /><OnlineAccessURLs /><OnlineResources><OnlineResource><URL>ftp://acdisc.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level2G/OMNO2G.003/</URL><Description>
+         Access the OMI Level-2G global binned 0.25x0.25 deg NO2 Data Product OMNO2G by FTP.
+      </Description><Type>GET DATA : ON-LINE ARCHIVE</Type></OnlineResource><OnlineResource><URL>http://mirador.gsfc.nasa.gov/cgi-bin/mirador/homepageAlt.pl?keyword=OMNO2G</URL><Description>
+         Direct Access to OMI Level-2G global binned 0.25x0.25 deg NO2 Data Product OMNO2G from the GES DISC Mirador fast search and download system
+      </Description><Type>GET DATA : MIRADOR</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/SSW/#keywords=OMNO2G 003</URL><Description>
+         Access the OMI Level-2G global binned 0.25x0.25 deg NO2 Data Product OMNO2G using Simple Subset Wizard (Search and subset by date and spatial region).
+      </Description><Type>GET DATA : SSW</Type></OnlineResource><OnlineResource><URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;spatial_map=satellite&amp;spatial_type=rectangle&amp;keywords=GES_DISC_OMNO2G_V003</URL><Description>
+         Search OMI Level-2G global binned 0.25x0.25 deg NO2 Data Product OMNO2G using ECHO's next generation Earth Science discovery tool (Reverb).
+      </Description><Type>GET DATA : ECHO</Type></OnlineResource><OnlineResource><URL>http://gdata2.sci.gsfc.nasa.gov/daac-bin/G3/gui.cgi?instance_id=omil2g</URL><Description>
+         Giovanni OMI L2G instance
+      </Description><Type>GET DATA : GIOVANNI</Type></OnlineResource><OnlineResource><URL>http://disc.gsfc.nasa.gov/Aura/tools.shtml</URL><Description>
+         Data Read Software and Visualisation Tools
+      </Description><Type>GET SERVICE : GET SOFTWARE PACKAGE</Type></OnlineResource><OnlineResource><URL>http://www.knmi.nl/omi/research/news/index.html</URL><Description>
+         KNMI and US OMI  Home Page for OMNO2 links.
+      </Description><Type>VIEW PROJECT HOME PAGE</Type></OnlineResource><OnlineResource><URL>http://toms.gsfc.nasa.gov/omi/no2/</URL><Description>
+         KNMI and US OMI  Home Page for OMNO2 links.
+      </Description><Type>VIEW PROJECT HOME PAGE</Type></OnlineResource><OnlineResource><URL>http://disc.gsfc.nasa.gov/Aura/OMI/omno2g_v003.shtml</URL><Description>
+         OMNO2 Related Documents
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://acdisc.gsfc.nasa.gov/data/s4pa//Aura_OMI_Level2G/OMNO2G.003/doc/README.OMI_DUG.pdf</URL><Description>product README file</Description><Type>VIEW RELATED INFORMATION : USER'S GUIDE</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/Aura/data-holdings/OMI/documents/v003/OMNO2G_OSIPS_README_V003.docx</URL><Description>
+         ReadMe for OMNO2G_V003
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource><OnlineResource><URL>http://disc.sci.gsfc.nasa.gov/Aura/data-holdings/OMI/documents/v003/OMNO2G_FileSpec_V003.txt</URL><Description>
+         FileSpec for OMNO2G_V003
+      </Description><Type>VIEW RELATED INFORMATION</Type></OnlineResource></OnlineResources><AssociatedDIFs><DIF><EntryId>GES_DISC_OMNO2G_V003</EntryId></DIF></AssociatedDIFs><Spatial><SpatialCoverageType>Horizontal</SpatialCoverageType><HorizontalSpatialDomain><Geometry><CoordinateSystem>CARTESIAN</CoordinateSystem><BoundingRectangle><WestBoundingCoordinate>-180.0</WestBoundingCoordinate><NorthBoundingCoordinate>90.0</NorthBoundingCoordinate><EastBoundingCoordinate>180.0</EastBoundingCoordinate><SouthBoundingCoordinate>-90.0</SouthBoundingCoordinate></BoundingRectangle></Geometry></HorizontalSpatialDomain><GranuleSpatialRepresentation>CARTESIAN</GranuleSpatialRepresentation></Spatial></Collection>
