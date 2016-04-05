@@ -1,0 +1,2 @@
+=VLOOKUP(E2&B2&"CSDGM",CHOOSE({1,2},metadataContent!A2:A79306 & metadataContent!C2:C79306 & metadataContent!D2:D79306,metadataContent!E2:E79306),2,0)
+=IF(ISERR(FIND("mercury", E2)),"CSDGM","Mercury")
