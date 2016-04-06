@@ -5,7 +5,5 @@
 #./rubricTransform.sh FGDC EML
 #./rubricTransform.sh FGDC CSDGM
 #./rubricTransform.sh FGDC BDP
-./rubricTransform.sh FGDC Onedcx
-./rubricTransform.sh FGDC Dryad
-./rubricTransform.sh DCITE Onedcx
+
 ./rubricTransform.sh DCITE Dryad
