@@ -5,43 +5,43 @@
 #collectionName=$4
 
 # ISO collections
-./runTransform.sh NASA_2 ISO UMM-C ASF   
-./runTransform.sh NASA_2 ISO UMM-C CDDIS
-./runTransform.sh NASA_2 ISO UMM-C GHRC  
-./runTransform.sh NASA_2 ISO UMM-C GSFCS4PA 
-./runTransform.sh NASA_2 ISO UMM-C LAADS 
-./runTransform.sh NASA_2 ISO UMM-C LANCEMODIS  
-./runTransform.sh NASA_2 ISO UMM-C LARC  
-./runTransform.sh NASA_2 ISO UMM-C LARC_ASDC
-./runTransform.sh NASA_2 ISO UMM-C LPDAAC_ECS
-./runTransform.sh NASA_2 ISO UMM-C PODAAC
-./runTransform.sh NASA_2 ISO UMM-C SEDAC
-./runTransform.sh NASA_2 ISO UMM-C USGS_EROS
+./runTransform.sh NASA_2 ISO UMM-Common ASF   
+./runTransform.sh NASA_2 ISO UMM-Common CDDIS
+./runTransform.sh NASA_2 ISO UMM-Common GHRC  
+./runTransform.sh NASA_2 ISO UMM-Common GSFCS4PA 
+./runTransform.sh NASA_2 ISO UMM-Common LAADS 
+./runTransform.sh NASA_2 ISO UMM-Common LANCEMODIS  
+./runTransform.sh NASA_2 ISO UMM-Common LARC  
+./runTransform.sh NASA_2 ISO UMM-Common LARC_ASDC
+./runTransform.sh NASA_2 ISO UMM-Common LPDAAC_ECS
+./runTransform.sh NASA_2 ISO UMM-Common PODAAC
+./runTransform.sh NASA_2 ISO UMM-Common SEDAC
+./runTransform.sh NASA_2 ISO UMM-Common USGS_EROS
 
 # DIF collections
-#./runTransform.sh NASA_2 DIF UMM-C ASF   
-#./runTransform.sh NASA_2 DIF UMM-C CDDIS
-#./runTransform.sh NASA_2 DIF UMM-C GHRC  
-#./runTransform.sh NASA_2 DIF UMM-C GSFCS4PA 
-#./runTransform.sh NASA_2 DIF UMM-C LAADS 
-#./runTransform.sh NASA_2 DIF UMM-C LANCEMODIS  
-#./runTransform.sh NASA_2 DIF UMM-C LARC  
-#./runTransform.sh NASA_2 DIF UMM-C LARC_ASDC
-#./runTransform.sh NASA_2 DIF UMM-C LPDAAC_ECS
-#./runTransform.sh NASA_2 DIF UMM-C PODAAC
-#./runTransform.sh NASA_2 DIF UMM-C SEDAC
-#./runTransform.sh NASA_2 DIF UMM-C USGS_EROS
+#./runTransform.sh NASA_2 DIF UMM-Common ASF   
+#./runTransform.sh NASA_2 DIF UMM-Common CDDIS
+#./runTransform.sh NASA_2 DIF UMM-Common GHRC  
+#./runTransform.sh NASA_2 DIF UMM-Common GSFCS4PA 
+#./runTransform.sh NASA_2 DIF UMM-Common LAADS 
+#./runTransform.sh NASA_2 DIF UMM-Common LANCEMODIS  
+#./runTransform.sh NASA_2 DIF UMM-Common LARC  
+#./runTransform.sh NASA_2 DIF UMM-Common LARC_ASDC
+#./runTransform.sh NASA_2 DIF UMM-Common LPDAAC_ECS
+#./runTransform.sh NASA_2 DIF UMM-Common PODAAC
+#./runTransform.sh NASA_2 DIF UMM-Common SEDAC
+#./runTransform.sh NASA_2 DIF UMM-Common USGS_EROS
 
 #ECHO collections
-./runTransform.sh NASA_2 ECHO UMM-C ASF   
-./runTransform.sh NASA_2 ECHO UMM-C CDDIS
-./runTransform.sh NASA_2 ECHO UMM-C GHRC  
-./runTransform.sh NASA_2 ECHO UMM-C GSFCS4PA 
-./runTransform.sh NASA_2 ECHO UMM-C LAADS 
-./runTransform.sh NASA_2 ECHO UMM-C LANCEMODIS  
-./runTransform.sh NASA_2 ECHO UMM-C LARC
-./runTransform.sh NASA_2 ECHO UMM-C LPDAAC_ECS
-./runTransform.sh NASA_2 ECHO UMM-C LARC_ASDC
-./runTransform.sh NASA_2 ECHO UMM-C PODAAC
-./runTransform.sh NASA_2 ECHO UMM-C SEDAC
-./runTransform.sh NASA_2 ECHO UMM-C USGS_EROS
+./runTransform.sh NASA_2 ECHO UMM-Common ASF   
+./runTransform.sh NASA_2 ECHO UMM-Common CDDIS
+./runTransform.sh NASA_2 ECHO UMM-Common GHRC  
+./runTransform.sh NASA_2 ECHO UMM-Common GSFCS4PA 
+./runTransform.sh NASA_2 ECHO UMM-Common LAADS 
+./runTransform.sh NASA_2 ECHO UMM-Common LANCEMODIS  
+./runTransform.sh NASA_2 ECHO UMM-Common LARC
+./runTransform.sh NASA_2 ECHO UMM-Common LPDAAC_ECS
+./runTransform.sh NASA_2 ECHO UMM-Common LARC_ASDC
+./runTransform.sh NASA_2 ECHO UMM-Common PODAAC
+./runTransform.sh NASA_2 ECHO UMM-Common SEDAC
+./runTransform.sh NASA_2 ECHO UMM-Common USGS_EROS

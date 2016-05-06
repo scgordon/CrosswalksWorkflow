@@ -8,15 +8,15 @@ cd ../
 CrosswalkWorkflow=$(pwd)
 cd ../Crosswalks
 CrosswalkHome=$(pwd)
-mkdir -p $CrosswalkWorkflow/RubricTransforms/$2 |
+mkdir -p $CrosswalkWorkflow/RubricTransforms/$2 
 
 declare -A RecommendationTag
 RecommendationTag[ACDD]="ACDD_highlyRecommended,ACDD_recommended,ACDD_suggested"
 RecommendationTag[CSW]="CSWCoreQueryables,CSWCoreReturnables,CSWAdditionalQueryables"
 RecommendationTag[DCITE]="DataCite3.1Mandatory,DataCite3.1Recommended,DataCite3.1Optional"
-RecommendationTag[UMM-C]="UMM-C_Required,UMM-C_HighlyRecommended,UMM-C_Recommended"
+RecommendationTag[UMM-Common]="UMM-Common_Required,UMM-Common_Optional"
 RecommendationTag[ISO-1]="ISO-1_Discovery-Mandatory,ISO-1_Discovery-Conditional,ISO-1_Discovery-Optional"
-RecommendationTag[LTER]="LTER_Identification,LTER_Discovery,LTER_Evaluation"
+RecommendationTag[LTER]="LTER_Identification,LTER_Discovery,LTER_Evaluation,LTER_Access,LTER_Integration"
 RecommendationTag[FGDC]="FGDC_Mandatory,FGDC_MandatoryIfApplicable"
 
 echo Transform Recommendation Tag: ${RecommendationTag[$1]}
