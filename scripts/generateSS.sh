@@ -7,9 +7,10 @@
 cd ../ 
 CrosswalkWorkflow=$(pwd)
 if [ $# = 2 ]; then
-	mkdir -p $CrosswalkWorkflow/Reports/$1 |
+	mkdir -p $CrosswalkWorkflow/Reports/$1 
 ./scripts/generateSS.py `find ./collections/$1 -name "*.json" | grep $2` &&
-cat $CrosswalkWorkflow/data14.xlsx >> $CrosswalkWorkflow/Reports/$1/$1_$2_recommendation.xlsx
+cat $CrosswalkWorkflow/data14.xlsx >> $CrosswalkWorkflow/Reports/$1/$1_$2_recommendation.xlsx && 
+rm $CrosswalkWorkflow/data14.xlsx
 else 
 	echo "organization name (NASA) recommendation tag (CSW)"
 fi
