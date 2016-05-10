@@ -3,4 +3,4 @@
 #Argument 1 is the organization name. This is the directory name in data/bedi/collections e.g. NASA
 #Argument 2 is the Recommendation tag. This is the tag element's content for the recommendation components desired.
 
-./generateSS.sh DataOne ISO-1
+./generateSS.sh DataOne LTER
