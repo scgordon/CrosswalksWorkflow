@@ -1,0 +1,5041 @@
+{"records": [{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"59",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"13",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"5"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"2"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"24",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"18"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"18"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03685-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"64"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03686-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03687-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03688-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"88",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"73",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"17"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"14"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"14"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"14"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"14"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"10",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03689-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"93"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"22",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03690-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"27"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03691-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03692-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03693-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03694-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03695-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03696-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03697-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"38",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"18",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"6"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"3"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"12",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"4"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03698-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"43"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"40",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"18",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"6"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"3"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"13",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"5"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"5"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03699-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"45"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"22",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03700-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"27"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"22",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03701-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"27"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"60",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"48",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"12"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"9"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"9"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"9"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"9"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03702-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"65"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"71",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"53",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"13"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"10"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"10"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"10"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"10"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"13",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"5"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03703-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"76"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"91",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"73",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"17"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"14"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"14"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"14"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"14"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"13",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"5"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03704-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"96"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03705-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03706-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03707-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"45",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"18",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"6"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"3"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"17",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"6"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"5"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"6"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03708-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"50"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03709-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"22",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03710-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"27"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"24",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"3"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03711-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"29"
+},{"spirals": [
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"}]
+},
+{"title":"ISO-1 for Data Discovery - Conditional","code":"ISO-1_Discovery-Conditional","description":"This spiral includes conditional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"2","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo/resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
+},
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Metadata Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/mercury/MD_Entry_id","exists":"0",
+"count":"0"
+}],
+"description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+},
+{"path":"/metadata/mercury/Parameter_Description/Sensor","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Source","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Term","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Parameter_Description/Topic","exists":"1",
+"count":"1"
+}],
+"description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/mercury/File_ID","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Spatial Resolution","exists":"-1","count":"-1","description":"The nominal scale and/or spatial resolution of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/begdate and /metadata/mercury/enddate","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Vertical Extent","exists":"-1","count":"-1","description":"The vertical extent of the resource"},
+{
+"name":"Resource Lineage","exists":"-1","count":"-1","description":"A description of the source(s) and production process(es) used in producing the resource."},
+{
+"name":"Resource on-line Link","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/mercury/Documentation_Link/URL","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/mercury/Search_Text_Link/URL","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/citation/citeinfo/onlink","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/mercury/Data_Set_Link/URL","exists":"1",
+"count":"1"
+}],
+"description":"Online link referencing additional information about the resource."},
+{
+"name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
+}],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/EDORA/Mercury/xml/03712-metadata.xml",
+"Date":"2016-05-10-06:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"25"
+}]}
