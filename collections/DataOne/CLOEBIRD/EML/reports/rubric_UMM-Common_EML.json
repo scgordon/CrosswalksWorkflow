@@ -1,52 +1,47 @@
 {"records": [{"spirals": [
-{"title":"UMM-Common Required","code":"UMM-Common_Required","description":"The NASA Unified Metadata Model/Mapping (UMM) includes a profile for elements that are common to all of the UMM Profiles, the UMM-Common Profile. These are the elements required by that profile.","maximum":"23","existTotal":"0",
-"countTotal":"0",
+{"title":"UMM-Common Required","code":"UMM-Common_Required","description":"The NASA Unified Metadata Model/Mapping (UMM) includes a profile for elements that are common to all of the UMM Profiles, the UMM-Common Profile. These are the elements required by that profile.","maximum":"23","existTotal":"6",
+"countTotal":"19",
 
 "items" : [
 {
 "name":"Metadata Modified Date","exists":"-1","count":"-1","description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
-{
-"name":"Future Metadata Review Date","exists":"-1","count":"-1","description":"Anticipated date of a future metadata review."},
-{
+        {
+"name":"Future Metadata Review Date","exists":"-1","count":"-1","description":"Anticipated date of a future metadata review."}, {
 "name":"Metadata Deletion Date","exists":"-1","count":"-1","description":"Date of metadata deletion."},
-{
-"name":"Resource Creation Date","exists":"-1","count":"-1","description":"Date of creation of the cited resource"},
-{
+        {
+"name":"Resource Creation Date","exists":"-1","count":"-1","description":"Date of creation of the cited resource"}, {
 "name":"Resource Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
-{
-"name":"Resource Title","exists":"0",
-"count":"0",
+            {
+"name":"Resource Title","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/eml:eml/dataset/title","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/title","exists":"1",
+"count":"1"
 }],
-"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
-{
-"name":"Abstract","exists":"0",
-"count":"0",
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."}, {
+"name":"Abstract","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/eml:eml/dataset/abstract","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/abstract","exists":"1",
+"count":"1"
 },
-{"path":"/eml:eml/dataset/abstract","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/abstract","exists":"1",
+"count":"1"
 }],
-"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
-{
-"name":"Resource Contact","exists":"0",
-"count":"0",
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."}, {
+"name":"Resource Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/eml:eml/dataset/contact","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/contact","exists":"1",
+"count":"1"
 }],
-"description":"The organization or person responsible for answering questions about the resource."},
-{
+"description":"The organization or person responsible for answering questions about the resource."}, {
 "name":"Distribution Contact","exists":"0",
 "count":"0",
 
@@ -56,41 +51,38 @@
 "count":"0"
 }],
 "description":"Contact information for the organization or individual that distributes the resource."},
-{
-"name":"Processing Level","exists":"-1","count":"-1","description":"A code that indicates the extent of processing done in the creation of a dataset."},
-{
-"name":"Theme Keyword","exists":"0",
-"count":"0",
+        {
+"name":"Processing Level","exists":"-1","count":"-1","description":"A code that indicates the extent of processing done in the creation of a dataset."}, {
+"name":"Theme Keyword","exists":"1",
+"count":"13",
 
 "paths" : [
 
-{"path":"/eml:eml/dataset/keywordSet/keyword","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/keywordSet/keyword","exists":"1",
+"count":"13"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
-{
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+            {
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/eml:eml/dataset/coverage/geographicCoverage","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/coverage/geographicCoverage","exists":"1",
+"count":"1"
 }],
-"description":"The spatial extent of the resource."},
-{
-"name":"Temporal Extent","exists":"0",
-"count":"0",
+"description":"The spatial extent of the resource."}, {
+"name":"Temporal Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/eml:eml/dataset/coverage/temporalCoverage","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/coverage/temporalCoverage","exists":"1",
+"count":"1"
 }],
-"description":"The temporal extent of the resource"},
-{
+"description":"The temporal extent of the resource"}, {
 "name":"Project Name","exists":"-1","count":"-1","description":"The name of the project that the resource was associated with."},
-{
+            {
 "name":"Resource on-line Link","exists":"0",
 "count":"0",
 
@@ -100,34 +92,31 @@
 "count":"0"
 }],
 "description":"Online link referencing additional information about the resource."},
-{
-"name":"Browse URL","exists":"-1","count":"-1","description":"Location of the browse file on the Web."},
-{
+        {
+"name":"Browse URL","exists":"-1","count":"-1","description":"Location of the browse file on the Web."}, {
 "name":"Browse File Name","exists":"-1","count":"-1","description":"Name of the file holding the browse graphic."},
-{
+        {
 "name":"Platform","exists":"-1","count":"-1","description":"The platform used to collect the observations."},
-{
+        {
 "name":"Platform Keyword","exists":"-1","count":"-1","description":"Keywords that describe the platform used to collect the resource."},
-{
+        {
 "name":"Platform Short Name","exists":"-1","count":"-1","description":"The platform used to collect the observations."},
-{
+        {
 "name":"Instrument","exists":"-1","count":"-1","description":"Information about the instrument used to make the observations."},
-{
-"name":"Instrument Keyword","exists":"-1","count":"-1","description":"Keywords that describe the instrument used to collect the resource."},
-{
+        {
+"name":"Instrument Keyword","exists":"-1","count":"-1","description":"Keywords that describe the instrument used to collect the resource."}, {
 "name":"Instrument Short Name","exists":"-1","count":"-1","description":"Short name (abbreviation) for the Instrument used to collect the observations."}]
 },
-{"title":"UMM-Common Optional","code":"UMM-Common_Optional","description":"The NASA Unified Metadata Model/Mapping (UMM) includes a profile for elements that are common to all of the UMM Profiles, the UMM-Common Profile. These are the optional elements included in that profile.","maximum":"15","existTotal":"0",
-"countTotal":"0",
+{"title":"UMM-Common Optional","code":"UMM-Common_Optional","description":"The NASA Unified Metadata Model/Mapping (UMM) includes a profile for elements that are common to all of the UMM Profiles, the UMM-Common Profile. These are the optional elements included in that profile.","maximum":"15","existTotal":"3",
+"countTotal":"3",
 
 "items" : [
 {
 "name":"Metadata Language","exists":"-1","count":"-1","description":"Language of the metadata"},
-{
-"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."},
-{
+        {
+"name":"Resource Language","exists":"-1","count":"-1","description":"The language of the resource."}, {
 "name":"Resource Creation/Revision Date","exists":"-1","count":"-1","description":"The date the resource was created"},
-{
+            {
 "name":"Purpose","exists":"0",
 "count":"0",
 
@@ -137,35 +126,33 @@
 "count":"0"
 }],
 "description":"A paragraph describing the original purpose for collecting the dataset."},
-{
+        {
 "name":"Resource Citation","exists":"-1","count":"-1","description":"Citation for the resource."},
-{
-"name":"Quality Statement","exists":"-1","count":"-1","description":"Information about the quality of the data or any quality assurance procedures followed in producing the data."},
-{
-"name":"Resource Use Constraints","exists":"0",
-"count":"0",
+        {
+"name":"Quality Statement","exists":"-1","count":"-1","description":"Information about the quality of the data or any quality assurance procedures followed in producing the data."}, {
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/eml:eml/dataset/intellectualRights","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/intellectualRights","exists":"1",
+"count":"1"
 }],
 "description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
-{
-"name":"Resource Access Constraints","exists":"0",
-"count":"0",
+            {
+"name":"Resource Access Constraints","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/eml:eml/access","exists":"0",
-"count":"0"
+{"path":"/eml:eml/access","exists":"1",
+"count":"1"
 }],
 "description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
-{
+        {
 "name":"Topic Category","exists":"-1","count":"-1","description":"High level category enumeration used in ISO"},
-{
-"name":"TwoDCoordinateSystem","exists":"-1","count":"-1","description":"Bounding extent defined in two dimensions with min and max values."},
-{
+        {
+"name":"TwoDCoordinateSystem","exists":"-1","count":"-1","description":"Bounding extent defined in two dimensions with min and max values."}, {
 "name":"Resource on-line Link","exists":"0",
 "count":"0",
 
@@ -174,25 +161,23 @@
 {"path":"/eml:eml/dataset/distribution/online/url","exists":"0",
 "count":"0"
 }],
-"description":"Online link referencing additional information about the resource."},
-{
+"description":"Online link referencing additional information about the resource."}, {
 "name":"Browse URL","exists":"-1","count":"-1","description":"Location of the browse file on the Web."},
-{
-"name":"Resource Format","exists":"0",
-"count":"0",
+            {
+"name":"Resource Format","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/eml:eml/dataset/dataTable/physical/dataFormat","exists":"0",
-"count":"0"
+{"path":"/eml:eml/dataset/dataTable/physical/dataFormat","exists":"1",
+"count":"1"
 }],
 "description":"The physical or digital manifestation of the resource"},
-{
-"name":"Project Name","exists":"-1","count":"-1","description":"The name of the project that the resource was associated with."},
-{
+        {
+"name":"Project Name","exists":"-1","count":"-1","description":"The name of the project that the resource was associated with."}, {
 "name":"Project Keyword","exists":"-1","count":"-1","description":"Keywords that describe the Project used to collect the resource."}]
 }],"Record":"file:/Users/scgordon/CrosswalksWorkflow/collections/DataOne/CLOEBIRD/EML/xml/00251-metadata.xml",
-"Date":"2016-05-10-06:00",
-"rubricType":"UMM-Common","rubricVersion":"0.1","rubricMax":"38","rubricExists":"0",
-"rubricCounts":"0"
+"Date":"2016-05-11-06:00",
+"rubricType":"UMM-Common","rubricVersion":"0.1","rubricMax":"38","rubricExists":"9",
+"rubricCounts":"22"
 }]}
