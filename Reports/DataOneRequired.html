@@ -1,0 +1,820 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="http://code.jquery.com/jquery-1.11.1.min.js"></script><link href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" rel="stylesheet" type="text/css"><script src="http://datatables.net/download/build/nightly/jquery.dataTables.js"></script><script>
+          $(document).ready( function() {
+          $('#comparisonTable').dataTable( {
+          paging: false,
+          searching: true,
+          "dom": '"wrapper"flipt'
+          } );
+          } );
+        </script><style type="text/css">
+          div.container {
+          min-width: 980px;
+          margin: 2.5%;
+          }
+        </style></head>
+   <body>
+      <h2>Recommendation Comparison</h2>
+      <ul>
+         <li>Catalog Services for the Web (CSW) Core Queryables</li>
+         <li>ISO-1 for Data Discovery - Mandatory</li>
+         <li>DIF for Data Discovery - Required</li>
+         <li>FGDC for Data Discovery - Mandatory</li>
+         <li>DCAT for Data Discovery - Mandatory</li>
+         <li>ECHO for Data Discovery - Mandatory</li>
+         <li>Attribute Convention for Data Discovery - Highly Recommended</li>
+         <li>DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory</li>
+         <li>LTER Completeness-Identification</li>
+         <li>Dryad Metadata  Application  Profile - Data Package Module-Required</li>
+         <li>Dryad Metadata  Application  Profile - Data File Module-Required</li>
+      </ul>
+      <div class="container">
+         <table id="comparisonTable" border="1" cellpadding="8" cellspacing="2" style="border-collapse: collapse;" class="resultsTable">
+            <thead>
+               <tr class="headerRow">
+                  <th align="left" class="colTitle"><b>Item</b></th>
+                  <th class="colTitle"><b>Score</b></th>
+                  <th class="colTitle"><b>Description</b></th>
+                  <th class="colTitle"><b>Catalog Services for the Web (CSW) Core Queryables</b></th>
+                  <th class="colTitle"><b>ISO-1 for Data Discovery - Mandatory</b></th>
+                  <th class="colTitle"><b>DIF for Data Discovery - Required</b></th>
+                  <th class="colTitle"><b>FGDC for Data Discovery - Mandatory</b></th>
+                  <th class="colTitle"><b>DCAT for Data Discovery - Mandatory</b></th>
+                  <th class="colTitle"><b>ECHO for Data Discovery - Mandatory</b></th>
+                  <th class="colTitle"><b>Attribute Convention for Data Discovery - Highly Recommended</b></th>
+                  <th class="colTitle"><b>DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory</b></th>
+                  <th class="colTitle"><b>LTER Completeness-Identification</b></th>
+                  <th class="colTitle"><b>Dryad Metadata  Application  Profile - Data Package Module-Required</b></th>
+                  <th class="colTitle"><b>Dryad Metadata  Application  Profile - Data File Module-Required</b></th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Abstract">Abstract</td>
+                  <td align="center" class="firstDataCol">8</td>
+                  <td class="firstDataCol">A paragraph describing the resource.</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Association">Association</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Complete statement of a one-to-one relationship</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Author">Author</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">Author of the cited resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Author_/_Originator">Author / Originator</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">The principal author of the resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Author_/_Originator_Identifier">Author / Originator Identifier</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">A unique identifier for a resource author or originator</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Author_/_Originator_Identifier_Type">Author / Originator Identifier Type</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">The type of unique identifier for a resource author or originator</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Bounding_Box">Bounding Box</td>
+                  <td align="center" class="firstDataCol">3</td>
+                  <td class="firstDataCol">A bounding box for identifying a geographic area of interest</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Contributor_Name">Contributor Name</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Contributor to the resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Coordinate_Reference_System_(CRS)">Coordinate Reference System (CRS)</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Geographic Coordinate Reference System (Authority and ID) for the BoundingBox</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Distribution_Contact">Distribution Contact</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">Contact information for the organization or individual that distributes the resource.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Distribution_Liability">Distribution Liability</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Statement of the liability assumed by the distributor.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Keyword">Keyword</td>
+                  <td align="center" class="firstDataCol">8</td>
+                  <td class="firstDataCol">A word or phrase that describes some aspect of a resource. Can be one of several types.</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Lineage_Statement">Lineage Statement</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Information and references for sources and processes that were used to create the
+                     dataset and an audit trail for modifications to the original data.
+                  </td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Metadata_Access_Constraints">Metadata Access Constraints</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">Information about any constraints for accessing the data set. This includes any special
+                     restrictions, legal prerequisites, limitations and/or warnings on obtaining the data
+                     set. Some words that may be used in this field include: Public, In-house, Limited,
+                     Additional detailed instructions on how to access the data can be entered in this
+                     field.
+                  </td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Metadata_Contact">Metadata Contact</td>
+                  <td align="center" class="firstDataCol">3</td>
+                  <td class="firstDataCol">The organization or person currently responsible for the metadata.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Metadata_Identifier">Metadata Identifier</td>
+                  <td align="center" class="firstDataCol">3</td>
+                  <td class="firstDataCol">A phrase or string which uniquely identifies the metadata file/record.</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Metadata_Modified_Date">Metadata Modified Date</td>
+                  <td align="center" class="firstDataCol">3</td>
+                  <td class="firstDataCol">Date on which the metadata record (not the resource) was created or updated within
+                     the catalogue.
+                  </td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Metadata_Standard_Citation">Metadata Standard Citation</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">The name of the standard to which the metadata conforms</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Metadata_Standard_Version">Metadata Standard Version</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">The name of the standard to which the metadata conforms</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Ordering_Instructions">Ordering Instructions</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">General instructions, terms and services provided by the distributor</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Originating_Organization">Originating Organization</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">The organization responsible for creating the resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Parent_Identifier">Parent Identifier</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">A unique identifier for a parent dataset or collection</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Publication_Date">Publication Date</td>
+                  <td align="center" class="firstDataCol">5</td>
+                  <td class="firstDataCol">Date of publication of the cited resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Publisher">Publisher</td>
+                  <td align="center" class="firstDataCol">3</td>
+                  <td class="firstDataCol">Publisher of the cited resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Purpose">Purpose</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">A paragraph describing the original purpose for collecting the dataset.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Related_Resource_Identifier">Related Resource Identifier</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Identifier for a resource related to the resource being described.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Access_Constraints">Resource Access Constraints</td>
+                  <td align="center" class="firstDataCol">3</td>
+                  <td class="firstDataCol">Information about any constraints for accessing the data set. This includes any special
+                     restrictions, legal prerequisites, limitations and/or warnings on obtaining the data
+                     set. Some words that may be used in this field include: Public, In-house, Limited,
+                     Additional detailed instructions on how to access the data can be entered in this
+                     field.
+                  </td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Contact">Resource Contact</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">The organization or person responsible for answering questions about the resource.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Cost_or_Fees">Resource Cost or Fees</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Cost associated with access to the resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Creation/Revision_Date">Resource Creation/Revision Date</td>
+                  <td align="center" class="firstDataCol">4</td>
+                  <td class="firstDataCol">The date the resource was created</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Distribution">Resource Distribution</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Information about how the resource is available, online, offline, inline.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Format">Resource Format</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">The physical or digital manifestation of the resource</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Identifier">Resource Identifier</td>
+                  <td align="center" class="firstDataCol">5</td>
+                  <td class="firstDataCol">Identifier for the resource described by the metadata</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Identifier_Type">Resource Identifier Type</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">The type of identifier used to uniquely identify the resource.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Long_Name">Resource Long Name</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">The reference name used in describing the scientific contents of the data collection.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Status">Resource Status</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">The status of the resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Title">Resource Title</td>
+                  <td align="center" class="firstDataCol">11</td>
+                  <td class="firstDataCol">A short description of the resource. The title should be descriptive enough so that
+                     when a user is presented with a list of titles the general content of the data set
+                     can be determined.
+                  </td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Type">Resource Type</td>
+                  <td align="center" class="firstDataCol">3</td>
+                  <td class="firstDataCol">A resource code identifying the type of resource; e.g. dataset, a collection, an application
+                     (See MD_ScopeCode) for which the metadata describes.
+                  </td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Update_Frequency">Resource Update Frequency</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">The frequency with which changes and additions are made to the data set after the
+                     initial data set is completed
+                  </td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Use_Constraints">Resource Use Constraints</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Information about how the data may or may not be used after access is granted to assure
+                     the protection of privacy or intellectual property. This includes any special restrictions,
+                     legal prerequisites, terms and conditions, and/or limitations on using the data set.
+                     Data providers may request acknowledgement of the data from users and claim no responsibility
+                     for quality and completeness of data.
+                  </td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Resource_Version">Resource Version</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Version of the cited resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Rights">Rights</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Information about rights held in and over the resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Temporal_Extent">Temporal Extent</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">The temporal extent of the resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Topic_Category">Topic Category</td>
+                  <td align="center" class="firstDataCol">2</td>
+                  <td class="firstDataCol">High level category enumeration used in ISO</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Transfer_Size">Transfer Size</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">The size of the digital resource</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+               </tr>
+               <tr class="dataRow">
+                  <td class="firstDataCol" id="Turnaround">Turnaround</td>
+                  <td align="center" class="firstDataCol">1</td>
+                  <td class="firstDataCol">Typical turnaround time for the filling of an order.</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol">X</td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+                  <td align="center" class="dataCol"></td>
+               </tr>
+            </tbody>
+         </table>
+         <p>Translation Version: 0.1 (Feb. 9, 2015)</p>
+      </div>
+   </body>
+</html>
