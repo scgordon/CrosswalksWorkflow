@@ -1,0 +1,3181 @@
+{"records": [{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"5",
+"countTotal":"15",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"11",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"11"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"11",
+"countTotal":"37",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"11",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"11"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"1",
+"count":"15",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"1",
+"count":"15"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"0",
+"count":"0"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"7",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"3"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/527d0a24e4b0850ea051831b.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"21",
+"rubricCounts":"59"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"6",
+"countTotal":"30",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"25",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"25"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"11",
+"countTotal":"38",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"25",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"25"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"0",
+"count":"0"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"0",
+"count":"0"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"1",
+"count":"1"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"5",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"1"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/51360a27e4b03b8ec4025c07.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"22",
+"rubricCounts":"73"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"5",
+"countTotal":"17",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"13",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"13"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"11",
+"countTotal":"25",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"13",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"13"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"0",
+"count":"0"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"1",
+"count":"1"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"2"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/527d09cae4b0850ea051830b.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"21",
+"rubricCounts":"48"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"6",
+"countTotal":"11",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"6",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"6"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"12",
+"countTotal":"18",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"6",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"6"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"0",
+"count":"0"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"1",
+"count":"1"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"5",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"1"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/51c45ef1e4b03c77dce65a84.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"23",
+"rubricCounts":"34"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"6",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"15",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"15"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"11",
+"countTotal":"27",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"15",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"15"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"0",
+"count":"0"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"0",
+"count":"0"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"5",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"1"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/5138e8e5e4b02c509e50c57f.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"22",
+"rubricCounts":"52"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"6",
+"countTotal":"24",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"19",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"19"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"10",
+"countTotal":"29",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"19",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"19"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"0",
+"count":"0"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"0",
+"count":"0"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"5",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"1"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/4f4e4773e4b07f02db47e241.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"21",
+"rubricCounts":"58"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"5",
+"countTotal":"13",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"9"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"11",
+"countTotal":"24",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"9"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"1",
+"count":"4"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"0",
+"count":"0"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"7",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"3"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/527d0a83e4b0850ea0518326.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"21",
+"rubricCounts":"44"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"5",
+"countTotal":"19",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"15",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"15"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"9",
+"countTotal":"25",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"15",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"15"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"0",
+"count":"0"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"0",
+"count":"0"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"5",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"1"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/527d099be4b0850ea0518307.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"19",
+"rubricCounts":"49"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"5",
+"countTotal":"11",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"7"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"10",
+"countTotal":"21",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"7"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"0",
+"count":"0"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"1",
+"count":"3"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"0",
+"count":"0"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"1",
+"count":"1"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"2"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/527d09f1e4b0850ea0518313.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"20",
+"rubricCounts":"38"
+},{"spirals": [
+{"title":"Catalog Services for the Web (CSW) Core Queryables","code":"CSWCoreQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 11 Core Queryables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 6).","maximum":"10","existTotal":"6",
+"countTotal":"19",
+
+"items" : [
+{
+"name":"Keyword","exists":"1",
+"count":"14",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"14"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Coordinate Reference System (CRS)","exists":"-1","count":"-1","description":"Geographic Coordinate Reference System (Authority and ID) for the BoundingBox"},
+{
+"name":"Association","exists":"-1","count":"-1","description":"Complete statement of a one-to-one relationship"}]
+},
+{"title":"Catalog Services for the Web (CSW) Core Returnable Properties","code":"CSWCoreReturnables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard defines 15 Core Returnables that must be supported in any compliant implementation. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 9).","maximum":"15","existTotal":"10",
+"countTotal":"25",
+
+"items" : [
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Keyword","exists":"1",
+"count":"14",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"1",
+"count":"14"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubinfo/fgdc:publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:datacred","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metd","exists":"1",
+"count":"1"
+}],
+"description":"Date on which the record was created or updated within the catalogue"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:resdesc","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource e.g. dataset, a collection, an application (see MD_ScopeCode) which the metadata describes."},
+{
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distInfo/fgdc:distributor/fgdc:distorFormat/fgdc:formatName","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
+{
+"name":"Source Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccite","exists":"0",
+"count":"0"
+}],
+"description":"Reference to the processing input source."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Related Resource Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit","exists":"0",
+"count":"0"
+}],
+"description":"Citation information about the associated resource."},
+{
+"name":"Bounding Box","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Rights","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"1",
+"count":"1"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metac","exists":"0",
+"count":"0"
+},
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metuc","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+},
+{"title":"Catalog Service for the Web (CSW) Additional Queryable Properties","code":"CSWAdditionalQueryables","description":"The Open Geospatial Consortium Catalog Services for the Web (CSW) standard supports 10 Additional Queryable search parameters. Profiles of CSW map these queryables to concepts and xPaths for particular metadata dialects. For additional reference information see the ISO Profile of CSW (Table 10).","maximum":"9","existTotal":"5",
+"countTotal":"5",
+
+"items" : [
+{
+"name":"Revision Date","exists":"-1","count":"-1","description":"Date of revision of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Organization Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"1",
+"count":"1"
+}],
+"description":"Name of the organization"},
+{
+"name":"Security Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:secinfo","exists":"0",
+"count":"0"
+}],
+"description":"Handling restrictions imposed on the resource or metadata for national security or similar security concerns."},
+{
+"name":"Metadata Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"1",
+"count":"1"
+}],
+"description":"Language of the metadata"},
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Parent Identifier","exists":"-1","count":"-1","description":"A unique identifier for a parent dataset or collection"},
+{
+"name":"Keyword Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekt","exists":"1",
+"count":"1"
+}],
+"description":"Methods used to group similar keywords"}]
+}],"Record":"file:/mnt/data/bedi/collections/527cf4ede4b0850ea05182f0/FGDC/XML/5138f372e4b02c509e50c59c.xml",
+"Date":"2015-05-14Z",
+"rubricType":"CSW","rubricVersion":"0.1","rubricMax":"34","rubricExists":"21",
+"rubricCounts":"49"
+}]}
