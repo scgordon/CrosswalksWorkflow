@@ -178,7 +178,8 @@
       <Latitude_Resolution>25 km</Latitude_Resolution>
       <Longitude_Resolution>25 km</Longitude_Resolution>
    </Data_Resolution>
-   <Quality>Uncertainty of each SWE estimate is given as an additional data layer in each product. The uncertainty (RMSE-values) for each SWE estimate, include both the effect of the systematic (bias) and statistical (random) error as described in the GlobSnow SWE Algorithm theoretical basis document (ATBD). Statistical error is determined through an adaptive dynamic error propagation approach (Pulliainen, 2006 and Takala et al. 2011). The systematic error is derived from the multi-year analysis of independent snow course observations from Russia and the Former Soviet Union (161,000 INTASS SCONE observations from 517 snow courses distributed in Eurasia).</Quality>
+   <Quality>Uncertainty of each SWE estimate is given as an additional data layer in each product. The uncertainty (RMSE-values) for each SWE estimate, include both the effect of the systematic (bias) and statistical (random) error as described in the GlobSnow SWE Algorithm theoretical basis document (ATBD). Statistical error is determined through an adaptive dynamic error propagation approach (Pulliainen, 2006 and Takala et al. 2011). The systematic error is derived from the multi-year
+      analysis of independent snow course observations from Russia and the Former Soviet Union (161,000 INTASS SCONE observations from 517 snow courses distributed in Eurasia).</Quality>
    <Data_Set_Language>English</Data_Set_Language>
    <Data_Center>
       <Data_Center_Name>
@@ -214,24 +215,15 @@
       <Distribution_Size>2.5 MB</Distribution_Size>
       <Distribution_Format>NetCDF</Distribution_Format>
    </Distribution>
-   <Reference>Takala, M., K. Luojus, J. Pulliainen, C. Derksen, J. Lemmetyinen, J. P. Kärnä, J. Koskinen, B. Bojkov. 2011. Estimating Northern Hemisphere Snow Water Equivalent for Climate Research Through Assimilation of Spaceborne Radiometer Data and Ground-Based Measurements. Remote Sensing of Environment 115(12): 3517–3529. doi: 10.1016/j.rse.2011.08.014.
-
-Pulliainen, J. 2006. Mapping of Snow Water Equivalent and Snow Depth in Boreal and Sub-Arctic Zones by Assimilating Space-Borne Microwave Radiometer Data and Ground-Based Observations. Remote Sensing of Environment 101(2): 257–269. doi: 10.1016/j.rse.2006.01.002.</Reference>
+   <Reference>Takala, M., K. Luojus, J. Pulliainen, C. Derksen, J. Lemmetyinen, J. P. Kärnä, J. Koskinen, B. Bojkov. 2011. Estimating Northern Hemisphere Snow Water Equivalent for Climate Research Through Assimilation of Spaceborne Radiometer Data and Ground-Based Measurements. Remote Sensing of Environment 115(12): 3517–3529. doi: 10.1016/j.rse.2011.08.014. Pulliainen, J. 2006. Mapping of Snow Water Equivalent and Snow Depth in Boreal and Sub-Arctic Zones by Assimilating Space-Borne Microwave
+      Radiometer Data and Ground-Based Observations. Remote Sensing of Environment 101(2): 257–269. doi: 10.1016/j.rse.2006.01.002.</Reference>
    <Summary>
-      <Abstract>The European Space Agency (ESA) Global Snow Monitoring for Climate Research (GlobSnow) snow water equivalent (SWE) v2.0 data record contains snow information derived for the Northern Hemisphere since 1979 to present day. The snow water equivalent describes the amount of liquid water in the snow pack that would be formed if the snow pack was completely melted. The data record is produced using a combination of passive microwave radiometer and ground-based weather station data. The SWE record is produced on a daily, weekly, and monthly basis. SWE information is provided for terrestrial non-mountainous regions of the Northern Hemisphere, excluding glaciers and ice sheets. The data are provided in HDF4 and NetCDF formats along with PNG browser images for quick viewing. A single file contains the data for a single day and contains two fields: the SWE estimate and an error estimate (standard deviation). 
-
-The GlobSnow SWE record, based on methodology by Pulliainen (Pulliainen 2006 and Takala et al. 2011), utilizes a data-assimilation based approach combining space-borne passive radiometer data (SMMR, SSM/I, and SSMIS) with data from ground-based synoptic weather stations. The satellite sensors utilized provide data at K- and Ka-bands (19 GHz and 37 GHz, respectively) at a spatial resolution of approximately 25 km. The SWE product is projected to Equal-Area Scalable Earth Grid (EASE-Grid) and provides the daily SWE estimates for whole Northern Hemisphere (lambert's equal-area azimuthal projection) in a single file. Although the EASE-Grid projection can represent data almost to the equator, the product is limited between latitudes 35° and 85° for physical reasons (extent of seasonal snow cover). The input satellite data for the SWE prototype products are from SMMR, SSM/I, and SSMIS sensors acquired from National Snow and Ice Data Center, Boulder Colorado, U.S.A. (NSIDC).
-
-The snow water equivalent product is based on the combination of satellite-based microwave radiometer and ground-based weather station data.
-&lt;ul&gt;
-&lt;li&gt;The long term SWE data set spans from 1979 – to present day&lt;/li&gt;
-&lt;li&gt;The SWE maps are produced as daily, weekly, and monthly composites&lt;/li&gt;
-&lt;li&gt;Nimbus-7 SMMR, DMSP (F8/F11/F13) SSM/I, and DMSP F17 SSMIS are the main data sources: SMMR for 1979 - 1987; SSM/I for 1987 - 2009, SSMIS for 2010 - present&lt;/li&gt;
-&lt;li&gt;Coverage: Non-mountainous of Northern Hemisphere, excluding glaciers and ice sheets&lt;/li&gt;
-&lt;li&gt;The SWE maps are generated using EASE-Grid projection and a 25km spatial resolution&lt;/li&gt;
-&lt;ul&gt;
-
-More detailed descriptions are found within the project documentation accessible through the project Web pages.</Abstract>
+      <Abstract>The European Space Agency (ESA) Global Snow Monitoring for Climate Research (GlobSnow) snow water equivalent (SWE) v2.0 data record contains snow information derived for the Northern Hemisphere since 1979 to present day. The snow water equivalent describes the amount of liquid water in the snow pack that would be formed if the snow pack was completely melted. The data record is produced using a combination of passive microwave radiometer and ground-based weather station data. The
+       SWE record is produced on a daily, weekly, and monthly basis. SWE information is provided for terrestrial non-mountainous regions of the Northern Hemisphere, excluding glaciers and ice sheets. The data are provided in HDF4 and NetCDF formats along with PNG browser images for quick viewing. A single file contains the data for a single day and contains two fields: the SWE estimate and an error estimate (standard deviation). The GlobSnow SWE record, based on methodology by Pulliainen
+       (Pulliainen 2006 and Takala et al. 2011), utilizes a data-assimilation based approach combining space-borne passive radiometer data (SMMR, SSM/I, and SSMIS) with data from ground-based synoptic weather stations. The satellite sensors utilized provide data at K- and Ka-bands (19 GHz and 37 GHz, respectively) at a spatial resolution of approximately 25 km. The SWE product is projected to Equal-Area Scalable Earth Grid (EASE-Grid) and provides the daily SWE estimates for whole Northern
+       Hemisphere (lambert's equal-area azimuthal projection) in a single file. Although the EASE-Grid projection can represent data almost to the equator, the product is limited between latitudes 35° and 85° for physical reasons (extent of seasonal snow cover). The input satellite data for the SWE prototype products are from SMMR, SSM/I, and SSMIS sensors acquired from National Snow and Ice Data Center, Boulder Colorado, U.S.A. (NSIDC). The snow water equivalent product is based on the
+       combination of satellite-based microwave radiometer and ground-based weather station data. &lt;ul&gt; &lt;li&gt;The long term SWE data set spans from 1979 – to present day&lt;/li&gt; &lt;li&gt;The SWE maps are produced as daily, weekly, and monthly composites&lt;/li&gt; &lt;li&gt;Nimbus-7 SMMR, DMSP (F8/F11/F13) SSM/I, and DMSP F17 SSMIS are the main data sources: SMMR for 1979 - 1987; SSM/I for 1987 - 2009, SSMIS for 2010 - present&lt;/li&gt; &lt;li&gt;Coverage: Non-mountainous of
+       Northern Hemisphere, excluding glaciers and ice sheets&lt;/li&gt; &lt;li&gt;The SWE maps are generated using EASE-Grid projection and a 25km spatial resolution&lt;/li&gt; &lt;ul&gt; More detailed descriptions are found within the project documentation accessible through the project Web pages.</Abstract>
    </Summary>
    <Related_URL>
       <URL_Content_Type>
@@ -258,9 +250,7 @@ More detailed descriptions are found within the project documentation accessible
    <Metadata_Version>VERSION 9.9</Metadata_Version>
    <DIF_Creation_Date>2014-08-04</DIF_Creation_Date>
    <Last_DIF_Revision_Date>2014-08-04</Last_DIF_Revision_Date>
-   <DIF_Revision_History> 2014-08-04, Deann Miller, New brokered data set.
- 2014-08-04, Deann Miller, New brokered data set.
-</DIF_Revision_History>
+   <DIF_Revision_History> 2014-08-04, Deann Miller, New brokered data set. 2014-08-04, Deann Miller, New brokered data set. </DIF_Revision_History>
    <Extended_Metadata>
       <Metadata>
          <Group>NSIDC</Group>
