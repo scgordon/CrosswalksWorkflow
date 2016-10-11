@@ -1,0 +1,510 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.93.15" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="93" system="VCR">
+   <alternateIdentifier>VCR01078</alternateIdentifier>
+   <title>Hog Island, VA shorelines and upland/marsh boundaries 1852-2001</title>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Guofan</givenName>
+         <surName>Shao</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Purdue University, Department of Forestry and Natural Resources</deliveryPoint>
+         <city>West Lafayette</city>
+         <administrativeArea>IN</administrativeArea>
+         <postalCode>47907</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">317-494-3630</phone>
+      <electronicMailAddress>gshao@fnr.purdue.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">gshao</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2001-12-31</pubDate>
+   <abstract>
+  <para>Digital outlines of Hog Island VA for: 1852, 1871, 1910, 1919, 1943, 1967, 1980, 1990 and 1993. The coverage-ID field contains a number that allow distinguishing marsh from upland areas (typically 1=marsh, 2=upland). There are also .jpg image files containing browse images for the coverages.</para>
+  <para>///&#160;Update: John Porter added 2001 based on digitization of a 10/15/2001 IKONOS satellite image. The high tide line was digitized on the beach based on the edge of the wetted sand. For the marsh, the marsh-lagoon border was digitized. The upland/marsh boundary is not included for 2001.</para>
+  <para>Original shapefiles (one per year) are in NAD27 UTM 18N.</para>
+  <para>Update2: Dave Richardson combined shapefiles for individual years into a single shapefile with YEAR added as a distinguishing attribute. CLASS was added as a text string to describe the value of ID (0=Water, 1=Marsh, 2=Upland, or 3=Upland+Marsh). Finally, data was reprojected from UTM 18N NAD27 to UTM 18N WGS84 and the Area and Perimeter values recalculated.</para>
+  <para>This is now the most up-to-date version of this dataset, and supercedes&#160; dataset VCR97037.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">boundaries</keyword>
+      <keyword keywordType="theme">chronosequence</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>HOG - Hog Island, VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.650000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.730000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.460000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.370000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1852-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2001-10-15</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Guofan</givenName>
+         <surName>Shao</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Purdue University, Department of Forestry and Natural Resources</deliveryPoint>
+         <city>West Lafayette</city>
+         <administrativeArea>IN</administrativeArea>
+         <postalCode>47907</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">317-494-3630</phone>
+      <electronicMailAddress>gshao@fnr.purdue.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">gshao</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para><emphasis>This section contains specific methods for this dataset.</emphasis></para>
+  <para> 1852-1967 - based on USGS "T-sheets," quad maps and other historic map products, hand digitized with at digitizing tablet. </para>
+  <para>1980-1993 - based on computer processed aerial photos or satellite images.</para>
+         </description>
+      </methodStep>
+   </methods>
+   <project id="VCR01071">
+      <title>GIS data coverages for Hog Island, VA</title>
+      <personnel>
+         <individualName>
+            <givenName>John</givenName>
+            <surName>Porter</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+            <city>Charlottesville</city>
+            <administrativeArea>VA</administrativeArea>
+            <postalCode>22903-4123</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">434-924-8999</phone>
+         <phone phonetype="facsimile">434-982-2137</phone>
+         <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+         <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+         <role>originator</role>
+      </personnel>
+   </project>
+   <otherEntity>
+      <entityName>VCR01078</entityName>
+      <entityDescription>
+Data is stored in ESRI Shape Files and as ARC/INFO Export files. For downloading 
+convenience, all files have been stored in a .ZIP file. 
+
+Note that the ARC/INFO Export files were created on a UNIX computer so that 
+lines end with a linefeed character. For importing on PC systems, the linefeed 
+may need to be changed to carriage-return linefeed. The shape files should 
+be system independent.
+      </entityDescription>
+      <physical>
+         <objectName>hogchrono.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.93.15&amp;urlHeadID=2&amp;urlTail=1/VCR01078/VCR01078/hogchrono.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+      <spatialVector id="hogshore1852_2001">
+         <alternateIdentifier>VCR01078-2</alternateIdentifier>
+         <entityName>hogshore1852_2001</entityName>
+         <entityDescription>    Shorelines and upland/marsh boundaries from National Ocean Survey maps (1852, 1871, 1910, 1919,), aerial photos (1943, 1967, 1980, 1990), and satellite TM scene (1993). Each coverage's ID field contains a number that allow distinguishing marsh from upland areas (typically 1=marsh, 2=upland).    Update: John Porter added 2001 based on digitization of a 10/15/2001 IKONOS satellite image. The high tide line was digitized on the beach based on the edge of the wetted sand. For the marsh, the marsh-lagoon border was digitized. The upland/marsh boundary is not included for 2001.    Update2: Dave Richardson combined shapefiles for individual years into a single shapefile with YEAR added as a distinguishing attribute. CLASS was added as a text string to describe the value of ID (0=Water, 1=Marsh, 2=Upland, or 3=Upland+Marsh). Finally, data was reprojected from UTM 18N NAD27 to UTM 18N WGS84 and the Area and Perimeter values recalculated.       </entityDescription>
+         <physical>
+            <objectName>hogshore1852_2001.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.93.15&amp;urlHeadID=2&amp;urlTail=2/VCR01078/hogshore1852_2001.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>authenticated</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Hog Island, Northampton County, Virginia USA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.732312</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.656404</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.469579</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.367369</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AREA</attributeName>
+               <attributeLabel>AREA</attributeLabel>
+               <attributeDefinition>area (sq. meters)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Single</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareMeter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>PERIMETER</attributeName>
+               <attributeLabel>PERIMETER</attributeLabel>
+               <attributeDefinition>perimeter (m)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Single</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>YEAR</attributeName>
+               <attributeLabel>YEAR</attributeLabel>
+               <attributeDefinition>calendar year</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">SmallInteger</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>calendar year</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>CLASS</attributeName>
+               <attributeLabel>CLASS</attributeLabel>
+               <attributeDefinition>landscape classification</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Water</code>
+                              <definition>Water</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Marsh</code>
+                              <definition>Marsh</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Upland</code>
+                              <definition>Upland</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Upland+Marsh</code>
+                              <definition>Upland+Marsh</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>ID</attributeName>
+               <attributeLabel>ID</attributeLabel>
+               <attributeDefinition>ID # used for landscape classification</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">SmallInteger</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>Water</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Marsh</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>Upland</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>Upland+Marsh</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>170</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="calendar year" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-19</weight>
+         <projectId>VCR01071</projectId>
+         <featuredDataGroup>Hog Island Chronosequence</featuredDataGroup>
+         <researchTheme>Landscape change analysis</researchTheme>
+         <researchTheme>State change barrier islands</researchTheme>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

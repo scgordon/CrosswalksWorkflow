@@ -4,3 +4,4 @@
 #Argument 2 is the Recommendation tag. This is the tag element's content for the recommendation components desired.
 
 ./generateSS.sh DataOne ISO-1
+./generateSS.sh IEDA ISO-1
