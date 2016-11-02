@@ -1,4 +1,4 @@
-<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cce.76.2" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cce.76.2" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
   <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
     <allow>
       <principal>uid=CCE,o=lter,dc=ecoinformatics,dc=org</principal>
@@ -47,7 +47,8 @@
       </address>
     </metadataProvider>
     <pubDate>2016</pubDate>
-    <abstract>Picophytoplankton populations and non-pigmented prokaryotes are sampled within the California Current Ecosystem (CCE) for abundances from various depths. Seawater is collected from Niskin bottles and cells are fixed in the field aboard the survey cruises (since 2004, ongoing) with paraformaldehyde, and stained with a DNA-specific dye back in the laboratory. The cells are enumerated by an Altra flow cytometer (with a syringe pump for volumetric sample delivery) simultaniously with argon ion lasers, to distinguish three major populations of photoautotrophs (Prochlorococcus, Synechococcus, and pico-eukaryotes) and the assemblage of heterotrophic prokaryotes collectively referred to as H-Bact. FCM abundance estimates for each are converted to carbon biomass equivalents using mixed-layer estimates.</abstract>
+    <abstract>Picophytoplankton populations and non-pigmented prokaryotes are sampled within the California Current Ecosystem (CCE) for abundances from various depths. Seawater is collected from Niskin bottles and cells are fixed in the field aboard the survey cruises (since 2004, ongoing) with paraformaldehyde, and stained with a DNA-specific dye back in the laboratory. The cells are enumerated by an Altra flow cytometer (with a syringe pump for volumetric sample delivery) simultaniously with
+      argon ion lasers, to distinguish three major populations of photoautotrophs (Prochlorococcus, Synechococcus, and pico-eukaryotes) and the assemblage of heterotrophic prokaryotes collectively referred to as H-Bact. FCM abundance estimates for each are converted to carbon biomass equivalents using mixed-layer estimates.</abstract>
     <keywordSet>
       <keyword>habitats</keyword>
       <keyword>marine</keyword>
@@ -58,10 +59,7 @@
       <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
     </keywordSet>
     <intellectualRights>
-      <para>The data available here are intended for scholarly use by the research community,
-    with the express understanding that data users will properly acknowledge the originating investigator. Use or
-    reproduction of any material herein for any commercial purpose is prohibited without prior written permission
-    from the responsible party.</para>
+      <para>The data available here are intended for scholarly use by the research community, with the express understanding that data users will properly acknowledge the originating investigator. Use or reproduction of any material herein for any commercial purpose is prohibited without prior written permission from the responsible party.</para>
     </intellectualRights>
     <distribution>
       <online>
@@ -107,10 +105,7 @@
         <description>
           <section>
             <title>Picoplankton and Bacteria: Abundance and Biomass</title>
-            <para>CCE - CalCOFI Methods Manual
-CCE - CalCOFI Augmented Cruises
-Picoplankton and Bacteria: Abundance and Biomass
-</para>
+            <para>CCE - CalCOFI Methods Manual CCE - CalCOFI Augmented Cruises Picoplankton and Bacteria: Abundance and Biomass </para>
           </section>
         </description>
         <protocol>
@@ -384,14 +379,14 @@ Picoplankton and Bacteria: Abundance and Biomass
     <metadata>
       <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 stmml.xsd">
         <ns2:unitType id="dimensionless" name="dimensionless">
-          <ns2:dimension name="dimensionless" />
+          <ns2:dimension name="dimensionless"/>
         </ns2:unitType>
         <ns2:unitType id="length" name="length">
-          <ns2:dimension name="length" />
+          <ns2:dimension name="length"/>
         </ns2:unitType>
         <ns2:unitType id="massDensity" name="massDensity">
-          <ns2:dimension name="length" power="-3" />
-          <ns2:dimension name="mass" />
+          <ns2:dimension name="length" power="-3"/>
+          <ns2:dimension name="mass"/>
         </ns2:unitType>
         <ns2:unit abbreviation="" id="kilogramPerCubicMeter" name="kilogramPerCubicMeter" unitType="massDensity">
           <ns2:description>kilogram per cubic meter</ns2:description>
@@ -408,4 +403,4 @@ Picoplankton and Bacteria: Abundance and Biomass
       </ns2:unitList>
     </metadata>
   </additionalMetadata>
-</ns0:eml>
+</eml:eml>
