@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/646143.rdf" xlink:actuate="onRequest">Elemental selenium and particulate Acid-Volatile Sulfide from the U.S. GEOTRACES EPZT,EPZT_Redox_Elements projects of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/646143.rdf" xlink:actuate="onRequest">Particulate Acid-Volatile Sulfide (pAVS) and elemental selenium (pSe) concentrations from a McLane pump collected during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2016-06-03</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-06-03</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2016-06-03</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/646143" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/646143</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,78 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Cutter, Gregory (2016) Particulate Acid-Volatile Sulfide (pAVS) and elemental selenium (pSe) concentrations from a McLane pump collected during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2016-06-03 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/646143 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Particulate Acid-Volatile Sulfide (pAVS) and elemental Selenium (pSe) depth profiles from McLane pump Dataset Description: &amp;lt;p&amp;gt;Data for the concentrations of&amp;amp;nbsp;Particulate Acid-Volatile Sulfide (pAVS)&amp;amp;nbsp;(0.8 mm) in depth profiles from in situ McLane pumps at GEOTRACES EPZT Stations 1-5, 7,&amp;amp;nbsp;9, 11, 13, 17, 18, 20, 21, and 23.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;DMO notes:&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;changed -9999 values in SAMPNO to nd&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;added zeros to pad EVENT_LAT and EVENT_LON where decimal places were not 5 places like most of the dataset.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;orginal name pAVS and&amp;amp;nbsp;pSe(0) changed to conform to GEOTRACES conventions&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;Samples analyzed for acid-volatile sulfides (AVS) were collected on McLane pumps suspended from a trace metal wire (Hytrel-jacketed Vectran). Pumps filtered for four hours, flowing first over a 51-µm polyester pre-filter, then over paired 0.8-µm pore-size, 142-mm Supor polyethersulfone filters. A small portion of the top Supor filter, representing ~2% of the filter area (0.8-51 µm size-fraction material), was sub-sectioned into polyethylene vials and frozen at -85˚C until shipboard AVS analysis, described below. Filter blanks were held within identical filter housings and submerged on one of the deeper pumps on each cast, but were not actively filtered through. Blanks were handled identically to samples during processing, which was conducted in a HEPA-filtered environment using trace metal procedures.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Particulate elemental samples were collected using McLane in situ pumps (P. Lam, UCSC) with splits (section) from a 0.8 µm Supor filter processed immediately in a N&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;-purged glove bag after collection and pump recovery; filter splits were placed and sealed in Tedlar bags and stored at -80°C until analysis. Particulate elemental selenium concentrations were determined using a sulfite leach following Velinsky and Cutter (1990) and analyzed like selenite+selenate following Cutter (1978).&amp;amp;nbsp; Precision was ca. 10% RSD (n=3).&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, Gregory. &amp;quot;Species Determination of Selenium in Natural Waters.&amp;quot; &amp;lt;em&amp;gt;Analytica Chimica Acta &amp;lt;/em&amp;gt;98 (1978): 59-66.&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/S0003-2670(01)83238-4&amp;quot; id=&amp;quot;doi-value&amp;quot; style=&amp;quot;box-sizing: inherit; color: rgb(49, 108, 157); text-decoration: none; background-color: transparent;&amp;quot; target=&amp;quot;_blank&amp;quot; title=&amp;quot;Persistent link using digital object identifier&amp;quot;&amp;gt;doi:10.1016/S0003-2670(01)83238-4&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Velinsky, D.J., and G.A. Cutter. &amp;quot;Determination of elemental selenium and pyrite-selenium in sediments.&amp;quot; &amp;lt;em&amp;gt;Analytica Chimica Acta &amp;lt;/em&amp;gt;235 (1990): 419-425. &amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/S0003-2670(00)82102-9&amp;quot; id=&amp;quot;doi-value&amp;quot; style=&amp;quot;box-sizing: inherit; color: rgb(49, 108, 157); text-decoration: none; background-color: transparent;&amp;quot; target=&amp;quot;_blank&amp;quot; title=&amp;quot;Persistent link using digital object identifier&amp;quot;&amp;gt;doi:10.1016/S0003-2670(00)82102-9&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/646152.rdf" xlink:title="OCE-1235328" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1235328 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1235328&amp;amp;HistoricalAwards=false</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/646152.rdf" xlink:title="OCE-1235328" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1235328 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1235328&amp;amp;HistoricalAwards=false</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -195,6 +294,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -402,7 +509,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -573,7 +680,21 @@
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>From projects that focused on the following 2 locations:  1. Eastern Tropical Pacific - Transect from Peru to Tahiti  2. Eastern Pacific</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -583,7 +704,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from Elemental selenium and particulate Acid-Volatile Sulfide from the U.S. GEOTRACES EPZT,EPZT_Redox_Elements projects of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Particulate Acid-Volatile Sulfide (pAVS) and elemental selenium (pSe) concentrations from a McLane pump collected during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -641,7 +762,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1290,7 +1411,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1308,6 +1429,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1321,13 +1449,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;Samples analyzed for acid-volatile sulfides (AVS) were collected on McLane pumps suspended from a trace metal wire (Hytrel-jacketed Vectran). Pumps filtered for four hours, flowing first over a 51-µm polyester pre-filter, then over paired 0.8-µm pore-size, 142-mm Supor polyethersulfone filters. A small portion of the top Supor filter, representing ~2% of the filter area (0.8-51 µm size-fraction material), was sub-sectioned into polyethylene vials and frozen at -85˚C until shipboard AVS analysis, described below. Filter blanks were held within identical filter housings and submerged on one of the deeper pumps on each cast, but were not actively filtered through. Blanks were handled identically to samples during processing, which was conducted in a HEPA-filtered environment using trace metal procedures.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Particulate elemental samples were collected using McLane in situ pumps (P. Lam, UCSC) with splits (section) from a 0.8 µm Supor filter processed immediately in a N&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;-purged glove bag after collection and pump recovery; filter splits were placed and sealed in Tedlar bags and stored at -80°C until analysis. Particulate elemental selenium concentrations were determined using a sulfite leach following Velinsky and Cutter (1990) and analyzed like selenite+selenate following Cutter (1978).&amp;amp;nbsp; Precision was ca. 10% RSD (n=3).&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, Gregory. &amp;quot;Species Determination of Selenium in Natural Waters.&amp;quot; &amp;lt;em&amp;gt;Analytica Chimica Acta &amp;lt;/em&amp;gt;98 (1978): 59-66.&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/S0003-2670(01)83238-4&amp;quot; id=&amp;quot;doi-value&amp;quot; style=&amp;quot;box-sizing: inherit; color: rgb(49, 108, 157); text-decoration: none; background-color: transparent;&amp;quot; target=&amp;quot;_blank&amp;quot; title=&amp;quot;Persistent link using digital object identifier&amp;quot;&amp;gt;doi:10.1016/S0003-2670(01)83238-4&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Velinsky, D.J., and G.A. Cutter. &amp;quot;Determination of elemental selenium and pyrite-selenium in sediments.&amp;quot; &amp;lt;em&amp;gt;Analytica Chimica Acta &amp;lt;/em&amp;gt;235 (1990): 419-425. &amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/S0003-2670(00)82102-9&amp;quot; id=&amp;quot;doi-value&amp;quot; style=&amp;quot;box-sizing: inherit; color: rgb(49, 108, 157); text-decoration: none; background-color: transparent;&amp;quot; target=&amp;quot;_blank&amp;quot; title=&amp;quot;Persistent link using digital object identifier&amp;quot;&amp;gt;doi:10.1016/S0003-2670(00)82102-9&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1335,6 +1475,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;Samples analyzed in triplicate and means computed. Standard additions of selenite were used for daily calibration on a representative sample and its slope applied to subsequent samples.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Determinations of acid-volatile sulfide (AVS) were made on-board ship and used the method of Cutter and Oatts (Cutter and Oatts, 1987) that includes acidification, gas stripping and cryogenic trapping/preconcentration of the generated hydrogen sulfide. In this case, the filter slice was placed in a glass stripping vessel, 10 mL of deionized water added, and the stripper purged with He. The cryogenic trap was then immersed in liquid nitrogen, 10mL of 1M HCl added through a septum in the stripping vessel and the evolved and trapped hydrogen sulfide was then quantified using the gas chromatography/flame photometric detection method of Radford-Knoery and Cutter (Radford-Knoery and Cutter, 1993). The system was calibrated with hydrogen sulfide from a permeation tube (calibrated diffusion rate) and assuming a filtration volume of at least 5L (median sample volume: 7.9L), the detection limit was 0.2 pmol/L. It should be noted that AVS determined by this method includes monosulfides of iron, zinc, and nickel, but not those with copper or mercury, or mixed oxidation state sulfides such as greigite or pyrite (Cutter and Oatts, 1987; Radford-Knoery and Cutter, 1993).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, G.A. and T.J. Oatts. 1987. Determination of dissolved sulfide and sedimentary sulfur speciation using gas chromatography-photoionization detection.&amp;amp;nbsp; Anal. Chem. 59: 717-721.&amp;amp;nbsp;&amp;lt;strong&amp;gt;DOI:&amp;amp;nbsp;&amp;lt;/strong&amp;gt;&amp;lt;a href=&amp;quot;http://doi.org/10.1021/ac00132a008&amp;quot;&amp;gt;10.1021/ac00132a008&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Radford-Knoery, J. and G.A. Cutter. 1993. Determination of carbonyl sulfide and hydrogen&amp;amp;nbsp;sulfide species in natural waters using specialized collection procedures and gas chromatography with flame photometric detection. Anal. Chem., 65: 976-982.&amp;amp;nbsp;&amp;lt;strong&amp;gt;DOI:&amp;amp;nbsp;&amp;lt;/strong&amp;gt;&amp;lt;a href=&amp;quot;http://doi.org/10.1021/ac00056a005&amp;quot;&amp;gt;10.1021/ac00056a005&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1404,7 +1556,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -1466,45 +1618,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
-                       xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1548,6 +1700,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

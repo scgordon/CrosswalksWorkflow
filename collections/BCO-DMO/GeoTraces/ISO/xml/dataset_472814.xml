@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/472814.rdf" xlink:actuate="onRequest">GT10 - delta-O18 and Deuterium from the U.S. GEOTRACES NAT,GEOTRACES: Intercal Phosphate Oxygen projects of the U.S. GEOTRACES,U.S. GEOTRACES programs</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/472814.rdf" xlink:actuate="onRequest">Depth profiles of seawater d18O and dD from R/V Knorr KN199-04 in the subtropical N. Atlantic Ocean from Oct. 2010 (U.S. GEOTRACES NAT project, GEOTRACES: Intercal Phosphate Oxygen project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2013-12-10</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-12-10</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2013-12-10</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/472814" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/472814</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,94 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/472820.rdf" xlink:actuate="onRequest">Albert Colman</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/81.rdf" xlink:actuate="onRequest">University of Chicago</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Voelker, Antje and Colman, Albert (2013) Depth profiles of seawater d18O and dD from R/V Knorr KN199-04 in the subtropical N. Atlantic Ocean from Oct. 2010 (U.S. GEOTRACES NAT project, GEOTRACES: Intercal Phosphate Oxygen project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2013-12-10 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/472814 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Depth profiles of seawater d18O and dD from 8 stations of the KN199-04 cruise. Dataset Description: &amp;lt;p&amp;gt;This data are published in: Voelker, A.H.L., Colman, A., Olack, G., Waniek, J.J. and Hodell, D., 2015. Oxygen and hydrogen isotope signatures of Northeast Atlantic water masses. Deep Sea Research Part II: Topical Studies in Oceanography, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.dsr2.2014.11.006&amp;quot;&amp;gt;http://dx.doi.org/10.1016/j.dsr2.2014.11.006&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Data for KN204-01 (GT11) not yet submitted. (9 June 2014)&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Methods for Godwin Lab/ A. Voelker data:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Water oxygen and hydrogen isotopes were measured simultaneously by cavity ringdown laser spectroscopy (CRDS) using a L1102-i Picarro water isotope analyzer and A0211 high-precision vaporizer. Each sample was injected nine times into the vaporizer. Memory effects from previous samples were avoided by rejecting the first three analyses. Values for the final six injections were averaged with in-run precision of less than ±0.1 for d18O and ±1 for dD (1-standard deviation). Calibration of results to V-SMOW was achieved by analyzing internal standards before and after each set of 7 or 8 samples. Internal standards were calibrated against V-SMOW, GISP, and SLAP. All results are reported in parts per thousand (o/oo) relative to V-SMOW.&amp;amp;nbsp;&amp;lt;br /&amp;gt;The instrument was calibrated at the start of each run using three working standards from the University of Cambridge (Delta, Botty, Spit) with known values calibrated against V-SMOW, GISP, and SLAP. An internal seawater standard (SPIT) was analysed after every three samples to correct for instrument drift.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Methods for &amp;amp;nbsp;d18O and dD analysis at the University of Chicago&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;All seawater samples were processed on a GasBench II (Thermo, Bremen, Germany) with a CTC GC Pal (CTC analytics) and interfaced to a Delta V Plus isotope ratio mass spectrometer (Thermo). &amp;amp;nbsp;A hydrogen equilibration method using Pt catalyst was used for dD analysis; a classical CO2-H2O equilibration was used for d18O analysis. &amp;amp;nbsp;In both cases, samples were entrained in a helium carrier gas with gas sample cleanup and removal of water vapor achieved on the GasBench II peripheral prior to isotopic analysis in continuous flow mode on the mass spectrometer.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;For D/H analyses, Pt catalyst sticks (Thermo P/N 1091831) were loaded into Exetainer tubes (Labco, 12 mL, screw cap with butyl rubber septa inserts). &amp;amp;nbsp;Water (samples and standards) were added to each tube using fresh 1 mL syringes (BD syringe) and needles (20 or 22 Ga, 1 or 1.5 inch lengths, BD precision Glide), with 300 µL of seawater sample used for all D/H runs. &amp;amp;nbsp;Standards were either primary (VSMOW2, SLAP2, and/or GISP from the IAEA) or house standards calibrated to the primary standards. &amp;amp;nbsp;The exetainers with Pt catalyst and water were loaded into the GasBench II heater block at 26°C in a group of 5 rows of 10 tubes. &amp;amp;nbsp;The CTC GC PAL sampling and flushing needles were side by side and spaced by 5 positions in the heater block. &amp;amp;nbsp;The first set of 5 tubes were flushed (2% H2 in He (Airgas), 20 mL/min), then following a pause, sampling of the first set of tubes was completed coincident with flushing of the adjacent set of tubes. Total incubation time of H2 gas mix with water and Pt catalyst was 68 minutes for each tube (end of flushing to start of analysis). &amp;amp;nbsp;The dD analysis on headspace H2 takes 15 min: 60 sec transfer time, 3 reference gas pulses (20 sec each, 30 and 80 sec spacing, last used as the reference peak) and 8 sample pulses (100 µL sampling loop, 45 sec load time at 0.5 mL/min, 35 second injection time at 1 mL/min, through PoraPlot Q GC column, 25m x 0.32mm, Varian, at 50°C). &amp;amp;nbsp;Typically the middle six sample peaks are used for isotopic composition determination, and linear plot of the peak’s result vs. peak number determined and the value for the first peak in the series is calculated from the slope and intercept.&amp;lt;br /&amp;gt;For d18O runs, capped Exetainer tubes were flushed with 0.3% CO2 in He (Airgas, ca. 20 mL/min) using the PAL autosampler. &amp;amp;nbsp; Then 200 to 300 microliters of seawater or standard was injected into the Exetainer tube as described for the D/H sample injection. &amp;amp;nbsp;The tubes were incubated in the Gasbench II heater block at &amp;amp;nbsp;26°C for 24 hrs before the analysis was initiated. &amp;amp;nbsp;The CTC GC PAL sampling parameters, GasBench II injection loop program and pattern of reference and sample peaks, and peak processing was similar to that described for dD measurements.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Raw d18O analyses are corrected for the fractionation factor between water and CO2 as a function of temperature of equilibration, mass balance between water oxygen and CO2 oxygen present in the tube, and to the isotopic reference materials using standard practices (Friedman and O’Neil). &amp;amp;nbsp; The D/H analyses are corrected to the standards (Nelson, 2000), and then a uniform -2.0 o/oo salt correction (Martineau et al., 2012) is applied to compensate for isotopic enrichment of the headspace H2 for the seawater samples. &amp;amp;nbsp;Both oxygen and hydrogen isotope compositions are reported on the VSMOW scale&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/472816.rdf" xlink:title="OCE-0827122" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0827122 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0827122</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/472816.rdf" xlink:title="OCE-0827122" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0827122 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0827122</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
         <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/472826.rdf" xlink:title="PesT-C/MAR/LA0015/2009" xlink:actuate="onRequest">Funding provided by Centro de Investigacao Marinha e Ambiental (CIMAR) Award Number: PesT-C/MAR/LA0015/2009</gmx:Anchor>
@@ -186,6 +301,46 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/472820.rdf" xlink:actuate="onRequest">Albert Colman</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/81.rdf" xlink:actuate="onRequest">University of Chicago</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>773-834-1278</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Dept. Geophysical Sciences 5734 S. Ellis Ave.</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Chicago</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>IL</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>60637</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>asc25@uchicago.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -196,6 +351,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -463,57 +626,8 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
-          <gmd:MD_AggregateInformation>
-            <gmd:aggregateDataSetName>
-              <gmd:CI_Citation>
-                <gmd:title>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
-                </gmd:title>
-                <gmd:date gco:nilReason="inapplicable"/>
-                <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                    <gmd:contactInfo>
-                      <gmd:CI_Contact>
-                        <gmd:onlineResource>
-                          <gmd:CI_OnlineResource>
-                          <gmd:linkage>
-                            <gmd:URL>http://www.geotraces.org/</gmd:URL>
-                          </gmd:linkage>
-                          <gmd:name>
-                            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program Name" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
-                          </gmd:name>
-                          <gmd:description>
-                            <gco:CharacterString>GEOTRACES is a SCOR sponsored program; and funding for program infrastructure development is provided by the U.S. National Science Foundation.GEOTRACES gained momentum following a special symposium, S02: Biogeochemical cycling of trace elements and isotopes in the ocean and applications to constrain contemporary marine processes (GEOSECS II), at a 2003 Goldschmidt meeting convened in Japan. The GEOSECS II acronym referred to the Geochemical Ocean Section Studies To determine full water column distributions of selected trace elements and isotopes, including their concentration, chemical speciation, and physical form, along a sufficient number of sections in each ocean basin to establish the principal relationships between these distributions and with more traditional hydrographic parameters;* To evaluate the sources, sinks, and internal cycling of these species and thereby characterize more completely the physical, chemical and biological processes regulating their distributions, and the sensitivity of these processes to global change; and* To understand the processes that control the concentrations of geochemical species used for proxies of the past environment, both in the water column and in the substrates that reflect the water column.GEOTRACES will be global in scope, consisting of ocean sections complemented by regional process studies. Sections and process studies will combine fieldwork, laboratory experiments and modelling. Beyond realizing the scientific objectives identified above, a natural outcome of this work will be to build a community of marine scientists who understand the processes regulating trace element cycles sufficiently well to exploit this knowledge reliably in future interdisciplinary studies.</gco:CharacterString>
-                          </gmd:description>
-                          <gmd:function>
-                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
-                          </gmd:function>
-                      </gmd:CI_OnlineResource>
-                    </gmd:onlineResource>
-                  </gmd:CI_Contact>
-                </gmd:contactInfo>
-                <gmd:role/>
-              </gmd:CI_ResponsibleParty>
-            </gmd:citedResponsibleParty>
-          </gmd:CI_Citation>
-        </gmd:aggregateDataSetName>
-          <gmd:aggregateDataSetIdentifier>
-            <gmd:MD_Identifier>
-              <gmd:code>
-                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program Acronym" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
-              </gmd:code>
-            </gmd:MD_Identifier>
-          </gmd:aggregateDataSetIdentifier>
-          <gmd:associationType>
-            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
-          </gmd:associationType>
-          <gmd:initiativeType>
-            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="program">program</gmd:DS_InitiativeTypeCode>
-          </gmd:initiativeType>
-        </gmd:MD_AggregateInformation>
-      </gmd:aggregationInfo><gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
               <gmd:CI_Citation>
@@ -690,15 +804,30 @@
         <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
-                  <gml:timePosition>2013-12-10</gml:timePosition>
-                </gml:TimeInstant>
+                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                  <gml:beginPosition>2010-10-16</gml:beginPosition>
+                  <gml:endPosition>2010-11-02</gml:endPosition>
+                </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -708,7 +837,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from GT10 - delta-O18 and Deuterium from the U.S. GEOTRACES NAT,GEOTRACES: Intercal Phosphate Oxygen projects of the U.S. GEOTRACES,U.S. GEOTRACES programs</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Depth profiles of seawater d18O and dD from R/V Knorr KN199-04 in the subtropical N. Atlantic Ocean from Oct. 2010 (U.S. GEOTRACES NAT project, GEOTRACES: Intercal Phosphate Oxygen project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -766,7 +895,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1814,7 +1943,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1832,6 +1961,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1845,13 +1981,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Methods for Godwin Lab/ A. Voelker data:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Water oxygen and hydrogen isotopes were measured simultaneously by cavity ringdown laser spectroscopy (CRDS) using a L1102-i Picarro water isotope analyzer and A0211 high-precision vaporizer. Each sample was injected nine times into the vaporizer. Memory effects from previous samples were avoided by rejecting the first three analyses. Values for the final six injections were averaged with in-run precision of less than ±0.1 for d18O and ±1 for dD (1-standard deviation). Calibration of results to V-SMOW was achieved by analyzing internal standards before and after each set of 7 or 8 samples. Internal standards were calibrated against V-SMOW, GISP, and SLAP. All results are reported in parts per thousand (o/oo) relative to V-SMOW.&amp;amp;nbsp;&amp;lt;br /&amp;gt;The instrument was calibrated at the start of each run using three working standards from the University of Cambridge (Delta, Botty, Spit) with known values calibrated against V-SMOW, GISP, and SLAP. An internal seawater standard (SPIT) was analysed after every three samples to correct for instrument drift.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Methods for &amp;amp;nbsp;d18O and dD analysis at the University of Chicago&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;All seawater samples were processed on a GasBench II (Thermo, Bremen, Germany) with a CTC GC Pal (CTC analytics) and interfaced to a Delta V Plus isotope ratio mass spectrometer (Thermo). &amp;amp;nbsp;A hydrogen equilibration method using Pt catalyst was used for dD analysis; a classical CO2-H2O equilibration was used for d18O analysis. &amp;amp;nbsp;In both cases, samples were entrained in a helium carrier gas with gas sample cleanup and removal of water vapor achieved on the GasBench II peripheral prior to isotopic analysis in continuous flow mode on the mass spectrometer.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;For D/H analyses, Pt catalyst sticks (Thermo P/N 1091831) were loaded into Exetainer tubes (Labco, 12 mL, screw cap with butyl rubber septa inserts). &amp;amp;nbsp;Water (samples and standards) were added to each tube using fresh 1 mL syringes (BD syringe) and needles (20 or 22 Ga, 1 or 1.5 inch lengths, BD precision Glide), with 300 µL of seawater sample used for all D/H runs. &amp;amp;nbsp;Standards were either primary (VSMOW2, SLAP2, and/or GISP from the IAEA) or house standards calibrated to the primary standards. &amp;amp;nbsp;The exetainers with Pt catalyst and water were loaded into the GasBench II heater block at 26°C in a group of 5 rows of 10 tubes. &amp;amp;nbsp;The CTC GC PAL sampling and flushing needles were side by side and spaced by 5 positions in the heater block. &amp;amp;nbsp;The first set of 5 tubes were flushed (2% H2 in He (Airgas), 20 mL/min), then following a pause, sampling of the first set of tubes was completed coincident with flushing of the adjacent set of tubes. Total incubation time of H2 gas mix with water and Pt catalyst was 68 minutes for each tube (end of flushing to start of analysis). &amp;amp;nbsp;The dD analysis on headspace H2 takes 15 min: 60 sec transfer time, 3 reference gas pulses (20 sec each, 30 and 80 sec spacing, last used as the reference peak) and 8 sample pulses (100 µL sampling loop, 45 sec load time at 0.5 mL/min, 35 second injection time at 1 mL/min, through PoraPlot Q GC column, 25m x 0.32mm, Varian, at 50°C). &amp;amp;nbsp;Typically the middle six sample peaks are used for isotopic composition determination, and linear plot of the peak’s result vs. peak number determined and the value for the first peak in the series is calculated from the slope and intercept.&amp;lt;br /&amp;gt;For d18O runs, capped Exetainer tubes were flushed with 0.3% CO2 in He (Airgas, ca. 20 mL/min) using the PAL autosampler. &amp;amp;nbsp; Then 200 to 300 microliters of seawater or standard was injected into the Exetainer tube as described for the D/H sample injection. &amp;amp;nbsp;The tubes were incubated in the Gasbench II heater block at &amp;amp;nbsp;26°C for 24 hrs before the analysis was initiated. &amp;amp;nbsp;The CTC GC PAL sampling parameters, GasBench II injection loop program and pattern of reference and sample peaks, and peak processing was similar to that described for dD measurements.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Raw d18O analyses are corrected for the fractionation factor between water and CO2 as a function of temperature of equilibration, mass balance between water oxygen and CO2 oxygen present in the tube, and to the isotopic reference materials using standard practices (Friedman and O’Neil). &amp;amp;nbsp; The D/H analyses are corrected to the standards (Nelson, 2000), and then a uniform -2.0 o/oo salt correction (Martineau et al., 2012) is applied to compensate for isotopic enrichment of the headspace H2 for the seawater samples. &amp;amp;nbsp;Both oxygen and hydrogen isotope compositions are reported on the VSMOW scale&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1859,6 +2007,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;Averages were calculated for duplicate measurements.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1928,7 +2088,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -2041,45 +2201,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -2094,7 +2254,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -2123,6 +2283,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

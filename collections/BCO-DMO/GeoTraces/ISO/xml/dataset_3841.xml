@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3841.rdf" xlink:actuate="onRequest">GT10-11 - Particulate trace elements from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3841.rdf" xlink:actuate="onRequest">Trace element concentrations in particles from R/V Knorr KN199-04, KN204-01 in the subtropical North Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2014-03-10</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2014-03-10</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2014-03-10</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3841" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/3841</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,78 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Twining, Benjamin (2014) Trace element concentrations in particles from R/V Knorr KN199-04, KN204-01 in the subtropical North Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2014-03-10 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/3841 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Trace element concentrations in particles Dataset Description: &amp;lt;p&amp;gt;Trace element concentrations in particles collected with GO-Flo bottles (GT10 and GT11) and analyzed with inductively-coupled plasma mass spectrometry (ICP-MS).&amp;amp;nbsp; Concentrations of labile, refractory, and total metal fractions are reported.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Trace element quotas measured in plankton cells with single-cell synchrotron x-ray fluorescence (SXRF) analysis. Total concentrations of cellular metals are reported normalized to cellular P.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Please note that data may not be final, pending intercalibration&amp;amp;nbsp;results and further analysis. If you are interested in following&amp;amp;nbsp;changes to US GEOTRACES data, there is an RSS feed available&amp;amp;nbsp;from the &amp;lt;a href=&amp;quot;http://www.bco-dmo.org/project/2066&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;GEOTRACES-NAT&amp;lt;/a&amp;gt; project page.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;Samples were collected from sub-surface waters using the GEOTRACES GO-Flo rosette. The filtration was performed directly from pressured GO-Flo bottles onto membranes (25-mm diameter Supor 0.45-µm polyethersulfone) mounted in Swinnex polypropylene filter holders. &amp;amp;nbsp;Filters were cleaned following the protocol outlined in the GEOTRACES Sampling Document (Cutter et al. 2010). Pressurization to &amp;amp;lt;8 psi was achieved with 0.2-µm filtered air. &amp;amp;nbsp;Prior to filtration each GO-Flo bottle was gently mixed by manually inverting the bottle several times (after removal of unfiltered salt samples to provide some headspace). &amp;amp;nbsp;Filtration was continued until the entire bottle was empty or 2 hours had elapsed. &amp;amp;nbsp;An average of 6.5-L of water was filtered through each membrane. &amp;amp;nbsp;Filter holders were removed from the GO-Flo bottles and a vacuum applied to remove any residual water. &amp;amp;nbsp;Filters were then folded, stored in acid-washed centrifuge tubes, and frozen at -20ºC until digestion and analysis.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filters were digested in rigorously cleaned 22-mL PFA digestions vials (Savillex). &amp;amp;nbsp;All digestion steps were performed in a Class-100 clean room using standard clean techniques. &amp;amp;nbsp;A subset of filters collected from the shallowest GO-Flo bottle and the deep chlorophyll maximum bottle were first digested in a solution of 25% Optima-grade acetic acid and 0.02 M hydroxylamine hydrochloride following the protocol of Berger et al. (2008). &amp;amp;nbsp;One milliliter of this solution was added to the filter stored in a 1.7-mL polypropylene vial. &amp;amp;nbsp;Following the recommendation of Berger et al. (2008), the solution was heated to 95°C in a water bath for 10 minutes and then allowed to cool to room temperature. The filter was in contact with the acetic acid leach for a total of two hours. The filter was removed to an acid-cleaned PFA bomb and was later digested using the mixture of concentrated acids described below to recover the refractory elements. The acetic acid/hydroxylamine leachate was centrifuged at 14,000 rpm for 10 minutes to sediment all particles. &amp;amp;nbsp;Without disturbing particles on the bottom of the tube, approximately 0.8-mL of leachate was transferred into a 7-mL PFA digestion vial. &amp;amp;nbsp;Optima-grade HNO3 was added (100 µL) to the 7-mL digestion vial, which was subsequently heated uncapped at 110ºC to near dryness. &amp;amp;nbsp;Vial contents were redissolved with 2% HNO3 (Optima grade).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The refractory fraction of particulate metals was then measured on the sample filters. &amp;amp;nbsp;The filter (and any remaining leachate) was transferred to a 22-mL PFA vial, 2-mL of a mixture of 4M HCl, 4M HNO3, and 4M HF (all Optima grade) was added, and the vial was tightly capped and heated to 110°C for 4 hours. &amp;amp;nbsp;This procedure has been determined to be adequate for digestion of all particulate material, while allowing the Supor filter to remain intact (Twining, P. Lam, P. Morton et al., unpublished). &amp;amp;nbsp;Following heating, the acid solution in the bomb was poured into a second PFA vial. To ensure complete transfer of acid, the bombs were thoroughly rinsed with 3 × 0.5-mL aliquots of ultrapure water. This water was also poured into the secondary vial. &amp;amp;nbsp;The secondary vial was then heated to dryness and the contents redissolved with 2-mL of a 50% Optima-grade HNO3 + 15% Optima-grade H2O2 solution. &amp;amp;nbsp;This solution was again dried down and the contents redissolved with 2% HNO3.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filter samples from depths outside of the shallowest bottle and deep chlorophyll maximum bottle were digested only in the HCl/HNO3/HF solution to provide just a ‘total’ particulate metal fraction. &amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All digests were analyzed using a Finnegan-MAT Element2 HR-ICP-MS at the University of Maine following the protocols outlined in Twining et al. (2011). &amp;amp;nbsp;The instrument is equipped with an ESI Apex desolvation nebulizer, an autosampler contained under a HEPA filter, and nickel cones. &amp;amp;nbsp;Cd-111 and Mo-98 were analyzed in low-resolution mode, and the remaining isotopes were analyzed in medium-resolution mode. &amp;amp;nbsp;Multiple isotopes were analyzed for some elements (Fe-56, Fe-57, Zn-66, Zn-68). &amp;amp;nbsp;Concentrations were within 4%, on average, for both Fe isotopes and within 10%, on average, for both Zn isotopes. &amp;amp;nbsp; Concentrations of Fe-56 and Zn-66 are reported here. &amp;amp;nbsp;Quantification was performed by standard addition, and In-115 was used as an internal standard to correct for variations in instrumental sensitivity during analyses.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Digestions of the certified reference materials BCR-414 (plankton, Community Bureau of Reference, Commission of the European Communities) and PACS-2 (marine sediment, National Research Council of Canada) were done alongside sample digestions in order to assess accuracy. &amp;amp;nbsp;Recoveries were typically within 10% of the certified values (and within the error of the data, taken from replicate measurements).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Precision was determined through replicate analyses of digests of three different particle-laden filters collected by Dr. Phoebe Lam (WHOI). &amp;amp;nbsp;These filters were distributed to US GEOTRACES investigators working on particulate trace element analyses. &amp;amp;nbsp;Each filter was digested, and the digestion solutions were separately diluted and analyzed during analytical runs in February, November and December 2012 and July 2013. &amp;amp;nbsp;Coefficients of variation (CV) were calculated from the four analyses for each element, and the results are shown in the ‘precision’ sheet of the attached Excel workbook. &amp;amp;nbsp;Mean precision was generally 10-15% for most elements. &amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;SXRF samples were prepared from unfiltered water taken from GEOTRACES GO-Flo bottles at the shallowest depth and deep chlorophyll maximum. &amp;amp;nbsp;Cells were preserved with 0.25% trace-metal clean buffered glutaraldehyde and centrifuged onto C/formvar-coated Au TEM grids. &amp;amp;nbsp;Grids were briefly rinsed with a drop of ultrapure water and dried in a Class-100 cabinet. &amp;amp;nbsp;SXRF analysis was performed using the 2-ID-E beamline at the Advanced Photon source (Argonne National Laboratory) following the protocols of Twining et al. (2011). &amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55138.rdf" xlink:title="OCE-0928289" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0928289 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=0928289&amp;amp;HistoricalAwards=false</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55138.rdf" xlink:title="OCE-0928289" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0928289 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=0928289&amp;amp;HistoricalAwards=false</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -195,6 +294,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -585,7 +692,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -713,15 +820,30 @@
         <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
-                  <gml:timePosition>2014-03-10</gml:timePosition>
-                </gml:TimeInstant>
+                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                  <gml:beginPosition>2010-10-16</gml:beginPosition>
+                  <gml:endPosition>2011-12-09</gml:endPosition>
+                </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -731,7 +853,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from GT10-11 - Particulate trace elements from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Trace element concentrations in particles from R/V Knorr KN199-04, KN204-01 in the subtropical North Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -789,7 +911,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -3238,7 +3360,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -3256,6 +3378,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -3269,13 +3398,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;Samples were collected from sub-surface waters using the GEOTRACES GO-Flo rosette. The filtration was performed directly from pressured GO-Flo bottles onto membranes (25-mm diameter Supor 0.45-µm polyethersulfone) mounted in Swinnex polypropylene filter holders. &amp;amp;nbsp;Filters were cleaned following the protocol outlined in the GEOTRACES Sampling Document (Cutter et al. 2010). Pressurization to &amp;amp;lt;8 psi was achieved with 0.2-µm filtered air. &amp;amp;nbsp;Prior to filtration each GO-Flo bottle was gently mixed by manually inverting the bottle several times (after removal of unfiltered salt samples to provide some headspace). &amp;amp;nbsp;Filtration was continued until the entire bottle was empty or 2 hours had elapsed. &amp;amp;nbsp;An average of 6.5-L of water was filtered through each membrane. &amp;amp;nbsp;Filter holders were removed from the GO-Flo bottles and a vacuum applied to remove any residual water. &amp;amp;nbsp;Filters were then folded, stored in acid-washed centrifuge tubes, and frozen at -20ºC until digestion and analysis.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filters were digested in rigorously cleaned 22-mL PFA digestions vials (Savillex). &amp;amp;nbsp;All digestion steps were performed in a Class-100 clean room using standard clean techniques. &amp;amp;nbsp;A subset of filters collected from the shallowest GO-Flo bottle and the deep chlorophyll maximum bottle were first digested in a solution of 25% Optima-grade acetic acid and 0.02 M hydroxylamine hydrochloride following the protocol of Berger et al. (2008). &amp;amp;nbsp;One milliliter of this solution was added to the filter stored in a 1.7-mL polypropylene vial. &amp;amp;nbsp;Following the recommendation of Berger et al. (2008), the solution was heated to 95°C in a water bath for 10 minutes and then allowed to cool to room temperature. The filter was in contact with the acetic acid leach for a total of two hours. The filter was removed to an acid-cleaned PFA bomb and was later digested using the mixture of concentrated acids described below to recover the refractory elements. The acetic acid/hydroxylamine leachate was centrifuged at 14,000 rpm for 10 minutes to sediment all particles. &amp;amp;nbsp;Without disturbing particles on the bottom of the tube, approximately 0.8-mL of leachate was transferred into a 7-mL PFA digestion vial. &amp;amp;nbsp;Optima-grade HNO3 was added (100 µL) to the 7-mL digestion vial, which was subsequently heated uncapped at 110ºC to near dryness. &amp;amp;nbsp;Vial contents were redissolved with 2% HNO3 (Optima grade).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The refractory fraction of particulate metals was then measured on the sample filters. &amp;amp;nbsp;The filter (and any remaining leachate) was transferred to a 22-mL PFA vial, 2-mL of a mixture of 4M HCl, 4M HNO3, and 4M HF (all Optima grade) was added, and the vial was tightly capped and heated to 110°C for 4 hours. &amp;amp;nbsp;This procedure has been determined to be adequate for digestion of all particulate material, while allowing the Supor filter to remain intact (Twining, P. Lam, P. Morton et al., unpublished). &amp;amp;nbsp;Following heating, the acid solution in the bomb was poured into a second PFA vial. To ensure complete transfer of acid, the bombs were thoroughly rinsed with 3 × 0.5-mL aliquots of ultrapure water. This water was also poured into the secondary vial. &amp;amp;nbsp;The secondary vial was then heated to dryness and the contents redissolved with 2-mL of a 50% Optima-grade HNO3 + 15% Optima-grade H2O2 solution. &amp;amp;nbsp;This solution was again dried down and the contents redissolved with 2% HNO3.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filter samples from depths outside of the shallowest bottle and deep chlorophyll maximum bottle were digested only in the HCl/HNO3/HF solution to provide just a ‘total’ particulate metal fraction. &amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All digests were analyzed using a Finnegan-MAT Element2 HR-ICP-MS at the University of Maine following the protocols outlined in Twining et al. (2011). &amp;amp;nbsp;The instrument is equipped with an ESI Apex desolvation nebulizer, an autosampler contained under a HEPA filter, and nickel cones. &amp;amp;nbsp;Cd-111 and Mo-98 were analyzed in low-resolution mode, and the remaining isotopes were analyzed in medium-resolution mode. &amp;amp;nbsp;Multiple isotopes were analyzed for some elements (Fe-56, Fe-57, Zn-66, Zn-68). &amp;amp;nbsp;Concentrations were within 4%, on average, for both Fe isotopes and within 10%, on average, for both Zn isotopes. &amp;amp;nbsp; Concentrations of Fe-56 and Zn-66 are reported here. &amp;amp;nbsp;Quantification was performed by standard addition, and In-115 was used as an internal standard to correct for variations in instrumental sensitivity during analyses.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Digestions of the certified reference materials BCR-414 (plankton, Community Bureau of Reference, Commission of the European Communities) and PACS-2 (marine sediment, National Research Council of Canada) were done alongside sample digestions in order to assess accuracy. &amp;amp;nbsp;Recoveries were typically within 10% of the certified values (and within the error of the data, taken from replicate measurements).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Precision was determined through replicate analyses of digests of three different particle-laden filters collected by Dr. Phoebe Lam (WHOI). &amp;amp;nbsp;These filters were distributed to US GEOTRACES investigators working on particulate trace element analyses. &amp;amp;nbsp;Each filter was digested, and the digestion solutions were separately diluted and analyzed during analytical runs in February, November and December 2012 and July 2013. &amp;amp;nbsp;Coefficients of variation (CV) were calculated from the four analyses for each element, and the results are shown in the ‘precision’ sheet of the attached Excel workbook. &amp;amp;nbsp;Mean precision was generally 10-15% for most elements. &amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;SXRF samples were prepared from unfiltered water taken from GEOTRACES GO-Flo bottles at the shallowest depth and deep chlorophyll maximum. &amp;amp;nbsp;Cells were preserved with 0.25% trace-metal clean buffered glutaraldehyde and centrifuged onto C/formvar-coated Au TEM grids. &amp;amp;nbsp;Grids were briefly rinsed with a drop of ultrapure water and dried in a Class-100 cabinet. &amp;amp;nbsp;SXRF analysis was performed using the 2-ID-E beamline at the Advanced Photon source (Argonne National Laboratory) following the protocols of Twining et al. (2011). &amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -3283,6 +3424,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;ICPMS:&amp;lt;/strong&amp;gt; All data were normalized to an In-115 internal standard and quantified using an external standard curve. After accounting for sample dilutions due to acid digestion steps, quantities of each element per filter (pmol/filter) were calculated for each analytical run. The contribution of the &amp;quot;bomb blank&amp;quot; (measured as the element concentration in an empty digestion vial treated like a sample) was then subtracted. We then subtracted the contribution of the &amp;quot;process blank&amp;quot; (measured as the elements contained in an acid-washed filter through which 0.2-micrometer filtered water was passed during the cruise). Separate process blanks were calculated for the labile (acetic acid/hydroxylamine), refractory (HCl/HNO3/HF following acetic acid/hydroxylamine), and total (HCl/HNO3/HF) digestions. The average process blanks for each digestion scheme and each element is given in the &amp;quot;process blanks&amp;quot; pdf document below.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Following blank corrections, element concentrations (per volume of water filtered) were calculated by dividing the pmol/filter measurements by the volume of water passed through each filter (measured volumetrically on the ship following each filtration).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Nearly all of the samples were well above the instrumental detection limits for all elements.&amp;amp;nbsp; The factor limiting our ability to detect particulate elements in the water is the signal associated with the process blank (i.e., the filter substrate itself).&amp;amp;nbsp; We therefore calculated the detection limits for the whole method as 3 times the standard deviation of the process blanks for the relevant digestion procedure (labile, refractory, or total).&amp;amp;nbsp; The elemental content of the process blank (pmol/filter) was converted into a concentration using the average volume filtered for either GO-Flo samples (6.5 L) or surface fish samples (2.8 L).&amp;amp;nbsp; The detection limits are reported.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Three data flags are used:&amp;lt;br /&amp;gt;1: good&amp;lt;br /&amp;gt;2: questionable&amp;lt;br /&amp;gt;3: rejected&amp;lt;br /&amp;gt;4: below detection limit of method&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;SXRF Between 9 and 20 cells were analyzed from the shallowest bottle and deep chlorophyll maximum at the subset of stations. The elemental content of each cell has been corrected for elements contained in the carbon substrate.&amp;amp;nbsp; Trace element concentrations are presented as mmol/mol P.&amp;amp;nbsp; Geometric mean concentrations (+/- standard error of the mean) are presented, along with the number of cells analyzed.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Berger, C. J. M., S. M. Lippiatt, M. G. Lawrence, and K. W. Bruland. 2008. Application of a chemical leach technique for estimating labile particulate aluminum, iron, and manganese in the Columbia River plume and coastal waters off Oregon and Washington. Journal of Geophysical Research-Oceans 113.&amp;lt;br /&amp;gt;Cutter, G. and others 2010. Sampling and sample-handling protocols for GEOTRACES cruises.&amp;lt;br /&amp;gt;Twining, B. S., S. B. Baines, J. B. Bozard, S. Vogt, E. A. Walker, and D. M. Nelson. 2011. Metal quotas of plankton in the equatorial Pacific Ocean. Deep-Sea Research II 58: 325-341.&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related documents:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/KN204-01/GEOTRACES_NAZT_Twining_metadata_CRM_detection_limit.pdf&amp;quot;&amp;gt;GEOTRACES_NAZT_Twining_metadata_CRM_detection_limit.pdf&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/KN204-01/GEOTRACES_NAZT_Twining_metadata_CRM_precision.pdf&amp;quot;&amp;gt;GEOTRACES_NAZT_Twining_metadata_CRM_precision.pdf&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/KN204-01/GEOTRACES_NAZT_Twining_metadata_CRM_process_blanks.pdf&amp;quot;&amp;gt;GEOTRACES_NAZT_Twining_metadata_CRM_process_blanks.pdf&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/KN204-01/GEOTRACES_NAZT_Twining_metadata_CRMs.pdf&amp;quot;&amp;gt;GEOTRACES_NAZT_Twining_metadata_CRMs.pdf&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;After the data were submitted to the International Data Management Office, BODC, the office noticed that important identifying information was missing in many datasets. With the agreement of BODC and the US GEOTRACES lead PIs, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters: station_GEOTRC, cast_GEOTRC (bottle and pump data only), event_GEOTRC, sample_GEOTRC, sample_bottle_GEOTRC (bottle data only), bottle_GEOTRC (bottle data only), depth_GEOTRC_CTD (bottle data only), depth_GEOTRC_CTD_rounded (bottle data only), BTL_ISO_DateTime_UTC (bottle data only), and GeoFish_id (GeoFish data only). This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle_GT10, GT-C_Bottle_GT11, ODF_Bottle_GT10, and ODF_Bottle_GT11 datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the Event_Log_GT10 and Event_Log_GT11 datasets. McLane pump cast numbers missing in event logs were taken from the Particulate Th-234 dataset submitted by Ken Buesseler.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Version information:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;August 2013 -- spreadsheet was resubmitted, replacing previous versions entirely. Reference materials (linked PDF files) were all updated. Awaiting review by contributor. Co and Zn were updated using corrected spreadsheet provided by Twining on Jan. 18 2013.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;December 9, 2013: A completely new version of the data was submitted - a version that corresponds with the others in&amp;amp;nbsp;the project.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-family:inherit; font-size:inherit&amp;quot;&amp;gt;Feb. 18, 2014 --&amp;amp;nbsp;Another revised data file was submitted, 2/18/2014. &amp;amp;nbsp;This one has the plankton data put back in. It was removed for the Intermediate Data Product assembly.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;div&amp;gt;&amp;lt;span style=&amp;quot;font-family:inherit; font-size:inherit&amp;quot;&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-family:inherit; font-size:inherit&amp;quot;&amp;gt;March 10, 2014: depth_PI was removed from displayed data.&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -3352,7 +3505,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -3414,45 +3567,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -3467,7 +3620,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -3516,45 +3669,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -3598,6 +3751,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

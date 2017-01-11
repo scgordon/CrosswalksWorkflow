@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3829.rdf" xlink:actuate="onRequest">GT10-11 - DIC_TA from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3829.rdf" xlink:actuate="onRequest">Inorganic Carbon along US GEOTRACES North Atlantic Transect from R/V Knorr KN199-04, KN204-01 cruises in the subtropical N. Atlantic from 2010-2011 (U.S. GEOTRACES NAT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2012-12-31</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-12-31</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2012-12-31</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3829" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/3829</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,78 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Bates, Nicholas (2012) Inorganic Carbon along US GEOTRACES North Atlantic Transect from R/V Knorr KN199-04, KN204-01 cruises in the subtropical N. Atlantic from 2010-2011 (U.S. GEOTRACES NAT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2012-12-31 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/3829 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Inorganic Carbon data from GT10 and GT11 North Atlantic cruises Dataset Description: &amp;lt;p&amp;gt;Dissolved inorganic carbon (DIC) and total alkalinity (TA) data from the 2010 and 2011 S GEOTRACES North Atlantic Cruises.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Note&amp;lt;/strong&amp;gt;: Data is not to be released until the end of 2013. Please contact PI for access prior to release.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling and Analytical Methodology:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;DIC and TA samples: Sampling from the Niskin followed standard CLIVAR-CO2, GEOTRACES and GO-ship protocols.&amp;amp;nbsp; Samples were collected in ~500 ml Pyrex bottles that were poisoned with 100 μl Hg2Cl, sealed and stored in the dark before analysis back in the laboratory at BIOS. DIC was determined using a high precision (0.05%CV) coulometer based instrument (VINDTA 3C)(Bates et al., 2012).&amp;amp;nbsp; TA was determined by a high- precision (&amp;amp;lt;0.05%CV) potentiometric technique using a VINDTA 2S (Marianda, Germany). Replicate samples were also analyzed at BIOS.&amp;amp;nbsp; Both DIC and TA instruments were routinely calibrated using seawater Certified Reference Material (CRM) from A.G. Dickson, Scripps Institute of Oceanography, and the accuracy of samples compared to CRM’s was less than 0.1% (2 μmoles kg-1).&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55130.rdf" xlink:title="OCE-1132566" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1132566 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1132566</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55130.rdf" xlink:title="OCE-1132566" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1132566 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1132566</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -182,6 +281,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -446,7 +553,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -574,15 +681,30 @@
         <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
-                  <gml:timePosition>2012-12-31</gml:timePosition>
-                </gml:TimeInstant>
+                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                  <gml:beginPosition>2010-10-24</gml:beginPosition>
+                  <gml:endPosition>2011-12-10</gml:endPosition>
+                </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -592,7 +714,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from GT10-11 - DIC_TA from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Inorganic Carbon along US GEOTRACES North Atlantic Transect from R/V Knorr KN199-04, KN204-01 cruises in the subtropical N. Atlantic from 2010-2011 (U.S. GEOTRACES NAT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -650,7 +772,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1079,7 +1201,7 @@
             </gco:MemberName>
           </gmd:sequenceIdentifier>
           <gmd:descriptor>
-            <gco:CharacterString>PI-supplied Description: Dissolved inorganic Carbon.; General Description: dissolved inorganic Carbon; CAUTION; file dependent</gco:CharacterString>
+            <gco:CharacterString>PI-supplied Description: Dissolved inorganic Carbon.; General Description: Dissolved Inorganic Carbon</gco:CharacterString>
           </gmd:descriptor>
           <gmd:units>
             <gml:UnitDefinition gml:id="_parameterUnits31557">
@@ -1644,7 +1766,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1662,6 +1784,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1675,13 +1804,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling and Analytical Methodology:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;DIC and TA samples: Sampling from the Niskin followed standard CLIVAR-CO2, GEOTRACES and GO-ship protocols.&amp;amp;nbsp; Samples were collected in ~500 ml Pyrex bottles that were poisoned with 100 μl Hg2Cl, sealed and stored in the dark before analysis back in the laboratory at BIOS. DIC was determined using a high precision (0.05%CV) coulometer based instrument (VINDTA 3C)(Bates et al., 2012).&amp;amp;nbsp; TA was determined by a high- precision (&amp;amp;lt;0.05%CV) potentiometric technique using a VINDTA 2S (Marianda, Germany). Replicate samples were also analyzed at BIOS.&amp;amp;nbsp; Both DIC and TA instruments were routinely calibrated using seawater Certified Reference Material (CRM) from A.G. Dickson, Scripps Institute of Oceanography, and the accuracy of samples compared to CRM’s was less than 0.1% (2 μmoles kg-1).&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1689,6 +1830,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Data Processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;DIC and TA data have been corrected to CRM values. Quality flags here include:&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;2: good data&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;5: questionable data&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;6: bad data (denoted in data column by -999)&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;9: no data&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO Processing Notes:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Original file submission on 2012.12.21.&amp;amp;nbsp; Corrected file submitted on 2013.01.30.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Edits:&amp;lt;br /&amp;gt;-Parameter names were modified to conform with BCO-DMO conventions.&amp;lt;br /&amp;gt;-Completed metadata parameters for missing fields of duplicate bottles from station 20 bottles 4, 6, 8.&amp;lt;br /&amp;gt;-Removed reference to cruise KN199-05 and cruise parts A and B for cruise KN204-01 in header comments.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Note:&amp;amp;nbsp; bad data values of -999, submitted by the PI, were retained in the data.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing:&amp;lt;/strong&amp;gt;&amp;amp;nbsp; After the data were submitted to the International Data Management Office, BODC, the office noticed that important identifying information was missing in many datasets. With the agreement of BODC and the US GEOTRACES lead PIs, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters: station_GEOTRC, cast_GEOTRC (bottle and pump data only), event_GEOTRC, sample_GEOTRC, sample_bottle_GEOTRC (bottle data only), bottle_GEOTRC (bottle data only), depth_GEOTRC_CTD (bottle data only), depth_GEOTRC_CTD_rounded (bottle data only), BTL_ISO_DateTime_UTC (bottle data only), and GeoFish_id (GeoFish data only). This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle_GT10, GT-C_Bottle_GT11, ODF_Bottle_GT10, and ODF_Bottle_GT11 datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the Event_Log_GT10 and Event_Log_GT11 datasets. McLane pump cast numbers missing in event logs were taken from the Particulate Th-234 dataset submitted by Ken Buesseler.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A standardized BCO-DMO method (called “join”) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the name of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1758,7 +1911,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -1820,45 +1973,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1873,7 +2026,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -1922,45 +2075,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -2004,6 +2157,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

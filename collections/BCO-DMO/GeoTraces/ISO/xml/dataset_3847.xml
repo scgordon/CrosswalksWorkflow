@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3847.rdf" xlink:actuate="onRequest">GT10-11 - Dissolved and Particulate Th and Pa from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3847.rdf" xlink:actuate="onRequest">Depth profiles of dissolved, small and large particulate 232Th, 230Th, and 231Pa from R/V Knorr KN199-04, KN204-01, subtropical North Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2016-05-16</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-05-16</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2016-05-16</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3847" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/3847</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -161,22 +198,116 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51612.rdf" xlink:actuate="onRequest">Martin  Q. Fleisher</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/68.rdf" xlink:actuate="onRequest">Lamont-Doherty Earth Observatory</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51630.rdf" xlink:actuate="onRequest">Dr Hai Cheng</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/278.rdf" xlink:actuate="onRequest">University of Minnesota, Twin Cities</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Anderson, Robert, Edwards, R., Robinson, Laura, Cheng, Hai and Fleisher, Martin (2016) Depth profiles of dissolved, small and large particulate 232Th, 230Th, and 231Pa from R/V Knorr KN199-04, KN204-01, subtropical North Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2016-05-16 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/3847 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Depth profiles of seawater dissolved and small and large particulate 232Th, 230Th, and 231Pa Dataset Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;DMO NOTE:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;- Version 4b: 16 May 2016; metadata text revised.&amp;lt;br /&amp;gt;- Version 4: 29 Sept 2015; combined both dissolved and particulate Th &amp;amp;amp; Pa datasets into one.&amp;lt;br /&amp;gt;- Version 3: 17 Mar 2014; revised dataset&amp;lt;br /&amp;gt;- Version 2: 7 Nov. 2013&amp;lt;br /&amp;gt;- Version 1: 7 Jan 2013&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling Methodology:&amp;amp;nbsp;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dissolved data&amp;lt;/strong&amp;gt;:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Water samples were collected with a Sea-Bird Electronics CTD carousel fitted with&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;12 30-liter PVC Niskin bottles, maintained and operated by the Ocean Data Facility of Scripps Institution of Oceangraphy. The carousel was lowered from the ship with steel wire. Niskin bottles were equipped with nylon-coated closure springs and Viton O-rings. After collection seawater was drained with Teflon-lined Tygon&amp;lt;sup&amp;gt;TM&amp;lt;/sup&amp;gt; tubing and filtered through Pall Acropak&amp;lt;sup&amp;gt;TM&amp;lt;/sup&amp;gt; 500 filters on deck (gravity filtration, 0.8/0.45 μm pore size) into Fisher I-Chem series 300 LDPE cubitainers. Approximately 4-5 L was collected per desired depth. Prior to the cruise, the tubing, filters and cubitainers were cleaned by immersion in 1.2 M HCl (Fisher Scientific Trace Metal Grade) for 4-5 days. Once filtered, samples were adjusted to a pH ~2 with ultra-clean 6 M HCl (Fisher Scientific OPTIMA grade), double-bagged, stored in pallet boxes on-deck until the end of the cruise and then at room temperature once shipped to the participating laboratories for analysis.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Particulate data:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Size-fractionated particles were collected using McLane Research in-situ pumps (WTS-LV) that had been modified to accommodate two flowpaths (Lam and Morris Patent pending).&amp;amp;nbsp;&amp;amp;nbsp; The wire-out was used to target depths during deployment, and a self-recording Seabird 19plus CTD deployed at the end of the line and RBR data loggers attached to three of the eight pumps were used to correct for actual depths during pumping.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filter holders used were 142 mm-diameter “mini-MULVFS” style filter holders with two stages for two size fractions and multiple baffle systems designed to ensure even particle distribution and prevent particle loss (Bishop et al. 2012).&amp;amp;nbsp; One of two filter holder/flowpaths was loaded with a 51µm Sefar polyester mesh prefilter followed by paired 0.8 µm Pall Supor800 polyethersulfone filters.&amp;amp;nbsp; Each cast also had “dipped blank” filters deployed.&amp;amp;nbsp; These were the full filters sets (prefilter followed by paired Supor filters) sandwiched within a 1 µm polyester mesh filter, loaded into perforated polypropylene containers, attached with plastic cable ties to a pump frame, and deployed.&amp;amp;nbsp; Dipped blank filters were exposed to seawater for the length of the deployment and processed and analyzed as regular samples, and thus functioned as full seawater process blanks.&amp;amp;nbsp; We analyzed half portions of the top and bottom filters from the “dipped” blank from 1 or more depths for 7 stations.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All filters and filter holders were acid leached prior to use according to methods recommended in the GEOTRACES sample and sample-handling Protocols (Geotraces 2010).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Analytical methods for dissolved radionuclides:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;LDEO:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In the on-shore laboratory, samples were weighed to determine sample size, taking into account the weight of the cubitainer and of the acid added at sea. Then weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th (20 pg) and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa (0.5 pg) and 15 mg dissolved Fe were added to each sample. After allowing 1 day for spike equilibration, the pH of each sample was raised to 8-8.5 by adding ~10 mL of concentrated NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH (Fisher Scientific OPTIMA grade) which caused iron (oxy)hydroxide precipitates to form. This precipitate was allowed to settle for 1-2 days before the overlaying seawater was siphoned off. The Fe precipitate was transferred to centrifuge tubes for centrifugation and rinsing with Milli-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O (&amp;amp;gt;18 MΩ) to remove the major seawater ions. The precipitate was then dissolved in 16 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; (Fisher Scientific OPTIMA grade) and transferred to a Teflon beaker for a high-temperature (180-200°C) digestion with HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and HF (Fisher Scientific OPTIMA grade) on a hotplate in a HEPA-filtered laminar flow hood. After total dissolution of the sample, another precipitation of iron (oxy)hydroxide followed and the precipitate was washed with Mill-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O, centrifuged, and dissolved in 12 M HCl for a series of anion-exchange chromatography using 6 mL polypropylene columns each containing a 1 mL bed of Bio-rad resin (AG1-X8, 100-200 mesh size) and a 45 μm porous polyethylene frit (Anderson et al. 2012). The final column elutions were dried down at 180°C in the presence of 2 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and taken up in approximately 1 mL of 0.16 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/0.026 M HF for mass spectrometric analysis.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a VG Elemental AXIOM Single Collector Magnetic Sector ICP-MS with a Resolving Power of ~400 to ensure the highest sensitivity. All measurements were done using a peak jumping routine in ion counting mode. A solution of SRM129, a natural U standard, was run to determine&amp;amp;nbsp;the mass bias correction (assuming that the mass fractionation for Th and Pa are the same as for U). Each sample measurement was bracketed by measurement of an aliquot of the run solution,&amp;amp;nbsp;used to correct for the instrument background count rates on the masses measured. To correct for potential tailing of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th into the minor Th and Pa isotopes, beam intensities were measured at the half masses above and below each mass for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa. Tailing under each minor isotope was estimated as the log mean intensity of the half masses on either side of each minor isotope.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Water samples were analyzed in batches of 10-12. Procedural blanks were determined by processing 4-5 L of Milli-Q water in an acid-cleaned cubitainer acidified to pH ~2 with 6 M HCl as a sample in each batch. An aliquot of an intercalibrated working standard solution of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, SW STD 2010-1 referred to by Anderson et al. (2012), was added to a separate cubitainer with 5 L of Milli-Q water (acidified to pH 2) and also processed like a sample in each batch. Total procedural blanks for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa ranged from 4.2-20.9 pg, 0.8-2.2 fg, and 0-0.85 fg, respectively.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;UMN:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In the on-shore laboratory, samples were weighed to determine sample size, taking into account the weight of the cubitainer and of the acid added at sea. Then weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa and several milligrams dissolved Fe were added to each sample. After allowing 3 day for spike equilibration (at a temperature of about 40&amp;lt;sup&amp;gt;o&amp;lt;/sup&amp;gt;C, the pH of each sample was raised to 8-8.5 by adding concentrated NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH which caused iron (oxy)hydroxide precipitates to form. This precipitate was allowed to settle for 1-2 days before the overlaying seawater was siphoned off. The Fe precipitate was transferred to centrifuge tubes for centrifugation and rinsing with deionized H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O (&amp;amp;gt;18 MΩ) to remove the major seawater ions. The precipitate was then dissolved in 14 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; and transferred to a Teflon beaker. It was then dried down and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for anion-exchange chromatography using AG1-X8, 100-200 mesh size resin and polyethylene frit. Initial separation was done on Teflon columns with a 0.75 ml column volume (CV).&amp;amp;nbsp; The sample was loaded in one CV of 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, followed by 1.5 CV of 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, 3 CV of 8N HCl (collect Th fraction), and 3 CV of 8N HCl combined with 0.015N HF (collect Pa fraction).&amp;amp;nbsp; The Pa and Th fractions were then dried down and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;.&amp;amp;nbsp; They were each passed through second and third columns (each with 0.5 ml column volumes) using similar elution schemes.&amp;amp;nbsp; The final Pa and Th fractions were then dried down and dissolved in weak nitric acid for analysis on the mass spectrometer.&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a Thermo-Finnigan Neptune mass spectrometer. All measurements were done using a peak jumping routine in ion counting mode on the discreet dynode multiplier behind the retarding potential quadrupole.&amp;amp;nbsp; A solution of &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;U-&amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U tracer was run to determine the mass bias correction (assuming that the mass fractionation for Th and Pa are the same as for U). Each sample measurement was bracketed by measurement of an aliquot of the run solution used to correct for the instrument background count rates on the masses measured.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Procedural blanks for chemical and mass spectrometric analyses at Minnesota are about 700 fg for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, 15 ag for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and 20 ag for &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa.&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Further details on Pa and Th analysis at the U. Minnesota laboratory are given in Shen et al. (2002, 2003, 2012) and Cheng et al. (2000).&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;WHOI:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In the on-shore laboratory, the analytical procedures followed the protocols described in Auro et al. (2012). Briefly, samples were weighed to determine sample size, taking into account the weight of the cubitainer. Then weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa and ~100 mg dissolved Fe were added to each sample. After allowing 1 day for spike equilibration, the pH of each sample was raised to 7.5-8 by adding ~10 mL of concentrated NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH (Fisher Scientific OPTIMA grade) which caused iron (oxy)hydroxide precipitates to form. This precipitate was allowed to settle for 5-7 days before the overlaying water was siphoned off. The Fe precipitate and remaining water was transferred to polypropylene centrifuge tubes for centrifugation and rinsing with pH 8 Milli-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O (&amp;amp;gt;18 MΩ) to remove the major seawater ions. The precipitate was then transferred into Teflon centrifuge tubes, re-rinsed and dissolved in 12 M HCl (Fisher Scientific OPTIMA grade) for a series of anion-exchange chromatography using 10 mL polypropylene columns each containing a 0.5 mL bed of Eichrom Technologies pre-filter resin in addition to 5 mL Anion Exchange Resin (1x8, 100-200 mesh; Eichrom Technologies) for Th elution and 1.5 mL Anion Exchange Resin for Pa. A &amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U tracer was added to the Th fraction to assist in monitoring signal intensity changes during mass spectrometry. The final column elutions were dried down at 150°C in the presence of 1 mL of 16 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; (Fisher Scienntific OPTIMA grade) and taken up in 1 mL of 0.8 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/0.13 M HF for mass spectrometric analysis.&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a Neptune Multi Collector ICP-MS (Auro et al. 2012). Thorium isotopes were measured using a peak jumping routine with &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th analyzed on the central Secondary Electron Multiplier (SEM) and &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U measured concurrently on Faraday collectors. Mass bias and ion counter yields were corrected for using an in-house thorium standard. Peak tails were calculated from the &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th intensity using the pre-determined size of the tail at 2 and 3 amu for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th respectively. Accuracy was assessed using a secondary consistency standard made at WHOI.&amp;amp;nbsp; &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa were analyzed simultaneously on ion counting channels. A solution of CRM145, a natural U standard, was run to determine the mass bias (assuming that the mass fractionation for Th and Pa are the same as for U) and ion counter yields. Sample measurements were bracketed by measurement of an aliquot of the run solution, used to correct for the instrument background count rates on the masses measured. To correct for potential tailing onto the Pa isotopes, beam intensities were measured at the half masses.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Water samples were analyzed in batches of 10-12. Procedural blanks were determined by processing 4-5 L of Milli-Q water in an acid-cleaned cubitainer acidified to pH ~2 with 12 M HCl as a sample in each batch. One or two aliquots of an intercalibrated working standard solution of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, SW STD 2010-1 referred to by Anderson et al. (2012), was added to a separate cubitainer with 5 L of Milli-Q water (acidified to pH 2) and also processed like a sample with each batch. Total procedural blanks for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa (with the exception of one batch described below) ranged from 3-15 pg, 0.1- 0.9 fg, and 0.1-1.1 fg respectively. One batch had an anomalously high &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th blank of &amp;amp;gt;2500pg (with &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa of 4.4 and 0.3 fg respectively) which was found to be due to a batch of contaminated acid. The &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th concentrations for that batch are not reported.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Further details on sampling and analysis are given by Anderson et al. (2012).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Analytical Methods for particulate radionuclides:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The Supor filters were subsampled in an on-shore laboratory at the Woods Hole Oceanographic Institution and shipped to the participating labs for Pa/Th analysis. Twenty-five to 50% of the paired Supor filters, representing 55-350 L of seawater, were used for Pa/Th analysis. Analyses were similar but differed slightly for the Lamont-Doherty Earth Observatory, WHOI and the University of Minnesota. Details of each groups methodologies can be found in reports by Anderson et al. (2012), Auro et al. (2012) and Shen et al. (2002, 2003, 2012), respectively. Below we give a typical procedure used at LDEO for illustrative purposes.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;LDEO procedures:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filters were folded into 60 mL Teflon jars and weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th (1 pg) and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa (0.3-0.4 pg) and 7-8 mg dissolved Fe were added to each sample. Filters were first heated in ~5 mL 8 N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for 1-2 hours at 150°C, then 4-5 mL HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; was added and heat was increased to 200°C until dense white fumes appeared for ~10-20 min. The heat was then reduced to 180°C and the samples were covered with a Teflon watch cover. After 1-4 hrs, oxidation of the Supor material accelerated, sometimes producing a foam. A foamed sample would be allowed to cool, and re-heated after the beaker walls and watch cover were washed with small amounts of HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; or Milli-Q water. When the Supor material was largely broken down, the watch covers were removed and HF was added in 2 aliquots of ~10-15 drops in between reheating until attaining dense HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; fumes for at least 10 min.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;After total dissolution of the sample, the sample-HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; residue was taken up in dilute HCl, and transferred to 50 mL centrifuge tubes with water rinses. Ten to 20 drops of NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH were added to raise pH to 8-8.5 when iron (oxy)hydroxide precipitated. This precipitate was then centrifuged, decanted, washed with Milli-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O, centrifuged, and dissolved in 12 M HCl for a series of anion-exchange chromatography using 6 mL polypropylene columns each containing a 1 mL bed of Bio-rad resin (AG1-X8, 100-200 mesh size) and a 45 μm porous polyethylene frit (Anderson et al. 2012). The final column elutions were dried down at 180°C in the presence of 2 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and taken up in approximately 1 mL of 0.16 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/0.026 M HF for mass spectrometric analysis. All acids and bases used were Fisher Chemical OPTIMA grade.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a Thermo Scientific Element XR Inductively-couple plasma mass spectrometer (ICP-MS) in low resolution. All measurements were done using a peak jumping routine in ion counting mode. A solution of SRM129, a natural U standard, was run to determine the mass bias correction (assuming that the mass fractionation for Th and Pa are the same as for U). Each sample measurement was bracketed by measurement of an aliquot of the run solution, used to correct for the instrument background count rates on the masses measured. To correct for potential tailing of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th into the minor Th and Pa isotopes, beam intensities were measured at the half masses above and below each mass for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa. Tailing under each minor isotope was estimated as the log mean intensity of the half masses on either side of each minor isotope.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In addition to laboratory procedural blanks (reagents/labware blanks) and periodic measurements of an intercalibrated working standard solution of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, SW STD 2010-1 referred to by Anderson et al. (2012), the participating labs also analyzed a number (n = 23) of “dipped blank” filters, mentioned above, to determine the total blank, associated with the sample collection and handling in addition to the laboratory procedure.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;For better statistics, we pooled all procedural blank corrected “dipped” blanks (n = 23) to determine filter blank corrections. “Dipped” filter blanks for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were from 156 ± 57 pg, 5.8 ± 2.0 fg, and 0.12 ± 0.04 fg, respectively. Total blanks were &amp;amp;lt; 10% of the measured isotope amounts, except shallower than 200 m water depth, where blanks could be on the order of 50% of the measured &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa.&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We define the limit of detection as 3 times the standard deviation in the measured “dipped” blanks (170 pg &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, 6.0 fg &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and 0.13 fg &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa). There were 5 samples for which &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa was considered below detection, and all other samples were above the cited limits.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Further details on analysis of seawater particulate radionuclides are given by Anderson et al. (2012).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;UMN Procedures:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filters were folded into 30 mL Teflon beaker and weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa were added. Filters were first completely submerged in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; acid combined with 10 drops HF, tightly covered with a Teflon threaded cap and heated for 10 hours at 200°F so that the particulate sample was dissolved/leached under pressure. The leach solution was then transferred to a second acid-cleaned Teflon beaker separate from the residual filter.&amp;amp;nbsp; 5 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; were then added to the leach solution in the second beaker.&amp;amp;nbsp; The original beaker walls and caps were washed with small amounts of weak HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; and the resulting solution added to the second beaker. The solution was then dried down and was taken up in 2N HCl, and transferred to 15ml centrifuge tubes along with a 2N HCl rinse. One drop of dissolved Fe and six to nine drops of NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH were added to raise pH to 8-8.5 at which time iron (oxy)hydroxide precipitated.&amp;amp;nbsp; This precipitate was then centrifuged, decanted, washed with deionized H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O (&amp;amp;gt;18 MΩ), centrifuged, and dissolved in 14M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; and transferred to a Teflon beaker. It was then dried down and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for anion-exchange chromatography using AG1-X8, 100-200 mesh resin and a polyethylene frit. Initial separation was done on Teflon columns (internal diameter ~ 0.35cm) with a ~0.55 ml column volume (CV).&amp;amp;nbsp; The sample was loaded in one CV of 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, followed by 1.5 CV of 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, 3 CV of 8N HCl (collect Th fraction), and 3 CV of 8N HCl combined with 0.015N HF (collect Pa fraction).&amp;amp;nbsp; The Pa and Th fractions were then dried down in the presence of 2 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;.&amp;amp;nbsp; They were each passed through second and third columns (each with ~0.55 ml column volumes) using similar elution schemes.&amp;amp;nbsp; The final Pa and Th fractions were then dried down in the presence of 2 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and dissolved in weak nitric acid for analysis on the mass spectrometer.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a Thermo-Finnigan Neptune mass spectrometer. All measurements were done using a peak jumping routine in ion counting mode on the discreet dynode multiplier behind the retarding potential quadrupole.&amp;amp;nbsp; A solution of &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;U-&amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U tracer was run to determine the mass bias correction (assuming that the mass fractionation for Th and Pa are the same as for U). Each sample measurement was bracketed by measurement of an aliquot of a wash solution, used to correct for the instrument background count rates on the masses measured.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Particulate samples were analyzed in batches of 37 to 39.&amp;amp;nbsp; An aliquot of an intercalibrated working standard solution of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, SW STD 2010-1, was added to a separate acid-cleaned Teflon beaker along with weighed aliquots of &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th spike and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa spike. Spike and Standard were equilibrated for 3 days. The solution was then dried down and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for anion-exchange chromatography using AG1-X8, 100-200 mesh resin and a polyethylene frit, and processed like a sample. In addition to laboratory procedural blanks (reagents/labware blanks), a number of “dipped blank” filters were also processed like samples, to determine the total blank, associated with the sample collection and handling, in addition to the laboratory procedure.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;WHOI procedures (Microwave-assisted acid digestion):&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample digestions were accomplished by microwave-assisted acid digestion performed in a Multiwave 3000 (Anton Paar GmbH, Graz, Austria) instrument. Each sample (1/2 filter) were cut into two quarter filters, and put into two pre-cleaned microwave PFA vessels with 12 mL of Aqua Regia (HCl : HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;= 3:1) and 0.3 mL of HF for the sample digestion. The microwave procedure consisted of three main steps: (1) a 20 min power increasing ramp; (2) the power was electronically adjusted to maintain the internal temperature (600W) at 200°C for 90 min, and (3) a 20 min power decreasing ramp. During the session, the temperature ranged from 190°C and 230°C from one vessel to the other.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The two digested quarter filters were combined into one full sample (1/2 filter). Each sample was transferred to 50mL teflon centrifuge tubes with milliQ water rinses. Purified Fe was added to each sample, which was then spiked with &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa and &amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U (Auro et al 2012), and allowed to equilibrate for at least one day. Ten to 20 drops of NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH were added to raise pH to 7.5-8.0 when iron (oxy)hydroxide precipitated. This precipitate was centrifuged, the supernatant decanted, and the remaining precipitate rinsed with pH 8 Milli-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O, centrifuged, and dissolved in concentrated HCl. The sample was purified and separated using a series of anion-exchange chromatography steps (Auro et al 2012) using 7 mL polypropylene columns each containing Eichrom resin (AG1-X8, 200-400 mesh) and Eichrom pre-filter resin (100-150 μm). The final column elutions were dried down at 180°C and re-dissolved in one drop of concentrated HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;. Dried down and taken up in approximately 1 mL of 5% HNO3+0.13N HF and 1 drop of concentrated HNO3 for mass spectrometric analysis. All acids and bases used were Fisher Chemical OPTIMA grade.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution (&amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th-&amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa spikes) using isotopic ratios determined on a Thermo Scientific Neptune Multi-Collector Inductively-couple plasma mass spectrometer (MC-ICP-MS) coupled to Cetac Aridus I in Low-Resolution mode (Auro et al 2012). For the Th isotopes, measurements on &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th were done using a “peak-hopping” method where &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th were each analyzed on the central SEM. The &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th beam was analyzed in both steps on Faraday Cup, allowing direct determinations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th/&amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th/&amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th. Mass bias correction was assessed using the uranium standard of CRM-145 (assuming that the mass fractionation for Th and Pa are the same as for U), and the accuracy of the method was evaluated by two in-house standards (ThSGS and ThB, Robinson et al., 2005; Auro et al., 2012). For the Pa isotopes, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa were analyzed on the Multi-Ion Counts (MICs) simultaneously. The yield for each ion counters was checked using the mass bias corrected &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;U/&amp;lt;sup&amp;gt;238&amp;lt;/sup&amp;gt;U ratio of CRM-145 uranium standard. To correct for potential tailing of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th into the minor Th and Pa isotopes, beam intensities were measured at the half masses above and below each mass for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa. Tailing under each minor isotope was estimated as the log mean intensity of the half masses on either side of each minor isotope.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Parameter names, definitions and units notes:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Radionuclide concentrations are given as micro-Becquerel (10-6 Bq, µBq or micro-Bq) per kg seawater for 230Th and 231Pa, and pmol (10-12 mol) per kg seawater for 232Th. A Becquerel is the SI unit for radioactivity and is defined as 1 disintegration per second. These units are recommended by the GEOTRACES community.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;“Dissolved” (D) here refers to that which passed through a 0.45 µm AcropakTM 500 filter capsule sampled from conventional Niskin bottles. This is true for all dissolved samples except for a select number that came from a towed pumping system designed to collect uncontaminated water at 2-3 m depth, indicated by FISH or Stn-GeoF in the sample bottle type. Surface Fish samples were filtered by a 0.2 µm Osmonics filter capsule, unlike Niskin samples.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The “small particulate” (SP) data refers to the particle size class 0.8-51 µm and is sometimes also called the “suspended” size fraction. The “large particulate” (LP) data refers to particles greater than 51 µm and sometimes referred to as the “sinking” size fraction. The particulate samples were collected by in-situ pumping over paired 0.8mm Pall Supor800 polyethersulfone filters behind a 51 mm Sefar polyester mesh prefilter (See Lam et al. 2015 for particulate sampling methodology). Analysis of the paired Supor filters represents a particle size class approximating 0.45-51 µm (Bishop et al. 2012), while the top filter alone represents 0.8-51 µm and it is this size class referred to here as the small particulate fraction. We measured a select number of top and bottom filters separately for radionuclides and found that the bottom filters had radionuclide levels that were indistinguishable from clean filter process blanks. Therefore whether or not samples were analyzed as top and bottom paired, or the top filter alone, we infer the small particulate data to represent 0.8-51 µm particles. The large particulate data is based on analysis of the 51 µm Sefar polyester mesh prefilter. Only a small selection of large particle samples (16) were analyzed at the University of Minnesota.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;For dissolved, seawater was weighed directly in the laboratory to determine sample size, taking into account acid added at sea. For particulates, sample size was measured by volume (liters) of seawater pumped by mass flow controllers on the in-situ pumps, but we converted seawater volume to seawater mass using a fixed seawater density of 1.025 kg/L. Concentrations below detection are listed as “bdl”. The abbreviation “nd” refers to no data available.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Parameter names in the form such as “Th_232_D_CONC_BOTTLE” are adopted based on a recommendation from the GEOTRACES community (http://www.egeotraces.org/Parameter_Naming_Conventions.html).&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This is compiled data produced by three laboratories with the following associations: Lamont-Doherty Earth Observatory of Columbia University (LDEO), Woods Hole Oceanographic Institution (WHOI) and the University of Minnesota (UMN).&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The primary reference for the dissolved data is Hayes et al. (2015, Deep-Sea Research Part II) and for the particulate data, Hayes et al. (2015, Marine Chemistry).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;See also &amp;lt;a href=&amp;quot;http://data.bco-dmo.org/US_GEOTRACES/AtlanticSection/Anderson/Notes_on_derived_parameters_2016-05-16.pdf&amp;quot;&amp;gt;Notes on Derived Parameters&amp;lt;/a&amp;gt; (pdf), which include those containing 'XS' or 'ADS' in their name.&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55143.rdf" xlink:title="OCE-0927064" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0927064 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927064</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55143.rdf" xlink:title="OCE-0927064" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0927064 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927064</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55144.rdf" xlink:title="OCE-0926860" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0926860 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0926860</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55144.rdf" xlink:title="OCE-0926860" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0926860 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0926860</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55145.rdf" xlink:title="OCE-0927754" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0927754 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927754</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55145.rdf" xlink:title="OCE-0927754" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0927754 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927754</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -303,6 +434,88 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51612.rdf" xlink:actuate="onRequest">Martin  Q. Fleisher</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/68.rdf" xlink:actuate="onRequest">Lamont-Doherty Earth Observatory</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>845-365-8632</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>233 Comer Bldg. 61 Route 9W</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Palisades</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>NY</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>10964</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>martyq@ldeo.columbia.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51630.rdf" xlink:actuate="onRequest">Dr Hai Cheng</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/278.rdf" xlink:actuate="onRequest">University of Minnesota, Twin Cities</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>612-624-9598</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>108 Pillsbury Hall 310 Pillsbury Dr. SE</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Minneapolis</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>MN</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>55455</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>cheng021@umn.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -313,6 +526,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -685,7 +906,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -813,15 +1034,30 @@
         <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
-                  <gml:timePosition>2016-05-16</gml:timePosition>
-                </gml:TimeInstant>
+                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                  <gml:beginPosition>2010-10-16</gml:beginPosition>
+                  <gml:endPosition>2011-12-10</gml:endPosition>
+                </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -831,7 +1067,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from GT10-11 - Dissolved and Particulate Th and Pa from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Depth profiles of dissolved, small and large particulate 232Th, 230Th, and 231Pa from R/V Knorr KN199-04, KN204-01, subtropical North Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -889,7 +1125,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -2897,7 +3133,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -2915,6 +3151,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -2928,13 +3171,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling Methodology:&amp;amp;nbsp;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dissolved data&amp;lt;/strong&amp;gt;:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Water samples were collected with a Sea-Bird Electronics CTD carousel fitted with&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;12 30-liter PVC Niskin bottles, maintained and operated by the Ocean Data Facility of Scripps Institution of Oceangraphy. The carousel was lowered from the ship with steel wire. Niskin bottles were equipped with nylon-coated closure springs and Viton O-rings. After collection seawater was drained with Teflon-lined Tygon&amp;lt;sup&amp;gt;TM&amp;lt;/sup&amp;gt; tubing and filtered through Pall Acropak&amp;lt;sup&amp;gt;TM&amp;lt;/sup&amp;gt; 500 filters on deck (gravity filtration, 0.8/0.45 μm pore size) into Fisher I-Chem series 300 LDPE cubitainers. Approximately 4-5 L was collected per desired depth. Prior to the cruise, the tubing, filters and cubitainers were cleaned by immersion in 1.2 M HCl (Fisher Scientific Trace Metal Grade) for 4-5 days. Once filtered, samples were adjusted to a pH ~2 with ultra-clean 6 M HCl (Fisher Scientific OPTIMA grade), double-bagged, stored in pallet boxes on-deck until the end of the cruise and then at room temperature once shipped to the participating laboratories for analysis.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Particulate data:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Size-fractionated particles were collected using McLane Research in-situ pumps (WTS-LV) that had been modified to accommodate two flowpaths (Lam and Morris Patent pending).&amp;amp;nbsp;&amp;amp;nbsp; The wire-out was used to target depths during deployment, and a self-recording Seabird 19plus CTD deployed at the end of the line and RBR data loggers attached to three of the eight pumps were used to correct for actual depths during pumping.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filter holders used were 142 mm-diameter “mini-MULVFS” style filter holders with two stages for two size fractions and multiple baffle systems designed to ensure even particle distribution and prevent particle loss (Bishop et al. 2012).&amp;amp;nbsp; One of two filter holder/flowpaths was loaded with a 51µm Sefar polyester mesh prefilter followed by paired 0.8 µm Pall Supor800 polyethersulfone filters.&amp;amp;nbsp; Each cast also had “dipped blank” filters deployed.&amp;amp;nbsp; These were the full filters sets (prefilter followed by paired Supor filters) sandwiched within a 1 µm polyester mesh filter, loaded into perforated polypropylene containers, attached with plastic cable ties to a pump frame, and deployed.&amp;amp;nbsp; Dipped blank filters were exposed to seawater for the length of the deployment and processed and analyzed as regular samples, and thus functioned as full seawater process blanks.&amp;amp;nbsp; We analyzed half portions of the top and bottom filters from the “dipped” blank from 1 or more depths for 7 stations.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All filters and filter holders were acid leached prior to use according to methods recommended in the GEOTRACES sample and sample-handling Protocols (Geotraces 2010).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Analytical methods for dissolved radionuclides:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;LDEO:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In the on-shore laboratory, samples were weighed to determine sample size, taking into account the weight of the cubitainer and of the acid added at sea. Then weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th (20 pg) and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa (0.5 pg) and 15 mg dissolved Fe were added to each sample. After allowing 1 day for spike equilibration, the pH of each sample was raised to 8-8.5 by adding ~10 mL of concentrated NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH (Fisher Scientific OPTIMA grade) which caused iron (oxy)hydroxide precipitates to form. This precipitate was allowed to settle for 1-2 days before the overlaying seawater was siphoned off. The Fe precipitate was transferred to centrifuge tubes for centrifugation and rinsing with Milli-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O (&amp;amp;gt;18 MΩ) to remove the major seawater ions. The precipitate was then dissolved in 16 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; (Fisher Scientific OPTIMA grade) and transferred to a Teflon beaker for a high-temperature (180-200°C) digestion with HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and HF (Fisher Scientific OPTIMA grade) on a hotplate in a HEPA-filtered laminar flow hood. After total dissolution of the sample, another precipitation of iron (oxy)hydroxide followed and the precipitate was washed with Mill-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O, centrifuged, and dissolved in 12 M HCl for a series of anion-exchange chromatography using 6 mL polypropylene columns each containing a 1 mL bed of Bio-rad resin (AG1-X8, 100-200 mesh size) and a 45 μm porous polyethylene frit (Anderson et al. 2012). The final column elutions were dried down at 180°C in the presence of 2 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and taken up in approximately 1 mL of 0.16 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/0.026 M HF for mass spectrometric analysis.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a VG Elemental AXIOM Single Collector Magnetic Sector ICP-MS with a Resolving Power of ~400 to ensure the highest sensitivity. All measurements were done using a peak jumping routine in ion counting mode. A solution of SRM129, a natural U standard, was run to determine&amp;amp;nbsp;the mass bias correction (assuming that the mass fractionation for Th and Pa are the same as for U). Each sample measurement was bracketed by measurement of an aliquot of the run solution,&amp;amp;nbsp;used to correct for the instrument background count rates on the masses measured. To correct for potential tailing of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th into the minor Th and Pa isotopes, beam intensities were measured at the half masses above and below each mass for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa. Tailing under each minor isotope was estimated as the log mean intensity of the half masses on either side of each minor isotope.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Water samples were analyzed in batches of 10-12. Procedural blanks were determined by processing 4-5 L of Milli-Q water in an acid-cleaned cubitainer acidified to pH ~2 with 6 M HCl as a sample in each batch. An aliquot of an intercalibrated working standard solution of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, SW STD 2010-1 referred to by Anderson et al. (2012), was added to a separate cubitainer with 5 L of Milli-Q water (acidified to pH 2) and also processed like a sample in each batch. Total procedural blanks for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa ranged from 4.2-20.9 pg, 0.8-2.2 fg, and 0-0.85 fg, respectively.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;UMN:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In the on-shore laboratory, samples were weighed to determine sample size, taking into account the weight of the cubitainer and of the acid added at sea. Then weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa and several milligrams dissolved Fe were added to each sample. After allowing 3 day for spike equilibration (at a temperature of about 40&amp;lt;sup&amp;gt;o&amp;lt;/sup&amp;gt;C, the pH of each sample was raised to 8-8.5 by adding concentrated NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH which caused iron (oxy)hydroxide precipitates to form. This precipitate was allowed to settle for 1-2 days before the overlaying seawater was siphoned off. The Fe precipitate was transferred to centrifuge tubes for centrifugation and rinsing with deionized H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O (&amp;amp;gt;18 MΩ) to remove the major seawater ions. The precipitate was then dissolved in 14 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; and transferred to a Teflon beaker. It was then dried down and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for anion-exchange chromatography using AG1-X8, 100-200 mesh size resin and polyethylene frit. Initial separation was done on Teflon columns with a 0.75 ml column volume (CV).&amp;amp;nbsp; The sample was loaded in one CV of 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, followed by 1.5 CV of 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, 3 CV of 8N HCl (collect Th fraction), and 3 CV of 8N HCl combined with 0.015N HF (collect Pa fraction).&amp;amp;nbsp; The Pa and Th fractions were then dried down and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;.&amp;amp;nbsp; They were each passed through second and third columns (each with 0.5 ml column volumes) using similar elution schemes.&amp;amp;nbsp; The final Pa and Th fractions were then dried down and dissolved in weak nitric acid for analysis on the mass spectrometer.&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a Thermo-Finnigan Neptune mass spectrometer. All measurements were done using a peak jumping routine in ion counting mode on the discreet dynode multiplier behind the retarding potential quadrupole.&amp;amp;nbsp; A solution of &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;U-&amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U tracer was run to determine the mass bias correction (assuming that the mass fractionation for Th and Pa are the same as for U). Each sample measurement was bracketed by measurement of an aliquot of the run solution used to correct for the instrument background count rates on the masses measured.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Procedural blanks for chemical and mass spectrometric analyses at Minnesota are about 700 fg for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, 15 ag for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and 20 ag for &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa.&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Further details on Pa and Th analysis at the U. Minnesota laboratory are given in Shen et al. (2002, 2003, 2012) and Cheng et al. (2000).&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;WHOI:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In the on-shore laboratory, the analytical procedures followed the protocols described in Auro et al. (2012). Briefly, samples were weighed to determine sample size, taking into account the weight of the cubitainer. Then weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa and ~100 mg dissolved Fe were added to each sample. After allowing 1 day for spike equilibration, the pH of each sample was raised to 7.5-8 by adding ~10 mL of concentrated NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH (Fisher Scientific OPTIMA grade) which caused iron (oxy)hydroxide precipitates to form. This precipitate was allowed to settle for 5-7 days before the overlaying water was siphoned off. The Fe precipitate and remaining water was transferred to polypropylene centrifuge tubes for centrifugation and rinsing with pH 8 Milli-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O (&amp;amp;gt;18 MΩ) to remove the major seawater ions. The precipitate was then transferred into Teflon centrifuge tubes, re-rinsed and dissolved in 12 M HCl (Fisher Scientific OPTIMA grade) for a series of anion-exchange chromatography using 10 mL polypropylene columns each containing a 0.5 mL bed of Eichrom Technologies pre-filter resin in addition to 5 mL Anion Exchange Resin (1x8, 100-200 mesh; Eichrom Technologies) for Th elution and 1.5 mL Anion Exchange Resin for Pa. A &amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U tracer was added to the Th fraction to assist in monitoring signal intensity changes during mass spectrometry. The final column elutions were dried down at 150°C in the presence of 1 mL of 16 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; (Fisher Scienntific OPTIMA grade) and taken up in 1 mL of 0.8 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/0.13 M HF for mass spectrometric analysis.&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a Neptune Multi Collector ICP-MS (Auro et al. 2012). Thorium isotopes were measured using a peak jumping routine with &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th analyzed on the central Secondary Electron Multiplier (SEM) and &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U measured concurrently on Faraday collectors. Mass bias and ion counter yields were corrected for using an in-house thorium standard. Peak tails were calculated from the &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th intensity using the pre-determined size of the tail at 2 and 3 amu for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th respectively. Accuracy was assessed using a secondary consistency standard made at WHOI.&amp;amp;nbsp; &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa were analyzed simultaneously on ion counting channels. A solution of CRM145, a natural U standard, was run to determine the mass bias (assuming that the mass fractionation for Th and Pa are the same as for U) and ion counter yields. Sample measurements were bracketed by measurement of an aliquot of the run solution, used to correct for the instrument background count rates on the masses measured. To correct for potential tailing onto the Pa isotopes, beam intensities were measured at the half masses.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Water samples were analyzed in batches of 10-12. Procedural blanks were determined by processing 4-5 L of Milli-Q water in an acid-cleaned cubitainer acidified to pH ~2 with 12 M HCl as a sample in each batch. One or two aliquots of an intercalibrated working standard solution of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, SW STD 2010-1 referred to by Anderson et al. (2012), was added to a separate cubitainer with 5 L of Milli-Q water (acidified to pH 2) and also processed like a sample with each batch. Total procedural blanks for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa (with the exception of one batch described below) ranged from 3-15 pg, 0.1- 0.9 fg, and 0.1-1.1 fg respectively. One batch had an anomalously high &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th blank of &amp;amp;gt;2500pg (with &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa of 4.4 and 0.3 fg respectively) which was found to be due to a batch of contaminated acid. The &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th concentrations for that batch are not reported.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Further details on sampling and analysis are given by Anderson et al. (2012).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Analytical Methods for particulate radionuclides:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The Supor filters were subsampled in an on-shore laboratory at the Woods Hole Oceanographic Institution and shipped to the participating labs for Pa/Th analysis. Twenty-five to 50% of the paired Supor filters, representing 55-350 L of seawater, were used for Pa/Th analysis. Analyses were similar but differed slightly for the Lamont-Doherty Earth Observatory, WHOI and the University of Minnesota. Details of each groups methodologies can be found in reports by Anderson et al. (2012), Auro et al. (2012) and Shen et al. (2002, 2003, 2012), respectively. Below we give a typical procedure used at LDEO for illustrative purposes.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;LDEO procedures:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filters were folded into 60 mL Teflon jars and weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th (1 pg) and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa (0.3-0.4 pg) and 7-8 mg dissolved Fe were added to each sample. Filters were first heated in ~5 mL 8 N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for 1-2 hours at 150°C, then 4-5 mL HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; was added and heat was increased to 200°C until dense white fumes appeared for ~10-20 min. The heat was then reduced to 180°C and the samples were covered with a Teflon watch cover. After 1-4 hrs, oxidation of the Supor material accelerated, sometimes producing a foam. A foamed sample would be allowed to cool, and re-heated after the beaker walls and watch cover were washed with small amounts of HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; or Milli-Q water. When the Supor material was largely broken down, the watch covers were removed and HF was added in 2 aliquots of ~10-15 drops in between reheating until attaining dense HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; fumes for at least 10 min.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;After total dissolution of the sample, the sample-HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; residue was taken up in dilute HCl, and transferred to 50 mL centrifuge tubes with water rinses. Ten to 20 drops of NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH were added to raise pH to 8-8.5 when iron (oxy)hydroxide precipitated. This precipitate was then centrifuged, decanted, washed with Milli-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O, centrifuged, and dissolved in 12 M HCl for a series of anion-exchange chromatography using 6 mL polypropylene columns each containing a 1 mL bed of Bio-rad resin (AG1-X8, 100-200 mesh size) and a 45 μm porous polyethylene frit (Anderson et al. 2012). The final column elutions were dried down at 180°C in the presence of 2 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and taken up in approximately 1 mL of 0.16 M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/0.026 M HF for mass spectrometric analysis. All acids and bases used were Fisher Chemical OPTIMA grade.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a Thermo Scientific Element XR Inductively-couple plasma mass spectrometer (ICP-MS) in low resolution. All measurements were done using a peak jumping routine in ion counting mode. A solution of SRM129, a natural U standard, was run to determine the mass bias correction (assuming that the mass fractionation for Th and Pa are the same as for U). Each sample measurement was bracketed by measurement of an aliquot of the run solution, used to correct for the instrument background count rates on the masses measured. To correct for potential tailing of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th into the minor Th and Pa isotopes, beam intensities were measured at the half masses above and below each mass for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa. Tailing under each minor isotope was estimated as the log mean intensity of the half masses on either side of each minor isotope.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In addition to laboratory procedural blanks (reagents/labware blanks) and periodic measurements of an intercalibrated working standard solution of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, SW STD 2010-1 referred to by Anderson et al. (2012), the participating labs also analyzed a number (n = 23) of “dipped blank” filters, mentioned above, to determine the total blank, associated with the sample collection and handling in addition to the laboratory procedure.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;For better statistics, we pooled all procedural blank corrected “dipped” blanks (n = 23) to determine filter blank corrections. “Dipped” filter blanks for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were from 156 ± 57 pg, 5.8 ± 2.0 fg, and 0.12 ± 0.04 fg, respectively. Total blanks were &amp;amp;lt; 10% of the measured isotope amounts, except shallower than 200 m water depth, where blanks could be on the order of 50% of the measured &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa.&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We define the limit of detection as 3 times the standard deviation in the measured “dipped” blanks (170 pg &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, 6.0 fg &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, and 0.13 fg &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa). There were 5 samples for which &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa was considered below detection, and all other samples were above the cited limits.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Further details on analysis of seawater particulate radionuclides are given by Anderson et al. (2012).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;UMN Procedures:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filters were folded into 30 mL Teflon beaker and weighed aliquots of the artificial isotope yield monitors &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa were added. Filters were first completely submerged in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; acid combined with 10 drops HF, tightly covered with a Teflon threaded cap and heated for 10 hours at 200°F so that the particulate sample was dissolved/leached under pressure. The leach solution was then transferred to a second acid-cleaned Teflon beaker separate from the residual filter.&amp;amp;nbsp; 5 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; were then added to the leach solution in the second beaker.&amp;amp;nbsp; The original beaker walls and caps were washed with small amounts of weak HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; and the resulting solution added to the second beaker. The solution was then dried down and was taken up in 2N HCl, and transferred to 15ml centrifuge tubes along with a 2N HCl rinse. One drop of dissolved Fe and six to nine drops of NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH were added to raise pH to 8-8.5 at which time iron (oxy)hydroxide precipitated.&amp;amp;nbsp; This precipitate was then centrifuged, decanted, washed with deionized H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O (&amp;amp;gt;18 MΩ), centrifuged, and dissolved in 14M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; and transferred to a Teflon beaker. It was then dried down and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for anion-exchange chromatography using AG1-X8, 100-200 mesh resin and a polyethylene frit. Initial separation was done on Teflon columns (internal diameter ~ 0.35cm) with a ~0.55 ml column volume (CV).&amp;amp;nbsp; The sample was loaded in one CV of 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, followed by 1.5 CV of 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, 3 CV of 8N HCl (collect Th fraction), and 3 CV of 8N HCl combined with 0.015N HF (collect Pa fraction).&amp;amp;nbsp; The Pa and Th fractions were then dried down in the presence of 2 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;.&amp;amp;nbsp; They were each passed through second and third columns (each with ~0.55 ml column volumes) using similar elution schemes.&amp;amp;nbsp; The final Pa and Th fractions were then dried down in the presence of 2 drops of HClO&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; and dissolved in weak nitric acid for analysis on the mass spectrometer.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution using nuclide ratios determined on a Thermo-Finnigan Neptune mass spectrometer. All measurements were done using a peak jumping routine in ion counting mode on the discreet dynode multiplier behind the retarding potential quadrupole.&amp;amp;nbsp; A solution of &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;U-&amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U tracer was run to determine the mass bias correction (assuming that the mass fractionation for Th and Pa are the same as for U). Each sample measurement was bracketed by measurement of an aliquot of a wash solution, used to correct for the instrument background count rates on the masses measured.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Particulate samples were analyzed in batches of 37 to 39.&amp;amp;nbsp; An aliquot of an intercalibrated working standard solution of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, SW STD 2010-1, was added to a separate acid-cleaned Teflon beaker along with weighed aliquots of &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th spike and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa spike. Spike and Standard were equilibrated for 3 days. The solution was then dried down and taken up in 7N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for anion-exchange chromatography using AG1-X8, 100-200 mesh resin and a polyethylene frit, and processed like a sample. In addition to laboratory procedural blanks (reagents/labware blanks), a number of “dipped blank” filters were also processed like samples, to determine the total blank, associated with the sample collection and handling, in addition to the laboratory procedure.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;WHOI procedures (Microwave-assisted acid digestion):&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample digestions were accomplished by microwave-assisted acid digestion performed in a Multiwave 3000 (Anton Paar GmbH, Graz, Austria) instrument. Each sample (1/2 filter) were cut into two quarter filters, and put into two pre-cleaned microwave PFA vessels with 12 mL of Aqua Regia (HCl : HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;= 3:1) and 0.3 mL of HF for the sample digestion. The microwave procedure consisted of three main steps: (1) a 20 min power increasing ramp; (2) the power was electronically adjusted to maintain the internal temperature (600W) at 200°C for 90 min, and (3) a 20 min power decreasing ramp. During the session, the temperature ranged from 190°C and 230°C from one vessel to the other.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The two digested quarter filters were combined into one full sample (1/2 filter). Each sample was transferred to 50mL teflon centrifuge tubes with milliQ water rinses. Purified Fe was added to each sample, which was then spiked with &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa and &amp;lt;sup&amp;gt;236&amp;lt;/sup&amp;gt;U (Auro et al 2012), and allowed to equilibrate for at least one day. Ten to 20 drops of NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;OH were added to raise pH to 7.5-8.0 when iron (oxy)hydroxide precipitated. This precipitate was centrifuged, the supernatant decanted, and the remaining precipitate rinsed with pH 8 Milli-Q H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O, centrifuged, and dissolved in concentrated HCl. The sample was purified and separated using a series of anion-exchange chromatography steps (Auro et al 2012) using 7 mL polypropylene columns each containing Eichrom resin (AG1-X8, 200-400 mesh) and Eichrom pre-filter resin (100-150 μm). The final column elutions were dried down at 180°C and re-dissolved in one drop of concentrated HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;. Dried down and taken up in approximately 1 mL of 5% HNO3+0.13N HF and 1 drop of concentrated HNO3 for mass spectrometric analysis. All acids and bases used were Fisher Chemical OPTIMA grade.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa were calculated by isotope dilution (&amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th-&amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa spikes) using isotopic ratios determined on a Thermo Scientific Neptune Multi-Collector Inductively-couple plasma mass spectrometer (MC-ICP-MS) coupled to Cetac Aridus I in Low-Resolution mode (Auro et al 2012). For the Th isotopes, measurements on &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th were done using a “peak-hopping” method where &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th were each analyzed on the central SEM. The &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th beam was analyzed in both steps on Faraday Cup, allowing direct determinations of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th/&amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th/&amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th. Mass bias correction was assessed using the uranium standard of CRM-145 (assuming that the mass fractionation for Th and Pa are the same as for U), and the accuracy of the method was evaluated by two in-house standards (ThSGS and ThB, Robinson et al., 2005; Auro et al., 2012). For the Pa isotopes, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa were analyzed on the Multi-Ion Counts (MICs) simultaneously. The yield for each ion counters was checked using the mass bias corrected &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;U/&amp;lt;sup&amp;gt;238&amp;lt;/sup&amp;gt;U ratio of CRM-145 uranium standard. To correct for potential tailing of &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th into the minor Th and Pa isotopes, beam intensities were measured at the half masses above and below each mass for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, and &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa. Tailing under each minor isotope was estimated as the log mean intensity of the half masses on either side of each minor isotope.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Parameter names, definitions and units notes:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Radionuclide concentrations are given as micro-Becquerel (10-6 Bq, µBq or micro-Bq) per kg seawater for 230Th and 231Pa, and pmol (10-12 mol) per kg seawater for 232Th. A Becquerel is the SI unit for radioactivity and is defined as 1 disintegration per second. These units are recommended by the GEOTRACES community.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;“Dissolved” (D) here refers to that which passed through a 0.45 µm AcropakTM 500 filter capsule sampled from conventional Niskin bottles. This is true for all dissolved samples except for a select number that came from a towed pumping system designed to collect uncontaminated water at 2-3 m depth, indicated by FISH or Stn-GeoF in the sample bottle type. Surface Fish samples were filtered by a 0.2 µm Osmonics filter capsule, unlike Niskin samples.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The “small particulate” (SP) data refers to the particle size class 0.8-51 µm and is sometimes also called the “suspended” size fraction. The “large particulate” (LP) data refers to particles greater than 51 µm and sometimes referred to as the “sinking” size fraction. The particulate samples were collected by in-situ pumping over paired 0.8mm Pall Supor800 polyethersulfone filters behind a 51 mm Sefar polyester mesh prefilter (See Lam et al. 2015 for particulate sampling methodology). Analysis of the paired Supor filters represents a particle size class approximating 0.45-51 µm (Bishop et al. 2012), while the top filter alone represents 0.8-51 µm and it is this size class referred to here as the small particulate fraction. We measured a select number of top and bottom filters separately for radionuclides and found that the bottom filters had radionuclide levels that were indistinguishable from clean filter process blanks. Therefore whether or not samples were analyzed as top and bottom paired, or the top filter alone, we infer the small particulate data to represent 0.8-51 µm particles. The large particulate data is based on analysis of the 51 µm Sefar polyester mesh prefilter. Only a small selection of large particle samples (16) were analyzed at the University of Minnesota.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;For dissolved, seawater was weighed directly in the laboratory to determine sample size, taking into account acid added at sea. For particulates, sample size was measured by volume (liters) of seawater pumped by mass flow controllers on the in-situ pumps, but we converted seawater volume to seawater mass using a fixed seawater density of 1.025 kg/L. Concentrations below detection are listed as “bdl”. The abbreviation “nd” refers to no data available.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Parameter names in the form such as “Th_232_D_CONC_BOTTLE” are adopted based on a recommendation from the GEOTRACES community (http://www.egeotraces.org/Parameter_Naming_Conventions.html).&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This is compiled data produced by three laboratories with the following associations: Lamont-Doherty Earth Observatory of Columbia University (LDEO), Woods Hole Oceanographic Institution (WHOI) and the University of Minnesota (UMN).&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The primary reference for the dissolved data is Hayes et al. (2015, Deep-Sea Research Part II) and for the particulate data, Hayes et al. (2015, Marine Chemistry).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;See also &amp;lt;a href=&amp;quot;http://data.bco-dmo.org/US_GEOTRACES/AtlanticSection/Anderson/Notes_on_derived_parameters_2016-05-16.pdf&amp;quot;&amp;gt;Notes on Derived Parameters&amp;lt;/a&amp;gt; (pdf), which include those containing 'XS' or 'ADS' in their name.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -2942,6 +3197,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;The reported errors for radionuclide concentrations represent the propagation of one sigma errors based on the standard isotope ratios collected by ICP-MS, estimated error in the &amp;lt;sup&amp;gt;229&amp;lt;/sup&amp;gt;Th or &amp;lt;sup&amp;gt;233&amp;lt;/sup&amp;gt;Pa spike concentration, and the blank correction of the individual isotopes for each sample batch.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Analysis of all samples was completed over the course of several years. A correction was made to account for the ingrowth of &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa due to the decay of the natural &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;U and &amp;lt;sup&amp;gt;235&amp;lt;/sup&amp;gt;U preserved in the acidified samples during the period of time between sample collection and U-Th/Pa separation during anion exchange chromatography. Thus, the reported &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa concentrations have been corrected to represent their concentrations at the time of sampling. U concentrations in the samples were estimated using the bottle salinity (S) measured from the CTD and the U-Salinity relationship in seawater (Owens et al. 2011), [U] = (0.100 * S – 0.326) ng U (g seawater)&amp;lt;sup&amp;gt;-1&amp;lt;/sup&amp;gt;. We used seawater U-isotopic compositions of &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;U/&amp;lt;sup&amp;gt;238&amp;lt;/sup&amp;gt; U = 1.1468 activity ratio (Andersen et al., 2010), and &amp;lt;sup&amp;gt;238&amp;lt;/sup&amp;gt;U/&amp;lt;sup&amp;gt;235&amp;lt;/sup&amp;gt;U = 137.824 mole ratio (Weyer et al., 2008), to calculate [&amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;U] and [&amp;lt;sup&amp;gt;235&amp;lt;/sup&amp;gt;U] respectively based on [U].&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Individual uncertainties for thorium were calculated to include contributions from (a) blank correction using the variance of the blanks measured over the course of the analyses, (b) standard error of the ratios of the analysis (typically close to counting statistics) and (c) spike calibration. For Pa we also included assessment of the correction from the yield correction, mass bias and machine background. In order to assess the reproducibility of the procedure, repeat analyses were performed on the GEOTRACES 2010-1 standard. For standards run with the GEOTRACES intercalibration and section samples the reproducibility for each isotope was 0.9% for &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, 0.8% for &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th and 3.6% for &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Primary references for this data set:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Hayes, C.T., Anderson, R.F., Fleisher, M.Q., Huang, K.-F., Robinson, L.F., Lu, Y., Cheng, H., Edwards, R.L. and Moran, S.B, 2015. 230Th and 231Pa on GEOTRACES GA03, the U.S. GEOTRACES North Atlantic transect, and implications for modern and paleoceanographic chemical fluxes. Deep-Sea Res. II 116, 29-41.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Hayes, C.T., Anderson, R.F., Fleisher, M.Q., Vivancos, S.M., Lam, P.J., Ohnemus, D.C., Huang, K.-F., Robinson, L.F., Lu, Y., Cheng, H., Edwards, R.L. and Moran, S.B., 2015. Intensity of Th and Pa scavenging partitioned by particle chemistry in the North Atlantic Ocean. Marine Chemistry 170, 49-60.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional references:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Andersen, M.B., Stirling, C.H., Zimmermann, B., Halliday, A.N., 2010. Precise determination of the open ocean 234U/238U composition. Geochem. Geophys. Geosyst. 11, Q12003.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Anderson, R.F., Fleisher, M.Q., Robinson, L.F., Edwards, R.L., Hoff, J., Moran, S.B., Rutgers van der Loeff, M.M., Thomas, A.L., Roy-Barman, M., François, R., 2012. GEOTRACES intercalibration of &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th, &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa, and prospects for &amp;lt;sup&amp;gt;10&amp;lt;/sup&amp;gt;Be. Limnol. Oceanogr. Methods 10, 179-213.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Auro ME, LF Robinson, A Burke, LI Bradtmiller, MQ Fleisher, RF Anderson &amp;lt;a href=&amp;quot;http://scholar.google.com/citations?view_op=view_citation&amp;amp;amp;hl=en&amp;amp;amp;user=BDcH7_oAAAAJ&amp;amp;amp;cstart=20&amp;amp;amp;citation_for_view=BDcH7_oAAAAJ:ldfaerwXgEUC&amp;quot;&amp;gt;Improvements to 232-thorium, 230-thorium, and 231-protactinium analysis in seawater arising from GEOTRACES intercalibration&amp;lt;/a&amp;gt; Limnology and Oceanography, Methods 10, 464-474.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Chen, J.H., Edwards, R.L., Wasserburg, G.J., 1986. &amp;lt;sup&amp;gt;238&amp;lt;/sup&amp;gt;U, &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;U and &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th in seawater. Earth Planet. Sci. Lett. 80, 241-251.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Chen, J.H., Lawrence Edwards, R., Wasserburg, G.J., 1986. &amp;lt;sup&amp;gt;238&amp;lt;/sup&amp;gt;U, &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;U and &amp;lt;sup&amp;gt;232&amp;lt;/sup&amp;gt;Th in seawater. Earth Planet. Sci. Lett. 80, 241-251.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cheng, H., Edwards, R.L., Hoff, J., Gallup, C.D., Richards, D.A., and Asmerom, Y.&amp;amp;nbsp; 2000.&amp;amp;nbsp; The half-lives of uranium-234 and thorium-230.&amp;amp;nbsp; Chemical Geology 169, 17-33.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cheng, H., Edwards, R.L., Shen, C.-C., Polyak, V.J., Asmerom, Y., Woodhead, J., Hellstrom, J., Wang, Y.J., Kong, X.G.,&amp;amp;nbsp; SpÖtl, C., Wang, X.F., and E.Calvin Alexander Jr. 2013. Improvements in &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th dating, &amp;lt;sup&amp;gt;230&amp;lt;/sup&amp;gt;Th and &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;U half-life values, and U–Th isotopic measurements by multi-collector inductively coupled plasma mass spectrometry. Earth and Planetary Science Letters 371-372, 82-91.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Lam, P.J., Ohnemus, D.C. and Auro, M.E., 2015. Size-fractionated major particle composition and concentrations from the US GEOTRACES North Atlantic Zonal Transect. Deep-Sea Res. II 116, 303-320.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Owens, S.A., Buesseler, K.O., Sims, K.W.W., 2011. Re-evaluating the 238U-salinity relationship in seawater: Implications for the 238U–234Th disequilibrium method. Marine Chemistry 127, 31-39.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Rev. Geophys. 33 (2), 241–265.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Roy-Barman, M., Coppola, L. and Souhaut, M. (2002) Thorium isotopes in the western Mediterranean Sea: an insight into the marine particle dynamics. Earth Planet. Sci. Lett. 196, 161-174.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Shen, C.-C., Cheng, H., Edwards, R.L., Thomas, R.B. and Moran, S.B.&amp;amp;nbsp; 2003.&amp;amp;nbsp; Attogram-sized &amp;lt;sup&amp;gt;231&amp;lt;/sup&amp;gt;Pa Analysis in Dissolved and Particulate fractions of Seawater by Thermal Ionization Mass Spectroscopy.&amp;amp;nbsp; Analytical Chemistry v. 75, issue 5, 1075-1079.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Shen, C.-C., Edwards, R.L., Cheng, H., Dorale, J.A., Thomas, R.B., Moran, S.B., Weinstein, S., and Edmonds, H.N.&amp;amp;nbsp; 2002.&amp;amp;nbsp; Uranium and thorium isotopic and concentration measurements by magnetic sector inductively coupled plasma mass spectrometry.&amp;amp;nbsp; Chemical Geology 185. no. 3-4, 165-178.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Shen, C.C., Wu, C.C., Cheng, H., Edwards, R.L., Hsieh, Y.T., Gallet, S., Chang, C.C., Li, T.Y., Lam, D.D., Kano, A, Hori, M. and Spotl, C.&amp;amp;nbsp; 2012. High-precision and high-resolution carbonate Th-230 dating by MC-ICP-MS with SEM protocols. Geochimica Cosmochim. Acta 99, 71-86.&amp;amp;nbsp; DOI: 10.1016/j.gca.2012.09.018.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Taylor, S.R., McLennan, S.M., 1995. The geochemical evolution of the continental crust.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Weyer, S., Anbar, A.D., Gerdes, A., Gordon, G.W., Algeo, T.J., Boyle, E.A., 2008. Natural fractionation of 238U/235U. Geochim. Cosmochim. Acta 72, 345-359.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing performed by BCO-DMO:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;After the data were submitted to the International Data Management Office, BODC, the office noticed that important identifying information was missing in many datasets. With the agreement of BODC and the US GEOTRACES lead PIs, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters: station_GEOTRC, cast_GEOTRC (bottle and pump data only), event_GEOTRC, sample_GEOTRC, sample_bottle_GEOTRC (bottle data only), bottle_GEOTRC (bottle data only), depth_GEOTRC_CTD (bottle data only), depth_GEOTRC_CTD_rounded (bottle data only), BTL_ISO_DateTime_UTC (bottle data only), and GeoFish_id (GeoFish data only). This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle_GT10, GT-C_Bottle_GT11, ODF_Bottle_GT10, and ODF_Bottle_GT11 datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the Event_Log_GT10 and Event_Log_GT11 datasets. McLane pump cast numbers missing in event logs were taken from the Particulate Th-234 dataset submitted by Ken Buesseler.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A standardized BCO-DMO method (called “join”) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the name of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;- Version 4b: 16 May 2016; metadata text revised.&amp;lt;br /&amp;gt;- Version 4: 29 Sep 2015; combined both dissolved and particulate Th &amp;amp;amp; Pa datasets into one.&amp;lt;br /&amp;gt;- Version 3: 17 Mar 2014; revised dataset Th&amp;amp;amp;Pa dissolved&amp;lt;br /&amp;gt;- Version 2: 7 Nov. 2013&amp;lt;br /&amp;gt;- Version 1: 9 Jan 2013&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -3011,7 +3278,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -3124,45 +3391,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -3177,7 +3444,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -3226,45 +3493,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -3308,6 +3575,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

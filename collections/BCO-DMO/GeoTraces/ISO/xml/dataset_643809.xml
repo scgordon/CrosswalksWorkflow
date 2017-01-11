@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -109,10 +109,47 @@
                 <gco:Date>2016-06-21</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-06-21</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2016-06-21</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/643809" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/643809</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,78 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: John, Seth (2016) Dissolved (0.4 micron filtered) Fe, Zn and Cd isotope ratios and concentrations across GEOTRACES-EPZT, from cruise TN303, 2013. Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2016-06-21 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/643809 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Dissolved (0.4 micron filtered) Fe, Zn and Cd isotope ratios and concentrations across GEOTRACES-EPZT Dataset Description: &amp;lt;p&amp;gt;The FISH and BOTTLE data have been split into separate columns as per GEOTRACES Parameter Naming Conventions. The&amp;amp;nbsp;FISH data are to the far right.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;* To access the data with the FISH and BOTTLE data merged, see:&amp;lt;br /&amp;gt;http://data.bco-dmo.org/jg/serv/BCO/GEOTRACES/EPZT/Fe_Zn_Cd_diss_joined.html0%7Bdir=data.bco-dmo.org/jg/dir/BCO/GEOTRACES/EPZT/,info=data.bco-dmo.org/jg/info/BCO/GEOTRACES/EPZT/Fe_Zn_Cd_diss%7D&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related References:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Conway, T.M., Rosenberg, A.D., Adkins, J.F., and S.G. John.&amp;amp;nbsp; 2013.&amp;amp;nbsp; A new method for precise determination of iron, zinc and cadmium stable isotope ratios in seawater by double-spike mass spectrometry.&amp;amp;nbsp; Analytica Chimica Acta, 793:&amp;amp;nbsp; 44-52.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;John, S.&amp;amp;nbsp; 2012.&amp;amp;nbsp; Optimizing sample and spike concentrations for isotopic analysis by double-spike ICP-MS.&amp;amp;nbsp; Journal of Analytical Atomic Spectrometry, 27:&amp;amp;nbsp; 2123-2131.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;Samples were provided from the GEOTRACES trace-metal clean sampling rosette and were sampled into acid-cleaned 1L or 4L LDPE bottles by the onboard GEOTRACES clean sampling team. Upon receipt of samples on shore, they were acidified to pH 2 using clean hydrochloric acid and left at this pH for at least 3 months before processing.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A preliminary analysis of Fe, Zn, and Cd concentration was performed by extraction of 10 mL seawater onto Nobias PA-1 resin at pH 5-7 and analysis on an Element ICPMS by isotope dilution. These data are generally not reported, except in rare cases where the concentration data based on 1L samples was not available. Data generated by this method are flagged (see below).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Every sample was simultaneously extracted and purified for the analysis of delta&amp;lt;sup&amp;gt;56&amp;lt;/sup&amp;gt;Fe, delta&amp;lt;sup&amp;gt;66&amp;lt;/sup&amp;gt;Zn, delta&amp;lt;sup&amp;gt;114&amp;lt;/sup&amp;gt;Cd, [Fe], [Zn], and [Cd] using published methods (Conway &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;., 2013). Briefly, Fe, Zn, and Cd double-spikes were added to the acidified samples and allowed to equilibrate for &amp;amp;gt; 1 hour. Metals were then extracted from seawater onto an ethylenediaminetriacetic acid resin (Nobias PA-1; Hitachi) for 2 hours at pH 2 and 2 hours at pH between 6-6.3. Metals were eluted off this resin using 3 N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and were then purified by anion exchange chromatography before being reconstituted in 0.1 N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for analysis.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations and stable isotope ratios were determined simultaneously by analysis on a Neptune multi-collector ICP-MS. Fe and Zn were analyzed in high resolution mode, while Cd was analyzed in low resolution mode. Every sample was analyzed twice, and the mean isotope ratios are presented here, expressed relative to international isotope standards. Instrumental and procedural isotopic fractionation was corrected for using a double-spike data reduction scheme.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations were calculated using isotope-dilution to calculate ng of metal per sample, and then converted to nmol kg&amp;lt;sup&amp;gt;-1&amp;lt;/sup&amp;gt; or pmol kg&amp;lt;sup&amp;gt;-1&amp;lt;/sup&amp;gt; using the weight of each sample processed. Concentration numbers represent the mean of two ICP-MS analyses of each sample. The largest sources of error for concentration analyses are determining the weight of the sample and determining the volume of double-spike added to each sample. We approximate 2% error for each sample based on the combination of these two factors. Accuracy was checked by analysis of S, D1 and D2 SAFe reference standards (for which we determined values identical to the consensus values; see Conway et al, 2013) and intercomparison with two other groups measuring trace metal concentrations on GP16 samples.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Analytical accuracy of stable isotope ratios is equal to the analytical precision (i.e. the analysis is free from systematic errors; John, 2012) and is calculated separately for each sample. Uncertainty for isotope ratios is expressed as the 2 sigma uncertainty on the average isotope ratio, calculated from a combination of the internal standard error of each of two measurements and the bracketing isotope standards used, as described in Conway &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;., (2013).&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Data are flagged as follows:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;1 (good): data appear to be of high quality&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;4 (no data): samples either were not analyzed, or there was a complete failure during analysis such as failure to recover the metals onto Nobias resin or failure of the insturment during analysis of this sample&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;7 (questionable): data based on “oceanographic consistency” these data do not appear to be correct, for example they fall very far off the trends apparent in other data above and below the point suggesting that they are “flyers”&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;8 (low-volume): concentration data from the 1L isotope sample was not available, so concentrations from the 10 mL samples have been used instead&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643843.rdf" xlink:title="OCE-1235150" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1235150 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1235150</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643843.rdf" xlink:title="OCE-1235150" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1235150 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1235150</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -195,6 +294,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -456,7 +563,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -642,7 +749,21 @@
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>From projects that focused on the following 2 locations:  1. Eastern Tropical Pacific - Transect from Peru to Tahiti  2. Eastern Tropical South Pacific</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -710,7 +831,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1830,7 +1951,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1848,6 +1969,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1861,13 +1989,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;Samples were provided from the GEOTRACES trace-metal clean sampling rosette and were sampled into acid-cleaned 1L or 4L LDPE bottles by the onboard GEOTRACES clean sampling team. Upon receipt of samples on shore, they were acidified to pH 2 using clean hydrochloric acid and left at this pH for at least 3 months before processing.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A preliminary analysis of Fe, Zn, and Cd concentration was performed by extraction of 10 mL seawater onto Nobias PA-1 resin at pH 5-7 and analysis on an Element ICPMS by isotope dilution. These data are generally not reported, except in rare cases where the concentration data based on 1L samples was not available. Data generated by this method are flagged (see below).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Every sample was simultaneously extracted and purified for the analysis of delta&amp;lt;sup&amp;gt;56&amp;lt;/sup&amp;gt;Fe, delta&amp;lt;sup&amp;gt;66&amp;lt;/sup&amp;gt;Zn, delta&amp;lt;sup&amp;gt;114&amp;lt;/sup&amp;gt;Cd, [Fe], [Zn], and [Cd] using published methods (Conway &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;., 2013). Briefly, Fe, Zn, and Cd double-spikes were added to the acidified samples and allowed to equilibrate for &amp;amp;gt; 1 hour. Metals were then extracted from seawater onto an ethylenediaminetriacetic acid resin (Nobias PA-1; Hitachi) for 2 hours at pH 2 and 2 hours at pH between 6-6.3. Metals were eluted off this resin using 3 N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and were then purified by anion exchange chromatography before being reconstituted in 0.1 N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; for analysis.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations and stable isotope ratios were determined simultaneously by analysis on a Neptune multi-collector ICP-MS. Fe and Zn were analyzed in high resolution mode, while Cd was analyzed in low resolution mode. Every sample was analyzed twice, and the mean isotope ratios are presented here, expressed relative to international isotope standards. Instrumental and procedural isotopic fractionation was corrected for using a double-spike data reduction scheme.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations were calculated using isotope-dilution to calculate ng of metal per sample, and then converted to nmol kg&amp;lt;sup&amp;gt;-1&amp;lt;/sup&amp;gt; or pmol kg&amp;lt;sup&amp;gt;-1&amp;lt;/sup&amp;gt; using the weight of each sample processed. Concentration numbers represent the mean of two ICP-MS analyses of each sample. The largest sources of error for concentration analyses are determining the weight of the sample and determining the volume of double-spike added to each sample. We approximate 2% error for each sample based on the combination of these two factors. Accuracy was checked by analysis of S, D1 and D2 SAFe reference standards (for which we determined values identical to the consensus values; see Conway et al, 2013) and intercomparison with two other groups measuring trace metal concentrations on GP16 samples.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Analytical accuracy of stable isotope ratios is equal to the analytical precision (i.e. the analysis is free from systematic errors; John, 2012) and is calculated separately for each sample. Uncertainty for isotope ratios is expressed as the 2 sigma uncertainty on the average isotope ratio, calculated from a combination of the internal standard error of each of two measurements and the bracketing isotope standards used, as described in Conway &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;., (2013).&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Data are flagged as follows:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;1 (good): data appear to be of high quality&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;4 (no data): samples either were not analyzed, or there was a complete failure during analysis such as failure to recover the metals onto Nobias resin or failure of the insturment during analysis of this sample&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;7 (questionable): data based on “oceanographic consistency” these data do not appear to be correct, for example they fall very far off the trends apparent in other data above and below the point suggesting that they are “flyers”&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;8 (low-volume): concentration data from the 1L isotope sample was not available, so concentrations from the 10 mL samples have been used instead&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1875,6 +2015,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;Version 3 - 2016-06-21: Revised error values for #10325, 10327, 10329 to 'nd'.&amp;lt;br /&amp;gt;Version 2 - 2016-06-03:&amp;amp;nbsp;Changed element abbreviation to full name and removed ':EPZT' from dataset name.&amp;lt;br /&amp;gt;Version 1 - 2016-04-29: Submitted by PI.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO Processing:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;- added conventional header with dataset name, PI name, version date&amp;lt;br /&amp;gt;- renamed parameters to BCO-DMO and BODC&amp;amp;nbsp;standards&amp;lt;br /&amp;gt;- #N/A replaced with nd&amp;lt;br /&amp;gt;- sorted by station&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;As was done for the GEOTRACES-NAT data, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;cruise_id, EXPOCODE,SECT_ID, STNNBR, CASTNO, GEOTRC_EVENTNO, GEOTRC_SAMPNO, GEOTRC_INSTR, SAMPNO, GF_NO, BTLNBR, BTLNBR_FLAG_W, DATE_START_EVENT, TIME_START_EVENT, ISO_DATETIME_UTC_START_EVENT, EVENT_LAT, EVENT_LON, DEPTH_MIN, DEPTH_MAX, &amp;amp;nbsp;BTL_DATE, BTL_TIME, BTL_ISO_DATETIME_UTC, BTL_LAT, BTL_LON, ODF_CTDPRS, SMDEPTH, FMDEPTH, BTMDEPTH, CTDPRS, CTDDEPTH.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle and ODF_Bottle datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the TN303 Event Log (version 30 Oct 2014). Where applicable, pump information was taken from the PUMP_Nuts_Sals dataset.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1944,7 +2096,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -2023,45 +2175,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
-                       xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -2105,6 +2257,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

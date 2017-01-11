@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/644607.rdf" xlink:actuate="onRequest">Pb Dissolved from the U.S. GEOTRACES EPZT,EPZT Pb projects of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/644607.rdf" xlink:actuate="onRequest">Dissolved Pb passing through a 0.2 um Acropak capsule filter from R/V Thomas G. Thompson cruise TN303 in the Eastern Tropical Pacific in 2013 (U.S. GEOTRACES EPZT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2016-07-14</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-07-14</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2016-07-14</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/644607" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/644607</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,110 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/644617.rdf" xlink:actuate="onRequest">Dr Cheryl Zurbrick</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/24.rdf" xlink:actuate="onRequest">Massachusetts Institute of Technology</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/644619.rdf" xlink:actuate="onRequest">Jong-Mi Lee</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/120.rdf" xlink:actuate="onRequest">University of California-Santa Cruz</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Boyle, Edward, Zurbrick, Cheryl and Lee, Jong-Mi (2016) Dissolved Pb passing through a 0.2 um Acropak capsule filter from R/V Thomas G. Thompson cruise TN303 in the Eastern Tropical Pacific in 2013 (U.S. GEOTRACES EPZT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2016-07-14 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/644607 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Dissolved Pb passing through a 0.2 um Acropak capsule filter from US GEOTRACES EPZT cruise. Dataset Description: &amp;lt;p&amp;gt;Dissolved Pb passing through a 0.2 um Acropak capsule filter. Samples were collected on the US GEOTRACES East Pacific Zonal Transect (EPZT) cruise in 2013.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This dataset is &amp;lt;strong&amp;gt;RESTRICTED&amp;lt;/strong&amp;gt; to GEOTRACES PIs only until the public release of the next Intermediate Data Product (IDP)&amp;amp;nbsp;in August 2017. Please contact the PI for prior access.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;Sample storage bottle lids and threads were soaked overnight in 2N reagent grade HCl, then filled with 1N reagent grade HCl to be heated in an oven at 60 degrees C overnight, inverted, heated for a second day, and rinsed 5X with pure distilled water. The bottles were then filled with trace metal clean dilute HCl (~0.01N HCl) and again heated in the oven for one day on either end. Clean sample bottles were emptied, and double-bagged prior to rinsing and filling with sample.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Trace metal-clean seawater samples were collected using the U.S. GEOTRACES sampling system consisting of 24 Teflon-coated GO-FLO bottles that had been pre-rinsed with a 24+ hour treatment of filtered surface seawater at the beginning of the cruise (see Cutter &amp;amp;amp; Bruland, 2012 for more information on the sampling system). At each station, the bottles were deployed open and tripped on ascent at 3 m/min. On deck, the bottles were kept in a trace metal clean sampling van over-pressurized with HEPA-filtered air, except immediately prior to and following deployments, in which cases they were covered on both ends with shower caps to avoid deck contamination.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;During sampling in the clean van, the GO-FLO bottles were pressurized to ~0.4 atm with HEPA-filtered air, and their spigots were fitted with an acid-cleaned piece of Bev-a-Line tubing that fed into an Acropak-200 Supor capsule filter (0.2 um pore size made of polyethersulfone). Before use, this filter had been filled with filtered surface seawater that had been acidified to pH 2 with trace metal clean HCl and left overnight to rinse. Before collecting any subsamples, at least 500 mL of seawater was passed through the filter (while eliminating air bubbles in the capsule reservoir). Subsamples were taken into acid-cleaned (see above) Nalgene HDPE bottles after a triple rinse with the sample. Acropak filters were used for at most 3 casts before a new filter was used, and they were stored empty in a refrigerator while not in use. GEOFish surface samples were taken using an all-plastic &amp;quot;towed fish&amp;quot; pumping system as described in Bruland &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;. 2005 at approximately 3 m depth and were subsampled identically.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All samples were acidified back in the Boyle laboratory at 2 mL per liter seawater (pH ~2) with trace metal clean 6N HCl.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were analyzed at least 1 month after acidification over 52 analytical sessions by one of two methods: a resin pre-concentration or magnesium hydroxide co-precipitation for very low level Pb concentration analyses. Details of the two methods are as follows:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(1) Resin pre-concentration:&amp;lt;/strong&amp;gt; This method utilized the isotope-dilution ICP-MS method described in Lee &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;. 2011, which includes pre-concentration on nitrilotriacetate (NTA) resin and analysis on a Fisons PQ2+ using a 400 uL/min nebulizer. Briefly, samples were poured into 30 mL subsample bottles. Then, triplicate 1.5 mL polyethylene vials (Eppendorf AG) were rinsed three times with the 30 mL subsample.&amp;amp;nbsp;Each sample was pipetted (1.3 mL) from the 30 mL subsample to the 1.5 mL vial.&amp;amp;nbsp;Pipettes were calibrated daily to the desired volume.&amp;amp;nbsp;25uL of a &amp;lt;sup&amp;gt;204&amp;lt;/sup&amp;gt;Pb spike were added to each sample, and the pH was raised to 5.3 using a trace metal clean ammonium acetate buffer, prepared at a pH of between 7.9 and 7.98.&amp;amp;nbsp; ~2400 beads of NTA Superflow resin (Qiagen Inc., Valencia, CA) were added to the mixture, and the vials were set to shake on a shaker for 4 days to allow the sample to equilibrate with the resin.&amp;amp;nbsp;After 4 days, the beads were centrifuged and washed 3 times with pure distilled water, using a trace metal clean syphon tip to remove the water wash from the sample vial following centrifugation.&amp;amp;nbsp;After the last wash, 320 uL of a 0.1N solution of trace metal clean HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; was added to the resin to elute the metals, and the samples were set to shake on a shaker for 2 days prior to analysis by ICP-MS. NTA Superflow resin was cleaned by batch rinsing with 0.1N trace metal clean HCl for a few hours, followed by multiple washes until the pH of the solution was above 4.&amp;amp;nbsp;Resin was stored at 4 degrees C in the dark until use, though it was allowed to equilibrate to room temperature prior to the addition to the sample. Eppendorf polyethylene vials were cleaned by heated submersion for 2 days at 60 degrees C in 1N reagent grade HCl, followed by a bulk rinse and 4X individual rinse of each vial with pure distilled water. Each vial was then filled with trace metal clean dilute HCl (~0.01N HCl) and heated in the oven at 60 degrees C for one day on either end.&amp;amp;nbsp;Vials were kept filled until just before usage.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(2) Magnesium hydroxide co-precipitation (a.k.a “Low level method”):&amp;lt;/strong&amp;gt; This method works for all seawater samples, but was employed especially for lower level Pb concentration samples. The method is a lower volume seawater adaptation of the isotope ratio method of Reuer &amp;lt;em&amp;gt;et al.,&amp;lt;/em&amp;gt; 2003, which includes pre-concentration by co-precipitation and analysis on a Fisons PQ2+ using a 400 uL/min nebulizer. Briefly, 50 mL polypropylene conical centrifuge tubes (Corning) were weighed and recorded before rinsing three times with seawater sample or blank (low trace metal seawater) and filling with ~40 mL of sample (10 mL of blank). Samples were processed in duplicate. Each sample vial was then weighed and recorded for an accurate measurement of sample volume by mass. Each sample and blank was then spiked with 100 uL of a &amp;lt;sup&amp;gt;204&amp;lt;/sup&amp;gt;Pb spike; pipettes were calibrated daily to the desired volume. After a 10 – 60 minute equilibration period, trace metal clean ammonium hydroxide, prepared at a pH of between 8.5 and 9.5 was added such that co-precipitation would occur within 8 hours. Samples were left to precipitate for 12 – 24 hours prior to centrifuging, siphoning off of seawater using a trace metal clean siphon tip, and dissolution in 50 – 100 uL trace metal clean HCl (6M), determined visually for each sample. Samples were then re-precipitated with 20 – 50 uL of ammonium hydroxide (instantaneous) and left to sit for 12 – 24 hours prior to centrifuging, siphoning off of seawater using a trace metal clean siphon tip, and dissolution in 200 – 500 uL trace metal clean HBr (1.1M). Excess salts in the samples were then removed by processing through an anion exchange column chemistry based on Krogh, 1973 and Manhesa &amp;lt;em&amp;gt;et al.&amp;lt;/em&amp;gt;, 1978. In brief, trace metal cleaned Eichrom AG-1x8 resin was used with in-house made mini-Teflon columns; resin was cleaned with 2mL HCl (6M), equilibrated with 1mL HBr (1.1M); samples were loaded (in 1.1M HBr), washed with 1.5 mL HBr (1.1M), washed with 0.8 mL HCl (2M) and eluted for collection with 2 mL HCl (6M). Concentrated samples were evaporated to dryness until analysis. Prior to analysis, samples were dissolved in 500 uL of 0.1M trace metal clean HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;. For each set of samples, three low trace metal seawater blanks were concurrently extracted; for each column separation, 1 chemistry blank was run. Eichrom AG-1x8 resin was cleaned by three batch rinses with 6N trace metal clean HCl for a ~12 hours on a shaker table, followed by multiple washes with distilled water until the pH of the solution was above 4.5. Resin was stored at room temperature in the dark until use. Corning polypropylene conical centrifuge tubes (50mL) were cleaned by heated submersion for 2 days at 60 degrees C in 1N reagent grade HCl, followed by a bulk rinse and 4X individual rinse of each vial with pure distilled water. Each vial was then filled with trace metal clean dilute HCl (~0.01N HCl) and heated in the oven at 60 degrees C for one day on either end. Vials were kept filled until just before usage.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;On each day of sample analysis, procedure blanks were determined. For the resin preconcentration method, 12 replicates of 300 uL of an in-house standard reference material seawater (low Pb surface water) were used, where the amount of Pb in the 300 uL was verified as negligible. For the &amp;quot;low level&amp;quot; magnesium hydroxide co-precipitation method, 3 replicates of ~10 mL of the same in-house standard reference material seawater were used. The procedural blank over the relevant sessions for resin preconcentration method ranged from 2.2-7.3 pmol/kg, averaging 4.9 ± 1.4 pmol/kg; for the magnesium hydroxide co-precipitation method, blanks ranged from 0.2 – 3.9 pmol/kg, averaging 1.3 ± 0.9 pmol/kg. Within a day, procedure blanks were very reproducible with an average standard deviation of 0.8 pmol/kg (resin preconcentration method) and 0.3 pmol/kg (magnesium hydroxide co-precipitation method), resulting in detection limits (3x this standard deviation) of 2.4 pmol/kg and 0.9 pmol/kg. Replicate analyses of three different large-volume seawater samples (one with ~13 pmol/kg, another with ~24 pmol/kg, and a third with ~35 pmol/kg) indicated that the precision of the analysis is similar for both methods: 4% or 1.2 pmol/kg, whichever is larger, for the resin preconcentration method; 10% or 0.9 pmol/kg, whichever is larger for the &amp;quot;low level&amp;quot; method.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Triplicate analyses of an international reference standard gave SAFe D2: 27.2 ± 1.7 pmol/kg. However, this standard run was linked into our own long-term quality control standards that are run on every analytical day to maintain long-term consistency. &amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The Pb concentrations of these samples were quite low, so in general the errors are determined more by uncertainty in the blank corrections rather than as a fixed percentage of the concentration. Profile samples were intercalibrated with Dr. Ken Bruland and his student Claire Parker and Dr. Russ Flegal and his technician Ralph Till, who analyzed separate samples from USGT-EPZT stations, and each used different analytical schemes. The standard deviation of the concentration differences for 213 GoFlo samples (excluding 5 samples with lab to lab differences of &amp;amp;gt;5 pmol/kg) analyzed by MIT and the UCSC Bruland lab was 1.5 pmol/kg. The standard deviation of the concentration differences for 77 GoFlo samples (excluding 5 samples with lab to lab differences of&amp;amp;nbsp; &amp;amp;gt;5 pmol/kg) analyzed by the UCSC-Flegal lab and the UCSC Bruland lab was 1.6 pmol/kg. We therefore believe that data from all three labs for this cruise are comparable to about 1.6 pmol/kg (one sigma). Analyses from an individual lab relative to other data from the same lab for this cruise are comparable to that lab’s standard deviation on standards or samples near the detection limits. For the MIT lab, the pooled standard deviation of 17 samples near the detection limit (analyzed by the &amp;quot;low level&amp;quot; method) for station 30 was 0.4 pmol/kg.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;One third of the MIT samples were analyzed by Jong-Mi Lee using the resin preconcentration method, and the remaining two-thirds of the cruise samples were analyzed by Cheryl Zurbrick using both the resin preconcentration and &amp;quot;low level&amp;quot; methods. There was no significant difference between them for the lowest concentration large-volume seawater reference sample (JML averaged 13.2 ± 0.2 pmol/kg; CMZ averaged 13.3 ± 1.3 pmol/kg).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References: &amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Cutter, G.A., &amp;amp;amp; Bruland, K.W. 2012.&amp;amp;nbsp;Rapid and noncontaminating sampling system for trace elements in global ocean surveys. L&amp;amp;amp;O Methods 10(6), 425-436. doi:&amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2012.10.425&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2012.10.425&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Lee, J.-M., Boyle, E.A., Echegoyen-Sanz, Y., Fitzsimmons, J.N., Zhang, R., and Kayser, R.A. 2011. Analysis of trace metals (Cu, Cd, Pb, and Fe) in seawater using single batch nitrilotriacetate resin extraction and isotope dilution inductively coupled plasma mass spectrometry. &amp;lt;em&amp;gt;Analytica Chimica Acta&amp;lt;/em&amp;gt; 686: 93-101. doi:&amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.aca.2010.11.052&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.aca.2010.11.052&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Reuer, M.K., Boyle, E.A., Grant, B.A. 2003. Lead isotope analysis of marine carbonates and seawater by multiple collector ICP-MS. &amp;lt;em&amp;gt;Chemical Geology &amp;lt;/em&amp;gt;200: 137-153. doi:&amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/S0009-2541(03)00186-4&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/S0009-2541(03)00186-4&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/644613.rdf" xlink:title="OCE-1233749" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1233749 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1233749</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/644613.rdf" xlink:title="OCE-1233749" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1233749 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1233749</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -185,6 +316,83 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/644617.rdf" xlink:actuate="onRequest">Dr Cheryl Zurbrick</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/24.rdf" xlink:actuate="onRequest">Massachusetts Institute of Technology</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>617-324-4984</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Office E25-612, MIT</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Cambridge</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>MA</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>02142</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>zurbrick@mit.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/644619.rdf" xlink:actuate="onRequest">Jong-Mi Lee</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/120.rdf" xlink:actuate="onRequest">University of California-Santa Cruz</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>831-459-4789</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:administrativeArea>
+                    <gco:CharacterString>CA</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>jm_lee@ucsc.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -195,6 +403,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -471,7 +687,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -641,7 +857,21 @@
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>From projects that focused on the following 2 locations:  1. Eastern Tropical Pacific - Transect from Peru to Tahiti  2. East Pacific</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -651,7 +881,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from Pb Dissolved from the U.S. GEOTRACES EPZT,EPZT Pb projects of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Dissolved Pb passing through a 0.2 um Acropak capsule filter from R/V Thomas G. Thompson cruise TN303 in the Eastern Tropical Pacific in 2013 (U.S. GEOTRACES EPZT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -709,7 +939,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1943,7 +2173,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1961,6 +2191,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1974,13 +2211,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;Sample storage bottle lids and threads were soaked overnight in 2N reagent grade HCl, then filled with 1N reagent grade HCl to be heated in an oven at 60 degrees C overnight, inverted, heated for a second day, and rinsed 5X with pure distilled water. The bottles were then filled with trace metal clean dilute HCl (~0.01N HCl) and again heated in the oven for one day on either end. Clean sample bottles were emptied, and double-bagged prior to rinsing and filling with sample.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Trace metal-clean seawater samples were collected using the U.S. GEOTRACES sampling system consisting of 24 Teflon-coated GO-FLO bottles that had been pre-rinsed with a 24+ hour treatment of filtered surface seawater at the beginning of the cruise (see Cutter &amp;amp;amp; Bruland, 2012 for more information on the sampling system). At each station, the bottles were deployed open and tripped on ascent at 3 m/min. On deck, the bottles were kept in a trace metal clean sampling van over-pressurized with HEPA-filtered air, except immediately prior to and following deployments, in which cases they were covered on both ends with shower caps to avoid deck contamination.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;During sampling in the clean van, the GO-FLO bottles were pressurized to ~0.4 atm with HEPA-filtered air, and their spigots were fitted with an acid-cleaned piece of Bev-a-Line tubing that fed into an Acropak-200 Supor capsule filter (0.2 um pore size made of polyethersulfone). Before use, this filter had been filled with filtered surface seawater that had been acidified to pH 2 with trace metal clean HCl and left overnight to rinse. Before collecting any subsamples, at least 500 mL of seawater was passed through the filter (while eliminating air bubbles in the capsule reservoir). Subsamples were taken into acid-cleaned (see above) Nalgene HDPE bottles after a triple rinse with the sample. Acropak filters were used for at most 3 casts before a new filter was used, and they were stored empty in a refrigerator while not in use. GEOFish surface samples were taken using an all-plastic &amp;quot;towed fish&amp;quot; pumping system as described in Bruland &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;. 2005 at approximately 3 m depth and were subsampled identically.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All samples were acidified back in the Boyle laboratory at 2 mL per liter seawater (pH ~2) with trace metal clean 6N HCl.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were analyzed at least 1 month after acidification over 52 analytical sessions by one of two methods: a resin pre-concentration or magnesium hydroxide co-precipitation for very low level Pb concentration analyses. Details of the two methods are as follows:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(1) Resin pre-concentration:&amp;lt;/strong&amp;gt; This method utilized the isotope-dilution ICP-MS method described in Lee &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;. 2011, which includes pre-concentration on nitrilotriacetate (NTA) resin and analysis on a Fisons PQ2+ using a 400 uL/min nebulizer. Briefly, samples were poured into 30 mL subsample bottles. Then, triplicate 1.5 mL polyethylene vials (Eppendorf AG) were rinsed three times with the 30 mL subsample.&amp;amp;nbsp;Each sample was pipetted (1.3 mL) from the 30 mL subsample to the 1.5 mL vial.&amp;amp;nbsp;Pipettes were calibrated daily to the desired volume.&amp;amp;nbsp;25uL of a &amp;lt;sup&amp;gt;204&amp;lt;/sup&amp;gt;Pb spike were added to each sample, and the pH was raised to 5.3 using a trace metal clean ammonium acetate buffer, prepared at a pH of between 7.9 and 7.98.&amp;amp;nbsp; ~2400 beads of NTA Superflow resin (Qiagen Inc., Valencia, CA) were added to the mixture, and the vials were set to shake on a shaker for 4 days to allow the sample to equilibrate with the resin.&amp;amp;nbsp;After 4 days, the beads were centrifuged and washed 3 times with pure distilled water, using a trace metal clean syphon tip to remove the water wash from the sample vial following centrifugation.&amp;amp;nbsp;After the last wash, 320 uL of a 0.1N solution of trace metal clean HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; was added to the resin to elute the metals, and the samples were set to shake on a shaker for 2 days prior to analysis by ICP-MS. NTA Superflow resin was cleaned by batch rinsing with 0.1N trace metal clean HCl for a few hours, followed by multiple washes until the pH of the solution was above 4.&amp;amp;nbsp;Resin was stored at 4 degrees C in the dark until use, though it was allowed to equilibrate to room temperature prior to the addition to the sample. Eppendorf polyethylene vials were cleaned by heated submersion for 2 days at 60 degrees C in 1N reagent grade HCl, followed by a bulk rinse and 4X individual rinse of each vial with pure distilled water. Each vial was then filled with trace metal clean dilute HCl (~0.01N HCl) and heated in the oven at 60 degrees C for one day on either end.&amp;amp;nbsp;Vials were kept filled until just before usage.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(2) Magnesium hydroxide co-precipitation (a.k.a “Low level method”):&amp;lt;/strong&amp;gt; This method works for all seawater samples, but was employed especially for lower level Pb concentration samples. The method is a lower volume seawater adaptation of the isotope ratio method of Reuer &amp;lt;em&amp;gt;et al.,&amp;lt;/em&amp;gt; 2003, which includes pre-concentration by co-precipitation and analysis on a Fisons PQ2+ using a 400 uL/min nebulizer. Briefly, 50 mL polypropylene conical centrifuge tubes (Corning) were weighed and recorded before rinsing three times with seawater sample or blank (low trace metal seawater) and filling with ~40 mL of sample (10 mL of blank). Samples were processed in duplicate. Each sample vial was then weighed and recorded for an accurate measurement of sample volume by mass. Each sample and blank was then spiked with 100 uL of a &amp;lt;sup&amp;gt;204&amp;lt;/sup&amp;gt;Pb spike; pipettes were calibrated daily to the desired volume. After a 10 – 60 minute equilibration period, trace metal clean ammonium hydroxide, prepared at a pH of between 8.5 and 9.5 was added such that co-precipitation would occur within 8 hours. Samples were left to precipitate for 12 – 24 hours prior to centrifuging, siphoning off of seawater using a trace metal clean siphon tip, and dissolution in 50 – 100 uL trace metal clean HCl (6M), determined visually for each sample. Samples were then re-precipitated with 20 – 50 uL of ammonium hydroxide (instantaneous) and left to sit for 12 – 24 hours prior to centrifuging, siphoning off of seawater using a trace metal clean siphon tip, and dissolution in 200 – 500 uL trace metal clean HBr (1.1M). Excess salts in the samples were then removed by processing through an anion exchange column chemistry based on Krogh, 1973 and Manhesa &amp;lt;em&amp;gt;et al.&amp;lt;/em&amp;gt;, 1978. In brief, trace metal cleaned Eichrom AG-1x8 resin was used with in-house made mini-Teflon columns; resin was cleaned with 2mL HCl (6M), equilibrated with 1mL HBr (1.1M); samples were loaded (in 1.1M HBr), washed with 1.5 mL HBr (1.1M), washed with 0.8 mL HCl (2M) and eluted for collection with 2 mL HCl (6M). Concentrated samples were evaporated to dryness until analysis. Prior to analysis, samples were dissolved in 500 uL of 0.1M trace metal clean HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;. For each set of samples, three low trace metal seawater blanks were concurrently extracted; for each column separation, 1 chemistry blank was run. Eichrom AG-1x8 resin was cleaned by three batch rinses with 6N trace metal clean HCl for a ~12 hours on a shaker table, followed by multiple washes with distilled water until the pH of the solution was above 4.5. Resin was stored at room temperature in the dark until use. Corning polypropylene conical centrifuge tubes (50mL) were cleaned by heated submersion for 2 days at 60 degrees C in 1N reagent grade HCl, followed by a bulk rinse and 4X individual rinse of each vial with pure distilled water. Each vial was then filled with trace metal clean dilute HCl (~0.01N HCl) and heated in the oven at 60 degrees C for one day on either end. Vials were kept filled until just before usage.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;On each day of sample analysis, procedure blanks were determined. For the resin preconcentration method, 12 replicates of 300 uL of an in-house standard reference material seawater (low Pb surface water) were used, where the amount of Pb in the 300 uL was verified as negligible. For the &amp;quot;low level&amp;quot; magnesium hydroxide co-precipitation method, 3 replicates of ~10 mL of the same in-house standard reference material seawater were used. The procedural blank over the relevant sessions for resin preconcentration method ranged from 2.2-7.3 pmol/kg, averaging 4.9 ± 1.4 pmol/kg; for the magnesium hydroxide co-precipitation method, blanks ranged from 0.2 – 3.9 pmol/kg, averaging 1.3 ± 0.9 pmol/kg. Within a day, procedure blanks were very reproducible with an average standard deviation of 0.8 pmol/kg (resin preconcentration method) and 0.3 pmol/kg (magnesium hydroxide co-precipitation method), resulting in detection limits (3x this standard deviation) of 2.4 pmol/kg and 0.9 pmol/kg. Replicate analyses of three different large-volume seawater samples (one with ~13 pmol/kg, another with ~24 pmol/kg, and a third with ~35 pmol/kg) indicated that the precision of the analysis is similar for both methods: 4% or 1.2 pmol/kg, whichever is larger, for the resin preconcentration method; 10% or 0.9 pmol/kg, whichever is larger for the &amp;quot;low level&amp;quot; method.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Triplicate analyses of an international reference standard gave SAFe D2: 27.2 ± 1.7 pmol/kg. However, this standard run was linked into our own long-term quality control standards that are run on every analytical day to maintain long-term consistency. &amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The Pb concentrations of these samples were quite low, so in general the errors are determined more by uncertainty in the blank corrections rather than as a fixed percentage of the concentration. Profile samples were intercalibrated with Dr. Ken Bruland and his student Claire Parker and Dr. Russ Flegal and his technician Ralph Till, who analyzed separate samples from USGT-EPZT stations, and each used different analytical schemes. The standard deviation of the concentration differences for 213 GoFlo samples (excluding 5 samples with lab to lab differences of &amp;amp;gt;5 pmol/kg) analyzed by MIT and the UCSC Bruland lab was 1.5 pmol/kg. The standard deviation of the concentration differences for 77 GoFlo samples (excluding 5 samples with lab to lab differences of&amp;amp;nbsp; &amp;amp;gt;5 pmol/kg) analyzed by the UCSC-Flegal lab and the UCSC Bruland lab was 1.6 pmol/kg. We therefore believe that data from all three labs for this cruise are comparable to about 1.6 pmol/kg (one sigma). Analyses from an individual lab relative to other data from the same lab for this cruise are comparable to that lab’s standard deviation on standards or samples near the detection limits. For the MIT lab, the pooled standard deviation of 17 samples near the detection limit (analyzed by the &amp;quot;low level&amp;quot; method) for station 30 was 0.4 pmol/kg.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;One third of the MIT samples were analyzed by Jong-Mi Lee using the resin preconcentration method, and the remaining two-thirds of the cruise samples were analyzed by Cheryl Zurbrick using both the resin preconcentration and &amp;quot;low level&amp;quot; methods. There was no significant difference between them for the lowest concentration large-volume seawater reference sample (JML averaged 13.2 ± 0.2 pmol/kg; CMZ averaged 13.3 ± 1.3 pmol/kg).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References: &amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Cutter, G.A., &amp;amp;amp; Bruland, K.W. 2012.&amp;amp;nbsp;Rapid and noncontaminating sampling system for trace elements in global ocean surveys. L&amp;amp;amp;O Methods 10(6), 425-436. doi:&amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2012.10.425&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2012.10.425&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Lee, J.-M., Boyle, E.A., Echegoyen-Sanz, Y., Fitzsimmons, J.N., Zhang, R., and Kayser, R.A. 2011. Analysis of trace metals (Cu, Cd, Pb, and Fe) in seawater using single batch nitrilotriacetate resin extraction and isotope dilution inductively coupled plasma mass spectrometry. &amp;lt;em&amp;gt;Analytica Chimica Acta&amp;lt;/em&amp;gt; 686: 93-101. doi:&amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.aca.2010.11.052&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.aca.2010.11.052&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Reuer, M.K., Boyle, E.A., Grant, B.A. 2003. Lead isotope analysis of marine carbonates and seawater by multiple collector ICP-MS. &amp;lt;em&amp;gt;Chemical Geology &amp;lt;/em&amp;gt;200: 137-153. doi:&amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/S0009-2541(03)00186-4&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/S0009-2541(03)00186-4&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1988,6 +2237,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;Samples were analyzed in triplicate (resin preconcentration method) or duplicate (magnesium hydroxide co-precipitation method), and average values shown in this database were only accepted if reproduced over at least two replicates; otherwise, the data was re-analyzed until a reproducible value was reached.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The standard Ocean Data View flags were used (reference all flags at &amp;lt;a href=&amp;quot;https://www.bodc.ac.uk/data/codes_and_formats/odv_format/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://www.bodc.ac.uk/data/codes_and_formats/odv_format/&amp;lt;/a&amp;gt;):&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;1&amp;lt;/strong&amp;gt;: Good Value: Good quality data value that is not part of any identified malfunction and has been verified as consistent with real phenomena during the quality control process.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;2&amp;lt;/strong&amp;gt;: Probably Good Value: Data value that is probably consistent with real phenomena but this is unconfirmed or data value forming part of a malfunction that is considered too small to affect the overall quality of the data object of which it is a part. [Used when only one replicate confirmed the reported value.]&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;3&amp;lt;/strong&amp;gt;: Probably Bad Value: Data value recognized as unusual during quality control that forms part of a feature that is probably inconsistent with real phenomena.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;4&amp;lt;/strong&amp;gt;: Bad Value: An obviously erroneous data value.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;6&amp;lt;/strong&amp;gt;: Value Below Detection Limit: The level of the measured phenomenon was too small to be quantified by the technique employed to measure it. The accompanying value is the detection limit for the technique or zero if that value is unknown.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;9&amp;lt;/strong&amp;gt;: Missing Value: The data value is missing. Any accompanying value will be a magic number representing absent data. [All samples collected were analyzed. Any missing data was not collected.]&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;In this dataset, we did not encounter any samples that did not yield acceptably reproducible results upon repeated analysis, so we believe that the data truly represents the concentration of Pb in the sample collection bottle. However, there were a few points that were high based on adjacent samples and for which an obvious hydrographic argument could not be made for the anomaly. These samples may be contaminated, and they are given the quality control flag of 3 (probably bad value).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;BCO-DMO Processing:&amp;lt;br /&amp;gt;- modified parameter names to conform with BCO-DMO and GEOTRACES naming conventions;&amp;lt;br /&amp;gt;- replaced blanks with &amp;quot;nd&amp;quot; (no data);&amp;lt;br /&amp;gt;- moved GeoFish data into separate columns per GEOTRACES naming conventions;&amp;lt;br /&amp;gt;- made corrections in data values to two samples (8792 and 9865) per request from PI (July 13, 2016);&amp;lt;br /&amp;gt;- made corrections to quality flags for 3 samples (8375, 8377, 8379) per request from PI (July 14, 2016).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing by BCO-DMO:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;As was done for the GEOTRACES-NAT data, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters:&amp;lt;br /&amp;gt;cruise_id, EXPOCODE,SECT_ID, STNNBR, CASTNO, GEOTRC_EVENTNO, GEOTRC_SAMPNO, GEOTRC_INSTR, SAMPNO, GF_NO, BTLNBR, BTLNBR_FLAG_W, DATE_START_EVENT, TIME_START_EVENT, ISO_DATETIME_UTC_START_EVENT, EVENT_LAT, EVENT_LON, DEPTH_MIN, DEPTH_MAX, &amp;amp;nbsp;BTL_DATE, BTL_TIME, BTL_ISO_DATETIME_UTC, BTL_LAT, BTL_LON, ODF_CTDPRS, SMDEPTH, FMDEPTH, BTMDEPTH, CTDPRS, CTDDEPTH.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This added information will facilitate subsequent analysis and inter-comparison of the datasets.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle and ODF_Bottle datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the TN303 Event Log (version 30 Oct 2014). Where applicable, pump information was taken from the PUMP_Nuts_Sals dataset.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -2057,7 +2318,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -2119,45 +2380,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
-                       xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -2201,6 +2462,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

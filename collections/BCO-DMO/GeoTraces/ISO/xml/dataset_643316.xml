@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/643316.rdf" xlink:actuate="onRequest">Thorium-234 Particulate from the U.S. GEOTRACES EPZT,EPZT TEI Rates projects of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/643316.rdf" xlink:actuate="onRequest">Particulate Th-234 from in-situ pumps, including large size fraction (&gt; 51 um) and small size fraction (1-51 um), from R/V Thomas G. Thompson cruise TN303 in the Eastern Tropical Pacific in 2013 (U.S. GEOTRACES EPZT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2016-06-03</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-06-03</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2016-06-03</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/643316" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/643316</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,19 +166,113 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50931.rdf" xlink:actuate="onRequest">Dr Matthew  A. Charette</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51613.rdf" xlink:actuate="onRequest">Dr Willard  S. Moore</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/139.rdf" xlink:actuate="onRequest">University of South Carolina</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Buesseler, Kenneth, Charette, Matthew and Moore, Willard (2016) Particulate Th-234 from in-situ pumps, including large size fraction (&gt; 51 um) and small size fraction (1-51 um), from R/V Thomas G. Thompson cruise TN303 in the Eastern Tropical Pacific in 2013 (U.S. GEOTRACES EPZT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2016-06-03 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/643316 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Particulate Th-234 from in-situ pumps, including large size fraction (&amp;gt; 51 um) and small size fraction (1-51 um), during the 2013 U.S. GEOTRACES EPZT cruise. Dataset Description: &amp;lt;p&amp;gt;Particulate Thorium-234 from in-situ pumps, including large size fraction (&amp;amp;gt; 51 µm) and small size fraction (1-51 µm), during the 2013 U.S. GEOTRACES cruise.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling details:&amp;lt;br /&amp;gt;&amp;lt;em&amp;gt;Super stations&amp;lt;/em&amp;gt;&amp;lt;em&amp;gt;:&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt; &amp;lt;/em&amp;gt;approximately 24 discrete particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th samples were collected throughout the water column.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Full stations:&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt;&amp;amp;nbsp;&amp;lt;/em&amp;gt;approximately 16 discrete particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th samples were collected throughout the water column.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Hemi station:&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt; &amp;lt;/em&amp;gt;8 discrete particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th samples were collected from the upper 3000 m.&amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Demi and Shelf stations:&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt;&amp;amp;nbsp;&amp;lt;/em&amp;gt;no particulate samples were collected at the demi stations and the number of depths at the shelf stations was determined by the depth of the water column.&amp;amp;nbsp; Between 5 and 8 discrete particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th samples were collected at the shelf stations.&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Particulate material was collected using in situ McLane pumps (also see data from Charette and Lam groups). All data were decay corrected back to the mid-pumping times.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;amp;gt;51 u&amp;lt;/strong&amp;gt;&amp;lt;strong&amp;gt;m Th-234:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Mesh screens were provided by the Lam group.&amp;amp;nbsp;The whole mesh screen was rinsed onto a 25 mm silver filter and dried down. The mean volume pumped through the whole Supor mesh screens was 404 L.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;1-51 u&amp;lt;/strong&amp;gt;&amp;lt;strong&amp;gt;m Th-234:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Whole QMAs, located below a mesh screen in the filter head housing, were provided by the Lam group and oven-dried upon recovery. A 25 mm subsample was taken from this whole filter for beta counting for Th-234. The mean effective volume for the 25 mm QMA subsample was 41 L (1042 L for entire QMA).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related references:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Maiti, K., K.O. Buesseler, S.M. Pike, C. Benitez-Nelson, P. Cai, W. Chen, K. Cochran, M. Dai, F. Dehairs, B. Gasser, R.P. Kelly, P. Masque, L.A. Miller, J.C. Miquel, S.B. Moran, P.J. Morris, F. Peine, F. Planchon, A.A. Renfro, M. Rutgers van der Loeff, P.H. Santschi, R. Turnewitsch, J.T. Waples, and C. Xu (2012). Intercalibration studies of short-lived thorium-234 in the water column and marine particles. L&amp;amp;amp;O Methods, 10: 631-644. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2012.10.631&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2012.10.631&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Buesseler, K.O., S. Pike, K. Maiti, C.H. Lamborg, D.A. Siegel and T.W. Trull (2009). Thorium-234 as a tracer of spatial, temporal and vertical variability in particle flux in the North Pacific. Deep-Sea Research I, 56 (1143-1167). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.dsr.2009.04.001&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.dsr.2009.04.001&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Owens, S.A., S. Pike and K.O. Buesseler (2015). Thorium-234 as a tracer of particle dynamics and upper ocean export in the Atlantic Ocean. &amp;lt;em&amp;gt;Deep Sea Research-II, &amp;lt;/em&amp;gt;116: 42-59.&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643215.rdf" xlink:title="OCE-1232669" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1232669 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1232669</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643215.rdf" xlink:title="OCE-1232669" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1232669 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1232669</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643216.rdf" xlink:title="OCE-1231211" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1231211 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1231211</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643216.rdf" xlink:title="OCE-1231211" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1231211 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1231211</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -188,6 +319,83 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50931.rdf" xlink:actuate="onRequest">Dr Matthew  A. Charette</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+1 508 289 3205</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Marine Chemistry &amp; Geochemistry,  Clark 439, MS#25 Woods Hole Oceanographic Institution</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Woods Hole</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>MA</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>02543</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>mcharette@whoi.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51613.rdf" xlink:actuate="onRequest">Dr Willard  S. Moore</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/139.rdf" xlink:actuate="onRequest">University of South Carolina</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Department of Earth &amp; Ocean Sciences EWS 617, 701 Sumter St.</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Columbia</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>SC</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>29208</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>moore@geol.sc.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -198,6 +406,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -417,7 +633,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -587,7 +803,21 @@
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>From projects that focused on the following 2 locations:  1. Eastern Tropical Pacific - Transect from Peru to Tahiti  2. East Pacific</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -597,7 +827,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from Thorium-234 Particulate from the U.S. GEOTRACES EPZT,EPZT TEI Rates projects of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Particulate Th-234 from in-situ pumps, including large size fraction (&gt; 51 um) and small size fraction (1-51 um), from R/V Thomas G. Thompson cruise TN303 in the Eastern Tropical Pacific in 2013 (U.S. GEOTRACES EPZT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -655,7 +885,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1475,7 +1705,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1493,6 +1723,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1506,13 +1743,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling details:&amp;lt;br /&amp;gt;&amp;lt;em&amp;gt;Super stations&amp;lt;/em&amp;gt;&amp;lt;em&amp;gt;:&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt; &amp;lt;/em&amp;gt;approximately 24 discrete particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th samples were collected throughout the water column.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Full stations:&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt;&amp;amp;nbsp;&amp;lt;/em&amp;gt;approximately 16 discrete particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th samples were collected throughout the water column.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Hemi station:&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt; &amp;lt;/em&amp;gt;8 discrete particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th samples were collected from the upper 3000 m.&amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Demi and Shelf stations:&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt;&amp;amp;nbsp;&amp;lt;/em&amp;gt;no particulate samples were collected at the demi stations and the number of depths at the shelf stations was determined by the depth of the water column.&amp;amp;nbsp; Between 5 and 8 discrete particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th samples were collected at the shelf stations.&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Particulate material was collected using in situ McLane pumps (also see data from Charette and Lam groups). All data were decay corrected back to the mid-pumping times.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;amp;gt;51 u&amp;lt;/strong&amp;gt;&amp;lt;strong&amp;gt;m Th-234:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Mesh screens were provided by the Lam group.&amp;amp;nbsp;The whole mesh screen was rinsed onto a 25 mm silver filter and dried down. The mean volume pumped through the whole Supor mesh screens was 404 L.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;1-51 u&amp;lt;/strong&amp;gt;&amp;lt;strong&amp;gt;m Th-234:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Whole QMAs, located below a mesh screen in the filter head housing, were provided by the Lam group and oven-dried upon recovery. A 25 mm subsample was taken from this whole filter for beta counting for Th-234. The mean effective volume for the 25 mm QMA subsample was 41 L (1042 L for entire QMA).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related references:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Maiti, K., K.O. Buesseler, S.M. Pike, C. Benitez-Nelson, P. Cai, W. Chen, K. Cochran, M. Dai, F. Dehairs, B. Gasser, R.P. Kelly, P. Masque, L.A. Miller, J.C. Miquel, S.B. Moran, P.J. Morris, F. Peine, F. Planchon, A.A. Renfro, M. Rutgers van der Loeff, P.H. Santschi, R. Turnewitsch, J.T. Waples, and C. Xu (2012). Intercalibration studies of short-lived thorium-234 in the water column and marine particles. L&amp;amp;amp;O Methods, 10: 631-644. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2012.10.631&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2012.10.631&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Buesseler, K.O., S. Pike, K. Maiti, C.H. Lamborg, D.A. Siegel and T.W. Trull (2009). Thorium-234 as a tracer of spatial, temporal and vertical variability in particle flux in the North Pacific. Deep-Sea Research I, 56 (1143-1167). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.dsr.2009.04.001&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.dsr.2009.04.001&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Owens, S.A., S. Pike and K.O. Buesseler (2015). Thorium-234 as a tracer of particle dynamics and upper ocean export in the Atlantic Ocean. &amp;lt;em&amp;gt;Deep Sea Research-II, &amp;lt;/em&amp;gt;116: 42-59.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1520,6 +1769,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Detection Limits:&amp;lt;/strong&amp;gt; Limits of detection are not reported because they are not applicable to the &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th beta counting method. A ‘non-detect’ for &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th or a case where there is no &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th present (initially or after 6 months of decay) will still result in a measureable amount of background radioactivity due to the beta decay of long lived natural radionuclides that are also collected on the pump filters.&amp;amp;nbsp;These background values are utilized and therefore, they are not reported as a non-detection of &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Uncertainty:&amp;lt;/strong&amp;gt; At the start and conclusion of each cruise, high activity &amp;lt;sup&amp;gt;238&amp;lt;/sup&amp;gt;U standards and background counts (empty detectors) were measured to confirm correct operation of the RISØ detectors and to determine detector to detector variability.&amp;amp;nbsp;The reported uncertainty on each particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th measurement represents the propagated counting uncertainty and detector to detector normalization.&amp;amp;nbsp;Counting uncertainty is generally the largest source of uncertainty so whenever possible samples were counted until errors were below 5%.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Inter-calibration Efforts:&amp;lt;/strong&amp;gt; Results from the GEOTRACES &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th inter-calibration efforts are published in Maiti et al. (2012).&amp;amp;nbsp;Fifteen labs participated in two cruises that centered on particulate, total and dissolved &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th inter-calibration.&amp;amp;nbsp; Particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th inter-calibration was assessed for small particles collected on QMAs and SUPORs, as well as for large particles collected on 51 um screens.&amp;amp;nbsp;Additional laboratory experiments were performed to understand the effects of filter type, flow rate, particle loading, and other parameters on particulate &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th activity.&amp;amp;nbsp; Pertinent excerpts from Maiti et al. (2012) are included below:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;‘It is important to understand the inherent variability associated with initial sample collection and processing. The variability…may arise due to inter-filter variability, i.e., the variability associated with subsamples taken from the same filter, and inter-pump variability, i.e, the variability between pumps even when they are operating simultaneously for a fixed volume with similar flow-rates…Given the inter-pump and inter-filter variability, the inter-laboratory variability for both small and large particles appears to be reasonable. Overall, results from no laboratory was found to be consistently different from the mean 234Th activity reported for the inter-calibration exercise conducted on samples from stations with different particle types from the Atlantic (2008) and the Pacific (2009).’&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;‘Particulate inter-calibration results indicate good agreement between all the participating labs with data from all labs falling within the 95% confidence interval around the mean for most instances. Filter type experiments indicate no significant differences in 234Th activities between filter types and pore sizes (0.2–0.8 µm). The only exception are the quartz filters, which are associated with 10% to 20% higher 234Th activities attributed to sorption of dissolved 234Th.’&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;‘Overall, results from the current inter-calibration effort indicate that maximum variability can be expected in a high particle environment…Thus, for a station like SBB [Santa Barbara Basin], where fluxes can be measured from a typical six point profile in the upper 150 m of the water column, we can expect a maximum of 15% variability in the estimates between different laboratories based on our inter-calibration results. In comparison, we can expect good agreement in flux measurements amongst laboratories in an open ocean setting with lower 234Th deficiency.’&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Because of the short half-life of &amp;lt;sup&amp;gt;234&amp;lt;/sup&amp;gt;Th (~24 days), the nature of radionuclide analyses, and the high demand for particulate subsamples (the large size fraction in particular), inter-calibration between multiple labs was not possible during the 59-day GP16 cruise.&amp;amp;nbsp;However, the shallow, intermediate, and deep pump casts were made to overlap to provide some means of assessing cast to cast differences and reproducibility.&amp;amp;nbsp;While conditions can change during the duration of a pump cast (~4 hours) as well as from one cast to the next, noticeable differences (larger than expected for natural variability) in overlapping casts were only observed at one station during GP16.&amp;amp;nbsp;In addition, the same internal uranium standards were used by the Buesseler lab during the NAZT and EPZT GEOTRACES cruises and will continue to be used on future cruises. These standards provide a consistent means for calibration and comparison.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Problem reporting:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Data were flagged with quality indicators:&amp;lt;br /&amp;gt;1 = Good;&amp;lt;br /&amp;gt;2 = Probably Good;&amp;lt;br /&amp;gt;4 = Bad.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Empty fields denote that there were pump or filterhead issues that resulted in a compromised sample or no sample at this depth for either the QMA or screen or both.&amp;amp;nbsp;The dataset uses standard Ocean Data View data flags (See &amp;lt;a href=&amp;quot;https://www.bodc.ac.uk/data/codes_and_formats/odv_format/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://www.bodc.ac.uk/data/codes_and_formats/odv_format/&amp;lt;/a&amp;gt;).&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing by BCO-DMO:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;As was done for the GEOTRACES-NAT data, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters:&amp;lt;br /&amp;gt;cruise_id, EXPOCODE,SECT_ID, STNNBR,&amp;amp;nbsp;CASTNO, GEOTRC_EVENTNO, GEOTRC_SAMPNO, GEOTRC_INSTR, SAMPNO, GF_NO, BTLNBR, BTLNBR_FLAG_W, DATE_START_EVENT, TIME_START_EVENT, ISO_DATETIME_UTC_START_EVENT, EVENT_LAT, EVENT_LON, DEPTH_MIN, DEPTH_MAX, &amp;amp;nbsp;BTL_DATE, BTL_TIME, BTL_ISO_DATETIME_UTC, BTL_LAT, BTL_LON, ODF_CTDPRS, SMDEPTH, FMDEPTH, BTMDEPTH, CTDPRS, CTDDEPTH.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This added information will facilitate subsequent analysis and inter-comparison of the datasets.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle and ODF_Bottle datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the TN303 Event Log (version 30 Oct 2014). Where applicable, pump information was taken from the PUMP_Nuts_Sals dataset.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1589,7 +1850,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -1651,45 +1912,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
-                       xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1733,6 +1994,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

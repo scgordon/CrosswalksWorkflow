@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="utf-8" ?><gmi:MI_Metadata
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:gco="http://www.isotc211.org/2005/gco"
+  xmlns:gfc="http://www.isotc211.org/2005/gfc"
+  xmlns:gmd="http://www.isotc211.org/2005/gmd"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:srv="http://www.isotc211.org/2005/srv"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gsr="http://www.isotc211.org/2005/gsr"
+  xmlns:gss="http://www.isotc211.org/2005/gss"
+  xmlns:gts="http://www.isotc211.org/2005/gts"
+  xmlns:gmi="http://www.isotc211.org/2005/gmi"
+  xmlns:gmx="http://www.isotc211.org/2005/gmx"
+  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>http://lod.bco-dmo.org/id/dataset/653966</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>Highest level of data collection, from a common set of sensors or instrumentation, usually within the same research project</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2016-08-12</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo xlink:href="https://www.ngdc.noaa.gov/docucomp/895cc120-95ed-11e0-aa80-0800200c9a66" xlink:title="WGS 84 / World Mercator"/>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/653966.rdf" xlink:actuate="onRequest">Prey percent cover raw data from predator removal experiment following seastar wasting disease from coastal Oregon, 2015</gmx:Anchor>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-08-12</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-08-12</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51222.rdf" xlink:actuate="onRequest">Dr Bruce A. Menge</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/9.rdf" xlink:actuate="onRequest">Oregon State University</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+          </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Prey percent cover raw data Dataset Description: &amp;lt;p&amp;gt;Data are from experiment measuring sessile community structure with and without whelk and Leptasterias predators following SSWD. Experiment was run at two sites from June 2014 to May 2015. Data here are from photographic analysis of prey community for 4 time points.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related Reference:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Elizabeth B. Cerny-Chipman, Jenna M. Sullivan, and Bruce A. Menge. Whelk predators exhibit limited population responses and community effects following disease-driven declines of the keystone sea star &amp;lt;em&amp;gt;Pisaster ochraceus. &amp;lt;/em&amp;gt;In Revision: MEPS.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related Datasets:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://www.bco-dmo.org/dataset/653838&amp;quot;&amp;gt;Predator removals&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://www.bco-dmo.org/dataset/653942&amp;quot;&amp;gt;Whelk size distributions: counts&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://www.bco-dmo.org/dataset/653924&amp;quot;&amp;gt;Whelk size distributions: individuals&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://www.bco-dmo.org/dataset/653793&amp;quot;&amp;gt;Whelk surveys&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Study system:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Our study included 4 sites along the Oregon coast: Strawberry Hill (44.250°N-124.115°W) and Yachats Beach (44.319°N-124.109°W), located on Cape Perpetua, and Fogarty Creek (44.837°N-124.0587°W) and Boiler Bay (44.832°N-124.061°W) located on Cape Foulweather (Fig.1). Cape Perpetua is a rocky headland adjacent to a wide continental shelf offshore that promotes retention of propagules such as larvae and phytoplankton (Menge et al. 2015). As a result, Cape Perpetua intertidal sites are characterized by high phytoplankton productivity and high recruitment of invertebrates (Menge et al. 1997, 2004, 2015). Cape Foulweather, in contrast, is characterized by a narrower offshore continental shelf, which leads to reduced retentiveness, lower invertebrate abundance, and high macrophyte abundance. Prior to the onset of SSWD, densities of P. ochraceus could be as high as 8 individuals m-2 at Cape Perpetua and 4 individuals m-2 at Cape Foulweather sites (Menge et al. 2016).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Subordinate predator removal experiment&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;To assess the effects of subordinate predators in the absence of the keystone, we conducted a factorial removal experiment at two intertidal sites located on Cape Perpetua, Oregon (Strawberry Hill and Yachats Beach, see Fig. 1). We predicted that whelk predators would affect establishment of the dominant mussel, Mytilus californianus, by consuming the mid-successional prey species that facilitate its recruitment. As such, we chose to follow prey dynamics from a mid-successional stage by placing plots where there was abundant cover of the mussel Mytilus trossulus and several barnacle species. This mid-successional community is where we expected to see the greatest effects of subordinate predators and the largest changes in community structure following SSWD. We originally examined the effects of two groups of subordinate predators, gastropod whelks Nucella canaliculata and N. ostrina (W) and the smaller sea star Leptasterias spp. (L), in a factorial design including four treatments:&amp;amp;nbsp; +W +L, -W+L, +W -L, and -W-L. However, Leptasterias spp. were rare in our plots, and treatments were combined to include control (+W) and whelk removal (–W) treatments only (see data analysis section below). It is important to note that our experiment tested the effects of subordinate predators at reduced P. ochraceus densities, rather than comparing their effects in the presence or absence of P. ochraceus.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We followed prey community structure over time at 5 replicate plots (10 when treatments were combined) within each site at the upper edge of the low zone. The main treatment plots were 0.25 m2 in size and corners were marked with stainless steel lag screws. Each main plot was surrounded by four additional subplots adjacent to each plot side that were meant to act as a buffer for the main plot. We monitored plots either bi-weekly or monthly as tides permitted from experimental initiation in June 2014 through May 2015. At each monitoring, we counted the total number of each subordinate predator species (N. canaliculata, N. ostrina, and Leptasterias spp.), as well as any less common predators, such as the whelk Nucella lamellosa, in all plots. When possible, we conducted a full monitoring with counts and removals of predators in the main plot, the four adjacent subplots, and in the corners between subplots. On some occasions, particularly during winter months with limited site access, we only monitored the main plots. All removal of whelks and Leptasterias spp. was conducted using forceps, and removed predators were relocated away from the plot area. In plots without removals, we mimicked the use of forceps in the plot while counting subordinate predators to limit the possibility that the physical action of predator removal would influence our results. Although SSWD caused declines in Pisaster ochraceus densities, it did not extirpate the species entirely from our sites. We recorded and relocated any P. ochraceus within each plot and any adult and juvenile P. ochraceus from a 3m radius around each plot.&amp;lt;/p&amp;gt;</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/542394.rdf" xlink:title="OCE-1448913" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1448913 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1448913</gmx:Anchor>
+      </gmd:credit>
+        <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51222.rdf" xlink:actuate="onRequest">Dr Bruce A. Menge</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/9.rdf" xlink:actuate="onRequest">Oregon State University</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>541-737-5358</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Department of Integrative Biology, Oregon State University Cordley Hall 3029</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Corvallis</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>OR</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>97331</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>mengeb@oregonstate.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+            <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+          </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653975.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/472026.rdf" xlink:actuate="onRequest">time_point</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653976.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1073.rdf" xlink:actuate="onRequest">direction</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653977.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1070.rdf" xlink:actuate="onRequest">date</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653978.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1124.rdf" xlink:actuate="onRequest">site</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653979.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/953.rdf" xlink:actuate="onRequest">replicate</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653980.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/489066.rdf" xlink:actuate="onRequest">treatment</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653981.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/960.rdf" xlink:actuate="onRequest">sample</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653982.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653983.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653984.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653985.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653986.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653987.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653988.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653989.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653990.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653991.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653992.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653993.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653994.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653995.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653996.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653997.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653998.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653999.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654000.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654001.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654002.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654003.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1079.rdf" xlink:actuate="onRequest">count</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654004.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1079.rdf" xlink:actuate="onRequest">count</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654005.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1079.rdf" xlink:actuate="onRequest">count</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654006.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654007.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654008.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/653679.rdf" xlink:actuate="onRequest">investigator</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654009.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/653679.rdf" xlink:actuate="onRequest">investigator</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-instrument/654011.rdf" xlink:title="http://lod.bco-dmo.org/id/instrument/520.rdf" xlink:actuate="onRequest"></gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>None, User defined</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/472026.rdf" xlink:title="Parameter" xlink:actuate="onRequest">time_point</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1073.rdf" xlink:title="Parameter" xlink:actuate="onRequest">no standard parameter</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1070.rdf" xlink:title="Parameter" xlink:actuate="onRequest">date</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1124.rdf" xlink:title="Parameter" xlink:actuate="onRequest">site</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/953.rdf" xlink:title="Parameter" xlink:actuate="onRequest">replicate</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/489066.rdf" xlink:title="Parameter" xlink:actuate="onRequest">treatment</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/960.rdf" xlink:title="Parameter" xlink:actuate="onRequest">sample identification</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/735.rdf" xlink:title="Parameter" xlink:actuate="onRequest">abundance</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1079.rdf" xlink:title="Parameter" xlink:actuate="onRequest">count</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/653679.rdf" xlink:title="Parameter" xlink:actuate="onRequest">investigator</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="featureType">featureType</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>BCO-DMO Standard Parameters</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/520.rdf" xlink:title="Instrument" xlink:actuate="onRequest">Camera</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>BCO-DMO Standard Instruments</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/653801.rdf" xlink:title="Deployment" xlink:actuate="onRequest">Menge_2014</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="service">service</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Deployment Activity</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+        <gmd:keyword>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/653801.rdf" xlink:title="Deployment Location" xlink:actuate="onRequest">coastal Oregon</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Locations</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+              </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+          <gmd:MD_AggregateInformation>
+            <gmd:aggregateDataSetName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2033.rdf" xlink:title="Program" xlink:actuate="onRequest">Partnership for Interdisciplinary Studies of Coastal Oceans</gmx:Anchor>
+                </gmd:title>
+                <gmd:date gco:nilReason="inapplicable"/>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.piscoweb.org/</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:name>
+                            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2033.rdf" xlink:title="Program Name" xlink:actuate="onRequest">Partnership for Interdisciplinary Studies of Coastal Oceans</gmx:Anchor>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>The Partnership for Interdisciplinary Studies of Coastal Oceans is a long-term ecosystem research and monitoring program established with the goals of: understanding dynamics of the coastal ocean ecosystem along the U.S. west coastsharing that knowledge so ocean managers and policy makers can make science based decisions regarding coastal and marine stewardshipproducing a new generation of scientists trained in interdisciplinary collaborative approachesOver the last 10 years, PISCO has successfully built a unique research program that combines complementary disciplines to answer critical environmental questions and inform management and policy. Activities are conducted at the latitudinal scale of the California Current Large Marine Ecosystem along the west coast of North America, but anchored around the dynamics of coastal, hardbottom habitats and the oceanography of the nearshore ocean – among the most productive and diverse components of this ecosystem. The program integrates studies of changes in the ocean environment through ecological monitoring and experiments. Scientists examine the causes and consequences of ecosystem changes over spatial scales that are the most relevant to marine species and management, but largely unstudied elsewhere.Findings are linked to solutions through a growing portfolio of tools for policy and management decisions. The time from scientific discovery to policy change is greatly reduced by coordinated, efficient links between scientists and key decision makers.Core elements of PISCO are:Interdisciplinary ecosystem scienceData archiving and sharingOutreach to public and decision-making user groupsInterdisciplinary trainingCoordination of distributed research teamEstablished in 1999 with funding from The David and Lucile Packard Foundation, PISCO is led by scientists from core campuses Oregon State University (OSU); Stanford University’s Hopkins Marine Station; University of California, Santa Cruz (UCSC); and University of California, Santa Barbara (UCSB). Collaborators from other institutions also contribute to leadership and development of PISCO programs.  As of 2005, core PISCO activities are funded by collaborative grants from The David and Lucile Packard Foundation and the Gordon and Betty Moore Foundation. Core support, along with additional funding from diverse public and private sources, make this unique partnership possible.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                          </gmd:function>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role/>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+          </gmd:CI_Citation>
+        </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2033.rdf" xlink:title="Program Acronym" xlink:actuate="onRequest">PISCO</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="program">program</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo><gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/517379.rdf" xlink:title="Project" xlink:actuate="onRequest">Testing the rocky intertidal community consequences of the decimation of purple sea star populations along the Oregon coast by sea star wasting disease</gmx:Anchor>
+                </gmd:title>
+                <gmd:date gco:nilReason="inapplicable"/>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.eeb.ucsc.edu/pacificrockyintertidal/data-products/sea-star-wasting/</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:name>
+                            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/517379.rdf" xlink:title="Project Name" xlink:actuate="onRequest">Testing the rocky intertidal community consequences of the decimation of purple sea star populations along the Oregon coast by sea star wasting disease</gmx:Anchor>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>This study will investigate the ecological consequences of the decimation of sea star populations by wasting disease along the Oregon coast. Hallmarks of wasting disease are the formation of sores on the sea star that progress to cause loss of arms, and ultimately death of the animal. Wasting disease was reported in sea star populations including those of the purple sea star, Pisaster ochraceus, in British Columbia, Washington, and California as early as April 2013. In Oregon, wasting was first observed in April 2014, and by June 2014 rates of infection ranged up to 80%, and sea star abundance had declined. At that rate, many populations may disappear by the end of summer 2014. Prior research has shown that in the absence of the purple sea star, mid-shore mussel populations increase, and ultimately overgrow the sea weeds and invertebrates that occur low on the shore, reducing biodiversity. However, because disease events of this magnitude have never occurred along the entire coastline, it is unclear if the small-scale expansion of mussels observed previously will be a general result of this event. One possibility is that predators unaffected by wasting, such as whelks and crabs, will increase their predation effects and blunt the expected invasion of mussels to the low shore. The research in this project will evaluate this possibility by testing the role of these alternative predators. Broader Impacts include the training of undergraduate and graduate students, the involvement of coastal residents and the production of microdocumentaries and video to document the changing context of this ecosystem.The research project is designed to test three hypotheses. First, that in the absence of Pisaster ochraceus, predation by whelks will increase in strength through increases in whelk abundance and in whelk size, and at least partially compensate for the absence of Pisaster. Second, the small sea star Leptasterias spp. will also expand its role as a predator through increased size and abundance, and expansion of its habitat beyond mussel beds. Although individuals of this sea star have been observed to suffer from wasting as well, the frequency so far appears low, and it seems likely this species may persist. Third, the crab Cancer productus, normally mostly a subtidal species, will expand its range into the intertidal and help to compensate for the loss of Pisaster. Tests of these hypotheses will include manual removal experiments (whelk removal, Leptasterias removal, removal of both and of neither), cage exclusion experiments (whelk exclusions), cage inclusion-exclusion experiments (Leptasterias inclusion, Leptasterias exclusion). Experiments will be replicated with appropriate controls, and done at multiple sites on the central Oregon coast that vary naturally in population abundances, rates of prey and predator recruitment, and oceanographic conditions. Results obtained under this unprecedented set of circumstances will deepen and expand our empirical understanding of the dynamics of an iconic ecosystem, and will help parameterize community models.Additional Project Information: Sea Star Wasting Map</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                          </gmd:function>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role/>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+          </gmd:CI_Citation>
+        </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/517379.rdf" xlink:title="Project Acronym" xlink:actuate="onRequest">Sea star wasting</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="project">project</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+       <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+       <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent"><gmd:description>
+            <gco:CharacterString>coastal Oregon</gco:CharacterString>
+          </gmd:description><gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
+                  <gml:timePosition>2016-08-12</gml:timePosition>
+                </gml:TimeInstant>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+          </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmd:MD_FeatureCatalogueDescription>
+      <gmd:includedWithDataset>
+        <gco:Boolean>0</gco:Boolean>
+      </gmd:includedWithDataset>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Prey percent cover raw data from predator removal experiment following seastar wasting disease from coastal Oregon, 2015</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="unknown"/>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>
+            http://lod.bco-dmo.org/id/dataset-parameter/653975.rdf
+	Name: time_point
+	Units: year-month-day
+	Description: Standardized date reflecting time period for each site of observations. In YYYYMMDD format 
+http://lod.bco-dmo.org/id/dataset-parameter/653976.rdf
+	Name: direction
+	Units: unitless
+	Description: Direction of subplot relative to mainplot. Used to maintain consistent plot monitoring. M=main plot; N=north; E=east; S=south; W=west 
+http://lod.bco-dmo.org/id/dataset-parameter/653977.rdf
+	Name: photo_date
+	Units: year-month-day
+	Description: Date photograph used in analysis was taken in format YYYYMMDD 
+http://lod.bco-dmo.org/id/dataset-parameter/653978.rdf
+	Name: site
+	Units: unitless
+	Description: One of two experimental sites: SH=Strawberry Hill; YB=Yachats Beach 
+http://lod.bco-dmo.org/id/dataset-parameter/653979.rdf
+	Name: rep
+	Units: unitless
+	Description: Replicate number: 1-5 
+http://lod.bco-dmo.org/id/dataset-parameter/653980.rdf
+	Name: treatment
+	Units: unitless
+	Description: Treatment: C=control; W=Whelk removal; L=Leptasterias Removal; A=removal of both whelks &amp;amp; Leptasterias 
+http://lod.bco-dmo.org/id/dataset-parameter/653981.rdf
+	Name: plot
+	Units: unitless
+	Description: Unique ID for each experimental unit within each site (names are repeated across sites) 
+http://lod.bco-dmo.org/id/dataset-parameter/653982.rdf
+	Name: M_californianus
+	Units: percent
+	Description: Percent cover of Mytilus californianus 
+http://lod.bco-dmo.org/id/dataset-parameter/653983.rdf
+	Name: M_trossulus
+	Units: percent
+	Description: Percent cover of Mytilus trossulus 
+http://lod.bco-dmo.org/id/dataset-parameter/653984.rdf
+	Name: M_unidentified
+	Units: percent
+	Description: Percent cover of indentified Mytilus spp. 
+http://lod.bco-dmo.org/id/dataset-parameter/653985.rdf
+	Name: M_recruits
+	Units: percent
+	Description: Percent cover of Mytilus recruits; species unidentified 
+http://lod.bco-dmo.org/id/dataset-parameter/653986.rdf
+	Name: B_glandula
+	Units: percent
+	Description: Percent cover of Balanus glandula 
+http://lod.bco-dmo.org/id/dataset-parameter/653987.rdf
+	Name: S_cariosus
+	Units: percent
+	Description: Percent cover of Semibalanus cariosus 
+http://lod.bco-dmo.org/id/dataset-parameter/653988.rdf
+	Name: C_dalli
+	Units: percent
+	Description: Percent cover of Chthamalus dalli 
+http://lod.bco-dmo.org/id/dataset-parameter/653989.rdf
+	Name: P_polymerus
+	Units: percent
+	Description: Percent cover of Pollicipes polymerus 
+http://lod.bco-dmo.org/id/dataset-parameter/653990.rdf
+	Name: B_nubilus
+	Units: percent
+	Description: Percent cover of Balanus nubilus 
+http://lod.bco-dmo.org/id/dataset-parameter/653991.rdf
+	Name: barn_recruits
+	Units: percent
+	Description: Percent cover of barnacle recruits; all species 
+http://lod.bco-dmo.org/id/dataset-parameter/653992.rdf
+	Name: anemones
+	Units: percent
+	Description: Percent cover of anemones (Anthopleura elegantissima and Anthopleura xanthogrammica) 
+http://lod.bco-dmo.org/id/dataset-parameter/653993.rdf
+	Name: sponge
+	Units: percent
+	Description: Percent cover of sponges; species unidentified 
+http://lod.bco-dmo.org/id/dataset-parameter/653994.rdf
+	Name: canopy
+	Units: percent
+	Description: Percent cover of macrophyte canopy (for canopy-forming species) 
+http://lod.bco-dmo.org/id/dataset-parameter/653995.rdf
+	Name: turf
+	Units: percent
+	Description: Percent cover of turf-forming algae 
+http://lod.bco-dmo.org/id/dataset-parameter/653996.rdf
+	Name: crust
+	Units: percent
+	Description: Percent cover of algal crusts 
+http://lod.bco-dmo.org/id/dataset-parameter/653997.rdf
+	Name: sand
+	Units: percent
+	Description: Percent cover of sand 
+http://lod.bco-dmo.org/id/dataset-parameter/653998.rdf
+	Name: bare
+	Units: percent
+	Description: Percent cover of bare rock 
+http://lod.bco-dmo.org/id/dataset-parameter/653999.rdf
+	Name: free_space
+	Units: percent
+	Description: Percent cover of total open space (sand + bare rock) 
+http://lod.bco-dmo.org/id/dataset-parameter/654000.rdf
+	Name: vertical
+	Units: percent
+	Description: Percent cover of plot that is vertical; and thus not counted. Final percent covers are adjusted to reflect any missing space in plots. 
+http://lod.bco-dmo.org/id/dataset-parameter/654001.rdf
+	Name: bare_expected
+	Units: percent
+	Description: Percent cover bare rock expected. Equal to 100% less all other primary cover values 
+http://lod.bco-dmo.org/id/dataset-parameter/654002.rdf
+	Name: act_bare_vs_exp
+	Units: percent
+	Description: Actual bare rock percent cover - expected 
+http://lod.bco-dmo.org/id/dataset-parameter/654003.rdf
+	Name: chiton
+	Units: individuals
+	Description: Number of chitons in plot 
+http://lod.bco-dmo.org/id/dataset-parameter/654004.rdf
+	Name: limpets
+	Units: individuals
+	Description: Number of limpets within a 20 x 20 cm subplot. Subplot was chosen using a random number generator with values between 1 and 25 
+http://lod.bco-dmo.org/id/dataset-parameter/654005.rdf
+	Name: S_purpuratus
+	Units: individuals
+	Description: Number of Strongylocentrotus purpuratus 
+http://lod.bco-dmo.org/id/dataset-parameter/654006.rdf
+	Name: tot_mussels
+	Units: percent
+	Description: Sum of percent cover of all mussel groups 
+http://lod.bco-dmo.org/id/dataset-parameter/654007.rdf
+	Name: tot_barn
+	Units: percent
+	Description: Sum of percent cover of all barnacle groups 
+http://lod.bco-dmo.org/id/dataset-parameter/654008.rdf
+	Name: comments
+	Units: unitless
+	Description: Initials of researcher analyzing photo 
+http://lod.bco-dmo.org/id/dataset-parameter/654009.rdf
+	Name: investigator
+	Units: unitless
+	Description: Notes on picture quality or other issues 
+</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>GB/NERC/BODC &gt; British Oceanographic Data Centre, Natural Environment Research Council, United Kingdom</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="unknown"/>
+          <gmd:citedResponsibleParty xlink:href="https://www.ngdc.noaa.gov/docucomp/3D8FE2C9DA324D40939C8D007587E011" xlink:title="GB/NERC/BODC &gt; British Oceanographic Data Centre, Natural Environment Research Council, United Kingdom"/>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>
+            http://vocab.nerc.ac.uk/collection/P01/current/ADATAA01/ 
+	Name: Date (UT as yyyymmdd) 
+	Description: Unavailable 
+http://vocab.nerc.ac.uk/collection/P02/current/ACYC/ 
+	Name: Reference numbers 
+	Description: Data record, event, sample or measurement reference numbers 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+http://vocab.nerc.ac.uk/collection/P03/current/B070/ 
+	Name: Biota abundance, biomass and diversity 
+	Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere. 
+</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+    </gmd:MD_FeatureCatalogueDescription>
+  </gmd:contentInfo>
+  <gmd:contentInfo>
+    <gmi:MI_CoverageDescription>
+      <gmd:attributeDescription>
+        <gco:RecordType>Parameters for this dataset</gco:RecordType>
+      </gmd:attributeDescription>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeList="MD_CoverageContentTypeCode" codeListValue="physicalMeasurement">physicalMeasurement</gmd:MD_CoverageContentTypeCode>
+      </gmd:contentType>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653975.rdf" xlink:title="time_point" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>time_point</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>time_point</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Standardized date reflecting time period for each site of observations. In YYYYMMDD format; General Description: Arbitrary time point of sampling in a sampling sequence (T0, T1,....Tn)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653975">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653975.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653975.rdf</gml:identifier>
+             <gml:name>year-month-day</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653976.rdf" xlink:title="no standard parameter" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>direction</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>no standard parameter</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Direction of subplot relative to mainplot. Used to maintain consistent plot monitoring. M=main plot; N=north; E=east; S=south; W=west; General Description: association with a community-wide standard parameter is not yet defined</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653976">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653976.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653976.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653977.rdf" xlink:title="date" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>photo_date</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/ADATAA01/" xlink:title="Date (UT as yyyymmdd)" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>date</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Date photograph used in analysis was taken in format YYYYMMDD; General Description: date; generally reported in GMT as YYYYMMDD (year; month; day); also as MMDD (month; day); EqPac dates are local Hawaii time NERC Description: Unavailable</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653977">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653977.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653977.rdf</gml:identifier>
+             <gml:name>year-month-day</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653978.rdf" xlink:title="site" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>site</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>site</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: One of two experimental sites: SH=Strawberry Hill; YB=Yachats Beach; General Description: Sampling site identification.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653978">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653978.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653978.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653979.rdf" xlink:title="replicate" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>rep</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>replicate</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Replicate number: 1-5; General Description: an identifier used to distinguish between one or more replicate samples</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653979">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653979.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653979.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653980.rdf" xlink:title="treatment" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>treatment</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>treatment</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Treatment: C=control; W=Whelk removal; L=Leptasterias Removal; A=removal of both whelks &amp;amp; Leptasterias; General Description: Experimental conditions applied to experimental units.  In comparative experiments, members of the complementary group, the control group, receive either no treatment or a standard treatment.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653980">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653980.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653980.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653981.rdf" xlink:title="sample identification" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>plot</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/ACYC/" xlink:title="Reference numbers" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>sample identification</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Unique ID for each experimental unit within each site (names are repeated across sites); General Description: unique sample identification or number; any combination of alpha numeric characters; precise definition is file dependent NERC Description: Data record, event, sample or measurement reference numbers</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653981">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653981.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653981.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653982.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>M_californianus</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of Mytilus californianus; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653982">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653982.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653982.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653983.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>M_trossulus</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of Mytilus trossulus; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653983">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653983.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653983.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653984.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>M_unidentified</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of indentified Mytilus spp.; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653984">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653984.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653984.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653985.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>M_recruits</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of Mytilus recruits; species unidentified; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653985">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653985.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653985.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653986.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>B_glandula</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of Balanus glandula; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653986">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653986.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653986.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653987.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>S_cariosus</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of Semibalanus cariosus; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653987">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653987.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653987.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653988.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>C_dalli</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of Chthamalus dalli; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653988">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653988.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653988.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653989.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>P_polymerus</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of Pollicipes polymerus; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653989">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653989.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653989.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653990.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>B_nubilus</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of Balanus nubilus; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653990">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653990.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653990.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653991.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>barn_recruits</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of barnacle recruits; all species; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653991">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653991.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653991.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653992.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>anemones</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of anemones (Anthopleura elegantissima and Anthopleura xanthogrammica); General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653992">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653992.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653992.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653993.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>sponge</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of sponges; species unidentified; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653993">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653993.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653993.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653994.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>canopy</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of macrophyte canopy (for canopy-forming species); General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653994">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653994.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653994.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653995.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>turf</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of turf-forming algae; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653995">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653995.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653995.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653996.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>crust</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of algal crusts; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653996">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653996.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653996.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653997.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>sand</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of sand; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653997">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653997.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653997.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653998.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>bare</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of bare rock; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653998">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653998.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653998.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/653999.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>free_space</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of total open space (sand + bare rock); General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits653999">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/653999.rdf">http://lod.bco-dmo.org/id/dataset-parameter/653999.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654000.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>vertical</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover of plot that is vertical; and thus not counted. Final percent covers are adjusted to reflect any missing space in plots.; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654000">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654000.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654000.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654001.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>bare_expected</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Percent cover bare rock expected. Equal to 100% less all other primary cover values; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654001">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654001.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654001.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654002.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>act_bare_vs_exp</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Actual bare rock percent cover - expected; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654002">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654002.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654002.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654003.rdf" xlink:title="count" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>chiton</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>count</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Number of chitons in plot; General Description: Number of individuals counted in sample or sample fraction</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654003">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654003.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654003.rdf</gml:identifier>
+             <gml:name>individuals</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654004.rdf" xlink:title="count" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>limpets</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>count</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Number of limpets within a 20 x 20 cm subplot. Subplot was chosen using a random number generator with values between 1 and 25; General Description: Number of individuals counted in sample or sample fraction</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654004">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654004.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654004.rdf</gml:identifier>
+             <gml:name>individuals</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654005.rdf" xlink:title="count" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>S_purpuratus</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>count</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Number of Strongylocentrotus purpuratus; General Description: Number of individuals counted in sample or sample fraction</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654005">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654005.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654005.rdf</gml:identifier>
+             <gml:name>individuals</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654006.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>tot_mussels</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Sum of percent cover of all mussel groups; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654006">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654006.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654006.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654007.rdf" xlink:title="abundance" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>tot_barn</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B070/" xlink:title="Biota abundance, biomass and diversity" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>abundance</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Sum of percent cover of all barnacle groups; General Description: number of the specific taxa/group counted per unit area or volume NERC Description: All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654007">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654007.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654007.rdf</gml:identifier>
+             <gml:name>percent</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654008.rdf" xlink:title="investigator" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>comments</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>investigator</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Initials of researcher analyzing photo; General Description: This is the person who has some responsibility for the data.  Can be the ultimate responsibility, i.e. Principle Investigator or Chief Scientist, or can be a scientist who is responsible for one kind of data, or data collection or analysis or identification.  This is not  the person who wrote the numbers or observations in the log. That is 'recorder'. Some of the previously labelled 'person' designations are now 'investigators'.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654008">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654008.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654008.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/654009.rdf" xlink:title="investigator" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>investigator</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>investigator</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Notes on picture quality or other issues; General Description: This is the person who has some responsibility for the data.  Can be the ultimate responsibility, i.e. Principle Investigator or Chief Scientist, or can be a scientist who is responsible for one kind of data, or data collection or analysis or identification.  This is not  the person who wrote the numbers or observations in the log. That is 'recorder'. Some of the previously labelled 'person' designations are now 'investigators'.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits654009">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/654009.rdf">http://lod.bco-dmo.org/id/dataset-parameter/654009.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      </gmi:MI_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+        <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.bco-dmo.org/dataset/653966/data/download</gmd:URL>
+              </gmd:linkage>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:processStep xlink:title="Acquisition Description">
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Study system:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Our study included 4 sites along the Oregon coast: Strawberry Hill (44.250°N-124.115°W) and Yachats Beach (44.319°N-124.109°W), located on Cape Perpetua, and Fogarty Creek (44.837°N-124.0587°W) and Boiler Bay (44.832°N-124.061°W) located on Cape Foulweather (Fig.1). Cape Perpetua is a rocky headland adjacent to a wide continental shelf offshore that promotes retention of propagules such as larvae and phytoplankton (Menge et al. 2015). As a result, Cape Perpetua intertidal sites are characterized by high phytoplankton productivity and high recruitment of invertebrates (Menge et al. 1997, 2004, 2015). Cape Foulweather, in contrast, is characterized by a narrower offshore continental shelf, which leads to reduced retentiveness, lower invertebrate abundance, and high macrophyte abundance. Prior to the onset of SSWD, densities of P. ochraceus could be as high as 8 individuals m-2 at Cape Perpetua and 4 individuals m-2 at Cape Foulweather sites (Menge et al. 2016).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Subordinate predator removal experiment&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;To assess the effects of subordinate predators in the absence of the keystone, we conducted a factorial removal experiment at two intertidal sites located on Cape Perpetua, Oregon (Strawberry Hill and Yachats Beach, see Fig. 1). We predicted that whelk predators would affect establishment of the dominant mussel, Mytilus californianus, by consuming the mid-successional prey species that facilitate its recruitment. As such, we chose to follow prey dynamics from a mid-successional stage by placing plots where there was abundant cover of the mussel Mytilus trossulus and several barnacle species. This mid-successional community is where we expected to see the greatest effects of subordinate predators and the largest changes in community structure following SSWD. We originally examined the effects of two groups of subordinate predators, gastropod whelks Nucella canaliculata and N. ostrina (W) and the smaller sea star Leptasterias spp. (L), in a factorial design including four treatments:&amp;amp;nbsp; +W +L, -W+L, +W -L, and -W-L. However, Leptasterias spp. were rare in our plots, and treatments were combined to include control (+W) and whelk removal (–W) treatments only (see data analysis section below). It is important to note that our experiment tested the effects of subordinate predators at reduced P. ochraceus densities, rather than comparing their effects in the presence or absence of P. ochraceus.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We followed prey community structure over time at 5 replicate plots (10 when treatments were combined) within each site at the upper edge of the low zone. The main treatment plots were 0.25 m2 in size and corners were marked with stainless steel lag screws. Each main plot was surrounded by four additional subplots adjacent to each plot side that were meant to act as a buffer for the main plot. We monitored plots either bi-weekly or monthly as tides permitted from experimental initiation in June 2014 through May 2015. At each monitoring, we counted the total number of each subordinate predator species (N. canaliculata, N. ostrina, and Leptasterias spp.), as well as any less common predators, such as the whelk Nucella lamellosa, in all plots. When possible, we conducted a full monitoring with counts and removals of predators in the main plot, the four adjacent subplots, and in the corners between subplots. On some occasions, particularly during winter months with limited site access, we only monitored the main plots. All removal of whelks and Leptasterias spp. was conducted using forceps, and removed predators were relocated away from the plot area. In plots without removals, we mimicked the use of forceps in the plot while counting subordinate predators to limit the possibility that the physical action of predator removal would influence our results. Although SSWD caused declines in Pisaster ochraceus densities, it did not extirpate the species entirely from our sites. We recorded and relocated any P. ochraceus within each plot and any adult and juvenile P. ochraceus from a 3m radius around each plot.&amp;lt;/p&amp;gt;</gco:CharacterString>
+              </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep xlink:title="Processing Description">
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Photo analysis of prey communities&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;We used photo analysis to follow changes in prey community structure across experimental treatments over time. At each monitoring point, we took a photograph of each plot including a quadrat to provide a grid for estimating cover of prey species. Photo analysis was conducted for four time points: June 2014, September 2014, February 2015, and May 2015. Percent cover of M. californianus and several groups of mid-successional prey species including M. trossulus and the barnacles Balanus glandula, Semibalanus cariosus, Chthamalus dalli, Pollicipes polymerus, and B. nubilus were visually estimated from the photographs as a metric of abundance (e.g. Dethier et al. 1993). Barnacle recruits were too small to be identified to species and were put into a single separate category. We also separately estimated the percent cover of Mytilus recruits, which were less than roughly 5 mm in length and were not identifiable to species. It is difficult to differentiate M. californianus and M. trossulus when individuals are small or in very high densities. As such, it is possible that some mussel individuals identified as adult M. trossulus were later identified as M. californianus if they developed clear morphological traits of M. californianus, though misidentification would be consistent across treatment.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Because other low zone organisms were likely to respond to variation in abundance of mussels and barnacles, we quantified the abundance of macrophyte algae, anemones (Anthopleura elegantissma and Anthopleura xanthogrammica) and sponges. Macrophytes were sorted into functional groups including crusts, turfy algae, and canopy-forming algae. Overall, the cover of macrophytes was low in our plots throughout the experiment. We also quantified the abundance of non-focal mobile invertebrates including sea urchins (Strongylocentrotus purpuratus), chitons (e.g., Katharina tunicata, Tonicella lineata, Mopalia spp.), and limpets (Lottia spp.).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO Processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;- added conventional header with dataset name, PI name, version date&amp;lt;br /&amp;gt;- renamed parameters to BCO-DMO standard&amp;lt;br /&amp;gt;- reformatted date from m/d/yyyy to yyyymmdd&amp;lt;br /&amp;gt;- replaced . in specific_cover_type column with nd (no data)&amp;lt;/p&amp;gt;</gco:CharacterString>
+              </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+   </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:maintenanceNote>
+        <gco:CharacterString>7.x-1.1</gco:CharacterString>
+      </gmd:maintenanceNote>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+      </gmd:contact>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+  <gmi:acquisitionInformation>
+    <gmi:MI_AcquisitionInformation>
+    <gmi:instrument>
+        <gmi:MI_Instrument>
+          <gmi:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/520.rdf" xlink:title="Camera" xlink:actuate="onRequest"></gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmi:identifier>
+          <gmi:type>
+            <gco:CharacterString></gco:CharacterString>
+          </gmi:type>
+          <gmi:description>
+            <gco:CharacterString>PI Supplied Instrument Name:  Instrument Name: Camera Instrument Short Name:camera   Instrument Description: A camera (could be a 35 mm type), most often used to photograph marine mammals or birds. Community Standard Description: http://vocab.nerc.ac.uk/collection/L05/current/311/</gco:CharacterString>
+          </gmi:description>
+        </gmi:MI_Instrument>
+      </gmi:instrument>
+      <gmi:operation>
+          <gmi:MI_Operation>
+            <gmi:description>
+              <gco:CharacterString>Deployment: Menge_2014</gco:CharacterString>
+            </gmi:description>
+            <gmi:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/653801.rdf" xlink:title="Deployment" xlink:actuate="onRequest">Menge_2014</gmx:Anchor>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmi:identifier>
+            <gmi:status>
+              <gmd:MD_ProgressCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+            </gmi:status>
+            <gmi:type>
+              <gmi:MI_OperationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MI_OperationTypeCode" codeListValue="real"/>
+            </gmi:type>
+            <gmi:parentOperation gco:nilReason="inapplicable"/>
+            <gmi:platform>
+              <gmi:MI_Platform>
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54219.rdf"
+                       xlink:actuate="onRequest">OSU</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:description>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54219.rdf" xlink:title="OSU" xlink:actuate="onRequest">laboratory</gmx:Anchor>
+                </gmi:description>
+                <gmi:instrument gco:nilReason="unknown"/>
+              </gmi:MI_Platform>
+            </gmi:platform>
+            <gmi:plan>
+              <gmi:MI_Plan>
+                <gmi:status>
+                  <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+                </gmi:status>
+                <gmi:citation>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/653801.rdf" xlink:title="Deployment" xlink:actuate="onRequest">Menge_2014</gmx:Anchor>
+                    </gmd:title>
+                    <gmd:date gco:nilReason="unknown"/>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                      <gmd:individualName>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51222.rdf" xlink:actuate="onRequest">Dr Bruce A. Menge</gmx:Anchor>
+                        </gmd:individualName>
+                        <gmd:organisationName>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/9.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Oregon State University</gmx:Anchor>
+                        </gmd:organisationName>
+                        <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+                      </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                   </gmd:CI_Citation>
+                </gmi:citation>
+              </gmi:MI_Plan>
+            </gmi:plan>
+            </gmi:MI_Operation>
+      </gmi:operation></gmi:MI_AcquisitionInformation>
+  </gmi:acquisitionInformation>
+</gmi:MI_Metadata>

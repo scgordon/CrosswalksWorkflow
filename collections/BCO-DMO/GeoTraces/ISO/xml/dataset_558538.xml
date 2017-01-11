@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/558538.rdf" xlink:actuate="onRequest">Bidigare Pigments from the U.S. GEOTRACES EPZT project of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/558538.rdf" xlink:actuate="onRequest">HPLC pigments along the US GEOTRACES East Pacific Zonal Transect from the R/V Thomas G. Thompson TN303 cruise in the tropical Pacific from Peru to Tahiti during 2013 (U.S. GEOTRACES EPZT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2015-05-15</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2015-05-15</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2015-05-15</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/558538" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/558538</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,22 +166,116 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51700.rdf" xlink:actuate="onRequest">Dr Christopher R. German</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50679.rdf" xlink:actuate="onRequest">Dr Gregory Cutter</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/49.rdf" xlink:actuate="onRequest">Old Dominion University</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Moffett, James, German, Christopher and Cutter, Gregory (2015) HPLC pigments along the US GEOTRACES East Pacific Zonal Transect from the R/V Thomas G. Thompson TN303 cruise in the tropical Pacific from Peru to Tahiti during 2013 (U.S. GEOTRACES EPZT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2015-05-15 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/558538 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Bidigare Pigments Dataset Description: &amp;lt;p&amp;gt;Bidigare Pigments&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Notes on the data:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Pigment values are concentrations in ng/L.&amp;lt;br /&amp;gt;Where the value is shown as zero, this could more properly be stated as &amp;quot;less than limit of detection&amp;quot;.&amp;lt;br /&amp;gt;See LoD estimates below.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Filtered volume amounts were obtained from the hand written cast sheets.&amp;lt;br /&amp;gt;They are listed with these data simply for reference in case one has different values listed elsewhere.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Station 21:&amp;lt;/strong&amp;gt; No depths are listed for Station 21 because these were not available on the cast sheets.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The response factor for DDX was used to calculate DTX values.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Station 2:&amp;lt;/strong&amp;gt;&amp;amp;nbsp; It is possible that some HEX is present.&amp;amp;nbsp; The high levels of FUCO at this station resulted in correspondingly large cis-fuco peaks, one of which eluted at the same retention time as HEX would elute if present, so HEX cannot be quantified.&amp;amp;nbsp; The size of the peak is about &amp;quot;right&amp;quot; for it to be due mostly or entirely to cis-fuco, but some contribution from HEX cannot be ruled out.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Station 4, sample 2373:&amp;lt;/strong&amp;gt;&amp;amp;nbsp; Values for this one are oddly high for its location in the profile.&amp;amp;nbsp; I see no obvious errors on my end.&amp;amp;nbsp; Possible filter in wrong cryotube?&amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;LoD Estimates:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Volume Filtered (L)&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;1.84&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;2.00&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;3.80&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;4.00&amp;lt;br /&amp;gt;LoD for chlorophylls (ng/L)&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;4.8&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;4.4&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;2.3&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;2.2&amp;lt;br /&amp;gt;LoD for carotenoids (ng/L)&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;3.2&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;2.9&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;1.5&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;1.5&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;These values are calculated based on LoD for MVCHLA of 0.59 ng/injection and for ZEA of 0.39 ng/injection, with an injection volume of 0.2 mL and an extract volume of 3.0 mL.&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Pigment&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;Abbreviation&amp;lt;/strong&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Chlorophyllide a&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;CHLIDEA&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Chlorophyll c&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;CHLC&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Peridinin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;PER&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;19'-butanoyloxyfucoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;BUT&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Fucoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;FUCO&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;19'-hexanoyloxyfucoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;HEX&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Prasinoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;PRAS&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Violaxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;VIOL&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Diadinoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;DDX&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Alloxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;ALLOX&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Diatoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;DTX&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Lutein&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;LUT&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Zeaxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;ZEA&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Chlorophyll b&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;CHLB&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Alpha-carotene&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;ACAR&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Beta-carotene&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;BCAR&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Divinyl chlorphyll a&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;DVCHLA&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Monovinyl chlorophyll a&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;MVCHLA&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;SChlorophyll a&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;TCHLA&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;(tbd)&amp;lt;/p&amp;gt;</gco:CharacterString>
+        <gco:CharacterString>Bidigare Pigments Dataset Description: &amp;lt;p&amp;gt;Bidigare Pigments&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Notes on the data:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Pigment values are concentrations in ng/L.&amp;lt;br /&amp;gt;Where the value is shown as zero, this could more properly be stated as &amp;quot;less than limit of detection&amp;quot;.&amp;lt;br /&amp;gt;See LoD estimates below.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Filtered volume amounts were obtained from the hand written cast sheets.&amp;lt;br /&amp;gt;They are listed with these data simply for reference in case one has different values listed elsewhere.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Station 21:&amp;lt;/strong&amp;gt; No depths are listed for Station 21 because these were not available on the cast sheets.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The response factor for DDX was used to calculate DTX values.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Station 2:&amp;lt;/strong&amp;gt;&amp;amp;nbsp; It is possible that some HEX is present.&amp;amp;nbsp; The high levels of FUCO at this station resulted in correspondingly large cis-fuco peaks, one of which eluted at the same retention time as HEX would elute if present, so HEX cannot be quantified.&amp;amp;nbsp; The size of the peak is about &amp;quot;right&amp;quot; for it to be due mostly or entirely to cis-fuco, but some contribution from HEX cannot be ruled out.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Station 4, sample 2373:&amp;lt;/strong&amp;gt;&amp;amp;nbsp; Values for this one are oddly high for its location in the profile.&amp;amp;nbsp; I see no obvious errors on my end.&amp;amp;nbsp; Possible filter in wrong cryotube?&amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;LoD Estimates:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Volume Filtered (L)&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;1.84&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;2.00&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;3.80&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;4.00&amp;lt;br /&amp;gt;LoD for chlorophylls (ng/L)&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;4.8&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;4.4&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;2.3&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;2.2&amp;lt;br /&amp;gt;LoD for carotenoids (ng/L)&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;3.2&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;2.9&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;1.5&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;1.5&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;These values are calculated based on LoD for MVCHLA of 0.59 ng/injection and for ZEA of 0.39 ng/injection, with an injection volume of 0.2 mL and an extract volume of 3.0 mL.&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Pigment&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;Abbreviation&amp;lt;/strong&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Chlorophyllide a&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;CHLIDEA&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Chlorophyll c&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;CHLC&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Peridinin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;PER&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;19'-butanoyloxyfucoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;BUT&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Fucoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;FUCO&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;19'-hexanoyloxyfucoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;HEX&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Prasinoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;PRAS&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Violaxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;VIOL&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Diadinoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;DDX&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Alloxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;ALLOX&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Diatoxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;DTX&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Lutein&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;LUT&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Zeaxanthin&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;ZEA&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Chlorophyll b&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;CHLB&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Alpha-carotene&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;ACAR&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Beta-carotene&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;BCAR&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Divinyl chlorphyll a&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;DVCHLA&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;Monovinyl chlorophyll a&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;MVCHLA&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;br /&amp;gt;SChlorophyll a&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;TCHLA&amp;lt;/p&amp;gt; Acquisition Description:</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/502593.rdf" xlink:title="OCE-1235248" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1235248 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1235248&amp;amp;HistoricalAwards=false</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/502593.rdf" xlink:title="OCE-1235248" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1235248 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1235248&amp;amp;HistoricalAwards=false</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/502594.rdf" xlink:title="OCE-1130870" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1130870 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1130870&amp;amp;HistoricalAwards=false</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/502594.rdf" xlink:title="OCE-1130870" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1130870 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1130870&amp;amp;HistoricalAwards=false</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
@@ -188,6 +319,90 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51700.rdf" xlink:actuate="onRequest">Dr Christopher R. German</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>508-289-2853</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>266 Woods Hole Rd Clark South 276 (MS #24)</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Woods Hole</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>MA</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>02543</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>cgerman@whoi.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50679.rdf" xlink:actuate="onRequest">Dr Gregory Cutter</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/49.rdf" xlink:actuate="onRequest">Old Dominion University</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>757-683-4929</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Department of Ocean, Earth, and Atmospheric Sciences 4500 Elkhorn Ave</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Norfolk</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>VA</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>23529-0276</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>gcutter@odu.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -198,6 +413,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -537,7 +760,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -665,15 +888,30 @@
         <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
-                  <gml:timePosition>2015-05-15</gml:timePosition>
-                </gml:TimeInstant>
+                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                  <gml:beginPosition>2013-10-29</gml:beginPosition>
+                  <gml:endPosition>2013-12-16</gml:endPosition>
+                </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Eastern Tropical Pacific - Transect from Peru to Tahiti</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -683,7 +921,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from Bidigare Pigments from the U.S. GEOTRACES EPZT project of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from HPLC pigments along the US GEOTRACES East Pacific Zonal Transect from the R/V Thomas G. Thompson TN303 cruise in the tropical Pacific from Peru to Tahiti during 2013 (U.S. GEOTRACES EPZT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -741,7 +979,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -2179,7 +2417,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -2197,6 +2435,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -2210,20 +2455,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
-          <gmd:processStep xlink:title="Acquisition Description">
-            <gmd:LI_ProcessStep>
-              <gmd:description>
-                <gco:CharacterString>&amp;lt;p&amp;gt;(tbd)&amp;lt;/p&amp;gt;</gco:CharacterString>
-              </gmd:description>
-            </gmd:LI_ProcessStep>
-          </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO Processing Notes&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;- Generated from original .xlsx file &amp;quot;GEOTRACES_May2014_final.xlsx, sheet: Pigment data&amp;quot; contributed by Jim Moffett&amp;lt;br /&amp;gt;&amp;amp;nbsp;- Station, cast, bottle and sample metadata inserted from EPZT Master_Event sheet&amp;lt;br /&amp;gt;&amp;amp;nbsp;- Parameter names edited to conform to BCO-DMO naming convention found at &amp;lt;a href=&amp;quot;http://usjgofs.whoi.edu/naming-guidelines.html&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Choosing Parameter Name&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -2293,7 +2543,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -2372,45 +2622,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
-                       xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -2454,6 +2704,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

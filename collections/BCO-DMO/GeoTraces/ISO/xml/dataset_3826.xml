@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3826.rdf" xlink:actuate="onRequest">GT10-11 - dFe and dFe-II from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3826.rdf" xlink:actuate="onRequest">Concentrations of dissolved iron and dissolved iron(II) from R/V Knorr cruises KN199-04 and KN204-01 in the Subtropical northern Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2013-11-05</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-11-05</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2013-11-05</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3826" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/3826</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,94 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50926.rdf" xlink:actuate="onRequest">Dr Andrew  R. Bowie</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/128.rdf" xlink:actuate="onRequest">Antarctic Climate and Ecosystems Cooperative Research Centre</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Sedwick, Peter and Bowie, Andrew (2013) Concentrations of dissolved iron and dissolved iron(II) from R/V Knorr cruises KN199-04 and KN204-01 in the Subtropical northern Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2013-11-05 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/3826 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Concentrations of dissolved iron and dissolved iron(II), U.S. GEOTRACES transects Dataset Description: &amp;lt;p&amp;gt;Concentrations of dissolved iron and dissolved iron(II) in water-column samples from major stations occupied during first and second legs of the U.S. GEOTRACES North Atlantic zonal transect cruises.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Note&amp;lt;/strong&amp;gt;: Data is not to be released until the end of 2013. Contact PI for access prior to release. These data should be considered and cited as preliminary through the end of 2013.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Please note that data may not be final, pending intercalibration&amp;amp;nbsp;results and further analysis. If you are interested in following&amp;amp;nbsp;changes to US GEOTRACES data, there is an RSS feed available&amp;amp;nbsp;from the &amp;lt;a href=&amp;quot;http://www.bco-dmo.org/project/2066&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;GEOTRACES-NAT&amp;lt;/a&amp;gt; project page.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sample collection and processing: &amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Water-column samples for trace metal analysis were collected in modified 12 L Teflon-lined GO-FLO samplers (General Oceanics Inc.), deployed on the U.S. GEOTRACES clean CTD rosette system with a total of 24 samplers. All samples were filtered as soon as possible after recovery by GEOTRACES sampling personnel using 0.2 µm Supor Acropak filter cartridge (Pall Corp.) inside the U.S. GEOTRACES clean-air laboratory van. Near-surface samples (from ~2 m depth) were collected while underway on approach to each station using the Bruland-Smith trace-metal towfish, which was towed outside of the ship’s wake. Seawater from the towfish was pumped directly into a clean-air laboratory van, where it was filtered through 0.2 µm Supor Acropak filter cartridges.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dissolved iron (dFe) analysis: &amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The filtered seawater samples were collected in 125 mL acid-cleaned Nalgene wide-mouth low-density polyethylene bottles, acidified to pH ~1.7 with Fisher Optima grade ultrapure hydrochloric acid, and then stored at room temperature until post-cruise analysis at Old Dominion University by Bettina Sohst. Dissolved iron was determined by flow injection analysis with colorimetric detection after in-line preconcentration on resin-immobilized 8-hydroxyquinoline [Sedwick et al., 2005, 2008], using a method modified from Measures et al. [1995]. The efficacy of our analytical method for dFe was verified through the analysis of the SAFe seawater reference materials. Over the period during which these samples were analyzed (2010-2012), we determined mean dFe values of 0.122 ± 0.021 nM (n = 7) for SAFe seawater reference material S and 1.13 ± 0.19 nM (n = 2) for SAFe seawater reference material D2, versus community consensus values of 0.095 ± 0.008 nM and 0.955 ± 0.024 nM, respectively (as of May 2013). The analytical limit of detection is estimated as the dFe concentration equivalent to a peak area that is three times the standard deviation on the &amp;quot;zero-loading blank&amp;quot; (or &amp;quot;manifold blank&amp;quot;), from which we estimate a detection limit of less than 0.04 nM [Bowie et al., 2004; Sedwick et al., 2005]. Blank contributions from the ammonium acetate sample buffer solution (added on-line during analysis) and hydrochloric acid (added after collection) are typically negligible (i.e., too low to quantify). Robust estimates of our analytical precision are derived from multiple (separate-day) determinations of the SAFe seawater reference materials, which yield analytical uncertainties (expressed as ± one relative sample standard deviation on the mean) of ±14.7% (n = 33) at the concentration level of SAFe S seawater (0.095 nM), and ±9.2% (n = 16) at the concentration level of SAFe D2 seawater (0.955 nM).&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Dissolved iron(II) (dFe(II)) analysis: &amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The filtered seawater samples were transported from the sampling station to a shipboard clean-air laboratory van in a cooler, and were analyzed at sea by Bettina Sohst as soon as possible after sampling. Dissolved iron(II) was determined by flow injection analysis with in-line preconcentration modified after the method of Bowie et al. [2005]. The analytical limit of detection was estimated daily as the dFe(II) concentration corresponding to a signal three times the standard deviation on triplicate analyses of the blank [Bowie et al., 2004; Sarthou et al., 2011]. For the blank solution, we used filtered, aged, low-iron seawater that was stored in the dark (&amp;quot;low Fe(II) seawater&amp;quot;), for which the chemiluminescence signal was analytically indistinguishable from reagents injected without seawater [see Bowie et al., 2005]. &amp;lt;strong&amp;gt;KN199-04:&amp;lt;/strong&amp;gt; The limit of detection averaged &amp;amp;lt;0.06 nM for all of the daily shipboard analyses (n = 16). &amp;lt;strong&amp;gt;KN204-01:&amp;lt;/strong&amp;gt; The limit of detection averaged &amp;amp;lt;0.01 nM for all of the daily shipboard analyses (n = 31).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;There is no standard reference material for the determination of dissolved iron(II) in seawater, thus we are unable to provide rigorous estimates of the accuracy and precision of the dFe(II) determinations. However, some indication of our analytical uncertainty is provided by repeat measurements of standards prepared in low-Fe(II) seawater, which yielded average relative standard deviations of &amp;amp;lt;17% (KN199-04) or &amp;amp;lt;13% (KN204-01) and &amp;amp;lt;11% for triplicate injections of 0.2 nM and 0.4 nM dFe(II) standards, respectively.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Bowie, A. R., P. N. Sedwick, and P. J. Worsfold (2004), Analytical intercomparison between flow injection-chemiluminescence and flow injection-spectrophotometry for the determination of picomolar concentrations of iron in seawater, Limnology &amp;amp;amp; Oceanography Methods, 2, 42-54. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2004.2.42&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2004.2.42&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Bowie, A. R., E. P. Achterberg, S. Ussher, and P. J. Worsfold (2005), Design of an automated flow injection-chemiluminescense instrument incorporating a miniature photomultiplier tube for monitoring picomolar concentrations of iron in seawater, Journal of Automated Methods &amp;amp;amp; Management in Chemistry, 2, 37-43. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1155/JAMMC.2005.37&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1155/JAMMC.2005.37&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Measures, C. I., J. Yuan, and J. A. Resing (1995), Determination of iron in seawater by flow injection analysis using in-line preconcentration and spectrophotometric detection, Marine Chemistry, 50, 3-12. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/0304-4203(95)00022-J&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/0304-4203(95)00022-J&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Sarthou, G., E. Bucciarelli, F. Chever, S. P. Hansard, M. González-Dávila, J. M. Santana-Casiano, F. Planchon, and S. Speich (2011), Labile Fe(II) concentrations in the Atlantic sector of the Southern Ocean along a transect from the subtropical domain to the Weddell Sea Gyre, Biogeosciences, 8, 2461-2479, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.5194/bg-8-2461-2011&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.5194/bg-8-2461-2011&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Sedwick, P. N., T. M. Church, A. R. Bowie, C. M. Marsay, S. J. Ussher, K. M. Achilles, P. J. Lethaby, R. J. Johnson, M. M. Sarin, and D. J. McGillicuddy (2005), Iron in the Sargasso Sea (Bermuda Atlantic Time-series Study region) during summer: Eolian imprint, spatiotemporal variability, and ecological implications, Global Biogeochemical Cycles, 19, GB4006, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1029/2004GB002445&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1029/2004GB002445&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Sedwick, P. N., A. R. Bowie, and T. W. Trull (2008), Dissolved iron in the Australian sector of the Southern Ocean (CLIVAR-SR3 section): meridional and seasonal trends, Deep-Sea Research I, 55, 911-925, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.dsr.2008.03.011&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.dsr.2008.03.011&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55127.rdf" xlink:title="OCE-0927285" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0927285 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927285</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55127.rdf" xlink:title="OCE-0927285" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0927285 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927285</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -185,6 +300,48 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50926.rdf" xlink:actuate="onRequest">Dr Andrew  R. Bowie</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/128.rdf" xlink:actuate="onRequest">Antarctic Climate and Ecosystems Cooperative Research Centre</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+61 613-6226 2509</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>University of Tasmania</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Hobart</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>Tasmania</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>7001</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>Australia</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>Andrew.Bowie@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -195,6 +352,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -450,7 +615,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -578,15 +743,30 @@
         <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
-                  <gml:timePosition>2013-11-05</gml:timePosition>
-                </gml:TimeInstant>
+                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                  <gml:beginPosition>2010-10-16</gml:beginPosition>
+                  <gml:endPosition>2011-12-10</gml:endPosition>
+                </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -596,7 +776,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from GT10-11 - dFe and dFe-II from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Concentrations of dissolved iron and dissolved iron(II) from R/V Knorr cruises KN199-04 and KN204-01 in the Subtropical northern Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -654,7 +834,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1585,7 +1765,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1603,6 +1783,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1616,13 +1803,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sample collection and processing: &amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Water-column samples for trace metal analysis were collected in modified 12 L Teflon-lined GO-FLO samplers (General Oceanics Inc.), deployed on the U.S. GEOTRACES clean CTD rosette system with a total of 24 samplers. All samples were filtered as soon as possible after recovery by GEOTRACES sampling personnel using 0.2 µm Supor Acropak filter cartridge (Pall Corp.) inside the U.S. GEOTRACES clean-air laboratory van. Near-surface samples (from ~2 m depth) were collected while underway on approach to each station using the Bruland-Smith trace-metal towfish, which was towed outside of the ship’s wake. Seawater from the towfish was pumped directly into a clean-air laboratory van, where it was filtered through 0.2 µm Supor Acropak filter cartridges.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dissolved iron (dFe) analysis: &amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The filtered seawater samples were collected in 125 mL acid-cleaned Nalgene wide-mouth low-density polyethylene bottles, acidified to pH ~1.7 with Fisher Optima grade ultrapure hydrochloric acid, and then stored at room temperature until post-cruise analysis at Old Dominion University by Bettina Sohst. Dissolved iron was determined by flow injection analysis with colorimetric detection after in-line preconcentration on resin-immobilized 8-hydroxyquinoline [Sedwick et al., 2005, 2008], using a method modified from Measures et al. [1995]. The efficacy of our analytical method for dFe was verified through the analysis of the SAFe seawater reference materials. Over the period during which these samples were analyzed (2010-2012), we determined mean dFe values of 0.122 ± 0.021 nM (n = 7) for SAFe seawater reference material S and 1.13 ± 0.19 nM (n = 2) for SAFe seawater reference material D2, versus community consensus values of 0.095 ± 0.008 nM and 0.955 ± 0.024 nM, respectively (as of May 2013). The analytical limit of detection is estimated as the dFe concentration equivalent to a peak area that is three times the standard deviation on the &amp;quot;zero-loading blank&amp;quot; (or &amp;quot;manifold blank&amp;quot;), from which we estimate a detection limit of less than 0.04 nM [Bowie et al., 2004; Sedwick et al., 2005]. Blank contributions from the ammonium acetate sample buffer solution (added on-line during analysis) and hydrochloric acid (added after collection) are typically negligible (i.e., too low to quantify). Robust estimates of our analytical precision are derived from multiple (separate-day) determinations of the SAFe seawater reference materials, which yield analytical uncertainties (expressed as ± one relative sample standard deviation on the mean) of ±14.7% (n = 33) at the concentration level of SAFe S seawater (0.095 nM), and ±9.2% (n = 16) at the concentration level of SAFe D2 seawater (0.955 nM).&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Dissolved iron(II) (dFe(II)) analysis: &amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The filtered seawater samples were transported from the sampling station to a shipboard clean-air laboratory van in a cooler, and were analyzed at sea by Bettina Sohst as soon as possible after sampling. Dissolved iron(II) was determined by flow injection analysis with in-line preconcentration modified after the method of Bowie et al. [2005]. The analytical limit of detection was estimated daily as the dFe(II) concentration corresponding to a signal three times the standard deviation on triplicate analyses of the blank [Bowie et al., 2004; Sarthou et al., 2011]. For the blank solution, we used filtered, aged, low-iron seawater that was stored in the dark (&amp;quot;low Fe(II) seawater&amp;quot;), for which the chemiluminescence signal was analytically indistinguishable from reagents injected without seawater [see Bowie et al., 2005]. &amp;lt;strong&amp;gt;KN199-04:&amp;lt;/strong&amp;gt; The limit of detection averaged &amp;amp;lt;0.06 nM for all of the daily shipboard analyses (n = 16). &amp;lt;strong&amp;gt;KN204-01:&amp;lt;/strong&amp;gt; The limit of detection averaged &amp;amp;lt;0.01 nM for all of the daily shipboard analyses (n = 31).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;There is no standard reference material for the determination of dissolved iron(II) in seawater, thus we are unable to provide rigorous estimates of the accuracy and precision of the dFe(II) determinations. However, some indication of our analytical uncertainty is provided by repeat measurements of standards prepared in low-Fe(II) seawater, which yielded average relative standard deviations of &amp;amp;lt;17% (KN199-04) or &amp;amp;lt;13% (KN204-01) and &amp;amp;lt;11% for triplicate injections of 0.2 nM and 0.4 nM dFe(II) standards, respectively.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Bowie, A. R., P. N. Sedwick, and P. J. Worsfold (2004), Analytical intercomparison between flow injection-chemiluminescence and flow injection-spectrophotometry for the determination of picomolar concentrations of iron in seawater, Limnology &amp;amp;amp; Oceanography Methods, 2, 42-54. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2004.2.42&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2004.2.42&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Bowie, A. R., E. P. Achterberg, S. Ussher, and P. J. Worsfold (2005), Design of an automated flow injection-chemiluminescense instrument incorporating a miniature photomultiplier tube for monitoring picomolar concentrations of iron in seawater, Journal of Automated Methods &amp;amp;amp; Management in Chemistry, 2, 37-43. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1155/JAMMC.2005.37&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1155/JAMMC.2005.37&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Measures, C. I., J. Yuan, and J. A. Resing (1995), Determination of iron in seawater by flow injection analysis using in-line preconcentration and spectrophotometric detection, Marine Chemistry, 50, 3-12. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/0304-4203(95)00022-J&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/0304-4203(95)00022-J&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Sarthou, G., E. Bucciarelli, F. Chever, S. P. Hansard, M. González-Dávila, J. M. Santana-Casiano, F. Planchon, and S. Speich (2011), Labile Fe(II) concentrations in the Atlantic sector of the Southern Ocean along a transect from the subtropical domain to the Weddell Sea Gyre, Biogeosciences, 8, 2461-2479, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.5194/bg-8-2461-2011&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.5194/bg-8-2461-2011&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Sedwick, P. N., T. M. Church, A. R. Bowie, C. M. Marsay, S. J. Ussher, K. M. Achilles, P. J. Lethaby, R. J. Johnson, M. M. Sarin, and D. J. McGillicuddy (2005), Iron in the Sargasso Sea (Bermuda Atlantic Time-series Study region) during summer: Eolian imprint, spatiotemporal variability, and ecological implications, Global Biogeochemical Cycles, 19, GB4006, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1029/2004GB002445&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1029/2004GB002445&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Sedwick, P. N., A. R. Bowie, and T. W. Trull (2008), Dissolved iron in the Australian sector of the Southern Ocean (CLIVAR-SR3 section): meridional and seasonal trends, Deep-Sea Research I, 55, 911-925, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.dsr.2008.03.011&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.dsr.2008.03.011&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1630,6 +1829,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Data processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Following subtraction of appropriate blank values, sample concentrations were calculated using least-square linear regressions fit to daily calibration curves that were obtained by additions of iron and iron(II) standard solutions to low-iron seawater.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Note on concentration units: &amp;lt;/strong&amp;gt;All analyses were performed on a volumetric basis, so all concentrations are reported in units of nanomole liter-1 (nM). To convert to units of nmol kg-1, divide the nM concentrations by 1.024 kg l-1 (the approximate density of seawater at a laboratory temperature of 20 degrees C).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO Processing Notes:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Converted original lon values in decimal degrees west to negative values (decimal degrees east); added column for official cruise_id and for cruise_part; converted original date from dd/mm/yyyy format to date in yyyymmdd format; added 'nd' to indicate 'no data' for depths not sampled; changed parameter names; added basic GEOTRACES metadata (see below).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;After the data were submitted to the International Data Management Office, BODC, the office noticed that important identifying information was missing in many datasets. With the agreement of BODC and the US GEOTRACES lead PIs, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters: station_GEOTRC, cast_GEOTRC (bottle and pump data only), event_GEOTRC, sample_GEOTRC, sample_bottle_GEOTRC (bottle data only), bottle_GEOTRC (bottle data only), depth_GEOTRC_CTD (bottle data only), depth_GEOTRC_CTD_rounded (bottle data only), BTL_ISO_DateTime_UTC (bottle data only), and GeoFish_id (GeoFish data only). This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle_GT10, GT-C_Bottle_GT11, ODF_Bottle_GT10, and ODF_Bottle_GT11 datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the Event_Log_GT10 and Event_Log_GT11 datasets. McLane pump cast numbers missing in event logs were taken from the Particulate Th-234 dataset submitted by Ken Buesseler.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1699,7 +1910,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -1761,45 +1972,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1814,7 +2025,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -1863,45 +2074,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1945,6 +2156,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

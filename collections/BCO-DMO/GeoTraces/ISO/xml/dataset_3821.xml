@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3821.rdf" xlink:actuate="onRequest">GT10 - FIA-AlFe from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3821.rdf" xlink:actuate="onRequest">Shipboard flow injection analyis (FIA) of dissolved Al and Fe from R/V Knorr cruise KN199-04 in the Subtropical northern Atlantic Ocean in 2010 (U.S. GEOTRACES NAT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2013-10-14</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-10-14</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2013-10-14</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3821" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/3821</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,94 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51610.rdf" xlink:actuate="onRequest">Dr Jingfeng Wu</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/36.rdf" xlink:actuate="onRequest">University of Miami Rosenstiel School of Marine and Atmospheric Science</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Measures, Christopher and Wu, Jingfeng (2013) Shipboard flow injection analyis (FIA) of dissolved Al and Fe from R/V Knorr cruise KN199-04 in the Subtropical northern Atlantic Ocean in 2010 (U.S. GEOTRACES NAT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2013-10-14 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/3821 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Shipboard flow injection analyis (FIA) of dissolved Al and Fe. Dataset Description: &amp;lt;p&amp;gt;Shipboard flow injection analysis (FIA) data of dissolved metals from the GT10 (KN199-04) cruise. Samples were collected using GO-FLO bottles and filtered through 0.2 µm Acropak filters. Concentrations and quality flags are reported for each metal.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related files and references:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Measures, C.I., J. Yang, and J.A. Resing, J., 1995. Determination of iron in seawater by flow injection analysis using in-line preconcention and spectrophotometric detection, Mar. Chem., 50, 3-12. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/0304-4203(95)00022-J&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/0304-4203(95)00022-J&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;Resing, J., Measures, C.I., 1994.&amp;amp;nbsp; Fluorometric determination of A1 in seawater by FIA with in-line pre concentration. Anal. Chem. 66, 4105-4111. doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1021/ac00094a039&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1021/ac00094a039&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Please note that some US GEOTRACES data may not be final, pending intercalibration results and further analysis. If you are interested in following changes to US GEOTRACES NAT data, there is an RSS feed available via the BCO-DMO &amp;lt;a href=&amp;quot;http://www.bco-dmo.org/project/2066&amp;quot;&amp;gt;US GEOTRACES project page&amp;lt;/a&amp;gt; (scroll down and expand the &amp;quot;Datasets&amp;quot; section).&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling Methods&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The samples (with the exception of surface samples) were collected for trace metal determinations at 11 stations from the RV Knorr using a custom-built US GEOTRACES trace metal clean rosette consisting of an epoxy painted Al rosette frame containing 24x12 L GO-FLO bottles (Cutter and Bruland, 2012). Immediately after the package was recovered, the tops of the GO-FLO bottles were covered with plastic bags and the bottles were removed from the frame and carried into the US GEOTRACES clean van for sub-sampling. The GO-FLO bottles were pressurized to 10 psi using 0.2 µm-filtered compressed air and samples were filtered through 0.2 µm Acropak filters. All sub-sampling was undertaken in the clean van using rigorous trace metal protocols. Surface samples are from the towed fish surface sampling system.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Analytical Methods&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;FIA Sample Preparation&amp;lt;/strong&amp;gt;: Samples were drawn into pre-numbered 125 ml PMP bottles after three rinses and were stored in plastic bags in the dark at room temperature before determination which was usually within 12 -36 hours of collection. Prior to determination samples were acidified by the addition of 125 ul sub-boiling distilled 6N HCl (hereinafter 6N HCl) and were microwaved in groups of 4 for 3 minutes in a 900 W microwave oven to achieve a temperature of 60+10 °C. Samples were allowed to cool for at least 1 hour prior to determination. Samples were determined in groups of 8.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;FIA Standards&amp;lt;/strong&amp;gt;: Shipboard mixed standards (Al and Fe, Mn) were prepared in the shore-based laboratory by serial dilution of commercial Al, Fe, and Mn standards (BDH Aristar) into distilled water which was acidified with the equivalent of 4 ml sub-boiled 6N HCl.&amp;amp;nbsp; Standards for instrument calibration were prepared daily from filtered seawater by acidifying 1 L of low Fe seawater from a previous cast with 1 ml of 6N HCl and microwaving for 5 minutes to reach a temperature of 60 + 10°C.&amp;amp;nbsp; After 1 hour, 200 + 2 ml of the cooled seawater was added to each of three 250 ml PMP bottles each of which had been rinsed three times with the microwaved seawater and shaken dry. Working standards were prepared by adding 0, +100µL, +200µL spikes of the shipboard mixed standard to these bottles, to yield a standard curve of +28.4nM and +56.81nM for Al, +1.26nM and +2.53nM for Fe, +5.11nM and +10.22nM for Mn. The system blank from the addition of the acid and buffer to samples was determined by double spiking a replicate sample i.e. by adding 2 x 125 ul 6N HCl and 5 ml of sample buffer to the replicate bottle and comparing the resulting signal to the original sample.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dissolved Al Concentrations&amp;lt;/strong&amp;gt;: Dissolved Al was determined using a Flow Injection Analysis scheme with fluorometric detection. Major components were a Rabbit peristaltic pump, a Dynamax FL-1 fluorometer, a Rainin A/D board and a Macintosh G3 computer running Rainin MacIntegrator v 1.4.3 to log and reduce data. The analytical scheme produces a complex between lumogallion and dissolved Al which when excited at 484 nm produces fluorescence at 552 nm.&amp;amp;nbsp; Detailed description of the methodology is published in Resing and Measures (1994).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A 3-minute pre-concentration of sample (~9 ml) onto an 8-hydroxyquinoline (8-HQ) resin column yielded a detection limit of 1.02 and a precision of 1.94% at 17.58 nM.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dissolved Fe&amp;lt;/strong&amp;gt;: Dissolved Fe was determined using a Flow Injection Analysis scheme with spectrophotometric detection (Rainin Dynamax UV-C). Major components were a Rabbit peristaltic pump, a Dynamax FL-1 fluorometer, a Rainin A/D board and a Macintosh G3 computer running Rainin MacIntegrator v 1.4.3 to log and reduce data. The spectrophotometric detection of the iron eluted from the column is achieved through its catalytic effect on the oxidation of N,N-dimethylp-phenylenediamine dihydrochloride (DPD) the oxidised product is measured at 514 nm. Detailed description of the methodology is published in Measures et al (1995).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A 3-minute pre-concentration of sample (~9 ml) onto an 8-hydroxyquinoline (8-HQ) resin column yielded a detection limit of 0.064 nM and a precision of 3.1%.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Calculation of FIA data&amp;lt;/strong&amp;gt;: Calculation of sample concentrations was by dividing the peak height derived from sample using the A/D software by the calculated slope of the standard curve. Variations in the slope of the standard curve during a day's run were corrected by the following procedure.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The change in the value of the slope of the standard curve between each run of standards was divided by the number of samples run between those standards to provide a calculated value for the slope of the standard curve at the point each sample was run. The value of the peak height for each sample was then recalculated by the estimated ratio of the standard curve slope at the point that sample was run. The estimate of the slope at each sample run is calculated by: (Initial slope + (incremental change per sample X # of samples run since initial standard was run)). The sample concentration is then calculated from the initial standard curve slope.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Data correction with shore-based ICPMS data&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Shipboard determined dissolved Fe and Mn have been corrected using the shore-based ICPMS data that was measured by co-PI Dr. Jingfeng Wu. That data will be submitted separately. The corrected FIA data was calculated using the slope and the intercept of the correlation plot between the ICPMS data and FIA data on each of the days the FIA was run.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Shipboard dissolved Fe:&amp;lt;/strong&amp;gt; &amp;lt;strong&amp;gt;Shipboard calculation:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The Fe concentration of samples was determined by dividing the sample peak height by the slope of the Fe standard solution. The standard curve was produced by adding +0 µL (+0 nM), +100 µL (+1.01 nM), +200 µL (+2.02 nM) of the shipboard standard solution into 200mL aliquots of seawater. This seawater was obtained from a 1L sample of seawater (usually from near the chlorophyll max) that had been filtered through a 0.2 µm pore-size Acropack cartridge, acidified with 1 ml of 6N HCl (sub boiling distilled) and microwaved to achieve a temperature of 60 + 10°C. A typical standard curve is shown in Figure 1 below.&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;br /&amp;gt;Figure 1. Fe standard curve from the standard addition method. (click on the image to view a larger version) &amp;lt;!-- height=&amp;quot;374&amp;quot; --&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/CMeasures_Hatta/GT10_Figure1.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/CMeasures_Hatta/GT10_Figure1.png&amp;quot; style=&amp;quot;width:519px&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;The shipboard standard solution was 2.020 µM and had been prepared by gravimmetric dilution from a high purity standard solution (1000 µg/mL) at the shore-based laboratory of University of Hawaii. Overall precision is 3.1%, and the average detection limit is 0.064 nM.&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55124.rdf" xlink:title="OCE-0928741" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0928741 Award URL: http://nsf.gov/awardsearch/showAward?AWD_ID=0928741</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55124.rdf" xlink:title="OCE-0928741" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0928741 Award URL: http://nsf.gov/awardsearch/showAward?AWD_ID=0928741</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -185,6 +300,48 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51610.rdf" xlink:actuate="onRequest">Dr Jingfeng Wu</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/36.rdf" xlink:actuate="onRequest">University of Miami Rosenstiel School of Marine and Atmospheric Science</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>( 305) 421-4714</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>RSMAS/MAC, University of Miami 4600 Rickenbacker Causeway</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Miami</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>FL</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>33149</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>jwu@rsmas.miami.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -195,6 +352,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -423,7 +588,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -559,7 +724,21 @@
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -569,7 +748,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from GT10 - FIA-AlFe from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Shipboard flow injection analyis (FIA) of dissolved Al and Fe from R/V Knorr cruise KN199-04 in the Subtropical northern Atlantic Ocean in 2010 (U.S. GEOTRACES NAT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -627,7 +806,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1345,7 +1524,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1363,6 +1542,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1376,13 +1562,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling Methods&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The samples (with the exception of surface samples) were collected for trace metal determinations at 11 stations from the RV Knorr using a custom-built US GEOTRACES trace metal clean rosette consisting of an epoxy painted Al rosette frame containing 24x12 L GO-FLO bottles (Cutter and Bruland, 2012). Immediately after the package was recovered, the tops of the GO-FLO bottles were covered with plastic bags and the bottles were removed from the frame and carried into the US GEOTRACES clean van for sub-sampling. The GO-FLO bottles were pressurized to 10 psi using 0.2 µm-filtered compressed air and samples were filtered through 0.2 µm Acropak filters. All sub-sampling was undertaken in the clean van using rigorous trace metal protocols. Surface samples are from the towed fish surface sampling system.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Analytical Methods&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;FIA Sample Preparation&amp;lt;/strong&amp;gt;: Samples were drawn into pre-numbered 125 ml PMP bottles after three rinses and were stored in plastic bags in the dark at room temperature before determination which was usually within 12 -36 hours of collection. Prior to determination samples were acidified by the addition of 125 ul sub-boiling distilled 6N HCl (hereinafter 6N HCl) and were microwaved in groups of 4 for 3 minutes in a 900 W microwave oven to achieve a temperature of 60+10 °C. Samples were allowed to cool for at least 1 hour prior to determination. Samples were determined in groups of 8.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;FIA Standards&amp;lt;/strong&amp;gt;: Shipboard mixed standards (Al and Fe, Mn) were prepared in the shore-based laboratory by serial dilution of commercial Al, Fe, and Mn standards (BDH Aristar) into distilled water which was acidified with the equivalent of 4 ml sub-boiled 6N HCl.&amp;amp;nbsp; Standards for instrument calibration were prepared daily from filtered seawater by acidifying 1 L of low Fe seawater from a previous cast with 1 ml of 6N HCl and microwaving for 5 minutes to reach a temperature of 60 + 10°C.&amp;amp;nbsp; After 1 hour, 200 + 2 ml of the cooled seawater was added to each of three 250 ml PMP bottles each of which had been rinsed three times with the microwaved seawater and shaken dry. Working standards were prepared by adding 0, +100µL, +200µL spikes of the shipboard mixed standard to these bottles, to yield a standard curve of +28.4nM and +56.81nM for Al, +1.26nM and +2.53nM for Fe, +5.11nM and +10.22nM for Mn. The system blank from the addition of the acid and buffer to samples was determined by double spiking a replicate sample i.e. by adding 2 x 125 ul 6N HCl and 5 ml of sample buffer to the replicate bottle and comparing the resulting signal to the original sample.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dissolved Al Concentrations&amp;lt;/strong&amp;gt;: Dissolved Al was determined using a Flow Injection Analysis scheme with fluorometric detection. Major components were a Rabbit peristaltic pump, a Dynamax FL-1 fluorometer, a Rainin A/D board and a Macintosh G3 computer running Rainin MacIntegrator v 1.4.3 to log and reduce data. The analytical scheme produces a complex between lumogallion and dissolved Al which when excited at 484 nm produces fluorescence at 552 nm.&amp;amp;nbsp; Detailed description of the methodology is published in Resing and Measures (1994).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A 3-minute pre-concentration of sample (~9 ml) onto an 8-hydroxyquinoline (8-HQ) resin column yielded a detection limit of 1.02 and a precision of 1.94% at 17.58 nM.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dissolved Fe&amp;lt;/strong&amp;gt;: Dissolved Fe was determined using a Flow Injection Analysis scheme with spectrophotometric detection (Rainin Dynamax UV-C). Major components were a Rabbit peristaltic pump, a Dynamax FL-1 fluorometer, a Rainin A/D board and a Macintosh G3 computer running Rainin MacIntegrator v 1.4.3 to log and reduce data. The spectrophotometric detection of the iron eluted from the column is achieved through its catalytic effect on the oxidation of N,N-dimethylp-phenylenediamine dihydrochloride (DPD) the oxidised product is measured at 514 nm. Detailed description of the methodology is published in Measures et al (1995).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A 3-minute pre-concentration of sample (~9 ml) onto an 8-hydroxyquinoline (8-HQ) resin column yielded a detection limit of 0.064 nM and a precision of 3.1%.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Calculation of FIA data&amp;lt;/strong&amp;gt;: Calculation of sample concentrations was by dividing the peak height derived from sample using the A/D software by the calculated slope of the standard curve. Variations in the slope of the standard curve during a day's run were corrected by the following procedure.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The change in the value of the slope of the standard curve between each run of standards was divided by the number of samples run between those standards to provide a calculated value for the slope of the standard curve at the point each sample was run. The value of the peak height for each sample was then recalculated by the estimated ratio of the standard curve slope at the point that sample was run. The estimate of the slope at each sample run is calculated by: (Initial slope + (incremental change per sample X # of samples run since initial standard was run)). The sample concentration is then calculated from the initial standard curve slope.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Data correction with shore-based ICPMS data&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Shipboard determined dissolved Fe and Mn have been corrected using the shore-based ICPMS data that was measured by co-PI Dr. Jingfeng Wu. That data will be submitted separately. The corrected FIA data was calculated using the slope and the intercept of the correlation plot between the ICPMS data and FIA data on each of the days the FIA was run.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Shipboard dissolved Fe:&amp;lt;/strong&amp;gt; &amp;lt;strong&amp;gt;Shipboard calculation:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The Fe concentration of samples was determined by dividing the sample peak height by the slope of the Fe standard solution. The standard curve was produced by adding +0 µL (+0 nM), +100 µL (+1.01 nM), +200 µL (+2.02 nM) of the shipboard standard solution into 200mL aliquots of seawater. This seawater was obtained from a 1L sample of seawater (usually from near the chlorophyll max) that had been filtered through a 0.2 µm pore-size Acropack cartridge, acidified with 1 ml of 6N HCl (sub boiling distilled) and microwaved to achieve a temperature of 60 + 10°C. A typical standard curve is shown in Figure 1 below.&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;br /&amp;gt;Figure 1. Fe standard curve from the standard addition method. (click on the image to view a larger version) &amp;lt;!-- height=&amp;quot;374&amp;quot; --&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/CMeasures_Hatta/GT10_Figure1.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/CMeasures_Hatta/GT10_Figure1.png&amp;quot; style=&amp;quot;width:519px&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;The shipboard standard solution was 2.020 µM and had been prepared by gravimmetric dilution from a high purity standard solution (1000 µg/mL) at the shore-based laboratory of University of Hawaii. Overall precision is 3.1%, and the average detection limit is 0.064 nM.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1390,6 +1588,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;B&amp;lt;/strong&amp;gt;&amp;lt;strong&amp;gt;lank calculation:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;At sea, the blank calculation of the data was made using the value derived from a sample that had been spiked with EDTA. This process yields a sample that should have no uncomplexed Fe thus allowing subtraction of the system blank.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Shore based adjustment of the shipboard data was made by comparison with the shore-based ICP MS data measured by J. Wu at U Miami. A plot of each station's data (FIA vs ICP MS) yielded a slope and intercept that was then used to recalculate the shipboard data. This indicated that the shipboard blank correction was underestimating the system blank.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Table: Slope and intercept between shipboard FIA (substituted EDTA blank) and ICPMS data&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Station&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Slope&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Intercept&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; R2&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;USGT10-01&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.930&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.635&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; 0.670&amp;lt;br /&amp;gt;USGT10-03&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp; 0.644&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.316&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.868&amp;lt;br /&amp;gt;USGT10-05&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp; 0.807&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.383&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.908&amp;lt;br /&amp;gt;USGT10-06&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.930&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.112&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.910&amp;lt;br /&amp;gt;USGT10-07&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.930&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.112&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp; 0.910&amp;lt;br /&amp;gt;USGT10-09&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1.183&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.051&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.909&amp;lt;br /&amp;gt;USGT10-10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1.208&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.057&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp; 0.857&amp;lt;br /&amp;gt;USGT10-11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1.150&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.091&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.863&amp;lt;br /&amp;gt;USGT10-12&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp; 1.281&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.191&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; &amp;amp;nbsp; 0.947&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The ICPMS data reported by Miami (Dr. Wu) were only for full depth stations. One of the demi stations were determined at sea on the same day that full depth stations were run specifically GT10-06 and GT 10-07. Thus, these samples were adjusted using the same slope and intercept used for the full depth station. However, the other demi station samples were determined on separate days. Thus, the samples cannot currently be adjusted with existing ICPMS data.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The following demi stations have not been adjusted and are not reported: USGT10-02, USGT10-08.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Quality flags&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Data have been flagged using the WOCE system of flags. Good is 2. Questionable is 3. Bad is 4. Samples that appear to be contaminated have been flagged 3.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Determination of contamination was by agreement with ICP MS data after adjustment (see above).&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;For dissolved Fe, samples in which both the ICP MS and the FIA data appear to be bad (not oceanographically consistent) have been flagged 4.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Flagged data from GT10 (2010 cruise):&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Total reported sample count: 211&amp;lt;br /&amp;gt;Flag 2 (Good): 175&amp;lt;br /&amp;gt;Flag 3 (Questionable): 49&amp;lt;br /&amp;gt;Flag 4 (Bad): 7&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Accuracy results:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;There are no shipboard results for the recoveries of Certified Reference Materials (CRMs) or consensus reference materials (e.g., SAFe water) as these samples are too acid to be run using this protocol. Instead these data are corrected using the shore-based ICP MS values which are calibrated against SaFe samples.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO Processing Notes&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;- Parameter names were modified to conform with BCO-DMO conventions.&amp;lt;br /&amp;gt;- '-999' values were replaced with 'nd' to indicate 'no data'.&amp;lt;br /&amp;gt;- The 'lon' parameter was calculated using the 'lon_360' values provided in the original data submission. (lon = lon_360 - 360).&amp;lt;br /&amp;gt;- Original data submission received on 12/18/12 was replaced with updated data received on 12/21/12, in which a small error and quality flags have been corrected.&amp;lt;br /&amp;gt;- Dataset updated to new version on 22 May 2013.&amp;lt;br /&amp;gt;- The dataset was again updated to a newer version (including updates and error fixes) on 14 October 2013 (most recent version).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;After the data were submitted to the International Data Management Office, BODC, the office noticed that important identifying information was missing in many datasets. With the agreement of BODC and the US GEOTRACES lead PIs, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters: station_GEOTRC, cast_GEOTRC (bottle and pump data only), event_GEOTRC, sample_GEOTRC, sample_bottle_GEOTRC (bottle data only), bottle_GEOTRC (bottle data only), depth_GEOTRC_CTD (bottle data only), depth_GEOTRC_CTD_rounded (bottle data only), BTL_ISO_DateTime_UTC (bottle data only), and GeoFish_id (GeoFish data only). This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle_GT10, GT-C_Bottle_GT11, ODF_Bottle_GT10, and ODF_Bottle_GT11 datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the Event_Log_GT10 and Event_Log_GT11 datasets. McLane pump cast numbers missing in event logs were taken from the Particulate Th-234 dataset submitted by Ken Buesseler.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1459,7 +1669,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -1555,45 +1765,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1608,7 +1818,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -1637,6 +1847,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -109,10 +109,47 @@
                 <gco:Date>2016-04-20</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-04-20</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2016-04-20</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3832" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/3832</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -161,22 +198,116 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51620.rdf" xlink:actuate="onRequest">Dr Torben Stichel</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/126.rdf" xlink:actuate="onRequest">University of Hawaii at Manoa</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51621.rdf" xlink:actuate="onRequest">Dr Alison Hartman</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/68.rdf" xlink:actuate="onRequest">Lamont-Doherty Earth Observatory</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Pahnke, Katharina, Pahnke, Katharina, Goldstein, Steven, Scher, Howard, Stichel, Torben and Hartman, Alison (2016) Seawater Nd isotopes and concentrations from the US-GEOTRACES North Atlantic zonal transect (NAZT), 2010 and 2011 on cruises KN199-04 and KN204-01. Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2016-04-20 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/3832 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>seawater Nd isotopes and concentrations from the US-GEOTRACES North Atlantic zonal transect (NAZT) Dataset Description: &amp;lt;p&amp;gt;These&amp;amp;nbsp;data are from the collaboration of three different institutes: The University of South Carolina (USC), the Lamont-Doherty Earth Observatory (LDEO) of Columbia University and the University of Hawaii at Manoa (UH).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;KN199-04 (GT10) data are publically available;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/jg/serv/RESTRICTED/GEOTRACES/NorthAtlanticTransect/Nd_GT10-11_v8b_joined.html0%7Bdir=data.bco-dmo.org/jg/dir/BCO/GEOTRACES/NorthAtlanticTransect/,info=data.bco-dmo.org/jg/info/BCO/GEOTRACES/NorthAtlanticTransect/Nd_GT10%7D&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt; KN204-01 (GT11) has restricted&amp;lt;/a&amp;gt; access. Please contact the PI for further information.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Methodology: &amp;lt;/strong&amp;gt;A detailed description can be found in Stichel et al. (2015). &amp;amp;nbsp;See the links&amp;amp;nbsp;below for summaries of the described methodology from the paper.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/Pahnke/data_desc_GDAC_Stichel_199-04.pdf&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;KN199-04 Methodology&amp;lt;/a&amp;gt; (pdf)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/Pahnke/data_desc_GDAC_Stichel_204-01.pdf&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;KN204-01 Methodology&amp;lt;/a&amp;gt; (pdf)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Fig. 1: Sample locations for the Intermediate Data Product.&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/Pahnke/stations.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/Pahnke/stations.png&amp;quot; style=&amp;quot;width:594px&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;amp;nbsp;(References listed in the data are codes [1], [2], or [3], corresponding with the following publications/manuscripts)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[1] Stichel, T., Hartman, A.E., Duggan, B., Goldstein, S.L., Scher, H., Pahnke, K., 2015. Separating biogeochemical cycling of neodymium from water mass mixing in the Eastern North Atlantic. Earth Planet. Sci. Lett. 412, 245–260. doi:10.1016/j.epsl.2014.12.008&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[2] Hartman, A.E., Stichel, T., Duggan, B., Goldstein, S.L., Pahnke, K., Scher, H., Pena, L., in prep. Seawater neodymium composition in the open ocean North Atlantic: water mass signatures and transport.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[3] Duggan, B., Hartman, A.E., Stichel, T., Goldstein, S.L., Pahnke, K., Bizimis, M., Scher, H., in prep. Neodymium Concentrations and Isotopic Signature of the Deep Western Boundary Current Across Line W&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Table 1: Summary of the procedures applied in the involved laboratories of University of Hawaii at Mano (UH), Lamont-Doherty Earth Observatory (LDEO) and University of South Carolina (USC).&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;table border=&amp;quot;1&amp;quot; cellpadding=&amp;quot;0&amp;quot; cellspacing=&amp;quot;0&amp;quot; style=&amp;quot;width:502px&amp;quot;&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Step&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;UH&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;LDEO&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;USC&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Pre-concentration&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Spiked with &amp;lt;sup&amp;gt;146&amp;lt;/sup&amp;gt;Nd prior to co-precipitation with FeOOH (~20mg Fe per sample)&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Spiked with &amp;lt;sup&amp;gt;150&amp;lt;/sup&amp;gt;Nd prior to co-precipitation with FeOOH (~20mg Fe per sample)&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Nd and REE extraction with C18 cartridges, not spiked&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Chromatographic separation&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;2-step separation:&amp;lt;br /&amp;gt;1. 1.4ml AG50W-X8 (200-400µm) as primary column. 2. 0.7ml AG50W-X8 (200-400µm) with Alpha-HIBA to purify Nd.&amp;lt;br /&amp;gt;3. ~100µl TRU-Spec column for removal of any remaining Alpha-HIBA in samples.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;2-step separation:&amp;lt;br /&amp;gt;1. 100µl RE-Spec (100-150µm) as primary column.&amp;lt;br /&amp;gt;2. 0.7ml AG50W-X8 (200-400µm) with Alpha-HIBA to purify Nd.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;1-step separation:&amp;lt;br /&amp;gt;2ml LN-Spec (50-100µm) for Nd purification. No primary column needed because major ions were removed during pre-concentration&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Mass spectrometry&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;VG-Sector TIMS, NdO+, spiked for simultaneous isotope dilution and composition analysis&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;VG-Sector54 TIMS, NdO+, spiked for simultaneous isotope dilution and composition analysis &amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Thermo Neptune Plus MC-ICPMS&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Other&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Concentrations were determined on a previously separated 500ml aliquot by isotope dilution&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
+        <gco:CharacterString>seawater Nd isotopes and concentrations from the US-GEOTRACES North Atlantic zonal transect (NAZT) Dataset Description: &amp;lt;p&amp;gt;These&amp;amp;nbsp;data are from the collaboration of three different institutes: The University of South Carolina (USC), the Lamont-Doherty Earth Observatory (LDEO) of Columbia University and the University of Hawaii at Manoa (UH).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;KN199-04 (GT10) data are publically available;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/jg/serv/RESTRICTED/GEOTRACES/NorthAtlanticTransect/Nd_GT10-11_v8b_joined.html0%7Bdir=data.bco-dmo.org/jg/dir/BCO/GEOTRACES/NorthAtlanticTransect/,info=data.bco-dmo.org/jg/info/BCO/GEOTRACES/NorthAtlanticTransect/Nd_GT10%7D&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt; KN204-01 (GT11) has restricted&amp;lt;/a&amp;gt; access until release of the 2017 GEOTRACES Intermediate Data Product (IDP). Please contact the PI for further information.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Methodology: &amp;lt;/strong&amp;gt;A detailed description can be found in Stichel et al. (2015). &amp;amp;nbsp;See the links&amp;amp;nbsp;below for summaries of the described methodology from the paper.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/Pahnke/data_desc_GDAC_Stichel_199-04.pdf&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;KN199-04 Methodology&amp;lt;/a&amp;gt; (pdf)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/Pahnke/data_desc_GDAC_Stichel_204-01.pdf&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;KN204-01 Methodology&amp;lt;/a&amp;gt; (pdf)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Fig. 1: Sample locations for the Intermediate Data Product.&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/Pahnke/stations.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/Pahnke/stations.png&amp;quot; style=&amp;quot;width:594px&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;amp;nbsp;(References listed in the data are codes [1], [2], or [3], corresponding with the following publications/manuscripts)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[1] Stichel, T., Hartman, A.E., Duggan, B., Goldstein, S.L., Scher, H., Pahnke, K., 2015. Separating biogeochemical cycling of neodymium from water mass mixing in the Eastern North Atlantic. Earth Planet. Sci. Lett. 412, 245–260. doi:10.1016/j.epsl.2014.12.008&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[2] Hartman, A.E., Stichel, T., Duggan, B., Goldstein, S.L., Pahnke, K., Scher, H., Pena, L., in prep. Seawater neodymium composition in the open ocean North Atlantic: water mass signatures and transport.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[3] Duggan, B., Hartman, A.E., Stichel, T., Goldstein, S.L., Pahnke, K., Bizimis, M., Scher, H., in prep. Neodymium Concentrations and Isotopic Signature of the Deep Western Boundary Current Across Line W&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Table 1: Summary of the procedures applied in the involved laboratories of University of Hawaii at Mano (UH), Lamont-Doherty Earth Observatory (LDEO) and University of South Carolina (USC).&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;table border=&amp;quot;1&amp;quot; cellpadding=&amp;quot;0&amp;quot; cellspacing=&amp;quot;0&amp;quot; style=&amp;quot;width:502px&amp;quot;&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Step&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;UH&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;LDEO&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;USC&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Pre-concentration&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Spiked with &amp;lt;sup&amp;gt;146&amp;lt;/sup&amp;gt;Nd prior to co-precipitation with FeOOH (~20mg Fe per sample)&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Spiked with &amp;lt;sup&amp;gt;150&amp;lt;/sup&amp;gt;Nd prior to co-precipitation with FeOOH (~20mg Fe per sample)&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Nd and REE extraction with C18 cartridges, not spiked&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Chromatographic separation&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;2-step separation:&amp;lt;br /&amp;gt;1. 1.4ml AG50W-X8 (200-400µm) as primary column. 2. 0.7ml AG50W-X8 (200-400µm) with Alpha-HIBA to purify Nd.&amp;lt;br /&amp;gt;3. ~100µl TRU-Spec column for removal of any remaining Alpha-HIBA in samples.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;2-step separation:&amp;lt;br /&amp;gt;1. 100µl RE-Spec (100-150µm) as primary column.&amp;lt;br /&amp;gt;2. 0.7ml AG50W-X8 (200-400µm) with Alpha-HIBA to purify Nd.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;1-step separation:&amp;lt;br /&amp;gt;2ml LN-Spec (50-100µm) for Nd purification. No primary column needed because major ions were removed during pre-concentration&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Mass spectrometry&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;VG-Sector TIMS, NdO+, spiked for simultaneous isotope dilution and composition analysis&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;VG-Sector54 TIMS, NdO+, spiked for simultaneous isotope dilution and composition analysis &amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Thermo Neptune Plus MC-ICPMS&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Other&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Concentrations were determined on a previously separated 500ml aliquot by isotope dilution&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55132.rdf" xlink:title="OCE-0927241" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0927241 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927241</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55132.rdf" xlink:title="OCE-0927241" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0927241 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927241</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55133.rdf" xlink:title="OCE-0928409" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0928409 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0928409</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55133.rdf" xlink:title="OCE-0928409" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0928409 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0928409</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55134.rdf" xlink:title="OCE-0926981" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0926981 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0926981</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55134.rdf" xlink:title="OCE-0926981" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0926981 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0926981</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -301,6 +432,86 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51620.rdf" xlink:actuate="onRequest">Dr Torben Stichel</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/126.rdf" xlink:actuate="onRequest">University of Hawaii at Manoa</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>845-365-8609</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Department of Geology &amp; Geophysics 1680 East-West Rd.,, POST 719B</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Honolulu</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>HI</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>96822</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>tstichel@hawaii.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51621.rdf" xlink:actuate="onRequest">Dr Alison Hartman</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/68.rdf" xlink:actuate="onRequest">Lamont-Doherty Earth Observatory</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>845-365-8609</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>61 Route 9W</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Palisades</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>NY</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>10964</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>ahartman@ldeo.columbia.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -311,6 +522,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -563,7 +782,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -693,14 +912,28 @@
               <gmd:extent>
                 <gml:TimePeriod gml:id="boundingTemporalExtent">
                   <gml:beginPosition>2010-10-16</gml:beginPosition>
-                  <gml:endPosition>2011-12-10</gml:endPosition>
+                  <gml:endPosition>2010-11-02</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -768,7 +1001,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1639,7 +1872,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1657,6 +1890,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1670,13 +1910,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Methodology: &amp;lt;/strong&amp;gt;A detailed description can be found in Stichel et al. (2015). &amp;amp;nbsp;See the links&amp;amp;nbsp;below for summaries of the described methodology from the paper.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/Pahnke/data_desc_GDAC_Stichel_199-04.pdf&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;KN199-04 Methodology&amp;lt;/a&amp;gt; (pdf)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/Pahnke/data_desc_GDAC_Stichel_204-01.pdf&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;KN204-01 Methodology&amp;lt;/a&amp;gt; (pdf)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Fig. 1: Sample locations for the Intermediate Data Product.&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/Pahnke/stations.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/Pahnke/stations.png&amp;quot; style=&amp;quot;width:594px&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;amp;nbsp;(References listed in the data are codes [1], [2], or [3], corresponding with the following publications/manuscripts)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[1] Stichel, T., Hartman, A.E., Duggan, B., Goldstein, S.L., Scher, H., Pahnke, K., 2015. Separating biogeochemical cycling of neodymium from water mass mixing in the Eastern North Atlantic. Earth Planet. Sci. Lett. 412, 245–260. doi:10.1016/j.epsl.2014.12.008&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[2] Hartman, A.E., Stichel, T., Duggan, B., Goldstein, S.L., Pahnke, K., Scher, H., Pena, L., in prep. Seawater neodymium composition in the open ocean North Atlantic: water mass signatures and transport.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;[3] Duggan, B., Hartman, A.E., Stichel, T., Goldstein, S.L., Pahnke, K., Bizimis, M., Scher, H., in prep. Neodymium Concentrations and Isotopic Signature of the Deep Western Boundary Current Across Line W&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Table 1: Summary of the procedures applied in the involved laboratories of University of Hawaii at Mano (UH), Lamont-Doherty Earth Observatory (LDEO) and University of South Carolina (USC).&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;table border=&amp;quot;1&amp;quot; cellpadding=&amp;quot;0&amp;quot; cellspacing=&amp;quot;0&amp;quot; style=&amp;quot;width:502px&amp;quot;&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Step&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;UH&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;LDEO&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;USC&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Pre-concentration&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Spiked with &amp;lt;sup&amp;gt;146&amp;lt;/sup&amp;gt;Nd prior to co-precipitation with FeOOH (~20mg Fe per sample)&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Spiked with &amp;lt;sup&amp;gt;150&amp;lt;/sup&amp;gt;Nd prior to co-precipitation with FeOOH (~20mg Fe per sample)&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Nd and REE extraction with C18 cartridges, not spiked&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Chromatographic separation&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;2-step separation:&amp;lt;br /&amp;gt;1. 1.4ml AG50W-X8 (200-400µm) as primary column. 2. 0.7ml AG50W-X8 (200-400µm) with Alpha-HIBA to purify Nd.&amp;lt;br /&amp;gt;3. ~100µl TRU-Spec column for removal of any remaining Alpha-HIBA in samples.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;2-step separation:&amp;lt;br /&amp;gt;1. 100µl RE-Spec (100-150µm) as primary column.&amp;lt;br /&amp;gt;2. 0.7ml AG50W-X8 (200-400µm) with Alpha-HIBA to purify Nd.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;1-step separation:&amp;lt;br /&amp;gt;2ml LN-Spec (50-100µm) for Nd purification. No primary column needed because major ions were removed during pre-concentration&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Mass spectrometry&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;VG-Sector TIMS, NdO+, spiked for simultaneous isotope dilution and composition analysis&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;VG-Sector54 TIMS, NdO+, spiked for simultaneous isotope dilution and composition analysis &amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Thermo Neptune Plus MC-ICPMS&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Other&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11.0pt&amp;quot;&amp;gt;Concentrations were determined on a previously separated 500ml aliquot by isotope dilution&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -1684,6 +1936,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Data Processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The measured 143Nd/144Nd isotope ratios were normalized to those of the JNdi-1 Nd standard (0.512115, Tanaka et al., 2000). Please see attached methodology files for further information on the data processing.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO Processing Notes:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;- Added the sample_GEOTRC column by copying the original sample column and removing the '_2' from sample duplicates.&amp;lt;br /&amp;gt;- Added Cast_ISO_DateTime_UTC from the original date and time fields.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;SUMMARY OF CORRECTIONS MADE TO SUBMITTED DATA:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;version 8: The data for version 8 (April 2016) completely replaced those from version 7.&amp;lt;br /&amp;gt;- The quality flag scheme was changed in accordance with ODV.&amp;lt;br /&amp;gt;- New parameters: EPSILON_Nd, EPSILON_ND_FLAG_W, EPSILON_ND_2SD, Instrument, and Reference were added which are described in the documentation.&amp;lt;br /&amp;gt;- Column cruise_part was removed.&amp;lt;br /&amp;gt;- Version 8b: changed quality flags for KN204-01, stations 3 and 8 from 0 to 2&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;- 07 March 2013: Made the following corrections after consulting with dataset scientist:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;KN199-04&amp;lt;br /&amp;gt;-- Changed cast number of event 3176 from 2 to 8.&amp;lt;br /&amp;gt;-- Changed cast number of event 3169 from 8 to 2.&amp;lt;br /&amp;gt;-- Changed event number of KN199-04 station 3 cast 6 from 2059 to 2061.&amp;lt;br /&amp;gt;-- Changed event number of KN199-04 station 7 cast 6 from 2107 to 2132.&amp;lt;br /&amp;gt;-- Changed event number of KN199-04 station 9 cast 3 from 2059 to 2165.&amp;lt;br /&amp;gt;-- Changed event number of KN199-04 station 10 cast 6 from 2191 to 2194.&amp;lt;br /&amp;gt;-- Changed event number of KN199-04 station 11 cast 6 from 2206 to 2208.&amp;lt;br /&amp;gt;-- Changed bottle number of sample #5393 from 5 to 4 (station 5, cast 6).&amp;lt;br /&amp;gt;-- Changed bottle number of sample #5394 from 4 to 3 (station 5, cast 6).&amp;lt;br /&amp;gt;-- Changed time of event #2024 from 2129 to 1202.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;KN204-01&amp;lt;br /&amp;gt;-- Changed bottle number of sample #7955 from 8 to 9 (station 22, cast 4).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Additional data and revisions were served 19 Sept. 2013.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;After the data were submitted to the International Data Management Office, BODC, the office noticed that important identifying information was missing in many datasets. With the agreement of BODC and the US GEOTRACES lead PIs, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters: station_GEOTRC, cast_GEOTRC (bottle and pump data only), event_GEOTRC, sample_GEOTRC, sample_bottle_GEOTRC (bottle data only), bottle_GEOTRC (bottle data only), depth_GEOTRC_CTD (bottle data only), depth_GEOTRC_CTD_rounded (bottle data only), BTL_ISO_DateTime_UTC (bottle data only), and GeoFish_id (GeoFish data only). This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle_GT10, GT-C_Bottle_GT11, ODF_Bottle_GT10, and ODF_Bottle_GT11 datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the Event_Log_GT10 and Event_Log_GT11 datasets. McLane pump cast numbers missing in event logs were taken from the Particulate Th-234 dataset submitted by Ken Buesseler.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1753,7 +2017,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -1849,45 +2113,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1951,45 +2215,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -2004,7 +2268,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -2033,6 +2297,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

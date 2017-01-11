@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/4001.rdf" xlink:actuate="onRequest">Transmissometer_GTC from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/4001.rdf" xlink:actuate="onRequest">Particle beam attenuation coefficient (Cp) data from GEOTRACES carousel from R/V Knorr KN199-04, KN204-01 in the subtropical N. Atlantic Ocean, 2010-2011 (U.S. GEOTRACES NAT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2013-11-05</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-11-05</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2013-11-05</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/4001" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/4001</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,94 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51612.rdf" xlink:actuate="onRequest">Martin  Q. Fleisher</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/68.rdf" xlink:actuate="onRequest">Lamont-Doherty Earth Observatory</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Anderson, Robert and Fleisher, Martin (2013) Particle beam attenuation coefficient (Cp) data from GEOTRACES carousel from R/V Knorr KN199-04, KN204-01 in the subtropical N. Atlantic Ocean, 2010-2011 (U.S. GEOTRACES NAT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2013-11-05 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/4001 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>NAZT particle beam attenuation coefficient (Cp) data from GT-C (GEOTRACES carousel) rosette system Dataset Description: &amp;lt;p&amp;gt;NOTE: Revised dataset was served on 5 Nov. 2013.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Calibrated transmissometer data (particle beam attenuation coefficient, Cp) for the two deployed transmissometers (trace-metal clean Geotraces Carousel, GT-C; and the Ocean Data Facility conventional rosette, ODF, also known as the SIOR rosette). The transmissometers were WET Labs, Inc., 25 cm pathlength, C-Star transmissometer (660 nm). Traditional CTD readings (pressure, temp, sal, oxygen, depth) are reproduced here for convenience. Metadata for data other than Cp reported here should be consulted.&amp;lt;/p&amp;gt; Acquisition Description:</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55143.rdf" xlink:title="OCE-0927064" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0927064 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927064</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55143.rdf" xlink:title="OCE-0927064" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0927064 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927064</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -185,6 +300,48 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51612.rdf" xlink:actuate="onRequest">Martin  Q. Fleisher</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/68.rdf" xlink:actuate="onRequest">Lamont-Doherty Earth Observatory</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>845-365-8632</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>233 Comer Bldg. 61 Route 9W</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Palisades</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>NY</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>10964</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>martyq@ldeo.columbia.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -195,6 +352,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -417,7 +582,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -553,7 +718,21 @@
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -563,7 +742,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from Transmissometer_GTC from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Particle beam attenuation coefficient (Cp) data from GEOTRACES carousel from R/V Knorr KN199-04, KN204-01 in the subtropical N. Atlantic Ocean, 2010-2011 (U.S. GEOTRACES NAT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -621,7 +800,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1456,7 +1635,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1474,6 +1653,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1487,13 +1673,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Processing Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Calibrating the transmissometer data from the Geotraces North Atlantic Transect&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;Christopher Hayes (Lamont-Doherty Earth Observatory of Columbia University)&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The Geotraces North Atlantic Transect consisted of two legs: KN199-4 (aka GT10) and K204 (aka GT11).&amp;amp;nbsp; Transmissometer data was collected on three deployment systems during these cruises: (1) the Geotraces rosette or carousel (GT-C) which collected contamination prone elements in Go-Flo bottles, (2) a conventional Niskin bottle rosette operated by the Ocean Data Facility out of Scripps (ODF) and (3) a CTD attached to the end of the wire used for deploying in-situ pumps (PUMP). This document describes calibration of the raw voltages (from downcasts) recorded from the ODF and GT-C transmissometers and how they were calibrated into particle beam attenuation coefficients (Cp) which should be independent of the collection system. In this calibration the PUMP data was consulted but it will be submitted separately.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Equations used&amp;lt;/strong&amp;gt; (from GEOTRACES protocols, 2010; see also Bishop and Wood, 2008):&amp;lt;br /&amp;gt;[V_CTD_ref - V_CTD_dark ] = (V_factory_ref - V_factory_dark) *&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; (V_CTD_air - V_CTD_dark)&amp;amp;nbsp; / (V_factory_air - V_factory_dark)&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Transmission (tr.) = (V_obs - V_CTD_dark) / [V_CTD_ref - V_CTD_dark ]&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Cp = - 4 * ln(tr.)&amp;lt;br /&amp;gt;V_factory_ref is the maximum voltage as reported by the factory&amp;lt;br /&amp;gt;V_factory_dark is the minimum voltage (blocked path) as reported by the factory&amp;lt;br /&amp;gt;V_factory_air is the voltage reading in clean air as reported by the factory&amp;lt;br /&amp;gt;V_CTD_air is the voltage reading in clean air (cleaned windows) reported on board&amp;lt;br /&amp;gt;V_CTD_dark is the minimum (blocked path) voltage reading reported on board&amp;lt;br /&amp;gt;V_obs is the voltage reading observed during the cast&amp;lt;br /&amp;gt;Cp is calculated here for a 25 cm path length transmissometer and is in units of [1/m].&amp;lt;br /&amp;gt;V_CTD_air&amp;amp;nbsp; and V_CTD_dark were checked routinely at sea for the PUMP on both cruises and only occasionally on the second cruise for the GT-C and ODF. The transmissometer windows were cleaned routinely for the PUMP and GT-C on both cruises and periodically for the ODF system.&amp;amp;nbsp; Based on the relatively stability of voltages at the particle minimum (~3 km depth) for the PUMP and GT-C systems, there do not appear to be significant drift issues. This was not true for the ODF system.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The calibration equations calculations, using the shipboard voltage readings result in negative Cp values (&amp;amp;gt;100% transmission) for both the GT-C and PUMP systems because the V_factory_ref is too low (presumably the distilled water used in factory calibration is more particle-rich than seawater). The maximum voltage for each system therefore had to be tuned (values listed below). The cruise-wide maximum transmission was set to about 0.997 which occurs in the deep western basin (cruise KN204 or GT11, station 12). The data from the first leg of the cruise (KN199-4 or GT10) was tuned so that the Cp profiles matched in deep water at the cross-over station (TENATSO = GT11 station 24 = GT10 station 12).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;There was significant variability in the background (deep water) values on the ODF system. Either ODF had drift or windows weren’t always cleaned between casts. There was also a problem with the profile shape of the transmissometer data collected by the ODF cast. The maximum voltage on the ODF casts was reached at ~1km rather than 2-3km from PUMP and GT-C. I have attempted to correct the ODF data for drift by matching Cp values at the clear water minimum (~3 km depth) with the PUMP and GT-C casts, but the profile shape problem cannot be corrected for. I therefore do not recommend using the ODF transmissometer data quantitatively; although, for large beam attenuation signals like nepheloid layers or the hydrothermal plume, Cp estimated from the ODF casts is most likely a reasonable estimate.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The Cp results for the PUMP and GT-C casts generally appear internally consistent. The PUMP did not produce reliable voltage readings for the full water column at GT10 station 11 and GT11 stations 2 and 6. The GT-C casts also sampled demi-stations, shallow casts halfway between the full depth stations. One other factor about the data collection is that the during the GT-C downcasts, there was uninterrupted descent of the transmissometer (whereas during the PUMP up- and down- casts the transmissometer is stalled during deployment and retrieval of each pump from the wire). The GT-C rosette, however, did not sample at GT11 station 4, because of time constraints. This is unfortunate because this station was observed to have most particle rich nepheloid layer of the entire cruise. In order to have one file with Cp for all the deep stations, I have pasted in the Cp values measured by the PUMP system at GT11 station 4 into the GT-C data and did a slight adjustment so the deep background values matched between the surround stations 3 and 6 (GT11) in the GT-C casts.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References&amp;lt;/strong&amp;gt;:&amp;lt;br /&amp;gt;Geotraces. 2010. Sample and sample-handing protocols for GEOTRACES Cruises. In Standards and Intercalibration Committee [ed.]. http://www.obs-vlfr.fr/GEOTRACES/libraries/documents/Intercalibration/Cookbook.pdf.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bishop, J.K.B., Wood, T.J., 2008. Particulate matter chemistry and dynamics in the twilight zone at VERTIGO ALOHA and K2 sites. Deep Sea Research Part I: Oceanographic Research Papers 55 (12), 1684-1706.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Calibration (tuned) voltages used&amp;lt;/strong&amp;gt;:&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; [V_CTD_ref - V_CTD_dark]&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; V_CTD_dark&amp;lt;br /&amp;gt;GT11, GT-C casts:&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.686 V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.055 V&amp;lt;br /&amp;gt;GT10, GT-C casts: &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.646 V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.055 V&amp;lt;br /&amp;gt;GT11, PUMP casts:&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.852 V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.055 V&amp;lt;br /&amp;gt;GT10, PUMP casts:&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.8155 V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.0556 V&amp;lt;br /&amp;gt;GT11, st. 4 (GT-C) &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.8443&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.055 V*Note GT-C did not sample St. 4, these are the modified values for using the PUMP data at St. 4 in the GT-C section&amp;lt;br /&amp;gt;For ODF casts:&amp;lt;br /&amp;gt;Cruise&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Station&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Cast&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; V_CTD_ref-V_CTD_dark&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; V_CTD_dark&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.543&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 13&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 14&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 14&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 14&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.533&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 15&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 17&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 18&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.529&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 18&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.529&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 18&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.525&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 19&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.528&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.525&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.525&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.525&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.523&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.52&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.518&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 21&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.518&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 22&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.518&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 22&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.515&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 22&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.515&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 23&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.515&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 24&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.508&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 24&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.508&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 24&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.508&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.58&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.58&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.58&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.592&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.595&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.58&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.575&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.575&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.575&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1563,7 +1761,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -1608,45 +1806,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1661,7 +1859,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -1710,45 +1908,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1792,6 +1990,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

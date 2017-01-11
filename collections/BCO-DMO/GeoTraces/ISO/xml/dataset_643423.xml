@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,18 +101,55 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/643423.rdf" xlink:actuate="onRequest">Trace Metals Dissolved from the U.S. GEOTRACES EPZT,EPZT trace metals projects of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/643423.rdf" xlink:actuate="onRequest">Dissolved trace metal concentrations from a GO-FLO rosette collected during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2016-06-06</gco:Date>
+                <gco:Date>2016-11-29</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-11-29</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2016-11-29</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/643423" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/643423</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,19 +166,81 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Bruland, Kenneth (2016) Dissolved trace metal concentrations from a GO-FLO rosette collected during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2016-11-29 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/643423 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Dissolved trace metals from eastern part of the transect from GO-FLO rosette- version3 (RESTRICTED) Dataset Description: &amp;lt;p&amp;gt;Dissolved trace metals on the eastern half of the transect (plus a few other locations) in samples taken from the GEOTRACES GO-FLO rosette and filtered through a 0.2 um Acropak capsule filter.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;These data were updated May 6, 2016 with new values for some Copper samples.&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Updated again 6 June 2016&amp;lt;/strong&amp;gt; &amp;lt;strong&amp;gt;when joined to Master Event File and split into Bottle and Fish columns&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;Updates to this version of the dataset are likely.&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related files and References:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Biller, D. V., and K. W. Bruland (2012), Analysis of Mn, Fe, Co, Ni, Cu, Zn, Cd, and Pb in seawater using the Nobias-chelate PA1 resin and magnetic sector inductively coupled plasma mass spectrometry [ICP-MS], Mar. Chem., 130-131, 12-20, doi:10.1016/j.marchem.2011.12.001.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bruland, K.W., E.L. Rue, G.J. Smith, and G.R. Ditullio (2005), Iron, macronutrients and diatom blooms in the Peru upwelling regime: brown and blue waters of Peru, Mar. Chem., 93, 81–103, doi:10.1016/j.marchem.2004.06.011.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, G. A., and K. W. Bruland (2012), Rapid and noncontaminating sampling system for trace elements in global ocean surveys, Linmol. Oceanogr. Methods, 10, 425- 436, doi:10.4319/lom.2012.10.425.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;DMO notes:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;took out first column.&amp;amp;nbsp; put it in header description.&amp;lt;br /&amp;gt;changed 'nodata' to nd&amp;lt;br /&amp;gt;took out 'n/a' in last station; replaced with nd. (illegal character)&amp;lt;br /&amp;gt;changed precision of measurements to reflect PI instructions:&amp;amp;nbsp; &amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Round to one decimal place: Y, Cd, Pb, Co, Ga&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Round to two decimal places: La, Ce, Sc, Mn, Fe, Ni, Cu, Zn&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;changed variable names to conform to NAT and current GT where applicable&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;Joined and split into BOTTLE and FISH&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample bottles were Low Density Polyethylene (LDPE) bottles and cleaned in accordance with the GEOTRACES cookbook (http://www.geotraces.org/images/stories/documents/intercalibration/Cookbook.pdf). Sample bottles were stored in weak (~0.1 N) HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and were emptied before shipping.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were collected using the U.S. GEOTRACES sampling system of 24 Teflon-coated GO-FLO bottles (Cutter and Bruland, 2012). At each station, the bottles were deployed open and tripped on ascent at 3 m/min. GO-FLOs were sampled in the GEOTRACES trace metal clean sampling van that contained HEPA-filtered air.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;During sampling, the GO-FLO bottles were pressurized to ~0.4 atm with HEPA-filtered air, and their spigots were fitted with an acid-cleaned piece of Bev-a-Line tubing that fed into an Acropak-200 Supor capsule filter (0.2 µm pore size made of polyethersulfone). Before use, this filter had been filled with filtered surface seawater that had been acidifed to pH 2 with trace metal clean HCl and left overnight to rinse. Before collecting any subsamples, at least 500mL of seawater was passed through the filter (while eliminating air bubbles in the capsule reservoir). Sample bottles were rinsed three times with 10% sample volume before filling. Acropak filters were used for at most 3 casts before a new filter was used, and they were stored empty in a refrigerator while not in use. GEOFish surface samples were taken using an all-plastic &amp;quot;towed fish&amp;quot; pumping system as described in Bruland &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;. 2005 at approximately 3 m depth and were similarly filtered and sampled.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were acidified at sea with the equivalent of 4mL quartz-distilled 6M HCl per liter of seawater (resulting in pH 1.7-1.8). Samples were sitting acidified for several months before analysis back in the laboratory.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
+        <gco:CharacterString>Dissolved trace metals from eastern part of the transect from GO-FLO rosette- version3 (RESTRICTED) Dataset Description: &amp;lt;p&amp;gt;Dissolved trace metals on the eastern half of the transect (plus a few other locations) in samples taken from the GEOTRACES GO-FLO rosette and filtered through a 0.2 um Acropak capsule filter.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Revision history:&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;06 May&amp;amp;nbsp;2016 &amp;lt;/strong&amp;gt;- these data were updated with new values for some Copper samples.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;06 June 2016&amp;lt;/strong&amp;gt;&amp;amp;nbsp;- revised again&amp;amp;nbsp;when joined to Master Event File and split into Bottle and Fish columns.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;29 November 2016&amp;lt;/strong&amp;gt; - replaced values in Fe_D_CONC_BOTTLE column that were less than zero with &amp;quot;BDL&amp;quot; (below detection limit). The following are the negative values originally reported:&amp;lt;br /&amp;gt;GT sample 3560 -- Fe_D_CONC_BOTTLE =&amp;amp;nbsp;-0.05&amp;lt;br /&amp;gt;GT sample 3812 --&amp;amp;nbsp;Fe_D_CONC_BOTTLE =&amp;amp;nbsp;-0.02&amp;lt;br /&amp;gt;GT sample 3913 -- Fe_D_CONC_BOTTLE =&amp;amp;nbsp;-0.07&amp;lt;br /&amp;gt;GT sample 3998 -- Fe_D_CONC_BOTTLE =&amp;amp;nbsp;-0.02&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;Updates to this version of the dataset are likely.&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related files and References:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Biller, D. V., and K. W. Bruland (2012), Analysis of Mn, Fe, Co, Ni, Cu, Zn, Cd, and Pb in seawater using the Nobias-chelate PA1 resin and magnetic sector inductively coupled plasma mass spectrometry [ICP-MS], Mar. Chem., 130-131, 12-20, doi:10.1016/j.marchem.2011.12.001.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bruland, K.W., E.L. Rue, G.J. Smith, and G.R. Ditullio (2005), Iron, macronutrients and diatom blooms in the Peru upwelling regime: brown and blue waters of Peru, Mar. Chem., 93, 81–103, doi:10.1016/j.marchem.2004.06.011.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, G. A., and K. W. Bruland (2012), Rapid and noncontaminating sampling system for trace elements in global ocean surveys, Linmol. Oceanogr. Methods, 10, 425- 436, doi:10.4319/lom.2012.10.425.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;DMO notes:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;took out first column.&amp;amp;nbsp; put it in header description.&amp;lt;br /&amp;gt;changed 'nodata' to nd&amp;lt;br /&amp;gt;took out 'n/a' in last station; replaced with nd. (illegal character)&amp;lt;br /&amp;gt;changed precision of measurements to reflect PI instructions:&amp;amp;nbsp; &amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Round to one decimal place: Y, Cd, Pb, Co, Ga&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Round to two decimal places: La, Ce, Sc, Mn, Fe, Ni, Cu, Zn&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;changed variable names to conform to NAT and current GT where applicable&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;span style=&amp;quot;font-size:11px&amp;quot;&amp;gt;Joined and split into BOTTLE and FISH&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample bottles were Low Density Polyethylene (LDPE) bottles and cleaned in accordance with the GEOTRACES cookbook (http://www.geotraces.org/images/stories/documents/intercalibration/Cookbook.pdf). Sample bottles were stored in weak (~0.1 N) HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and were emptied before shipping.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were collected using the U.S. GEOTRACES sampling system of 24 Teflon-coated GO-FLO bottles (Cutter and Bruland, 2012). At each station, the bottles were deployed open and tripped on ascent at 3 m/min. GO-FLOs were sampled in the GEOTRACES trace metal clean sampling van that contained HEPA-filtered air.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;During sampling, the GO-FLO bottles were pressurized to ~0.4 atm with HEPA-filtered air, and their spigots were fitted with an acid-cleaned piece of Bev-a-Line tubing that fed into an Acropak-200 Supor capsule filter (0.2 µm pore size made of polyethersulfone). Before use, this filter had been filled with filtered surface seawater that had been acidifed to pH 2 with trace metal clean HCl and left overnight to rinse. Before collecting any subsamples, at least 500mL of seawater was passed through the filter (while eliminating air bubbles in the capsule reservoir). Sample bottles were rinsed three times with 10% sample volume before filling. Acropak filters were used for at most 3 casts before a new filter was used, and they were stored empty in a refrigerator while not in use. GEOFish surface samples were taken using an all-plastic &amp;quot;towed fish&amp;quot; pumping system as described in Bruland &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;. 2005 at approximately 3 m depth and were similarly filtered and sampled.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were acidified at sea with the equivalent of 4mL quartz-distilled 6M HCl per liter of seawater (resulting in pH 1.7-1.8). Samples were sitting acidified for several months before analysis back in the laboratory.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643425.rdf" xlink:title="OCE-1233502" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1233502 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1233502&amp;amp;HistoricalAwards=false</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643425.rdf" xlink:title="OCE-1233502" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1233502 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1233502&amp;amp;HistoricalAwards=false</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
@@ -191,10 +290,18 @@
             <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
           </gmd:maintenanceAndUpdateFrequency>
           <gmd:maintenanceNote>
-            <gco:CharacterString>Dataset Version: third draft of final</gco:CharacterString>
+            <gco:CharacterString>Dataset Version: 29 November 2016</gco:CharacterString>
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -447,7 +554,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -610,14 +717,28 @@
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
-                  <gml:timePosition>2016-06-06</gml:timePosition>
+                  <gml:timePosition>2016-11-29</gml:timePosition>
                 </gml:TimeInstant>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>From projects that focused on the following 2 locations:  1. Eastern Tropical Pacific - Transect from Peru to Tahiti  2. Eastern Pacific</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -627,7 +748,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from Trace Metals Dissolved from the U.S. GEOTRACES EPZT,EPZT trace metals projects of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Dissolved trace metal concentrations from a GO-FLO rosette collected during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -685,7 +806,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -766,7 +887,7 @@
 http://lod.bco-dmo.org/id/dataset-parameter/648383.rdf
 	Name: Fe_D_CONC_BOTTLE
 	Units: nanomoles per kilogram
-	Description: concentration of dissolved Iron from GoFLO bottle 
+	Description: concentration of dissolved Iron from GoFLO bottle. BDL = below detection limit; this means the very low values (less than zero) were reported for these samples. 
 http://lod.bco-dmo.org/id/dataset-parameter/648384.rdf
 	Name: Co_D_CONC_BOTTLE
 	Units: picomoles per kilogram
@@ -1460,7 +1581,7 @@
             </gco:MemberName>
           </gmd:sequenceIdentifier>
           <gmd:descriptor>
-            <gco:CharacterString>PI-supplied Description: concentration of dissolved Iron from GoFLO bottle; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+            <gco:CharacterString>PI-supplied Description: concentration of dissolved Iron from GoFLO bottle. BDL = below detection limit; this means the very low values (less than zero) were reported for these samples.; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
           </gmd:descriptor>
           <gmd:units>
             <gml:UnitDefinition gml:id="_parameterUnits648383">
@@ -2051,7 +2172,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -2069,6 +2190,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -2082,13 +2210,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Sampling:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample bottles were Low Density Polyethylene (LDPE) bottles and cleaned in accordance with the GEOTRACES cookbook (http://www.geotraces.org/images/stories/documents/intercalibration/Cookbook.pdf). Sample bottles were stored in weak (~0.1 N) HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and were emptied before shipping.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were collected using the U.S. GEOTRACES sampling system of 24 Teflon-coated GO-FLO bottles (Cutter and Bruland, 2012). At each station, the bottles were deployed open and tripped on ascent at 3 m/min. GO-FLOs were sampled in the GEOTRACES trace metal clean sampling van that contained HEPA-filtered air.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;During sampling, the GO-FLO bottles were pressurized to ~0.4 atm with HEPA-filtered air, and their spigots were fitted with an acid-cleaned piece of Bev-a-Line tubing that fed into an Acropak-200 Supor capsule filter (0.2 µm pore size made of polyethersulfone). Before use, this filter had been filled with filtered surface seawater that had been acidifed to pH 2 with trace metal clean HCl and left overnight to rinse. Before collecting any subsamples, at least 500mL of seawater was passed through the filter (while eliminating air bubbles in the capsule reservoir). Sample bottles were rinsed three times with 10% sample volume before filling. Acropak filters were used for at most 3 casts before a new filter was used, and they were stored empty in a refrigerator while not in use. GEOFish surface samples were taken using an all-plastic &amp;quot;towed fish&amp;quot; pumping system as described in Bruland &amp;lt;em&amp;gt;et al&amp;lt;/em&amp;gt;. 2005 at approximately 3 m depth and were similarly filtered and sampled.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were acidified at sea with the equivalent of 4mL quartz-distilled 6M HCl per liter of seawater (resulting in pH 1.7-1.8). Samples were sitting acidified for several months before analysis back in the laboratory.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -2096,6 +2236,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Analysis:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were analyzed with an adaptation of Biller and Bruland (2012). For this method, 24 mL of sample was pipetted into 30 mL teflon jars with quartz lids, and spiked with In and Lu to 5 nM (natural concentrations of In and La are sub pM, so this spike overwhelms the natural concentrations). This In and Lu spike is used as a check of consistent recovery across different resin columns and sampling days. The samples were UV irradiated for 2 hours to break the chelation of the organic complexes on Co and Cu. We had observed that 2 hours in our UV irradiation box is sufficient to plateau the concentrations of Cu and Co. After UV irradiation, samples lids were changed from lids with quartz-inserts to fully-teflon lids, and the samples were allowed to sit at least overnight.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were pre-concentrated on resin columns of Nobias-chelate PA1 resin (IDA and EDTA functional groups). We use 8 columns at a time, and therefore pre-concentrate 8 samples at a time. Columns are stored in weak (~0.1N) HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and every day before samples are analyzed, the columns are cleaned with alternating pH 6 seawater, 1N HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and pH 6 rinse/conditioning solution (0.05M NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;Ac). Just before pre-concentration on resin columns, 8 samples were buffered to pH 5.7-6.2 with an NH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;Ac buffer, inverted and weighed. For each set of samples, the columns are conditioned with the rinse/conditioning solution (to get the columns the correct pH before the sample arrives), then loaded with the sample, then rinsed with the rinse/conditioning solution (to remove the salts) and then eluted with ~1 mL of 1M quartz-distilled HNO&amp;lt;sub&amp;gt;3.&amp;lt;/sub&amp;gt; The eluent vials are weighed before and after elution, and the (now empty) sample jars are weighed as well. This method results in a concentration factor of about 24.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Column blanks were determined for each column by following the same procedure for samples, but loading a low-metal seawater for just 1 min rather than the 40 min a sample usually takes to load. Reagent blanks were determined by analyzing low-metal seawater twice normally (rx1) and twice with double the reagents (rx2; reagent doubled include the acid used to originally acidify the sample, the buffer used to get the sample to pH 5.7-6.2, and the In/Lu spike). In this way, the rx2 sample was the correct pH for analysis, but contained twice the amount of blank from the reagents. The difference between the rx2 and rx1 was used as the reagent blank.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Standards were made by spiking low-metal seawater and analyzing the standards in the same manner as the samples. The resulting standard curve was compared with a standard curve made in clean eluent. This allowed us to calculate and monitor the percent recovery of each metal over time. We also had a Mo standard curve that allowed us to correct for the MoO interference on Cd.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We analyzed samples, reference samples, standards and blanks in the Thermo-Element high resolution XR ICP-MS at UCSC. Consistently throughout the XR run, we ran clean eluent and a QC, to monitor drift of the instrument and changes in the instrument blank. We used the clean eluent as our “instrument blank.” To monitor drift in the blank of our columns and preconcentration procedure, we also ran “internal QC” samples, which are seawater samples from a large volume of homogenous seawater that our lab analyzed once every ~16 samples. We also ran every 4&amp;lt;sup&amp;gt;th&amp;lt;/sup&amp;gt; sample in duplicate.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Data Processing:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We used the seawater standard calibration curve for each metal. We subtracted the instrument, column, and reagent blanks from each metal. We monitored the percent recovery for each metal and checked that reference samples analyzed and processed in the same way resulted in reasonable values.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We had a frequent contamination issue with Cu, Ni and Zn contamination, which we observed in the same ratios across many samples. We have had this problem in the past in our lab, but have yet to determine the cause. Due to the consistent ratios in the contamination, this was easily spotted and the impacted data removed from the dataset.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing by BCO-DMO:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;As was done for the GEOTRACES-NAT data, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters:&amp;lt;br /&amp;gt;cruise_id, EXPOCODE,SECT_ID, STNNBR,&amp;amp;nbsp;CASTNO, GEOTRC_EVENTNO, GEOTRC_SAMPNO, GEOTRC_INSTR, SAMPNO, GF_NO, BTLNBR, BTLNBR_FLAG_W, DATE_START_EVENT, TIME_START_EVENT, ISO_DATETIME_UTC_START_EVENT, EVENT_LAT, EVENT_LON, DEPTH_MIN, DEPTH_MAX, &amp;amp;nbsp;BTL_DATE, BTL_TIME, BTL_ISO_DATETIME_UTC, BTL_LAT, BTL_LON, ODF_CTDPRS, SMDEPTH, FMDEPTH, BTMDEPTH, CTDPRS, CTDDEPTH.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This added information will facilitate subsequent analysis and inter-comparison of the datasets.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle and ODF_Bottle datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the TN303 Event Log (version 30 Oct 2014). Where applicable, pump information was taken from the PUMP_Nuts_Sals dataset.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -2165,7 +2317,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -2210,45 +2362,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
-                       xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -2292,6 +2444,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

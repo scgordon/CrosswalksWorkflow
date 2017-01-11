@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/648543.rdf" xlink:actuate="onRequest">Particulate Elements Geo-FISH from the U.S. GEOTRACES EPZT,South Pacific biogenic trace elements,GEOTRACES EPZT Suspended Particles projects of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/648543.rdf" xlink:actuate="onRequest">Trace element concentrations in suspended particles collected from the GeoFISH during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2016-06-09</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-06-09</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2016-06-09</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/648543" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/648543</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -145,22 +182,100 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51700.rdf" xlink:actuate="onRequest">Dr Christopher R. German</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Sherrell, Robert, Twining, Benjamin and German, Christopher (2016) Trace element concentrations in suspended particles collected from the GeoFISH during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2016-06-09 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/648543 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>Trace element concentrations in suspended particles collected from the GeoFISH Dataset Description: &amp;lt;p&amp;gt;This dataset comprises all trace element measurements made on suspended particulate samples collected by filtration from the towed fish (bottle data in a separate &amp;lt;a href=&amp;quot;http://www.bco-dmo.org/dataset/639847&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;dataset&amp;lt;/a&amp;gt;) during the US GEOTRACES GP16 cruise, R/V &amp;lt;em&amp;gt;Thomas G Thompson&amp;lt;/em&amp;gt; 303. It combines data produced at Bigelow Laboratory (upper water column) and at Rutgers University (intermediate and deep water column).&amp;amp;nbsp; NOTE:&amp;amp;nbsp; At station 18, near-plume depths were sampled in two separated casts deployed at two different times during the long station.&amp;amp;nbsp; The results are interleaved in this data file, but can be distinguished and separated by using sequential GEOTRACES numbers (always every other number since only every other bottle was used for particle sampling).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;This dataset contains total and labile particulate element concentrations data via Inductively-coupled plasma mass spectrometry.&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Trace element concentrations in suspended particles were collected from the towed GeoFISH (bottle data are in a separate dataset) and then by filtration onto 0.45um Supor (Pall Gellman) polyethersulfone filters. Particulate matter on filters was completely digested in hot acids and resulting solutions were analyzed using inductively-coupled plasma mass spectrometry (ICP-MS). Labile (weak acid leachable) particulate element concentrations are also reported for the samples analyzed at Bigelow Labs.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;u&amp;gt;Parameter names, definitions and Units:&amp;lt;/u&amp;gt;&amp;lt;br /&amp;gt;Concentrations of total suspended particulate trace elements are indicated as the element symbol alone: Al, Ba, Cd, (Ce), Co, (Cr), Cu, Fe, La, Mn, (Nd), Ni, P, Pb, (Sc), Th, Ti, V, Y, Zn (elements in parentheses analyzed at Rutgers only). Concentrations of the labile fraction of these particulate elements are indicated as element names followed by the suffix ‘_L’. Volumetric concentrations and concentration errors for all particulate fractions (&amp;amp;gt;0.45 um) are reported in units of pmol/L. The GEOTRACES sample number is in column ‘GEOTRC_SAMPNO’, and the analytical lab is found in column ‘Lab’ (where 1= Bigelow, 2=Rutgers).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Several elements were determined but are not reported here because data quality was compromised by large seasalt or process blank corrections, or because data quality simply has not been fully evaluated yet (REEs at Rutgers). However, it is possible that there is some future utility in these data, and we ask that users contact Bigelow and Rutgers who can provide the data on an individual basis. The analyzed but excluded elements include Mo, Sc, and Sr for Bigelow, and Ca, Mo, Rb, Sr, and the remaining REEs Pr, Sm, Eu, Tb, Gd, Dy, Ho, Er, Tm, Yb, and Lu for Rutgers. We expect that these REEs will be reported in a future iteration of this data report.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Uncertainties (errors) for both total and labile element concentrations are reported with the additional suffix “_Error”.&amp;amp;nbsp; (N.B. DMO changed to &amp;quot;_err&amp;quot; for consistency.)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;For samples (station/depth combinations) lacking replicate analyses (i.e. most samples; flag code generally ‘2’—see below for flag code descriptions), uncertainties are reported as propagated errors accounting for each step of analysis and data processing, as described below.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Access restrictions:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;It is our understanding that access to the data will be restricted to the GEOTRACES Data Management Committee (DMC) and Standards and Intercalibration Committee (SIC) until the product is publicly released in the next Intermediate Data Product, currently August, 2017.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Berger, C. J. M., S. M. Lippiatt, M. G. Lawrence, and K. W. Bruland. 2008. Application of a chemical leach technique for estimating labile particulate aluminum, iron, and manganese in the Columbia River plume and coastal waters off Oregon and Washington. Journal of Geophysical Research-Oceans &amp;lt;strong&amp;gt;113&amp;lt;/strong&amp;gt;.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, G. A., Andersson, P. S., Codispoti, L. A., Croot, P. L., Francois, R., Lohan, M. C., Obata, H. and Rutgers Van Der Loeff, M. M.: Sampling and Sample-handling Protocols for GEOTRACES Cruises,, 1–238 [online] Available from: http://www.geotraces.org/libraries/documents/Intercalibration/Cookbook.pdf, 2010.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, G.A. and Bruland, K.W. 2012. Rapid and non-contaminating sampling system for trace elements in global ocean surveys. &amp;lt;em&amp;gt;Limnology &amp;amp;amp; Oceanography: Methods&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;10&amp;lt;/strong&amp;gt;: 425-436.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Ohnemus, D.C., M.E. Auro, R.M. Sherrell, M. Langerstrom, P.L. Morton, B.S. Twining, S. Rauschenberg, P.J. Lam. 2014. Laboratory intercomparison of marine particulate digestions including Piranha: a novel chemical method for dissolution of polyethersulfone filters. Limnology and Oceanography &amp;lt;strong&amp;gt;12&amp;lt;/strong&amp;gt;:530-547.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Planquette, H. and Sherrell, R.M. 2012. Sampling for particulate trace element determination using water sampling bottles: methodology and comparison to in situ pumps. &amp;lt;em&amp;gt;Limnology &amp;amp;amp; Oceanography: Methods&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;10&amp;lt;/strong&amp;gt;: 367-388.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Twining, B. S., S. B. Baines, J. B. Bozard, S. Vogt, E. A. Walker, and D. M. Nelson. 2011. Metal quotas of plankton in the equatorial Pacific Ocean. Deep-Sea Research II &amp;lt;strong&amp;gt;58: &amp;lt;/strong&amp;gt;325-341.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Twining, B.S., Rauschenberg, S., Morton, P.L., Ohnemus, D.C., Lam, P.J. 2015. Comparison of particulate trace element concentrations in the North Atlantic Ocean as determined with discrete bottle sampling and in situ pumping. Deep Sea Research Part II &amp;lt;strong&amp;gt;116&amp;lt;/strong&amp;gt;: 273-282.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related files:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN303/ProcessblanksDetectionLimits.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Blanks and Detection Limits and related derived quantities from Rutgers and Bigelow labs (png)&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN303/Median_process_blanks.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Median process blanks for two labs compared (pmol for 1/2 filter digested)(png)&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN303/Median_percent_blank_corr.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Median percent process blank correction for reported data from two labs (png)&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN303/crms.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Total elemental recoveries for certified reference materials (CRMs) reported by each participating lab (png)&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN302/GP16z_Go-Flo_Particles_Blank_and_CRM_metadata.xlsx&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Original XL file.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN303/Intercalibration.docx&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Intercalibration for suspended particulate elements between Sherrell (Rutgers) and Twining (Bigelow) groups (docx) &amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN303/agreedupdepthlab.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Duplicated Depths by Lab.png&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN303/dupdepthInDeep.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Duplicated Depths by Cast (Shallow-Intermediate).png&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://data.bco-dmo.org/GEOTRACES/cruises/TN303/lab-blind.png&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Deplicated Depths by Cast (Intermediate-Deep).png&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://datap-geotraces-epzt.bco-dmo.org/jg/serv/RESTRICTED/GEOTRACES/EPZT/particulate_elements_join.html0&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Original dataset&amp;lt;/a&amp;gt; - not separated into Bottle and Fish&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;u&amp;gt;Total and labile particulate element concentrations via ICPMS&amp;lt;/u&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sampling Methodology:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Super GeoFISH samples&amp;amp;nbsp; were collected from surface waters (~2m) using a towed ‘fish’ deployed by Ken Bruland’s lab, and typically used to collect a surface sample upon arrival at the station location, for use as the shallowest sample of the resulting vertical concentration profile for that station. The ‘fish’ water was cleanly pumped directly into the bottom stopcock of a Go-Flo mounted vertically in the clean “bubble” (temporary clean room). Sampling then proceeded identically to procedures used for GO-Flo samples collected at depth, except that the GO-Flo was not inverted for mixing as potential particle settling time was negligible. All surface samples were analyzed by the Twining group at Bigelow Laboratory.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;During sampling in the clean van, unfiltered salinity and nutrient samples were first taken from the GO-Flo bottles to create headspace, and then the bottles were inverted slowly three times to re-suspend any large particles that might have settled before sampling. Then the GO-Flo bottles were pressurized to ~0.5 atm with HEPA-filtered air, and filtration commenced using methods similar to those published in Planquette and Sherrell (2012). GO-Flo stopcocks were fitted with an acid-cleaned piece of Bev-a-Line tubing feeding into a polycarbonate elbow that that attached by Luer lock into a 25 mm, polypropylene Swinnex filter holder (http://www.millipore.com/catalogue/module/C160). These filter holders had been loaded before each cast with an acid-cleaned 25mm Supor (Pall Gelman) 0.45um polyethersulfone filter. For three shelf stations, 47mm Supor 0.45 um filters were used instead, as particle concentrations were markedly higher than at other stations. These were supported in 47 mm polypropylene filter holders (MFS; Planquette and Sherrell, 2012). Immediately prior to sampling, the headspace of the filter holder was flushed with seawater to evacuate any air bubbles to prevent air lock or occlusion of the filter surface area by air bubbles during sampling (Planquette and Sherrell, 2012). Filtration commenced with filtrate collected in a plastic bucket, and the filter holders held approximately horizontal such that any residual headspace air bubbles would rise to the top of the filter holder, avoiding occlusion of the filter face. After filtration was complete (filter clogged to &amp;amp;lt;1 drop of filtrate per second) or two hours had passed since the start of filtration, filtration was ceased by closing the stopcock on the GO-Flo bottle. Seawater volume passed through the filter was measured and recorded. The Swinnex filter holders were taken into HEPA-filtered clean space, and excess headspace seawater was removed by gentle vacuum suction through the filter. The filter holders were then transferred in a sealed plastic bag to the HEPA-filtered “bubble” clean room in the ship’s main lab. Working directly under a vertically flowing HEPA hood, the filter holders were opened, and the filter was removed using Tefzel forceps (held by only the edge of the filter). The non-sampled side of the filter was “blotted” by placing onto an acid-cleaned 47mm Supor filter to remove remaining seawater by capillary action. Finally, the visibly dry filter was placed into an acid-cleaned polystyrene PetriSlide (EMD Millipore), with the filter positioned such that the inner rim of the lid was positioned over one edge of the filter, thus acting as a stabilizing device to limit subsequent movement of the filter within the PetriSlide, and stored at -20 degC for transport and storage until analysis at Bigelow Laboratory or Rutgers University.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Analytical Methodology:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Bigelow Laboratory&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All digestion steps were performed in a Class-100 clean room using standard clean techniques. Filters were cut in half using a ceramic blade, using a cutting template and a light table to aid precision. One half was digested following the protocol of Berger et al. (2008) to obtain labile particulate concentrations; the other was digested using a 4M HCl, 4M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and 4M HF mixture as described in Ohnemus et al. (2014) to obtain total particulate element concentrations. Labile particulate filter halves were leached in a solution of 25pcnt Optima-grade acetic acid and 0.02 M hydroxylamine hydrochloride following the protocol of Berger et al. (2008). One milliliter of this solution was added to the filter stored in a 1.7 mL polypropylene vial. Following the recommendation of Berger et al. (2008), the solution was heated to 95 degC in a water bath for 10 minutes and then allowed to cool to room temperature. The filter was in contact with the acetic acid leach for a total of two hours, after which the filter was removed from the polypropylene vial and the acetic acid/hydroxylamine leachate was centrifuged at 14,000 rpm for 10 minutes to sediment all particles. Without disturbing particles on the bottom of the tube, approximately 0.8 mL of leachate was transferred into an acid-cleaned 7 mL PFA digestion vial. Optima-grade HNO3was added (100 uL) to the digestion vial, which was subsequently heated uncapped at 110 degC to near dryness. Vial contents were redissolved with 2pcnt HNO3 (Optima grade).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Total particulate metals were determined by digestion of the second filter half. The filter was transferred to a rigorously cleaned 22-mL PFA vial, 2 mL of a solution containing 4M HCl, 4M HNO3, and 4M HF (all Optima grade) was added to completely cover the filter piece, and the vial was tightly capped and heated to 110 degC for 4 hours. This procedure has been determined to be adequate for digestion of all particulate material, while allowing the Supor filter to remain intact (Ohnemus et al. 2014). Following heating, the acid solution in the bomb was poured into a second PFA vial, leaving the filter piece behind. To ensure complete transfer of acid, the bombs were thoroughly rinsed with 3 × 0.5 mL aliquots of ultrapure water which were poured into the secondary vial. The secondary vial was then heated to dryness and the contents redissolved with 2 mL of a 50 pcnt Optima-grade HNO3 + 15 pcnt Optima-grade H2O2 (v/v of concentrated reagents) solution. This solution was again dried down and the contents redissolved with 2 pcnt HNO3.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filter halves from depths typically greater than 150m outside the oxygen minimum zone (stations 15-36) were digested only in the HCl/HNO3/HF solution to provide a total particulate element fraction; no corresponding labile particulate concentration data have been collected for these samples.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All digests were analyzed using a Finnigan-MAT Element2 HR-ICP-MS at the University of Maine following the protocols outlined in Twining et al. (2011). The instrument is equipped with a cyclonic nebulizer, an autosampler contained under a HEPA filter, and nickel cones. Ba-137, Cd-111, La-139, Th-232, and Y-89 were analyzed in low-resolution mode, and the remaining isotopes were analyzed in medium-resolution mode. Y-89 was analyzed in both low- and medium-resolution modes, and the values reported are derived from the low-resolution mode values. Multiple isotopes were analyzed for some elements, and the isotopes used to derive the reported concentration are as follows for each element: Fe (56 and 57), Cu (63 and 65), Ni (60 and 62), Zn (66, 64 and 68). Mean agreement was 1.7 pcnt for the two Cu isotopes, 3.2 pcnt for the two Fe isotopes, 7.6 pcnt for the two Ni isotopes, and 1.3 to 2.9 pcnt for the Zn isotopes. Between low and medium instrument resolution modes, mean agreement was 0.4pcnt for Y-89. Quantification was performed by external calibration, and In-115 was used as an internal standard to correct for variations in instrumental sensitivity during analyses.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cs-133, spiked during the initial sample digestions, was used as a process recovery monitor, but no samples were discarded or corrected using the Cs recoveries, as typical Cs recoveries were 95-105pcnt.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Rutgers University&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were analyzed in the Sherrell laboratory at Rutgers University. Frozen filters were cut in half using a ceramic rotary blade; a filter-cutting template was illuminated on a light table for guidance during cutting, and filter cutting error performed on blank filters was found to be ≤2% by weight. One filter half was used for sample digestion (reported here), and the other filter half was used for archiving or for acid leaching of “labile” metals (to be reported at a later date). For digestion, filter halves were placed into the bottom of acid-clean 15 mL PFA vials (Savillex), and 0.4 mL of Milli-Q ultrapure water was added to the top. Once it was fully wetted, the filter half was pulled up the side of the vial and adhered to the wall, curved side toward bottom of vial. Then 0.6 mL of a solution containing 16.7 pcnt (v/v) hydrofluoric acid (HF, Optima grade, Fisher) and 83.3 pcnt (v/v) nitric acid (HNO3, Optima grade, Fisher) was added by pipet to each vial, aiming at the adhered filter half. The final digestion acid mixture was thus 1.0 mL of a solution containing 8M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; and 2.9M HF. The vial was then capped tightly and placed on a Teflon hotplate at least 2 cm from other vials to allow air circulation. These “bombs” were refluxed at 135 degC for 4 hours. After cooling, solution was gathered to the bottom of the vials, lids were removed, and the digest solution was evaporated until ~5-10 µL of solution remained. At that point, 100 uL of concentrated HNO3 was added, and the solution was re-evaporated until ~5-10 µL of solution remained. The additional HNO­3 dry-down encourages evaporative loss of HF. Evaporating to dryness was avoided to prevent “baking” sample residue onto the Teflon surface, thus aiding in complete re-dissolution and minimizing carry-over to subsequent sample digestions. Finally, the remaining droplet was brought up in 3.0 mL of 5 pcnt HNO3 (v/v) and transferred to a 15 mL acid-cleaned polypropylene centrifuge tube for archiving prior to analysis.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample analysis was completed on a Finnigan-MAT Element-1 inductively coupled plasma mass spectrometer, employing a PFA Microflow nebulizer (ESI), an Apex and ACM sequential desolvation system (ESI) to reduce molecular oxide ion formation, and Ni cones. Sample solutions were diluted five times from the archived digest solutions (to reduce chemical matrix effects) and were quantified using nine-point, multi-element standard curves with acid matrix identical to that of samples and concentrations bracketing the range of the samples. Single-point standard additions were run every 10 samples to check for accuracy, and analytical replicates were made every 10 samples to monitor analytical precision.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;To monitor overall process recovery, a high Cs spike was added at the start of sample digestion. Analysis of Cs in the final digest solution showed that recovery was always 100±5%, so no samples were discarded or corrected for process recovery.&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/502593.rdf" xlink:title="OCE-1235248" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1235248 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1235248&amp;amp;HistoricalAwards=false</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/502593.rdf" xlink:title="OCE-1235248" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1235248 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1235248&amp;amp;HistoricalAwards=false</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/640077.rdf" xlink:title="OCE-1234827" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1234827 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1234827</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/640077.rdf" xlink:title="OCE-1234827" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1234827 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1234827</gmx:Anchor>
       </gmd:credit>
         <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/640078.rdf" xlink:title="OCE-1232814" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1232814 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1232814</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/640078.rdf" xlink:title="OCE-1232814" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-1232814 Award URL: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1232814</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -249,6 +364,48 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/51700.rdf" xlink:actuate="onRequest">Dr Christopher R. German</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>508-289-2853</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>266 Woods Hole Rd Clark South 276 (MS #24)</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Woods Hole</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>MA</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>02543</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>cgerman@whoi.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
             <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
@@ -259,6 +416,14 @@
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -679,7 +844,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -899,7 +1064,21 @@
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>From projects that focused on the following 2 locations:  1. Eastern Tropical Pacific - Transect from Peru to Tahiti  2. Subtropical Southeastern Pacific Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -909,7 +1088,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from Particulate Elements Geo-FISH from the U.S. GEOTRACES EPZT,South Pacific biogenic trace elements,GEOTRACES EPZT Suspended Particles projects of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Trace element concentrations in suspended particles collected from the GeoFISH during the R/V Thomas G. Thompson cruise TN303 from Peru to Tahiti in 2013 (U.S. GEOTRACES EPZT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -967,7 +1146,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -3827,7 +4006,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -3845,6 +4024,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -3858,13 +4044,25 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;u&amp;gt;Total and labile particulate element concentrations via ICPMS&amp;lt;/u&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sampling Methodology:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Super GeoFISH samples&amp;amp;nbsp; were collected from surface waters (~2m) using a towed ‘fish’ deployed by Ken Bruland’s lab, and typically used to collect a surface sample upon arrival at the station location, for use as the shallowest sample of the resulting vertical concentration profile for that station. The ‘fish’ water was cleanly pumped directly into the bottom stopcock of a Go-Flo mounted vertically in the clean “bubble” (temporary clean room). Sampling then proceeded identically to procedures used for GO-Flo samples collected at depth, except that the GO-Flo was not inverted for mixing as potential particle settling time was negligible. All surface samples were analyzed by the Twining group at Bigelow Laboratory.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;During sampling in the clean van, unfiltered salinity and nutrient samples were first taken from the GO-Flo bottles to create headspace, and then the bottles were inverted slowly three times to re-suspend any large particles that might have settled before sampling. Then the GO-Flo bottles were pressurized to ~0.5 atm with HEPA-filtered air, and filtration commenced using methods similar to those published in Planquette and Sherrell (2012). GO-Flo stopcocks were fitted with an acid-cleaned piece of Bev-a-Line tubing feeding into a polycarbonate elbow that that attached by Luer lock into a 25 mm, polypropylene Swinnex filter holder (http://www.millipore.com/catalogue/module/C160). These filter holders had been loaded before each cast with an acid-cleaned 25mm Supor (Pall Gelman) 0.45um polyethersulfone filter. For three shelf stations, 47mm Supor 0.45 um filters were used instead, as particle concentrations were markedly higher than at other stations. These were supported in 47 mm polypropylene filter holders (MFS; Planquette and Sherrell, 2012). Immediately prior to sampling, the headspace of the filter holder was flushed with seawater to evacuate any air bubbles to prevent air lock or occlusion of the filter surface area by air bubbles during sampling (Planquette and Sherrell, 2012). Filtration commenced with filtrate collected in a plastic bucket, and the filter holders held approximately horizontal such that any residual headspace air bubbles would rise to the top of the filter holder, avoiding occlusion of the filter face. After filtration was complete (filter clogged to &amp;amp;lt;1 drop of filtrate per second) or two hours had passed since the start of filtration, filtration was ceased by closing the stopcock on the GO-Flo bottle. Seawater volume passed through the filter was measured and recorded. The Swinnex filter holders were taken into HEPA-filtered clean space, and excess headspace seawater was removed by gentle vacuum suction through the filter. The filter holders were then transferred in a sealed plastic bag to the HEPA-filtered “bubble” clean room in the ship’s main lab. Working directly under a vertically flowing HEPA hood, the filter holders were opened, and the filter was removed using Tefzel forceps (held by only the edge of the filter). The non-sampled side of the filter was “blotted” by placing onto an acid-cleaned 47mm Supor filter to remove remaining seawater by capillary action. Finally, the visibly dry filter was placed into an acid-cleaned polystyrene PetriSlide (EMD Millipore), with the filter positioned such that the inner rim of the lid was positioned over one edge of the filter, thus acting as a stabilizing device to limit subsequent movement of the filter within the PetriSlide, and stored at -20 degC for transport and storage until analysis at Bigelow Laboratory or Rutgers University.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Analytical Methodology:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Bigelow Laboratory&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All digestion steps were performed in a Class-100 clean room using standard clean techniques. Filters were cut in half using a ceramic blade, using a cutting template and a light table to aid precision. One half was digested following the protocol of Berger et al. (2008) to obtain labile particulate concentrations; the other was digested using a 4M HCl, 4M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, and 4M HF mixture as described in Ohnemus et al. (2014) to obtain total particulate element concentrations. Labile particulate filter halves were leached in a solution of 25pcnt Optima-grade acetic acid and 0.02 M hydroxylamine hydrochloride following the protocol of Berger et al. (2008). One milliliter of this solution was added to the filter stored in a 1.7 mL polypropylene vial. Following the recommendation of Berger et al. (2008), the solution was heated to 95 degC in a water bath for 10 minutes and then allowed to cool to room temperature. The filter was in contact with the acetic acid leach for a total of two hours, after which the filter was removed from the polypropylene vial and the acetic acid/hydroxylamine leachate was centrifuged at 14,000 rpm for 10 minutes to sediment all particles. Without disturbing particles on the bottom of the tube, approximately 0.8 mL of leachate was transferred into an acid-cleaned 7 mL PFA digestion vial. Optima-grade HNO3was added (100 uL) to the digestion vial, which was subsequently heated uncapped at 110 degC to near dryness. Vial contents were redissolved with 2pcnt HNO3 (Optima grade).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Total particulate metals were determined by digestion of the second filter half. The filter was transferred to a rigorously cleaned 22-mL PFA vial, 2 mL of a solution containing 4M HCl, 4M HNO3, and 4M HF (all Optima grade) was added to completely cover the filter piece, and the vial was tightly capped and heated to 110 degC for 4 hours. This procedure has been determined to be adequate for digestion of all particulate material, while allowing the Supor filter to remain intact (Ohnemus et al. 2014). Following heating, the acid solution in the bomb was poured into a second PFA vial, leaving the filter piece behind. To ensure complete transfer of acid, the bombs were thoroughly rinsed with 3 × 0.5 mL aliquots of ultrapure water which were poured into the secondary vial. The secondary vial was then heated to dryness and the contents redissolved with 2 mL of a 50 pcnt Optima-grade HNO3 + 15 pcnt Optima-grade H2O2 (v/v of concentrated reagents) solution. This solution was again dried down and the contents redissolved with 2 pcnt HNO3.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Filter halves from depths typically greater than 150m outside the oxygen minimum zone (stations 15-36) were digested only in the HCl/HNO3/HF solution to provide a total particulate element fraction; no corresponding labile particulate concentration data have been collected for these samples.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All digests were analyzed using a Finnigan-MAT Element2 HR-ICP-MS at the University of Maine following the protocols outlined in Twining et al. (2011). The instrument is equipped with a cyclonic nebulizer, an autosampler contained under a HEPA filter, and nickel cones. Ba-137, Cd-111, La-139, Th-232, and Y-89 were analyzed in low-resolution mode, and the remaining isotopes were analyzed in medium-resolution mode. Y-89 was analyzed in both low- and medium-resolution modes, and the values reported are derived from the low-resolution mode values. Multiple isotopes were analyzed for some elements, and the isotopes used to derive the reported concentration are as follows for each element: Fe (56 and 57), Cu (63 and 65), Ni (60 and 62), Zn (66, 64 and 68). Mean agreement was 1.7 pcnt for the two Cu isotopes, 3.2 pcnt for the two Fe isotopes, 7.6 pcnt for the two Ni isotopes, and 1.3 to 2.9 pcnt for the Zn isotopes. Between low and medium instrument resolution modes, mean agreement was 0.4pcnt for Y-89. Quantification was performed by external calibration, and In-115 was used as an internal standard to correct for variations in instrumental sensitivity during analyses.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cs-133, spiked during the initial sample digestions, was used as a process recovery monitor, but no samples were discarded or corrected using the Cs recoveries, as typical Cs recoveries were 95-105pcnt.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Rutgers University&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Samples were analyzed in the Sherrell laboratory at Rutgers University. Frozen filters were cut in half using a ceramic rotary blade; a filter-cutting template was illuminated on a light table for guidance during cutting, and filter cutting error performed on blank filters was found to be ≤2% by weight. One filter half was used for sample digestion (reported here), and the other filter half was used for archiving or for acid leaching of “labile” metals (to be reported at a later date). For digestion, filter halves were placed into the bottom of acid-clean 15 mL PFA vials (Savillex), and 0.4 mL of Milli-Q ultrapure water was added to the top. Once it was fully wetted, the filter half was pulled up the side of the vial and adhered to the wall, curved side toward bottom of vial. Then 0.6 mL of a solution containing 16.7 pcnt (v/v) hydrofluoric acid (HF, Optima grade, Fisher) and 83.3 pcnt (v/v) nitric acid (HNO3, Optima grade, Fisher) was added by pipet to each vial, aiming at the adhered filter half. The final digestion acid mixture was thus 1.0 mL of a solution containing 8M HNO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; and 2.9M HF. The vial was then capped tightly and placed on a Teflon hotplate at least 2 cm from other vials to allow air circulation. These “bombs” were refluxed at 135 degC for 4 hours. After cooling, solution was gathered to the bottom of the vials, lids were removed, and the digest solution was evaporated until ~5-10 µL of solution remained. At that point, 100 uL of concentrated HNO3 was added, and the solution was re-evaporated until ~5-10 µL of solution remained. The additional HNO­3 dry-down encourages evaporative loss of HF. Evaporating to dryness was avoided to prevent “baking” sample residue onto the Teflon surface, thus aiding in complete re-dissolution and minimizing carry-over to subsequent sample digestions. Finally, the remaining droplet was brought up in 3.0 mL of 5 pcnt HNO3 (v/v) and transferred to a 15 mL acid-cleaned polypropylene centrifuge tube for archiving prior to analysis.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample analysis was completed on a Finnigan-MAT Element-1 inductively coupled plasma mass spectrometer, employing a PFA Microflow nebulizer (ESI), an Apex and ACM sequential desolvation system (ESI) to reduce molecular oxide ion formation, and Ni cones. Sample solutions were diluted five times from the archived digest solutions (to reduce chemical matrix effects) and were quantified using nine-point, multi-element standard curves with acid matrix identical to that of samples and concentrations bracketing the range of the samples. Single-point standard additions were run every 10 samples to check for accuracy, and analytical replicates were made every 10 samples to monitor analytical precision.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;To monitor overall process recovery, a high Cs spike was added at the start of sample digestion. Analysis of Cs in the final digest solution showed that recovery was always 100±5%, so no samples were discarded or corrected for process recovery.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
@@ -3872,6 +4070,18 @@
               <gmd:description>
                 <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Bigelow Laboratory&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All ICP-MS elemental concentration data were normalized to an In-115 internal standard and quantified using external standard curves. After accounting for sample dilutions due to acid digestion steps, quantities of each element per filter (pmol/filter) were calculated for each analytical run. The contribution of the ‘process blank’ (measured as the elements contained in an acid-washed filter through which 0.2-µm filtered water was passed during the cruise) was then subtracted. Process blanks from 25-mm diameter filters used at most stations (all but stations 2-4) were pooled across ICP-MS runs and from across the cruise section. Separate process blanks were calculated for the labile (acetic acid/hydroxylamine) and total (HCl/HNO3/HF) digestions.&amp;amp;nbsp; The median process blanks for each digestion scheme and each element are given in the ‘Blanks and DetLimits’ sheet of the attached Excel workbook ‘GP16 Go-Flo Particles Blank and CRM metadata’. Two process blanks of the 47-mm diameter Supor filters used at nearshore stations 2-4 were found to be insufficient to rigorously determine the blank levels for that filter size due to a flier in one of the two blank replicates. A filter-area-scaled process blank was instead derived from the 25-mm filter data and used to correct the 47-mm samples; these scaled blanks largely agreed with the non-flier 47-mm replicate.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Following process blank correction, element concentrations (per volume of water filtered) were calculated by dividing the determined pmol/filter by the volume of water passed through each filter (measured volumetrically on the ship following each filtration).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The factor ultimately limiting our ability to detect particulate elements, which varies across the elemental suite as discussed in Ohnemus et al. (2014) and Twining et al (2015), is typically the observed variability in process blanks (i.e., the filter substrates). We calculate and report dataset-wide detection limits as 2 times (labile digests and total Al) or 3 times (all remaining elements) the standard deviation of the process blanks for the relevant digestion procedure (total or labile) after pooling of process blanks from across the transect, which did not appear to vary significantly as a function of collection location. Lower (2 S.D.) detection limits were set for the labile elements and total Al, at the expense of larger uncertainties, to allow visualization of complete profiles especially in the ultra-low surface samples of many offshore stations. The mean elemental content of the process blank (pmol/filter) was converted to concentration units using the average volume filtered for GO-Flo samples (7.6 L). Details of the detection limits used are given in the ‘Blanks and DetLimits’ sheet of the attached Excel workbook ‘GP16 Go-Flo Particles Blank and CRM metadata.xlsx’&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Rutgers University&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The following describes how raw ICP-MS data were transformed into particulate metal concentration data. The intensities (counts per second) from the ICP-MS runs were corrected for instrument blank (evaluated using a 0.8 M nitric acid solution that matched the acid matrix of the samples as analyzed) and were normalized for mass spectrometer sensitivity drift by correction to the internal standard indium-115, which was added to all samples at a constant 1.0 ng/mL concentration. Corrections were made for MoO interferences on Cd using a Mo standard that was evaluated in each analytical session (&amp;amp;lt;0.5% correction in all cases). A 9-point standard curve bracketing the range of sample concentrations was evaluated at the beginning and end of each analytical session, and the drift-corrected slopes of these curves for each element were evaluated and averaged; these slopes nearly always agreed to within 5%. The drift-corrected average slope was then used to determine the concentration of each element in the 5x-diluted digest solutions. Single point standard addition checks on every 10th sample yielded agreement with standard curve quantification to within 5% depending on element; no corrections were made on the basis of these accuracy checks. After correction for dilution and division by seawater volume filtered through the half-filter piece, the elemental concentrations in seawater were corrected for process blank. The process blanks consisted of Supor filters that had 2.0 L (occasionally as little as 1.1 L or as much as 2.3 L) of 0.2 µm-filtered seawater passed through them during sampling at sea. Process blanks were collected from a variety of locations and depths throughout the cruise (n=18); no trend in these blanks as a function of particle concentration in the seawater was observed, suggesting that particles smaller than 0.2 µm did not contribute significantly to the elemental composition of the process blank filter. These process blank filters were cut and digested as for normal samples, and the absolute moles of each element were corrected for elemental contributions from residual seasalt using the Na data, assuming that all Na was solely derived from seasalt and using the mean seawater ratio of all measured elements to Na. The median seasalt-corrected process blank for each element was then subtracted from each particle concentration. The only additional blank that was subtracted was a 20 pM (seawater concentration) blank subtraction for all samples for Cu to improve intercalibration with the upper ocean samples measured by the Twining lab and to compensate for an uncorrected Cu background specific to our ICP-MS introduction system. Finally, all particulate metal concentrations were corrected for contributions from residual seasalt that had dried on the filter, using Na determinations as for the process blanks. The median seasalt correction was &amp;amp;lt;1% for all reported elements except Cd (2%), Ni (1%), P (1%), V (3%). Maximum seasalt correction for any reported element was 14% (V).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Error calculation (Bigelow and Rutgers)&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Error propagation on the final seawater particulate concentrations was completed using the following errors for each analyte: a conservative 3% filter cutting error (same for all elements), the instrumental relative standard deviation (RSD) on the metal and indium counts during measurement, the standard deviation on the analytical replicates of the 5% nitric acid instrument blank during each analytical session, the error about the mean of the averaged standard curve slope, the standard deviation of the multiple process blanks used to determine the median process blank for subtraction, and the instrumental RSD on the Na signal for used for seasalt subtraction (this last step Rutgers only).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Description of data quality flags&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;The standard Ocean Data View flags were used (reference all flags at https://www.bodc.ac.uk/data/codes_and_formats/odv_format/):&amp;lt;br /&amp;gt;1: Good Value: Good quality data value that is not part of any identified malfunction and has been verified as consistent with real phenomena during the quality control process (reproducible).&amp;lt;br /&amp;gt;2: Probably Good Value: Data value that is probably consistent with real phenomena but this is unconfirmed or data value forming part of a malfunction that is considered too small to affect the overall quality of the data object of which it is a part. [Used when the reported value reflects analysis of a single replicate.]&amp;lt;br /&amp;gt;3: Probably Bad Value: Data value recognized as unusual during quality control that forms part of a feature that is probably inconsistent with real phenomena. [Used when a value appears abnormally high or low (oceanographically inconsistent) based on: a) adjacent depths and b) typical profile variability and shape using the context of relevant nearby stations; and/or c) intercomparison of samples from the two GO-Flo particulate-TM datasets presented here.]&amp;lt;br /&amp;gt;4: Bad Value: An obviously erroneous data value. [Not used.]&amp;lt;br /&amp;gt;6: Value Below Detection Limit: The level of the measured phenomenon was too small to be quantified by the technique employed to measure it. The accompanying value is the detection limit for the technique or zero if that value is unknown. [We report an empty value rather than zero or a detection limit value.]&amp;lt;br /&amp;gt;9: Missing Value: The data value is missing. Any accompanying value will be a magic number representing absent data. [All samples collected were analyzed. Any missing data was not analyzed or was analyzed but is not (or not yet) reported.]&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing by BCO-DMO:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;As was done for the GEOTRACES-NAT data, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters:&amp;lt;br /&amp;gt;cruise_id, EXPOCODE,SECT_ID, STNNBR,&amp;amp;nbsp;CASTNO, GEOTRC_EVENTNO, GEOTRC_SAMPNO, GEOTRC_INSTR, SAMPNO, GF_NO, BTLNBR, BTLNBR_FLAG_W, DATE_START_EVENT, TIME_START_EVENT, ISO_DATETIME_UTC_START_EVENT, EVENT_LAT, EVENT_LON, DEPTH_MIN, DEPTH_MAX, &amp;amp;nbsp;BTL_DATE, BTL_TIME, BTL_ISO_DATETIME_UTC, BTL_LAT, BTL_LON, ODF_CTDPRS, SMDEPTH, FMDEPTH, BTMDEPTH, CTDPRS, CTDDEPTH.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This added information will facilitate subsequent analysis and inter-comparison of the datasets.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle and ODF_Bottle datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the TN303 Event Log (version 30 Oct 2014). Where applicable, pump information was taken from the PUMP_Nuts_Sals dataset.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -3941,7 +4151,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -4020,45 +4230,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
-                       xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -4102,6 +4312,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+           xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>

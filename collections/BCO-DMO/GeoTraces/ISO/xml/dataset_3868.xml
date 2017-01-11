@@ -82,7 +82,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
   </gmd:contact>
@@ -101,7 +101,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3868.rdf" xlink:actuate="onRequest">GT10-11 - Co Total Dissolved and Labile from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3868.rdf" xlink:actuate="onRequest">Total dissolved Cobalt and labile Cobalt concentrations from R/V Knorr cruises KN199-04 and KN204-01 in the Subtropical northern Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project)</gmx:Anchor>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -109,10 +109,47 @@
                 <gco:Date>2013-04-26</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-04-26</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString/>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>BCO-DMO Linked Data URI</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2013-04-26</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/3868" xlink:actuate="onRequest">http://lod.bco-dmo.org/id/dataset/3868</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
           <gmd:citedResponsibleParty>
            <gmd:CI_ResponsibleParty>
               <gmd:individualName>
@@ -129,16 +166,78 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" >publisher</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           <gmd:presentationForm>
             <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
           </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>Cite this dataset as: Saito, Mak (2013) Total dissolved Cobalt and labile Cobalt concentrations from R/V Knorr cruises KN199-04 and KN204-01 in the Subtropical northern Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). Dataset version 2013-04-26 [if applicable, indicate subset used]. http://lod.bco-dmo.org/id/dataset/3868 [access date]</gco:CharacterString>
+          </gmd:otherCitationDetails>
           </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Total dissolved Cobalt and labile Cobalt concentrations from KN199-04 and KN204-01. Dataset Description: &amp;lt;p&amp;gt;Concentrations of total dissolved cobalt and labile dissolved cobalt (0.2 um filtered).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Note:&amp;lt;/b&amp;gt; Data are restricted until the GEOTRACES Intermediate Data   Product is released, currently expected in Spring 2014.   Contact PI for access prior to release.&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;Samples were collected using the ODU GEOTRACES Carousel (GT-C), and were filtered through 0.2 um Acropak filters in the GEOTRACES clean van and immediately refrigerated. Samples were kept in acid-washed 60 mL LDPE bottles, and either stored for a short time (&amp;amp;lt;7 days) at 4&amp;amp;deg;C and double-bagged prior to analysis, or for a longer time (up to 40 days) at 4&amp;amp;deg;C and in a heat-sealed bag with gas absorbing satchels. Both labile and total dissolved cobalt were analyzed from this sample bottle, and the sample identifier is the allocated GEOTRACES number.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The carousel was used to collect samples from surface to near bottom waters, and an additional sample was collected from a surface towfish at each station. Pre-conditioned, teflon-coated Go-Flo sampling bottles (General Oceanics, Miami, FL) of 12 L capacity were deployed on a polyurethane powder-coated aluminum rosette with titanium pilings and pressure housings (Sea-Bird Electronics, Inc., Bellevue, WA) attached to a Kevlar, non-metallic conducting cable. For more information regarding carousel deployment, please refer to the &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://www.geotraces.org/science/intercalibration/222-sampling-and-sample-handling-protocols-for-geotraces-cruises&amp;quot;&amp;gt;GEOTRACES Cookbook&amp;lt;/a&amp;gt;, located on the &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://www.geotraces.org/&amp;quot;&amp;gt;GEOTRACES Program website&amp;lt;/a&amp;gt;. Following the retrieval of the carousel, Go-Flo bottles were moved to the GEOTRACES Program class-100 trace metal clean van, and pressurized with HEPA filtered air for sampling in accordance with published methods (Cutter and Bruland 2012). Surface towfish samples were collected by suspending the towfish off the starboard side with a boom, and sampled water at approximately 2 m depth using a Teflon diaphragm pump following the GEOTRACES Program Cookbook sampling recommendations, and in accordance with previous collection protocols (Bruland et al. 2004).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample storage bottles were soaked overnight in the acidic detergent, Citranox, rinsed thoroughly with Milli-Q water (Millipore), filled with 10% HCl to soak for 10 days, rinsed thoroughly with Milli-Q water adjusted to pH 2, and double-bagged, empty.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of total dissolved and labile cobalt during the KN199-04 cruise were determined ship-board using a previously described cathodic stripping voltammetry (CSV) method (Saito and Moffett 2001, Saito et al. 2004).&amp;amp;nbsp; Measurements were made using the Eco-Chemie &amp;amp;micro;AutolabIII systems connected to Metrohm 663 VA Stands equipped with hanging mercury drop electrodes and Teflon sampling cups within 7 days of sampling. Standard additions were carried out with Metrohm 765 Dosimats using a programmed dosing procedure (Noble and Saito et al. 2008). &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Concentrations of total dissolved and labile cobalt from the KN204-01 cruise were measured on land between 1 and 6 weeks after the sampling date, using the same protocol as that of the KN199-04 cruise. &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;For total dissolved cobalt analyses, samples were UV-irradiated for 1 h prior to analysis using a Metrohm 705 UV digester to degrade the organic ligands that bind cobalt and allow binding by the added electroactive cobalt ligand, dimethylglyoxime. Samples were analyzed in 8.5 mL aliquots with the addition of 30 &amp;amp;micro;L recrystalized dimethylglyoxime (DMG, 0.1 mol L-1 in methanol), 1.5 mL purified sodium nitrite (1.5 mol L-1 in Milli-Q water), and 50 &amp;amp;micro;L purified N-(2-hydroxyethyl)piperazine-N-(3-propanesulfonic acid) (EPPS) buffer (0.5 mol L-1 in Milli-Q water).&amp;amp;nbsp; Reagent purification protocols were identical to those previously published (Saito and Moffett 2001). Cobalt concentrations were determined by the standard additions technique, with initial concentrations measured in triplicate followed by four 25 pmol L-1 cobalt additions.&amp;amp;nbsp; &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The analytical blank was determined by analyzing seawater that had been UV-irradiated for 1 h, equilibrated overnight with prepared Chelex 100 resin beads (Bio-Rad), and UV-irradiated a second time to degrade any leached synthetic ligands. Blanks for each reagents batch (nitrite, DMG, EPPS) were subtracted from the initial sample concentration. Blank analyses for each reagent batch were made at the beginning and end of use to confirm that the blank remained constant during analyses. The averaged blank for all reagent batches for the entire dataset was 4pM +/- 1.2 with a range of 1.7 - 6.3pM (n = 38 for individual blank analyses). For a given reagent batch, the standard deviation was smaller, and we report a detection limit (3 times the standard deviation of the blank) of 1.8pM, representing the average of the detection limits estimates for reagent batches with at least 3 blank analyses (n = 6).&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;br /&amp;gt;For labile cobalt analyses, 8.5 mL of sample were pipetted into acid washed Teflon vials that were preconditioned with a small aliquot of sample water. 30 uL of DMG were added to each vial and allowed to equilibrate overnight in the dark prior to analysis (Saito et al. 2004). Analyses were then performed as described for total concentrations with the addition of the remaining two reagents and use of the standard addition technique. Previously, we determined that natural cobalt ligands in seawater have a conditional stability constant of &amp;amp;gt;10^16.8 (Saito et al. 2005). This suggests that the cobalt is very strongly bound to ligands. Thus, we define labile cobalt as the fraction of total dissolved cobalt that is either bound to weak organic and inorganic ligands in seawater or present as free Co(II), and is then exchangeable with the complexing agent (DMG) used for analysis (Saito et al. 2004, Saito et al. 2005). The difference between the total dissolved cobalt and the labile cobalt can then be used as an estimation of the strong cobalt ligand concentration. &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Two full electrochemical systems were utilized for analyses. One electrode was dedicated to total analyses and the other to labile analyses. GEOTRACES standard seawater and internal standard lab seawater were analyzed periodically to ensure that the two electrodes were intercalibrated and functioning properly. GEOTRACES standard seawater was UV irradiated and neutralized using Optima ammonium hydroxide to bring the pH up to 7.5. Standard seawater internal to our lab was UV irradiated as well, but was not previously acidified so received no further treatment prior to analysis. These results demonstrate that the methodologies employed to produce this dataset detect concentrations within the standard deviation of current consensus values for UV irradiated samples, which can be found on the &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://www.geotraces.org&amp;quot;&amp;gt;International GEOTRACES Program website&amp;lt;/a&amp;gt;. On occasion, analyses were repeated due to obvious electrode malfunction or to confirm oceanographic consistency of measured values. If the repeated measurement was similar to the initial, the initial value is reported. If the repeated analysis was more oceanographically consistent with adjacent values in the water column, that analysis was used instead.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Our laboratory has participated in the GEOTRACES intercalibration effort using this electrochemical Co method. We report our laboratory values for the GEOTRACES and SAFe standard analyses using this electrochemical method, including those conducted during analysis of the US North Atlantic GEOTRACES Section samples to be: SAFe S1 = 5.4 +/- 2.6 (n=9), SAFe D2 = 48.3 +/- 5.5 (n=7), GEOTRACES GS = 31.4 +/- 4.1 (n=24), GEOTRACES GD = 66.9 +/- 6.2 (n=30). These results are in good agreement with those from the GEOTRACES intercalibration effort for Co using different methods all using UV-oxidation to degrade strong cobalt ligands.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Related files and references:&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Bruland&amp;lt;/b&amp;gt;, K. W., E. L. Rue, G. J. Smith, and G. R. DiTullio. 2005. Iron, macronutrients and diatom blooms in the Peru Upwelling regime: Brown and blue waters of Peru. Marine Chemsitry. 93 (81-103). doi: &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://dx.doi.org/10.1016/j.marchem.2004.06.011&amp;quot;&amp;gt;10.1016/j.marchem.2004.06.011&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Cutter&amp;lt;/b&amp;gt;, G. A. and K. W. Bruland, 2012. Rapid and noncontaminating sampling system for trace elements in global ocean surveys. Limnology and Oceanography: Methods. 10 (425-436). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2012.10.425&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2012.10.425&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Noble&amp;lt;/b&amp;gt;, A. E., M. A. Saito, K. Maiti, and C. Benitez-Nelson. 2008. Cobalt, manganese, and iron near the Hawaiian Island: A potential concentrating mechanism for cobalt within a cyclonic eddy and implications for the hybrid-type trace metals. Deep Sea Research II 55 (1473-1490). doi: &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://dx.doi.org/10.1016/j.dsr2.2008.02.010&amp;quot;&amp;gt;10.1016/j.dsr2.2008.02.010&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Saito&amp;lt;/b&amp;gt;, M. A., and J. W. Moffett. 2001. Complexation of cobalt by natural organic ligands in the Sargasso Sea as determined by a new high-sensitivity electrochemical cobalt speciation method suitable for open ocean work. Marine Chemistry. 75 (49-68). doi: &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://dx.doi.org/10.1016/S0304-4203(01)00025-1&amp;quot;&amp;gt;10.1016/S0304-4203(01)00025-1&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Saito&amp;lt;/b&amp;gt;, M. A.,&amp;amp;nbsp; J. W. Moffett, and G. DiTullio. 2004. Cobalt and Nickel in the Peru Upwelling Region: a Major Flux of Cobalt Utilized as a Micronutrient. Global Biogeochemical Cycles. 18 GB4030, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1029/2003GB002216&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1029/2003GB002216&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;</gco:CharacterString>
+        <gco:CharacterString>Total dissolved Cobalt and labile Cobalt concentrations from KN199-04 and KN204-01. Dataset Description: &amp;lt;p&amp;gt;Concentrations of total dissolved cobalt and labile dissolved cobalt (0.2 um filtered).&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;p&amp;gt;Samples were collected using the ODU GEOTRACES Carousel (GT-C), and were filtered through 0.2 um Acropak filters in the GEOTRACES clean van and immediately refrigerated. Samples were kept in acid-washed 60 mL LDPE bottles, and either stored for a short time (&amp;amp;lt;7 days) at 4°C and double-bagged prior to analysis, or for a longer time (up to 40 days) at 4°C and in a heat-sealed bag with gas absorbing satchels. Both labile and total dissolved cobalt were analyzed from this sample bottle, and the sample identifier is the allocated GEOTRACES number.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The carousel was used to collect samples from surface to near bottom waters, and an additional sample was collected from a surface towfish at each station. Pre-conditioned, teflon-coated Go-Flo sampling bottles (General Oceanics, Miami, FL) of 12 L capacity were deployed on a polyurethane powder-coated aluminum rosette with titanium pilings and pressure housings (Sea-Bird Electronics, Inc., Bellevue, WA) attached to a Kevlar, non-metallic conducting cable. For more information regarding carousel deployment, please refer to the &amp;lt;a href=&amp;quot;http://www.geotraces.org/science/intercalibration/222-sampling-and-sample-handling-protocols-for-geotraces-cruises&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;GEOTRACES Cookbook&amp;lt;/a&amp;gt;, located on the &amp;lt;a href=&amp;quot;http://www.geotraces.org/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;GEOTRACES Program website&amp;lt;/a&amp;gt;. Following the retrieval of the carousel, Go-Flo bottles were moved to the GEOTRACES Program class-100 trace metal clean van, and pressurized with HEPA filtered air for sampling in accordance with published methods (Cutter and Bruland 2012). Surface towfish samples were collected by suspending the towfish off the starboard side with a boom, and sampled water at approximately 2 m depth using a Teflon diaphragm pump following the GEOTRACES Program Cookbook sampling recommendations, and in accordance with previous collection protocols (Bruland et al. 2004).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample storage bottles were soaked overnight in the acidic detergent, Citranox, rinsed thoroughly with Milli-Q water (Millipore), filled with 10% HCl to soak for 10 days, rinsed thoroughly with Milli-Q water adjusted to pH 2, and double-bagged, empty.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of total dissolved and labile cobalt during the KN199-04 cruise were determined ship-board using a previously described cathodic stripping voltammetry (CSV) method (Saito and Moffett 2001, Saito et al. 2004).&amp;amp;nbsp; Measurements were made using the Eco-Chemie µAutolabIII systems connected to Metrohm 663 VA Stands equipped with hanging mercury drop electrodes and Teflon sampling cups within 7 days of sampling. Standard additions were carried out with Metrohm 765 Dosimats using a programmed dosing procedure (Noble and Saito et al. 2008).&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Concentrations of total dissolved and labile cobalt from the KN204-01 cruise were measured on land between 1 and 6 weeks after the sampling date, using the same protocol as that of the KN199-04 cruise.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;For total dissolved cobalt analyses, samples were UV-irradiated for 1 h prior to analysis using a Metrohm 705 UV digester to degrade the organic ligands that bind cobalt and allow binding by the added electroactive cobalt ligand, dimethylglyoxime. Samples were analyzed in 8.5 mL aliquots with the addition of 30 µL recrystalized dimethylglyoxime (DMG, 0.1 mol L-1 in methanol), 1.5 mL purified sodium nitrite (1.5 mol L-1 in Milli-Q water), and 50 µL purified N-(2-hydroxyethyl)piperazine-N-(3-propanesulfonic acid) (EPPS) buffer (0.5 mol L-1 in Milli-Q water).&amp;amp;nbsp; Reagent purification protocols were identical to those previously published (Saito and Moffett 2001). Cobalt concentrations were determined by the standard additions technique, with initial concentrations measured in triplicate followed by four 25 pmol L-1 cobalt additions.&amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The analytical blank was determined by analyzing seawater that had been UV-irradiated for 1 h, equilibrated overnight with prepared Chelex 100 resin beads (Bio-Rad), and UV-irradiated a second time to degrade any leached synthetic ligands. Blanks for each reagents batch (nitrite, DMG, EPPS) were subtracted from the initial sample concentration. Blank analyses for each reagent batch were made at the beginning and end of use to confirm that the blank remained constant during analyses. The averaged blank for all reagent batches for the entire dataset was 4pM +/- 1.2 with a range of 1.7 - 6.3pM (n = 38 for individual blank analyses). For a given reagent batch, the standard deviation was smaller, and we report a detection limit (3 times the standard deviation of the blank) of 1.8pM, representing the average of the detection limits estimates for reagent batches with at least 3 blank analyses (n = 6).&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;br /&amp;gt;For labile cobalt analyses, 8.5 mL of sample were pipetted into acid washed Teflon vials that were preconditioned with a small aliquot of sample water. 30 uL of DMG were added to each vial and allowed to equilibrate overnight in the dark prior to analysis (Saito et al. 2004). Analyses were then performed as described for total concentrations with the addition of the remaining two reagents and use of the standard addition technique. Previously, we determined that natural cobalt ligands in seawater have a conditional stability constant of &amp;amp;gt;10^16.8 (Saito et al. 2005). This suggests that the cobalt is very strongly bound to ligands. Thus, we define labile cobalt as the fraction of total dissolved cobalt that is either bound to weak organic and inorganic ligands in seawater or present as free Co(II), and is then exchangeable with the complexing agent (DMG) used for analysis (Saito et al. 2004, Saito et al. 2005). The difference between the total dissolved cobalt and the labile cobalt can then be used as an estimation of the strong cobalt ligand concentration.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Two full electrochemical systems were utilized for analyses. One electrode was dedicated to total analyses and the other to labile analyses. GEOTRACES standard seawater and internal standard lab seawater were analyzed periodically to ensure that the two electrodes were intercalibrated and functioning properly. GEOTRACES standard seawater was UV irradiated and neutralized using Optima ammonium hydroxide to bring the pH up to 7.5. Standard seawater internal to our lab was UV irradiated as well, but was not previously acidified so received no further treatment prior to analysis. These results demonstrate that the methodologies employed to produce this dataset detect concentrations within the standard deviation of current consensus values for UV irradiated samples, which can be found on the &amp;lt;a href=&amp;quot;http://www.geotraces.org&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;International GEOTRACES Program website&amp;lt;/a&amp;gt;. On occasion, analyses were repeated due to obvious electrode malfunction or to confirm oceanographic consistency of measured values. If the repeated measurement was similar to the initial, the initial value is reported. If the repeated analysis was more oceanographically consistent with adjacent values in the water column, that analysis was used instead.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Our laboratory has participated in the GEOTRACES intercalibration effort using this electrochemical Co method. We report our laboratory values for the GEOTRACES and SAFe standard analyses using this electrochemical method, including those conducted during analysis of the US North Atlantic GEOTRACES Section samples to be: SAFe S1 = 5.4 +/- 2.6 (n=9), SAFe D2 = 48.3 +/- 5.5 (n=7), GEOTRACES GS = 31.4 +/- 4.1 (n=24), GEOTRACES GD = 66.9 +/- 6.2 (n=30). These results are in good agreement with those from the GEOTRACES intercalibration effort for Co using different methods all using UV-oxidation to degrade strong cobalt ligands.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Related files and references:&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Bruland&amp;lt;/strong&amp;gt;, K. W., E. L. Rue, G. J. Smith, and G. R. DiTullio. 2005. Iron, macronutrients and diatom blooms in the Peru Upwelling regime: Brown and blue waters of Peru. Marine Chemsitry. 93 (81-103). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.marchem.2004.06.011&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.marchem.2004.06.011&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Cutter&amp;lt;/strong&amp;gt;, G. A. and K. W. Bruland, 2012. Rapid and noncontaminating sampling system for trace elements in global ocean surveys. Limnology and Oceanography: Methods. 10 (425-436). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2012.10.425&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2012.10.425&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Noble&amp;lt;/strong&amp;gt;, A. E., M. A. Saito, K. Maiti, and C. Benitez-Nelson. 2008. Cobalt, manganese, and iron near the Hawaiian Island: A potential concentrating mechanism for cobalt within a cyclonic eddy and implications for the hybrid-type trace metals. Deep Sea Research II 55 (1473-1490). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.dsr2.2008.02.010&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.dsr2.2008.02.010&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Saito&amp;lt;/strong&amp;gt;, M. A., and J. W. Moffett. 2001. Complexation of cobalt by natural organic ligands in the Sargasso Sea as determined by a new high-sensitivity electrochemical cobalt speciation method suitable for open ocean work. Marine Chemistry. 75 (49-68). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/S0304-4203(01)00025-1&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/S0304-4203(01)00025-1&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Saito&amp;lt;/strong&amp;gt;, M. A.,&amp;amp;nbsp; J. W. Moffett, and G. DiTullio. 2004. Cobalt and Nickel in the Peru Upwelling Region: a Major Flux of Cobalt Utilized as a Micronutrient. Global Biogeochemical Cycles. 18 GB4030, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1029/2003GB002216&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1029/2003GB002216&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55159.rdf" xlink:title="OCE-0928414" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0928414 Award URL: http://nsf.gov/awardsearch/showAward?AWD_ID=0928414&amp;amp;HistoricalAwards=false</gmx:Anchor>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55159.rdf" xlink:title="OCE-0928414" xlink:actuate="onRequest">Funding provided by NSF Division of Ocean Sciences (NSF OCE) Award Number: OCE-0928414 Award URL: http://nsf.gov/awardsearch/showAward?AWD_ID=0928414&amp;amp;HistoricalAwards=false</gmx:Anchor>
       </gmd:credit>
         <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -191,10 +290,18 @@
             <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
           </gmd:maintenanceAndUpdateFrequency>
           <gmd:maintenanceNote>
-            <gco:CharacterString>Dataset Version: 31 Dec 2012</gco:CharacterString>
+            <gco:CharacterString>Dataset Version: 26 April 2013</gco:CharacterString>
           </gmd:maintenanceNote>
           </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+             <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown"/>
+          </gmd:MD_Format>
+      </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
                 <gmd:keyword>
@@ -333,7 +440,7 @@
           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/960.rdf" xlink:title="Parameter" xlink:actuate="onRequest">sample identification</gmx:Anchor>
         </gmd:keyword>
                 <gmd:keyword>
-          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1107.rdf" xlink:title="Parameter" xlink:actuate="onRequest">bottle</gmx:Anchor>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1107.rdf" xlink:title="Parameter" xlink:actuate="onRequest">bottle number</gmx:Anchor>
         </gmd:keyword>
                 <gmd:keyword>
           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:title="Parameter" xlink:actuate="onRequest">quality flag</gmx:Anchor>
@@ -459,7 +566,7 @@
             <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
+              </gmd:resourceConstraints>
       <gmd:aggregationInfo>
           <gmd:MD_AggregateInformation>
             <gmd:aggregateDataSetName>
@@ -579,7 +686,21 @@
           </gmd:temporalElement>
           </gmd:EX_Extent>
       </gmd:extent>
-    </gmd:MD_DataIdentification>
+      <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Subtropical western and eastern North Atlantic Ocean</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent></gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:contentInfo>
     <gmd:MD_FeatureCatalogueDescription>
@@ -589,7 +710,7 @@
       <gmd:featureCatalogueCitation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>BCO-DMO catalogue of parameters from GT10-11 - Co Total Dissolved and Labile from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gco:CharacterString>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Total dissolved Cobalt and labile Cobalt concentrations from R/V Knorr cruises KN199-04 and KN204-01 in the Subtropical northern Atlantic Ocean from 2010-2011 (U.S. GEOTRACES NAT project)</gco:CharacterString>
           </gmd:title>
           <gmd:date gco:nilReason="unknown"/>
           <gmd:citedResponsibleParty>
@@ -647,7 +768,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -1095,21 +1216,21 @@
       </gmd:dimension>
       <gmd:dimension>
         <gmd:MD_Band>
-          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/32368.rdf" xlink:title="bottle" xlink:actuate="onRequest">
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/32368.rdf" xlink:title="bottle number" xlink:actuate="onRequest">
             <gco:MemberName>
               <gco:aName>
                 <gco:CharacterString>bottle_GEOTRC</gco:CharacterString>
               </gco:aName>
               <gco:attributeType>                <gco:TypeName>
                   <gco:aName>
-                    <gco:CharacterString>bottle</gco:CharacterString>
+                    <gco:CharacterString>bottle number</gco:CharacterString>
                   </gco:aName>
                 </gco:TypeName>
               </gco:attributeType>
             </gco:MemberName>
           </gmd:sequenceIdentifier>
           <gmd:descriptor>
-            <gco:CharacterString>PI-supplied Description: Alphanumeric characters identifying bottle type (e.g., NIS representing Niskin and GF representing GOFLO) and position on a CTD rosette. PI-supplied values were identical to those in the intermediate US GEOTRACES master file.  Originally submitted as 'BTLNBR', this parameter name has been changed to conform to BCO-DMO's GEOTRACES naming conventions.; General Description: rosette bottle number</gco:CharacterString>
+            <gco:CharacterString>PI-supplied Description: Alphanumeric characters identifying bottle type (e.g., NIS representing Niskin and GF representing GOFLO) and position on a CTD rosette. PI-supplied values were identical to those in the intermediate US GEOTRACES master file.  Originally submitted as 'BTLNBR', this parameter name has been changed to conform to BCO-DMO's GEOTRACES naming conventions.; General Description: rosette Niskin bottle number</gco:CharacterString>
           </gmd:descriptor>
           <gmd:units>
             <gml:UnitDefinition gml:id="_parameterUnits32368">
@@ -1596,7 +1717,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
@@ -1614,6 +1735,13 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
+        <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                 <gmd:MD_MediumNameCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
         </gmd:MD_DigitalTransferOptions>
       </gmd:transferOptions>
     </gmd:MD_Distribution>
@@ -1627,20 +1755,44 @@
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:lineage>
+            <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:processStep xlink:title="Acquisition Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
-                <gco:CharacterString>&amp;lt;p&amp;gt;Samples were collected using the ODU GEOTRACES Carousel (GT-C), and were filtered through 0.2 um Acropak filters in the GEOTRACES clean van and immediately refrigerated. Samples were kept in acid-washed 60 mL LDPE bottles, and either stored for a short time (&amp;amp;lt;7 days) at 4&amp;amp;deg;C and double-bagged prior to analysis, or for a longer time (up to 40 days) at 4&amp;amp;deg;C and in a heat-sealed bag with gas absorbing satchels. Both labile and total dissolved cobalt were analyzed from this sample bottle, and the sample identifier is the allocated GEOTRACES number.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The carousel was used to collect samples from surface to near bottom waters, and an additional sample was collected from a surface towfish at each station. Pre-conditioned, teflon-coated Go-Flo sampling bottles (General Oceanics, Miami, FL) of 12 L capacity were deployed on a polyurethane powder-coated aluminum rosette with titanium pilings and pressure housings (Sea-Bird Electronics, Inc., Bellevue, WA) attached to a Kevlar, non-metallic conducting cable. For more information regarding carousel deployment, please refer to the &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://www.geotraces.org/science/intercalibration/222-sampling-and-sample-handling-protocols-for-geotraces-cruises&amp;quot;&amp;gt;GEOTRACES Cookbook&amp;lt;/a&amp;gt;, located on the &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://www.geotraces.org/&amp;quot;&amp;gt;GEOTRACES Program website&amp;lt;/a&amp;gt;. Following the retrieval of the carousel, Go-Flo bottles were moved to the GEOTRACES Program class-100 trace metal clean van, and pressurized with HEPA filtered air for sampling in accordance with published methods (Cutter and Bruland 2012). Surface towfish samples were collected by suspending the towfish off the starboard side with a boom, and sampled water at approximately 2 m depth using a Teflon diaphragm pump following the GEOTRACES Program Cookbook sampling recommendations, and in accordance with previous collection protocols (Bruland et al. 2004).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample storage bottles were soaked overnight in the acidic detergent, Citranox, rinsed thoroughly with Milli-Q water (Millipore), filled with 10% HCl to soak for 10 days, rinsed thoroughly with Milli-Q water adjusted to pH 2, and double-bagged, empty.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of total dissolved and labile cobalt during the KN199-04 cruise were determined ship-board using a previously described cathodic stripping voltammetry (CSV) method (Saito and Moffett 2001, Saito et al. 2004).&amp;amp;nbsp; Measurements were made using the Eco-Chemie &amp;amp;micro;AutolabIII systems connected to Metrohm 663 VA Stands equipped with hanging mercury drop electrodes and Teflon sampling cups within 7 days of sampling. Standard additions were carried out with Metrohm 765 Dosimats using a programmed dosing procedure (Noble and Saito et al. 2008). &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Concentrations of total dissolved and labile cobalt from the KN204-01 cruise were measured on land between 1 and 6 weeks after the sampling date, using the same protocol as that of the KN199-04 cruise. &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;For total dissolved cobalt analyses, samples were UV-irradiated for 1 h prior to analysis using a Metrohm 705 UV digester to degrade the organic ligands that bind cobalt and allow binding by the added electroactive cobalt ligand, dimethylglyoxime. Samples were analyzed in 8.5 mL aliquots with the addition of 30 &amp;amp;micro;L recrystalized dimethylglyoxime (DMG, 0.1 mol L-1 in methanol), 1.5 mL purified sodium nitrite (1.5 mol L-1 in Milli-Q water), and 50 &amp;amp;micro;L purified N-(2-hydroxyethyl)piperazine-N-(3-propanesulfonic acid) (EPPS) buffer (0.5 mol L-1 in Milli-Q water).&amp;amp;nbsp; Reagent purification protocols were identical to those previously published (Saito and Moffett 2001). Cobalt concentrations were determined by the standard additions technique, with initial concentrations measured in triplicate followed by four 25 pmol L-1 cobalt additions.&amp;amp;nbsp; &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The analytical blank was determined by analyzing seawater that had been UV-irradiated for 1 h, equilibrated overnight with prepared Chelex 100 resin beads (Bio-Rad), and UV-irradiated a second time to degrade any leached synthetic ligands. Blanks for each reagents batch (nitrite, DMG, EPPS) were subtracted from the initial sample concentration. Blank analyses for each reagent batch were made at the beginning and end of use to confirm that the blank remained constant during analyses. The averaged blank for all reagent batches for the entire dataset was 4pM +/- 1.2 with a range of 1.7 - 6.3pM (n = 38 for individual blank analyses). For a given reagent batch, the standard deviation was smaller, and we report a detection limit (3 times the standard deviation of the blank) of 1.8pM, representing the average of the detection limits estimates for reagent batches with at least 3 blank analyses (n = 6).&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;br /&amp;gt;For labile cobalt analyses, 8.5 mL of sample were pipetted into acid washed Teflon vials that were preconditioned with a small aliquot of sample water. 30 uL of DMG were added to each vial and allowed to equilibrate overnight in the dark prior to analysis (Saito et al. 2004). Analyses were then performed as described for total concentrations with the addition of the remaining two reagents and use of the standard addition technique. Previously, we determined that natural cobalt ligands in seawater have a conditional stability constant of &amp;amp;gt;10^16.8 (Saito et al. 2005). This suggests that the cobalt is very strongly bound to ligands. Thus, we define labile cobalt as the fraction of total dissolved cobalt that is either bound to weak organic and inorganic ligands in seawater or present as free Co(II), and is then exchangeable with the complexing agent (DMG) used for analysis (Saito et al. 2004, Saito et al. 2005). The difference between the total dissolved cobalt and the labile cobalt can then be used as an estimation of the strong cobalt ligand concentration. &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Two full electrochemical systems were utilized for analyses. One electrode was dedicated to total analyses and the other to labile analyses. GEOTRACES standard seawater and internal standard lab seawater were analyzed periodically to ensure that the two electrodes were intercalibrated and functioning properly. GEOTRACES standard seawater was UV irradiated and neutralized using Optima ammonium hydroxide to bring the pH up to 7.5. Standard seawater internal to our lab was UV irradiated as well, but was not previously acidified so received no further treatment prior to analysis. These results demonstrate that the methodologies employed to produce this dataset detect concentrations within the standard deviation of current consensus values for UV irradiated samples, which can be found on the &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://www.geotraces.org&amp;quot;&amp;gt;International GEOTRACES Program website&amp;lt;/a&amp;gt;. On occasion, analyses were repeated due to obvious electrode malfunction or to confirm oceanographic consistency of measured values. If the repeated measurement was similar to the initial, the initial value is reported. If the repeated analysis was more oceanographically consistent with adjacent values in the water column, that analysis was used instead.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Our laboratory has participated in the GEOTRACES intercalibration effort using this electrochemical Co method. We report our laboratory values for the GEOTRACES and SAFe standard analyses using this electrochemical method, including those conducted during analysis of the US North Atlantic GEOTRACES Section samples to be: SAFe S1 = 5.4 +/- 2.6 (n=9), SAFe D2 = 48.3 +/- 5.5 (n=7), GEOTRACES GS = 31.4 +/- 4.1 (n=24), GEOTRACES GD = 66.9 +/- 6.2 (n=30). These results are in good agreement with those from the GEOTRACES intercalibration effort for Co using different methods all using UV-oxidation to degrade strong cobalt ligands.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Related files and references:&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Bruland&amp;lt;/b&amp;gt;, K. W., E. L. Rue, G. J. Smith, and G. R. DiTullio. 2005. Iron, macronutrients and diatom blooms in the Peru Upwelling regime: Brown and blue waters of Peru. Marine Chemsitry. 93 (81-103). doi: &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://dx.doi.org/10.1016/j.marchem.2004.06.011&amp;quot;&amp;gt;10.1016/j.marchem.2004.06.011&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Cutter&amp;lt;/b&amp;gt;, G. A. and K. W. Bruland, 2012. Rapid and noncontaminating sampling system for trace elements in global ocean surveys. Limnology and Oceanography: Methods. 10 (425-436). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2012.10.425&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2012.10.425&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Noble&amp;lt;/b&amp;gt;, A. E., M. A. Saito, K. Maiti, and C. Benitez-Nelson. 2008. Cobalt, manganese, and iron near the Hawaiian Island: A potential concentrating mechanism for cobalt within a cyclonic eddy and implications for the hybrid-type trace metals. Deep Sea Research II 55 (1473-1490). doi: &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://dx.doi.org/10.1016/j.dsr2.2008.02.010&amp;quot;&amp;gt;10.1016/j.dsr2.2008.02.010&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Saito&amp;lt;/b&amp;gt;, M. A., and J. W. Moffett. 2001. Complexation of cobalt by natural organic ligands in the Sargasso Sea as determined by a new high-sensitivity electrochemical cobalt speciation method suitable for open ocean work. Marine Chemistry. 75 (49-68). doi: &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://dx.doi.org/10.1016/S0304-4203(01)00025-1&amp;quot;&amp;gt;10.1016/S0304-4203(01)00025-1&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Saito&amp;lt;/b&amp;gt;, M. A.,&amp;amp;nbsp; J. W. Moffett, and G. DiTullio. 2004. Cobalt and Nickel in the Peru Upwelling Region: a Major Flux of Cobalt Utilized as a Micronutrient. Global Biogeochemical Cycles. 18 GB4030, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1029/2003GB002216&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1029/2003GB002216&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;</gco:CharacterString>
+                <gco:CharacterString>&amp;lt;p&amp;gt;Samples were collected using the ODU GEOTRACES Carousel (GT-C), and were filtered through 0.2 um Acropak filters in the GEOTRACES clean van and immediately refrigerated. Samples were kept in acid-washed 60 mL LDPE bottles, and either stored for a short time (&amp;amp;lt;7 days) at 4°C and double-bagged prior to analysis, or for a longer time (up to 40 days) at 4°C and in a heat-sealed bag with gas absorbing satchels. Both labile and total dissolved cobalt were analyzed from this sample bottle, and the sample identifier is the allocated GEOTRACES number.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The carousel was used to collect samples from surface to near bottom waters, and an additional sample was collected from a surface towfish at each station. Pre-conditioned, teflon-coated Go-Flo sampling bottles (General Oceanics, Miami, FL) of 12 L capacity were deployed on a polyurethane powder-coated aluminum rosette with titanium pilings and pressure housings (Sea-Bird Electronics, Inc., Bellevue, WA) attached to a Kevlar, non-metallic conducting cable. For more information regarding carousel deployment, please refer to the &amp;lt;a href=&amp;quot;http://www.geotraces.org/science/intercalibration/222-sampling-and-sample-handling-protocols-for-geotraces-cruises&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;GEOTRACES Cookbook&amp;lt;/a&amp;gt;, located on the &amp;lt;a href=&amp;quot;http://www.geotraces.org/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;GEOTRACES Program website&amp;lt;/a&amp;gt;. Following the retrieval of the carousel, Go-Flo bottles were moved to the GEOTRACES Program class-100 trace metal clean van, and pressurized with HEPA filtered air for sampling in accordance with published methods (Cutter and Bruland 2012). Surface towfish samples were collected by suspending the towfish off the starboard side with a boom, and sampled water at approximately 2 m depth using a Teflon diaphragm pump following the GEOTRACES Program Cookbook sampling recommendations, and in accordance with previous collection protocols (Bruland et al. 2004).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample storage bottles were soaked overnight in the acidic detergent, Citranox, rinsed thoroughly with Milli-Q water (Millipore), filled with 10% HCl to soak for 10 days, rinsed thoroughly with Milli-Q water adjusted to pH 2, and double-bagged, empty.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Concentrations of total dissolved and labile cobalt during the KN199-04 cruise were determined ship-board using a previously described cathodic stripping voltammetry (CSV) method (Saito and Moffett 2001, Saito et al. 2004).&amp;amp;nbsp; Measurements were made using the Eco-Chemie µAutolabIII systems connected to Metrohm 663 VA Stands equipped with hanging mercury drop electrodes and Teflon sampling cups within 7 days of sampling. Standard additions were carried out with Metrohm 765 Dosimats using a programmed dosing procedure (Noble and Saito et al. 2008).&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Concentrations of total dissolved and labile cobalt from the KN204-01 cruise were measured on land between 1 and 6 weeks after the sampling date, using the same protocol as that of the KN199-04 cruise.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;For total dissolved cobalt analyses, samples were UV-irradiated for 1 h prior to analysis using a Metrohm 705 UV digester to degrade the organic ligands that bind cobalt and allow binding by the added electroactive cobalt ligand, dimethylglyoxime. Samples were analyzed in 8.5 mL aliquots with the addition of 30 µL recrystalized dimethylglyoxime (DMG, 0.1 mol L-1 in methanol), 1.5 mL purified sodium nitrite (1.5 mol L-1 in Milli-Q water), and 50 µL purified N-(2-hydroxyethyl)piperazine-N-(3-propanesulfonic acid) (EPPS) buffer (0.5 mol L-1 in Milli-Q water).&amp;amp;nbsp; Reagent purification protocols were identical to those previously published (Saito and Moffett 2001). Cobalt concentrations were determined by the standard additions technique, with initial concentrations measured in triplicate followed by four 25 pmol L-1 cobalt additions.&amp;amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The analytical blank was determined by analyzing seawater that had been UV-irradiated for 1 h, equilibrated overnight with prepared Chelex 100 resin beads (Bio-Rad), and UV-irradiated a second time to degrade any leached synthetic ligands. Blanks for each reagents batch (nitrite, DMG, EPPS) were subtracted from the initial sample concentration. Blank analyses for each reagent batch were made at the beginning and end of use to confirm that the blank remained constant during analyses. The averaged blank for all reagent batches for the entire dataset was 4pM +/- 1.2 with a range of 1.7 - 6.3pM (n = 38 for individual blank analyses). For a given reagent batch, the standard deviation was smaller, and we report a detection limit (3 times the standard deviation of the blank) of 1.8pM, representing the average of the detection limits estimates for reagent batches with at least 3 blank analyses (n = 6).&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;br /&amp;gt;For labile cobalt analyses, 8.5 mL of sample were pipetted into acid washed Teflon vials that were preconditioned with a small aliquot of sample water. 30 uL of DMG were added to each vial and allowed to equilibrate overnight in the dark prior to analysis (Saito et al. 2004). Analyses were then performed as described for total concentrations with the addition of the remaining two reagents and use of the standard addition technique. Previously, we determined that natural cobalt ligands in seawater have a conditional stability constant of &amp;amp;gt;10^16.8 (Saito et al. 2005). This suggests that the cobalt is very strongly bound to ligands. Thus, we define labile cobalt as the fraction of total dissolved cobalt that is either bound to weak organic and inorganic ligands in seawater or present as free Co(II), and is then exchangeable with the complexing agent (DMG) used for analysis (Saito et al. 2004, Saito et al. 2005). The difference between the total dissolved cobalt and the labile cobalt can then be used as an estimation of the strong cobalt ligand concentration.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Two full electrochemical systems were utilized for analyses. One electrode was dedicated to total analyses and the other to labile analyses. GEOTRACES standard seawater and internal standard lab seawater were analyzed periodically to ensure that the two electrodes were intercalibrated and functioning properly. GEOTRACES standard seawater was UV irradiated and neutralized using Optima ammonium hydroxide to bring the pH up to 7.5. Standard seawater internal to our lab was UV irradiated as well, but was not previously acidified so received no further treatment prior to analysis. These results demonstrate that the methodologies employed to produce this dataset detect concentrations within the standard deviation of current consensus values for UV irradiated samples, which can be found on the &amp;lt;a href=&amp;quot;http://www.geotraces.org&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;International GEOTRACES Program website&amp;lt;/a&amp;gt;. On occasion, analyses were repeated due to obvious electrode malfunction or to confirm oceanographic consistency of measured values. If the repeated measurement was similar to the initial, the initial value is reported. If the repeated analysis was more oceanographically consistent with adjacent values in the water column, that analysis was used instead.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Our laboratory has participated in the GEOTRACES intercalibration effort using this electrochemical Co method. We report our laboratory values for the GEOTRACES and SAFe standard analyses using this electrochemical method, including those conducted during analysis of the US North Atlantic GEOTRACES Section samples to be: SAFe S1 = 5.4 +/- 2.6 (n=9), SAFe D2 = 48.3 +/- 5.5 (n=7), GEOTRACES GS = 31.4 +/- 4.1 (n=24), GEOTRACES GD = 66.9 +/- 6.2 (n=30). These results are in good agreement with those from the GEOTRACES intercalibration effort for Co using different methods all using UV-oxidation to degrade strong cobalt ligands.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Related files and references:&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Bruland&amp;lt;/strong&amp;gt;, K. W., E. L. Rue, G. J. Smith, and G. R. DiTullio. 2005. Iron, macronutrients and diatom blooms in the Peru Upwelling regime: Brown and blue waters of Peru. Marine Chemsitry. 93 (81-103). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.marchem.2004.06.011&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.marchem.2004.06.011&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Cutter&amp;lt;/strong&amp;gt;, G. A. and K. W. Bruland, 2012. Rapid and noncontaminating sampling system for trace elements in global ocean surveys. Limnology and Oceanography: Methods. 10 (425-436). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.4319/lom.2012.10.425&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.4319/lom.2012.10.425&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Noble&amp;lt;/strong&amp;gt;, A. E., M. A. Saito, K. Maiti, and C. Benitez-Nelson. 2008. Cobalt, manganese, and iron near the Hawaiian Island: A potential concentrating mechanism for cobalt within a cyclonic eddy and implications for the hybrid-type trace metals. Deep Sea Research II 55 (1473-1490). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/j.dsr2.2008.02.010&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/j.dsr2.2008.02.010&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Saito&amp;lt;/strong&amp;gt;, M. A., and J. W. Moffett. 2001. Complexation of cobalt by natural organic ligands in the Sargasso Sea as determined by a new high-sensitivity electrochemical cobalt speciation method suitable for open ocean work. Marine Chemistry. 75 (49-68). doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1016/S0304-4203(01)00025-1&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1016/S0304-4203(01)00025-1&amp;lt;/a&amp;gt;.&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Saito&amp;lt;/strong&amp;gt;, M. A.,&amp;amp;nbsp; J. W. Moffett, and G. DiTullio. 2004. Cobalt and Nickel in the Peru Upwelling Region: a Major Flux of Cobalt Utilized as a Micronutrient. Global Biogeochemical Cycles. 18 GB4030, doi: &amp;lt;a href=&amp;quot;http://dx.doi.org/10.1029/2003GB002216&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;10.1029/2003GB002216&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
           <gmd:processStep xlink:title="Processing Description">
             <gmd:LI_ProcessStep>
               <gmd:description>
-                <gco:CharacterString>&amp;lt;p&amp;gt;For the labile cobalt analyses, the ligand concentration was often close to or in excess of the total concentration. In these situations, no measurable peak is present in the initial scan prior to standard addition. In these instances, the value is reported as '0' with a flag of 6, indicating that the labile concentration is so low that it is below our detection limit.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Data are flagged with the numbers described below (and found on the Ocean Data View website): &amp;lt;br /&amp;gt;0 = no quality control = No quality control procedures have been applied to the data value. This is the initial status for all data values entering the working archive.&amp;lt;br /&amp;gt;1 = good value = Good quality data value that is not part of any identified malfunction and has been verified as consistent with real phenomena during the quality control process.&amp;lt;br /&amp;gt;2 = probably good value = Data value that is probably consistent with real phenomena but this is unconfirmed or data value forming part of a malfunction that is considered too small to affect the overall quality of the data object of which it is a part.&amp;lt;br /&amp;gt;3 = probably bad value = Data value recognized as unusual during quality control that forms part of a feature that is probably inconsistent with real phenomena.&amp;lt;br /&amp;gt;4 = bad value = An obviously erroneous data value.&amp;lt;br /&amp;gt;5 = changed value = Data value adjusted during quality control. Best practice strongly recommends that the value before the change be preserved in the data or its accompanying metadata.&amp;lt;br /&amp;gt;6 = value below detection = The level of the measured phenomenon was too small to be quantified by the technique employed to measure it. The accompanying value is the detection limit for the technique or zero if that value is unknown.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;BCO-DMO made the following edits:&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;- Changed parameter names.&amp;lt;br /&amp;gt;- Replaced blanks with 'nd' to indicate 'no data'.&amp;lt;br /&amp;gt;- Added cruise_part column &amp;amp;amp; separated KN204-01a and KN204-01b into cruise_id &amp;amp;amp; cruise_part.&amp;lt;br /&amp;gt;- Separated original date field into day, month, and year.&amp;lt;br /&amp;gt;- Added ISO_DateTime_UTC (from the day, month, year, and time fields)&amp;lt;br /&amp;gt;-  Corrected event number of KN199-04 station 6 cast 1 from 2026 to 2106 (due to correction in bottle file).&amp;lt;br /&amp;gt;- Corrected event numbers for samples 5622, 6000, 7964. The original sample numbers were correct, however, the event numbers were changed to match those in the event log. (26-April-2013)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Additional GEOTRACES Processing:&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;After the data were submitted to the International Data Management     Office, BODC, the office noticed that important identifying information     was missing in many datasets. With the agreement of BODC and the US     GEOTRACES lead PIs, BCO-DMO added standard US GEOTRACES information,     such as the US GEOTRACES event number, to each submitted dataset  lacking    this information. To accomplish this, BCO-DMO compiled a  'master'    dataset composed of the following parameters:  station_GEOTRC,    cast_GEOTRC (bottle and pump data only),  event_GEOTRC, sample_GEOTRC,    sample_bottle_GEOTRC (bottle data only),  bottle_GEOTRC (bottle data    only), depth_GEOTRC_CTD (bottle data  only), depth_GEOTRC_CTD_rounded    (bottle data only),  BTL_ISO_DateTime_UTC (bottle data only), and    GeoFish_id (GeoFish data  only). This added information will facilitate    subsequent analysis  and inter comparison of the datasets.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Bottle parameters in the master file were taken from the     GT-C_Bottle_GT10, GT-C_Bottle_GT11, ODF_Bottle_GT10, and ODF_Bottle_GT11     datasets. Non-bottle parameters, including those from GeoFish tows,     Aerosol sampling, and McLane Pumps, were taken from the  Event_Log_GT10    and Event_Log_GT11 datasets. McLane pump cast numbers  missing in event    logs were taken from the Particulate Th-234 dataset  submitted by Ken    Buesseler.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;A standardized BCO-DMO method (called &amp;amp;quot;join&amp;amp;quot;) was then used to merge the     missing parameters to each US GEOTRACES dataset, most often by    matching  on sample_GEOTRC or on some unique combination of other    parameters. &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;If the master parameters were included in the original data file and the     values did not differ from the master file, the original data  columns    were retained and the names of the parameters were changed  from the    PI-submitted names to the standardized master names. If  there were    differences between the PI-supplied parameter values and  those in the    master file, both columns were retained. If the original  data submission    included all of the master parameters, no additional  columns were    added, but parameter names were modified to match the  naming conventions    of the master file.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;See the dataset parameters documentation for a description of which     parameters were supplied by the PI and which were added via the join     method.&amp;lt;/p&amp;gt;</gco:CharacterString>
+                <gco:CharacterString>&amp;lt;p&amp;gt;For the labile cobalt analyses, the ligand concentration was often close to or in excess of the total concentration. In these situations, no measurable peak is present in the initial scan prior to standard addition. In these instances, the value is reported as '0' with a flag of 6, indicating that the labile concentration is so low that it is below our detection limit.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Data are flagged with the numbers described below (and found on the Ocean Data View website):&amp;lt;br /&amp;gt;0 = no quality control = No quality control procedures have been applied to the data value. This is the initial status for all data values entering the working archive.&amp;lt;br /&amp;gt;1 = good value = Good quality data value that is not part of any identified malfunction and has been verified as consistent with real phenomena during the quality control process.&amp;lt;br /&amp;gt;2 = probably good value = Data value that is probably consistent with real phenomena but this is unconfirmed or data value forming part of a malfunction that is considered too small to affect the overall quality of the data object of which it is a part.&amp;lt;br /&amp;gt;3 = probably bad value = Data value recognized as unusual during quality control that forms part of a feature that is probably inconsistent with real phenomena.&amp;lt;br /&amp;gt;4 = bad value = An obviously erroneous data value.&amp;lt;br /&amp;gt;5 = changed value = Data value adjusted during quality control. Best practice strongly recommends that the value before the change be preserved in the data or its accompanying metadata.&amp;lt;br /&amp;gt;6 = value below detection = The level of the measured phenomenon was too small to be quantified by the technique employed to measure it. The accompanying value is the detection limit for the technique or zero if that value is unknown.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO made the following edits:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;- Changed parameter names.&amp;lt;br /&amp;gt;- Replaced blanks with 'nd' to indicate 'no data'.&amp;lt;br /&amp;gt;- Added cruise_part column &amp;amp;amp; separated KN204-01a and KN204-01b into cruise_id &amp;amp;amp; cruise_part.&amp;lt;br /&amp;gt;- Separated original date field into day, month, and year.&amp;lt;br /&amp;gt;- Added ISO_DateTime_UTC (from the day, month, year, and time fields)&amp;lt;br /&amp;gt;- Corrected event number of KN199-04 station 6 cast 1 from 2026 to 2106 (due to correction in bottle file).&amp;lt;br /&amp;gt;- Corrected event numbers for samples 5622, 6000, 7964. The original sample numbers were correct, however, the event numbers were changed to match those in the event log. (26-April-2013)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;After the data were submitted to the International Data Management Office, BODC, the office noticed that important identifying information was missing in many datasets. With the agreement of BODC and the US GEOTRACES lead PIs, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters: station_GEOTRC, cast_GEOTRC (bottle and pump data only), event_GEOTRC, sample_GEOTRC, sample_bottle_GEOTRC (bottle data only), bottle_GEOTRC (bottle data only), depth_GEOTRC_CTD (bottle data only), depth_GEOTRC_CTD_rounded (bottle data only), BTL_ISO_DateTime_UTC (bottle data only), and GeoFish_id (GeoFish data only). This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle_GT10, GT-C_Bottle_GT11, ODF_Bottle_GT10, and ODF_Bottle_GT11 datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the Event_Log_GT10 and Event_Log_GT11 datasets. McLane pump cast numbers missing in event logs were taken from the Particulate Th-234 dataset submitted by Ken Buesseler.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;</gco:CharacterString>
               </gmd:description>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:sourceCitation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Specified by the Principal Investigator(s)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                    </gmd:CI_Citation>
+                  </gmd:sourceCitation>
+                </gmd:LI_Source>
+              </gmd:source>
             </gmd:LI_ProcessStep>
           </gmd:processStep>
         </gmd:LI_Lineage>
@@ -1710,7 +1862,7 @@
 		</gmd:CI_Contact>
   </gmd:contactInfo>
   <gmd:role>
-    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"  codeSpace="007">pointOfContact</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
       </gmd:contact>
@@ -1823,45 +1975,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -1876,7 +2028,7 @@
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                       <gmd:individualName>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William J. Jenkins</gmx:Anchor>
                         </gmd:individualName>
                         <gmd:organisationName>
                           <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
@@ -1925,45 +2077,45 @@
             </gmi:type>
             <gmi:parentOperation gco:nilReason="inapplicable"/>
             <gmi:platform>
-              <gmi:MI_Platform>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:citation>
-                 <gmd:CI_Citation>
-                   <gmd:title>
-                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
-                   </gmd:title>
-                   <gmd:date gco:nilReason="unknown"/>
-                 </gmd:CI_Citation>
-                </gmi:citation>
-                <gmi:identifier>
-                  <gmd:MD_Identifier>
-                    <gmd:authority>
-                      <gmd:CI_Citation>
-                        <gmd:title>
-                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
-                        </gmd:title>
-                        <gmd:date gco:nilReason="unknown"/>
-                      </gmd:CI_Citation>
-                    </gmd:authority>
-                    <gmd:code>
-                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
-                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
-                    </gmd:code>
-                  </gmd:MD_Identifier>
-                </gmi:identifier>
-                <gmi:description>
-                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
-                </gmi:description>
-                <gmi:instrument gco:nilReason="unknown"/>
-              </gmi:MI_Platform>
-            </gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
             <gmi:plan>
               <gmi:MI_Plan>
                 <gmi:status>
@@ -2007,6 +2159,46 @@
               </gmi:MI_Plan>
             </gmi:plan>
             </gmi:MI_Operation>
-      </gmi:operation></gmi:MI_AcquisitionInformation>
+      </gmi:operation><gmi:platform>
+  <gmi:MI_Platform>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:citation>
+     <gmd:CI_Citation>
+       <gmd:title>
+         <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+       </gmd:title>
+       <gmd:date gco:nilReason="unknown"/>
+     </gmd:CI_Citation>
+    </gmi:citation>
+    <gmi:identifier>
+      <gmd:MD_Identifier>
+        <gmd:authority>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+            </gmd:title>
+            <gmd:date gco:nilReason="unknown"/>
+          </gmd:CI_Citation>
+        </gmd:authority>
+        <gmd:code>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+           xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+        </gmd:code>
+      </gmd:MD_Identifier>
+    </gmi:identifier>
+    <gmi:description>
+      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+    </gmi:description>
+    <gmi:instrument gco:nilReason="unknown"/>
+  </gmi:MI_Platform>
+</gmi:platform>
+          </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>
