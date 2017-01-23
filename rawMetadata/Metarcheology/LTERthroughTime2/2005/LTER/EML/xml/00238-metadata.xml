@@ -1,0 +1,636 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-pie.14.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd">
+  <dataset>
+    <alternateIdentifier>HTL-PR-Isotope.01</alternateIdentifier>
+    <title>Stable isotope (carbon, nitrogen and sulfur) data for primary producers and consumer organisms in the Plum Island Sound Estuary.</title>
+    <creator id="pers-1">
+      <individualName>
+        <givenName>Linda</givenName>
+        <surName>Deegan</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Ecosystems Center</deliveryPoint>
+        <deliveryPoint>MBL</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Charles</givenName>
+        <surName>Hopkinson</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Hap</givenName>
+        <surName>Garritt</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <pubDate>2000</pubDate>
+    <abstract>
+      <para />
+    </abstract>
+    <keywordSet>
+      <keyword>LTER</keyword>
+      <keyword>PIE</keyword>
+      <keyword>Plum Island Ecosystems</keyword>
+      <keyword>Massachusetts</keyword>
+      <keyword>stable isotope</keyword>
+      <keyword>nitrogen</keyword>
+      <keyword>carbon</keyword>
+      <keyword>sulfur</keyword>
+      <keyword>food web</keyword>
+      <keyword>trophic</keyword>
+      <keyword>fish</keyword>
+      <keyword>invertebrates</keyword>
+      <keyword>organic</keyword>
+      <keyword>particulate</keyword>
+      <keyword>marsh</keyword>
+      <keyword>vegetation</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Acceptance and utilization of PIE-LTER data requires that:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions.</para>
+          </listitem>
+          <listitem>
+            <para>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications</para>
+          </listitem>
+          <listitem>
+            <para>A copy of any resultant publications should be sent to: 
+            <literalLayout>
+Principal Investigator
+Ecosystems Center
+Marine Biological Laboratory
+Woods Hole, MA 02543
+</literalLayout></para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://ecosystems.mbl.edu/PIE/data/HTL/HTL-PR-Isotope.html</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="GEO-1">
+        <geographicDescription>EST-PR-0</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.92796269</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.92796269</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75085508</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75085508</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-2">
+        <geographicDescription>EST-PR-10</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.91250557</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.91250557</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75484502</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75484502</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-3">
+        <geographicDescription>EST-PR-23 Rt1A</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.84765737</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.84765737</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.76241138</northBoundingCoordinate>
+          <southBoundingCoordinate>42.76241138</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-4">
+        <geographicDescription>EST-PR-6</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.91495895</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.91495895</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.74829383</northBoundingCoordinate>
+          <southBoundingCoordinate>42.74829383</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-5">
+        <geographicDescription>EST-RO-RH</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.85490298</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.85490298</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.72517443</northBoundingCoordinate>
+          <southBoundingCoordinate>42.72517443</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-6">
+        <geographicDescription>EST-SO-28 Rowley</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.81191035</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.81191035</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.72578704</northBoundingCoordinate>
+          <southBoundingCoordinate>42.72578704</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-7">
+        <geographicDescription>HTL-PR-16</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.86197714</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.86197714</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.76081412</northBoundingCoordinate>
+          <southBoundingCoordinate>42.76081412</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-8">
+        <geographicDescription>HTL-PR-18</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.8862495</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.8862495</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.76353793</northBoundingCoordinate>
+          <southBoundingCoordinate>42.76353793</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-9">
+        <geographicDescription>HTL-PR-19</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.90359836</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.90359836</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75692394</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75692394</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-10">
+        <geographicDescription>HTL-PR-19</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.90359836</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.90359836</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75692394</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75692394</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-11">
+        <geographicDescription>HTL-PR-20</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.9125256</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.9125256</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75262433</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75262433</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-12">
+        <geographicDescription>HTL-PR-21</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.91949172</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.91949172</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75263608</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75263608</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-13">
+        <geographicDescription>HTL-PR-21.5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.92408462</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.92408462</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75236466</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75236466</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-14">
+        <geographicDescription>HTL-PR-24</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.92909587</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.92909587</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.74972247</northBoundingCoordinate>
+          <southBoundingCoordinate>42.74972247</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-15">
+        <geographicDescription>HTL-RO-7(Rowley)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.85434584</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.85434584</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.72584126</northBoundingCoordinate>
+          <southBoundingCoordinate>42.72584126</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-16">
+        <geographicDescription>HTL-SO-1(Little Neck)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.79174444</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.79174444</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.70161801</northBoundingCoordinate>
+          <southBoundingCoordinate>42.70161801</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-17">
+        <geographicDescription>HTL-SO-10(Offshore)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.74185558</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.74185558</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.70544185</northBoundingCoordinate>
+          <southBoundingCoordinate>42.70544185</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-18">
+        <geographicDescription>HTL-SO-11</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.79048883</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.79048883</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.70516169</northBoundingCoordinate>
+          <southBoundingCoordinate>42.70516169</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-19">
+        <geographicDescription>HTL-SO-2(Bluff)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.78615651</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.78615651</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.70634998</northBoundingCoordinate>
+          <southBoundingCoordinate>42.70634998</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-20">
+        <geographicDescription>HTL-SO-3(Knob)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.79906604</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.79906604</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.73139029</northBoundingCoordinate>
+          <southBoundingCoordinate>42.73139029</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-21">
+        <geographicDescription>HTL-SO-4(Nelson Island)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.8210343</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.8210343</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.74691643</northBoundingCoordinate>
+          <southBoundingCoordinate>42.74691643</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-22">
+        <geographicDescription>HTL-SO-5(Sub Headquarters)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.81184907</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.81184907</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75594527</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75594527</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1993-06-15</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1994-06-16</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para />
+      </description>
+    </maintenance>
+    <contact id="im" system="knb">
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout />
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Plum Island Ecosystems Long-Term Ecological Research (PIE LTER) Program</title>
+      <personnel>
+        <individualName>
+          <givenName>Anne</givenName>
+          <surName>Giblin</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7488</phone>
+        <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hap</givenName>
+          <surName>Garritt</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7485</phone>
+        <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+        <role>Information Manager</role>
+      </personnel>
+      <abstract>
+        <para>
+          <literalLayout>
+The Plum Island Ecosystems (PIE) LTER is an integrated research, education and outreach program whose goal is to develop a predictive understanding of the long-term response of watershed and estuarine ecosystems at the land-sea interface to changes in climate, land use and sea level. The principal study site is the Plum Island Sound estuary, its coupled Parker, Rowley and Ipswich River watersheds and the adjacent coastal ocean, the Gulf of Maine. The PIE LTER focuses on how several aspects of global change influence organic matter and inorganic nutrient biogeochemistry and estuarine foodwebs. The inputs of organic matter and nutrients from land, ocean and marshes interact with the external drivers (climate, land use, river discharge, sea level) to dictate the extent and degree of nutrient and organic matter processing and determine the spatial patterns of estuarine productivity and trophic structure.
+</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under Grants OCE-9726921, OCE-0423565. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The Plum Island Ecosystems (PIE) LTER site, is located in northeastern Massachusetts, 42.72 N, 70.85 W. The PIE LTER lies at the interface of a thinly soiled, formerly glaciated New England land mass and the highly productive Gulf of Maine. Three watersheds comprise the estuarine drainage basin: Parker (155 km2), Rowley (26 km2) and Ipswich (404 km2). The Ipswich River watershed is highly urbanized with Boston "bedroom" communities encroaching in the headwater region while the Parker is less urbanized and retains a higher proportion of forest.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-71.2198</westBoundingCoordinate>
+              <eastBoundingCoordinate>-70.7568</eastBoundingCoordinate>
+              <northBoundingCoordinate>42.8276</northBoundingCoordinate>
+              <southBoundingCoordinate>42.4965</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>100</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </geographicCoverage>
+        </coverage>
+      </studyAreaDescription>
+    </project>
+    <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+        <principal>uid=PIE,o=lter,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>public</principal>
+        <permission>read</permission>
+      </allow>
+    </access>
+    <dataTable>
+      <entityName>HTL-PR-Isotope.dat</entityName>
+      <entityDescription>Stable isotope (carbon, nitrogen and sulfur) data for primary producers and consumer organisms in the Plum Island Sound Estuary.</entityDescription>
+      <physical>
+        <objectName>HTL-PR-Isotope.dat</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://ecosystems.mbl.edu/PIE/data/HTL/data/HTL-PR-Isotope.dat</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att0.1">
+          <attributeName>STATION</attributeName>
+          <attributeLabel>STATION</attributeLabel>
+          <attributeDefinition>station sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.2">
+          <attributeName>STATE X</attributeName>
+          <attributeLabel>STATE X</attributeLabel>
+          <attributeDefinition>x coordinates (meters) in MA state plane NAD 83</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.3">
+          <attributeName>STATE Y</attributeName>
+          <attributeLabel>STATE Y</attributeLabel>
+          <attributeDefinition>y coordinates (meters) in MA state plane NAD 83</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.4">
+          <attributeName>LAT</attributeName>
+          <attributeLabel>LAT</attributeLabel>
+          <attributeDefinition>Latitude in NAD 83 geographic coordinates (decimal degrees)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.5">
+          <attributeName>LON</attributeName>
+          <attributeLabel>LON</attributeLabel>
+          <attributeDefinition>Longitude in NAD 83 geographic coordinates (decimal degrees)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.6">
+          <attributeName>SAL</attributeName>
+          <attributeLabel>SAL</attributeLabel>
+          <attributeDefinition>salinity (ppt)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>partsPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.7">
+          <attributeName>SITE</attributeName>
+          <attributeLabel>SITE</attributeLabel>
+          <attributeDefinition>portion of estuary (upper, mid, lower, sound, offshore)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>portion of estuary (upper, mid, lower, sound, offshore)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.8">
+          <attributeName>NAME</attributeName>
+          <attributeLabel>NAME</attributeLabel>
+          <attributeDefinition>common name of organism sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>common name of organism sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.9">
+          <attributeName>SCI NAME</attributeName>
+          <attributeLabel>SCI NAME</attributeLabel>
+          <attributeDefinition>scientific (Latin) name of organism sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>scientific (Latin) name of organism sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.10">
+          <attributeName>15N</attributeName>
+          <attributeLabel>15N</attributeLabel>
+          <attributeDefinition>d15N of sample (per mil), isotope ratio 15N/14N</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partsPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.11">
+          <attributeName>13C</attributeName>
+          <attributeLabel>13C</attributeLabel>
+          <attributeDefinition>d13C of sample (per mil), isotope ratio 13C/12C</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partsPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.12">
+          <attributeName>34S</attributeName>
+          <attributeLabel>34S</attributeLabel>
+          <attributeDefinition>d34S of sample (per mil), isotope ratio 34S/32S</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partsPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <unitList>
+      <unit id="partsPerThousand" multiplierToSI="1" name="partsPerThousand" parentSI="" unitType="dimensionless">
+        <description>ratio of two quantities as parts per thousand (1:1000)</description>
+      </unit>
+    </unitList>
+  </additionalMetadata>
+</ns0:eml>

@@ -1,0 +1,283 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.110.14" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF110">
+      <alternateIdentifier>HF110</alternateIdentifier>
+      <title>Historical GIS Data for Harvard Forest Properties from 1908 to Present</title>
+      <creator>
+         <individualName>
+            <givenName>Brian</givenName>
+            <surName>Hall</surName>
+         </individualName>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Julie</givenName>
+            <surName>Hall</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Elaine</givenName>
+            <surName>Doughty</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2005</pubDate>
+      <abstract>
+         <section>
+            <para>Since 1908, the Harvard Forest has conducted forest surveys approximately every 10-20 years on its three largest tracts (total 1033 ha).  These maps have been digitized along with maps of environmental factors (topography, soils), disturbance (1938 hurricane, historical land-use), and silvicultural treatments. These datalayers will allow researchers to understand the influence of environment factors, disturbances, and silviculture on the structure and composition of modern forest stands as well as assisting in locating and describing research sites. The dataset also includes an elevation grid (NED 30 meter cells), and a shapefile of linear features (trails, stonewalls, etc).</para>
+            <para>Original maps were transcribed to standardized basemaps by various researchers. These basemaps were then scanned and digitized as shapefiles in ArcView GIS 3.2. The shapefiles were then transformed to Massachusetts State Plane Meters NAD83 projection in ArcGIS and rubbersheeted to align better with aerial photographs downloaded from MassGIS. Locations of control points will be permanently archived at the Harvard Forest to facilitate transformation of future datalayers.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>geographic information systems</keyword>
+         <keyword>history</keyword>
+         <keyword>land use</keyword>
+         <keyword>landscape</keyword>
+         <keyword>silviculture</keyword>
+         <keyword>species composition</keyword>
+         <keyword>surveys</keyword>
+         <keyword>vegetation dynamics</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf110</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest), Slab City Tract (Harvard Forest), Tom Swamp Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.23</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.16</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.55</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.44</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>208</altitudeMinimum>
+                  <altitudeMaximum>417</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1908-01-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2005-10-21</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>data updated 2005-10-21</para>
+         </description>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>Brian</givenName>
+            <surName>Hall</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>brhall@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <title>Cautions for using the data</title>
+                  <para>Use caution when interpreting stand bounds near stone walls and roads. The draftsmen were inconsistent in drawing stand bounds that followed stone walls parallel to roads. In some instances the bounds were drawn to the stone wall with no type delineated for the area between the stone wall and road, and in other times the stand bounds were drawn right up to the road. Since we cannot tell what the real-world situation was, we digitized the stand bounds as they were drawn by the original cartographer. Roads were digitized as linear features, not as size-exaggerated polygons as drawn on the maps, thus the size of stands that abut roads will be greater due to the elimination of the roads' area from the shapefile.</para>
+               </section>
+               <section>
+                  <title>Digitizing Methods</title>
+                  <para>1:4800 scale paper maps from the Harvard Forest archives were scanned and digitized on-screen in ArcView 3.2 as shapefiles. The shapefiles were transformed into Massachusetts Stateplane NAD83 projection using the transform routine in ArcGIS 8.3 Toolbox. The resulting shapefiles were individually rubbersheeted to fit with the linear features and landcover as digitized from the 1986-93 paper maps (that is the 1986-93 was arbitrarily selected as the target shapefile) in ArcGIS 8.3 ArcMap using the Spatial Adjustment toolbar. The shapefiles from the different tracts of a given theme were merged into a single shapefile. These shapefiles were then rubbersheeted as a group to fit over MassGIS aerial photographs as best as possible. Notes: when polygon boundaries were not clear or not drawn on the original map, they are digitized with serrated perimeters to signify the uncertainty.</para>
+               </section>
+               <section>
+                  <title>Metadata for Infrastructure and Environment Datalayers</title>
+                  <para />
+               </section>
+               <section>
+                  <title>Compartments.shp</title>
+                  <para>Boundaries of individual compartments.</para>
+               </section>
+               <section>
+                  <title>Linear_Features.shp</title>
+                  <para>Linear features as drawn on the 1986 basemaps. Other shapefiles were rubbersheeted to fit these linear features. Type - includes road, stonewall, fenceline, boundary, and streams.</para>
+               </section>
+               <section>
+                  <title>Soils.shp</title>
+                  <para>Simmons - Simmons soil type (1940). Mesic soils - Mesic soil series (1994). Drainage_C - Drainage class.</para>
+               </section>
+               <section>
+                  <title>1938_hurricane_damage.shp</title>
+                  <para>This data was collected by Willet Rowland between 1939 and 1941. For more information see Rowlands, W. 1941. Damage to even-aged stands in Petersham, Massachusetts, by the 1938 hurricane as influenced by stand condition. Thesis paper for Master of Forestry degree, Harvard University, Cambridge Massachusetts. Damage - from Rowlands (1941): &#8220;&#8230;degree of damage is expressed as a percentage and represents the proportion of all dominant and codominant trees which were uprooted, leaning or broken off&#8230; leaning trees were those partially uprooted individuals which were too far inclined to warrant saving as part of the residual stand.&#8221;</para>
+               </section>
+               <section>
+                  <title>Elevation_NED</title>
+                  <para>ArcView Grid of elevation (30m cells) from the National Elevation Dataset (NED) for a 12km x 13km area around the three main tracts. Information on the NED is available at: http://seamless.usgs.gov/.</para>
+               </section>
+               <section>
+                  <title>Metadata for Forest Stand Type Datalayers</title>
+                  <para>The forest or landcover type for all shapefiles is listed under the &#8220;Type&#8221; field. Here we only provide more information for those shapefiles where further clarification is needed.</para>
+               </section>
+               <section>
+                  <title>Stands_1908_9.shp</title>
+                  <para>Forest stands from the 1908 and 1909 survey. Type - Basic forest or landcover type. The types are generally straight forward, but for clarification &#8220;inferior hardwoods&#8221; probably meant species such as white birch, poplars, etc; &#8220;cordwood&#8221; probably included red maple, poorly formed oaks, etc. We were unable to find a definition of what &#8220;slope hardwoods&#8221; meant. Age - Age classification was not uniform between the three tracts. The numerical age for Prospect Hill stands was recorded as an integer, while in Slab City they were either an integer or a range was listed. In Tom Swamp, the stands were given a qualitative description such as &#8220;young&#8221;, &#8220;medium&#8221;, or &#8220;old&#8221;. Users are referred to the 1913 surveys for more complete and uniform age data.</para>
+               </section>
+               <section>
+                  <title>Stands_1912_13.shp</title>
+                  <para>Stands as mapped in 1912 and 1913.</para>
+               </section>
+               <section>
+                  <title>Stands_1919.shp</title>
+                  <para>AgeClass -  The age of the stand was written down as 4 categories: I = 1-20 years, II = 21-40 years, III = 41-60 years, IV = 61 and over years. However, none of the maps show any category IV stands; a summary table of size-class distribution shows that only 2% of the surveyed stands were in class IV. Prospect Hill 1919 basemap did not have stone walls and therefore is not georeferenced as well as other years.</para>
+               </section>
+               <section>
+                  <title>Stands_1923.shp</title>
+                  <para>Stands as mapped in 1923. Stand_ID - a unique identifier for each stand. Format is as follows: Tract abbreviation and compartment  followed by stand type - and a sequential number for that type in each compartment.</para>
+               </section>
+               <section>
+                  <title>Stands_1929_30.shp</title>
+                  <para>Stands as mapped in 1929 (PH) and 1930 (TS and SC).</para>
+               </section>
+               <section>
+                  <title>Stands_1937.shp</title>
+                  <para>Stands as mapped in 1937. Note: the original tree-level data is available in hardcopy format in the Harvard Forest archives; we currently have no plans of summarizing it and linking it with this shapefile. There are hardcopies of stand-level summary statistics that were calculated shortly after the 1937 cruise, but the calculation methods are unclear and error prone. Stand_ID - a unique identifier for each stand. The Stand_ID consists of a tract abbreviation and compartment number followed by stand type abbreviation - and a sequential number for that type in the compartment. For example, S10-P-3 is located in the Slab City tract (S), compartment number 10, and it is the third pine stand in that compartment. Plantation identifications consist of the tract abbreviation followed by a unique number-letter combination (and they are labeled as plantations in the Type field); note that all plantations are not labeled as such because they were not labeled in the 1937 cruise data as plantations. Age - determined by counting whorls on white pine or coring overtopped hardwoods. A value of -99 signifies no data.</para>
+               </section>
+               <section>
+                  <title>Stands_1947.shp</title>
+                  <para>Areaac - the area (acres) of the stand reported by the surveyor. A -1.000 means that the data were not recorded. Cds_ac - the number of cords per acre. A -1.000 means that the data was not taken. Mbdft_ac - thousands of board-feet per acre. A -1.000 means that the data was not taken. Cds_tot - total cords (Areaac multiplied by Cds_ac). A -1.000 means that the data was not taken. Mbdft_tot - total thousands of board-feet (Areaac multiplied by Mbdft). A -1.000 means that the data was not taken.</para>
+                  <para>Type1 - Forest type by species or group of species. Less common features and types are spelled out fully, more common types are abbreviated as follows: Asp - aspen, BB  - black birch, BC - black cherry, Bd - blowdown, Bd/Co - blowdown and cutover, BE - beech, BG - black gum, BL - black locust, Bsp - black spruce, BT - butternut, BW - basswood, CH - chestnut, EL - European larch, Elm - elm, GB - grey birch, Haw - hawthorn, Hd - hardwoods, Hem - hemlock, Hic - hickory, JL - Japanese larch, La - larch, Loc - locust, MxSd - mixed softwoods, NS - Norway spruce, Open - open, P - pine, PB - paper birch, PC - pin cherry, POP - poplar, PP - ponderosa pine, RM - red maple, RO - red oak, RP - red pine, RS - red spruce, S - spruce, SM - sugar maple, SP - Scotch pine, Sum - sumac, WA - white ash, WO - white oak, WP - white pine, WS - white spruce, YB - yellow birch, YP - young pine.</para>
+                  <para>Type2 - Forest type by species or group of species if there was a second type recored. Height1 - Estimates of main canopy tree height were made to the nearest 10 feet: Class 1  = 5 - 15 feet, Class 2 = 15 - 25 feet, Class 3 = 25 - 35 feet, Class 4 =  35 - 45 feet. Height2 - Estimates of main canopy tree height were made to the nearest 10 feet for the Type2 species. Crown1 - Crown closure, the percent area covered by main canopy tree crowns was estimated in the field by eye: A =  80 - 100%, B =  60 - 80%, C = 30 - 60%, D =  less than 30%. Crown2 - Crown closure, the percent area covered by main canopy tree crowns was estimated in the field by eye for the Type2 species.</para>
+               </section>
+               <section>
+                  <title>Stands_1956.shp</title>
+                  <para>This was a survey of natural stands, the surveyors did not take cruise data of plantations. This survey used the 1947 delineations, polygons from that survey were merged or split as needed to make the polygons for the1956 survey datalayer. Type - same abbreviations used as Stands_1947.apr.</para>
+               </section>
+               <section>
+                  <title>Stands_1986_93.shp</title>
+                  <para>See the HF037 for additional metadata. The original tree-level data that was used to calculate this stand-level data is also available through the Harvard Forest website. Type - Abbreviations for the stand types are as follows: BA - Black Ash, BB - Black Birch, BC - Black Cherry, BE - Beech, BL - Black Locust, BO - Black Oak, BS - Black Spruce, BW - Basswood, CH - Chestnut, CO - Chestnut Oak, EL - Elm, GB - Gray Birch, Hd - Hardwoods, HdMx - Hardwoods Mixed, HEM - Hemlock, HO - Hornbeam, IW - Ironwood, LA - Largetoothed Aspen, LR - Larch, MM - Mountain Maple, NS - Norway Spruce, OT - Other Species, PC - Pin Cherry, PH - Pignut Hickory, PP - Pitch Pine, RM - Red Maple, RO - Red Oak, RP - Red Pine, RS - Red Spruce, SH - Shagbark Hickory, SM - Sugar Maple, SO - Scarlet Oak, SP - Scotch Pine, ST - Striped Maple, TA - Trembling Aspen, TP - Tulip Popular, WA - White Ash, WB - White Birch, WO - White Oak, WP - White Pine, WS - White Spruce, YB - Yellow Birch.</para>
+                  <para>The following cruise data is not available for many stands. Absence of data is marked with a -99. Zero marks true nil values. STANDID - a unique stand identifier consisting of the tract id followed by a stand number, separated by a space. ACRES - Number of acres in stand. PLOTS - Number of cruise plots used in the stand. TYPE - Predominant forest type, based on basal area of dominant and intermediate trees, not dead, not moribund. H - Hardwood if 75% basal area is hardwood, S - Softwood if 75% basal area is softwood, otherwise M - Mixed. SIZE - Tree size. Based on volume of dominant and intermediate trees, not dead, not moribund. S - Sawtimber if 50% volume is sawtimber, P - Poletimber if 50% volume is poletimber, otherwise D - seedling/sapling. FORM - Tree form. Sawtimber stands only. Based on volume of dominant and intermediate sawtimber trees, not dead, not moribund. G - Good if 75% volume is good, P - Poor if 75% volume is poor, otherwise F - Fair. Dash (-) indicates stand is not a sawtimber stand. SPEC1, SPEC2, SPEC3, SPEC4, SPEC5 - Predominant species. Based on basal area of dominant and intermediate trees, not dead, not moribund. Species are listed in order of basal area, until five are listed or until the species listed account for 75% of the basal area, whichever comes first. BAREA1 - Basal area per acre of dominant and intermediate trees, not dead, not moribund. BAREA2 - Basal area per acre of trees not dead. CUBFT - Volume per acre of all trees. CFSAL - Volume per acre of dead or moribund trees. BOARDFT - Thousand board feet (mbf) per acre, based on volume of sawtimber trees, not X (sawlog size but usable only as cordwood), not dead, not moribund. CORDS - Cords per acre based on volume of poletimber and X trees (sawlog size but usable only as cordwood), not dead, not moribund, plus 80% mbf (see BOARDFT above). MBFTOT - Total board feet (see BOARDFT above). CDSTOT - Total cords (see CORDS above). STDERRV - Standard error, based on volume of all trees. STDERRB - Standard error, based on basal area of trees not dead. CLASS - Hardwood, Softwood, or Mixed.</para>
+               </section>
+               <section>
+                  <title>Silvicultural_Treatments.shp</title>
+                  <para>This layer shows silvicultural treatments from 1909 to 1994. Since treatments overlap spatially and temporally, the polygons in this layer also overlap. Therefore, the best way to use this data may be to use a selection box to select all polygons in an area of interest and save them to another shapefile to make viewing treatments simpler and more straightforward.</para>
+               </section>
+               <section>
+                  <title>Datalayers for Prospect Hill Only</title>
+                  <para />
+               </section>
+               <section>
+                  <title>PH_Ownership_History.shp</title>
+                  <para>Data compiled by Hugh Raup, Reynold Carlson, and David Foster.</para>
+               </section>
+               <section>
+                  <title>PH_Ag_Abandonment.shp</title>
+                  <para>Agricultural abandonment dates. Field_aban - date of abandonment. Cutting - date(s) of known cutting operations.</para>
+               </section>
+               <section>
+                  <title>PH_Landuse_History.shp</title>
+                  <para>Land-use history as derived from soil plow-horizon (Ap) presence and depth, field observations, and archive records by Art Allen.</para>
+               </section>
+               <section>
+                  <title>PH_Archive_Agricultural_References.shp</title>
+                  <para>References to specific agricultural landuses were mapped from Harvard Forest Archives records; compiled and drawn by Glenn Motzkin.</para>
+               </section>
+               <section>
+                  <title>PH_Natural_Disturbance.shp</title>
+                  <para>Natural disturbances such as fire, ice, wind, etc. as compiled by Glenn Motzkin.</para>
+               </section>
+               <section>
+                  <title>PH_Historical_Features.shp</title>
+                  <para>Point data of historical features such as cellar holes, wells, mill sites, etc. as compiled by Glenn Motzkin.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <otherEntity id="HF110-01">
+         <entityName>hf110-01-gis.zip</entityName>
+         <entityDescription>zip file contains Harvard Forest properties GIS layers</entityDescription>
+         <physical>
+            <objectName>hf110-01-gis.zip</objectName>
+            <compressionMethod>zip</compressionMethod>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p11/hf110/hf110-01-gis.zip</url>
+               </online>
+            </distribution>
+         </physical>
+         <entityType>zip</entityType>
+      </otherEntity>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>ongoing</status>
+            <researchTopic>historical</researchTopic>
+            <studyType>historical</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Historical GIS Data for Prospect Hill Tract at Harvard Forest 1733-1986">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf055</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

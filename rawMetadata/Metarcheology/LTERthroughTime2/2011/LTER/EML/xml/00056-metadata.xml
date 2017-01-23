@@ -1,0 +1,690 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.250.9" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://data.gios.asu.edu/eml2_1_0/eml.xsd">
+    <access authSystem="knb" order="allowFirst" scope="document">
+        <allow>
+            <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+        </allow>
+        <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+        </allow>
+    </access>
+    <dataset id="250_1" system="gios_dataset">
+        <alternateIdentifier system="gios_dataset">250</alternateIdentifier>
+        <title>Land cover classification using ASTER data - year 2000</title>
+        <creator>
+            <individualName>
+                <givenName>Jayme</givenName>
+                <surName>Harris</surName>
+            </individualName>
+            <address>
+                <deliveryPoint>Mars Global Surveyor Space Flight Facility, Arizona State University</deliveryPoint>
+                <city>Tempe</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-1404</postalCode>
+            </address>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Will</givenName>
+                <surName>Stephanov</surName>
+            </individualName>
+            <address>
+                <deliveryPoint>Mars Global Surveyor Space Flight Facility, Arizona State University</deliveryPoint>
+                <city>TEMPE</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-1404</postalCode>
+            </address>
+        </creator>
+        <pubDate>2004</pubDate>
+        <series>Land cover classification II</series>
+        <abstract>
+            <para>Land cover classification for the CAP LTER study region using ASTER imagery acquired September 19, 2000. Current classification is broadly similar to previous classifications using Landsat TM by Stefanov et al (2001). Three visible bands (15m/pixel) of ASTER were used to perfom a multistep classification of the area. The fifteen-class classification is produced by applying the expert system approach and using the initially derived 16-class minimum distance to means (MDM) supervised classification, Normalized Difference Vegetation Index (NDVI), spatial variance texture image, and land use vector coverage. The overall classification accuracy is 88.06%. Although it does not cover the entire CAP LATER, the dataset can be used as higher spatial resolution alternative to Landsat-derived land cover.</para>
+        </abstract><keywordSet><keyword keywordType="theme">Land-Use, Land-Cover and Land Architecture</keyword><keyword keywordType="theme">disturbance patterns</keyword><keywordThesaurus>IPA and Core Area CAP Data Portal Controler</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="place">sonoran desert</keyword><keyword keywordType="place">phoenix</keyword><keyword keywordType="theme">urban</keyword><keyword keywordType="theme">metropolitan area</keyword><keyword keywordType="theme">land architecture</keyword><keyword keywordType="theme">land use changes</keyword><keyword keywordType="theme">gis</keyword><keyword keywordType="theme">land use</keyword><keyword keywordType="theme">geosciences</keyword><keyword keywordType="theme">plants</keyword><keyword keywordType="theme">database remote sensing gis applications</keyword><keyword keywordType="theme">aster</keyword><keyword keywordType="theme">land cover classification</keyword><keyword keywordType="theme">change detection</keyword><keyword keywordType="theme">Land-Use, Land-Cover and Land Architecture</keyword><keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">agriculture</keyword><keyword keywordType="theme">land use</keyword><keyword keywordType="theme">deserts</keyword><keyword keywordType="theme">land cover</keyword><keyword keywordType="theme">vegetation</keyword><keyword keywordType="theme">remote sensing</keyword><keyword keywordType="theme">soil</keyword><keyword keywordType="theme">reflectance</keyword><keyword keywordType="theme">grasses</keyword><keywordThesaurus>LTER Controlled Vocabulary Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">caplter</keyword><keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword><keyword keywordType="place">arizona</keyword><keyword keywordType="theme">caplter created</keyword><keyword keywordType="place">az</keyword><keyword keywordType="theme">cap</keyword><keyword keywordType="theme">arid land</keyword><keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus></keywordSet>
+        
+        
+        
+        <intellectualRights>
+            <section>
+                <para>Copyright Board of Regents, Arizona State University. This dataset is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+                <para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available "as is".</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+                        </listitem>
+                        <listitem>
+                            <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+            </section>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=250</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Central Arizona Phoenix</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-112.353706</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-111.403635</eastBoundingCoordinate>
+                    <northBoundingCoordinate>34.040984</northBoundingCoordinate>
+                    <southBoundingCoordinate>32.981638</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <singleDateTime>
+                    <calendarDate>2000-09-19</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <purpose>
+            <para>A fundamental dataset required for ecosystem analysis consists of the major types of land cover present in the study area and their areal percentages. Land cover refers to the physical nature of the surficial materials present in a given area such as water, grass, clay-rich soil, asphalt, or concrete. Land cover classification can be used as input into a variety of ecological models, and land cover maps can be constructed to aid in planning field sampling strategy. The land cover types can also be linked to different land use categories to investigate temporal and spatial changes in the urban ecosystem.</para>
+        </purpose>
+        <maintenance>
+            <description>
+                <para>This research has been concluded</para>
+            </description>
+            <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <positionName>Information Manager</positionName>
+            <organizationName>Global Institute of Sustainability, Arizona State University</organizationName>
+            <address>
+                <deliveryPoint>Global Institute of Sustainability, Arizona State University, POB 875402</deliveryPoint>
+                <city>TEMPE</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-5402</postalCode>
+            </address>
+            <phone phonetype="voice">(480) 965 2975</phone>
+            <phone phonetype="fax">(480) 965-8087</phone>
+            <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <para>An initial minimum distance to means (MDM; Jensen, 1996; Mesev, this volume) supervised classification was performed on the ASTER mosaic using 16 classes: Desert Soil, Low Vegetation; Desert Soil, Vegetated; Bedrock; Fluvial Sediments; Bare Soil; Fallow Agricultural Soil; Water; Canopied Vegetation; Grass; Riparian Vegetation; Active Agricultural Vegetation; Mesic Built Materials; Xeric Built Materials; White Rooftops; Blue Rooftops; and Asphalt. The term mesic refers to land cover types with significant vegetation in the form of grass, shrubs, and canopied woody plants. Xeric land cover types are typified by little to no grass or shrub cover and open-canopy plant types with significant bare rock and soil (i.e. similar to equatorial deserts). The MDM classification was run using each sub-area as a separate class, followed by aggregation of the results into the original sixteen classes.</para>
+                        <para>The ASTER mosaic was also used to calculate a Normalized Difference Vegetation Index (NDVI; Botkin et al., 1984). This index highlights actively photosynthesizing vegetation by comparing reflectance values in the visible red (low for vegetation) and near infrared (high for vegetation) bands. It is computed as follows: (Band3-Band2) / (Band3+Band2), where Band 3 is near infrared and Band 2 is visible red reflectance. The index returns pixel values ranging from -1 (no vegetation; low reflectance in both bands 2 and 3) to 1 (pixel dominated by actively photosynthesizing vegetation).</para>
+                        <para>Spatial variance texture was also calculated from the VNIR mosaic. This operation highlights large changes in brightness value (or reflectance) between adjacent pixels and has been shown to correlate well with urban versus non-urban land cover types. Spatial variance texture was calculated for all three VNIR bands using both a 3 x 3 and 5 x 5 pixel moving window. This was done to capture fine-scale spatial texture in urbanized regions as well as coarser-scale texture in undeveloped regions. The NDVI and variance texture raster data were then each separated into low, medium, and high data values using an unsupervised ISODATA algorithm. This approach takes advantage of the inherent statistical clustering within each NDVI and texture dataset, and provides a simple means of objective thresholding of the data.</para>
+                        <para>Qualitative assessment of the MDM classification results indicated that significant misclassification was present both within and between the various soil, vegetation, and built classes. We then constructed an expert classification system similar to that used by Stefanov et al. (2001b, 2003) to perform post-classification recoding of the MDM classification result. An expert classification system applies a sequence of decision rules to a set of georeferenced datasets using Boolean logic (Vogelmann et al., 1998; Stuckens et al., 2000). This approach allows for the introduction of a priori knowledge into the classification data space and can significantly reduce errors of omission and commission. Figure 13.1 presents a schematic example where the dashed rectangle indicates the hypothesized pixel classification (&#194;&#8220;Soil and Bedrock&#194;&#8221;), hexagons are alternative decision pathways, and solid rectangles indicate the variables being tested. If any one of the decision pathways (&#194;&#8220;Path&#194;&#8221;) is satisfied by the variables, the pixel will receive the hypothesized classification value. There is no limitation on the number of variables or decision pathways that can be combined within an expert system framework. Most image processing software packages now include tools for constructing expert system classification frameworks.</para>
+                        <para>The datasets combined in the expert system framework include the initial MDM land cover classification, unsupervised classifications of the NDVI and spatial variance texture data, and a land use vector polygon dataset. The land use data were acquired from the Maricopa Association of Governments (MAG; Maricopa Association of Governments, 2000) and are contemporaneous with both the ASTER and MODIS data. The land use data are constructed from a combination of survey questionnaires, site visit, and aerial photograph data. This dataset contains 46 separate land use categories which were aggregated to seven for use in the expert system model: Open Residential, Built, Cemeteries, Open Space, Golf Courses, Water, and Agriculture. Incorporation of land use polygon data provides additional discriminatory power for spectrally similar pixels such as asphalt and bedrock. For example, a pixel classified as Asphalt located within an Open Space polygon would be reclassified as Soil and Bedrock. A series of decision rules were then constructed to recode misclassified pixels in the MDM classification product. The MDM classes White Rooftops and Blue Rooftops were also recoded into one class, Reflective Built Surfaces, within the expert system model. The expert classification model was run using the area of overlap of the MDM classification and the MAG land use dataset only</para>
+                    </section>
+                </description>
+                <dataSource id="251" system="gios_dataset">
+                    <alternateIdentifier system="gios_dataset">251</alternateIdentifier>
+                    <title>ASTER image, 2000-09-19</title>
+                    <creator>
+                        <organizationName>NASA</organizationName>
+                        <address />
+                    </creator>
+                    <distribution>
+                        <online>
+                            <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=251</url>
+                        </online>
+                    </distribution>
+                    <contact>
+                        <individualName>
+                            <givenName>Will</givenName>
+                            <surName>Stefanov</surName>
+                        </individualName>
+                        <address>
+                            <deliveryPoint>Mars Global Surveyor Space Flight Facility, Arizona State University, TempeAZ 85287-1404</deliveryPoint>
+                            <city>Tempe</city>
+                        </address>
+                    </contact>
+                </dataSource>
+                <dataSource id="252" system="gios_dataset">
+                    <alternateIdentifier system="gios_dataset">252</alternateIdentifier>
+                    <title>Maricopa County Landuse, 2000</title>
+                    <creator>
+                        <individualName>
+                            <givenName>Rita</givenName>
+                            <surName>Walton</surName>
+                        </individualName>
+                        <organizationName>Maricopa Association of Governments</organizationName>
+                        <address>
+                            <deliveryPoint>302 North 1st Avenue, Suite 300</deliveryPoint>
+                            <city>Phoenix</city>
+                            <administrativeArea>AZ</administrativeArea>
+                            <postalCode>85003</postalCode>
+                        </address>
+                        <phone phonetype="voice">480 254-6300</phone>
+                        <phone phonetype="fax">480 254-6490</phone>
+                        <electronicMailAddress>rwalton@mag.maricopa.gov</electronicMailAddress>
+                    </creator>
+                    <pubDate>2000</pubDate>
+                    <distribution>
+                        <online>
+                            <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=252</url>
+                        </online>
+                    </distribution>
+                    <maintenance>
+                        <description>
+                            <para>
+                                completed
+                            </para>
+                        </description>
+                    </maintenance>
+                    <contact>
+                        <individualName>
+                            <givenName>Rita</givenName>
+                            <surName>Walton</surName>
+                        </individualName>
+                        <organizationName>Maricopa Association of Governments</organizationName>
+                        <address>
+                            <deliveryPoint>302 North 1st Avenue, Suite 300</deliveryPoint>
+                            <city>Phoenix</city>
+                            <administrativeArea>AZ</administrativeArea>
+                            <postalCode>85003</postalCode>
+                        </address>
+                        <phone phonetype="voice">480 254-6300</phone>
+                        <phone phonetype="fax">480 254-6490</phone>
+                        <electronicMailAddress>rwalton@mag.maricopa.gov</electronicMailAddress>
+                    </contact>
+                </dataSource>
+            </methodStep>
+        </methods>
+        <project>
+          <title>Multi-Temporal Remote-Sensing Data Acquisition for CAP LTER Land Cover, Land Use Monitoring, and Modeling</title>
+          <personnel>
+            <individualName>
+              <givenName>John</givenName>
+              <surName>Briggs</surName>
+            </individualName>
+            <organizationName>Konza Prairie Biological Station</organizationName>
+            <address>
+              <deliveryPoint>218 Bushnell Hall</deliveryPoint>
+              <city>Manhattan</city>
+              <administrativeArea>KS</administrativeArea>
+              <postalCode>NULL</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">785-532-0140</phone>
+            <role>Principal Investigator</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>Philip</givenName>
+              <surName>Christensen</surName>
+            </individualName>
+            <organizationName>School of Earth and Space Exploration</organizationName>
+            <address>
+              <deliveryPoint>PO Box 871404</deliveryPoint>
+              <city>Tempe</city>
+              <administrativeArea>AZ</administrativeArea>
+              <postalCode>85287-1404</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">480-965-7105</phone>
+            <role>Principal Investigator</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>William</givenName>
+              <surName>Stefanov</surName>
+            </individualName>
+            <organizationName>Science Applications, Research and Development</organizationName>
+            <address>
+              <deliveryPoint>ESCG/KX</deliveryPoint>
+              <city>Houston</city>
+              <administrativeArea>TX</administrativeArea>
+              <postalCode>NULL</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">281-483-5139</phone>
+            <role>Principal Investigator</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>Chris</givenName>
+              <surName>Eisinger</surName>
+            </individualName>
+            <organizationName>School of Earth and Space Exploration</organizationName>
+            <address>
+              <deliveryPoint>PO Box 871404</deliveryPoint>
+              <city>Tempe</city>
+              <administrativeArea>AZ</administrativeArea>
+              <postalCode>85287-1404</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">480-965-5081</phone>
+            <role>Principal Investigator</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>Jason</givenName>
+              <surName>Walker</surName>
+            </individualName>
+            <organizationName>School of Life Sciences/Plant Biology</organizationName>
+            <address>
+              <deliveryPoint>PO Box 874501</deliveryPoint>
+              <city>Tempe</city>
+              <administrativeArea>AZ</administrativeArea>
+              <postalCode>85287-4501</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">480-965-9299</phone>
+            <role>Graduate Research Assistant</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>Matthias</givenName>
+              <surName>Moeller</surName>
+            </individualName>
+            <organizationName>Global Institute of Sustainability</organizationName>
+            <address>
+              <deliveryPoint>PO Box 875402</deliveryPoint>
+              <city>Tempe</city>
+              <administrativeArea>AZ</administrativeArea>
+              <postalCode>NULL</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">480-965-0987</phone>
+            <role>Principal Investigator</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>Alexander</givenName>
+              <surName>Buyantuyev</surName>
+            </individualName>
+            <organizationName>School of Life Sciences</organizationName>
+            <address>
+              <deliveryPoint>Center for Environmental Studies, Arizona State University, POB 875402</deliveryPoint>
+              <city>TEMPE</city>
+              <administrativeArea>AZ</administrativeArea>
+              <postalCode>85287-5402</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">480-727-7360</phone>
+            <role>Graduate Research Assistant</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>Tun</givenName>
+              <surName>Myint</surName>
+            </individualName>
+            <organizationName>NULL</organizationName>
+            <address>
+              <deliveryPoint>NULL</deliveryPoint>
+              <city>NULL</city>
+              <administrativeArea>NULL</administrativeArea>
+              <postalCode>NULL</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">NULL</phone>
+            <role>Principal Investigator</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>Philip</givenName>
+              <surName>Tarrant</surName>
+            </individualName>
+            <organizationName>Global Institute of Sustainability</organizationName>
+            <address>
+              <deliveryPoint>PO Box 875402</deliveryPoint>
+              <city>Tempe</city>
+              <administrativeArea>AZ</administrativeArea>
+              <postalCode>85287-5402</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">480-727-7860</phone>
+            <role>Principal Investigator</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>B. L.</givenName>
+              <surName>Turner II</surName>
+            </individualName>
+            <organizationName>School of Geographical Sciences and Urban Planning</organizationName>
+            <address>
+              <deliveryPoint>PO Box 875302</deliveryPoint>
+              <city>Tempe</city>
+              <administrativeArea>AZ</administrativeArea>
+              <postalCode>85287-5302</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">480-965-1535</phone>
+            <role>Principal Investigator</role>
+          </personnel>
+          <personnel>
+            <individualName>
+              <givenName>Shai</givenName>
+              <surName>Kaplan</surName>
+            </individualName>
+            <organizationName>School of Geographical Sciences and Urban Planning</organizationName>
+            <address>
+              <deliveryPoint>NULL</deliveryPoint>
+              <city>Tempe</city>
+              <administrativeArea>AZ</administrativeArea>
+              <postalCode>NULL</postalCode>
+              <country>USA</country>
+            </address>
+            <phone phonetype="voice">NULL</phone>
+            <role>Graduate Research Assistant</role>
+          </personnel>
+          <abstract>
+            <para>This project will expand the developing land classification techniques using new analytical techniques and other remote sensing images as they become available. This will provide multiyear increments for spatial change models and overlap with U.S. census information.</para>
+            <para>Datasets for Land Cover, Normalized Difference Vegetation Index (NDVI) and Soil Adjusted Vegetation Index (SAVI) are produced on a regular schedule as appropriate remote sensing scenes become available.</para>
+          </abstract>
+          <designDescription>
+            <description>
+              <section>
+                <para>Land cover type, the primary product of remote-sensing classification, is a fundamental data set for nearly every aspect of the CAP LTER project. Already, it has been used to derive surface cover, aid in biological surveys, plan future science initiatives, and help define the patch typology of the system. The pilot project is currently using 1993 Landsat TM multispectral data to test and refine classification schemes for the urban, desert, and fringe regional of the CAP LTER. These classes, once accurately defined and field checked, will be form the basis of the LTER's patch typology and serve as a past baseline on the ground cover inventory of the Phoenix metropolitan area.</para>
+                <para>To examine the temporal effects of urban growth and its impact on the desert ecology, it is critical to have data extending both into the past as well as the future. Past remote-sensing data is needed for patch and change modeling. It will take advantage of spatial patterns prior to large influxes of population and the subsequent change from agriculturally dominated to urban-dominated land cover. Data collected in the future will also provide a monitoring and projecting ability for the science team. More importantly, these data can be used to direct new and alter existing field projects within the CAP LTER. Because this data product will be constantly changing as urban growth continues, it is important to monitor and analyze these changes, as well as link them to land use and socioeconomic change.</para>
+                <para>By expanding the remote-sensing analysis and data archive for the CAP LTER project we can extend the land cover classification to form a 60-year historic land cover inventory for Phoenix. This will provide the basis for multithematic, multitemporal, and multispatial scale research.</para>
+                <para>Some research questions critical to the LTER science objectives which can be answered with the expansion of the data, both past and future, are:</para>
+                <para>What is the distribution and variability of land cover classes in the Valley over time?</para>
+                <para>How do these distributions change over time and by urban location? Are there single or multiple sequences? How do these changes relate to population expansion?</para>
+                <para>What is the effect of this change on remote sensing, ecological, land use, and land value theoretical models?</para>
+                <para>Can growth and economical change be monitored precisely with future data and how well can trends be identified based on projections of past data?</para>
+                <para>Is growth happening in geologically metastable areas such as alluvial fans and potential floodplains?</para>
+                <para>Research involves parcel and metropolitan level classification. Contact CAP Information Manager for details.</para>
+              </section>
+            </description>
+          </designDescription>
+        </project>
+        <spatialRaster id="250.CAP_landcover_2000_aster">
+            <entityName>Land cover classification using ASTER data - year 2000</entityName>
+            <entityDescription>Land cover classification for the CAP LTER study region using ASTER imagery acquired September 19, 2000.</entityDescription>
+            <physical>
+                <objectName>250.zip</objectName>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>Raster Dataset</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url>http://data.gios.asu.edu/datasets/cap/250.zip</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList id="CAP_landcover_2000_aster.attributeList">
+                <attribute id="CAP_landcover_2000_aster.Value">
+                    <attributeName>Value</attributeName>
+                    <attributeDefinition>Thematic value of the cell</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_landcover_2000_aster.Count">
+                    <attributeName>Count</attributeName>
+                    <attributeDefinition>Count of pixels in class</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>whole</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_landcover_2000_aster.Class_names">
+                    <attributeName>Class_names</attributeName>
+                    <attributeDefinition>Class names</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>0</code>
+                                        <definition>Undefined</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1</code>
+                                        <definition>Asphalt</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>2</code>
+                                        <definition>Bedrock</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>3</code>
+                                        <definition>Agricultural Soil</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>4</code>
+                                        <definition>Urban soil</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>5</code>
+                                        <definition>Desert Soil, low vegetation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>6</code>
+                                        <definition>Desert Soil, vegetated</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>7</code>
+                                        <definition>Fluvial sediments</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>8</code>
+                                        <definition>Water</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>9</code>
+                                        <definition>Agricultural vegetation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>10</code>
+                                        <definition>Canopied vegetation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>11</code>
+                                        <definition>Grass and Shrubs</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>12</code>
+                                        <definition>Riparian vegetation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>13</code>
+                                        <definition>Mesic built</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>14</code>
+                                        <definition>Xeric built</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>15</code>
+                                        <definition>Reflective built surfaces</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>16</code>
+                                        <definition>Bedrock mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>17</code>
+                                        <definition>Asphalt mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>18</code>
+                                        <definition>Desert soil, low veg, mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>19</code>
+                                        <definition>Desert soil, veg, mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>20</code>
+                                        <definition>Fluvial seds, mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>21</code>
+                                        <definition>Urban soil mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>22</code>
+                                        <definition>Ag soil mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>23</code>
+                                        <definition>Water mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>24</code>
+                                        <definition>Montane veg mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>25</code>
+                                        <definition>Grass and shrubs mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>26</code>
+                                        <definition>Riparian veg mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>27</code>
+                                        <definition>Agricultural veg mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>28</code>
+                                        <definition>Mesic built mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>29</code>
+                                        <definition>Xeric built mindist</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>30</code>
+                                        <definition>Reflective rooftops mindist</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_landcover_2000_aster.Red">
+                    <attributeName>Red</attributeName>
+                    <attributeDefinition>Red color value in legend</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_landcover_2000_aster.Green">
+                    <attributeName>Green</attributeName>
+                    <attributeDefinition>Green color value in legend</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_landcover_2000_aster.Blue">
+                    <attributeName>Blue</attributeName>
+                    <attributeDefinition>Blue color value in legend</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_landcover_2000_aster.Opacity">
+                    <attributeName>Opacity</attributeName>
+                    <attributeDefinition>Opacity value of color in legend</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_landcover_2000_aster.Hypothesis id">
+                    <attributeName>Hypothesis id</attributeName>
+                    <attributeDefinition>Hypothesis id</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <spatialReference>
+                <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+            </spatialReference>
+            <horizontalAccuracy>
+                <accuracyReport>Not available</accuracyReport>
+            </horizontalAccuracy>
+            <verticalAccuracy>
+                <accuracyReport>See metadata for ASTER imagery</accuracyReport>
+            </verticalAccuracy>
+            <cellSizeXDirection />
+            <cellSizeYDirection />
+            <numberOfBands>1</numberOfBands>
+            <rasterOrigin>Upper Left</rasterOrigin>
+            <rows>7782</rows>
+            <columns>5817</columns>
+            <verticals>1</verticals>
+            <cellGeometry>pixel</cellGeometry>
+        </spatialRaster>
+    </dataset>
+</ns0:eml>

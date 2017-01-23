@@ -1,0 +1,89 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-bes.612.56 " system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 ./eml-2.0.1/eml.xsd"> 
+<dataset>
+<title>HydroNEXRAD data for the Gwynns Falls watershed and Baisman Run January 1, 2000 to December 31, 2009 BES ID 612-</title>
+<creator>
+<individualName>
+<surName>CUERE</surName>
+</individualName>
+</creator>
+<pubDate>2010-06-01</pubDate>
+<abstract><para>
+Period of Record 	January 1, 2000 to December 31, 2009
+
+Remarks: 	This data product consists of rainfall fields developed at 15-minute time interval and 1 km horizontal resolution based on bias-correction of NOAA NEXRAD data using local raingage networks. This work was carried out by Jim Smith and Mary Lynn Baeck of Princeton University in conjunction with the Hydro-NEXRAD project. The bias-corrected data set was developed for the Baltimore-Washington region; this web interface makes available downloads for watersheds associated with the Baltimore Ecosystem Study LTER.
+
+Data Attributes: 	The CSV file provides site ID of the centroid of each NEXRAD pixel falling within a selected watershed, the latitude and longitude of the pixel centroid, pixel rainfall depth, date, and time. Hourly, daily, and monthly time increments include a sum of the 15 minutes increments (total rainfall during the time period), as well as mean, minimum, maximum, and standard deviation associated with the values used to calculate the sum. The "Averaged CSV" file contains rainfall data averaged over the pixels that cover the selected watershed for the time period of interest. The graph shows the same data as the "Averaged CSV" file.
+
+Funding: 	Funding for processing of this data set was provided by National Science Foundatio
+n.
+Data and Web Services: 	Mike McGuire created the database and Roxanne Sanderson (UMBC) created the web interface to serve the data.
+</para></abstract>
+<keywordSet>
+<keyword keywordType="theme">rainfall,  rain,  gage,  rain,  precipitation,  sensor,  telemetry,  Gwynns Falls,  UMBC</keyword>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="place">Baltimore, MD, Washington, D.C, Chesapeake Bay, Baltimore-Washington, Maryland</keyword>
+</keywordSet>
+<distribution>
+<online>
+<url>http://oshydro.umbc.edu/GFhydroNEXRAD/</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Baltimore Ecosystem Study ultimately will conduct research and educational activities throughout the Baltimore metropolitan area. This large area includes Baltimore City, Baltimore County, and the counties of Ann Arundel, Carrol, Harford, Howard, and Montgomery. Gwynns Falls includes agricultural lands, recently suburbanized areas, established suburbs, and dense urban areas having residential, commercial and open spaces. In addition, a reference area has been established in a forested catchment of the Gunpowder drainage in Oregon Ridge County Park. </geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-77.314183</westBoundingCoordinate>
+<eastBoundingCoordinate>-76.012008</eastBoundingCoordinate>
+<northBoundingCoordinate>39.724847</northBoundingCoordinate>
+<southBoundingCoordinate>38.708367</southBoundingCoordinate>
+<boundingAltitudes>
+<altitudeMinimum>50</altitudeMinimum>
+<altitudeMaximum>700</altitudeMaximum>
+<altitudeUnits>feet</altitudeUnits>
+</boundingAltitudes>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Jonathan</givenName>
+<surName>Walsh</surName>
+</individualName>
+<organizationName>Cary Institute of Ecosystem Studies</organizationName>
+<positionName>Information Manager</positionName>
+<address>
+<deliveryPoint>IES</deliveryPoint>
+<deliveryPoint>Box AB, 65 Sharon Tpke</deliveryPoint>
+<city>Millbrook</city>
+<administrativeArea>NY</administrativeArea>
+<postalCode>12545</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">845-677-7600</phone>
+<phone phonetype="fax">  </phone>
+<electronicMailAddress>walshj@ecostudies.org</electronicMailAddress>
+</contact>
+<publisher>
+<organizationName> The scientists, the BES-LTER Program, the University of Maryland, and Cary Institute must receive adequate acknowledgement for the use of data by other scientists, and the BES LTER program must receive copies of any publication using that data.   Baltimore Ecosystem Study</organizationName>
+<address>
+<deliveryPoint>Room 134 TRC Building</deliveryPoint>
+<deliveryPoint> University of Maryland, Baltimore County</deliveryPoint>
+<deliveryPoint> 5200 Westland Blvd</deliveryPoint>
+<city>Baltimore</city>
+<administrativeArea>MD</administrativeArea>
+<postalCode>21227</postalCode>
+</address>
+</publisher>
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid="BES",o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</dataset>
+</ns0:eml>

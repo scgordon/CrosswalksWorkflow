@@ -1,0 +1,557 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.147.7" scope="system" system="gios_dataset" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://data.gios.asu.edu/eml2_1_0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="147_1" system="gios_dataset">
+    <alternateIdentifier system="gios_dataset">147</alternateIdentifier>
+    <title>Historic records of climate: 50 year climate data summary for the central Arizona-Phoenix metropolitan area</title>
+    <creator>
+      <individualName>
+        <givenName>Anthony</givenName>
+        <surName>Brazel</surName>
+      </individualName>
+      <organizationName>School of Geographical Sciences, Arizona State
+                University</organizationName>
+    </creator>
+    <pubDate>2000</pubDate>
+    <language>english</language>
+    <intellectualRights>
+      <section>
+        <para>Copyright Board of Regents, Arizona State University. This dataset is released
+                    to the public and may be used for academic, educational, or commercial purposes
+                    subject to the following restrictions:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>While CAP LTER will make every effort possible to control and
+                                document the quality of the data it publishes, the data are made
+                                available "as is".</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER cannot assume responsibility for damages resulting from
+                                mis-use or mis-interpretation of datasets or from errors or
+                                omissions that may exist in the data.</para>
+            </listitem>
+            <listitem>
+              <para>It is considered a matter of professional ethics to acknowledge
+                                the work of other scientists that has resulted in data used in
+                                subsequent research.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER expects that any use of data from this server will be
+                                accompanied with the appropriate citations and
+                                acknowledgments.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER encourages users to contact the original investigator
+                                responsible for the data that they are accessing. Where appropriate,
+                                researchers whose projects are integrally dependent on CAP LTER data
+                                are encouraged to consider collaboration and/or co-authorship with
+                                original investigators.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users submit to the Global Institute of
+                                Sustainability, ASU, one copy of any publication resulting from the
+                                use of data obtained from this site.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users not redistribute data obtained from
+                                this site. However, links or references to this site may be freely
+                                posted.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=147</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Maricopa County is located in Central Arizona,
+                    USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-113.11</westBoundingCoordinate>
+          <eastBoundingCoordinate>-110.36</eastBoundingCoordinate>
+          <northBoundingCoordinate>33.7</northBoundingCoordinate>
+          <southBoundingCoordinate>32.36</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1951-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1997-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This research has been concluded</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>Global Institute of Sustainability, Arizona State
+                University</organizationName>
+      <address>
+        <deliveryPoint>POB 875402</deliveryPoint>
+        <city>TEMPE</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-5402</postalCode>
+      </address>
+      <phone phonetype="voice">(480) 965 2975</phone>
+      <phone phonetype="fax">(480) 965-8087</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+                        Historic records for two climate stations in Arizona were
+                            acquired for as long back as available
+                    </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="ge16_month_records">
+      <entityName>16_ge16_month_records_1.csv</entityName>
+      <entityDescription>monthly weather records</entityDescription>
+      <physical>
+        <objectName>16_ge16_month_records_1.csv</objectName>
+        <size unit="bytes">45056</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/16_ge16_month_records_1.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList id="ge16_month_records.attributeList">
+        <attribute id="ge16_month_records.station_id">
+          <attributeName>station_id</attributeName>
+          <attributeDefinition>Identification of the sites</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_month_records.year">
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1951</minimum>
+                  <maximum exclusive="false">1997</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_month_records.month">
+          <attributeName>month</attributeName>
+          <attributeDefinition>Codes for each month</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>January</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>February</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>March</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>April</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>May</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>June</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>July</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>August</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>September</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>October</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>November</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>December</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_month_records.mintemp">
+          <attributeName>mintemp</attributeName>
+          <attributeDefinition>Min temperature in degree F</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>fahrenheit</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_month_records.maxtemp">
+          <attributeName>maxtemp</attributeName>
+          <attributeDefinition>Max temperature in degree F</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>fahrenheit</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_month_records.rangetemp">
+          <attributeName>rangetemp</attributeName>
+          <attributeDefinition>Temperature range in degree F</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>fahrenheit</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_month_records.tot_precip">
+          <attributeName>tot_precip</attributeName>
+          <attributeDefinition>Total Precipitation in inch</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="ge16_stations">
+      <entityName>16_stations_1.csv</entityName>
+      <entityDescription>station location description</entityDescription>
+      <physical>
+        <objectName>16_stations_1.csv</objectName>
+        <size unit="bytes">8192</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/16_stations_1.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList id="ge16_stations.attributeList">
+        <attribute id="ge16_stations.station_id">
+          <attributeName>station_id</attributeName>
+          <attributeDefinition>Site ID</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.station_name">
+          <attributeName>station_name</attributeName>
+          <attributeDefinition>Site name</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>location of the different weather station
+                                        sites</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.latitude">
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>Site latitude</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">32.36</minimum>
+                  <maximum exclusive="false">33.7</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.longitude">
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>Site longitude</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-110.36</minimum>
+                  <maximum exclusive="false">-113.11</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.elevation">
+          <attributeName>elevation</attributeName>
+          <attributeDefinition>Site Elevation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.record_years_temp">
+          <attributeName>record_years_temp</attributeName>
+          <attributeDefinition>Years of record temperatures</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.yr_begin_temp">
+          <attributeName>yr_begin_temp</attributeName>
+          <attributeDefinition>year begining temperatures</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1902</minimum>
+                  <maximum exclusive="false">1995</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.record_years_precip">
+          <attributeName>record_years_precip</attributeName>
+          <attributeDefinition>Record Precipitation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.yr_begin_precip">
+          <attributeName>yr_begin_precip</attributeName>
+          <attributeDefinition>Begining precipitation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1897</minimum>
+                  <maximum exclusive="false">1995</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.solar">
+          <attributeName>solar</attributeName>
+          <attributeDefinition>Amount of sun</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.evapotranspiration">
+          <attributeName>evapotranspiration</attributeName>
+          <attributeDefinition>Amount of evapotranspiration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.digitized">
+          <attributeName>digitized</attributeName>
+          <attributeDefinition>NOAA station</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>wether NOAA station or not</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ge16_stations.other">
+          <attributeName>other</attributeName>
+          <attributeDefinition>Internal ID number</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NOAA id number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</ns0:eml>

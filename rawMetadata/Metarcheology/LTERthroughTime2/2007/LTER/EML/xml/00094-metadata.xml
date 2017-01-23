@@ -1,0 +1,3108 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.9.37" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="9">
+    <alternateIdentifier>knb-lter-mcr.9</alternateIdentifier>
+    <shortName>Gump Meterological Data</shortName>
+    <title>MCR LTER: Coral Reef: Gump Station Meteorological Data, ongoing since 2006</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+	  <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <creator id="lwashburn">
+      <individualName>
+        <givenName>Libe</givenName>
+        <surName>Washburn</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Department Of Geography</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-4060</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.7367</phone>
+      <electronicMailAddress>washburn@geog.ucsb.edu</electronicMailAddress>
+	  <onlineUrl>http://www.geog.ucsb.edu/people/faculty/libe-washburn.html</onlineUrl>
+    </creator>
+    <creator id="abrooks">
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Brooks</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.7670</phone>
+      <phone phonetype="fax">805.893.3777</phone>
+      <electronicMailAddress>brooks@msi.ucsb.edu</electronicMailAddress>
+	  <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <associatedParty id="cgotschalk">
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Gotschalk</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>gots@lifesci.ucsb.edu</electronicMailAddress>
+      <role>Data Analyst</role>
+    </associatedParty>
+		
+
+    <associatedParty id="kseydel">
+      <individualName>
+        <givenName>Keith</givenName>
+        <surName>Seydel</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <role>Lead Field Technician</role>
+    </associatedParty>
+    <pubDate>2014-03-07</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data provide near real time meteorological information measured at the GUMP
+        research station on the north shore of Moorea island, French Polynesia. Data collection
+        began in August, 2006 and include air temperature, relative humidity, wind speed and
+        direction, solar radiation, atmospheric pressure, and integrated rainfall. All sensors are
+        sampled every 5 minutes. Post processing of these data is limited to some unit conversion
+        and exclusion of corrupted data records. This data package is a static snapshot of the
+        real-time data.</para>
+      <para>Aggregate data are provided in daily, weekly, monthly and yearly time bins.</para>
+      <para>ClimDB data for station GUMPM are derived from the same data source.</para>
+    </abstract>
+    <keywordSet>
+			<keyword keywordType="theme">MCR</keyword>
+			<keyword keywordType="theme">LTER</keyword>
+			<keyword keywordType="theme">Long-term Time Series</keyword>
+	</keywordSet>
+    <keywordSet>
+			<keyword keywordType="theme">Air pressure</keyword>
+			<keyword keywordType="theme">Barometric pressure</keyword>
+      <keyword keywordType="theme">PAR</keyword>
+			<keyword keywordType="theme">Sensor Network</keyword>
+		  <keyword keywordType="theme">Shortwave</keyword>
+			<keyword keywordType="theme">Wind speed</keyword>
+    </keywordSet>
+			<keywordSet>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+			<keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+			<keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+		<keyword keywordType="theme">University of California Santa Barbara</keyword>
+			<keywordThesaurus>Institute, Organization, or Funding Agency</keywordThesaurus>
+    </keywordSet>
+			<keywordSet>
+      <keyword keywordType="place">French Polynesia</keyword>
+			<keyword keywordType="place">Gump Meteorologic Station</keyword>
+			<keyword keywordType="place">Moorea</keyword>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Air Temperature</keyword>
+			<keyword keywordType="theme">Atmosphere (earth)</keyword>
+			<keyword keywordType="theme">Atmospheric pressure</keyword>
+			<keyword keywordType="theme">Climate</keyword>
+			<keyword keywordType="theme">Coastal zone</keyword>
+			<keyword keywordType="theme">Coral Reef</keyword>
+			<keyword keywordType="theme">Insolation</keyword>
+			<keyword keywordType="theme">Meteorology</keyword>
+			<keyword keywordType="theme">Precipitation (meteorology)</keyword>
+			<keyword keywordType="theme">Rain</keyword>
+			<keyword keywordType="theme">Relative humidity</keyword>
+			<keyword keywordType="theme">Solar radiation</keyword>
+			<keyword keywordType="theme">Weather</keyword>
+			<keyword keywordType="theme">Wind direction</keyword>
+			<keyword keywordType="theme">Wind velocity</keyword>
+			<keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Disturbance</keyword>
+			<keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Time Series Program</keyword>
+			<keywordThesaurus>MCR Core Activity</keywordThesaurus>
+		</keywordSet>
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public after
+        primary publication, or at most two years after the completion of the study unless
+        proprietary restrictions are warranted. Use of MCR LTER data is subject to acceptance of the
+        following conditions: <itemizedlist>
+          <listitem>
+            <para>1. The user agrees to provide valid name and contact information prior to
+              downloading online data. This information will be used to contact the user in case of
+              changes to the data, and may also be used by data set authors and MCR LTER project
+              administrators to document data usage.</para>
+          </listitem>
+          <listitem>
+            <para>2. The user agrees to cite the data set author and MCR LTER in all publications in
+              which the data are used, as per the instructions in the data documentation. If no
+              specific instructions are provided in the data documentation, the user is requested to
+              include the following statement: "Data sets were provided by the Moorea Coral Reef
+              Ecosystem LTER, funded by the US National Science Foundation (OCE-0417412)."</para>
+          </listitem>
+          <listitem>
+            <para>3. The user agrees to provide one copy of any manuscript based on MCR LTER data to
+              the data set author prior to submitting it for publication.</para>
+          </listitem>
+          <listitem>
+            <para>4. The user agrees to send two hard copies of any published manuscript based on
+              MCR LTER data to the following address: Dr. Andrew J. Brooks Deputy Program Director,
+              MCR LTER Marine Science Institute University of California Santa Barbara, CA
+              93106-6150 The user also agrees to send one electronic copy (pdf format) to the
+              following e-mail address: brooks@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>5. Users are prohibited from selling or redistributing any data provided by MCR
+              LTER without explicit prior permission.</para>
+          </listitem>
+          <listitem>
+            <para>6. Users are encouraged to contact original investigators responsible for data.
+              Where appropriate, researchers whose projects are integrally dependent on MCR LTER
+              data are encouraged to consider collaboration and/or co-authorship with original
+              investigators.</para>
+          </listitem>
+          <listitem>
+            <para>7. Extensive efforts are made to ensure that online data are accurate and up to
+              date, but the authors and the MCR LTER will not take responsibility for any errors
+              that may exist in data provided online. Furthermore, the user assumes all
+              responsibility for errors in analysis or judgment resulting from use of the
+              data.</para>
+          </listitem>
+          <listitem>
+            <para> 8. Any violation of the terms of this agreement will result in immediate
+              forfeiture of the data and loss of access privileges to other MCR LTER data
+              sets.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcr.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="Gump Station">
+        <geographicDescription>Gump Station, Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.833</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.833</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.49</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.49</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006-08-16</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-01-29</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+			<description>
+				<section>
+					<para>This is an ongoing dataset containing snapshots of a real-time data stream
+						recorded every 5 minutes. Archive updated aproximately monthly.</para>
+				</section>
+				<section>
+					<para>The air pressure was written in mmHg until 2006-10-16 21:15:00
+						(inclusive). It was converted to mbar with the constant 1 mmHg = 0.7524
+						mbar, which is the constant at 60 degree F, suggested by Chris
+						Gotschalk.</para>
+					<para>Solar radiance units were corrected on 2010-10-20.</para>
+				</section>
+				<section>
+					<para>The datetimes from September 2008 thru 2010 had been in Pacific Time. As
+						of revision 22 on 2011-03-16 all datetimes are in UTC.</para>
+				</section>
+				<section>
+					<para>2008-01-03 thru 2008-02-03, inclusive, had interpolated data instead of
+						missing-value codes. Fixed on 2011-04-20.</para>
+				</section>
+				<section>
+					<para>2010-10-20 thru 2011-06 (estimate): meteorologic station offline for
+						repair.</para>
+				</section>
+			</description>
+			<maintenanceUpdateFrequency>monthly</maintenanceUpdateFrequency>
+			<changeHistory>
+				<changeScope>data</changeScope>
+				<oldValue>na</oldValue>
+				<changeDate>2012-08-15</changeDate>
+				<comment>New data recieved 2012-02-27, replaces all aggregate tables</comment>
+			</changeHistory>
+			<changeHistory>
+				<changeScope>metadata attributeLabel table 1 column 9,10</changeScope>
+				<oldValue>Wind Speed STD</oldValue>
+				<changeDate>2012-10-19</changeDate>
+				<comment>A typo was corrected.  Wind Speed m/s was miss-labeled Wind Speed STD. The name and definition were correct.</comment>
+			</changeHistory>
+			<changeHistory>
+				<changeScope>data</changeScope>
+				<oldValue>na</oldValue>
+				<changeDate>2012-11-07</changeDate>
+				<comment>The dataset update of November 2012 replaces earlier versions for all but the raw real-time cache.
+					This new version was made from the Campbell Datalogger directly, unlike earlier versions which passed through the DataTurbine real-time system.
+					The raw CR1000 output file is stored internally as gots/mcr_met_tabledat/met/Gump_20080915_CR1000_Table1.dat</comment>
+			</changeHistory>
+			<changeHistory>
+				<changeScope>data</changeScope>
+				<oldValue>na</oldValue>
+				<changeDate>2013-04-05</changeDate>
+				<comment>Suspected bad values for rainfall in December 2012 and January 2013. Flagged as unavailable.pwd</comment>
+			</changeHistory>
+		</maintenance>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Location description:</title>
+            <para>The meteorologic station is at Richard B. Gump South Pacific Research Station. The
+              instruments are 6 m above mean sea level. Weather station is atop a small building. No
+              surrounding buildings significantly obscure the sky. Some palm trees are within 100m.
+              The building is within 100m of the shore. This is station GUMPM in ClimDB. </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Instrument Maintenance:</title>
+            <para> Every site visit the station is checked. Some sensors are on an annual
+              calibration schedule. Real-time streaming data to a web page enables regular
+              quick-checks of sensor health. </para>
+          </section>
+        </description>
+        <protocol>
+          <title>Meteorology Time Series Protocol - Gump Met Station </title>
+          <creator>
+            <individualName>
+              <givenName>Keith</givenName>
+              <surName>Seydel</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/MCR_LTER_Met_Station_protocol.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Digital Moorea: a Near-real-time Sensor Network</title>
+            <para> The weather station data is streamed near-real-time through Data Turbine as part
+              of the Digital Moorea project. </para>
+          </section>
+        </description>
+        <protocol>
+          <title>Meteorology Time Series Protocol - Digital Moorea </title>
+          <creator>
+            <individualName>
+              <givenName>Tony</givenName>
+              <surName>Fountain</surName>
+            </individualName>
+            <organizationName>Cyberinfrastructure Laboratory for Environmental Observing Systems
+              (CLEOS)</organizationName>
+            <electronicMailAddress>tfountain@ucsd.edu</electronicMailAddress>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/MCR_LTER_Digital_Moorea_protocol.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Instrument Manuals:</title>
+            <para> This is a collection of manuals for the instruments on the met station. </para>
+          </section>
+        </description>
+        <protocol>
+          <title>Instrument Manual - CR1000 </title>
+          <creator>
+            <individualName>
+              <surName>Campbell Scientific, Inc</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/manuals/cr1000_manual.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>Instrument Manual - LoggerNet </title>
+          <creator>
+            <individualName>
+              <surName>Campbell Scientific, Inc</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/manuals/loggernet.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>Instrument Manual - Barometric Pressure Sensor CS100 </title>
+          <creator>
+            <individualName>
+              <surName>Campbell Scientific, Inc</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/manuals/pressure-cs100.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>Instrument Manual - LI200X Pyranometer </title>
+          <creator>
+            <individualName>
+              <surName>Campbell Scientific, Inc</surName>
+            </individualName>
+          </creator>
+          <additionalInfo>Solar Radiation is recorded in kW/m2, equivalent to kJ/s/m2, as average
+            instantaneous values.</additionalInfo>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/manuals/pyranometer-li200x.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>Instrument Manual - CSI Model TB4 Rain Gage </title>
+          <creator>
+            <individualName>
+              <surName>Campbell Scientific, Inc</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/manuals/rain-tb4-l.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>Instrument Manual - HMP45C Temperature and Relative Humidity Probe </title>
+          <creator>
+            <individualName>
+              <surName>Campbell Scientific, Inc</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/manuals/temp-relhum-hmp45c.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>Instrument Manual - R.M. Young Wind Monitor</title>
+          <creator>
+            <individualName>
+              <surName>Campbell Scientific, Inc</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/meteorology/manuals/wind_monitor-05103.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <qualityControl>
+        <description>
+          <section>
+            <title>Quality Assurance for aggregate completeness</title>
+            <para>Data coverage fraction is between 0 and 1 and is defined as the number of
+              measurements actually available divided by the number of measurements theoretically
+              possible in the time aggregation bin (time period). </para>
+            <para>N_measurements_available / ( time_span / measurement_period ).</para>
+          </section>
+        </description>
+      </qualityControl>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) OCE-0417412 and OCE-1026851</para>
+      </funding>
+    </project>
+    <dataTable id="processed_1">
+      <entityName>Post-Processed Meteorological Data</entityName>
+      <entityDescription>The meteorologic data every 5 minutes, processed.</entityDescription>
+      <physical>
+        <objectName>Gump_MetData_5_min_average_20140307.csv</objectName>
+        <size unit="Mb">112</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.9&amp;entityindex=1</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2006-08-06</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-01-29</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <methods>
+        <methodStep>
+          <description>Quality Assurance for the aggregate</description>
+        </methodStep>
+        <qualityControl>
+          <description>Data coverage fraction is defined as the number of measurements actually
+            available divided by the number of measurements theoretically possible in the time
+            aggregation bin (time period). N_measurements_available / ( time_span /
+            measurement_period ) </description>
+        </qualityControl>
+      </methods>
+      <additionalInfo>A known issue exists with timestamps between 2008-09-17 and 2009-03-30. </additionalInfo>
+      <attributeList>
+        <attribute id="5_time_local">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period). Always ten hours earlier than UTC.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_time_utc">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_air_temp_C">
+          <attributeName>air_temp_C</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Air temperature averaged 5min from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="5_data_coverage_air_temp_C">
+          <attributeName>data_coverage_air_temp_C</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>1.00 = data present; 0.00 = data absent for air_temp_C</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_wind_stress_pa">
+          <attributeName>wind_stress_pa</attributeName>
+          <attributeLabel>Wind Stress</attributeLabel>
+          <attributeDefinition>Wind stress is the shear stress exerted by the wind on the water surface. It is the force component parallel to the surface, per unit area, as applied by the wind on the water surface.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>pascal</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="5_data_coverage_wind_stress_pa">
+          <attributeName>data_coverage_wind_stress_pa</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>1.00 = data present; 0.00 = data absent for wind_stress_pa</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_wind_direction_degtrue">
+          <attributeName>wind_direction_degtrue</attributeName>
+          <attributeLabel>Wind Direction</attributeLabel>
+          <attributeDefinition>Wind direction clockwise from true North, averaged 5min from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="5_data_coverage_wind_direction_degtrue">
+          <attributeName>data_coverage_wind_direction_degtrue</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>1.00 = data present; 0.00 = data absent for wind_direction_degtrue</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_wind_U_mps">
+          <attributeName>wind_U_mps</attributeName>
+          <attributeLabel>Wind Speed m/s</attributeLabel>
+          <attributeDefinition>East component of Vector Wind Speed in a 5 minute interval, originally sampled at a 10 second interval. Wind blowing from the northwest will have a positive U value and negative V value.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="5_data_coverage_wind_U_mps">
+          <attributeName>data_coverage_wind_U_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>1.00 = data present; 0.00 = data absent for wind_U_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_wind_V_mps">
+          <attributeName>wind_V_mps</attributeName>
+          <attributeLabel>Wind Speed m/s</attributeLabel>
+          <attributeDefinition>North component of Vector Wind Speed in a 5 minute interval, originally sampled at a 10 second interval. Wind blowing from the northwest will have a positive U value and negative V value.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="5_data_coverage_wind_V_mps">
+          <attributeName>data_coverage_wind_V_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>1.00 = data present; 0.00 = data absent for wind_V_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_mean_solar_rad_kwpm2">
+          <attributeName>mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Solar Radiation</attributeLabel>
+          <attributeDefinition>Solar radiation averaged 5min from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="5_data_coverage_mean_solar_rad_kwpm2">
+          <attributeName>data_coverage_mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>1.00 = data present; 0.00 = data absent for mean_solar_rad_kwpm2</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_atm_press_mbar">
+          <attributeName>atm_press_mbar</attributeName>
+          <attributeLabel>Atmospheric Pressure</attributeLabel>
+          <attributeDefinition>Atmospheric pressure averaged 5min from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millibar</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="5_data_coverage_atm_press_mbar">
+          <attributeName>data_coverage_atm_press_mbar</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>1.00 = data present; 0.00 = data absent for atm_press_mbar</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="5_cumulative_rainfall_mm">
+          <attributeName>cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Precipitation</attributeLabel>
+          <attributeDefinition>Precipitation 5min total (the mass flux density of rain integrated over 5 minute intervals, summed daily).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="5_data_coverage_cumulative_rainfall_mm">
+          <attributeName>data_coverage_cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>1.00 = data present; 0.00 = data absent for cumulative_rainfall_mm</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>787234</numberOfRecords>
+    </dataTable>
+    <dataTable id="realtime_snapshot_2">
+      <entityName>Raw Meteorological Data</entityName>
+      <entityDescription>The raw meteorologic data are recorded every 5 minutes and lack QA/QC.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Gump_Met_Raw.csv</objectName>
+        <size unit="Mb">31</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.9&amp;entityindex=2</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2008-09-16</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2011-12-22</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <additionalInfo>A known issue exists with timestamps between 2008-09-17 and 2009-03-30. This
+        dataset is raw data, as received.</additionalInfo>
+      <attributeList>
+        <attribute id="air_temperature">
+          <attributeName>airtc_avg</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Air temperature averaged over 5 minutes from a originally 10 second sampling interval.</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="battery">
+          <attributeName>batt_volt_min</attributeName>
+          <attributeLabel>Battery Voltage</attributeLabel>
+          <attributeDefinition>Battery Voltage.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="barometricPressure">
+          <attributeName>bp_mbar_avg</attributeName>
+          <attributeLabel>Atmospheric Pressure</attributeLabel>
+          <attributeDefinition>Atmospheric pressure averaged over 5 minutes from a originally 10 second sampling interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millibar</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="rain">
+          <attributeName>rain_mm_tot</attributeName>
+          <attributeLabel>Precipitation</attributeLabel>
+          <attributeDefinition>Precipitation within 5 minute intervals (the mass flux density of rain integrated over 5 minute intervals).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="recordNum">
+          <attributeName>record</attributeName>
+          <attributeLabel>Record Number</attributeLabel>
+          <attributeDefinition>Auto-incremented index number of each data record.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="rel_hum">
+          <attributeName>relhum_avg</attributeName>
+          <attributeLabel>Relative Humidity</attributeLabel>
+          <attributeDefinition>Relative humidity averaged over 5 minutes from a originally 10 second sampling interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="solar_avg">
+          <attributeName>slrkw_avg</attributeName>
+          <attributeLabel>Solar Radiation</attributeLabel>
+          <attributeDefinition>Insolation; solar irradiance between 400 - 1100 nm averaged over 5 minutes from a originally 10 second sampling interval. (kW/m2 are equivalent to kJ/s/m2.)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="solar_max">
+          <attributeName>slrkw_max</attributeName>
+          <attributeLabel>Solar Radiation Max</attributeLabel>
+          <attributeDefinition>Solar radiation maximum within a 5 minute interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="solar_min">
+          <attributeName>slrkw_min</attributeName>
+          <attributeLabel>Solar Radiation Min</attributeLabel>
+          <attributeDefinition>Solar radiation minimum within a 5 minute interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="solar_std">
+          <attributeName>slrkw_std</attributeName>
+          <attributeLabel>Solar Radiation STD</attributeLabel>
+          <attributeDefinition>Standard deviation of solar radiation in a 5 minute interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="wind_dir">
+          <attributeName>winddir_d1_wvt</attributeName>
+          <attributeLabel>Wind Direction</attributeLabel>
+          <attributeDefinition>Wind direction clockwise from true North, averaged over 5 minutes from a originally 10 second sampling interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="wind_dir_std">
+          <attributeName>winddir_sd1_wvt</attributeName>
+          <attributeLabel>Wind Direction STD</attributeLabel>
+          <attributeDefinition>Standard deviation of wind direction in a 5 minute interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="wind_speed_max">
+          <attributeName>ws_ms_max</attributeName>
+          <attributeLabel>Wind Speed Max</attributeLabel>
+          <attributeDefinition>Wind speed maximum within a 5 minute interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="wind_speed_min">
+          <attributeName>ws_ms_min</attributeName>
+          <attributeLabel>Wind Speed Min</attributeLabel>
+          <attributeDefinition>Wind speed minimum within a 5 minute interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="wind_speed">
+          <attributeName>ws_ms_s_wvt</attributeName>
+          <attributeLabel>Wind Speed</attributeLabel>
+          <attributeDefinition>Wind speed averaged over 5 minutes from a originally 10 second sampling interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="wind_speed_std">
+          <attributeName>ws_ms_std</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>Standard deviation of wind speed in a 5 minute interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="time_stamp">
+          <attributeName>tstamp</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>Time of record in UTC.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1 second</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>303101</numberOfRecords>
+    </dataTable>
+    <dataTable id="daily_aggregate">
+      <entityName>Post-Processed Meteorological Data Daily Average</entityName>
+      <entityDescription>The meteorologic data daily averages.</entityDescription>
+      <physical>
+        <objectName>Gump_MetData_Daily_average_20140307.csv</objectName>
+        <size unit="Kb">404</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.9&amp;entityindex=3</url>
+            
+          </online>
+          
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+     
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2006-08-06</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-01-29</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="d_time_local">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period). Always ten hours earlier than UTC.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_time_utc">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_air_temp_C">
+          <attributeName>air_temp_C</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Air temperature averaged daily from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="d_data_coverage_air_temp_C">
+          <attributeName>data_coverage_air_temp_C</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for air_temp_C</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_wind_stress_pa">
+          <attributeName>wind_stress_pa</attributeName>
+          <attributeLabel>Wind Stress</attributeLabel>
+          <attributeDefinition>Wind stress is the shear stress exerted by the wind on the water surface. It is the force component parallel to the surface, per unit area, as applied by the wind on the water surface.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>pascal</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="d_data_coverage_wind_stress_pa">
+          <attributeName>data_coverage_wind_stress_pa</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_stress_pa</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_wind_direction_degtrue">
+          <attributeName>wind_direction_degtrue</attributeName>
+          <attributeLabel>Wind Direction</attributeLabel>
+          <attributeDefinition>Wind direction clockwise from true North, averaged daily from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="d_data_coverage_wind_direction_degtrue">
+          <attributeName>data_coverage_wind_direction_degtrue</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_direction_degtrue</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_wind_U_mps">
+          <attributeName>wind_U_mps</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>wind speed in a daily interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="d_data_coverage_wind_U_mps">
+          <attributeName>data_coverage_wind_U_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_U_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_wind_V_mps">
+          <attributeName>wind_V_mps</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>wind speed in a daily interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="d_data_coverage_wind_V_mps">
+          <attributeName>data_coverage_wind_V_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_V_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_mean_solar_rad_kwpm2">
+          <attributeName>mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Solar Radiation</attributeLabel>
+          <attributeDefinition>Solar radiation averaged daily from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="d_data_coverage_mean_solar_rad_kwpm2">
+          <attributeName>data_coverage_mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for mean_solar_rad_kwpm2</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_atm_press_mbar">
+          <attributeName>atm_press_mbar</attributeName>
+          <attributeLabel>Atmospheric Pressure</attributeLabel>
+          <attributeDefinition>Atmospheric pressure averaged daily from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millibar</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="d_data_coverage_atm_press_mbar">
+          <attributeName>data_coverage_atm_press_mbar</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for atm_press_mbar</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="d_cumulative_rainfall_mm">
+          <attributeName>cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Precipitation</attributeLabel>
+          <attributeDefinition>Precipitation daily total (the mass flux density of rain integrated over 5 minute intervals, summed daily).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="d_data_coverage_cumulative_rainfall_mm">
+          <attributeName>data_coverage_cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for cumulative_rainfall_mm</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2734</numberOfRecords>
+    </dataTable>
+    <dataTable id="weekly_aggregate">
+      <entityName>Post-Processed Meteorological Data Weekly Average</entityName>
+      <entityDescription>The meteorologic data weekly averages.</entityDescription>
+      <physical>
+        <objectName>Gump_MetData_Weekly_average_20140307.csv</objectName>
+        <size unit="Kb">64</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.9&amp;entityindex=4</url>
+          </online>
+          
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2006-08-06</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-01-29</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="w_time_local">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period). Always ten hours earlier than UTC.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="w_time_utc">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="w_air_temp_C">
+          <attributeName>air_temp_C</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Air temperature averaged weekly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="w_data_coverage_air_temp_C">
+          <attributeName>data_coverage_air_temp_C</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for air_temp_C</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+					
+				</attribute>
+        <attribute id="w_wind_stress_pa">
+          <attributeName>wind_stress_pa</attributeName>
+          <attributeLabel>Wind Stress</attributeLabel>
+          <attributeDefinition>Wind stress is the shear stress exerted by the wind on the water surface. It is the force component parallel to the surface, per unit area, as applied by the wind on the water surface.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>pascal</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="w_data_coverage_wind_stress_pa">
+          <attributeName>data_coverage_wind_stress_pa</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_stress_pa</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="w_wind_direction_degtrue">
+          <attributeName>wind_direction_degtrue</attributeName>
+          <attributeLabel>Wind Direction</attributeLabel>
+          <attributeDefinition>Wind direction clockwise from true North, averaged weekly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="w_data_coverage_wind_direction_degtrue">
+          <attributeName>data_coverage_wind_direction_degtrue</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_direction_degtrue</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="w_wind_U_mps">
+          <attributeName>wind_U_mps</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>wind speed in a weekly interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="w_data_coverage_wind_U_mps">
+          <attributeName>data_coverage_wind_U_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_U_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="w_wind_V_mps">
+          <attributeName>wind_V_mps</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>wind speed in a weekly interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="w_data_coverage_wind_V_mps">
+          <attributeName>data_coverage_wind_V_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_V_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="w_mean_solar_rad_kwpm2">
+          <attributeName>mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Solar Radiation</attributeLabel>
+          <attributeDefinition>Solar radiation averaged weekly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="w_data_coverage_mean_solar_rad_kwpm2">
+          <attributeName>data_coverage_mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for mean_solar_rad_kwpm2</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="w_atm_press_mbar">
+          <attributeName>atm_press_mbar</attributeName>
+          <attributeLabel>Atmospheric Pressure</attributeLabel>
+          <attributeDefinition>Atmospheric pressure averaged weekly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millibar</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="w_data_coverage_atm_press_mbar">
+          <attributeName>data_coverage_atm_press_mbar</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for atm_press_mbar</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="w_cumulative_rainfall_mm">
+          <attributeName>cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Precipitation</attributeLabel>
+          <attributeDefinition>Precipitation weekly total (the mass flux density of rain integrated over 5 minute intervals, summed daily).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="w_data_coverage_cumulative_rainfall_mm">
+          <attributeName>data_coverage_cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for cumulative_rainfall_mm</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>391</numberOfRecords>
+    </dataTable>
+    <dataTable id="monthly_aggregate">
+      <entityName>Post-Processed Meteorological Data Monthly Average</entityName>
+      <entityDescription>The meteorologic data monthly averages.</entityDescription>
+      <physical>
+        <objectName>Gump_MetData_Monthly_average_20140307.csv</objectName>
+        <size unit="Kb">16</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.9&amp;entityindex=5</url>
+            
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2006-08-06</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-01-29</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="m_time_local">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period). Always ten hours earlier than UTC.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="m_time_utc">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="m_air_temp_C">
+          <attributeName>air_temp_C</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Air temperature averaged monthly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="m_data_coverage_air_temp_C">
+          <attributeName>data_coverage_air_temp_C</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for air_temp_C</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+					
+				</attribute>
+        <attribute id="m_wind_stress_pa">
+          <attributeName>wind_stress_pa</attributeName>
+          <attributeLabel>Wind Stress</attributeLabel>
+          <attributeDefinition>Wind stress is the shear stress exerted by the wind on the water surface. It is the force component parallel to the surface, per unit area, as applied by the wind on the water surface.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>pascal</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="m_data_coverage_wind_stress_pa">
+          <attributeName>data_coverage_wind_stress_pa</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_stress_pa</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="m_wind_direction_degtrue">
+          <attributeName>wind_direction_degtrue</attributeName>
+          <attributeLabel>Wind Direction</attributeLabel>
+          <attributeDefinition>Wind direction clockwise from true North, averaged monthly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="m_data_coverage_wind_direction_degtrue">
+          <attributeName>data_coverage_wind_direction_degtrue</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_direction_degtrue</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="m_wind_U_mps">
+          <attributeName>wind_U_mps</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>wind speed in a monthly interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="m_data_coverage_wind_U_mps">
+          <attributeName>data_coverage_wind_U_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_U_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="m_wind_V_mps">
+          <attributeName>wind_V_mps</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>wind speed in a monthly interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="m_data_coverage_wind_V_mps">
+          <attributeName>data_coverage_wind_V_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_V_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="m_mean_solar_rad_kwpm2">
+          <attributeName>mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Solar Radiation</attributeLabel>
+          <attributeDefinition>Solar radiation averaged monthly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="m_data_coverage_mean_solar_rad_kwpm2">
+          <attributeName>data_coverage_mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for mean_solar_rad_kwpm2</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="m_atm_press_mbar">
+          <attributeName>atm_press_mbar</attributeName>
+          <attributeLabel>Atmospheric Pressure</attributeLabel>
+          <attributeDefinition>Atmospheric pressure averaged monthly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millibar</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="m_data_coverage_atm_press_mbar">
+          <attributeName>data_coverage_atm_press_mbar</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for atm_press_mbar</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="m_cumulative_rainfall_mm">
+          <attributeName>cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Precipitation</attributeLabel>
+          <attributeDefinition>Precipitation monthly total (the mass flux density of rain integrated over 5 minute intervals, summed daily).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="m_data_coverage_cumulative_rainfall_mm">
+          <attributeName>data_coverage_cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for cumulative_rainfall_mm</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>90</numberOfRecords>
+    </dataTable>
+    <dataTable id="yearly_aggregate">
+      <entityName>Post-Processed Meteorological Data Yearly Average</entityName>
+      <entityDescription>The meteorologic data yearly averages.</entityDescription>
+      <physical>
+        <objectName>Gump_MetData_Yearly_average_20140307.csv</objectName>
+        <size unit="Kb">4</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.9&amp;entityindex=6</url>
+            
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+     
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2006-08-06</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-01-29</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="y_time_local">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period). Always ten hours earlier than UTC.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_time_utc">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin (time period)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_air_temp_C">
+          <attributeName>air_temp_C</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Air temperature averaged yearly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="y_data_coverage_air_temp_C">
+          <attributeName>data_coverage_air_temp_C</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for air_temp_C</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_wind_stress_pa">
+          <attributeName>wind_stress_pa</attributeName>
+          <attributeLabel>Wind Stress</attributeLabel>
+          <attributeDefinition>Wind stress is the shear stress exerted by the wind on the water surface. It is the force component parallel to the surface, per unit area, as applied by the wind on the water surface.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>pascal</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="y_data_coverage_wind_stress_pa">
+          <attributeName>data_coverage_wind_stress_pa</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_stress_pa</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_wind_direction_degtrue">
+          <attributeName>wind_direction_degtrue</attributeName>
+          <attributeLabel>Wind Direction</attributeLabel>
+          <attributeDefinition>Wind direction clockwise from true North, averaged yearly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="y_data_coverage_wind_direction_degtrue">
+          <attributeName>data_coverage_wind_direction_degtrue</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_direction_degtrue</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_wind_U_mps">
+          <attributeName>wind_U_mps</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>wind speed in a yearly interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="y_data_coverage_wind_U_mps">
+          <attributeName>data_coverage_wind_U_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_U_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_wind_V_mps">
+          <attributeName>wind_V_mps</attributeName>
+          <attributeLabel>Wind Speed STD</attributeLabel>
+          <attributeDefinition>wind speed in a yearly interval, originally sampled at a 10 second interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersPerSecond</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="y_data_coverage_wind_V_mps">
+          <attributeName>data_coverage_wind_V_mps</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for wind_V_mps</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_mean_solar_rad_kwpm2">
+          <attributeName>mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Solar Radiation</attributeLabel>
+          <attributeDefinition>Solar radiation averaged yearly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="y_data_coverage_mean_solar_rad_kwpm2">
+          <attributeName>data_coverage_mean_solar_rad_kwpm2</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for mean_solar_rad_kwpm2</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_atm_press_mbar">
+          <attributeName>atm_press_mbar</attributeName>
+          <attributeLabel>Atmospheric Pressure</attributeLabel>
+          <attributeDefinition>Atmospheric pressure averaged yearly from a originally 10 second sampling interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millibar</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="y_data_coverage_atm_press_mbar">
+          <attributeName>data_coverage_atm_press_mbar</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for atm_press_mbar</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="y_cumulative_rainfall_mm">
+          <attributeName>cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Precipitation</attributeLabel>
+          <attributeDefinition>Precipitation yearly total (the mass flux density of rain integrated over 5 minute intervals, summed daily).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="y_data_coverage_cumulative_rainfall_mm">
+          <attributeName>data_coverage_cumulative_rainfall_mm</attributeName>
+          <attributeLabel>Data coverage</attributeLabel>
+          <attributeDefinition>Fraction of data points available out of those possible for cumulative_rainfall_mm</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fraction</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>9</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="C" constantToSI="273.18" id="celsius" multiplierToSI="1" name="celsius" parentSI="kelvin">
+          <ns2:description>A common unit of temperature</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="&#186;" id="degree" multiplierToSI="0.0174532924" name="degree" parentSI="radian" unitType="angle">
+          <ns2:description>360 degrees comprise a unit circle.</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="fraction" name="fraction">
+          <ns2:description>fraction</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="kilowattPerMeterSquared" multiplierToSI="1000" name="kilowattPerMeterSquared" parentSI="JoulePerMeterSquared" unitType="power">
+          <ns2:description>irradiance unit; intensity; time-averaged energy
+            flux</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m/s" id="metersPerSecond" multiplierToSI="1" name="metersPerSecond" parentSI="metersPerSecond" unitType="speed">
+          <ns2:description>meters per second</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="mbar" id="millibar" multiplierToSI="100" name="millibar" parentSI="pascal" unitType="pressure">
+          <ns2:description>millibar</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="mm" id="millimeter" multiplierToSI="0.001" name="millimeter" parentSI="meter">
+          <ns2:description>.001 meters</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="number" name="number" unitType="dimensionless">
+          <ns2:description>a number</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="Pa" id="pascal" multiplierToSI="1" name="pascal" unitType="pressure">
+          <ns2:description>pascal</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="%" constantToSI="0" id="percent" multiplierToSI="1" name="percent" unitType="dimensionless">
+          <ns2:description>ratio of two quantities as percent composition
+            (1:100)</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="V" id="volt" multiplierToSI="1" name="volt" unitType="potentialDifference">
+          <ns2:description>volt</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

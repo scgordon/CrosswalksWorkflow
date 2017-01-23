@@ -1,0 +1,911 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.205.11" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="205" system="VCR">
+   <alternateIdentifier>VCR12197</alternateIdentifier>
+   <title>GPS Survey Monuments on the Virginia Coast Reserve 1992-1994</title>
+   <creator>
+      <individualName>
+         <givenName>Charles</givenName>
+         <surName>Carlson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Virginia Coast Reserve, LTER Laboratory, PO Box LTER</deliveryPoint>
+         <city>Oyster</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23419</postalCode>
+      </address>
+      <phone phonetype="voice">(804) 331-4323</phone>
+      <phone phonetype="facsimile">(804) 331-3952</phone>
+      <electronicMailAddress>crc7m@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">ccarlson</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>1994-12-31</pubDate>
+   <abstract>
+  <para>The Virginia Coast Reserve Long-term Ecological Research project, in association with the Virginia Marine Resources Commission, conducted an intensive GPS survey during February 1992. A second GPS survey was conducted in August 1994 to add supplemental GPS monuments. Most monuments consist of stainless steel pipes driven to refusal and topped with a bolt with a point imprinted on it. Others may consist of existing markers or cultural features. Elevations refer to the monument, not the surrounding ground surface. All data were processed by the VCR/LTER. Several caveats must be applied to use of this survey network:</para>
+  <para>1. These are preliminary results and are subject to change as the network is revised.</para>
+  <para>2. This network is designed for research purposes only, the data are not suitable for legal uses of survey data.</para>
+  <para>3. The network includes several US Government benchmarks, but except for the VCR1 monument recently resurveyed and "fixed" by the National Geodetic Survey (see below), the coordinates for those benchmarks have not been adjusted to agree with blue-book values for those benchmarks.</para>
+  <para>4. Elevations are based on mean sea-level (NAVD88) for a single point (VCR1). No geoid corrections have been applied to any other point.</para>
+  <para>***</para>
+  <para>Update: &#160; MINOR coordinate shifts resulting from NGS adjustment of the VCR1 monument's estimated lat/lon following the NAD83 (Va) HARN adjustment of 2011 have been calculated (0.017 m S, 0.001 m W), but not otherwise applied to the data.&#160; A shapefile of the VCR GPS network based on the original coordinates has also been included.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">global positioning system</keyword>
+      <keyword keywordType="theme">surveys</keyword>
+      <keyword keywordType="theme">monuments</keyword>
+      <keyword keywordType="theme">elevation</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>
+Virginia Coast from Parramore to Smith Islands</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1992-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1994-12-31</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para>Data Collection</para>
+  <para>Most data were collected using dual-frequency Trimble 4000 GPS units and additional data was collected with single-frequency GPS units. All measurements were made using the WGS84 datum. Each location was measured a minimum of two times with data collection times greater than 3 hours per survey.</para>
+  <para>Data Processing</para>
+  <para>1. Data were processed using TRIMVEC+ software.</para>
+  <para>2. Baselines were computed using widelane fixed solutions whenever possible. If a quality ratio &lt;3 could not be obtained, a float solution was used instead.</para>
+  <para>3. A network made up of only the highest quality baselines (fixed) solutions was created and fixed based on the geographical coordinates and elevation of the VCR1 monument.</para>
+  <para>4. A network comprised of all points was compiled. As before, the coordinates for VCR1 (VCR LTER 1) were fixed in 3 dimensions. The stations BROWNSVILLE, FARL and SHUG were fixed to their horizontal coordinates in the high-quality-only network. Network adjustments were then performed on all other points.</para>
+  <para>NGS location of VCR1 (VCR LTER 1) monument. The VCR1 monument is part of the High Accuracy and Resolution Network (HARN).</para>
+  <para> 5/3/94 - National Geodetic Survey fixes the VCR1 monument at 37-deg, 17-min, 42.15663-seconds North Latitude and 75-deg, 55-min, 59.49256-sec. West Longitude, with an ellipsoidal height of -28.261 m. Geoid height is modeled to be 8.7 m. Horizontal datum is NAD 83 and vertical datum is NAVD 88 (for NGVD 29, add 0.2 m).</para>
+         </description>
+      </methodStep>
+   </methods>
+   <dataTable>
+      <entityName>VCR12197</entityName>
+      <entityDescription>GPS Survey Monuments on the Virginia Coast Reserve 1992-1994</entityDescription>
+      <physical>
+         <objectName>VCR_Coord1992.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>22</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0D#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0D#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.205.11&amp;urlHeadID=2&amp;urlTail=1/VCR12197/VCR12197/VCR_Coord1992.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR12197.STATNUM">
+            <attributeName>STATNUM</attributeName>
+            <attributeLabel>Station number</attributeLabel>
+            <attributeDefinition>STATNUM - Station number</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1</minimum>
+                        <maximum exclusive="false">56</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LAT_DEG">
+            <attributeName>LAT_DEG</attributeName>
+            <attributeLabel>Latitude Degrees</attributeLabel>
+            <attributeDefinition>LAT_DEG - Latitude Degrees</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>degrees</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">37</minimum>
+                        <maximum exclusive="false">37</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LAT_MIN">
+            <attributeName>LAT_MIN</attributeName>
+            <attributeLabel>Latitude Minutes</attributeLabel>
+            <attributeDefinition>LAT_MIN - Latitude Minutes</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>minutes</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">59</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LAT_SEC">
+            <attributeName>LAT_SEC</attributeName>
+            <attributeLabel>Latitude Seconds</attributeLabel>
+            <attributeDefinition>LAT_SEC - Latitude Seconds</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>seconds</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">60</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LAT_SE">
+            <attributeName>LAT_SE</attributeName>
+            <attributeLabel>Latitude Standard Error of Estimate</attributeLabel>
+            <attributeDefinition>LAT_SE - Latitude Standard Error of Estimate</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>degrees</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>-1</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR12197.STATION">
+            <attributeName>STATION</attributeName>
+            <attributeLabel>Station Name</attributeLabel>
+            <attributeDefinition>STATION - Station Name</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Station Name</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LON_DEG">
+            <attributeName>LON_DEG</attributeName>
+            <attributeLabel>Longitude Degrees (west)</attributeLabel>
+            <attributeDefinition>LON_DEG - Longitude Degrees (west)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>degrees</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">75</minimum>
+                        <maximum exclusive="false">75</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LON_MIN">
+            <attributeName>LON_MIN</attributeName>
+            <attributeLabel>Longitude Minutes</attributeLabel>
+            <attributeDefinition>LON_MIN - Longitude Minutes</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>minutes</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">60</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LON_SEC">
+            <attributeName>LON_SEC</attributeName>
+            <attributeLabel>Longitude Seconds</attributeLabel>
+            <attributeDefinition>LON_SEC - Longitude Seconds</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>seconds</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">60</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LON_SE">
+            <attributeName>LON_SE</attributeName>
+            <attributeLabel>Longitude Standard Error of  Estimate</attributeLabel>
+            <attributeDefinition>LON_SE - Longitude Standard Error of  Estimate</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>degrees</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>-1</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR12197.ELEV">
+            <attributeName>ELEV</attributeName>
+            <attributeLabel>Elevation NAVD88</attributeLabel>
+            <attributeDefinition>ELEV - Elevation NAVD88</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">11</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.ELEV_SE">
+            <attributeName>ELEV_SE</attributeName>
+            <attributeLabel>Elevation Standard Error of Estimate</attributeLabel>
+            <attributeDefinition>ELEV_SE - Elevation Standard Error of Estimate</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>-1</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR12197.LAT">
+            <attributeName>LAT</attributeName>
+            <attributeLabel>Latitude</attributeLabel>
+            <attributeDefinition>LAT - Latitude</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>degrees</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">37</minimum>
+                        <maximum exclusive="false">38</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12197.LON">
+            <attributeName>LON</attributeName>
+            <attributeLabel>Longitude</attributeLabel>
+            <attributeDefinition>LON - Longitude</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>degrees</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">-76</minimum>
+                        <maximum exclusive="false">-75</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+      </attributeList>
+   </dataTable>
+      <spatialVector id="VCRgps1993adj2011">
+         <alternateIdentifier>VCR12197-4</alternateIdentifier>
+         <entityName>VCRgps1993adj2011</entityName>
+         <entityDescription>     This shapefile contains coordinate info for each point (VCR GPS monument) in multiple projections/datums, lat/lon and UTM. The actual coordinates and projection associated with the point shapes (the shapefile itself, used to map the points) are the ORIGINAL lat/lon values in the   NAD1983 VA HARN adjustment of 1993 datum.    The Virginia Coast Reserve Long-term Ecological Research project, in association with the Virginia Marine Resources Commission, conducted an intensive GPS survey during February 1992. A second GPS survey was conducted in August 1994 to add supplemental GPS monuments. Most monuments consist of stainless steel pipes driven to refusal and topped with a bolt with a point imprinted on it. Others may consist of existing markers or cultural features. Elevations refer to the monument, not the surrounding ground surface. All data were processed by the VCR/LTER. Several caveats must be applied to use of this survey network:    1. These are preliminary results and are subject to change as the network is revised.    2. This network is designed for research purposes only, the data are not suitable for legal uses of survey data.    3. The network includes several US Government benchmarks, but except for the VCR1 monument recently resurveyed and "fixed" by the National Geodetic Survey (see below), the coordinates for those benchmarks have not been adjusted to agree with blue-book values for those benchmarks.    4. Elevations are based on mean sea-level (NAVD88) for a single point (VCR1). No geoid corrections have been applied to any other point.    (2013) Additional adjustment information and UTM coordinates for dataset VCR12197: &#8220;GPS Survey Monuments on the Virginia Coast Reserve 1992-1994&#8221;.     NGS has made very minor adjustments since 1993 to the horizontal coordinates associated with VCR1 monument. The original (1993) latitude/longitude coordinates   relative to the NAD1983 VA HARN adjustment of 1993 datum are provided in the attribute data, as are the newer (2011) latitude/longitude coordinates   relative to the NAD1983 VA HARN adjustment of 2011 datum . Also provided are UTM coordinates for each monument obtained by transforming both the original and newer lat/lon coordinates into NAD83- and WGS84-based UTM zone 18N coordinates.    No adjustments to the vertical elevation datum have yet occurred; all elevations are relative to the North American Vertical Datum of 1988 (NAVD88).        </entityDescription>
+         <physical>
+            <objectName>VCRgps1993adj2011.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.205.11&amp;urlHeadID=2&amp;urlTail=4/VCR12197/VCRgps1993adj2011.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>southern portion of the Virginia Eastern Shore</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.965694</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.368262</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.001023</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.124286</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>StaNum</attributeName>
+               <attributeLabel>StaNum</attributeLabel>
+               <attributeDefinition>station numer</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Station</attributeName>
+               <attributeLabel>Station</attributeLabel>
+               <attributeDefinition>Station Name (ID)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Station Name (ID)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>ELEVnavd88</attributeName>
+               <attributeLabel>ELEVnavd88</attributeLabel>
+               <attributeDefinition>elevation (m) relative to the North American Vertical Datum of 1988  </attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LATn83H_93</attributeName>
+               <attributeLabel>LATn83H_93</attributeLabel>
+               <attributeDefinition>ORIGINAL latitude (Y coordinate) (in decimal degrees) relative to the NAD1983 VA HARN adjustment of 1993.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LONn83H_93</attributeName>
+               <attributeLabel>LONn83H_93</attributeLabel>
+               <attributeDefinition>ORIGINAL longitude (X coordinate) (in decimal degrees) relative to the NAD1983 VA HARN adjustment of 1993.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>utmXn83_93</attributeName>
+               <attributeLabel>utmXn83_93</attributeLabel>
+               <attributeDefinition>the original 1993 X coordinate (longitude) expressed as an UTM X coordinate (m) relative to the NAD1983 datum UTM zone 18 North projection.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>utmYn83_93</attributeName>
+               <attributeLabel>utmYn83_93</attributeLabel>
+               <attributeDefinition>the original 1993 Y coordinate (latitude) expressed as an UTM Y coordinate (m) relative to the NAD1983 datum UTM zone 18 North projection.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>utmXw84_93</attributeName>
+               <attributeLabel>utmXw84_93</attributeLabel>
+               <attributeDefinition>the original 1993 X coordinate (longitude) expressed as an UTM X coordinate (m) relative to the WGS1984 datum UTM zone 18 North projection.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>utmYw84_93</attributeName>
+               <attributeLabel>utmYw84_93</attributeLabel>
+               <attributeDefinition>the original 1993 Y coordinate (latitude) expressed as an UTM Y coordinate (m) relative to the WGS1984 datum UTM zone 18 North projection.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LATn83H_11</attributeName>
+               <attributeLabel>LATn83H_11</attributeLabel>
+               <attributeDefinition>NEWER latitude (Y coordinate) (in decimal degrees) relative to the NAD1983 VA HARN adjustment of 2011.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LONn83H_11</attributeName>
+               <attributeLabel>LONn83H_11</attributeLabel>
+               <attributeDefinition>NEWER longitude (X coordinate) (in decimal degrees) relative to the NAD1983 VA HARN adjustment of 2011.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>utmXn83_11</attributeName>
+               <attributeLabel>utmXn83_11</attributeLabel>
+               <attributeDefinition>the current 2011 X coordinate (longitude) expressed as an UTM X coordinate (m) relative to the NAD1983 datum UTM zone 18 North projection.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>utmYn83_11</attributeName>
+               <attributeLabel>utmYn83_11</attributeLabel>
+               <attributeDefinition>the current 2011 Y coordinate (latitude) expressed as an UTM Y coordinate (m) relative to the NAD1983 datum UTM zone 18 North projection.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>utmXw84_11</attributeName>
+               <attributeLabel>utmXw84_11</attributeLabel>
+               <attributeDefinition>the current 2011 X coordinate (longitude) expressed as an UTM X coordinate (m) relative to the WGS1984 datum UTM zone 18 North projection.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>utmYw84_11</attributeName>
+               <attributeLabel>utmYw84_11</attributeLabel>
+               <attributeDefinition>the current 2011 Y coordinate (latitude) expressed as an UTM Y coordinate (m) relative to the WGS1984 datum UTM zone 18 North projection.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Point</geometry>
+         <geometricObjectCount>56</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983_HARN">
+               <geogCoordSys name="GCS_North_American_1983_HARN">
+                  <datum name="D_North_American_1983_HARN" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="degrees" />
+      <ns2:unit id="meters" />
+      <ns2:unit id="minutes" />
+      <ns2:unit id="seconds" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-11</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

@@ -1,0 +1,698 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.153.6" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF153">
+      <alternateIdentifier>HF153</alternateIdentifier>
+      <title>Soil Water Content at Harvard Forest HEM and LPH Towers 1998-2007</title>
+      <creator>
+         <individualName>
+            <givenName>Julian</givenName>
+            <surName>Hadley</surName>
+         </individualName>
+      </creator>
+      <pubDate>2009</pubDate>
+      <abstract>
+         <section>
+            <para>Water content of the top 20 cm of soil was measured using 1.5 inch diameter soil cores.  Soil water content is of particular interest and importance in explaining patterns of soil respiration (including root respiration) and ecosystem respiration, 60 to 75% of which occurs below the ground surface at Harvard Forest.  Soil water content in deciduous forest near the Little Prospect Hill Forest was in general found to be more variable than near the Hemlock tower.  One influence contributing to this is the presence of a water table within 1 m of the soil surface near the hemlock tower, compared to a water table at unknown depth in the deeply drained soils in most parts of Little Prospect Hill.  Relatively low evapotranspiration at the Hemlock tower site during the period when deciduous trees are foliated also contributes to higher water content in soil there, and a relatively thick surface organic layer.  These influences tend to maintain soil respiration at higher levels in the hemlock forest during dry summers, but excessive moisture in the soil at the Hemlock site during very wet summers appears to suppress soil respiration.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>soil</keyword>
+         <keyword>soil moisture</keyword>
+         <keyword>soil water content</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>inorganic nutrients</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf153</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.185</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.180</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.542</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.539</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>355</altitudeMinimum>
+                  <altitudeMaximum>380</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1998-05-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2007-10-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>Julian</givenName>
+            <surName>Hadley</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>jhadley@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Soil cores were extracted between 0800 and 1700 hours standard time, using 1.5-inch diameter steel pipe which was driven 20 cm into the soil.  From 1998 through 2000, cores were collected along six of 12 transects with compass directions from the base the Hemlock flux tower of 0 to 330 degrees, by 30 degree increments, with the exact location of each sampling point at a randomly selected distance between 30 and 50 m from the tower.  The exact soil core locations were at randomly chosen points between 1 and 2 meters away from the locations of soil respiration collars (see data set HF148). The number 1 in the measurement location indicates that it was on the 0 degree transect, 2 indicates a 30 degree transect, and so on by 30 degree increments up to 12, indicating the 330 degree transect.  Beginning in 2001, each core at both the Hemlock and LPH flux tower sites was collected at a randomly determined point between 1 and 2 m from each of the collars that were used in soil respiration measurements (for locations of these, see data set HF148).  Six cores were usually collected at the Hemlock site, and 12 to 16 at the Little Prospect Hill site.  To reduce loss of soil from the bottom of the corer during extraction, the corer was twisted at least a full revolution prior to pulling from the soil.  Cores were immediately capped at both ends, and transported to the lab, where they were either cut into sections on the day of collection, or stored 1-2 days in a refrigerator at 5 degrees C.  Cores were removed from corers by pushing from the bottom end of the core, in mineral soil, and then measured.  There was almost always some compression of the core, and to correct for this, it was assumed that the degree of compression of the core was inversely proportional to depth in the soil, so that 40% of the compression occurred in the top 5 cm, 30% in the layer 5-10 cm below the surface, 20% in the layer from 10 to 15 cm, and 10% in the layer 15-20 cm below the soil surface.  This assumption was made because of the higher air content of surface layers of soil, and while not precise, the correction resulted in a better approximation of the true moisture content in surface layers.  Each of the four slices of each core was weighed immediately after cutting and placed in a jar where it was dried at 105 degrees C for three days and reweighed.  In addition to the gravimetric soil moisture, approximate bulk density and volumetric water content in each layer were calculated on the assumption that it represented a 5-cm thickness of the soil prior to compression during coring.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf153-01">
+         <entityName>hf153-01-hem-swc-1998-2000.csv</entityName>
+         <entityDescription>HEM soil water content 1998-2000</entityDescription>
+         <physical id="1256049760751">
+            <objectName>hf153-01-hem-swc-1998-2000.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p15/hf153/hf153-01-hem-swc-1998-2000.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1256049761767">
+               <attributeName>Date</attributeName>
+               <attributeDefinition>date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1256049761782">
+               <attributeName>Ring</attributeName>
+               <attributeDefinition>transect number indicating compass direction from the base the Hemlock flux tower of 0 to 330 degrees. The number 1 indicates that it was on the 0 degree transect, 2 indicates a 30 degree transect, and so on by 30 degree increments up to 12, indicating the 330 degree transect.The number 1 in the measurement location indicates that it was on the 0 degree transect, 2 indicates a 30 degree transect, and so on by 30 degree increments up to 12, indicating the 330 degree transect.</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>transect number</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1256049761798">
+               <attributeName>DepthCode</attributeName>
+               <attributeDefinition>depth code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>A</code>
+                              <definition>0-5 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>B</code>
+                              <definition>5-10 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>10-15 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>D</code>
+                              <definition>15-20 cm</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1256049761814">
+               <attributeName>FreshMass</attributeName>
+               <attributeDefinition>mass of fresh sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256049761829">
+               <attributeName>DryMass</attributeName>
+               <attributeDefinition>mass of dry sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256049761845">
+               <attributeName>GWC</attributeName>
+               <attributeDefinition>gravimetric water content</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256049761861">
+               <attributeName>VWC</attributeName>
+               <attributeDefinition>volumetric water content</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gramsPerCubicCentimeter</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256049761876">
+               <attributeName>BulkDens</attributeName>
+               <attributeDefinition>bulk density</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gramsPerCubicCentimeter</standardUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1082</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf153-02">
+         <entityName>hf153-02-hem-swc-2001-2007.csv</entityName>
+         <entityDescription>HEM soil water content 2001-2007</entityDescription>
+         <physical id="1256050138740">
+            <objectName>hf153-02-hem-swc-2001-2007.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p15/hf153/hf153-02-hem-swc-2001-2007.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1256050139928">
+               <attributeName>Date</attributeName>
+               <attributeDefinition>date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1256050139943">
+               <attributeName>Distance</attributeName>
+               <attributeDefinition>distance from tower</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050139959">
+               <attributeName>Transect</attributeName>
+               <attributeDefinition>compass direction from HEM tower from geographic north</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050139975">
+               <attributeName>DepthCode</attributeName>
+               <attributeDefinition>depth code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>A</code>
+                              <definition>0-5 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>B</code>
+                              <definition>5-10 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>10-15 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>D</code>
+                              <definition>15-20 cm</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1256050139990">
+               <attributeName>FreshMass</attributeName>
+               <attributeDefinition>mass of fresh sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050140006">
+               <attributeName>DryMass</attributeName>
+               <attributeDefinition>mass of dry sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050140021">
+               <attributeName>GWC</attributeName>
+               <attributeDefinition>gravimetric water content</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050140037">
+               <attributeName>VWC</attributeName>
+               <attributeDefinition>volumetric water content</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gramsPerCubicCentimeter</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050140053">
+               <attributeName>BulkDens</attributeName>
+               <attributeDefinition>bulk density</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gramsPerCubicCentimeter</standardUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1460</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf153-03">
+         <entityName>hf153-03-lph-swc-2002-2007.csv</entityName>
+         <entityDescription>LPH soil water content 2002-2007</entityDescription>
+         <physical id="1256050462186">
+            <objectName>hf153-03-lph-swc-2002-2007.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p15/hf153/hf153-03-lph-swc-2002-2007.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1256050462905">
+               <attributeName>Date</attributeName>
+               <attributeDefinition>date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1256050462921">
+               <attributeName>Distance</attributeName>
+               <attributeDefinition>distance from tower</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050462936">
+               <attributeName>Transect</attributeName>
+               <attributeDefinition>compass direction from LPH tower from geographic north</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050462952">
+               <attributeName>DepthCode</attributeName>
+               <attributeDefinition>depth code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>A</code>
+                              <definition>0-5 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>B</code>
+                              <definition>5-10 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>10-15 cm</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>D</code>
+                              <definition>15-20 cm</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1256050462967">
+               <attributeName>FreshMass</attributeName>
+               <attributeDefinition>mass of fresh sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050462983">
+               <attributeName>DryMass</attributeName>
+               <attributeDefinition>mass of dry sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050462999">
+               <attributeName>GWC</attributeName>
+               <attributeDefinition>gravimetric water content</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gramsPerCubicCentimeter</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050463014">
+               <attributeName>VWC</attributeName>
+               <attributeDefinition>volumetric water content</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gramsPerCubicCentimeter</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1256050463030">
+               <attributeName>BulkDens</attributeName>
+               <attributeDefinition>bulk density</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gramsPerCubicCentimeter</standardUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>4527</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>soil</researchTopic>
+            <studyType>long-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Soil Respiration, Temperature and Moisture at Harvard Forest EMS Tower since 1995">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf006</url>
+            <url name="Net Carbon Exchange of an Old-Growth Hemlock Forest at Harvard Forest HEM Tower since 2000">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf103</url>
+            <url name="Physiological Model of CO2 Exchange by Hemlock Forests at Harvard Forest 1996-2000">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf063</url>
+            <url name="Net Carbon Exchange of a Young Upper-Slope Deciduous Forest at Harvard Forest LPH Tower since 2002">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf072</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

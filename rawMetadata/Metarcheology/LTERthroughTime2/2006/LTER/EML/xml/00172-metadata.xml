@@ -1,0 +1,765 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.11.17" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF011">
+      <alternateIdentifier>HF011</alternateIdentifier>
+      <title>Landscape and Regional Impacts of Hurricanes in New England 1620-1997</title>
+      <creator>
+         <individualName>
+            <givenName>Emery</givenName>
+            <surName>Boose</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>David</givenName>
+            <surName>Foster</surName>
+         </individualName>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Kristin</givenName>
+            <surName>Chamberlin</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2003</pubDate>
+      <abstract>
+         <section>
+            <para>This project used a combination of historical research and computer modeling to study the impacts of hurricanes in New England since 1620. For details on methods and results, please see the published paper (Boose, E. R., K. E. Chamberlin and D. R. Foster. 2001. Landscape and regional impacts of hurricanes in New England. Ecological Monographs 71: 27-48). The Abstract from the paper is reproduced below.</para>
+            <para>"Hurricanes are a major factor controlling ecosystem structure, function and dynamics in many coastal forests and yet their ecological role can be understood only by assessing impacts in space and time over a period of centuries. We present a new method for reconstructing hurricane disturbance regimes using a combination of historical research and computer modeling. Historical data on wind damage for each hurricane in the selected region are quantified using the Fujita scale to produce regional maps of actual damage. A simple meteorological model (HURRECON), parameterized and tested for selected recent hurricanes, provides regional estimates of wind speed, direction, and damage for each storm. Individual reconstructions are compiled to analyze spatial and temporal patterns of hurricane impacts. Long-term effects of topography on a landscape scale are then examined with a simple topographic exposure model (EXPOS).</para>
+            <para>"We applied this method to New England, USA, examining hurricanes since European settlement in 1620. Results showed strong regional gradients in hurricane frequency and intensity from southeast to northwest: average return intervals for F0 damage on the Fujita scale (loss of leaves and branches) ranged from 5 to 85 years, average return intervals for F1 damage (scattered blowdowns, small gaps) ranged from 10 to more than 200 years, and average return intervals for F2 damage (extensive blowdowns, large gaps) ranged from 85 to more than 380 years. On a landscape scale, average return intervals for F2 damage in the town of Petersham MA ranged from 125 years across most sites to more than 380 years on scattered lee slopes. Actual forest damage was strongly dependent on land-use and natural disturbance history. Annual and decadal timing of hurricanes varied widely. There was no clear century-scale trend in the number of major hurricanes.</para>
+            <para>"The historical-modeling approach is applicable to any region with good historical records and will enable ecologists and land managers to incorporate insights on hurricane disturbance regimes into the interpretation and conservation of forests at landscape to regional scales."</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>geographic information systems</keyword>
+         <keyword>history</keyword>
+         <keyword>hurricane damage</keyword>
+         <keyword>landscape</keyword>
+         <keyword>modeling</keyword>
+         <keyword>region</keyword>
+         <keyword>wind</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf011</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>New England</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-74.3</westBoundingCoordinate>
+               <eastBoundingCoordinate>-66.9</eastBoundingCoordinate>
+               <northBoundingCoordinate>+47.5</northBoundingCoordinate>
+               <southBoundingCoordinate>+40.5</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>0</altitudeMinimum>
+                  <altitudeMaximum>1900</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1620-01-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>1997-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>data updated 2014-09-19</para>
+         </description>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>Emery</givenName>
+            <surName>Boose</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>boose@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <title>List of Hurricanes</title>
+                  <para>The data file lists the 67 New England hurricanes studied in this project. Please see the published paper for details on hurricane selection, wind damage assessment, and meteorological modeling.</para>
+               </section>
+               <section>
+                  <title>Wind Damage by Town</title>
+                  <para>The data file contains (for each hurricane) the Fujita-scale wind damage values for individual towns in the study region (New England, USA plus New York City and Long Island). Only those towns were included where information was sufficient to assign a Fujita value. This file summarizes information contained in the Historical Report Database.</para>
+               </section>
+               <section>
+                  <title>Hurricane Track Data</title>
+                  <para>The data file contains track and maximum wind speed data for each hurricane. Data for 1620-1850 were created as part of this study. Data for later hurricanes were adapted from Partagas and Diaz (1851-1870) or HURDAT (1871-1997). Please see the published paper for details. These data may be used as input to the Hurrecon model by selecting the appropriate rows for a given hurricane and deleting the Code and Vm(kt) variables.</para>
+               </section>
+               <section>
+                  <title>Site Impacts</title>
+                  <para>The data files contain reconstructed wind damage and peak wind direction for two sites (Petersham, Massachusetts and Providence, Rhode Island, USA). Each file includes all hurricanes that were estimated to have produced F0 damage or higher during the historical period (1620-1997).</para>
+               </section>
+               <section>
+                  <title>Historical Report Database</title>
+                  <para>The data file contains summaries of historical reports for each hurricane. Each record represents a single source (e.g. a newspaper article) and a specified geographic area (usually a single town). In most cases, individual facts were extracted and assigned to appropriate fields for ease of use (exceptions include some direct quotations and narrative passages). In general, the data on wind damage (DAM) are the most complete and detailed, reflecting the focus of this study.</para>
+                  <para>The data file is encoded as a simple text file. Each field begins with a four-letter code (see below). Records are separated by blank lines.  HUR: = Hurricane Code (see List of Hurricanes). LOC: = Location (i.e. geographic area) covered by report. SRC: = Source (i.e. bibliographic reference) for report. Ludlum = David Ludlum, Early American Hurricanes, 1963. BG = Boston Globe. NYT = New York Times. For other abbreviations and publication details see published paper. MET: = Meteorological Observations. Reports of local weather conditions. Also meteorological discussions of storm track and development. SUR: = Storm Surge. Reports of storm surge and of damage clearly caused by ocean flooding, wave action, or salt spray. DAM: = Wind Damage. Reports of damage caused (or possibly caused) directly by the wind. Included are damages that may have resulted from other causes (e.g. unspecified damage to ocean front buildings). FLD: = Flooding. Reports of fresh-water flooding and related damage. NOT: = Notes. Other information. FSC: = Fujita-Scale. Maximum Fujita-scale value for those damages (summarized under DAM) clearly or probably caused by the wind. Fujita values for geographic areas larger than single towns (e.g. counties or states) are marked with an asterisk. END: = End of record.</para>
+               </section>
+               <section>
+                  <title>GIS and Input Data</title>
+                  <para>The accompanying Zip file contains the following files: (1) Text Files. NE.PAR = Parameter file for the Hurrecon model. NE10.GRD = Grid file for the Hurrecon model. NETWN.TXT = List of town names and numbers in the New England town map below (netwn.img). (2) GIS Files (Idrisi for Windows v.2 format). ELE-FT.IMG = Elevation in feet for the town of Petersham, Massachusetts, USA. Digitized from USGS topographic map. Top of map = Northeast. Coordinates = local. Resolution = 200ft. NE10.IMG = Cover map (land or water) for Northeastern USA. Coordinates = lat/long. Resolution = 10km. This file was used to create regional maps of reconstructed wind damage with the Hurrecon model. NES.VEC = State boundary file for Northeastern USA. Coordinates = lat/long. NETWN.IMG = Towns in New England, USA (plus New York City and Long Island). Each town has a unique integer value (see netwn.txt above). Coordinates = lat/long. Resolution = 2.5km. This file was used to create regional maps of actual wind damage.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf011-01">
+         <entityName>hf011-01-hurricanes.csv</entityName>
+         <entityDescription>list of hurricanes</entityDescription>
+         <physical id="1184185581691">
+            <objectName>hf011-01-hurricanes.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf011/hf011-01-hurricanes.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1184185582832">
+               <attributeName>Code</attributeName>
+               <attributeDefinition>hurricane code. Each hurricane in this study was assigned a unique code consisting of "N" plus the year. A lower case letter (a, b, c) was added if there was more than one hurricane in the same year</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>hurricane code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185582852">
+               <attributeName>StartDate</attributeName>
+               <attributeDefinition>start date of landfall or closest approach to New England (Gregorian calendar)</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1238781549870">
+               <attributeName>EndDate</attributeName>
+               <attributeDefinition>end date of landfall or closest approach to New England (Gregorian calendar)</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185582862">
+               <attributeName>Number</attributeName>
+               <attributeDefinition>tropical storm number in Fernandez-Partagaz and Diaz (1851-1870) or HURDAT (1871-1997)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>tropical storm number in Fernandez-Partagaz and Diaz (1851-1870) or HURDAT (1871-1997)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185582872">
+               <attributeName>Name</attributeName>
+               <attributeDefinition>hurricane name assigned by the US National Hurricane Center or World Meteorological Organization (1950-1997)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>hurricane name assigned by the US National Hurricane Center or World Meteorological Organization (1950-1997)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185582882">
+               <attributeName>Fmax</attributeName>
+               <attributeDefinition>maxmum reported damage on the Fujita scale (F0-F3) in the study region. Nd = no wind damage. Nr = no reports of wind damage</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>maxmum reported damage on the Fujita scale (F0-F3) in the study region. Nd = no wind damage. Nr = no reports of wind damage</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185582892">
+               <attributeName>SS</attributeName>
+               <attributeDefinition>Saffir-Simpson category at landfall or closest approach to New England</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Saffir-Simpson category at landfall or closest approach to New England</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185582902">
+               <attributeName>Track</attributeName>
+               <attributeDefinition>hurricane track in study region</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>L</code>
+                              <definition>landfall in New England</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>O</code>
+                              <definition>passed offshore</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>W</code>
+                              <definition>passed to the west of New England</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185582912">
+               <attributeName>Rm</attributeName>
+               <attributeDefinition>radius of maximum winds used in best-fit meteorological reconstruction (km)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilometer</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184185582922">
+               <attributeName>B</attributeName>
+               <attributeDefinition>scaling parameter used in best-fit meteorological reconstruction</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>scaling parameter used in best-fit meteorological reconstruction</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>67</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf011-02">
+         <entityName>hf011-02-damage.csv</entityName>
+         <entityDescription>wind damage by town</entityDescription>
+         <physical id="1184185940356">
+            <objectName>hf011-02-damage.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf011/hf011-02-damage.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1184185941538">
+               <attributeName>Code</attributeName>
+               <attributeDefinition>hurricane code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>hurricane code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185941548">
+               <attributeName>State</attributeName>
+               <attributeDefinition>name of state</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>name of state</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185941558">
+               <attributeName>Town</attributeName>
+               <attributeDefinition>name of town</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>name of town</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185941568">
+               <attributeName>Gis</attributeName>
+               <attributeDefinition>town number in the Idrisi raster file (netwn.img) used to create maps of actual wind damage. Town names and numbers are listed in a separate text file (netwn.txt). See GIS &amp; Input Data.</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>town number in the Idrisi raster file (netwn.img) used to create maps of actual wind damage. Town names and numbers are listed in a separate text file (netwn.txt). See GIS &amp; Input Data.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184185941578">
+               <attributeName>F-scale</attributeName>
+               <attributeDefinition>Fujita-scale wind damage value. This value is the maximum for all reports from a given town. For specific reports see Historical Report Database.</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>-1</code>
+                              <definition>no damage</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>F0</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>F1</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>F2</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>F3</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1233</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf011-03">
+         <entityName>hf011-03-tracks.csv</entityName>
+         <entityDescription>hurricane tracks</entityDescription>
+         <physical id="1184186232006">
+            <objectName>hf011-03-tracks.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf011/hf011-03-tracks.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1184186234339">
+               <attributeName>Code</attributeName>
+               <attributeDefinition>hurricane code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>hurricane code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184186234349">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year (Gregorian calendar)</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184186234359">
+               <attributeName>Month</attributeName>
+               <attributeDefinition>month</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>MM</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184186234369">
+               <attributeName>Day</attributeName>
+               <attributeDefinition>day</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184186234379">
+               <attributeName>Hour</attributeName>
+               <attributeDefinition>hour (24-hour values). Times are US Eastern Standard Time (1620-1870) or Greenwich Mean Time (1871-1997)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184186234389">
+               <attributeName>Minute</attributeName>
+               <attributeDefinition>minute</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184186234399">
+               <attributeName>Latitude</attributeName>
+               <attributeDefinition>latitude of hurricane center in degrees. Positive values are degrees North.</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184186234409">
+               <attributeName>Longitude</attributeName>
+               <attributeDefinition>longitude of hurricane center in degrees. Negative values are degrees West.</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184186234419">
+               <attributeName>Vm(m/s)</attributeName>
+               <attributeDefinition>maximum sustained (1-minute) wind speed over water in meters per second</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>metersPerSecond</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184186234429">
+               <attributeName>Vm(kt)</attributeName>
+               <attributeDefinition>maximum sustained (1-minute) wind speed over water in knots (nautical miles per hour)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>knots</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1809</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf011-04">
+         <entityName>hf011-04-site.csv</entityName>
+         <entityDescription>site impacts</entityDescription>
+         <physical id="1184186335314">
+            <objectName>hf011-04-site.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf011/hf011-04-site.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1184186336866">
+               <attributeName>Code</attributeName>
+               <attributeDefinition>hurricane code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>hurricane code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1238781851825">
+               <attributeName>Site</attributeName>
+               <attributeDefinition>name of site</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>name of site</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184186336876">
+               <attributeName>F-scale</attributeName>
+               <attributeDefinition>maximum predicted wind damage on the Fujita scale using the Hurrecon model</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184186336886">
+               <attributeName>Wdir</attributeName>
+               <attributeDefinition>predicted peak wind direction in degrees using the Hurrecon model</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>114</numberOfRecords>
+      </dataTable>
+      <otherEntity id="hf011-05">
+         <entityName>hf011-05-reports.txt</entityName>
+         <entityDescription>historical reports</entityDescription>
+         <physical>
+            <objectName>hf011-05-reports.txt</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>text</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf011/hf011-05-reports.txt</url>
+               </online>
+            </distribution>
+         </physical>
+         <entityType>text</entityType>
+      </otherEntity>
+      <otherEntity id="hf011-06">
+         <entityName>hf011-06-gis.zip</entityName>
+         <entityDescription>GIS data</entityDescription>
+         <physical>
+            <objectName>hf011-06-gis.zip</objectName>
+            <compressionMethod>zip</compressionMethod>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>Idrisi binary files</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf011/hf011-06-gis.zip</url>
+               </online>
+            </distribution>
+         </physical>
+         <entityType>raster GIS</entityType>
+      </otherEntity>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>informatics</researchTopic>
+            <researchTopic>historical</researchTopic>
+            <researchTopic>regional</researchTopic>
+            <studyType>historical</studyType>
+            <studyType>modeling</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Hurricane Maps">http://harvardforest.fas.harvard.edu/hf011-hurricane-maps</url>
+            <url name="EXPOS Model for Estimating Topographic Exposure to Wind">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf024</url>
+            <url name="HURRECON Model for Estimating Hurricane Wind Speed, Direction and Damage">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf025</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

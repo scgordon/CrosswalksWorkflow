@@ -1,0 +1,1824 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.5.22" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="5">
+    <alternateIdentifier>knb-lter-mcr.5</alternateIdentifier>
+    <shortName>Satellite Remote Sensing</shortName>
+    <title>MCR LTER: Coral Reef: Optical parameters and SST from SeaWiFS and MODIS, ongoing since 1997 and AVHRR-derived SST from 1985 to 2009</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="smaritorena">
+      <individualName>
+        <givenName>Stephane</givenName>
+        <surName>Maritorena</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Earth Research Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <deliveryPoint>6841 Ellison Hall</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-3060</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.4308</phone>
+      <phone phonetype="fax">805.893.2578</phone>
+      <electronicMailAddress>stephane@eri.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2014-03-19</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Monthly averages of the Sea Surface Temperature (SST), the Sub-surface chlorophyll-a concentration (Chl), the colored dissolved and detrital organic materials at 443 nm (acdm[443]) and the particulate backscattering coefficient at 443 nm (bbp[443]) around Moorea are obtained or derived from satellite data (SST from AVHRR and MODIS-Aqua; Chl, acdm[443] and bbp[443] from SeaWiFS and MODIS-AQUA). The satellite data are averaged over a 1 month period for geographic areas of 16S-19S/147W-151W (SeaWiFS and MODIS-AQUA) and 15S-20S/145W-155W for AVHRR.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Long-term Time Series</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">MCR</keyword>
+      <keyword keywordType="theme">Moorea Coral Reef</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Detrital Organic Matter Absorption Coefficient</keyword>
+      <keyword keywordType="theme">Dissolved Organic Matter Absorption Coefficient</keyword>
+      <keyword keywordType="theme">MODIS AQUA</keyword>
+      <keyword keywordType="theme">NSST</keyword>
+      <keyword keywordType="theme">Ocean_biogeochemistry</keyword>
+      <keyword keywordType="theme">Particulate Backscattering Coefficient</keyword>
+      <keyword keywordType="theme">SeaWiFS</keyword>
+      <keyword keywordType="theme">SST</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+      <keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keywordThesaurus>Institute, Organization, or Funding Agency</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">French Polynesia</keyword>
+      <keyword keywordType="place">Moorea</keyword>
+      <keyword keywordType="place">Moorea Coral Reef</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Chlorophyll</keyword>
+      <keyword keywordType="theme">Marine</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Absorption</keyword>
+      <keyword keywordType="theme">Chlorophyll</keyword>
+      <keyword keywordType="theme">Gelbstoff</keyword>
+      <keyword keywordType="theme">Ocean Color</keyword>
+      <keyword keywordType="theme">Scattering</keyword>
+      <keyword keywordType="theme">Sea Surface Temperature</keyword>
+      <keywordThesaurus>GCMD Keywords, Version 6.0.0.0.0: EARTH SCIENCE: Oceans:</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keyword keywordType="theme">Organic Matter</keyword>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Time Series Program</keyword>
+      <keywordThesaurus>MCR Core Activity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Bio-Physical Coupling</keyword>
+      <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public
+				after primary publication, or at most two years after the completion of the study
+				unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+				acceptance of the following conditions: <itemizedlist><listitem><para>1. The user agrees to provide valid name and contact information prior
+							to downloading online data. This information will be used to contact the
+							user in case of changes to the data, and may also be used by data set
+							authors and MCR LTER project administrators to document data
+							usage.</para></listitem><listitem><para>2. The user agrees to cite the data set author and MCR LTER in all
+							publications in which the data are used, as per the instructions in the
+							data documentation. If no specific instructions are provided in the data
+							documentation, the user is requested to include the following statement:
+							"Data sets were provided by the Moorea Coral Reef Ecosystem LTER,
+							funded by the US National Science Foundation (OCE-0417412)."</para></listitem><listitem><para>3. The user agrees to provide one copy of any manuscript based on MCR
+							LTER data to the data set author prior to submitting it for
+							publication.</para></listitem><listitem><para>4. The user agrees to send two hard copies of any published manuscript
+							based on MCR LTER data to the following address: Dr. Andrew J. Brooks
+							Deputy Program Director, MCR LTER Marine Science Institute University of
+							California Santa Barbara, CA 93106-6150 The user also agrees to send one
+							electronic copy (pdf format) to the following e-mail address:
+							brooks@msi.ucsb.edu</para></listitem><listitem><para>5. Users are prohibited from selling or redistributing any data
+							provided by MCR LTER without explicit prior permission.</para></listitem><listitem><para>6. Users are encouraged to contact original investigators responsible
+							for data. Where appropriate, researchers whose projects are integrally
+							dependent on MCR LTER data are encouraged to consider collaboration
+							and/or co-authorship with original investigators.</para></listitem><listitem><para>7. Extensive efforts are made to ensure that online data are accurate
+							and up to date, but the authors and the MCR LTER will not take
+							responsibility for any errors that may exist in data provided online.
+							Furthermore, the user assumes all responsibility for errors in analysis
+							or judgment resulting from use of the data.</para></listitem><listitem><para> 8. Any violation of the terms of this agreement will result in
+							immediate forfeiture of the data and loss of access privileges to other
+							MCR LTER data sets.</para></listitem></itemizedlist>
+			</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcr.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="3x4deg_box_SeaWiFS_AQUA">
+        <geographicDescription>Open-ocean region surrounding Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-151.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>-147.0</eastBoundingCoordinate>
+          <northBoundingCoordinate>-16.0</northBoundingCoordinate>
+          <southBoundingCoordinate>-19.0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SST_AVHRR_box">
+        <geographicDescription>Moorea, French Polynesia, sub-region of ocean</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-155.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>-145.0</eastBoundingCoordinate>
+          <northBoundingCoordinate>-15.0</northBoundingCoordinate>
+          <southBoundingCoordinate>-20.0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1985-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+			<description>
+				<para>This is an ongoing dataset. New data will be added each year.</para>
+			</description>
+			<changeHistory>
+				<changeScope>temporalCoverage</changeScope>
+				<oldValue>SeaWiFS was ongoing, now ended</oldValue>
+				<changeDate>2011-02-28</changeDate>
+				<comment>The SeaWiFS satellite sent its last data in December 2010 so that portion of this time series has ended.</comment>
+			</changeHistory>
+
+			<changeHistory>
+				<changeScope>dataTable, attributeList, qualityAssurance</changeScope>
+				<oldValue>Three separate tables</oldValue>
+				<changeDate>2011-02-28</changeDate>
+				<comment>Three data tables were combined into a single data table to explicitly 
+					show how the SeaWiFS and MODIS time series overlap and cross-calibrate, to make
+					one continuous time series.  Quality assurance columns are added to show the 
+					percent of possible data included in each aggregate value. The original AVHRR table
+					is still included.
+				</comment>
+			</changeHistory>
+			<changeHistory>
+				<changeScope>dataTable 1</changeScope>
+				<oldValue>replaced</oldValue>
+				<changeDate>2011-12-23</changeDate>
+				<comment>The complete time series has been revised because MODIS has been reprocessed since the last version of the tables 
+					and because the new data slightly change the monthly climatologies which are used to compute the anomalies. 
+					So this table should replace the previous one completely. New table of weekly data added.</comment>
+			</changeHistory>
+		<changeHistory>
+			<changeScope>data</changeScope>
+			<oldValue>NA</oldValue>
+			<changeDate>2013-03-01</changeDate>
+			<comment>One year's data appended.</comment>
+		</changeHistory>
+		</maintenance>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sub-Surface Chlorophyll</title>
+            <para> The Chlorophyll (Chl) data come from the NASA SeaWiFS and MODIS-AQUA
+							Level-3 daily binned products. These are 4.5 km (MODIS-AQUA) or 9 km
+							(SeaWiFS) resolution data for which the region of interest
+							(16S-19S/147W-151W) is extracted. Islands and reef pixels are filtered
+							out based on geographic location. Monthly data are composited from the
+							daily values and averaged over the region of interest. Monthly anomalies
+							are calculated by subtracting the monthly climatology calculated over
+							the whole mission from the monthly data. The monthly percentage coverage
+							of the region of interest is also calculated. This has been done for the
+							whole SeaWiFS (Sept. 1997 - Dec. 2010) and MODIS-AQUA (July 2002 - Dec.
+							2010) time series. </para>
+            <para>These Chl data come from version R2010.0 for SeaWiFS (completed
+							September 2010) and R2009.1 for MODIS-AQUA (completed April
+							2010).</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sub-Surface CDM absorption coefficient and particulate backscattering</title>
+            <para>The colored dissolved and detrital particulate matter absorption
+							coefficient at 443 nm (CDM) and the particulate backscattering
+							coefficient at 443 nm (BBP) are derived from the NASA SeaWiFS and
+							MODIS-AQUA Level-3 binned reflectances (Rrs) using the GSM01 model
+							(Maritorena et al., 2002). These are 4.5 km (CDM, BBP from MODIS-AQUA)
+							or 9 km (CDM from SeaWiFS) resolution data for which the region of
+							interest (16S-19S/147W-151W) is extracted. Islands and reef pixels are
+							filtered out based on geographic location. Monthly data are composited
+							from the daily values and averaged over the region of interest. Monthly
+							anomalies are calculated by subtracting the monthly climatology
+							calculated over the whole mission from the monthly data. The monthly
+							percentage coverage of the region of interest is also calculated. This
+							has been done for the whole SeaWiFS (Sept. 1997 - Dec. 2010) and
+							MODIS-AQUA (July 2002 - Dec. 2010) time series. </para>
+            <para>The Remote Sensing Reflectance (Rrs) data come from version R2010.0
+							for SeaWiFS (completed September 2010) and R2009.1 for MODIS-AQUA
+							(completed April 2010).</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sea Surface Temperature from MODIS AQUA</title>
+            <para>The nighttime Sea Surface Temperature (NSST) data come from the
+							MODIS-AQUA Level-3 daily 11 &#194;&#181;m binned products. These are 4.5 km
+							resolution data for which the region of interest (16S-19S/147W-151W) is
+							extracted. Islands and reef pixels are filtered out based on geographic
+							location. Monthly data are composited from the daily values and averaged
+							over the region of interest. Monthly anomalies are calculated by
+							subtracting the monthly climatology calculated over the whole mission
+							from the monthly data. The monthly percentage coverage of the region of
+							interest is also calculated. This has been done for the whole MODIS-AQUA
+							(July 2002 - Dec. 2010) time series.</para>
+            <para>The SST data come from version R2009.1 of the MODIS-AQUA data.</para>
+          </section>
+          <section>
+            <title>Sea Surface Temperature from AVHRR</title>
+            <para> Nighttime SST data are extracted using the NASA PO.DAAC Ocean ESIP
+							Tool (POET). The data are a 1 degree optimally interpolated SST data set
+							based on the combination of AVHRR satellite Thermal Infra-red and in
+							situ SST data. Monthly values are extracted for the region of interest
+							(15S-20S/145W-155W) and averaged over that region. The SST time-series
+							started in Dec. 1981.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) OCE-0417412 and OCE-1026851</para>
+      </funding>
+    </project>
+    <dataTable id="seawifs_modis_combined_monthly">
+      <entityName>Monthly ocean color and sea surface temperature</entityName>
+      <entityDescription>Sub-surface chlorophyll concentration and sub-surface adsorption coefficient, derived from SeaWiFS and MODIS AQUA, and particulate backscattering coefficient and night sea surface temperature from MODIS AQUA are aggregated monthly along with the standard deviation and anomaly for each of these monthly values.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_RemSens_SST_OC_1997_2013_Monthly_20140313.csv</objectName>
+        <size unit="Kb">63</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.5&amp;entityindex=1</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <references>3x4deg_box_SeaWiFS_AQUA</references>
+        </geographicCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="year">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1 year</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="month">
+          <attributeName>Month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Month of data analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1 month</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="first_day">
+          <attributeName>first_day</attributeName>
+          <attributeLabel>First Day</attributeLabel>
+          <attributeDefinition>First day of month</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>nominalDay</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="last_day">
+          <attributeName>last_day</attributeName>
+          <attributeLabel>Last Day</attributeLabel>
+          <attributeDefinition>Last day of month</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>nominalDay</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="mean_chl_seawifs">
+          <attributeName>mean_chl_seawifs</attributeName>
+          <attributeLabel>Mean Chlorophyll SeaWiFS</attributeLabel>
+          <attributeDefinition>Average monthly sub-surface chlorophyll concentration values derived from SeaWiFS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <coverage>
+            <geographicCoverage>
+              <references>3x4deg_box_SeaWiFS_AQUA</references>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>1997-09-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-10-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="stdev_chl_seawifs">
+          <attributeName>stdev_chl_seawifs</attributeName>
+          <attributeLabel>Std Dev Chlorophyll SeaWiFS</attributeLabel>
+          <attributeDefinition>Standard deviation of monthly sub-surface chlorophyll concentration values derived from SeaWiFS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="chl_anomaly_seawifs">
+          <attributeName>chl_anomaly_seawifs</attributeName>
+          <attributeLabel>Chlorophyll Anomaly SeaWiFS</attributeLabel>
+          <attributeDefinition>Anomaly in average monthly sub-surface chlorophyll concentration values derived from SeaWiFS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_chl_seawifs">
+          <attributeName>pct_valid_chl_seawifs</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mean_chl_aqua">
+          <attributeName>mean_chl_aqua</attributeName>
+          <attributeLabel>Mean Chlorophyll MODIS AQUA</attributeLabel>
+          <attributeDefinition>Average monthly sub-surface chlorophyll concentration values derived from MODIS AQUA.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <coverage>
+            <geographicCoverage>
+              <references>3x4deg_box_SeaWiFS_AQUA</references>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2002-07-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2013-12-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="stdev_chl_aqua">
+          <attributeName>stdev_chl_aqua</attributeName>
+          <attributeLabel>Std Dev Chlorophyll MODIS AQUA</attributeLabel>
+          <attributeDefinition>Standard deviation of monthly sub-surface chlorophyll concentration values derived from MODIS AQUA.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="chl_anomaly_aqua">
+          <attributeName>chl_anomaly_aqua</attributeName>
+          <attributeLabel>Chlorophyll Anomaly MODIS AQUA</attributeLabel>
+          <attributeDefinition>Anomaly in average monthly sub-surface chlorophyll concentration values derived from MODIS AQUA.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_chl_aqua">
+          <attributeName>pct_valid_chl_aqua</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_mean_seawifs">
+          <attributeName>cdm_mean_seawifs</attributeName>
+          <attributeLabel>Average monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Average monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_stdev_seawifs">
+          <attributeName>cdm_stdev_seawifs</attributeName>
+          <attributeLabel>Standard deviation monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Standard deviation of monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-06</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_anomaly_seawifs">
+          <attributeName>cdm_anomaly_seawifs</attributeName>
+          <attributeLabel>Anomaly in monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Anomaly in monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_cdm_seawifs">
+          <attributeName>pct_valid_cdm_seawifs</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_mean_aqua">
+          <attributeName>cdm_mean_aqua</attributeName>
+          <attributeLabel>Average monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Average monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_stdev_aqua">
+          <attributeName>cdm_stdev_aqua</attributeName>
+          <attributeLabel>Standard deviation monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Standard deviation of monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-06</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_anomaly_aqua">
+          <attributeName>cdm_anomaly_aqua</attributeName>
+          <attributeLabel>Anomaly in monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Anomaly in monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_cdm_aqua">
+          <attributeName>pct_valid_cdm_aqua</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mean_bbp_aqua">
+          <attributeName>mean_bbp_aqua</attributeName>
+          <attributeLabel>Average monthly particulate backscattering coefficient</attributeLabel>
+          <attributeDefinition>Average monthly particulate backscattering coefficient at 443 nm (bbp[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>10e-5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="stdev_bbp_aqua">
+          <attributeName>stdev_bbp_aqua</attributeName>
+          <attributeLabel>Average monthly particulate backscattering coefficient</attributeLabel>
+          <attributeDefinition>Average monthly particulate backscattering coefficient at 443 nm (bbp[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>10e-6</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bbp_anomaly_aqua">
+          <attributeName>bbp_anomaly_aqua</attributeName>
+          <attributeLabel>Anomaly in monthly particulate backscattering coefficient</attributeLabel>
+          <attributeDefinition>Anomaly in monthly particulate backscattering coefficient at 443 nm (bbp[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>10e-5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_bbp_aqua">
+          <attributeName>pct_valid_bbp_aqua</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mean_nsst_aqua">
+          <attributeName>mean_nsst_aqua</attributeName>
+          <attributeLabel>NSST mean</attributeLabel>
+          <attributeDefinition>Nighttime Sea Surface Temperature</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="stdev_nsst_aqua">
+          <attributeName>stdev_nsst_aqua</attributeName>
+          <attributeLabel>NSST standard deviation</attributeLabel>
+          <attributeDefinition>Sea Surface Temperature</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="nsst_anomaly_aqua">
+          <attributeName>nsst_anomaly_aqua</attributeName>
+          <attributeLabel>NSST anomaly</attributeLabel>
+          <attributeDefinition>Sea Surface Temperature anomaly</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_nsst_aqua">
+          <attributeName>pct_valid_nsst_aqua</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>204</numberOfRecords>
+    </dataTable>
+    <dataTable id="seawifs_modis_combined_weekly">
+      <entityName>Weekly ocean color and sea surface temperature</entityName>
+      <entityDescription>Sub-surface chlorophyll concentration and sub-surface adsorption coefficient, derived from SeaWiFS and MODIS AQUA, and particulate backscattering coefficient and night sea surface temperature from MODIS AQUA are aggregated weekly along with the standard deviation and anomaly for each of these weekly values. Weeks are defined as 8-day periods.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_RemSens_SST_OC_1997_2013_Weekly_20140319.csv</objectName>
+        <size unit="Kb">229</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.5&amp;entityindex=2</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <references>3x4deg_box_SeaWiFS_AQUA</references>
+        </geographicCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="year2">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1 year</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="month2">
+          <attributeName>Month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Month of data analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1 month</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="first_day2">
+          <attributeName>first_day</attributeName>
+          <attributeLabel>First Day</attributeLabel>
+          <attributeDefinition>Day of month of first day of 8-day period</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>nominalDay</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="last_day2">
+          <attributeName>last_day</attributeName>
+          <attributeLabel>Last Day</attributeLabel>
+          <attributeDefinition>Day of month of last day of 8-day period</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>nominalDay</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="mean_chl_seawifs2">
+          <attributeName>mean_chl_seawifs</attributeName>
+          <attributeLabel>Mean Chlorophyll SeaWiFS</attributeLabel>
+          <attributeDefinition>Average monthly sub-surface chlorophyll concentration values derived from SeaWiFS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <coverage>
+            <geographicCoverage>
+              <references>3x4deg_box_SeaWiFS_AQUA</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="stdev_chl_seawifs2">
+          <attributeName>stdev_chl_seawifs</attributeName>
+          <attributeLabel>Std Dev Chlorophyll SeaWiFS</attributeLabel>
+          <attributeDefinition>Standard deviation of monthly sub-surface chlorophyll concentration values derived from SeaWiFS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="chl_anomaly_seawifs2">
+          <attributeName>chl_anomaly_seawifs</attributeName>
+          <attributeLabel>Chlorophyll Anomaly SeaWiFS</attributeLabel>
+          <attributeDefinition>Anomaly in average monthly sub-surface chlorophyll concentration values derived from SeaWiFS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_chl_seawifs2">
+          <attributeName>pct_valid_chl_seawifs</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mean_chl_aqua2">
+          <attributeName>mean_chl_aqua</attributeName>
+          <attributeLabel>Mean Chlorophyll MODIS AQUA</attributeLabel>
+          <attributeDefinition>Average monthly sub-surface chlorophyll concentration values derived from MODIS AQUA.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <coverage>
+            <geographicCoverage>
+              <references>3x4deg_box_SeaWiFS_AQUA</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="stdev_chl_aqua2">
+          <attributeName>stdev_chl_aqua</attributeName>
+          <attributeLabel>Std Dev Chlorophyll MODIS AQUA</attributeLabel>
+          <attributeDefinition>Standard deviation of monthly sub-surface chlorophyll concentration values derived from MODIS AQUA.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="chl_anomaly_aqua2">
+          <attributeName>chl_anomaly_aqua</attributeName>
+          <attributeLabel>Chlorophyll Anomaly MODIS AQUA</attributeLabel>
+          <attributeDefinition>Anomaly in average monthly sub-surface chlorophyll concentration values derived from MODIS AQUA.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_chl_aqua2">
+          <attributeName>pct_valid_chl_aqua</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_mean_seawifs2">
+          <attributeName>cdm_mean_seawifs</attributeName>
+          <attributeLabel>Average monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Average monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_stdev_seawifs2">
+          <attributeName>cdm_stdev_seawifs</attributeName>
+          <attributeLabel>Standard deviation monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Standard deviation of monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-06</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_anomaly_seawifs2">
+          <attributeName>cdm_anomaly_seawifs</attributeName>
+          <attributeLabel>Anomaly in monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Anomaly in monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_cdm_seawifs2">
+          <attributeName>pct_valid_cdm_seawifs</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_mean_aqua2">
+          <attributeName>cdm_mean_aqua</attributeName>
+          <attributeLabel>Average monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Average monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_stdev_aqua2">
+          <attributeName>cdm_stdev_aqua</attributeName>
+          <attributeLabel>Standard deviation monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Standard deviation of monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-06</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cdm_anomaly_aqua2">
+          <attributeName>cdm_anomaly_aqua</attributeName>
+          <attributeLabel>Anomaly in monthly sub-surface absorption coefficient</attributeLabel>
+          <attributeDefinition>Anomaly in monthly sub-surface absorption coefficient of colored dissolved and detrital organic materials at 443 nm (acdm[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_cdm_aqua2">
+          <attributeName>pct_valid_cdm_aqua</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mean_bbp_aqua2">
+          <attributeName>mean_bbp_aqua</attributeName>
+          <attributeLabel>Average monthly particulate backscattering coefficient</attributeLabel>
+          <attributeDefinition>Average monthly particulate backscattering coefficient at 443 nm (bbp[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="stdev_bbp_aqua2">
+          <attributeName>stdev_bbp_aqua</attributeName>
+          <attributeLabel>Average monthly particulate backscattering coefficient</attributeLabel>
+          <attributeDefinition>Average monthly particulate backscattering coefficient at 443 nm (bbp[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bbp_anomaly_aqua2">
+          <attributeName>bbp_anomaly_aqua</attributeName>
+          <attributeLabel>Anomaly in monthly particulate backscattering coefficient</attributeLabel>
+          <attributeDefinition>Anomaly in monthly particulate backscattering coefficient at 443 nm (bbp[443]) derived from SeaWiFS data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_bbp_aqua2">
+          <attributeName>pct_valid_bbp_aqua</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mean_nsst_aqua2">
+          <attributeName>mean_nsst_aqua</attributeName>
+          <attributeLabel>NSST mean</attributeLabel>
+          <attributeDefinition>Nighttime Sea Surface Temperature</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="stdev_nsst_aqua2">
+          <attributeName>stdev_nsst_aqua</attributeName>
+          <attributeLabel>NSST standard deviation</attributeLabel>
+          <attributeDefinition>Sea Surface Temperature</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="nsst_anomaly_aqua2">
+          <attributeName>nsst_anomaly_aqua</attributeName>
+          <attributeLabel>NSST anomaly</attributeLabel>
+          <attributeDefinition>Sea Surface Temperature anomaly</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pct_valid_nsst_aqua2">
+          <attributeName>pct_valid_nsst_aqua</attributeName>
+          <attributeLabel>Percent of Values Available</attributeLabel>
+          <attributeDefinition>Percent of the possible values available used in this aggregate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>782</numberOfRecords>
+    </dataTable>
+    <dataTable id="SST_AVHRR">
+      <entityName>Average monthly sea surface temperature</entityName>
+      <entityDescription>Average monthly sea surface temperature from merged AVHRR and in situ data.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_RemSens_SST_OC_1985_2009_reynolds_Monthly_20100113.csv</objectName>
+        <size unit="Kb">6.9</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.5&amp;entityindex=3</url>
+          
+</online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <references>SST_AVHRR_box</references>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1985-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2009-03-03</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="sst_seq_day">
+          <attributeName>seq_day</attributeName>
+          <attributeLabel>Day Count</attributeLabel>
+          <attributeDefinition>Accumulative day counting from 1985-01-01</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1 day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="date_sst">
+          <attributeName>date</attributeName>
+          <attributeLabel>Date (YYYYMMDD)</attributeLabel>
+          <attributeDefinition>Month and Year of monthly mean</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYYMMDD</formatString>
+              <dateTimePrecision>1 month</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="sst_mean">
+          <attributeName>sst_mean</attributeName>
+          <attributeLabel>SST mean</attributeLabel>
+          <attributeDefinition>Sea Surface Temperature</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <coverage>
+            <geographicCoverage>
+              <references>SST_AVHRR_box</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="sst_anomaly">
+          <attributeName>sst_anomaly</attributeName>
+          <attributeLabel>SST anomaly</attributeLabel>
+          <attributeDefinition>Sea Surface Temperature anomaly</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>291</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="C" constantToSI="273.18" id="celsius" multiplierToSI="1" name="celsius" parentSI="kelvin">
+          <ns2:description>A common unit of temperature</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <ns2:description>a designation asserting the absence of an associated unit</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="mg/m&#179;" id="milligramsPerCubicMeter" multiplierToSI="0.000001" name="milligramsPerCubicMeter" parentSI="kilogramsPerCubicMeter" unitType="massDensity">
+          <ns2:description>milligrams Per Cubic Meter</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m-1" id="reciprocalMeter" multiplierToSI="1" name="reciprocalMeter" parentSI="perMeter" unitType="lengthReciprocal">
+          <ns2:description>per meter, describes optical properties</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

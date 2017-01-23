@@ -1,0 +1,953 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.57.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="57">
+    <alternateIdentifier>knb-lter-sbc.57</alternateIdentifier>
+    <shortName>Algal P vs. E and biomass</shortName>
+    <title>SBC LTER: Reef: Macrolgal photosynthetic parameters and biomass relationships</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="sharrer">
+      <individualName>
+        <givenName>Shannon</givenName>
+        <surName>Harrer</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-7295</phone>
+      <electronicMailAddress>harrer@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="dreed">
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>C</givenName>
+        <surName>Reed</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-8363</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>dan.reed@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="rmiller">
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>J</givenName>
+        <surName>Miller</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-6174</phone>
+      <electronicMailAddress>miller@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2013-05-14</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data tables contain the relationships used to estimate biomass
+        density from field measurements of abundance, and laboratory-derived values for
+        photosynthetic parameters (Pmax, alpha, and dark respiration) for 19 taxa of understory
+        macroalgae. Collectively, these taxa comprised 97% of the total understory macroalgal
+        biomass at the SBC LTER long-term kelp removal experiment sites during 2008-2011. 
+        Biomass density is derived from either a linear relationship (adults) or average
+        per capita biomass (juveniles). Relationships and photosynthetic parameters can be
+        combined with field
+        data on algal abundance and irradiance to estimate net primary production for the understory
+        assemblage community.</para>
+      <para>
+       These data were presented in:
+       <ulink url="http://dx.doi.org/10.1111/jpy.12023"> Harrer, S.L., D. C. Reed, R. J. Miller and S. J. Holbrook. 2013. 
+         Patterns and controls of the dynamics of net primary production by understory 
+         macroalgal assemblages in giant kelp forests. Journal of Phycology, 49: 248-257. DOI: 10.1111/jpy.12023</ulink>
+     </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">alpha</keyword>
+      <keyword keywordType="theme">dry mass</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">macroalgae</keyword>
+      <keyword keywordType="theme">marine plants</keyword>
+      <keyword keywordType="theme">photosynthesis</keyword>
+      <keyword keywordType="theme">pmax</keyword>
+      <keyword keywordType="theme">respiration</keyword>
+      <keyword keywordType="theme">Santa Barbara Coastal</keyword>
+      <keyword keywordType="theme">understory algae</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Kelp Forest</keyword>
+      <keyword keywordType="theme">Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ecosystem Processes</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Measurement Types</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Arroyo Quemado Reef</keyword>
+      <keyword keywordType="place">Carpinteria Reef</keyword>
+      <keyword keywordType="place">Mohawk Reef</keyword>
+      <keyword keywordType="place">Naples Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">abundance</keyword>
+      <keyword keywordType="theme">biomass</keyword>
+      <keyword keywordType="theme">long term ecological research</keyword>
+      <keyword keywordType="theme">marine</keyword>
+      <keyword keywordType="theme">measurements</keyword>
+      <keyword keywordType="theme">photosynthesis</keyword>
+      <keyword keywordType="theme">productivity</keyword>
+      <keyword keywordType="theme">respiration</keyword>
+      <keyword keywordType="theme">species</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1: Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Mass (property)</keyword>
+      <keyword keywordType="theme">Reefs</keyword>
+      <keywordThesaurus>NBII Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">Bossiella orbigniana</keyword>
+      <keyword keywordType="taxonomic">Callophyllis flabellulata</keyword>
+      <keyword keywordType="taxonomic">Chondracanthus corymbifera </keyword>
+      <keyword keywordType="taxonomic">Corallina chilensis</keyword>
+      <keyword keywordType="taxonomic">Cryptopleura ruprechtiana</keyword>
+      <keyword keywordType="taxonomic">Cystoseira osmundacea</keyword>
+      <keyword keywordType="taxonomic">Desmarestia ligulata</keyword>
+      <keyword keywordType="taxonomic">Dictyota</keyword>
+      <keyword keywordType="taxonomic">Ectocarpaceae</keyword>
+      <keyword keywordType="taxonomic">Gracilaria</keyword>
+      <keyword keywordType="taxonomic">Halymenia</keyword>
+      <keyword keywordType="taxonomic">Laminaria farlowii</keyword>
+      <keyword keywordType="taxonomic">Laurencia spectabalis</keyword>
+      <keyword keywordType="taxonomic">Macrocystis pyrifera</keyword>
+      <keyword keywordType="taxonomic">Polyneura latissima</keyword>
+      <keyword keywordType="taxonomic">Polysiphonia</keyword>
+      <keyword keywordType="taxonomic">Pseudolithophyllum</keyword>
+      <keyword keywordType="taxonomic">Pterosiphonia dendroidea</keyword>
+      <keyword keywordType="taxonomic">Pterygophora californica</keyword>
+      <keyword keywordType="taxonomic">Rhodymenia californica</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="AQUE">
+        <geographicDescription>AQUE: Arroyo Quemado Reef: Arroyo Quemado Reef depth range from 5.4m to 10.7m. There are 7 permanent transects: Transect I --- Transect VII. Reference on Land is close to US101/Arroyo Quemada Ln.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.11905</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.11905</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.46774988</northBoundingCoordinate>
+          <southBoundingCoordinate>34.46774988</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP">
+        <geographicDescription>Carpinteria Reef: Carpinteria: Carpinteria Reef's depth range is from 2.2 m to 8.8 m. There are 9 permanent transects: Transect 1 to Transect 9. Reference on land is Sand Point RD/ Ave del Mar.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.5416933</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.5416933</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3916319</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3916319</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOHK">
+        <geographicDescription>MOHK: Mohawk Reef: Mohawk Reef depth ranges from 4.5m to 6.0 m. Reference on land is Mohawk Rd / Edgewater Way.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.72957</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.72957</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3940708</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3940708</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL">
+        <geographicDescription>NAPL: Naples Reef: Naples Reef Depth range from 5.9mto 13.4 m. References on land is US101/Naples Access RD/RR1.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.95154</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.95154</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4221216</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4221216</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Pterygophora californica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Desmarestia ligulata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Rhodymenia californica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Chondracanthus corymbiferyus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Polyneura latissima</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Cystoseira osmundacea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Pseudolithophyllum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Pterosiphonia dendroidea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Corallina chilensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Laurencia spectabalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Gracilaria</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Polysiphonia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Halymenia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Bossiella orbigniana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>family</taxonRankName>
+          <taxonRankValue>Ectocarpaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Cryptopleura ruprechtiana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Laminaria farlowii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Callophyllis flabellulata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Dictyota</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Cystoseira osmundacea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Laminaria farlowii</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Equations relating measures of abundance to biomass and physiological measurements 
+            for 19 common kelp forest taxa. These data can be coupled with measures of biomass and 
+            seafloor irradiance to estimate taxon-specific primary production along the Santa Barbara 
+            coast.</para>
+          <para>
+            These methods were presented in:
+            <ulink url="http://dx.doi.org/10.1111/jpy.12023"> Harrer, S.L., D. C. Reed, R. J. Miller and S. J. Holbrook. 2013. 
+              Patterns and controls of the dynamics of net primary production by understory 
+              macroalgal assemblages in giant kelp forests. Journal of Phycology, 49: 248-257. DOI: 10.1111/jpy.12023</ulink></para>
+          
+        </description>
+        <protocol>
+          <title>Methods for determining macrolgal photosynthetic parameters and biomass relationships
+  </title>
+          <creator>
+            <individualName>
+              <surName>Harrer</surName>
+            </individualName>
+          </creator>
+          <creator>
+            <individualName>
+              <surName>Reed</surName>
+            </individualName>
+          </creator>
+          <creator>
+            <individualName>
+              <surName>Miller</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Reef/Protocols/NPP_macroalgae/SBC_LTER_20130513_Algal_PE_Biomass_Parameters.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="algal_pe_2011_adults">
+      <entityName>Algal PE, 2011, adults</entityName>
+      <entityDescription>Abundance-derived biomass estimates and photosynthesis-irradiance parameters (mass-specific production and respiration) for adult understory algae.</entityDescription>
+      <physical>
+        <objectName>Algal_PE_2011_adults.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Reef/Data/NPP_macroalgae/Algal_PE_2011_adults.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="algal_pe_2011_adults.phylum">
+          <attributeName>phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>Taxanomic Phylum</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Phaeophyta</code>
+                    <definition>Phylum is Phaeophyta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rhodophyta</code>
+                    <definition>Phylum is Rhodophyta.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.taxon">
+          <attributeName>taxon</attributeName>
+          <attributeLabel>Taxon</attributeLabel>
+          <attributeDefinition>Species binomial or genus</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.abundance_measurement">
+          <attributeName>abundance_measurement</attributeName>
+          <attributeLabel>Abundance measurement method</attributeLabel>
+          <attributeDefinition>The method used for measuring abundance; also the independent variable in the linear regression used to estimate biomass density (as g dry mass m-2)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>density of terminal blades and sporophylls greater than 30 cm (number m-2)</code>
+                    <definition>Abundance for this taxon is measured by the areal density of terminal blades and sporophylls greater than 30 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>percent cover</code>
+                    <definition>Abundance for this taxon is measured by percent cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>total blade-length (cm m-2)</code>
+                    <definition>Abundance for this taxon is measured by the areal density of the total length in of all blades</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>total lenght in cm of reproductive frond</code>
+                    <definition>Abundance for this taxon is measured by the areal density of the total length in cm of reproductive fronds.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.slope">
+          <attributeName>slope</attributeName>
+          <attributeLabel>Slope</attributeLabel>
+          <attributeDefinition>Slope of the relationship between abundance (various units) and biomass density (gram/meter2). Slope unit varies depending on abundance measurement method.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>biomassDensityUnitPerAbundanceUnit</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.r_squared">
+          <attributeName>r2</attributeName>
+          <attributeLabel>r squared</attributeLabel>
+          <attributeDefinition>The coefficient of determination for the linear regression between measurements of abundance and biomass density</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no coefficient of variation is calculated</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.n_slope">
+          <attributeName>n_slope</attributeName>
+          <attributeLabel>N</attributeLabel>
+          <attributeDefinition>Sample size of measurements in the slope calculation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.P_max">
+          <attributeName>P_max</attributeName>
+          <attributeLabel>P max</attributeLabel>
+          <attributeDefinition>Mass-specific production rate at saturating irradiance (mg C m-2 hr-1) (g dry mass) -1)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterSquaredPerHourPerGram</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not appropriate</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.p_max_se">
+          <attributeName>P_max Standard Error</attributeName>
+          <attributeLabel>P_max_SE</attributeLabel>
+          <attributeDefinition>Pmax standard error (mg C m-2 hr-1) (g dry mass) -1)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterSquaredPerHourPerGram</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not appropriate</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.alpha">
+          <attributeName>alpha</attributeName>
+          <attributeLabel>Alpha</attributeLabel>
+          <attributeDefinition>Mass specific production rate at non-saturating irradiance (mg C m-2 hr-1) (g dry mass) -1) / (&#181;mol photons m-2 sec-1)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>productionRatePerGramPerIrradiance</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not appropriate</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.alpha_se">
+          <attributeName>alpha_SE</attributeName>
+          <attributeLabel>Alpha Standard Error</attributeLabel>
+          <attributeDefinition>Standard error in units of (mg C m-2 hr-1) (g dry mass) -1) / (&#181;mol photons m-2 sec-1) for Mass specific production rate at non-saturating irradiance.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>productionRatePerGramPerIrradiance</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not appropriate</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.resp">
+          <attributeName>Resp</attributeName>
+          <attributeLabel>Respiration</attributeLabel>
+          <attributeDefinition>Mass specific respiration rate in the dark in units of (mg C m-2 hr-1) (g dry mass) -1)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterSquaredPerHourPerGram</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not appropriate</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.resp_se">
+          <attributeName>Resp_SE</attributeName>
+          <attributeLabel>Respiration Standard Error</attributeLabel>
+          <attributeDefinition>Standard error in units of (mg C m-2 hr-1) (g dry mass) -1) for mass specific respiration rate in the dark.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterSquaredPerHourPerGram</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not appropriate</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="algal_pe_2011_adults.N_Pmax_alpha_resp">
+          <attributeName>N_Pmax_Alpha_Resp</attributeName>
+          <attributeLabel>N for Pmax, Alpha and Respiration</attributeLabel>
+          <attributeDefinition>Sample size of individuals measured for Pmax, &#945; and respiration estimates.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not appropriate</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>20</numberOfRecords>
+    </dataTable>
+    <dataTable id="algal_pe_2011_juveniles">
+      <entityName>Algal PE, 2011, juveniles</entityName>
+      <entityDescription>Abundance-derived biomass estimates and photosynthesis-irradiance parameters (mass-specific production and respiration) for juvenile understory algae.</entityDescription>
+      <physical>
+        <objectName>Algal_PE_2011_juveniles.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Reef/Data/NPP_macroalgae/Algal_PE_2011_juveniles.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="algal_pe_2011_juveniles.phylum">
+          <attributeName>phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>Taxanomic Phylum</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Phaeophyta</code>
+                    <definition>Phylum is Phaeophyta</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_juveniles.taxon">
+          <attributeName>taxon</attributeName>
+          <attributeLabel>Taxon</attributeLabel>
+          <attributeDefinition>Species binomial or genus, and life history designation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_juveniles.abundance_measurement">
+          <attributeName>abundance_measurement</attributeName>
+          <attributeLabel>Abundance measurement method</attributeLabel>
+          <attributeDefinition>The method used for measuring abundance for this taxon, that can be multiplied by per capita dry mass to estimate biomass density as grams dry mass m-2</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>density of individuals (number m-2)</code>
+                    <definition>Abundance for this taxon is measured by the areal density of individuals</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_juveniles.per_capita_dry_mass">
+          <attributeName>per_capita_dry_mass</attributeName>
+          <attributeLabel>Per capita dry mass</attributeLabel>
+          <attributeDefinition>Average dry mass for an individual of this taxon; also the multiplier to produce biomass density from abundance measurement. See methods for more information.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gram</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="algal_pe_2011_juveniles.n_per_capita_dry_mass">
+          <attributeName>n_per_capita_dry_mass</attributeName>
+          <attributeLabel>N</attributeLabel>
+          <attributeDefinition>Number of values in the per capita dry mass calculation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit id="biomassDensityUnitPerAbundanceUnit" name="biomassDensityUnitPerAbundanceUnit">
+          <ns2:description>a ratio of two other units</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <ns2:description>a designation asserting the absence of an associated unit</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="g" id="gram" multiplierToSI="0.001" name="gram" parentSI="kilogram" unitType="mass">
+          <ns2:description>0.001 kg</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="milligramPerMeterSquaredPerHourPerGram" name="milligramPerMeterSquaredPerHourPerGram">
+          <ns2:description>specifc areal flux rate</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="number" name="number" unitType="dimensionless">
+          <ns2:description>a number</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="productionRatePerGramPerIrradiance" name="productionRatePerGramPerIrradiance">
+          <ns2:description>slope of a PI curve</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

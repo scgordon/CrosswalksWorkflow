@@ -1,0 +1,683 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cdr." scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+	<allow>
+		<principal>uid=CDR,o=lter,dc=ecoinformatics,dc=org</principal>
+		<permission>all</permission>
+	</allow>
+	<allow>
+		<principal>public</principal>
+		<permission>read</permission>
+	</allow>
+</access>
+<dataset>
+	<alternateIdentifier>knb-lter-cdr.phoe141.1</alternateIdentifier>
+	<shortName>phoe141</shortName>
+	<title>Photosynthesis (A max, etc.): BioCON :  Biodiversity, Elevated CO2, and N Enrichment</title>
+	<creator>
+		<individualName>
+			<givenName>Peter</givenName>
+			<surName>Reich</surName>
+		</individualName>
+	</creator>
+		<metadataProvider>
+		<organizationName>Cedar Creek LTER</organizationName>
+			<address>
+				<deliveryPoint>Cedar Creek Ecosystem Science Reserve</deliveryPoint>
+				<deliveryPoint>100 Ecology Building</deliveryPoint>
+				<deliveryPoint>1987 Upper Buford Circle</deliveryPoint>
+				<city>Saint Paul</city>
+				<administrativeArea>MN</administrativeArea>
+				<postalCode>55108</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">612-625-5740</phone>
+			<phone phonetype="fax">612-624-6777</phone>
+			<electronicMailAddress>webmaster@cedarcreek.umn.edu</electronicMailAddress>
+			<onlineUrl>http://www.cedarcreek.umn.edu/</onlineUrl>
+		</metadataProvider>
+	<pubDate>2012-07-03</pubDate>
+	<abstract>
+		<para>BioCON (Biodiversity, CO2, and Nitrogen) is an ecological experiment started in 1997 at the University of Minnesota's Cedar Creek Ecosystem Science Reserve. BioCON's goal is to explore the ways in which plant communities will respond to three environmental changes that are known to be occurring on a global scale: increasing nitrogen deposition, increasing atmospheric CO2, and decreasing biodiversity. 
+ 
+Why Biodiversity, CO2, and Nitrogen? 
+ 
+While there are many uncertainties in global change biology, there are also some well documented facts.  Some of these are: 
+ 
+1. The amount of carbon dioxide (CO2) in the atmosphere is rising.  Since the industrial revolution, the CO2 concentration in the atmosphere has increased from approximately 275 parts per million (ppm) to about 378 ppm today.  This has been largely the result of fossil fuel burning.  It is expected that CO2 levels will continue to rise, and that by the year 2050 these levels will be approximately 550 ppm.  CO2 is the raw material for photosynthesis and is known to affect plant growth and development. 
+ 
+2. The amount of nitrogen moving through terrestrial ecosystems has increased in the recent past.  While natural "background" levels of nitrogen fixation have remained constant, human additions to the system through fertilizer production and fossil fuel use have increased dramatically.  Nitrogen is a key nutrient for plant growth and plays a critical role in plant community structure and composition in many environments. 
+ 
+3. Biodiversity levels are falling. While the research and data are not as complete as they are for CO2 and nitrogen, data indicate that the number of species globally, is being reduced. Perhaps more important for ecosystem function, diversity levels on local to regional scales have fallen due to land use change, biotic invasion and many other drivers. 
+ 
+While much is known about how each of these factors affects ecosystem functioning, many questions remain.  There is also little data on how these issues affect each other, and what emergent qualities may arise when systems are exposed to these changes simultaneously.  BioCON seeks to address these issues with this multi-year study at Cedar Creek Ecosytem Science Preserve.</para>
+	</abstract>
+	<coverage>
+		<geographicCoverage id="geoReferenceID">
+			<geographicDescription> The Cedar Creek Ecosystem Science Reserve is located in Anoka and Isanti counties, approximately 30 miles north of Saint Paul, MN. CCNHA lies at the boundary between prairie and forest. It is a mosaic of uplands dominated by oak savanna, prairie, hardwood forest, pine forests,and abandoned agricultural fields and of lowlands comprised of ash and cedar swamps, acid bogs, marshes, and sedge meadows. Large tracts of the pre-agricultural ecosystems of the region are preserved within its boundaries, as is a successional chronosequence of more than 80 old fields of known history.</geographicDescription>
+			<boundingCoordinates>
+				<westBoundingCoordinate>-93.22445</westBoundingCoordinate>
+				<eastBoundingCoordinate>-93.16289</eastBoundingCoordinate>
+				<northBoundingCoordinate>45.44138</northBoundingCoordinate>
+				<southBoundingCoordinate>45.384865</southBoundingCoordinate>
+			</boundingCoordinates>
+		</geographicCoverage>
+		<temporalCoverage>
+			<rangeOfDates>
+				<beginDate><calendarDate>1998</calendarDate></beginDate>
+				<endDate><calendarDate>2008</calendarDate></endDate>
+			</rangeOfDates>
+		</temporalCoverage>
+	</coverage>
+	<contact>
+		<individualName>
+			<givenName>Dan</givenName>
+			<surName>Bahauddin</surName>
+		</individualName>
+		<organizationName>Cedar Creek Ecosystem Science Reserve</organizationName>
+		<positionName>Information Manager</positionName>
+		<address>
+			<deliveryPoint>Ecology Evolution and Behaviour Dept. University Of Minnesota</deliveryPoint>
+			<deliveryPoint>100 Ecology Building</deliveryPoint>
+			<deliveryPoint>1987 Upper Buford Circle</deliveryPoint>
+			<city>Saint Paul</city>
+			<administrativeArea>MN</administrativeArea>
+			<postalCode>55108</postalCode>
+			<country>USA</country>
+		</address>
+		<phone phonetype="voice">612-625-5740</phone>
+		<phone phonetype="fax">612-624-6777</phone>
+		<electronicMailAddress>webmaster@cedarcreek.umn.edu</electronicMailAddress>
+	</contact>
+		<methods>
+			<methodStep>
+				<description>
+					<para>
+						<itemizedlist>
+							<listitem>
+								<para>FACE Technology</para>
+							</listitem>
+							<listitem>
+								<para>BioCON uses a unique Free Air CO2 Enrichment (FACE) technology to elevate the atmospheric concentration of CO2 in the experimental plots.  The FACE system used in the BioCON experiment was developed at Brookhaven National Laboratory.  It uses natural wind conditions to carry CO2 enriched air across the vegetation.  Because the plants are outside in a more natural environment, the chamber effects normally created by enclosures such as greenhouses are reduced or eliminated.</para>
+							</listitem>
+						</itemizedlist>
+					</para>
+				</description>
+			</methodStep>
+			<methodStep>
+				<description>
+					<para>
+						<itemizedlist>
+							<listitem>
+								<para>Weeding</para>
+							</listitem>
+							<listitem>
+								<para>Weeds were placed in paper bags labeled with the plot number and date. Sometimes we sorted the weeds into categories; sixteen species weeds - weeds that were in the experiment but were not in the plot, and real weeds - weeds that were not in the experiment and found in the plot. All of the species that were not supposed to be in the plot were pulled.  Weeding tools were used to try to get out all of the roots of each plant without damaging other plants surrounding it.  The weeds were then put into one of the bags identified above and all of the bags were combined and placed into a main or &amp;quot;big&amp;quot; bag.  If soil was disturbed during the process of extracting plants, we made sure to smooth it out afterwards.  All weeds were dried and weighed.</para>
+							</listitem>
+						</itemizedlist>
+					</para>
+				</description>
+			</methodStep>
+			<methodStep>
+				<description>
+					<para>
+						<itemizedlist>
+							<listitem>
+								<para>Burning</para>
+							</listitem>
+							<listitem>
+								<para>We burned BioCON approximately every other spring. First we burned a ring from one side to another. Then we went through the ring and spot burned the areas that did not burn well during the first burn. We followed this procedure for each ring.</para>
+							</listitem>
+						</itemizedlist>
+					</para>
+				</description>
+			</methodStep>
+			<methodStep>
+				<description>
+					<para>
+						<itemizedlist>
+							<listitem>
+								<para>Fertilizer</para>
+							</listitem>
+							<listitem>
+								<para>We used 4 g NH4NO3/ M2/year and 0.474g 15NH415NO3 /plot/year. First, we filled a small tin full of soil (approximately 100g) and put it in a bucket. We did this 31 times for ring one. Each ring will have a varying number of tins full of soil based on the number of plots in that ring that are receiving the nitrogen application. We then added 3.28g 15NH415NO3 in the ring one bucket (each ring will have a different amount depending on the number of N addition plots in that ring).  If the ring has 30 plots to receive the application 3.17g of 15NH415NO3 were added. If the ring has 32 plots to receive the application 3.39 g of 15 NH415NO3 were added. We mixed up the contents in the bucket and then placed a tin full of soil in each 2lb paper bag labeled with the plots for ring one.  We then placed 15.69g of NH4NO3 in each paper bag and mixed the soil with the15N and the NH4NO3 as much as possible. We then repeated this with the appropriate number of tins of soil per bucket and appropriate amounts of 15N for each subsequent ring.  When applying the fertilizer, we mentally created four equal squares in the plot and tried to place equal amounts of fertilizer in each of the four squares.</para>
+							</listitem>
+						</itemizedlist>
+					</para>
+				</description>
+			</methodStep>
+		</methods>
+	<dataTable>
+		<entityName>e141_Photosynthesis (A max, etc.)</entityName>
+		<physical>
+			<objectName>e141_Photosynthesis (A max, etc.).txt</objectName>
+			<size unit="rows">5299</size>
+			<characterEncoding>ASCCII</characterEncoding>
+			<dataFormat>
+				<textFormat>
+					<numHeaderLines>1</numHeaderLines>
+					<numFooterLines>0</numFooterLines>
+					<recordDelimiter>\r</recordDelimiter>
+					<attributeOrientation>column</attributeOrientation>
+					<simpleDelimited>
+						<fieldDelimiter>\t</fieldDelimiter>
+					</simpleDelimited>
+				</textFormat>
+			</dataFormat>
+		<distribution id="dist_knb-lter-cdr.">
+		<online>
+			<url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-cdr.&amp;urlTail=lno_data_request.php?input=phoe141</url>
+		</online>
+		<access authSystem="knb" order="allowFirst" scope="document">
+			<allow>
+				<principal>uid=CDR,o=lter,dc=ecoinformatics,dc=org</principal>
+				<permission>all</permission>
+			</allow>
+			<allow>
+				<principal>public</principal>
+				<permission>read</permission>
+			</allow>
+		</access>
+		</distribution>
+	</physical>
+	<attributeList>
+		<attribute>
+			<attributeName>yr</attributeName>
+			<attributeDefinition>year</attributeDefinition>
+			<measurementScale>
+				<dateTime>
+					<formatString>YYYY</formatString>
+				</dateTime>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>plot</attributeName>
+			<attributeDefinition>Plot</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<textDomain>
+							<definition>Plot</definition>
+						</textDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>Ring</attributeName>
+			<attributeDefinition>Ring</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<textDomain>
+							<definition>Ring</definition>
+						</textDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>CO2 Treatment</attributeName>
+			<attributeDefinition>Cedar Creek CO2 Treatment</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<enumeratedDomain>
+							<codeDefinition>
+								<code>Cenriched</code>
+								<definition>564ppm</definition>
+							</codeDefinition>
+							<codeDefinition>
+								<code>Camb</code>
+								<definition>ambiant Carbon</definition>
+							</codeDefinition>
+						</enumeratedDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>Nitrogen Treatment</attributeName>
+			<attributeDefinition>Cedar Creek Nitrogen Treatment</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<enumeratedDomain>
+							<codeDefinition>
+								<code>Nenrich</code>
+								<definition>4g NH4NO3 per MeterSquared per year</definition>
+							</codeDefinition>
+							<codeDefinition>
+								<code>Namb</code>
+								<definition>Ambiant Nitrogen</definition>
+							</codeDefinition>
+						</enumeratedDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>CountOfSpecies</attributeName>
+			<attributeDefinition>Count Of Species</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>count</customUnit>
+					</unit>
+					<precision>1</precision>
+					<numericDomain>
+						<numberType>whole</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>CountOfGroup</attributeName>
+			<attributeDefinition>Count of functional Groups</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>count</customUnit>
+					</unit>
+					<precision>1</precision>
+					<numericDomain>
+						<numberType>whole</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>Experiment</attributeName>
+			<attributeDefinition>Experiment Design</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<enumeratedDomain>
+							<codeDefinition>
+								<code>M</code>
+								<definition>Part of Main experimental design</definition>
+							</codeDefinition>
+							<codeDefinition>
+								<code>S</code>
+								<definition>Part of a Subexperiment</definition>
+							</codeDefinition>
+						</enumeratedDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>monospecies</attributeName>
+			<attributeDefinition>Singular Species of Plot</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<textDomain>
+							<definition>Singular Species of Plot</definition>
+						</textDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>Monogroup</attributeName>
+			<attributeDefinition>Singular Functional Group of Plot</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<textDomain>
+							<definition>Singular Functional Group of Plot</definition>
+						</textDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>rep</attributeName>
+			<attributeDefinition>Identifyer indicating unique instance of repeating measure</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<textDomain>
+							<definition>Identifyer indicating unique instance of repeating measure</definition>
+						</textDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>date</attributeName>
+			<attributeDefinition>date</attributeDefinition>
+			<measurementScale>
+				<dateTime>
+					<formatString>DD-MMM-YY</formatString>
+				</dateTime>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>time</attributeName>
+			<attributeDefinition>time HHmm</attributeDefinition>
+			<measurementScale>
+				<dateTime>
+					<formatString>HHmm</formatString>
+				</dateTime>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>atgrwth?</attributeName>
+			<attributeDefinition>atgrowth = CO2 concentration of measurment equivalent to the ring concentration | other =measurement taken at the CO2 concentration of the other treatment</attributeDefinition>
+			<measurementScale>
+				<nominal>
+					<nonNumericDomain>
+						<textDomain>
+							<definition>atgrowth = CO2 concentration of measurment equivalent to the ring concentration | other =measurement taken at the CO2 concentration of the other treatment</definition>
+						</textDomain>
+					</nonNumericDomain>
+				</nominal>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>par</attributeName>
+			<attributeDefinition>photosynthetically active radiation</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>micromolesPerMole</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>E</attributeName>
+			<attributeDefinition>transpiration rate</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>molesPerSquareMeterPerSecond</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>ps-area</attributeName>
+			<attributeDefinition>assimilation rate on a leaf area basis, umol CO2 m-2 s-1</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>micromolesPerSquareMeterPerSecond</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>tleaf</attributeName>
+			<attributeDefinition>leaf temperature estimate, &#176;C</attributeDefinition>
+			<measurementScale>
+				<interval>
+					<unit>
+						<customUnit>celcius</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</interval>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>gs</attributeName>
+			<attributeDefinition>stomatal conductance to water vapor, mol m-2 s-1</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>molesPerSquareMeterPerSecond</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>wue</attributeName>
+			<attributeDefinition>water-use efficiency (mmol CO2/mol H20)</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>millimolesPerMole</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>A/gs</attributeName>
+			<attributeDefinition>instantaneous water use efficienty (photosynthesis rate/stomatal conductance, mmol mol-1)</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>millimolesPerMole</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>sla</attributeName>
+			<attributeDefinition>specific leaf area, cm2/g</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>centimetersSquaredPerGram</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>p-mass</attributeName>
+			<attributeDefinition>assimilation rate on a leaf mass basis, nmol CO2 g-1 s-1</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>nanomolesPerGramPerSecond</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>%N</attributeName>
+			<attributeDefinition>percent nitrogen in leaf</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>percent</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>%N</attributeName>
+			<attributeDefinition>percent nitrogen in leaf</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>percent</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>%N</attributeName>
+			<attributeDefinition>percent nitrogen in leaf</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>percent</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>%C</attributeName>
+			<attributeDefinition>percent carbon in leaf</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>percent</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>%C</attributeName>
+			<attributeDefinition>percent carbon in leaf</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>percent</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>%C</attributeName>
+			<attributeDefinition>percent carbon in leaf</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>percent</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>C:N</attributeName>
+			<attributeDefinition>Leaf Carbon/Nitrogen Ratio</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>dimensionless</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>mgN/glf</attributeName>
+			<attributeDefinition>milligrams of Nitrogen/gram of leaf</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>milligramsPerGram</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>gN/m2</attributeName>
+			<attributeDefinition>grams nitrogen per meter squared</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>gramsPerSquareMeter</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>PNUE</attributeName>
+			<attributeDefinition>Photosynthetic N Use Efficiency (photosythesis rate / leaf nitrogen concentration, umol co2 gN-1 s-1)</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>microMolesPerGramsPerSecond</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+	</attributeList>
+	</dataTable>
+</dataset>
+<additionalMetadata>
+	<metadata>
+		<ns2:unitList>
+			<ns2:unit id="count" name="count">
+				<ns2:description>count</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="micromolesPerMole" name="micromolesPerMole">
+				<ns2:description>micromolesPerMole</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="molesPerSquareMeterPerSecond" name="molesPerSquareMeterPerSecond">
+				<ns2:description>molesPerSquareMeterPerSecond</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="micromolesPerSquareMeterPerSecond" name="micromolesPerSquareMeterPerSecond">
+				<ns2:description>micromolesPerSquareMeterPerSecond</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="celcius" name="celcius">
+				<ns2:description>celcius</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="millimolesPerMole" name="millimolesPerMole">
+				<ns2:description>millimolesPerMole</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="centimetersSquaredPerGram" name="centimetersSquaredPerGram">
+				<ns2:description>centimetersSquaredPerGram</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="percent" name="percent">
+				<ns2:description>percent</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="milligramsPerGram" name="milligramsPerGram">
+				<ns2:description>milligramsPerGram</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="microMolesPerGramsPerSecond" name="microMolesPerGramsPerSecond">
+				<ns2:description>microMolesPerGramsPerSecond</ns2:description>
+			</ns2:unit>
+		</ns2:unitList>
+	</metadata>
+</additionalMetadata>
+</ns0:eml>

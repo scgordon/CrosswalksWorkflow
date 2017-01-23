@@ -1,0 +1,1418 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.54.19" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF054">
+      <alternateIdentifier>HF054</alternateIdentifier>
+      <title>Community and Ecosystem Impacts in Hemlock Removal Experiment at Harvard Forest since 2003</title>
+      <creator>
+         <individualName>
+            <givenName>David</givenName>
+            <surName>Orwig</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>David</givenName>
+            <surName>Foster</surName>
+         </individualName>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Heidi</givenName>
+            <surName>Lux</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2009</pubDate>
+      <abstract>
+         <section>
+            <para>Hemlock decline in New England is caused by direct and indirect effects of invasion of the hemlock woolly adelgid.  Direct damage from the insect is causing gradual mortality of hemlock, and widespread harvesting of hemlock in advance of mortality creates a contrasting disturbance.  Although both processes affect thousands of acres of forest annually, we have only a limited understanding of their effects on forest ecosystem function and productivity and the nature of the subsequent forest community. We anticipate that harvesting will yield different consequences than gradual mortality from the insect. Therefore we have designed an experiment to simulate the impact of both in order to contrast them. To simulate some of the effects of the adelgid (e.g., progressive mortality, retention of the wood on the site) we are girdling all hemlocks in a hemlock-dominated stand. In the adjacent area we are conducting a commercial harvesting of hemlock. Results from both experimental treatments will be compared to the changes observed in forests that are being infested by the adelgid, and can also be included in integrated analyses of a suite of large experiments that form a core component of the Harvard Forest LTER program.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>air temperature</keyword>
+         <keyword>hemlock</keyword>
+         <keyword>hemlock woolly adelgid</keyword>
+         <keyword>nitrogen mineralization</keyword>
+         <keyword>soil chemistry</keyword>
+         <keyword>soil temperature</keyword>
+         <keyword>successional dynamics</keyword>
+         <keyword>timber harvest</keyword>
+         <keyword>tree mortality</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf054</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Simes Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.22</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.21</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.48</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.47</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>200</altitudeMinimum>
+                  <altitudeMaximum>240</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2003-08-05</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2010-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+         <taxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Adelges</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>tsugae</taxonRankValue>
+                  <commonName>hemlock woolly adelgid</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Betula</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>lenta</taxonRankValue>
+                  <commonName>black birch</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Tsuga</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>canadensis</taxonRankValue>
+                  <commonName>eastern hemlock</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>data updated 2012-05-09</para>
+         </description>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>David</givenName>
+            <surName>Orwig</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>orwig@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Nitrogen mineralization was measured using 4 closed-topped cores at each of eight 30 x 30 m plots.  Sampling occurred at 5-week intervals during each growing season with one set of cores left over winter.  An additional assessment of forest floor N availability and mobility was determined from mixed-bed cation + anion resin bags that were buried for 6-month intervals at the organic layer-mineral layer interface (ca. 5 cm) in each sampling plot.  Soil temperature at 1 and 5 cm depths were measured at each soil sampling plot every 30 minutes throughout the growing season using iButton temperature data loggers.</para>
+                  <para>Soil samples were returned to the laboratory on ice and processed the next day.  Organic and mineral soils were passed through a 5.0 mm mesh screen, weighed for total mass, and subsampled for gravimetric moisture and inorganic N.  NH4-N and NO3-N were extracted from all soils using 1M KCl and from resin bags using 2M KCl and concentrations were determined colorimetrically with a Lachat flow-injection 8500 autoanalyzer.</para>
+                  <para>We determined the following properties of soils collected during our initial sampling at each site: organic matter by loss on ignition (5.5 hrs at 550 oC), pH in a soil and CaCl2 slurry (1:10 organic soil:solution; 1:4 mineral soil:solution), and total C and N content by dry combustion with our Fisons CHN autoanalyzer.  Remaining organic and mineral soils were air-dried and stored in our sample archive.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf054-01">
+         <entityName>hf054-01-air-temp.csv</entityName>
+         <entityDescription>air temperature</entityDescription>
+         <physical id="1240584055936">
+            <objectName>hf054-01-air-temp.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p05/hf054/hf054-01-air-temp.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1240584057249">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584057265">
+               <attributeName>month</attributeName>
+               <attributeDefinition>month</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>month</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584057280">
+               <attributeName>day</attributeName>
+               <attributeDefinition>day of month</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584057296">
+               <attributeName>time</attributeName>
+               <attributeDefinition>time</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584057311">
+               <attributeName>am_pm</attributeName>
+               <attributeDefinition>am or pm</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>am or pm</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584057327">
+               <attributeName>airt_7</attributeName>
+               <attributeDefinition>air temperature plot 7</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584057343">
+               <attributeName>airt_8</attributeName>
+               <attributeDefinition>air temperature plot 8</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>6848</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf054-02">
+         <entityName>hf054-02-soil-temp.csv</entityName>
+         <entityDescription>soil temperature</entityDescription>
+         <physical id="1240584656267">
+            <objectName>hf054-02-soil-temp.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p05/hf054/hf054-02-soil-temp.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1240584657267">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584657283">
+               <attributeName>month</attributeName>
+               <attributeDefinition>month</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>month</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584657299">
+               <attributeName>day</attributeName>
+               <attributeDefinition>day of month</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584657314">
+               <attributeName>time</attributeName>
+               <attributeDefinition>time</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584657330">
+               <attributeName>am_pm</attributeName>
+               <attributeDefinition>am or pm</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>am or pm</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240584657345">
+               <attributeName>1 M</attributeName>
+               <attributeDefinition>hourly mineral soil temperature, PLOT 1(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657361">
+               <attributeName>1 O</attributeName>
+               <attributeDefinition>hourly organic soil temperature, PLOT 1(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657377">
+               <attributeName>2 M</attributeName>
+               <attributeDefinition>hourly mineral soil temperature, PLOT 2(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657392">
+               <attributeName>2 O</attributeName>
+               <attributeDefinition>hourly organic soil temperature, PLOT 2(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657408">
+               <attributeName>3 M</attributeName>
+               <attributeDefinition>hourly mineral soil temperature, PLOT 3(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657424">
+               <attributeName>3 O</attributeName>
+               <attributeDefinition>hourly organic soil temperature, PLOT 3(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657439">
+               <attributeName>4 M</attributeName>
+               <attributeDefinition>hourly mineral soil temperature, PLOT 4(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657455">
+               <attributeName>4 O</attributeName>
+               <attributeDefinition>hourly organic soil temperature, PLOT 4(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657470">
+               <attributeName>5 M</attributeName>
+               <attributeDefinition>hourly mineral soil temperature, PLOT 5(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657486">
+               <attributeName>5 O</attributeName>
+               <attributeDefinition>hourly organic soil temperature, PLOT 5(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657502">
+               <attributeName>6 M</attributeName>
+               <attributeDefinition>hourly mineral soil temperature, PLOT 6(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657517">
+               <attributeName>6 O</attributeName>
+               <attributeDefinition>hourly organic soil temperature, PLOT 6(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657533">
+               <attributeName>7 M</attributeName>
+               <attributeDefinition>hourly mineral soil temperature, PLOT 7(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657549">
+               <attributeName>7 O</attributeName>
+               <attributeDefinition>hourly organic soil temperature, PLOT 7(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657564">
+               <attributeName>8 M</attributeName>
+               <attributeDefinition>hourly mineral soil temperature, PLOT 8(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240584657580">
+               <attributeName>8 O</attributeName>
+               <attributeDefinition>hourly organic soil temperature, PLOT 8(GIRDLE)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>17996</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf054-03">
+         <entityName>hf054-03-nmin.csv</entityName>
+         <entityDescription>nitrogen mineralization</entityDescription>
+         <physical id="1240586145564">
+            <objectName>hf054-03-nmin.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p05/hf054/hf054-03-nmin.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1240586146533">
+               <attributeName>series</attributeName>
+               <attributeDefinition>incubation series.  Even number represents the initial core # for each series, starting 
+with series 2. The net mineralization value is core 1minus core 2, then core 4- core 3, etc.</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>incubation series</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146549">
+               <attributeName>core in</attributeName>
+               <attributeDefinition>date soil incubation began , in situ</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146564">
+               <attributeName>core out</attributeName>
+               <attributeDefinition>date soil care incubation ended</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146580">
+               <attributeName>Incubation</attributeName>
+               <attributeDefinition>number of days core was in the soil</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586146595">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146611">
+               <attributeName>horizon</attributeName>
+               <attributeDefinition>soil horizon</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>O</code>
+                              <definition>organic horizon</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>M</code>
+                              <definition>mineral horizon</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146699">
+               <attributeName>block</attributeName>
+               <attributeDefinition>block type</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>valley</code>
+                              <definition>valley</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ridge</code>
+                              <definition>ridge</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146627">
+               <attributeName>treatment</attributeName>
+               <attributeDefinition>experimental treatment</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>girdle</code>
+                              <definition>girdle</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>log</code>
+                              <definition>logged</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>control</code>
+                              <definition>control</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>hw control</code>
+                              <definition>hardwood control</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146642">
+               <attributeName>plot</attributeName>
+               <attributeDefinition>experimental plot number (1-8)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>experimental plot number</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146658">
+               <attributeName>sub plot</attributeName>
+               <attributeDefinition>subplot number (1-32), there are 4 subplots in each plot</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>subplot number</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586146674">
+               <attributeName>net NH4-N</attributeName>
+               <attributeDefinition>final core &#8211; initial core extracted Nitrogen in the form of ammonium</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerKilogram</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586146689">
+               <attributeName>net NO3-N</attributeName>
+               <attributeDefinition>final core &#8211; initial core extracted Nitrogen in the form of nitrate</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerKilogram</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586146705">
+               <attributeName>core wgt</attributeName>
+               <attributeDefinition>soil core weight</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586146720">
+               <attributeName>core area</attributeName>
+               <attributeDefinition>area</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>hectare</standardUnit>
+                     </unit>
+                     <precision>0.000000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586146736">
+               <attributeName>net NH4-N</attributeName>
+               <attributeDefinition>final core &#8211; initial core extracted Nitrogen in the form of ammonium</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramsPerHectare</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586146752">
+               <attributeName>net NO3-N</attributeName>
+               <attributeDefinition>final core &#8211; initial core extracted Nitrogen in the form of nitrate</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <customUnit>milligramPerKilogram</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586146767">
+               <attributeName>moisture</attributeName>
+               <attributeDefinition>total evaporable moisture content of sample 
+([g moist soil)-(g dry soil)]/(g dry soil)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1664</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf054-04">
+         <entityName>hf054-04-resin.csv</entityName>
+         <entityDescription>resin data</entityDescription>
+         <physical id="1240586472000">
+            <objectName>hf054-04-resin.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p05/hf054/hf054-04-resin.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1240586472796">
+               <attributeName>gs/ow</attributeName>
+               <attributeDefinition>resin bags are deployed in the soil for the growing season (May-Oct) or over winter (Oct-May)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>OW</code>
+                              <definition>over winter</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>GS</code>
+                              <definition>growing season</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586472812">
+               <attributeName>start-date</attributeName>
+               <attributeDefinition>start date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586472827">
+               <attributeName>end-date</attributeName>
+               <attributeDefinition>end date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586472843">
+               <attributeName>site</attributeName>
+               <attributeDefinition>research site</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>ST</code>
+                              <definition>Simes Tract</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586472859">
+               <attributeName>treatment</attributeName>
+               <attributeDefinition>experimental treatment</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>girdle</code>
+                              <definition>girdled</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>log</code>
+                              <definition>logged</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>control</code>
+                              <definition>control</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>HW control</code>
+                              <definition>hardwood control</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586472874">
+               <attributeName>plot</attributeName>
+               <attributeDefinition>experimental plot (1-8)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>experimental plot (1-8)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586472890">
+               <attributeName>subplot</attributeName>
+               <attributeDefinition>subplot (1-32), there are 4 subplots in each plot</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>subplot (1-32)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586472905">
+               <attributeName>NH4-N</attributeName>
+               <attributeDefinition>Nitrogen in the form of ammonium in solution extract</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>milligramsPerLiter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586472921">
+               <attributeName>NO3-N</attributeName>
+               <attributeDefinition>Nitrogen in the form of nitrate in solution extract</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>milligramsPerLiter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586472937">
+               <attributeName>NH4-N</attributeName>
+               <attributeDefinition>Nitrogen in the form of ammonium captured in resin</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>microgramsPerGram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586472952">
+               <attributeName>NO3-N</attributeName>
+               <attributeDefinition>Nitrogen in the form of nitrate captured in resin</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>microgramsPerGram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>384</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf054-05">
+         <entityName>hf054-05-soil-chemistry.csv</entityName>
+         <entityDescription>soil chemistry</entityDescription>
+         <physical id="1240586731767">
+            <objectName>hf054-05-soil-chemistry.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p05/hf054/hf054-05-soil-chemistry.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1240586732438">
+               <attributeName>Site</attributeName>
+               <attributeDefinition>research site</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>ST</code>
+                              <definition>Simes Tract</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586732454">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586732470">
+               <attributeName>plot</attributeName>
+               <attributeDefinition>experimental plot (1-8)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>experimental plot (1-8)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586732485">
+               <attributeName>trmt</attributeName>
+               <attributeDefinition>experimental treatment</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>girdle</code>
+                              <definition>girdled</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>log</code>
+                              <definition>logged</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>control</code>
+                              <definition>control</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>hw control</code>
+                              <definition>hardwood control</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586732501">
+               <attributeName>subplot</attributeName>
+               <attributeDefinition>experimental subplot (1-32), there are 4 subplots per plot</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>experimental subplot (1-32)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586732517">
+               <attributeName>horizon</attributeName>
+               <attributeDefinition>soil horizon</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>O</code>
+                              <definition>organic horizon</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>M</code>
+                              <definition>minteral horizon</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1240586732532">
+               <attributeName>pH</attributeName>
+               <attributeDefinition>soil pH</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586732548">
+               <attributeName>% N</attributeName>
+               <attributeDefinition>sample content percent nitrogen</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586732563">
+               <attributeName>% C</attributeName>
+               <attributeDefinition>sample content percent carbon</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1240586732579">
+               <attributeName>C:N</attributeName>
+               <attributeDefinition>sample carbon:nitrogen ratio</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>64</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>ongoing</status>
+            <researchTopic>plot</researchTopic>
+            <researchTopic>community</researchTopic>
+            <studyType>long-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Impacts of Hemlock Woolly Adelgid at the Arnold Arboretum 2004-2007">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf061</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <ns2:unitList convention="CML">
+            <ns2:unit constantToSI="0.0" id="milligramPerKilogram" multiplierToSI="0.000001" name="milligramPerKilogram" parentSI="kilogramPerKilogram" unitType="massPerMass" />
+         </ns2:unitList>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

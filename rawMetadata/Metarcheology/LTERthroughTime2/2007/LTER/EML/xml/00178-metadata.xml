@@ -1,0 +1,1404 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.4011.4" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+   <allow>
+    <principal>uid=MCM,o=lter,dc=ecoinformatics,dc=org</principal>
+    <permission>all</permission>
+   </allow>
+   <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+   </allow>
+  </access>
+<dataset>
+<shortName>soil_snowfence</shortName>
+<title>Soils Snowfence Nematode and Metazoa Survey Experiment</title>
+<creator>
+   <individualName>
+    <givenName>Diana</givenName>
+    <surName>Wall</surName>
+   </individualName>
+   <address>
+   <deliveryPoint>NREL</deliveryPoint>
+   <deliveryPoint>Colorado State University</deliveryPoint>
+   <city>Fort Collins</city>
+   <administrativeArea>CO</administrativeArea>
+   <postalCode>80523</postalCode>
+   <country>USA</country>
+  </address>
+   <phone phonetype="voice">970-491-2504</phone>
+   <electronicMailAddress>diana@nrel.colostate.edu</electronicMailAddress>
+  </creator>
+<creator>
+   <individualName>
+    <givenName>Ross</givenName>
+    <surName>Virginia</surName>
+   </individualName>
+   <address>
+   <deliveryPoint>Environmental Studies Program</deliveryPoint>
+   <deliveryPoint>Dartmouth College</deliveryPoint>
+   <city>Hanover</city>
+   <administrativeArea>NH</administrativeArea>
+   <postalCode>03755</postalCode>
+   <country>USA</country>
+  </address>
+   <phone phonetype="voice">603-646-0192</phone>
+   <electronicMailAddress>Ross.A.Virginia@Dartmouth.edu</electronicMailAddress>
+  </creator>
+<metadataProvider>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </metadataProvider>
+  <pubDate>2006</pubDate>
+<abstract>
+   <section>
+    <para>
+Increases in soil moisture from snow packs may influence distribution and abundances 
+      of soil invertebrates. In this study, two snow fences were erected in Lake Fryxell and Lake Bonney 
+      basins to trap snow and examine the effects of increased snow pack on soil physical, chemical and
+      biological properties. 
+    </para>
+   </section>
+  </abstract>
+<keywordSet>
+   <keyword keywordType="theme">snow melt</keyword>
+   <keyword keywordType="theme">snowfence</keyword>
+   <keyword keywordType="theme">nematodes</keyword>
+   <keyword keywordType="theme">rotifers</keyword>
+   <keyword keywordType="theme">tardigrade</keyword>
+   <keyword keywordType="theme">McMurdo</keyword>
+   <keyword keywordType="theme">Antarctica</keyword>
+   <keyword keywordType="theme">LTER</keyword>
+   <keyword keywordType="theme">soil moisture</keyword>
+   <keyword keywordType="theme">invertebrate</keyword> 
+<keyword keywordType="place">McMurdo Dry Valleys</keyword>
+<keyword keywordType="theme">MCM</keyword>
+  </keywordSet>
+<additionalInfo>
+   <section>
+    <title>Notes about the attribute table</title>
+    <para>
+     <literalLayout> Since the attribute table for this dataset is very large, the user must construct the actual column
+      name.  The FIRST letter represents the species, and the following letters represent the life stage/sex/sum type.  The nermatode
+      species codes are:
+      
+      S: Scottnema lindsayae 
+      E: Eudorylaimus spp. 
+      P: Plectus spp.  
+      
+      For example, in the attribute table,  "(code)ML" has the description "The total number of living male (species) adult nematodes extracted
+      from the soil sample in number of organisms per kg soil oven dry weight equivalent. In this case, a column name 
+      called "SML" would be  "The total number of living male Scottnema lindsayae adult nematodes..."
+     BD refers to values below detection.
+     </literalLayout>
+    </para>
+   </section>
+   <section>
+    <title>Sample ID / TREATMENT Codes</title>
+    <para>
+     <literalLayout> In the attribute table, the treatment is the manipulation for a given plot from where the soil was collected. The treatments are:
+      (W) Western side of snow fence, (E) Eastern side of snow fence, 1-6 (the first number of the sample code) block, 3-12 
+      (second number of the sample code) distance from snow fence (ft).</literalLayout>
+    </para>
+   </section>
+    <section>
+    <title>Citation</title>
+    <para>
+     <literalLayout>Ayres, E., Nkem, J.N., Wall, D.H., Adams, B.J., Barrett, J.E., Simmons, B.L., Virginia, R.A., and Fountain, A.G. (in prep) Experimentally increased snow accumulation alters soil moisture and animal community structure in an Antarctic desert.</literalLayout>
+    </para>
+   </section>
+    <section>
+    <title>Preserved Samples</title>
+    <para>
+     <literalLayout>Preserved nematode samples are stored in the NREL Preserved Nematode Collection in room 226, College of Natural Resources, Colorado State University. Soils are stored in the Environmental Measurements Laboratory at Dartmouth College.</literalLayout>
+    </para>
+   </section>
+   <section>
+    <title>Notes</title>
+    <para>
+     <literalLayout> Data contained in these files has been subjected to quality control standards
+      imposed by the investigator. The user of this data should be aware that, while efforts have
+      been taken to ensure that these data are of the highest quality, there is no guarantee of
+      perfection for the data contained herein and the possibility of errors exists. If you
+      encounter questionable data, please contact the MCM LTER data manager corrected or qualified.
+      Thus, these data may be modified and future data will be appended.</literalLayout>
+    </para>
+   </section>
+  </additionalInfo>
+<intellectualRights>
+   <section>
+    <title>MCM LTER data may be used freely with the following restrictions:</title>
+    <para>
+     <itemizedlist>
+      <listitem>
+       <para>
+        <literalLayout>The Principal Investigator be sent a notice stating reasons for acquiring any
+         data and a description of the publication intentions. </literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>The Principal Investigator of the data set be sent a copy of the report or
+         manuscript prior to submission and be adequately cited in any resultant
+        publications.</literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>A copy of any resultant publications should be sent to the McMurdo data
+         manager and principal investigator.</literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>The end-user follow the guidelines set forth in the LTER Network Data Access
+         Policy, Data Access Requirements, and General Data Use Agreement found at
+         http://www.mcmlter.org/data_guidelines.htm</literalLayout>
+       </para>
+      </listitem>
+     </itemizedlist>
+    </para>
+   </section>
+  </intellectualRights>
+<coverage>
+   <geographicCoverage>
+    <geographicDescription>Snow fences are located on the south sides of Lake Fryxell (near F6 camp) and Lake Bonney (west lobe) 
+     Fryxell: -77.60842803, 163.2486039; Bonney: -77.72472039, 162.3130869
+    </geographicDescription>
+    <boundingCoordinates>
+     <westBoundingCoordinate>163.2486039</westBoundingCoordinate>
+     <eastBoundingCoordinate>162.3130869</eastBoundingCoordinate>
+     <northBoundingCoordinate>-77.60842803</northBoundingCoordinate>
+     <southBoundingCoordinate>-77.72472039</southBoundingCoordinate>
+     <boundingAltitudes>
+      <altitudeMinimum>0</altitudeMinimum>
+      <altitudeMaximum>1000</altitudeMaximum>
+      <altitudeUnits>meter</altitudeUnits>
+     </boundingAltitudes>
+    </boundingCoordinates>
+   </geographicCoverage>
+   <temporalCoverage>
+     <rangeOfDates>
+      <beginDate>
+       <calendarDate>2001-01-11</calendarDate>
+      </beginDate>
+      <endDate>
+       <calendarDate>2007</calendarDate>
+      </endDate>
+     </rangeOfDates>
+   </temporalCoverage>
+  </coverage>
+<maintenance>
+   <description> 
+    <section>
+     <para>
+      <literalLayout>This table was originally created by data manger Chris Gardner in September 2007 with data from Breana Simmons, 
+       post-doc with Diana Wall at NREL </literalLayout>
+     </para>
+    </section>
+   </description>
+  </maintenance>
+<contact>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </contact>
+<publisher>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </publisher>
+<methods>
+   <methodStep>
+    <description>
+     <para>
+      <literalLayout>
+      Methods are not available as of 25 September, 2007.  They will be added shortly      
+      </literalLayout>
+     </para>
+    </description>
+   </methodStep>
+  </methods>
+<dataTable>
+   <entityName>SNOWFENCE_Units_and_Column_Descriptions</entityName>
+   <physical>
+    <objectName>SNOWFENCE_Units_and_Column_Descriptions</objectName>
+    <dataFormat>
+     <textFormat>
+      <numHeaderLines>27</numHeaderLines>
+      <numFooterLines>1</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+      <attributeOrientation>column</attributeOrientation>
+      <simpleDelimited>
+       <fieldDelimiter>,</fieldDelimiter>
+       <quoteCharacter>"</quoteCharacter>
+      </simpleDelimited>
+     </textFormat>
+    </dataFormat>
+<distribution>
+<online>
+<url function="download">http://www.mcmlter.org/queries/soils/soils_core_time.jsp?dataset=SNOWFENCE&amp;begDate=01/01/0001&amp;endDate=01/01/3000</url>
+</online>
+</distribution>
+   </physical>
+   <attributeList>
+    <attribute>
+     <attributeName>DATASET_CODE</attributeName>
+     <attributeDefinition>Unique identifier for the table in the MCM LTER database</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Unique identifier for the table in the MCM LTER database</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SAMPLE_ID</attributeName>
+     <attributeDefinition>The block and treatment combination of the sample.</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>The block and treatment combination of the sample.</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>DATE_TIME</attributeName>
+     <attributeDefinition>The date the soil sample was collected from the field</attributeDefinition>
+     <storageType typeSystem="Date" />
+     <measurementScale>
+      <dateTime>
+<formatString>mm/dd/yyyy</formatString>
+</dateTime>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>BASIN</attributeName>
+     <attributeDefinition>the basin where the sample was located (Fryxell, Hoare, Bonney)</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>the basin where the sample was located (Fryxell, Hoare, Bonney)</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>BLOCK</attributeName>
+     <attributeDefinition>Location / treatment the soil sample was collected from - see 'additional info - Sample ID / TREATMENT Codes'.</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Location / treatment the soil sample was collected from - see 'additional info - Sample ID / TREATMENT Codes'.</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>TRANSECT</attributeName>
+     <attributeDefinition>Location / treatment the soil sample was collected from - see 'additional info - Sample ID / TREATMENT Codes'.</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Location / treatment the soil sample was collected from - see 'additional info - Sample ID / TREATMENT Codes'.</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>POSITION (ft)</attributeName>
+     <attributeDefinition>the position in feet in the transect</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>foot</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>POSITION (m)</attributeName>
+     <attributeDefinition>the position in meters in the transect</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SOIL_WATER_CONTENT</attributeName>
+     <attributeDefinition>The gravimetric soil water content </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>percent g/g</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+         <maximum exclusive="false">100</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PH</attributeName>
+     <attributeDefinition>The opposite log of the hydrogen ion concentration of a 1:2 soil-water paste</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>pH</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute> 
+    <attribute>
+     <attributeName>EC</attributeName>
+    <attributeLabel>Electrical Conductivity</attributeLabel>
+     <attributeDefinition>The electrical conductivity in microSiemens/cm of a 1:5 soil:deionized water solution. </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microSiemens/cm</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+    <attributeName>NH4+</attributeName>
+     <attributeLabel>NH4 (microgram/g soil)</attributeLabel>
+     <attributeDefinition>Ammonia concentration found using Lachat</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microgram/g soil</customUnit>
+       </unit>
+       <precision>0.1</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+         <maximum exclusive="false">2000</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+    <attributeName>NO3-</attributeName>
+     <attributeLabel>NO3 (microgram/g soil)</attributeLabel>
+     <attributeDefinition>Nitrate concentration found using Lachat</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microgram/g soil</customUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+         <maximum exclusive="false">500</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+    <attributeName>Chl-a</attributeName>
+     <attributeLabel>Chlorophyll a</attributeLabel>
+     <attributeDefinition>The chlorophyll a content of the sample expressed per kg soil oven dry weight equivalent</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ug chl-a/g</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    
+<attribute>
+     <attributeName>SML</attributeName>
+     <attributeDefinition>The total number of living male Scottmema lindsayae adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SMD</attributeName>
+     <attributeDefinition>The total number of dead male Scottmema lindsayae adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SFL</attributeName>
+     <attributeDefinition>The total number of living female Scottmema lindsayae adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SFD</attributeName>
+     <attributeDefinition>The total number of dead female Scottmema lindsayae adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SJL</attributeName>
+     <attributeDefinition>The total number of living juvenile Scottmema lindsayae adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SJD</attributeName>
+     <attributeDefinition>The total number of dead juvenile Scottmema lindsayae adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SA</attributeName>
+     <attributeDefinition>The total number of living and dead Scottmema lindsayae adult nematodes  extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SJ</attributeName>
+     <attributeDefinition>The total number of living and dead Scottmema lindsayae juvenile nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>STL</attributeName>
+     <attributeDefinition>total number of living Scottmema lindsayae (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>STD</attributeName>
+     <attributeDefinition>The total number of dead Scottmema lindsayae (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>ST</attributeName>
+     <attributeDefinition>The total number of live + dead Scottmema lindsayae (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    
+    <attribute>
+     <attributeName>EML</attributeName>
+     <attributeDefinition>The total number of living male Eudorylaimus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>EMD</attributeName>
+     <attributeDefinition>The total number of dead male Eudorylaimus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>EFL</attributeName>
+     <attributeDefinition>The total number of living female Eudorylaimus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>EFD</attributeName>
+     <attributeDefinition>The total number of dead female Eudorylaimus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>EJL</attributeName>
+     <attributeDefinition>The total number of living juvenile Eudorylaimus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>EJD</attributeName>
+     <attributeDefinition>The total number of dead juvenile Eudorylaimus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>EA</attributeName>
+     <attributeDefinition>The total number of living and dead Eudorylaimus adult nematodes  extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>EJ</attributeName>
+     <attributeDefinition>The total number of living and dead Eudorylaimus juvenile nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>ETL</attributeName>
+     <attributeDefinition>total number of living Eudorylaimus (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>ETD</attributeName>
+     <attributeDefinition>The total number of dead Eudorylaimus (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>ET</attributeName>
+     <attributeDefinition>The total number of live + dead Eudorylaimus (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    
+    <attribute>
+     <attributeName>PFL</attributeName>
+     <attributeDefinition>The total number of living female Plectus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PFD</attributeName>
+     <attributeDefinition>The total number of dead female Plectus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PJL</attributeName>
+     <attributeDefinition>The total number of living juvenile Plectus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PJD</attributeName>
+     <attributeDefinition>The total number of dead juvenile Plectus adult nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PA</attributeName>
+     <attributeDefinition>The total number of living and dead Plectus adult nematodes  extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PJ</attributeName>
+     <attributeDefinition>The total number of living and dead Plectus juvenile nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PTL</attributeName>
+     <attributeDefinition>total number of living Plectus (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PTD</attributeName>
+     <attributeDefinition>The total number of dead Plectus (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>PT</attributeName>
+     <attributeDefinition>The total number of live + dead Plectus (juvenile and adults) nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>    
+    <attribute>
+    <attributeName>TOTAL_ROTIFERS</attributeName>
+     <attributeLabel>total rotifers</attributeLabel>
+     <attributeDefinition>total number of rotifers per kg soil oven dry weight equivalent present in a sample </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+    <attributeName>TOTAL_TARDIGRADES</attributeName>
+     <attributeLabel>total tardigrades</attributeLabel>
+     <attributeDefinition>total number of tardigrades per kg soil oven dry weight equivalent present in a sample </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+    <attributeName>LIVENEMS</attributeName>
+     <attributeLabel>Live nematodes</attributeLabel>
+     <attributeDefinition>The total number of living nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent (#/kg soil).</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+    <attributeName>DEADNEMS</attributeName>
+     <attributeLabel>Dead nematodes</attributeLabel>
+     <attributeDefinition>The total number of dead nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent (#/kg soil).</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+     <attribute>
+      <attributeName>UNCLASSIFIED_NEMA</attributeName>
+      <attributeDefinition>The total number of nematodes extracted from the soil sample for which sex and life stage and/or species was not determined in number of organisms per kg soil oven dry weight equivalent </attributeDefinition>
+      <storageType typeSystem="Number" />
+      <measurementScale>
+       <ratio>
+        <unit>
+         <customUnit># kg/soil</customUnit>
+        </unit>
+        <numericDomain>
+         <numberType>real</numberType>
+         <bounds>
+          <minimum exclusive="false">0</minimum>
+         </bounds>
+        </numericDomain>
+       </ratio>
+      </measurementScale>
+      <missingValueCode>
+       <code>Null</code>
+       <codeExplanation>None given</codeExplanation>
+      </missingValueCode>
+     </attribute>
+    <attribute>
+    <attributeName>TOTALNEMS</attributeName>
+    <attributeLabel>Total nematodes</attributeLabel>
+     <attributeDefinition>The total number of living and dead nematodes extracted from the soil sample in number of organisms per kg soil oven dry weight equivalent (#/kg soil).</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit># kg/soil</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>COMMENTS</attributeName>
+     <attributeDefinition>Generic comments about the sample</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Generic comments about the sample</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+   </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+<metadata>
+<unitList>
+   <unit id="percent g/g" />
+   <unit id="# kg/soil" />
+   <unit id="ug chl-a/g" />
+   <unit id="microSiemens/cm" />
+   <unit id="microM" />
+   <unit id="pH" />
+   <unit id="microgram/g soil" />
+  </unitList>
+</metadata>
+</additionalMetadata>
+</ns0:eml>

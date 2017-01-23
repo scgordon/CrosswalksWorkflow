@@ -1,0 +1,627 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.213.1" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset id="HF213">
+		<alternateIdentifier>HF213</alternateIdentifier>
+		<title>Forest Inventory for Tree Demography and Carbohydrate Reserves at Harvard Forest 2009-2011</title>
+		<creator>
+			<individualName>
+				<givenName>Michael</givenName>
+				<surName>Dietze</surName>
+			</individualName>
+		</creator>
+		<creator>
+			<individualName>
+				<givenName>Joshua</givenName>
+				<surName>Mantooth</surName>
+			</individualName>
+		</creator>
+		<pubDate>2014</pubDate>
+		<abstract>
+			<section>
+				<para>The objective of this study is to establish a network of forest plots spanning the eastern U.S. focused on understanding how regional scale climate patterns affect patterns of tree demography (e.g. growth, mortality, dieback). Within each research site we also aim to understand the landscape-scale variability in demographic rates and how these rates are affected by edaphic variables by aligning plots along primary environmental gradients (elevation, soils, hydrology, fire return interval). The demographic data obtained will also be compared to regional and landscape-scale patterns in carbon reserves in adults and sapling by sampling root and stem concentrations of nonstructural carbohydrates (TNC) and relate these to demographic patterns, life-history traits, and plant C:N ratios.</para>
+				<para>Besides addressing important ecological questions directly, this study is designed to improve the representations of vegetation dynamics and carbohydrate reserves in regional and landscape-scale forest ecosystem models--two of the least data-constrained processes in such models--by parameterizing and validating the modules for these processes in the Ecosystem Demography model (ED v2.1).</para>
+				<para>This data set contains two years of census data for eight mapped plots distributed across Harvard Forest along the aforementioned primary environmental gradients.</para>
+			</section>
+		</abstract>
+		<keywordSet>
+			<keyword>inventories</keyword>
+			<keyword>tree maps</keyword>
+			<keyword>vegetation dynamics</keyword>
+			<keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword>primary production</keyword>
+			<keywordThesaurus>LTER core area</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword>Harvard Forest</keyword>
+			<keyword>HFR</keyword>
+			<keyword>LTER</keyword>
+			<keyword>USA</keyword>
+			<keywordThesaurus>HFR default</keywordThesaurus>
+		</keywordSet>
+		<intellectualRights>
+			<section>
+				<para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+			</section>
+		</intellectualRights>
+		<distribution>
+			<online>
+				<url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf213</url>
+			</online>
+		</distribution>
+		<coverage>
+			<geographicCoverage>
+				<geographicDescription>Prospect Hill Tract (Harvard Forest), Simes Tract (Harvard Forest), Tom Swamp Tract (Harvard Forest)</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-72.219685</westBoundingCoordinate>
+					<eastBoundingCoordinate>-72.169543</eastBoundingCoordinate>
+					<northBoundingCoordinate>+42.550877</northBoundingCoordinate>
+					<southBoundingCoordinate>+42.468102</southBoundingCoordinate>
+					<boundingAltitudes>
+						<altitudeMinimum>206</altitudeMinimum>
+						<altitudeMaximum>361</altitudeMaximum>
+						<altitudeUnits>meter</altitudeUnits>
+					</boundingAltitudes>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage>
+				<rangeOfDates>
+					<beginDate>
+						<calendarDate>2009-01-01</calendarDate>
+					</beginDate>
+					<endDate>
+						<calendarDate>2011-12-31</calendarDate>
+					</endDate>
+				</rangeOfDates>
+			</temporalCoverage>
+			<taxonomicCoverage>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Acer</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>rubrum</taxonRankValue>
+						<commonName>red maple</commonName>
+					</taxonomicClassification>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>saccharum</taxonRankValue>
+						<commonName>sugar maple</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Betula</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>alleghaniensis</taxonRankValue>
+						<commonName>yellow birch</commonName>
+					</taxonomicClassification>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>lenta</taxonRankValue>
+						<commonName>black birch</commonName>
+					</taxonomicClassification>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>papyrifera</taxonRankValue>
+						<commonName>paper birch</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Castanea</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>dentata</taxonRankValue>
+						<commonName>american chestnut</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Fagus</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>grandifolia</taxonRankValue>
+						<commonName>american beech</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Fraxinus</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>americana</taxonRankValue>
+						<commonName>white ash</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Hamamelis</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>virginiana</taxonRankValue>
+						<commonName>american witchhazel</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Picea</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>rubens</taxonRankValue>
+						<commonName>red spruce</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Pinus</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>resinosa</taxonRankValue>
+						<commonName>red pine</commonName>
+					</taxonomicClassification>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>strobus</taxonRankValue>
+						<commonName>white pine</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Prunus</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>serotina</taxonRankValue>
+						<commonName>black cherry</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Quercus</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>alba</taxonRankValue>
+						<commonName>white oak</commonName>
+					</taxonomicClassification>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>rubra</taxonRankValue>
+						<commonName>red oak</commonName>
+					</taxonomicClassification>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>velutina</taxonRankValue>
+						<commonName>black oak</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Tilia</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>americana</taxonRankValue>
+						<commonName>american basswood</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+				<taxonomicClassification>
+					<taxonRankName>genus</taxonRankName>
+					<taxonRankValue>Tsuga</taxonRankValue>
+					<taxonomicClassification>
+						<taxonRankName>species</taxonRankName>
+						<taxonRankValue>canadensis</taxonRankValue>
+						<commonName>eastern hemlock</commonName>
+					</taxonomicClassification>
+				</taxonomicClassification>
+			</taxonomicCoverage>
+		</coverage>
+		<contact>
+			<individualName>
+				<givenName>Michael</givenName>
+				<surName>Dietze</surName>
+			</individualName>
+			<organizationName>Boston University</organizationName>
+			<address>
+				<deliveryPoint>Dept. of Earth and Environment</deliveryPoint>
+				<deliveryPoint>685 Commonwealth Avenue</deliveryPoint>
+				<city>Boston</city>
+				<administrativeArea>MA</administrativeArea>
+				<postalCode>02215</postalCode>
+				<country>USA</country>
+			</address>
+			<electronicMailAddress>dietze@bu.edu</electronicMailAddress>
+		</contact>
+		<publisher>
+			<organizationName>Harvard Forest</organizationName>
+			<address>
+				<deliveryPoint>324 North Main Street</deliveryPoint>
+				<city>Petersham</city>
+				<administrativeArea>MA</administrativeArea>
+				<postalCode>01366</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">(978) 724-3302</phone>
+			<phone phonetype="fax">(978) 724-3595</phone>
+			<onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+		</publisher>
+		<methods>
+			<methodStep>
+				<description>
+					<section>
+						<para>Thirty-two .0225 ha subplots (eight plots--four subplots each) were established in 2009 and 2011 across Harvard Forest. The plot layout is a modification of the forest inventory and analysis plot design. Each square plot contains four subplots; with three equiangular plots 50 m from the center plot. All subplots were geolocated using a Trimble GeoXH field computer. Within each subplot, trees greater than 5cm DBH (1.4 m) were mapped, tagged, identified to species and measured for DBH.</para>
+					</section>
+				</description>
+			</methodStep>
+		</methods>
+		<dataTable id="hf213-01">
+			<entityName>hf213-01-hf-inventory.csv</entityName>
+			<entityDescription>hf adult inventory</entityDescription>
+			<physical id="1405971218281">
+				<objectName>hf213-01-hf-inventory.csv</objectName>
+				<size unit="byte">36555</size>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>1</numHeaderLines>
+						<recordDelimiter>\r\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://harvardforest.fas.harvard.edu/data/p21/hf213/hf213-01-hf-inventory.csv</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute id="1405971938750">
+					<attributeName>Site</attributeName>
+					<attributeDefinition>site code</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>H</code>
+										<definition>Harvard Forest</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938760">
+					<attributeName>Plot</attributeName>
+					<attributeDefinition>identifier for individual plots (1-8)</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>identifier for individual plots, 1-8</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938770">
+					<attributeName>Sub</attributeName>
+					<attributeDefinition>identifier for subplots within individual plots (A, B, C,
+						D)</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>identifier for subplots within individual plots (A, B, C, D)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938780">
+					<attributeName>Tag</attributeName>
+					<attributeDefinition>tag number placed in tree to mark DBH</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>tag number placed in tree to mark DBH</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938790">
+					<attributeName>Num</attributeName>
+					<attributeDefinition>stem number</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>stem number</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938800">
+					<attributeName>Spp</attributeName>
+					<attributeDefinition>USDA Plants database species code</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>ACRU</code>
+										<definition>Acer rubrum</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>ACSA3</code>
+										<definition>Acer saccharum</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>BEAL2</code>
+										<definition>Betula alleghaniensis</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>BELE</code>
+										<definition>Betula lenta</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>BEPA</code>
+										<definition>Betula papyrifera</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>BEUN</code>
+										<definition>Betula species unknown</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>CADE12</code>
+										<definition>Castanea dentata</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>FAGR</code>
+										<definition>Fagus grandifolia</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>FRAM2</code>
+										<definition>Fraxinus americana</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>HAVI4</code>
+										<definition>Hamamelis virginiana</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>PIRE</code>
+										<definition>Pinus resinosa</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>PIRU</code>
+										<definition>Picea rubens</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>PIST</code>
+										<definition>Pinus strobus</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>PRSE2</code>
+										<definition>Prunus serotina</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>QUAL</code>
+										<definition>Quercus alba</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>QURU</code>
+										<definition>Quercus rubra</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>QUVE</code>
+										<definition>Quercus velutina</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>TIAM</code>
+										<definition>Tilia americana</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>TSCA</code>
+										<definition>Tsuga canadensis</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938810">
+					<attributeName>X</attributeName>
+					<attributeDefinition>the horizontal distance from the plot reference
+						corner</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938820">
+					<attributeName>Y</attributeName>
+					<attributeDefinition>the vertical distance from the plot reference corner</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938830">
+					<attributeName>DBH09</attributeName>
+					<attributeDefinition>diameter at Breast Height (1.4m) in year 2009</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>centimeter</standardUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938840">
+					<attributeName>Field_Notes09</attributeName>
+					<attributeDefinition>field notes in 2009</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>field notes in 2009</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938850">
+					<attributeName>Date09</attributeName>
+					<attributeDefinition>date field survey was performed in 2009</attributeDefinition>
+					<measurementScale>
+						<dateTime>
+							<formatString>YYYY-MM-DD</formatString>
+						</dateTime>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938860">
+					<attributeName>DBH11</attributeName>
+					<attributeDefinition>diameter at Breast Height (1.4m) in year 2011</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>centimeter</standardUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938870">
+					<attributeName>Field_Notes11</attributeName>
+					<attributeDefinition>field notes in 2011</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>field notes in 2011</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="1405971938880">
+					<attributeName>Date11</attributeName>
+					<attributeDefinition>date field survey was performed in 2011</attributeDefinition>
+					<measurementScale>
+						<dateTime>
+							<formatString>YYYY-MM-DD</formatString>
+						</dateTime>
+					</measurementScale>
+					<missingValueCode>
+						<code>NA</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+			<numberOfRecords>602</numberOfRecords>
+		</dataTable>
+	</dataset>
+	<additionalMetadata>
+		<metadata>
+			<additionalClassifications>
+				<status>completed</status>
+				<researchTopic>informatics</researchTopic>
+				<studyType>modeling</studyType>
+			</additionalClassifications>
+		</metadata>
+	</additionalMetadata>
+	<additionalMetadata>
+		<metadata>
+			<additionalLinks>
+				<url name="Dietze Laboratory">http://people.bu.edu/dietze/</url>
+			</additionalLinks>
+		</metadata>
+	</additionalMetadata>
+</ns0:eml>

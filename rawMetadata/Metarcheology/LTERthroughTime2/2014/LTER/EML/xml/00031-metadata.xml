@@ -1,0 +1,3140 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.227.3" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="227" system="VCR">
+   <alternateIdentifier>VCR14223</alternateIdentifier>
+   <title>NHD Hydrography and Watershed Data for the Eastern Shore of Virginia 2013</title>
+   <creator>
+      <individualName>
+         <surName>USGS, EPA,  USFS, other fed/state/local partners</surName>
+      </individualName>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2014-02-21</pubDate>
+   <abstract>
+  <para>This datasets contain GIS files related to the hydrology and watersheds of Accomack and Northampton Counties on the Eastern Shore of Virginia.&#160; Data include named and unnamed water bodies, rivers and streams (both center flowlines and area polygons showing bank-full width for larger features), wetlands and marshes, and shorelines.</para>
+  <para>A static (2013-09-06) copy of the full USGS "National Hydrography Dataset (NHD) - High Resolution - Virginia" state-extracted dataset in original ESRI file-geodatabase format, downloaded on 2014-02-21 from nhd.usgs.gov, is included.&#160; For users who may not be able to read or make use of data in ESRI proprietary geodatabase formats, shapefiles of geographic feature classes contained within the HUC8 subbasins spanning Accomack and Northampton Counties (partly or wholly) are also provided.&#160;</para>
+  <para>Note that the stream network nodal topology, which can be used to evaluate and analyze flow paths as part of a fully-functional hydrological network with GIS tools such as Arc Hydro and Network Analyst, are only available within the ESRI file-geodatabase file.</para>
+  <para>The primary purpose of this dataset is to provide VCRLTER researchers and students with a convenient up-to-date set of GIS data layers in one location that can be used as base layers for various map products and for conducting research activities.&#160; A secondary purpose of this dataset is to extend hydrologic data coverage in the VCRLTER data catalog to include Accomack County and to supersede older USGS DLG data contained in the Northampton County GIS data package (VCRLTER dataset VCR14219).</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">hydrology</keyword>
+      <keyword keywordType="theme">rivers</keyword>
+      <keyword keywordType="theme">streams</keyword>
+      <keyword keywordType="theme">coastlines</keyword>
+      <keyword keywordType="theme">ponds</keyword>
+      <keyword keywordType="theme">reservoirs</keyword>
+      <keyword keywordType="theme">marshes</keyword>
+      <keyword keywordType="theme">boundaries</keyword>
+   </keywordSet>
+   <additionalInfo>
+<section>
+<title>Relevant URLs</title>
+<para><orderedlist>
+<listitem><para>
+USGS National Hydrography Dataset (NHD) and Watershed Boundary Dataset (WBD) portal) 
+URL=http://nhd.usgs.gov/
+</para></listitem>
+</orderedlist>
+</para>
+</section>
+
+   </additionalInfo>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>ESHORE - Eastern Shore</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.240000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-76.240000</eastBoundingCoordinate>
+            <northBoundingCoordinate>38.020000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.070000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <singleDateTime>
+            <calendarDate>2013-09-06</calendarDate>
+         </singleDateTime>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para>A static (2013-09-06) copy of the full USGS "National Hydrography Dataset (NHD) - High Resolution - Virginia" state-extracted dataset in original ESRI file-geodatabase format was downloaded on 2014-02-21 from USGS (nhd.usgs.gov).&#160; Those feature geometries (NHDWaterbody, NHDArea, NHDFlowline, and NHDLine, WBDHU8, WBDHU10, and WBDHU12) that spanned Accomack and Northampton Counties (partly or wholly) were extracted and converted into shapefiles.&#160; Tables containing definitions for the FTYPE and FCODE attributes were also exported as separate DBF tables for ease of use and included with the zipped NHD shapefiles.</para>
+         </description>
+      </methodStep>
+   </methods>
+   <otherEntity>
+      <entityName>VCR14223</entityName>
+      <entityDescription>
+NHDH_VA_931v210.zip: Static (2013-09-06) copy of the full USGS "National
+Hydrography Dataset (NHD) - High Resolution - Virginia" state-extracted dataset,
+downloaded on 2014-02-21 from nhd.usgs.gov, in original ESRI file-geodatabase
+format.
+
+
+
+
+
+
+      </entityDescription>
+      <physical>
+         <objectName>NHDH_VA_931v210.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.227.3&amp;urlHeadID=2&amp;urlTail=1/VCR14223/VCR14223/NHDH_VA_931v210.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+      <spatialVector id="NHDWaterbody_ES">
+         <alternateIdentifier>VCR14223-2</alternateIdentifier>
+         <entityName>NHDWaterbody_ES</entityName>
+         <entityDescription>NHD Waterbodies (format: zipped ArcGIS shapefile) extracted from "National Hydrography Dataset - High Resolution - Virginia" (static copy, 2013-09-06 data) for the lower Delmarva Peninsula (Eastern Shore of Virginia) by VCRLTER staff. Includes DBF tables for FTYPE and FCODE.</entityDescription>
+         <physical>
+            <objectName>NHDWaterbody_ES.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.227.3&amp;urlHeadID=2&amp;urlTail=2/VCR14223/NHDWaterbody_ES.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>lower Delamarva Peninsula</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.405511</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.053249</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.982002</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.802881</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>OBJECTID</attributeName>
+               <attributeLabel>OBJECTID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FDate</attributeName>
+               <attributeLabel>FDate</attributeLabel>
+               <attributeDefinition>Date of last feature modification</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Date</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Date of last feature modification    Attribute Type : Date        Attribute Width : 8        Attribute Precision : 0        Attribute Scale : 0    </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Resolution</attributeName>
+               <attributeLabel>Resolution</attributeLabel>
+               <attributeDefinition>Code for source resolution</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>High resolution</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_ID</attributeName>
+               <attributeLabel>GNIS_ID</attributeLabel>
+               <attributeDefinition>GNIS identification number</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>GNIS identification number</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_Name</attributeName>
+               <attributeLabel>GNIS_Name</attributeLabel>
+               <attributeDefinition>GNIS name</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>GNIS name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AreaSqKm</attributeName>
+               <attributeLabel>AreaSqKm</attributeLabel>
+               <attributeDefinition>polygon area in square kilometers</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareKilometers</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Elevation</attributeName>
+               <attributeLabel>Elevation</attributeLabel>
+               <attributeDefinition>elevation</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Permanent_</attributeName>
+               <attributeLabel>Permanent_</attributeLabel>
+               <attributeDefinition>Permanent Identifier: 40-char GUID value that uniquely identifies the
+                    occurrence of each feature in The National Map</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Permanent Identifier: 40-char GUID value that uniquely identifies the
+                    occurrence of each feature in The National Map</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>ReachCode</attributeName>
+               <attributeLabel>ReachCode</attributeLabel>
+               <attributeDefinition>Reach code</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Reach code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FType</attributeName>
+               <attributeLabel>FType</attributeLabel>
+               <attributeDefinition>Unique identifier of feature type</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>390</code>
+                              <definition>LakePond</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>436</code>
+                              <definition>Reservoir</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>460</code>
+                              <definition>StreamRiver</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>466</code>
+                              <definition>SwampMarsh</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>493</code>
+                              <definition>Estuary</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FCode</attributeName>
+               <attributeLabel>FCode</attributeLabel>
+               <attributeDefinition>Code composed of feature types and characteristics</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>39000</code>
+                              <definition>Lake/Pond</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>39001</code>
+                              <definition>Lake/Pond: Hydrographic Category = Intermittent</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>39004</code>
+                              <definition>Lake/Pond: Hydrographic Category = Perennial</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>39006</code>
+                              <definition>Lake/Pond: Hydrographic Category = Intermittent; Stage = Date of
+                            Photography</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>39009</code>
+                              <definition>Lake/Pond: Hydrographic Category = Perennial; Stage = Average Water
+                            Elevation</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>39011</code>
+                              <definition>Lake/Pond: Hydrographic Category = Perennial; Stage = Date of
+                            Photography</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43600</code>
+                              <definition>Reservoir</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43603</code>
+                              <definition>Reservoir: Reservoir Type = Decorative Pool</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43609</code>
+                              <definition>Reservoir: Reservoir Type = Cooling Pond</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43611</code>
+                              <definition>Reservoir: Reservoir Type = Settling Pond</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43612</code>
+                              <definition>Reservoir: Reservoir Type = Sewage Treatment Pond</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43613</code>
+                              <definition>Reservoir: Reservoir Type = Water Storage; Construction Material =
+                            Nonearthen</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43615</code>
+                              <definition>Reservoir: Reservoir Type = Water Storage; Construction Material =
+                            Earthen; Hydrographic Category = Perennial</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43617</code>
+                              <definition>Reservoir: Reservoir Type = Water Storage</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43618</code>
+                              <definition>Reservoir: Construction Material = Earthen</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43624</code>
+                              <definition>Reservoir: Reservoir Type = Treatment</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>46000</code>
+                              <definition>Stream/River</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>46602</code>
+                              <definition>Swamp/Marsh; Hydrographic Category = Perennial</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>49300</code>
+                              <definition>Estuary</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Area</attributeName>
+               <attributeLabel>Shape_Area</attributeLabel>
+               <attributeDefinition>Area of feature in internal units squared.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Leng</attributeName>
+               <attributeLabel>Shape_Leng</attributeLabel>
+               <attributeDefinition>Length of feature in internal units.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>18265</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>National Geodetic Vertical Datum of 1929</altitudeDatumName>
+                  <altitudeResolution>0.000025</altitudeResolution>
+                  <altitudeDistanceUnits>meters</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>Explicit elevation coordinate included with horizontal
+                    coordinates</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+         <horizontalAccuracy>
+            <accuracyReport>Statements of horizontal positional accuracy are based on accuracy
+                    statements made for U.S. Geological Survey topographic quadrangle maps. These
+                    maps were compiled to meet National Map Accuracy Standards. For horizontal
+                    accuracy, this standard is met if at least 90 percent of points tested are
+                    within 0.02 inch (at map scale) of the true position. Additional offsets to
+                    positions may have been introduced where feature density is high to improve the
+                    legibility of map symbols. In addition, the digitizing of maps is estimated to
+                    contain a horizontal positional error of less than or equal to 0.003 inch
+                    standard error (at map scale) in the two component directions relative to the
+                    source maps. Visual comparison between the map graphic (including digital scans
+                    of the graphic) and plots or digital displays of points, lines, and areas, is
+                    used as control to assess the positional accuracy of digital data. Digital map
+                    elements along the adjoining edges of data sets are aligned if they are within a
+                    0.02 inch tolerance (at map scale). Features with like dimensionality (for
+                    example, features that all are delineated with lines), with or without like
+                    characteristics, that are within the tolerance are aligned by moving the
+                    features equally to a common point. Features outside the tolerance are not
+                    moved; instead, a feature of type connector is added to join the features. This
+                    statement is generally true for the most common sources of NHD data. Other
+                    sources and methods may have been used to create or update NHD data. In some
+                    cases, additional information may be found in the NHDMetadata table.</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Statements of vertical positional accuracy for elevation of water surfaces
+                    are based on accuracy statements made for U.S. Geological Survey topographic
+                    quadrangle maps. These maps were compiled to meet National Map Accuracy
+                    Standards. For vertical accuracy, this standard is met if at least 90 percent of
+                    well-defined points tested are within one-half contour interval of the correct
+                    value. Elevations of water surface printed on the published map meet this
+                    standard; the contour intervals of the maps vary. These elevations were
+                    transcribed into the digital data; the accuracy of this transcription was
+                    checked by visual comparison between the data and the map. This statement is
+                    generally true for the most common sources of NHD data. Other sources and
+                    methods may have been used to create or update NHD data. In some cases,
+                    additional information may be found in the NHDMetadata table.</accuracyReport>
+         </verticalAccuracy>
+      </spatialVector>
+      <spatialVector id="NHDFlowline_ES">
+         <alternateIdentifier>VCR14223-3</alternateIdentifier>
+         <entityName>NHDFlowline_ES</entityName>
+         <entityDescription>NHD Flowlines (format: zipped ArcGIS shapefile) extracted from "National Hydrography Dataset - High Resolution - Virginia" (static copy, 2013-09-06 data) for the lower Delmarva Peninsula (Eastern Shore of Virginia) by VCRLTER staff. Includes DBF tables for FTYPE and FCODE.</entityDescription>
+         <physical>
+            <objectName>NHDFlowline_ES.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.227.3&amp;urlHeadID=2&amp;urlTail=3/VCR14223/NHDFlowline_ES.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>lower Delamarva Peninsula</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.410121</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.048738</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.987798</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.811017</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>OBJECTID</attributeName>
+               <attributeLabel>OBJECTID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FDate</attributeName>
+               <attributeLabel>FDate</attributeLabel>
+               <attributeDefinition>Date of last feature modification</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Date</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Date of last feature modification    Attribute Type : Date        Attribute Width : 8        Attribute Precision : 0        Attribute Scale : 0    </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Resolution</attributeName>
+               <attributeLabel>Resolution</attributeLabel>
+               <attributeDefinition>Code for source resolution</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>High resolution</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_ID</attributeName>
+               <attributeLabel>GNIS_ID</attributeLabel>
+               <attributeDefinition>GNIS identification number</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>GNIS identification number</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_Name</attributeName>
+               <attributeLabel>GNIS_Name</attributeLabel>
+               <attributeDefinition>GNIS name</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>GNIS name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LengthKM</attributeName>
+               <attributeLabel>LengthKM</attributeLabel>
+               <attributeDefinition>Line segment length in kilometers</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilometer</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>ReachCode</attributeName>
+               <attributeLabel>ReachCode</attributeLabel>
+               <attributeDefinition>Reach code</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Reach code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FlowDir</attributeName>
+               <attributeLabel>FlowDir</attributeLabel>
+               <attributeDefinition> Flow direction</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>Uninitialized</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>flow in the direction of line digitizing</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>flow opposite to the direction of line digitizing</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>Indeterminate</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Permanent_</attributeName>
+               <attributeLabel>Permanent_</attributeLabel>
+               <attributeDefinition>Permanent Identifier: 40-char GUID value that uniquely identifies the
+                    occurrence of each feature in The National Map.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Permanent Identifier: 40-char GUID value that uniquely identifies the
+                    occurrence of each feature in The National Map.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FType</attributeName>
+               <attributeLabel>FType</attributeLabel>
+               <attributeDefinition>Unique identifier of feature type</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>334</code>
+                              <definition>Connector</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>336</code>
+                              <definition>CanalDitch</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>460</code>
+                              <definition>StreamRiver</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>558</code>
+                              <definition>ArtificialPath</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>566</code>
+                              <definition>Coastline</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FCode</attributeName>
+               <attributeLabel>FCode</attributeLabel>
+               <attributeDefinition>Code composed of feature types and characteristics</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>33400</code>
+                              <definition>Connector</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>33600</code>
+                              <definition>Canal/Ditch</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>46000</code>
+                              <definition>Stream/River</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>46003</code>
+                              <definition>Stream/River: Hydrographic Category = Intermittent</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>46006 </code>
+                              <definition>Stream/River: Hydrographic Category = Perennial</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>55800 </code>
+                              <definition>Artificial Path</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>56600 </code>
+                              <definition>Coastline</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>WBArea_Per</attributeName>
+               <attributeLabel>WBArea_Per</attributeLabel>
+               <attributeDefinition>WBArea_Permanent_ID : Permanent_Identifier of the waterbody through which
+                    the flowline flows.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>WBArea_Permanent_ID : Permanent_Identifier of the waterbody through which
+                    the flowline flows.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Leng</attributeName>
+               <attributeLabel>Shape_Leng</attributeLabel>
+               <attributeDefinition>length (km)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilometer</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Enabled</attributeName>
+               <attributeLabel>Enabled</attributeLabel>
+               <attributeDefinition>A network feature that allows flow to pass through it</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">SmallInteger</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Flow enabled</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>LineString</geometry>
+         <geometricObjectCount>77025</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>National Geodetic Vertical Datum of 1929</altitudeDatumName>
+                  <altitudeResolution>0.000025</altitudeResolution>
+                  <altitudeDistanceUnits>meters</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>Explicit elevation coordinate included with horizontal
+                    coordinates</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+         <horizontalAccuracy>
+            <accuracyReport>Statements of horizontal positional accuracy are based on accuracy
+                    statements made for U.S. Geological Survey topographic quadrangle maps. These
+                    maps were compiled to meet National Map Accuracy Standards. For horizontal
+                    accuracy, this standard is met if at least 90 percent of points tested are
+                    within 0.02 inch (at map scale) of the true position. Additional offsets to
+                    positions may have been introduced where feature density is high to improve the
+                    legibility of map symbols. In addition, the digitizing of maps is estimated to
+                    contain a horizontal positional error of less than or equal to 0.003 inch
+                    standard error (at map scale) in the two component directions relative to the
+                    source maps. Visual comparison between the map graphic (including digital scans
+                    of the graphic) and plots or digital displays of points, lines, and areas, is
+                    used as control to assess the positional accuracy of digital data. Digital map
+                    elements along the adjoining edges of data sets are aligned if they are within a
+                    0.02 inch tolerance (at map scale). Features with like dimensionality (for
+                    example, features that all are delineated with lines), with or without like
+                    characteristics, that are within the tolerance are aligned by moving the
+                    features equally to a common point. Features outside the tolerance are not
+                    moved; instead, a feature of type connector is added to join the features. This
+                    statement is generally true for the most common sources of NHD data. Other
+                    sources and methods may have been used to create or update NHD data. In some
+                    cases, additional information may be found in the NHDMetadata table.</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Statements of vertical positional accuracy for elevation of water surfaces
+                    are based on accuracy statements made for U.S. Geological Survey topographic
+                    quadrangle maps. These maps were compiled to meet National Map Accuracy
+                    Standards. For vertical accuracy, this standard is met if at least 90 percent of
+                    well-defined points tested are within one-half contour interval of the correct
+                    value. Elevations of water surface printed on the published map meet this
+                    standard; the contour intervals of the maps vary. These elevations were
+                    transcribed into the digital data; the accuracy of this transcription was
+                    checked by visual comparison between the data and the map. This statement is
+                    generally true for the most common sources of NHD data. Other sources and
+                    methods may have been used to create or update NHD data. In some cases,
+                    additional information may be found in the NHDMetadata table.</accuracyReport>
+         </verticalAccuracy>
+      </spatialVector>      <spatialVector id="NHDArea_ES">
+         <alternateIdentifier>VCR14223-4</alternateIdentifier>
+         <entityName>NHDArea_ES</entityName>
+         <entityDescription>NHD Areas (format: zipped ArcGIS shapefile) extracted from "National Hydrography Dataset - High Resolution - Virginia" (static copy, 2013-09-06 data) for the lower Delmarva Peninsula (Eastern Shore of Virginia) by VCRLTER staff. Includes DBF tables for FTYPE and FCODE.</entityDescription>
+         <physical>
+            <objectName>NHDArea_ES.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.227.3&amp;urlHeadID=2&amp;urlTail=4/VCR14223/NHDArea_ES.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>lower Delmarva Penninsula</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.230399</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-74.342575</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.921187</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.000144</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>OBJECTID</attributeName>
+               <attributeLabel>OBJECTID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FDate</attributeName>
+               <attributeLabel>FDate</attributeLabel>
+               <attributeDefinition>Date of last feature modification</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Date</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Date of last feature modification    Attribute Type : Date        Attribute Width : 8        Attribute Precision : 0        Attribute Scale : 0    </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Resolution</attributeName>
+               <attributeLabel>Resolution</attributeLabel>
+               <attributeDefinition>Code for source resolution</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>High resolution</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_ID</attributeName>
+               <attributeLabel>GNIS_ID</attributeLabel>
+               <attributeDefinition>GNIS identification number</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>GNIS identification number</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_Name</attributeName>
+               <attributeLabel>GNIS_Name</attributeLabel>
+               <attributeDefinition>GNIS name</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>GNIS name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AreaSqKm</attributeName>
+               <attributeLabel>AreaSqKm</attributeLabel>
+               <attributeDefinition>polygon area in square kilometers</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareKilometers</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0</minimum>
+                        </bounds>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Elevation</attributeName>
+               <attributeLabel>Elevation</attributeLabel>
+               <attributeDefinition>elevation</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FType</attributeName>
+               <attributeLabel>FType</attributeLabel>
+               <attributeDefinition>Unique identifier of feature type</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>312</code>
+                              <definition>BayInlet</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>336</code>
+                              <definition>CanalDitch</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>364</code>
+                              <definition>Foreshore</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>373</code>
+                              <definition>Hazard Zone</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>445</code>
+                              <definition>SeaOcean</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>454</code>
+                              <definition>Special Use Zone</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>460</code>
+                              <definition>StreamRiver</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FCode</attributeName>
+               <attributeLabel>FCode</attributeLabel>
+               <attributeDefinition>Code composed of feature types and characteristics</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>31200</code>
+                              <definition>Bay/Inlet</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>33600</code>
+                              <definition>Canal/Ditch</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>36400</code>
+                              <definition>Foreshore</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>37300 </code>
+                              <definition>Hazard Zone</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>44500</code>
+                              <definition>Sea/Ocean</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>45403</code>
+                              <definition>Special Use Zone: Special Use Zone Type = Spoil Area; Operational
+                            Status = Operational</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>46003</code>
+                              <definition>Stream/River: Hydrographic Category = Intermittent</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>46006 </code>
+                              <definition>Stream/River: Hydrographic Category = Perennial</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Area</attributeName>
+               <attributeLabel>Shape_Area</attributeLabel>
+               <attributeDefinition>Area of feature in internal units squared.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Permanent_</attributeName>
+               <attributeLabel>Permanent_</attributeLabel>
+               <attributeDefinition>Permanent Identifier: 40-char GUID value that uniquely identifies the
+                    occurrence of each feature in The National Map.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Permanent Identifier: 40-char GUID value that uniquely identifies the
+                    occurrence of each feature in The National Map.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Leng</attributeName>
+               <attributeLabel>Shape_Leng</attributeLabel>
+               <attributeDefinition>perimeter (km)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilometer</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>1690</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>National Geodetic Vertical Datum of 1929</altitudeDatumName>
+                  <altitudeResolution>0.000025</altitudeResolution>
+                  <altitudeDistanceUnits>meters</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>Explicit elevation coordinate included with horizontal
+                    coordinates</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+         <horizontalAccuracy>
+            <accuracyReport>Statements of horizontal positional accuracy are based on accuracy
+                    statements made for U.S. Geological Survey topographic quadrangle maps. These
+                    maps were compiled to meet National Map Accuracy Standards. For horizontal
+                    accuracy, this standard is met if at least 90 percent of points tested are
+                    within 0.02 inch (at map scale) of the true position. Additional offsets to
+                    positions may have been introduced where feature density is high to improve the
+                    legibility of map symbols. In addition, the digitizing of maps is estimated to
+                    contain a horizontal positional error of less than or equal to 0.003 inch
+                    standard error (at map scale) in the two component directions relative to the
+                    source maps. Visual comparison between the map graphic (including digital scans
+                    of the graphic) and plots or digital displays of points, lines, and areas, is
+                    used as control to assess the positional accuracy of digital data. Digital map
+                    elements along the adjoining edges of data sets are aligned if they are within a
+                    0.02 inch tolerance (at map scale). Features with like dimensionality (for
+                    example, features that all are delineated with lines), with or without like
+                    characteristics, that are within the tolerance are aligned by moving the
+                    features equally to a common point. Features outside the tolerance are not
+                    moved; instead, a feature of type connector is added to join the features. This
+                    statement is generally true for the most common sources of NHD data. Other
+                    sources and methods may have been used to create or update NHD data. In some
+                    cases, additional information may be found in the NHDMetadata table.</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Statements of vertical positional accuracy for elevation of water surfaces
+                    are based on accuracy statements made for U.S. Geological Survey topographic
+                    quadrangle maps. These maps were compiled to meet National Map Accuracy
+                    Standards. For vertical accuracy, this standard is met if at least 90 percent of
+                    well-defined points tested are within one-half contour interval of the correct
+                    value. Elevations of water surface printed on the published map meet this
+                    standard; the contour intervals of the maps vary. These elevations were
+                    transcribed into the digital data; the accuracy of this transcription was
+                    checked by visual comparison between the data and the map. This statement is
+                    generally true for the most common sources of NHD data. Other sources and
+                    methods may have been used to create or update NHD data. In some cases,
+                    additional information may be found in the NHDMetadata table.</accuracyReport>
+         </verticalAccuracy>
+      </spatialVector>
+      <spatialVector id="NHDLine_ES">
+         <alternateIdentifier>VCR14223-5</alternateIdentifier>
+         <entityName>NHDLine_ES</entityName>
+         <entityDescription>NHD Lines (format: zipped ArcGIS shapefile) extracted from "National Hydrography Dataset - High Resolution - Virginia" (static copy, 2013-09-06 data) for the lower Delmarva Peninsula (Eastern Shore of Virginia) by VCRLTER staff. Includes DBF tables for FTYPE and FCODE.</entityDescription>
+         <physical>
+            <objectName>NHDLine_ES.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.227.3&amp;urlHeadID=2&amp;urlTail=5/VCR14223/NHDLine_ES.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>lower Delmarva Peninsula</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.268394</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.048346</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.807726</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.828883</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>OBJECTID</attributeName>
+               <attributeLabel>OBJECTID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FDate</attributeName>
+               <attributeLabel>FDate</attributeLabel>
+               <attributeDefinition>Date of last feature modification</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Date</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Date of last feature modification    Attribute Type : Date        Attribute Width : 8        Attribute Precision : 0        Attribute Scale : 0    </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Resolution</attributeName>
+               <attributeLabel>Resolution</attributeLabel>
+               <attributeDefinition>Code for source resolution</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>High resolution</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_ID</attributeName>
+               <attributeLabel>GNIS_ID</attributeLabel>
+               <attributeDefinition>GNIS identification number</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>GNIS identification number</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_Name</attributeName>
+               <attributeLabel>GNIS_Name</attributeLabel>
+               <attributeDefinition>GNIS name</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>GNIS name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LengthKM</attributeName>
+               <attributeLabel>LengthKM</attributeLabel>
+               <attributeDefinition>Line segment length in kilometers</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilometer</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FType</attributeName>
+               <attributeLabel>FType</attributeLabel>
+               <attributeDefinition>Unique identifier of feature type</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>343</code>
+                              <definition>DamWeir</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>411</code>
+                              <definition>Nonearthen Shore</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>434</code>
+                              <definition>Reef</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>450</code>
+                              <definition>SinkRise</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>503</code>
+                              <definition>Sounding Datum Line</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>533</code>
+                              <definition>Special Use Zone Limit</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FCode</attributeName>
+               <attributeLabel>FCode</attributeLabel>
+               <attributeDefinition>Code composed of feature types and characteristics</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>34305</code>
+                              <definition>Dam/Weir: Construction Material = Earthen</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>34306</code>
+                              <definition>Dam/Weir: Construction Material = Nonearthen</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>41100</code>
+                              <definition>Nonearthen Shore</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>43400</code>
+                              <definition>Reef</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>45000</code>
+                              <definition>Sink/Rise</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>50301</code>
+                              <definition>Sounding Datum Line: Positional Accuracy = Approximate</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>50302</code>
+                              <definition>Sounding Datum Line: Positional Accuracy = Definite</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>53301</code>
+                              <definition>Special Use Zone Limit: Positional Accuracy = Definite</definition>
+                              <source>nhd.usgs.gov</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Permanent_</attributeName>
+               <attributeLabel>Permanent_</attributeLabel>
+               <attributeDefinition>Permanent Identifier: 40-char GUID value that uniquely identifies the
+                    occurrence of each feature in The National Map.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Permanent Identifier: 40-char GUID value that uniquely identifies the
+                    occurrence of each feature in The National Map.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Leng</attributeName>
+               <attributeLabel>Shape_Leng</attributeLabel>
+               <attributeDefinition>length (km)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilometer</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>LineString</geometry>
+         <geometricObjectCount>1027</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>National Geodetic Vertical Datum of 1929</altitudeDatumName>
+                  <altitudeResolution>0.000025</altitudeResolution>
+                  <altitudeDistanceUnits>meters</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>Explicit elevation coordinate included with horizontal
+                    coordinates</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+         <horizontalAccuracy>
+            <accuracyReport>Statements of horizontal positional accuracy are based on accuracy
+                    statements made for U.S. Geological Survey topographic quadrangle maps. These
+                    maps were compiled to meet National Map Accuracy Standards. For horizontal
+                    accuracy, this standard is met if at least 90 percent of points tested are
+                    within 0.02 inch (at map scale) of the true position. Additional offsets to
+                    positions may have been introduced where feature density is high to improve the
+                    legibility of map symbols. In addition, the digitizing of maps is estimated to
+                    contain a horizontal positional error of less than or equal to 0.003 inch
+                    standard error (at map scale) in the two component directions relative to the
+                    source maps. Visual comparison between the map graphic (including digital scans
+                    of the graphic) and plots or digital displays of points, lines, and areas, is
+                    used as control to assess the positional accuracy of digital data. Digital map
+                    elements along the adjoining edges of data sets are aligned if they are within a
+                    0.02 inch tolerance (at map scale). Features with like dimensionality (for
+                    example, features that all are delineated with lines), with or without like
+                    characteristics, that are within the tolerance are aligned by moving the
+                    features equally to a common point. Features outside the tolerance are not
+                    moved; instead, a feature of type connector is added to join the features. This
+                    statement is generally true for the most common sources of NHD data. Other
+                    sources and methods may have been used to create or update NHD data. In some
+                    cases, additional information may be found in the NHDMetadata table.</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Statements of vertical positional accuracy for elevation of water surfaces
+                    are based on accuracy statements made for U.S. Geological Survey topographic
+                    quadrangle maps. These maps were compiled to meet National Map Accuracy
+                    Standards. For vertical accuracy, this standard is met if at least 90 percent of
+                    well-defined points tested are within one-half contour interval of the correct
+                    value. Elevations of water surface printed on the published map meet this
+                    standard; the contour intervals of the maps vary. These elevations were
+                    transcribed into the digital data; the accuracy of this transcription was
+                    checked by visual comparison between the data and the map. This statement is
+                    generally true for the most common sources of NHD data. Other sources and
+                    methods may have been used to create or update NHD data. In some cases,
+                    additional information may be found in the NHDMetadata table.</accuracyReport>
+         </verticalAccuracy>
+      </spatialVector>
+      <spatialVector id="WBDHU8_ES">
+         <alternateIdentifier>VCR14223-6</alternateIdentifier>
+         <entityName>WBDHU8_ES</entityName>
+         <entityDescription>      NHD-WBD HU8 Subbasin Boundaries (format: zipped ArcGIS shapefile) extracted from "National Hydrography Dataset - High Resolution - Virginia" (static copy, 2013-09-06 data) for the lower Delmarva Peninsula (Eastern Shore of Virginia) by VCRLTER staff.      </entityDescription>
+         <physical>
+            <objectName>WBDHU8_ES.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.227.3&amp;urlHeadID=2&amp;urlTail=6/VCR14223/WBDHU8_ES.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>lower Delmarva Peninsula</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.405511</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-74.940515</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.994709</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.800819</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>OBJECTID</attributeName>
+               <attributeLabel>OBJECTID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>TNMID</attributeName>
+               <attributeLabel>TNMID</attributeLabel>
+               <attributeDefinition>The National Map Identification ID</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The National Map Identification ID</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>MetaSource</attributeName>
+               <attributeLabel>MetaSource</attributeLabel>
+               <attributeDefinition>MetaSourceID is another unique identifier that links the element to the
+                    metadata tables. This ID is generated and assigned automatically by the database
+                    and remains with the object permanently.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>MetaSourceID is another unique identifier that links the element to the
+                    metadata tables. This ID is generated and assigned automatically by the database
+                    and remains with the object permanently.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceData</attributeName>
+               <attributeLabel>SourceData</attributeLabel>
+               <attributeDefinition>SourceDataDesc is a space provided for a brief description of the type of
+                    base data used to update or change the current WBD. </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceDataDesc is a space provided for a brief description of the type of
+                    base data used to update or change the current WBD. </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceOrig</attributeName>
+               <attributeLabel>SourceOrig</attributeLabel>
+               <attributeDefinition>SourceOriginator is the description of the agency that created the base
+                    data used to improve the WBD. </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceOriginator is the description of the agency that created the base
+                    data used to improve the WBD. </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceFeat</attributeName>
+               <attributeLabel>SourceFeat</attributeLabel>
+               <attributeDefinition>SourceFeatureID is a long, unique code. This code identifies the parent of
+                    the feature if the feature is the result of a split or merge, and it is
+                    automatically generated and assigned.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceFeatureID is a long, unique code. This code identifies the parent of
+                    the feature if the feature is the result of a split or merge, and it is
+                    automatically generated and assigned.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LoadDate</attributeName>
+               <attributeLabel>LoadDate</attributeLabel>
+               <attributeDefinition>LoadDate represents the date when the data were loaded into the official
+                    USGS WBD ArcSDE database. The field is the effective date for all feature edits,
+                    and it is automatically generated.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Date</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>LoadDate represents the date when the data were loaded into the official
+                    USGS WBD ArcSDE database. The field is the effective date for all feature edits,
+                    and it is automatically generated.    Attribute Type : Date        Attribute Width : 8        Attribute Precision : 0        Attribute Scale : 0    </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_ID</attributeName>
+               <attributeLabel>GNIS_ID</attributeLabel>
+               <attributeDefinition>GNIS_ID is a preassigned numeric field that uses a unique number to relate
+                    the name of the hydrologic unit to the GNIS names database.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AreaAcres</attributeName>
+               <attributeLabel>AreaAcres</attributeLabel>
+               <attributeDefinition>Area in acres (North American Albers Equal Area Conic, North American Datum
+                    1983 is the required projection to use for calculation).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>acre</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AreaSqKm</attributeName>
+               <attributeLabel>AreaSqKm</attributeLabel>
+               <attributeDefinition>Area in square kilometers (North American Albers Equal Area Conic, North
+                    American Datum 1983 is the required projection to use for
+                    calculation).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareKilometers</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>States</attributeName>
+               <attributeLabel>States</attributeLabel>
+               <attributeDefinition>The State(s) or outlying areas that the hydrologic unit falls within or
+                    touches.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The State(s) or outlying areas that the hydrologic unit falls within or
+                    touches.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>HUC8</attributeName>
+               <attributeLabel>HUC8</attributeLabel>
+               <attributeDefinition>The HUC8 field is a unique 8-digit hydrologic unit code (level:
+                    Subbasins).</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The HUC8 field is a unique 8-digit hydrologic unit code (level:
+                    Subbasins).</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Name</attributeName>
+               <attributeLabel>Name</attributeLabel>
+               <attributeDefinition>Subbasin name</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Subbasin name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Leng</attributeName>
+               <attributeLabel>Shape_Leng</attributeLabel>
+               <attributeDefinition>Length (perimeter) of feature in internal units.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Area</attributeName>
+               <attributeLabel>Shape_Area</attributeLabel>
+               <attributeDefinition>Area of feature in internal units squared.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>6</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+      <spatialVector id="WBDHU10_ES">
+         <alternateIdentifier>VCR14223-7</alternateIdentifier>
+         <entityName>WBDHU10_ES</entityName>
+         <entityDescription>   NHD-WBD HU10 Watershed Boundaries (format: zipped ArcGIS shapefile) extracted from "National Hydrography Dataset - High Resolution - Virginia" (static copy, 2013-09-06 data) for the lower Delmarva Peninsula (Eastern Shore of Virginia) by VCRLTER staff.        </entityDescription>
+         <physical>
+            <objectName>WBDHU10_ES.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.227.3&amp;urlHeadID=2&amp;urlTail=7/VCR14223/WBDHU10_ES.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>lower Delmarva Peninsula</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.405511</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-74.940515</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.994709</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.800819</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>OBJECTID</attributeName>
+               <attributeLabel>OBJECTID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>TNMID</attributeName>
+               <attributeLabel>TNMID</attributeLabel>
+               <attributeDefinition>The National Map Identification ID</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The National Map Identification ID</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>MetaSource</attributeName>
+               <attributeLabel>MetaSource</attributeLabel>
+               <attributeDefinition>MetaSourceID is another unique identifier that links the element to the
+                    metadata tables. This ID is generated and assigned automatically by the database
+                    and remains with the object permanently.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>MetaSourceID is another unique identifier that links the element to the
+                    metadata tables. This ID is generated and assigned automatically by the database
+                    and remains with the object permanently.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceData</attributeName>
+               <attributeLabel>SourceData</attributeLabel>
+               <attributeDefinition>SourceDataDesc is a space provided for a brief description of the type of
+                    base data used to update or change the current WBD. </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceDataDesc is a space provided for a brief description of the type of
+                    base data used to update or change the current WBD. </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceOrig</attributeName>
+               <attributeLabel>SourceOrig</attributeLabel>
+               <attributeDefinition>SourceOriginator is the description of the agency that created the base
+                    data used to improve the WBD. </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceOriginator is the description of the agency that created the base
+                    data used to improve the WBD. </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceFeat</attributeName>
+               <attributeLabel>SourceFeat</attributeLabel>
+               <attributeDefinition>SourceFeatureID is a long, unique code. This code identifies the parent of
+                    the feature if the feature is the result of a split or merge, and it is
+                    automatically generated and assigned.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceFeatureID is a long, unique code. This code identifies the parent of
+                    the feature if the feature is the result of a split or merge, and it is
+                    automatically generated and assigned.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LoadDate</attributeName>
+               <attributeLabel>LoadDate</attributeLabel>
+               <attributeDefinition>LoadDate represents the date when the data were loaded into the official
+                    USGS WBD ArcSDE database. The field is the effective date for all feature edits,
+                    and it is automatically generated.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Date</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>LoadDate represents the date when the data were loaded into the official
+                    USGS WBD ArcSDE database. The field is the effective date for all feature edits,
+                    and it is automatically generated.    Attribute Type : Date        Attribute Width : 8        Attribute Precision : 0        Attribute Scale : 0    </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_ID</attributeName>
+               <attributeLabel>GNIS_ID</attributeLabel>
+               <attributeDefinition>GNIS_ID is a preassigned numeric field that uses a unique number to relate
+                    the name of the hydrologic unit to the GNIS names database.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AreaAcres</attributeName>
+               <attributeLabel>AreaAcres</attributeLabel>
+               <attributeDefinition>Area in acres (North American Albers Equal Area Conic, North American Datum
+                    1983 is the required projection to use for calculation).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>acre</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AreaSqKm</attributeName>
+               <attributeLabel>AreaSqKm</attributeLabel>
+               <attributeDefinition>Area in square kilometers (North American Albers Equal Area Conic, North
+                    American Datum 1983 is the required projection to use for
+                    calculation).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareKilometers</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>States</attributeName>
+               <attributeLabel>States</attributeLabel>
+               <attributeDefinition>The State(s) or outlying areas that the hydrologic unit falls within or
+                    touches.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The State(s) or outlying areas that the hydrologic unit falls within or
+                    touches.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>HUC10</attributeName>
+               <attributeLabel>HUC10</attributeLabel>
+               <attributeDefinition>The HUC10 field is a unique 10-digit hydrologic unit code (level:
+                    Watersheds).</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The HUC10 field is a unique 10-digit hydrologic unit code (level:
+                    Watersheds).</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Name</attributeName>
+               <attributeLabel>Name</attributeLabel>
+               <attributeDefinition>Watershed name</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Watershed name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>HUType</attributeName>
+               <attributeLabel>HUType</attributeLabel>
+               <attributeDefinition>the single-letter abbreviation for Watershed type</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>S</code>
+                              <definition> &#8220;Standard&#8221; hydrologic unit - An area with drainage flowing to a
+                            single outlet point, excluding noncontributing areas. Some examples
+                            include &#8220;true,&#8221; &#8220;classic,&#8221; &#8220;composite,&#8221; and &#8220;remnant&#8221; hydrologic units
+                            (section 3.5.1).</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>&#8220;Closed Basin&#8221; hydrologic unit - A drainage area where all surface
+                            flow is internal (100 percent noncontributing); no overland flow leaves
+                            the hydrologic unit through the outlet point (section 3.5.2)</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>F</code>
+                              <definition>&#8220;Frontal&#8221; hydrologic unit - An area along the coastline of a lake,
+                            ocean, bay, etc., that has more than one outlet. These hydrologic units
+                            are predominantly land with some water areas at or near the outlet(s)
+                            (section 3.5.2).</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>M</code>
+                              <definition>&#8220;Multiple Outlet&#8221; hydrologic unit - An area that has more than one
+                            natural outlet; for example, an outlet located on a stream with multiple
+                            channels. This does not include frontal or water hydrologic units,
+                            hydrologic units with artificial interbasin transfers, drainage outlets
+                            through karst or ground-water flow, or outlets that cross a stream with
+                            an island.</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>W</code>
+                              <definition>&#8220;Water&#8221; hydrologic unit - An area that is predominantly water with
+                            adjacent land areas; for example, a lake, estuary, or harbor (section
+                            3.6). </definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>I</code>
+                              <definition>&#8220;Island&#8221; hydrologic unit - An area that is one or more islands and
+                            adjacent water (section 3.6.4).</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>HUMod</attributeName>
+               <attributeLabel>HUMod</attributeLabel>
+               <attributeDefinition>The 10-digit hydrologic unit modification attribute is either (1) the type
+                    of modification to natural overland flow that alters the natural delineation of
+                    a 10-digit hydrologic unit or (2) the special conditions GF-groundwater flow,
+                    GL-glacier, IF-ice field, KA-karst, and NC-noncontributing area. The value of
+                    the HUMod field helps to indicate where the modification to the 10-digit
+                    hydrologic unit is located. </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The 10-digit hydrologic unit modification attribute is either (1) the type
+                    of modification to natural overland flow that alters the natural delineation of
+                    a 10-digit hydrologic unit or (2) the special conditions GF-groundwater flow,
+                    GL-glacier, IF-ice field, KA-karst, and NC-noncontributing area. The value of
+                    the HUMod field helps to indicate where the modification to the 10-digit
+                    hydrologic unit is located. </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Leng</attributeName>
+               <attributeLabel>Shape_Leng</attributeLabel>
+               <attributeDefinition>Length (perimeter) of feature in internal units.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Area</attributeName>
+               <attributeLabel>Shape_Area</attributeLabel>
+               <attributeDefinition>Area of feature in internal units squared.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>32</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+      <spatialVector id="WBDHU12_ES">
+         <alternateIdentifier>VCR14223-8</alternateIdentifier>
+         <entityName>WBDHU12_ES</entityName>
+         <entityDescription>   NHD-WBD HU12 Subwatershed Boundaries (format: zipped ArcGIS shapefile) extracted from "National Hydrography Dataset - High Resolution - Virginia" (static copy, 2013-09-06 data) for the lower Delmarva Peninsula (Eastern Shore of Virginia) by VCRLTER staff.        </entityDescription>
+         <physical>
+            <objectName>WBDHU12_ES.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.227.3&amp;urlHeadID=2&amp;urlTail=8/VCR14223/WBDHU12_ES.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>lower Delmarva Peninsula</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.405511</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-74.940515</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.994709</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.800819</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>OBJECTID</attributeName>
+               <attributeLabel>OBJECTID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>TNMID</attributeName>
+               <attributeLabel>TNMID</attributeLabel>
+               <attributeDefinition>The National Map Identification ID</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The National Map Identification ID</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>MetaSource</attributeName>
+               <attributeLabel>MetaSource</attributeLabel>
+               <attributeDefinition>MetaSourceID is another unique identifier that links the element to the
+                    metadata tables. This ID is generated and assigned automatically by the database
+                    and remains with the object permanently.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>MetaSourceID is another unique identifier that links the element to the
+                    metadata tables. This ID is generated and assigned automatically by the database
+                    and remains with the object permanently.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceData</attributeName>
+               <attributeLabel>SourceData</attributeLabel>
+               <attributeDefinition>SourceDataDesc is a space provided for a brief description of the type of
+                    base data used to update or change the current WBD. </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceDataDesc is a space provided for a brief description of the type of
+                    base data used to update or change the current WBD. </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceOrig</attributeName>
+               <attributeLabel>SourceOrig</attributeLabel>
+               <attributeDefinition>SourceOriginator is the description of the agency that created the base
+                    data used to improve the WBD. </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceOriginator is the description of the agency that created the base
+                    data used to improve the WBD. </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SourceFeat</attributeName>
+               <attributeLabel>SourceFeat</attributeLabel>
+               <attributeDefinition>SourceFeatureID is a long, unique code. This code identifies the parent of
+                    the feature if the feature is the result of a split or merge, and it is
+                    automatically generated and assigned.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>SourceFeatureID is a long, unique code. This code identifies the parent of
+                    the feature if the feature is the result of a split or merge, and it is
+                    automatically generated and assigned.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LoadDate</attributeName>
+               <attributeLabel>LoadDate</attributeLabel>
+               <attributeDefinition>LoadDate represents the date when the data were loaded into the official
+                    USGS WBD ArcSDE database. The field is the effective date for all feature edits,
+                    and it is automatically generated.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Date</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>LoadDate represents the date when the data were loaded into the official
+                    USGS WBD ArcSDE database. The field is the effective date for all feature edits,
+                    and it is automatically generated.    Attribute Type : Date        Attribute Width : 8        Attribute Precision : 0        Attribute Scale : 0    </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GNIS_ID</attributeName>
+               <attributeLabel>GNIS_ID</attributeLabel>
+               <attributeDefinition>GNIS_ID is a preassigned numeric field that uses a unique number to relate
+                    the name of the hydrologic unit to the GNIS names database.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AreaAcres</attributeName>
+               <attributeLabel>AreaAcres</attributeLabel>
+               <attributeDefinition>Area in acres (North American Albers Equal Area Conic, North American Datum
+                    1983 is the required projection to use for calculation).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>acre</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AreaSqKm</attributeName>
+               <attributeLabel>AreaSqKm</attributeLabel>
+               <attributeDefinition>Area in square kilometers (North American Albers Equal Area Conic, North
+                    American Datum 1983 is the required projection to use for
+                    calculation).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareKilometers</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>States</attributeName>
+               <attributeLabel>States</attributeLabel>
+               <attributeDefinition>The State(s) or outlying areas that the hydrologic unit falls within or
+                    touches.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The State(s) or outlying areas that the hydrologic unit falls within or
+                    touches.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>HUC12</attributeName>
+               <attributeLabel>HUC12</attributeLabel>
+               <attributeDefinition>The HUC12 field is a unique 12-digit hydrologic unit code (level:
+                    Subatersheds).</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The HUC12 field is a unique 12-digit hydrologic unit code (level:
+                    Subatersheds).</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Name</attributeName>
+               <attributeLabel>Name</attributeLabel>
+               <attributeDefinition>Subwatershed name</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Subwatershed name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>HUType</attributeName>
+               <attributeLabel>HUType</attributeLabel>
+               <attributeDefinition>the single-letter abbreviation for Subwatershed type</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>S</code>
+                              <definition>&#8220;Standard&#8221; hydrologic unit - An area with drainage flowing to a
+                            single outlet point, excluding noncontributing areas. Some examples
+                            include &#8220;true,&#8221; &#8220;classic,&#8221; &#8220;composite,&#8221; and &#8220;remnant&#8221; hydrologic units
+                            (section 3.5.1).</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>&#8220;Closed Basin&#8221; hydrologic unit - A drainage area where all surface
+                            flow is internal (100 percent noncontributing); no overland flow leaves
+                            the hydrologic unit through the outlet point (section 3.5.2)</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>F</code>
+                              <definition>&#8220;Frontal&#8221; hydrologic unit - An area along the coastline of a lake,
+                            ocean, bay, etc., that has more than one outlet. These hydrologic units
+                            are predominantly land with some water areas at or near the outlet(s)
+                            (section 3.5.2).</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>M</code>
+                              <definition>&#8220;Multiple Outlet&#8221; hydrologic unit - An area that has more than one
+                            natural outlet; for example, an outlet located on a stream with multiple
+                            channels. This does not include frontal or water hydrologic units,
+                            hydrologic units with artificial interbasin transfers, drainage outlets
+                            through karst or ground-water flow, or outlets that cross a stream with
+                            an island.</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>W</code>
+                              <definition>&#8220;Water&#8221; hydrologic unit - An area that is predominantly water with
+                            adjacent land areas; for example, a lake, estuary, or harbor (section
+                            3.6). </definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>I</code>
+                              <definition>&#8220;Island&#8221; hydrologic unit - An area that is one or more islands and
+                            adjacent water (section 3.6.4).</definition>
+                              <source>USGS</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>HUMod</attributeName>
+               <attributeLabel>HUMod</attributeLabel>
+               <attributeDefinition>The 12-digit hydrologic unit modification attribute is either (1) the type
+                    of modification to natural overland flow that alters the natural delineation of
+                    a 12-digit hydrologic unit or (2) the special conditions GF Groundwater flow, GL
+                    Glacier, IF Ice field, KA Karst, and NC Noncontributing area. The value of the
+                    HUMod field helps to indicate where the modification to the 10-digit hydrologic
+                    unit is located.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The 12-digit hydrologic unit modification attribute is either (1) the type
+                    of modification to natural overland flow that alters the natural delineation of
+                    a 12-digit hydrologic unit or (2) the special conditions GF Groundwater flow, GL
+                    Glacier, IF Ice field, KA Karst, and NC Noncontributing area. The value of the
+                    HUMod field helps to indicate where the modification to the 10-digit hydrologic
+                    unit is located.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>ToHUC</attributeName>
+               <attributeLabel>ToHUC</attributeLabel>
+               <attributeDefinition>code for the 12-digit hydrologic unit that is downstream from and naturally
+                    receives the majority of the flow from another 12-digit hydrologic
+                    unit</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>code for the 12-digit hydrologic unit that is downstream from and naturally
+                    receives the majority of the flow from another 12-digit hydrologic
+                    unit</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>NonContrib</attributeName>
+               <attributeLabel>NonContrib</attributeLabel>
+               <attributeDefinition>NonContributingAcres: The noncontributing area attribute represents the
+                    area, in acres, of hydrologic units that do not contribute to downstream
+                    accumulation of streamflow under normal flow conditions (section
+                    3.5.3).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>acre</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>NonContr_1</attributeName>
+               <attributeLabel>NonContr_1</attributeLabel>
+               <attributeDefinition>NonContributingSqKm: The noncontributing area attribute represents the
+                    area, in square kilometers, of hydrologic units that do not contribute to
+                    downstream accumulation of streamflow under normal flow conditions (section
+                    3.5.3).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareKilometers</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Leng</attributeName>
+               <attributeLabel>Shape_Leng</attributeLabel>
+               <attributeDefinition>Length (perimeter) of feature in internal units.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Area</attributeName>
+               <attributeLabel>Shape_Area</attributeLabel>
+               <attributeDefinition>Area of feature in internal units squared.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Positive real numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>122</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-16</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

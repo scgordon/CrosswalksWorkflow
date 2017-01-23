@@ -1,0 +1,1804 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.219.3" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="219" system="VCR">
+   <alternateIdentifier>VCR13215</alternateIdentifier>
+   <title>Tidal datum conversion grids for the Eastern Shore of Virginia and surrounding waters (2013)</title>
+   <creator>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2013-09-11</pubDate>
+   <abstract>
+  <para>Data consists of conversion factors that can be used to convert between numerous vertical tidal datums and the North American Vertical Datum of 1988 (NAVD88). The data cover the Eastern Shore of Virginia and parts of southeastern Maryland along with the surrounding coastal waters and are represented as approximately 100m (100.584m) resolution grids. The six included tidal datums are local mean sea level (LMSL), mean tidal level (MTL), mean low water (MLW), mean lower low water (MLLW), mean high water (MHW), and mean higher high water (MHHW). All vertical units are in meters. By combining multiple conversions to and from NAVD88, conversion between the various tidal datums is possible.</para>
+  <para>Two versions of the conversion factor grids are provided for each NAVD88-to-tidal-datum pairing: one that only contains data for areas not masked as nodata by the NOAA VDatum program (original source data) and one that contains both the original and interpolated data (see below for details). Naming conventions used were "cfactor_DDD" for the original VDatum-detrived dataset where "DDD" is the local tidal datum and "cf_nd_DDD" for the dataset that includes interpolated values within the nodata masks (IDW interpolation across masked areas, typically upland regions but also shallow seaside bays and creeks for which no adequate tidal benchmarks were available).</para>
+  <para>By definition, the baseline elevation (sea level or 0.0m elevation) for NAVD88 is referenced to the fixed International Great Lakes Datum of 1985 local mean sea level height value, at Rimouski, Quebec, Canada. Additional tidal bench mark elevations were not used to calculate NAVD88 due to the demonstrated variations in sea surface topography, i.e., the fact that mean sea level is not the same equipotential surface at all tidal benchmarks. The magnitude of the difference between local mean sea level (LMSL) at the tidal benchmarks of the Eastern Shore of Virginia and the NAVD88 defined sea-level varies from 0.039 to 0.149 meters BELOW zero NAVD88. Tidal prisms also vary at each tidal benchmark (in part due to differences in basin configuration and tidal interactions) causing the conversion factors for the other tidal datums to also vary spatially in similar but not identical patterns.</para>
+  <para>The VDatum 3.2 software program from NOAA (http://vdatum.noaa.gov/) was used to convert the x,y,z center points of the 100m gridded data wherein all Z elevations were set equal to zero (0) from NAVD88 to each of the six local tidal datums (the X,Y horizontal WGS84 UTM 18N coordinates remained unchanged). The resulting conversion factors represent the new elevation at which the NAVD88 zero level would lie in reference to the new datum; thus, to convert from NAVD88 and the new tidal datum, one would add this conversion factor to the NAVD88 elevations to get elevations relative to the chosen tidal datum. To convert to NAVD88 from a given tidal datum, one would subtract the conversion factor from the tidal elevation. Data were turned back into gridded data with the same resolution and horizontal extent as the original data grid.</para>
+  <para>The internal data grids used by the VDatum program mask as nodata most land areas (including marshes) plus many of the seaside shallow bays, either in part or in full, for which reliable tidal benchmark data is/was not available. As a result, the program cannot be used in these nodata areas, even if immediately adjacent to data areas. So as to make conversion factors available for these coastal bays and marshes and seaside watersheds of interest to the VCRLTER, conversion factors for gridded regions within the NOAA nodata masks were interpolated from neighboring data values using the inverse distance weighting (IDW) techniques employed by ESRI's ArcGIS 10.1 software.</para>
+  <para>IDW interpolation resulted in conversion factors that varied gradually spatially when adjacent to the NOAA VDatum data grids but that often showed relatively sharp transitions when equidistant between different far-apart basins (such as mid-peninsula between the Chesapeake Bay and Atlantic Ocean, or within South Bay bounded by data constructed from tidal datums for the Atlantic Ocean (east), Ship Shoal Inlet (south), Sand Shoal Inlet (north), and Magothy Channel (west)).</para>
+  <para>It is suggested that the appropriate use of this data is to convert elevation datasets referenced to a tidal datum to NAVD88 if integrating multiple datasets together over large areas, such as across the full Eastern Shore or across multiple watersheds or coastal bays, so as to not introduce artificial IDW-related transitions into otherwise vertically-consistent upland elevations or basin-scale bathymetric surveys.</para>
+  <para>When converting elevations of fringing upland marshes, the conversion factors (including interpolated values) can likely be used directly on a cell-by-cell level to adjust the tidal elevations to NAVD88 or to another tidal datum without the involvement of any IDW-related transitions. Likewise for many of the back-barrier seaside marshes and bays of Accomack County in the northern portion of the data coverage where no channel tidal datums intervene between the Atlantic coastline and the Chesapeake Bay.</para>
+  <para>However, when converting bathymetric survey data for individual bays or basins with significant nodata-masked areas that exhibit sharp IDW-related transitions, it is suggested that it would be more appropriate to use a single area-averaged conversion factor calculated across the whole basin (or across the whole basin minus any portion where the conversion factor is closer [more-related] to a channel on the other side of an upland barrier without connecting flow paths). Likewise when converting to tidal datums full upland mainland watersheds. This again should prevent introducing sharp transitions and steps into the bathymetry survey data, which it is assumed is otherwise internally consistent.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">bathymetry</keyword>
+      <keyword keywordType="theme">elevation</keyword>
+      <keyword keywordType="theme">digital elevation model</keyword>
+      <keyword keywordType="theme">tidal datums</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>VA_EASTERNSHORE - Eastern Shore of Virginia and surrounding waters</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>2013-09-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2013-09-10</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <otherEntity>
+      <entityName>VCR13215</entityName>
+      <entityDescription>
+Zip file containing all twelve conversion factor grids (NAVD88 to six vertical tidal datums [LMSL, MTL, MLW, MLLW, MHW, MHHW], excluding and including interpolated values across NOAA's Vdatum nodata mask areas) in TIFF image format.
+
+
+
+      </entityDescription>
+      <physical>
+         <objectName>tidalDatumConversionTiffs.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=1/VCR13215/VCR13215/tidalDatumConversionTiffs.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+      <spatialRaster id="cfactor_lmsl.tif">
+         <alternateIdentifier>VCR13215-2</alternateIdentifier>
+         <entityName>cfactor_lmsl</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to LMSL) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask are excluded.      
+ </entityDescription>
+         <physical>
+            <objectName>cfactor_lmsl.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=2/VCR13215/cfactor_lmsl.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to LMSL)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.039000</minimum>
+                           <maximum exclusive="false">0.149100</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cfactor_mhhw.tif">
+         <alternateIdentifier>VCR13215-3</alternateIdentifier>
+         <entityName>cfactor_mhhw</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MHHW) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask are excluded.      
+     </entityDescription>
+         <physical>
+            <objectName>cfactor_mhhw.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=3/VCR13215/cfactor_mhhw.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MHHW)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-0.711400</minimum>
+                           <maximum exclusive="false">-0.021400</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cfactor_mhw.tif">
+         <alternateIdentifier>VCR13215-4</alternateIdentifier>
+         <entityName>cfactor_mhw</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MHW) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask are excluded.      
+     </entityDescription>
+         <physical>
+            <objectName>cfactor_mhw.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=4/VCR13215/cfactor_mhw.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>the Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MHW)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-0.624000</minimum>
+                           <maximum exclusive="false">0.002100</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cfactor_mllw.tif">
+         <alternateIdentifier>VCR13215-5</alternateIdentifier>
+         <entityName>cfactor_mllw</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MLLW) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask are excluded.      
+     </entityDescription>
+         <physical>
+            <objectName>cfactor_mllw.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=5/VCR13215/cfactor_mllw.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MLLW)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.183000</minimum>
+                           <maximum exclusive="false">0.869700</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cfactor_mlw.tif">
+         <alternateIdentifier>VCR13215-6</alternateIdentifier>
+         <entityName>cfactor_mlw</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MLW) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask are excluded.      
+        </entityDescription>
+         <physical>
+            <objectName>cfactor_mlw.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=6/VCR13215/cfactor_mlw.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MLW)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.151100</minimum>
+                           <maximum exclusive="false">0.810000</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cfactor_mtl.tif">
+         <alternateIdentifier>VCR13215-7</alternateIdentifier>
+         <entityName>cfactor_mtl</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MTL) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask are excluded.      
+         </entityDescription>
+         <physical>
+            <objectName>cfactor_mtl.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=7/VCR13215/cfactor_mtl.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MTL)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.021300</minimum>
+                           <maximum exclusive="false">0.150700</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cf_nd_lmsl.tif">
+         <alternateIdentifier>VCR13215-8</alternateIdentifier>
+         <entityName>cf_nd_lmsl</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to LMSL) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask have been interpolated and included.           </entityDescription>
+         <physical>
+            <objectName>cf_nd_lmsl.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=8/VCR13215/cf_nd_lmsl.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to LMSL)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.039000</minimum>
+                           <maximum exclusive="false">0.149100</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cf_nd_mhhw.tif">
+         <alternateIdentifier>VCR13215-9</alternateIdentifier>
+         <entityName>cf_nd_mhhw</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MHHW) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask have been interpolated and included.           </entityDescription>
+         <physical>
+            <objectName>cf_nd_mhhw.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=9/VCR13215/cf_nd_mhhw.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MHHW)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-0.711400</minimum>
+                           <maximum exclusive="false">-0.021400</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cf_nd_mhw.tif">
+         <alternateIdentifier>VCR13215-10</alternateIdentifier>
+         <entityName>cf_nd_mhw</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MHW) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask have been interpolated and included.           </entityDescription>
+         <physical>
+            <objectName>cf_nd_mhw.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=10/VCR13215/cf_nd_mhw.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MHW)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-0.624000</minimum>
+                           <maximum exclusive="false">0.002100</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cf_nd_mllw.tif">
+         <alternateIdentifier>VCR13215-11</alternateIdentifier>
+         <entityName>cf_nd_mllw</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MLLW) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask have been interpolated and included.           </entityDescription>
+         <physical>
+            <objectName>cf_nd_mllw.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=11/VCR13215/cf_nd_mllw.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MLLW)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.183000</minimum>
+                           <maximum exclusive="false">0.869700</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cf_nd_mlw.tif">
+         <alternateIdentifier>VCR13215-12</alternateIdentifier>
+         <entityName>cf_nd_mlw</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MLW) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask have been interpolated and included.           </entityDescription>
+         <physical>
+            <objectName>cf_nd_mlw.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=12/VCR13215/cf_nd_mlw.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MLW)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.151100</minimum>
+                           <maximum exclusive="false">0.810000</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="cf_nd_mtl.tif">
+         <alternateIdentifier>VCR13215-13</alternateIdentifier>
+         <entityName>cf_nd_mtl</entityName>
+         <entityDescription>      Tidal datum conversion grid (NAVD88 to MTL) for the Eastern Shore of Virginia and surrounding waters. Areas within NOAA&#8217;s Vdatum upland/nodata mask have been interpolated and included.           </entityDescription>
+         <physical>
+            <objectName>cf_nd_mtl.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=13/VCR13215/cf_nd_mtl.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia and surrounding waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation conversion factor (NAVD88 to MTL)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.021300</minimum>
+                           <maximum exclusive="false">0.150700</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>100.584000</cellSizeXDirection>
+         <cellSizeYDirection>100.584000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1394</rows>
+         <columns>944</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+   <otherEntity>
+      <entityName>tidalDatumConversionGrids.zip</entityName>
+      <entityDescription>
+Zip file containing all twelve conversion factor grids (NAVD88 to six vertical tidal datums [LMSL, MTL, MLW, MLLW, MHW, MHHW], excluding and including interpolated values across NOAA's Vdatum nodata mask areas) in ERSI Grid format (ArcGIS 10.1).
+      </entityDescription>
+      <physical>
+         <objectName>tidalDatumConversionGrids.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.219.3&amp;urlHeadID=2&amp;urlTail=14/VCR13215/tidalDatumConversionGrids.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-28</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

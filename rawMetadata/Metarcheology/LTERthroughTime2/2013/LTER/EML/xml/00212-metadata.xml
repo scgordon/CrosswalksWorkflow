@@ -1,0 +1,3397 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-arc.10461.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=ARC,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>ARCSS-Thermokarst Permafrost Soil Database Jorgenson 2013</alternateIdentifier>
+    <title>Permafrost soil database with information on site, topography, geomorphology, hydrology, soil stratigraphy, soil carbon, ground ice isotopes, and vegetation at thermokarst features near Toolik and Noatak River, 2009-2013</title>
+    <creator id="pers-1">
+      <organizationName>Arctic LTER Program</organizationName>
+      <individualName>
+        <givenName>Torre</givenName>
+        <surName>Jorgenson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Alaska Ecoscience</deliveryPoint>
+        <deliveryPoint>2332 Cordes Way</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99709</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Arctic LTER Program</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7496</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/ARC/</onlineUrl>
+    </metadataProvider>
+    <pubDate>2013</pubDate>
+    <abstract>
+      <para>This database contains soil and permafrost stratigraphy associated with thermokarst features near Toolik Lake and the Noatak River collected by Torre Jorgenson and Andrew Balser during summers 2009-2011. The Access Database has main data tables (tbl_) for site (environmental), soil stratigraphy, soil physical data, soil chemical data, soil isotopes (ground ice), soil radiocarbon dates, topography and bathymetry, and vegetation cover. The site data includes information of location, observers, geomorphology, topography, hydrology, soil summary characteristics, pH and EC, soil classification, and vegetation cover by species. Soil stratigrapy has information on soil texture and ground ice. Soil physical and chemical data includes lab data on bulk density, moisture, carbon, and nitrogen. The database has 37 reference tables (REF_) that have codes and descriptions for variables used in site, soil stratigraphy, and vegetation cover tables.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>thermokarst</keyword>
+      <keyword>permafrost</keyword>
+      <keyword>soil</keyword>
+      <keyword>ground ice</keyword>
+      <keyword>carbon</keyword>
+      <keyword>vegetation cover</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Acceptance and utilization of LTER data requires that:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions.</para>
+          </listitem>
+          <listitem>
+            <para>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications</para>
+          </listitem>
+          <listitem>
+            <para>A copy of any resultant publications should be sent to: 
+            <literalLayout>
+Principal Investigator
+Ecosystems Center
+Marine Biological Laboratory
+Woods Hole, MA 02543
+</literalLayout></para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://ecosystems.mbl.edu/ARC/meta_template.php?FileName=./thermokarst/soil/2009-2011_MTJ_Thermokarst_Permafrost_Soil.html</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="GEO-1">
+        <geographicDescription>Toolik Lake Region (50 km rad.), Each sampling location coordinates in tbl_Site</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.16</eastBoundingCoordinate>
+          <northBoundingCoordinate>69.13</northBoundingCoordinate>
+          <southBoundingCoordinate>68.48</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-2">
+        <geographicDescription>Noatak River (100 km rad. From Kelly River cabin)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-162.34</westBoundingCoordinate>
+          <eastBoundingCoordinate>-159.3</eastBoundingCoordinate>
+          <northBoundingCoordinate>67.94</northBoundingCoordinate>
+          <southBoundingCoordinate>67.71</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1905-07-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1905-07-03</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Field data collection complete, database subject to occassional update</para>
+        <para>Initial submission</para>
+      </description>
+    </maintenance>
+    <contact id="im" system="knb">
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7496</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/ARC/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>ARC LTER</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7496</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/ARC/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout>
+Field methods follow NRCS field methods
+Lab Methods are described in field descriptions associated with each table in the Access database.
+</literalLayout>
+          </para>
+        </description>
+        <protocol>
+          <title>Field sampling follows NRCS methods</title>
+          <creator>
+            <references>pers-1</references>
+          </creator>
+          <proceduralStep>
+            <description>
+              <para>Fieldbook for Describing and Sampling Soils (Schoeneberger et al. 2003).</para>
+            </description>
+          </proceduralStep>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Spatial and Temporal Influences of Thermokarst Failures on Surface Processes in Arctic Landscapes</title>
+      <personnel>
+        <individualName>
+          <givenName>William</givenName>
+          <surName>Bowden</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Rubenstein School of Environment and Natural Resources</deliveryPoint>
+          <deliveryPoint>303D Aiken Center</deliveryPoint>
+          <deliveryPoint>University of Vermont</deliveryPoint>
+          <city>Burlington</city>
+          <administrativeArea>VT</administrativeArea>
+          <postalCode>05405</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(802) 656 2513</phone>
+        <electronicMailAddress>breck.bowden@uvm.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+    <abstract>
+        <para>
+          <literalLayout>
+This research project is a collaborative, interdisciplinary effort to study the responses of Arctic landscapes to permafrost degradation known as thermokarst - landscape features caused by structural failure following the melting of ground ice.  As the arctic climate warms, there is increasing report of thermokarst incidence.  Responses of geomorphology, stream networks, terrestrial and aquatic ecosyststems, however, are poorly understood.
+</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>The material on this web site is based upon work supported by the National Science FoundationArctic System Sciences Program, Collaborative Awards ARC-.0806341, 0806399, 0806329, 0806254,0806465, 0806451, 0806271, and 0806394. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The Arctic LTER research site (68&#176;N and 149&#176;W) and the Noatak River (100 km rad. From Kelly River cabin are in the foothills region of the North Slope of Alaska and includes the entire Toolik Lake watershed and the adjacent watershed of the upper Kuparuk River, down to the confluence of these two watersheds. This area is typical of the northern foothills of the Brooks Range, with continuous permafrost, no trees, a complete snow cover for 7 to 9 months, winter ice cover on lakes, streams, and ocean, and cessation of river flow during the winter. Tussock tundra vegetation of sedges and grasses mixed with dwarf birch and low willows form the dominant vegetation type with areas of drier heath tundra on ridge tops and other well-drained sites as well as areas of river-bottom willow communities.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-149.75</westBoundingCoordinate>
+              <eastBoundingCoordinate>-149.0433</eastBoundingCoordinate>
+              <northBoundingCoordinate>68.8</northBoundingCoordinate>
+              <southBoundingCoordinate>68.5</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>610</altitudeMinimum>
+                <altitudeMaximum>1360</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </geographicCoverage>
+        </coverage>
+      </studyAreaDescription>
+    </project>
+    <dataTable>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Site.csv</entityName>
+      <entityDescription>Permafrost soil database with information on site, topography, geomorphology, hydrology, soil stratigraphy, soil carbon, ground ice isotopes, and vegetation at thermokarst features near Toolik and Noatak River, 2009-2013</entityDescription>
+      <physical>
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/data/2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Site.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att7.1">
+          <attributeName>SiteID</attributeName>
+          <attributeLabel>SiteID</attributeLabel>
+          <attributeDefinition>Site ID, often concatenated field using Project Code and Plot ID</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site ID, often concatenated field using Project Code and Plot ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.2">
+          <attributeName>SiteID_fld</attributeName>
+          <attributeLabel>SiteID_fld</attributeLabel>
+          <attributeDefinition>Original Field site ID</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Original Field site ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.3">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date and time of field work, MM/DD/YYYY hh24:mm</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy hh24:mi</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.4">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year of project</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.5">
+          <attributeName>ObserverEnv</attributeName>
+          <attributeLabel>ObserverEnv</attributeLabel>
+          <attributeDefinition>Environmental Variable observer initials</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Environmental Variable observer initials</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.6">
+          <attributeName>ObserverVeg</attributeName>
+          <attributeLabel>ObserverVeg</attributeLabel>
+          <attributeDefinition>Vegetation species and structure observer initials</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Vegetation species and structure observer initials</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.7">
+          <attributeName>PlotType</attributeName>
+          <attributeLabel>PlotType</attributeLabel>
+          <attributeDefinition>Plot type (T, transect; V,Verification; A, Air survey)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot type (T, transect; V,Verification; A, Air survey)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.8">
+          <attributeName>PlotSize</attributeName>
+          <attributeLabel>PlotSize</attributeLabel>
+          <attributeDefinition>Plot dimensions, radius in m, or Length X Width</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot dimensions, radius in m, or Length X Width</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.9">
+          <attributeName>Loc-Region</attributeName>
+          <attributeLabel>Loc-Region</attributeLabel>
+          <attributeDefinition>General region of study (based on location of field camp)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>General region of study (based on location of field camp)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.10">
+          <attributeName>Loc_Landmark</attributeName>
+          <attributeLabel>Loc_Landmark</attributeLabel>
+          <attributeDefinition>Geographic landmark description</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Geographic landmark description</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.11">
+          <attributeName>Loc_Code</attributeName>
+          <attributeLabel>Loc_Code</attributeLabel>
+          <attributeDefinition>e.g. Four letter project or study area identification code</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>e.g. Four letter project or study area identification code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.12">
+          <attributeName>Lat_WGS84</attributeName>
+          <attributeLabel>Lat_WGS84</attributeLabel>
+          <attributeDefinition>Latitude WGS84 GPS coordinates, decimal degrees</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.13">
+          <attributeName>Lon_WGS84</attributeName>
+          <attributeLabel>Lon_WGS84</attributeLabel>
+          <attributeDefinition>Longitude WGS84 GPS coordinates, decimal degrees</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.14">
+          <attributeName>ElevGPS</attributeName>
+          <attributeLabel>ElevGPS</attributeLabel>
+          <attributeDefinition>Elevation recorded from field GPS unit, meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.15">
+          <attributeName>Slope</attributeName>
+          <attributeLabel>Slope</attributeLabel>
+          <attributeDefinition>Slope in degrees</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.16">
+          <attributeName>Aspect</attributeName>
+          <attributeLabel>Aspect</attributeLabel>
+          <attributeDefinition>in degrees, if slope = 0, aspect also = 0 (not north)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.17">
+          <attributeName>Physiog</attributeName>
+          <attributeLabel>Physiog</attributeLabel>
+          <attributeDefinition>Revised Physiography codes for final report. for the code information see REF_PhysiographyCodestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Revised Physiography codes for final report. for the code information see REF_PhysiographyCodestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.18">
+          <attributeName>GeomUnitSurf</attributeName>
+          <attributeLabel>GeomUnitSurf</attributeLabel>
+          <attributeDefinition>Final Revised Codes. for the code information see REF_Geomorphic Unitstalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Final Revised Codes. for the code information see REF_Geomorphic Unitstalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.19">
+          <attributeName>GeomUnitSub</attributeName>
+          <attributeLabel>GeomUnitSub</attributeLabel>
+          <attributeDefinition>Final Revised Codes. for the code information see REF_Geomorphic Unitstalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Final Revised Codes. for the code information see REF_Geomorphic Unitstalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.20">
+          <attributeName>TopoMacro</attributeName>
+          <attributeLabel>TopoMacro</attributeLabel>
+          <attributeDefinition>Final Revised Codes. for the code information see REF_Topography_Macrotalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Final Revised Codes. for the code information see REF_Topography_Macrotalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.21">
+          <attributeName>TopoMicro</attributeName>
+          <attributeLabel>TopoMicro</attributeLabel>
+          <attributeDefinition>Final Revised Codes. for the code information see REF_Topography_Microtalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Final Revised Codes. for the code information see REF_Topography_Microtalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.22">
+          <attributeName>TopoMicroRelief</attributeName>
+          <attributeLabel>TopoMicroRelief</attributeLabel>
+          <attributeDefinition>measurement of average surface roughness in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.23">
+          <attributeName>RockSurf%</attributeName>
+          <attributeLabel>RockSurf%</attributeLabel>
+          <attributeDefinition>% cover of surface rock frags, visually estimate</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.24">
+          <attributeName>FrostBoil%</attributeName>
+          <attributeLabel>FrostBoil%</attributeLabel>
+          <attributeDefinition>% cover of active partially vegetated frost boils, visually estimate</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.25">
+          <attributeName>WaterDepth</attributeName>
+          <attributeLabel>WaterDepth</attributeLabel>
+          <attributeDefinition>Water depth cm, + when above surface/sediments, "-" when below ground surface in pit</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.26">
+          <attributeName>Wat-Abv-Blw</attributeName>
+          <attributeLabel>Wat-Abv-Blw</attributeLabel>
+          <attributeDefinition>Water depth above or below the soil surface (A/B/U)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Water depth above or below the soil surface (A/B/U)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.27">
+          <attributeName>WatSat30</attributeName>
+          <attributeLabel>WatSat30</attributeLabel>
+          <attributeDefinition>soil saturated in upper 30 cm. yes/no/unknown</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>soil saturated in upper 30 cm. yes/no/unknown</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.28">
+          <attributeName>WaterRegNWI</attributeName>
+          <attributeLabel>WaterRegNWI</attributeLabel>
+          <attributeDefinition>codes for National Wetlands inventory hydrology, see REF_NWIWaterRegimeCodes for the code information see REF_NWIWaterRegimeCodestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>codes for National Wetlands inventory hydrology, see REF_NWIWaterRegimeCodes for the code information see REF_NWIWaterRegimeCodestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.29">
+          <attributeName>Drainage</attributeName>
+          <attributeLabel>Drainage</attributeLabel>
+          <attributeDefinition>Final Revised drainage codes for the code information see REF_Soil_DrainageCodestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Final Revised drainage codes for the code information see REF_Soil_DrainageCodestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.30">
+          <attributeName>SiteMoisture</attributeName>
+          <attributeLabel>SiteMoisture</attributeLabel>
+          <attributeDefinition>Final revised Soil Moisture codes for the code information see REF_Soil_Moisture_Codestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Final revised Soil Moisture codes for the code information see REF_Soil_Moisture_Codestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.31">
+          <attributeName>WaterpH</attributeName>
+          <attributeLabel>WaterpH</attributeLabel>
+          <attributeDefinition>pH measured in ground water, where present</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.32">
+          <attributeName>WaterEC</attributeName>
+          <attributeLabel>WaterEC</attributeLabel>
+          <attributeDefinition>EC measured in ground water, where present, uS/cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemenPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.33">
+          <attributeName>SoilpH10</attributeName>
+          <attributeLabel>SoilpH10</attributeLabel>
+          <attributeDefinition>pH measure in saturated soil slurry, usually when ground water not present</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.34">
+          <attributeName>SoilpH30</attributeName>
+          <attributeLabel>SoilpH30</attributeLabel>
+          <attributeDefinition>soil pH measured from 30cm below soil surface</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.35">
+          <attributeName>SoilEC10</attributeName>
+          <attributeLabel>SoilEC10</attributeLabel>
+          <attributeDefinition>EC measure in saturated soil slurry, usually when ground water not present, uS/cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemenPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.36">
+          <attributeName>SoilpHGrad</attributeName>
+          <attributeLabel>SoilpHGrad</attributeLabel>
+          <attributeDefinition>Soil pH at 10 cm - Soil pH at 30 cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.37">
+          <attributeName>SitepH</attributeName>
+          <attributeLabel>SitepH</attributeLabel>
+          <attributeDefinition>Water pH or soil slurry pH, water used preferentially when available</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.38">
+          <attributeName>SiteEC</attributeName>
+          <attributeLabel>SiteEC</attributeLabel>
+          <attributeDefinition>Water EC or soil slurry EC, water used preferentially when available, uS/cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemenPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.39">
+          <attributeName>SiteChem</attributeName>
+          <attributeLabel>SiteChem</attributeLabel>
+          <attributeDefinition>a,Alkaline; b,Basic; N,Circuneutral; s,Saline; e,brackish (see Ref_SiteChemistry for definitions) for the code information see REF_Soil_SiteChemistrytalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>a,Alkaline; b,Basic; N,Circuneutral; s,Saline; e,brackish (see Ref_SiteChemistry for definitions) for the code information see REF_Soil_SiteChemistrytalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.40">
+          <attributeName>OrgSurfThk</attributeName>
+          <attributeLabel>OrgSurfThk</attributeLabel>
+          <attributeDefinition>Final numeric field where field values were described with a &gt;symbol values &lt;40=40 and values &gt;40&lt;60=60. in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.41">
+          <attributeName>OrgCumThk40</attributeName>
+          <attributeLabel>OrgCumThk40</attributeLabel>
+          <attributeDefinition>Final numeric field where field values were described with a &gt;symbol values &lt;40=40 and values &gt;40&lt;60=60. in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.42">
+          <attributeName>SoilTxtMin40</attributeName>
+          <attributeLabel>SoilTxtMin40</attributeLabel>
+          <attributeDefinition>Dominant mineral soil texture class, see reference table for the code information see REF_Soil_DomTexttalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Dominant mineral soil texture class, see reference table for the code information see REF_Soil_DomTexttalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.43">
+          <attributeName>SoilTxtDom40</attributeName>
+          <attributeLabel>SoilTxtDom40</attributeLabel>
+          <attributeDefinition>Dominant overall soil texture, see reference table for the code information see REF_Soil_DomTexttalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Dominant overall soil texture, see reference table for the code information see REF_Soil_DomTexttalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.44">
+          <attributeName>SiltThick</attributeName>
+          <attributeLabel>SiltThick</attributeLabel>
+          <attributeDefinition>Depth of surface silt cap, cm, usually wind blown silt, in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.45">
+          <attributeName>RockDepth</attributeName>
+          <attributeLabel>RockDepth</attributeLabel>
+          <attributeDefinition>Depth to rocks (&gt;15% coarse frags), where field depths were described with a &gt; symbol the final rock depth was assumed to be 200cm.in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.46">
+          <attributeName>SoilMotlDep</attributeName>
+          <attributeLabel>SoilMotlDep</attributeLabel>
+          <attributeDefinition>Depth to low chroma mottles, in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.47">
+          <attributeName>SoilGleyDep</attributeName>
+          <attributeLabel>SoilGleyDep</attributeLabel>
+          <attributeDefinition>Depth to low chroma matrix, fully gleyed, in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.48">
+          <attributeName>SoilHydric</attributeName>
+          <attributeLabel>SoilHydric</attributeLabel>
+          <attributeDefinition>hydric soil by COE, yes/no/unknown</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>hydric soil by COE, yes/no/unknown</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.49">
+          <attributeName>Cryoturb</attributeName>
+          <attributeLabel>Cryoturb</attributeLabel>
+          <attributeDefinition>Cryoturbation observed in soil profile,yes/no/unknown</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cryoturbation observed in soil profile,yes/no/unknown</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.50">
+          <attributeName>ThawDepth</attributeName>
+          <attributeLabel>ThawDepth</attributeLabel>
+          <attributeDefinition>Thaw depth cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.51">
+          <attributeName>Permafrost</attributeName>
+          <attributeLabel>Permafrost</attributeLabel>
+          <attributeDefinition>yes/no/unknown</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>yes/no/unknown</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.52">
+          <attributeName>SoilMaxObsDep</attributeName>
+          <attributeLabel>SoilMaxObsDep</attributeLabel>
+          <attributeDefinition>depth to maximum soil observation (cm), includes frost probe depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att7.53">
+          <attributeName>SoilStrat</attributeName>
+          <attributeLabel>SoilStrat</attributeLabel>
+          <attributeDefinition>whether the soils were described on a form, yes or no</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>whether the soils were described on a form, yes or no</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.54">
+          <attributeName>SoilSample</attributeName>
+          <attributeLabel>SoilSample</attributeLabel>
+          <attributeDefinition>whether a soil sample was collected for the code information see REF_Soil_Redox_Typetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>whether a soil sample was collected for the code information see REF_Soil_Redox_Typetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.55">
+          <attributeName>SoilMeth</attributeName>
+          <attributeLabel>SoilMeth</attributeLabel>
+          <attributeDefinition>method by which soil/environmental variables assessed, e.g. l = soil plug, m = tile probe, see REF_SampleMeth for complete list</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>method by which soil/environmental variables assessed, e.g. l = soil plug, m = tile probe, see REF_SampleMeth for complete list</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.56">
+          <attributeName>SoilClass2003</attributeName>
+          <attributeLabel>SoilClass2003</attributeLabel>
+          <attributeDefinition>NRCS Soil taxonomy code 2003, 9th Edition for the code information see REF_Soil_type_NRCStalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS Soil taxonomy code 2003, 9th Edition for the code information see REF_Soil_type_NRCStalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.57">
+          <attributeName>SoilClass2010</attributeName>
+          <attributeLabel>SoilClass2010</attributeLabel>
+          <attributeDefinition>NRCS Soil taxonomy code 2010, 11th Edition for the code information see REF_Soil_type_NRCStalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS Soil taxonomy code 2010, 11th Edition for the code information see REF_Soil_type_NRCStalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.58">
+          <attributeName>VegCompletness</attributeName>
+          <attributeLabel>VegCompletness</attributeLabel>
+          <attributeDefinition>completeness of species list: c=complete or nearly so, p=partial; d=dominants</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>completeness of species list: c=complete or nearly so, p=partial; d=dominants</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.59">
+          <attributeName>VegClass4</attributeName>
+          <attributeLabel>VegClass4</attributeLabel>
+          <attributeDefinition>Viereck Veg class 4 Final call for the code information see REF_Veg_AVC_Level4talbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Viereck Veg class 4 Final call for the code information see REF_Veg_AVC_Level4talbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.60">
+          <attributeName>VegClass4Alt</attributeName>
+          <attributeLabel>VegClass4Alt</attributeLabel>
+          <attributeDefinition>Viereck Veg class 4 field secondary call for the code information see REF_Veg_AVC_Level4talbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Viereck Veg class 4 field secondary call for the code information see REF_Veg_AVC_Level4talbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.61">
+          <attributeName>VegStruct</attributeName>
+          <attributeLabel>VegStruct</attributeLabel>
+          <attributeDefinition>Code for Ecotype Vegetation Structure for the code information see REF_Veg_Structures_Ecotypestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for Ecotype Vegetation Structure for the code information see REF_Veg_Structures_Ecotypestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.62">
+          <attributeName>VegSpecies</attributeName>
+          <attributeLabel>VegSpecies</attributeLabel>
+          <attributeDefinition>6 Dominant plant species, using 6 letter code for the code information see REF_Veg_Taxonomytalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>6 Dominant plant species, using 6 letter code for the code information see REF_Veg_Taxonomytalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.63">
+          <attributeName>DisturbClass</attributeName>
+          <attributeLabel>DisturbClass</attributeLabel>
+          <attributeDefinition>Disturbance class, natural or human induced, see refernce table for the code information see REF_DisturbClasstalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Disturbance class, natural or human induced, see refernce table for the code information see REF_DisturbClasstalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.64">
+          <attributeName>Ecotype</attributeName>
+          <attributeLabel>Ecotype</attributeLabel>
+          <attributeDefinition>Individual Plot Ecotype for the code information see REF_Ecotypestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Individual Plot Ecotype for the code information see REF_Ecotypestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.65">
+          <attributeName>EcotypeAggr</attributeName>
+          <attributeLabel>EcotypeAggr</attributeLabel>
+          <attributeDefinition>Aggregated ecotypes (post data- analysis) for the code information see REF_Ecotypestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Aggregated ecotypes (post data- analysis) for the code information see REF_Ecotypestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.66">
+          <attributeName>Notes_fld</attributeName>
+          <attributeLabel>Notes_fld</attributeLabel>
+          <attributeDefinition>Field Notes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Field Notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.67">
+          <attributeName>Notes_office</attributeName>
+          <attributeLabel>Notes_office</attributeLabel>
+          <attributeDefinition>Office Notes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Office Notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.68">
+          <attributeName>Data_Origin</attributeName>
+          <attributeLabel>Data_Origin</attributeLabel>
+          <attributeDefinition>Company, institute or individual from whom the data were acquired</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Company, institute or individual from whom the data were acquired</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.69">
+          <attributeName>Data_review_Env</attributeName>
+          <attributeLabel>Data_review_Env</attributeLabel>
+          <attributeDefinition>checkbox for environmental (non-geomorphology) data completeness review, yes/no</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>checkbox for environmental (non-geomorphology) data completeness review, yes/no</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att7.70">
+          <attributeName>Data_review_Veg</attributeName>
+          <attributeLabel>Data_review_Veg</attributeLabel>
+          <attributeDefinition>check box for vegetation and ecotype data completeness review, yes/no</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>check box for vegetation and ecotype data completeness review, yes/no</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>65</numberOfRecords>
+    </dataTable>
+	<dataTable>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_SoilC14Dating.csv</entityName>
+      <entityDescription>Permafrost soil database with information on site, topography, geomorphology, hydrology, soil stratigraphy, soil carbon, ground ice isotopes, and vegetation at thermokarst features near Toolik and Noatak River, 2009-2013</entityDescription>
+      <physical>
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_SoilC14Dating.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/data/2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_SoilC14Dating.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att1.1">
+          <attributeName>Receipt#</attributeName>
+          <attributeLabel>Receipt#</attributeLabel>
+          <attributeDefinition>Receipt number by lab</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att1.2">
+          <attributeName>Lab</attributeName>
+          <attributeLabel>Lab</attributeLabel>
+          <attributeDefinition>Laboratory performing analysis</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Laboratory performing analysis</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.3">
+          <attributeName>Date_Reported</attributeName>
+          <attributeLabel>Date_Reported</attributeLabel>
+          <attributeDefinition>Date results reported</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.4">
+          <attributeName>Kind</attributeName>
+          <attributeLabel>Kind</attributeLabel>
+          <attributeDefinition>type of sample material, organic</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>type of sample material, organic</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.5">
+          <attributeName>Type</attributeName>
+          <attributeLabel>Type</attributeLabel>
+          <attributeDefinition>kind of organic matter in sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>kind of organic matter in sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.6">
+          <attributeName>Submitter_ID</attributeName>
+          <attributeLabel>Submitter_ID</attributeLabel>
+          <attributeDefinition>sample ID provided by sampler</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample ID provided by sampler</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.7">
+          <attributeName>Depth-cm</attributeName>
+          <attributeLabel>Depth-cm</attributeLabel>
+          <attributeDefinition>Depth of sample, cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att1.8">
+          <attributeName>Description</attributeName>
+          <attributeLabel>Description</attributeLabel>
+          <attributeDefinition>description of sample material</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>description of sample material</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.9">
+          <attributeName>Process</attributeName>
+          <attributeLabel>Process</attributeLabel>
+          <attributeDefinition>laboratory sample process used</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>laboratory sample process used</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.10">
+          <attributeName>Accession#</attributeName>
+          <attributeLabel>Accession#</attributeLabel>
+          <attributeDefinition>laboratory sample ID</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>laboratory sample ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.11">
+          <attributeName>d13C</attributeName>
+          <attributeLabel>d13C</attributeLabel>
+          <attributeDefinition>delta 13C, used for correctin of Fraction Modern by lab</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att1.12">
+          <attributeName>d13C_Source</attributeName>
+          <attributeLabel>d13C_Source</attributeLabel>
+          <attributeDefinition>source of delta 13C value</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>source of delta 13C value</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att1.13">
+          <attributeName>F Modern</attributeName>
+          <attributeLabel>F Modern</attributeLabel>
+          <attributeDefinition>Fraction Modern is a measurement of the deviation of the 14C/12C ratio of a sample from "Modern."</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att1.14">
+          <attributeName>Fm Error</attributeName>
+          <attributeLabel>Fm Error</attributeLabel>
+          <attributeDefinition>standard error of fraction modern</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att1.15">
+          <attributeName>Age</attributeName>
+          <attributeLabel>Age</attributeLabel>
+          <attributeDefinition>radiocarbon age</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att1.16">
+          <attributeName>Age Error</attributeName>
+          <attributeLabel>Age Error</attributeLabel>
+          <attributeDefinition>Error associated with sample, based on internal or external errors in lab processing</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att1.17">
+          <attributeName>D14C</attributeName>
+          <attributeLabel>D14C</attributeLabel>
+          <attributeDefinition>delta 14C, relative difference between the absolute international standard (base year 1950) and sample activity corrected for age and d13C.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att1.18">
+          <attributeName>Photo</attributeName>
+          <attributeLabel>Photo</attributeLabel>
+          <attributeDefinition>macro photo of sample taken, yes or no</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>macro photo of sample taken, yes or no</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>16</numberOfRecords>
+    </dataTable>
+   <dataTable>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Chemistry.csv</entityName>
+      <entityDescription>Permafrost soil database with information on site, topography, geomorphology, hydrology, soil stratigraphy, soil carbon, ground ice isotopes, and vegetation at thermokarst features near Toolik and Noatak River, 2009-2013</entityDescription>
+      <physical>
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Chemistry.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/data/2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Chemistry.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att2.1">
+          <attributeName>SiteID</attributeName>
+          <attributeLabel>SiteID</attributeLabel>
+          <attributeDefinition>Site ID</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.2">
+          <attributeName>SampleID-Chem</attributeName>
+          <attributeLabel>SampleID-Chem</attributeLabel>
+          <attributeDefinition>Unique sample ID</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique sample ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.3">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year of sample</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.4">
+          <attributeName>Lab</attributeName>
+          <attributeLabel>Lab</attributeLabel>
+          <attributeDefinition>Laboratory that analyzed the sample, see Lab website for specific methods</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Laboratory that analyzed the sample, see Lab website for specific methods</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.5">
+          <attributeName>Lab#</attributeName>
+          <attributeLabel>Lab#</attributeLabel>
+          <attributeDefinition>Unique number assigned by lab</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique number assigned by lab</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.6">
+          <attributeName>DepthTop</attributeName>
+          <attributeLabel>DepthTop</attributeLabel>
+          <attributeDefinition>Top depth of sample, in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.7">
+          <attributeName>DepthBot</attributeName>
+          <attributeLabel>DepthBot</attributeLabel>
+          <attributeDefinition>Bottom depth of sample in cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.8">
+          <attributeName>pH</attributeName>
+          <attributeLabel>pH</attributeLabel>
+          <attributeDefinition>Soil pH, saturated paste, measured with field hand-held meter</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.9">
+          <attributeName>Grav%</attributeName>
+          <attributeLabel>Grav%</attributeLabel>
+          <attributeDefinition>percent gravel, &gt;2mm, percent</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.10">
+          <attributeName>N-tot%</attributeName>
+          <attributeLabel>N-tot%</attributeLabel>
+          <attributeDefinition>Total nitrogen, by TCN analyzer, percent</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.11">
+          <attributeName>C-tot%</attributeName>
+          <attributeLabel>C-tot%</attributeLabel>
+          <attributeDefinition>Total carbon by TCN analyzer, percent</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.12">
+          <attributeName>C-org%</attributeName>
+          <attributeLabel>C-org%</attributeLabel>
+          <attributeDefinition>Calculated org from C-tot after subtraction of C-inorg, percent</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.13">
+          <attributeName>C-inorg%</attributeName>
+          <attributeLabel>C-inorg%</attributeLabel>
+          <attributeDefinition>Calculated inorganic carbon based on CaCO3 x -.12, percent</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.14">
+          <attributeName>CaCO3-equiv%</attributeName>
+          <attributeLabel>CaCO3-equiv%</attributeLabel>
+          <attributeDefinition>Calcium carbonate analysis, %</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att2.15">
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Notes on problems</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on problems</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>231</numberOfRecords>
+    </dataTable>
+   <dataTable>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Isotopes.csv</entityName>
+      <entityDescription>Permafrost soil database with information on site, topography, geomorphology, hydrology, soil stratigraphy, soil carbon, ground ice isotopes, and vegetation at thermokarst features near Toolik and Noatak River, 2009-2013</entityDescription>
+      <physical>
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Isotopes.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/data/2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Isotopes.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att3.1">
+          <attributeName>SiteID</attributeName>
+          <attributeLabel>SiteID</attributeLabel>
+          <attributeDefinition>Unique site identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique site identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.2">
+          <attributeName>SampleID</attributeName>
+          <attributeLabel>SampleID</attributeLabel>
+          <attributeDefinition>Unique sample ID</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique sample ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.3">
+          <attributeName>d2H-VSMOW-Ave-ppt</attributeName>
+          <attributeLabel>d2H-VSMOW-Ave-ppt</attributeLabel>
+          <attributeDefinition>hydrogen isotope, reference Vienna Standard Mean Ocean Water (VSMOW), average of 4 samples, ppt_0/00</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.4">
+          <attributeName>d2H-SD-ppt</attributeName>
+          <attributeLabel>d2H-SD-ppt</attributeLabel>
+          <attributeDefinition>del hydrogen isotope, reference Vienna Standard Mean Ocean Water (VSMOW), SD of 4 samples, ppt_0/00</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.5">
+          <attributeName>d18O-VSMOW-Ave-ppt</attributeName>
+          <attributeLabel>d18O-VSMOW-Ave-ppt</attributeLabel>
+          <attributeDefinition>del Oxygen 18 isotope, reference Vienna Standard Mean Ocean Water (VSMOW), average of 4 samples, ppt_0/00</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.6">
+          <attributeName>d18O-SD-ppt</attributeName>
+          <attributeLabel>d18O-SD-ppt</attributeLabel>
+          <attributeDefinition>del Oxygen 18 isotope, reference Vienna Standard Mean Ocean Water (VSMOW), SD of 4 samples, ppt_0/00</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.7">
+          <attributeName>SampleType</attributeName>
+          <attributeLabel>SampleType</attributeLabel>
+          <attributeDefinition>type of ground ice or surface water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>type of ground ice or surface water</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.8">
+          <attributeName>Sampler</attributeName>
+          <attributeLabel>Sampler</attributeLabel>
+          <attributeDefinition>Sampler name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampler name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.9">
+          <attributeName>Date-Analyzed</attributeName>
+          <attributeLabel>Date-Analyzed</attributeLabel>
+          <attributeDefinition>Date reported by lab</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.10">
+          <attributeName>Laboratory</attributeName>
+          <attributeLabel>Laboratory</attributeLabel>
+          <attributeDefinition>Lab name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lab name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att3.11">
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Notes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>49</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Stratigraphy.csv</entityName>
+      <entityDescription>Permafrost soil database with information on site, topography, geomorphology, hydrology, soil stratigraphy, soil carbon, ground ice isotopes, and vegetation at thermokarst features near Toolik and Noatak River, 2009-2013</entityDescription>
+      <physical>
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Stratigraphy.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/data/2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Soil_Stratigraphy.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att4.1">
+          <attributeName>Project</attributeName>
+          <attributeLabel>Project</attributeLabel>
+          <attributeDefinition>Project that did the sampling</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Project that did the sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.2">
+          <attributeName>SiteID</attributeName>
+          <attributeLabel>SiteID</attributeLabel>
+          <attributeDefinition>Unique ID for site/plot and pedon</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique ID for site/plot and pedon</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.3">
+          <attributeName>SiteLayerID</attributeName>
+          <attributeLabel>SiteLayerID</attributeLabel>
+          <attributeDefinition>Unique ID for site/plot and soil horizon using topdeth of layer, some Horizons may need to be split for sampleID linkage</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique ID for site/plot and soil horizon using topdeth of layer, some Horizons may need to be split for sampleID linkage</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.4">
+          <attributeName>Observers</attributeName>
+          <attributeLabel>Observers</attributeLabel>
+          <attributeDefinition>Names of soil describers</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Names of soil describers</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.5">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of soil description</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.6">
+          <attributeName>DepthTop</attributeName>
+          <attributeLabel>DepthTop</attributeLabel>
+          <attributeDefinition>Depth to top of horizon (cm)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.7">
+          <attributeName>DepthBot</attributeName>
+          <attributeLabel>DepthBot</attributeLabel>
+          <attributeDefinition>Depth to bottom of horizon (cm)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.8">
+          <attributeName>DepthMid</attributeName>
+          <attributeLabel>DepthMid</attributeLabel>
+          <attributeDefinition>Calculated field: (DepthTop + DepthBot)/2</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.9">
+          <attributeName>Thickness</attributeName>
+          <attributeLabel>Thickness</attributeLabel>
+          <attributeDefinition>Calculated field: Bottom Depth minus Top Depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.10">
+          <attributeName>DepthIncr</attributeName>
+          <attributeLabel>DepthIncr</attributeLabel>
+          <attributeDefinition>0-100, 100-200, 200+</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>0-100, 100-200, 200+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.11">
+          <attributeName>LayerNum</attributeName>
+          <attributeLabel>LayerNum</attributeLabel>
+          <attributeDefinition>Sequential number for each layer/horizon within the soil profile as originally described</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.12">
+          <attributeName>GeomStratUnit</attributeName>
+          <attributeLabel>GeomStratUnit</attributeLabel>
+          <attributeDefinition>Geomorphic stratigraphic unit based on modified Kreig and Reger, see reference table. for the code information see REF_Geomorphic Unitstalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Geomorphic stratigraphic unit based on modified Kreig and Reger, see reference table. for the code information see REF_Geomorphic Unitstalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.13">
+          <attributeName>Lithofacies</attributeName>
+          <attributeLabel>Lithofacies</attributeLabel>
+          <attributeDefinition>Lithofacies code that differentiates soil texture and bedding structure together. for the code information see REF_Soil_Lithofaciestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lithofacies code that differentiates soil texture and bedding structure together. for the code information see REF_Soil_Lithofaciestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.14">
+          <attributeName>HOrizOn</attributeName>
+          <attributeLabel>HOrizOn</attributeLabel>
+          <attributeDefinition>NRCS horizon designation. for the code information see REF_Soil_Horizon, REF_Soil_Horizon_Suffixtalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS horizon designation. for the code information see REF_Soil_Horizon, REF_Soil_Horizon_Suffixtalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.15">
+          <attributeName>Boundary</attributeName>
+          <attributeLabel>Boundary</attributeLabel>
+          <attributeDefinition>NRCS codes for boundary distinctness and topography. for the code information see REF_Soil_Boundary_Distinct, REF_Soil_Boundary_Topotalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS codes for boundary distinctness and topography. for the code information see REF_Soil_Boundary_Distinct, REF_Soil_Boundary_Topotalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.16">
+          <attributeName>Texture_crs+fn</attributeName>
+          <attributeLabel>Texture_crs+fn</attributeLabel>
+          <attributeDefinition>Original field desription with crse texture, fine texture, and secondary textures. for the code information see REF_Soil_Texturetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Original field desription with crse texture, fine texture, and secondary textures. for the code information see REF_Soil_Texturetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.17">
+          <attributeName>Texture_scnd</attributeName>
+          <attributeLabel>Texture_scnd</attributeLabel>
+          <attributeDefinition>Secondary texture of inclusion. for the code information see REF_Soil_Texturetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Secondary texture of inclusion. for the code information see REF_Soil_Texturetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.18">
+          <attributeName>Text-USC</attributeName>
+          <attributeLabel>Text-USC</attributeLabel>
+          <attributeDefinition>United Soil Classification</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>United Soil Classification</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.19">
+          <attributeName>TextAggr1</attributeName>
+          <attributeLabel>TextAggr1</attributeLabel>
+          <attributeDefinition>Aggregation 1 of soil textures</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Aggregation 1 of soil textures</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.20">
+          <attributeName>TextAggr2</attributeName>
+          <attributeLabel>TextAggr2</attributeLabel>
+          <attributeDefinition>Aggregation 2 of soil textures</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Aggregation 2 of soil textures</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.21">
+          <attributeName>HrznTextAggr1</attributeName>
+          <attributeLabel>HrznTextAggr1</attributeLabel>
+          <attributeDefinition>Aggregation of Horizon, text_aggr, and peat type</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Aggregation of Horizon, text_aggr, and peat type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.22">
+          <attributeName>PeatType</attributeName>
+          <attributeLabel>PeatType</attributeLabel>
+          <attributeDefinition>classification of peat types, see reference table. for the code information see REF_Soil_Peat_Typestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>classification of peat types, see reference table. for the code information see REF_Soil_Peat_Typestalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.23">
+          <attributeName>FragPct</attributeName>
+          <attributeLabel>FragPct</attributeLabel>
+          <attributeDefinition>Percent volume occupied by fragments &gt; 2 mm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.24">
+          <attributeName>FragSize-mm</attributeName>
+          <attributeLabel>FragSize-mm</attributeLabel>
+          <attributeDefinition>maximum size in mm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.25">
+          <attributeName>FragShape</attributeName>
+          <attributeLabel>FragShape</attributeLabel>
+          <attributeDefinition>categorical shape of fragments. for the code information see REF_Soil_Frag_Shapetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>categorical shape of fragments. for the code information see REF_Soil_Frag_Shapetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.26">
+          <attributeName>Color_Matrix</attributeName>
+          <attributeLabel>Color_Matrix</attributeLabel>
+          <attributeDefinition>value, chroma and hue. for the code information see REF_soil_colourtalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value, chroma and hue. for the code information see REF_soil_colourtalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.27">
+          <attributeName>Color_Mottle</attributeName>
+          <attributeLabel>Color_Mottle</attributeLabel>
+          <attributeDefinition>value, chroma and hue</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value, chroma and hue</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.28">
+          <attributeName>Mottle-ACS</attributeName>
+          <attributeLabel>Mottle-ACS</attributeLabel>
+          <attributeDefinition>NRCS mottle codes, combine abundance, grade, size. for the code information see REF_Soil_Mottle_Abund, REF_Soil_Mottle_Contrst, REF_Soil_Mottle_Sizetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS mottle codes, combine abundance, grade, size. for the code information see REF_Soil_Mottle_Abund, REF_Soil_Mottle_Contrst, REF_Soil_Mottle_Sizetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.29">
+          <attributeName>Redox_kind</attributeName>
+          <attributeLabel>Redox_kind</attributeLabel>
+          <attributeDefinition>NRCS redox class, modified. for the code information see REF_Soil_Redox_Typetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS redox class, modified. for the code information see REF_Soil_Redox_Typetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.30">
+          <attributeName>Structure-TGS</attributeName>
+          <attributeLabel>Structure-TGS</attributeLabel>
+          <attributeDefinition>NRCS structure type, size, and grade, see reference tables. for the code information see REF_Soil_Sticki, REF_Soil_Structure_Grade, REF_Soil_Structure_Sizetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS structure type, size, and grade, see reference tables. for the code information see REF_Soil_Sticki, REF_Soil_Structure_Grade, REF_Soil_Structure_Sizetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.31">
+          <attributeName>Rupture_Resist</attributeName>
+          <attributeLabel>Rupture_Resist</attributeLabel>
+          <attributeDefinition>NRCS codes, see reference table. for the code information see REF_Soil_Redox_Typetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS codes, see reference table. for the code information see REF_Soil_Redox_Typetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.32">
+          <attributeName>Plasticity</attributeName>
+          <attributeLabel>Plasticity</attributeLabel>
+          <attributeDefinition>NRCS codes, see reference table</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS codes, see reference table</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.33">
+          <attributeName>Stickiness</attributeName>
+          <attributeLabel>Stickiness</attributeLabel>
+          <attributeDefinition>NRCS codes, see reference table. for the code information see REF_Soil_Stickitalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NRCS codes, see reference table. for the code information see REF_Soil_Stickitalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.34">
+          <attributeName>FrostType</attributeName>
+          <attributeLabel>FrostType</attributeLabel>
+          <attributeDefinition>Genesis of permafrost types, see reference table. for the code information see REF_Soil_Frost_Typetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Genesis of permafrost types, see reference table. for the code information see REF_Soil_Frost_Typetalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.35">
+          <attributeName>IceVisible(%)</attributeName>
+          <attributeLabel>IceVisible(%)</attributeLabel>
+          <attributeDefinition>Percent visible ice, estimated</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.36">
+          <attributeName>IceStructPrim</attributeName>
+          <attributeLabel>IceStructPrim</attributeLabel>
+          <attributeDefinition>See ice classification, includes primary, secondary, and tertiary properties. for the code information see Ref_Soil_Ice_Structuretalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>See ice classification, includes primary, secondary, and tertiary properties. for the code information see Ref_Soil_Ice_Structuretalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.37">
+          <attributeName>IceStructSec</attributeName>
+          <attributeLabel>IceStructSec</attributeLabel>
+          <attributeDefinition>See ice classification, includes primary, secondary, and tertiary properties. for the code information see Ref_Soil_Ice_Structuretalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>See ice classification, includes primary, secondary, and tertiary properties. for the code information see Ref_Soil_Ice_Structuretalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.38">
+          <attributeName>IceLens_Size</attributeName>
+          <attributeLabel>IceLens_Size</attributeLabel>
+          <attributeDefinition>maximum lens size in mm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.39">
+          <attributeName>Frozen_Status</attributeName>
+          <attributeLabel>Frozen_Status</attributeLabel>
+          <attributeDefinition>F or U</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>F or U</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.40">
+          <attributeName>SampleID-Phys</attributeName>
+          <attributeLabel>SampleID-Phys</attributeLabel>
+          <attributeDefinition>D for lab sample data for moisture, bulk density</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>D for lab sample data for moisture, bulk density</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.41">
+          <attributeName>SampleID-Chem</attributeName>
+          <attributeLabel>SampleID-Chem</attributeLabel>
+          <attributeDefinition>ID for lab sample for chemistry data such as carbon, nutrients</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID for lab sample for chemistry data such as carbon, nutrients</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.42">
+          <attributeName>SampleID-O18</attributeName>
+          <attributeLabel>SampleID-O18</attributeLabel>
+          <attributeDefinition>ID for lab sample for O18/H</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID for lab sample for O18/H</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.43">
+          <attributeName>SampleID-C14</attributeName>
+          <attributeLabel>SampleID-C14</attributeLabel>
+          <attributeDefinition>ID for lab sample for radiocarbon dating</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID for lab sample for radiocarbon dating</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.44">
+          <attributeName>Layer_obs</attributeName>
+          <attributeLabel>Layer_obs</attributeLabel>
+          <attributeDefinition>Type of sampling: Measured, Duplicate-Split (for layers that are split and duplicated across 100 and 200 cm boundaries), extend-short (&lt;50 cm) to get to full meter increment, extend-long (&gt;50 cm) to get to full meter increment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Type of sampling: Measured, Duplicate-Split (for layers that are split and duplicated across 100 and 200 cm boundaries), extend-short (&lt;50 cm) to get to full meter increment, extend-long (&gt;50 cm) to get to full meter increment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.45">
+          <attributeName>Sample_obs</attributeName>
+          <attributeLabel>Sample_obs</attributeLabel>
+          <attributeDefinition>Type of sample measurement: Measured, Duplicate-split, Substitute (sample is lacking but value substituted from similar layer), Mean-Estimate (value estimated from mean for similar conditions)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Type of sample measurement: Measured, Duplicate-split, Substitute (sample is lacking but value substituted from similar layer), Mean-Estimate (value estimated from mean for similar conditions)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.46">
+          <attributeName>Dens-Strat-gcc</attributeName>
+          <attributeLabel>Dens-Strat-gcc</attributeLabel>
+          <attributeDefinition>Derived from qry_soil-strat-Phys-chem after sample substitution, not adjusted for crs Frag_pct</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerCentimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.47">
+          <attributeName>Moist-Strat-vol%</attributeName>
+          <attributeLabel>Moist-Strat-vol%</attributeLabel>
+          <attributeDefinition>Derived from qry_soil-strat-Phys-chem after sample substitution, adjusted for crs Frag_pct</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.48">
+          <attributeName>TC-strat-%</attributeName>
+          <attributeLabel>TC-strat-%</attributeLabel>
+          <attributeDefinition>Derived from qry_soil-strat-Phys-chem after sample substitution, adjusted for crs Frag_pct</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.49">
+          <attributeName>TN-strat-%</attributeName>
+          <attributeLabel>TN-strat-%</attributeLabel>
+          <attributeDefinition>Derived from qry_soil-strat-Phys-chem after sample substitution, adjusted for crs Frag_pct</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.50">
+          <attributeName>OC-strat-%</attributeName>
+          <attributeLabel>OC-strat-%</attributeLabel>
+          <attributeDefinition>Derived from qry_soil-strat-Phys-chem after sample substitution, adjusted for crs Frag_pct</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.51">
+          <attributeName>OC-Dens-strat-gcc</attributeName>
+          <attributeLabel>OC-Dens-strat-gcc</attributeLabel>
+          <attributeDefinition>Organic Carbon Density: Carbon density calculated from measured and substituted data, gm/cc</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerCentimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.52">
+          <attributeName>OC-Stock-strat-kgm2</attributeName>
+          <attributeLabel>OC-Stock-strat-kgm2</attributeLabel>
+          <attributeDefinition>OC-stock calculated for layer, see calculation query, kg/m2</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.53">
+          <attributeName>TC-Dens-Strat-gcc</attributeName>
+          <attributeLabel>TC-Dens-Strat-gcc</attributeLabel>
+          <attributeDefinition>Total Carbon Density: Carbon density calculated from measured and substituted data, gm/cc</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerCentimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.54">
+          <attributeName>TC_Store-strat-kgm2</attributeName>
+          <attributeLabel>TC_Store-strat-kgm2</attributeLabel>
+          <attributeDefinition>Total carbon-stock calculated for layer, see calculation query, kg/m2</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.55">
+          <attributeName>Water_Store-m</attributeName>
+          <attributeLabel>Water_Store-m</attributeLabel>
+          <attributeDefinition>Depth of water equivalent (m of water equivalent per depth of layer), using crsFrag adjusted moisture</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.56">
+          <attributeName>EcoHistory</attributeName>
+          <attributeLabel>EcoHistory</attributeLabel>
+          <attributeDefinition>Ecotype or environment that soil was formed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Ecotype or environment that soil was formed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.57">
+          <attributeName>Notes_fld</attributeName>
+          <attributeLabel>Notes_fld</attributeLabel>
+          <attributeDefinition>Original field notes on layer descriptions</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Original field notes on layer descriptions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att4.58">
+          <attributeName>Notes_Off</attributeName>
+          <attributeLabel>Notes_Off</attributeLabel>
+          <attributeDefinition>Office notes on data problems and changes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Office notes on data problems and changes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>439</numberOfRecords>
+    </dataTable>
+     <dataTable>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Topography_Bathymetry.csv</entityName>
+      <entityDescription>Permafrost soil database with information on site, topography, geomorphology, hydrology, soil stratigraphy, soil carbon, ground ice isotopes, and vegetation at thermokarst features near Toolik and Noatak River, 2009-2013</entityDescription>
+      <physical>
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Topography_Bathymetry.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/data/2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_Topography_Bathymetry.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att5.1">
+          <attributeName>SiteID</attributeName>
+          <attributeLabel>SiteID</attributeLabel>
+          <attributeDefinition>Uniqe site identified, start of transect</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Uniqe site identified, start of transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.2">
+          <attributeName>Setup</attributeName>
+          <attributeLabel>Setup</attributeLabel>
+          <attributeDefinition>instrument setup for each partial survey</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>instrument setup for each partial survey</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.3">
+          <attributeName>Dist-m-Angled</attributeName>
+          <attributeLabel>Dist-m-Angled</attributeLabel>
+          <attributeDefinition>Distance, meters, angled or straight-line distance</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.4">
+          <attributeName>Angle</attributeName>
+          <attributeLabel>Angle</attributeLabel>
+          <attributeDefinition>Angle of measurement, degrees</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.5">
+          <attributeName>HorDist-m-Original</attributeName>
+          <attributeLabel>HorDist-m-Original</attributeLabel>
+          <attributeDefinition>Horizontal distance of original measurement, meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.6">
+          <attributeName>Distance-m</attributeName>
+          <attributeLabel>Distance-m</attributeLabel>
+          <attributeDefinition>Distance after setups integrated, meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.7">
+          <attributeName>Elev-m</attributeName>
+          <attributeLabel>Elev-m</attributeLabel>
+          <attributeDefinition>Elevation, meters, based on instrument elevation</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.8">
+          <attributeName>Ht-m</attributeName>
+          <attributeLabel>Ht-m</attributeLabel>
+          <attributeDefinition>Height, meters, before converted to elevations</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.9">
+          <attributeName>Offset-agl</attributeName>
+          <attributeLabel>Offset-agl</attributeLabel>
+          <attributeDefinition>Offset, based on instrument height above ground, meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.10">
+          <attributeName>Instr-Ht-m</attributeName>
+          <attributeLabel>Instr-Ht-m</attributeLabel>
+          <attributeDefinition>Same as above, but only one row has the value, meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.11">
+          <attributeName>Elev-GPS-m</attributeName>
+          <attributeLabel>Elev-GPS-m</attributeLabel>
+          <attributeDefinition>Elevation of ground at instrument, based on average of WAAS DPGS, in meters, accuracy +/- 3 m</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.12">
+          <attributeName>WaterDepth-m</attributeName>
+          <attributeLabel>WaterDepth-m</attributeLabel>
+          <attributeDefinition>Depth of water, meters, measured with hand-held sonar, measurement locations by GPS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.13">
+          <attributeName>Method</attributeName>
+          <attributeLabel>Method</attributeLabel>
+          <attributeDefinition>Measurement method or instrument for topography or bathymetry survey</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Measurement method or instrument for topography or bathymetry survey</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att5.14">
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Field notes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Field notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>338</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_VegCoverBySpecies.csv</entityName>
+      <entityDescription>Permafrost soil database with information on site, topography, geomorphology, hydrology, soil stratigraphy, soil carbon, ground ice isotopes, and vegetation at thermokarst features near Toolik and Noatak River, 2009-2013</entityDescription>
+      <physical>
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_VegCoverBySpecies.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/data/2009-2011_MTJ_Thermokarst_Permafrost_Soil_tbl_VegCoverBySpecies.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att6.1">
+          <attributeName>Veg_cov_ID</attributeName>
+          <attributeLabel>Veg_cov_ID</attributeLabel>
+          <attributeDefinition>Autonumber</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.2">
+          <attributeName>PlotID</attributeName>
+          <attributeLabel>PlotID</attributeLabel>
+          <attributeDefinition>Plot Id composed of Park code and plot number, unique plot identifier also used in envionmental tables</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot Id composed of Park code and plot number, unique plot identifier also used in envionmental tables</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.3">
+          <attributeName>SpeciesCode</attributeName>
+          <attributeLabel>SpeciesCode</attributeLabel>
+          <attributeDefinition>6 letter code used for data input, for match to species name use ref_SpeciesIDList. for the code information see REF_Veg_Taxonomytalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>6 letter code used for data input, for match to species name use ref_SpeciesIDList. for the code information see REF_Veg_Taxonomytalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.4">
+          <attributeName>SpecCodeFld</attributeName>
+          <attributeLabel>SpecCodeFld</attributeLabel>
+          <attributeDefinition>temporary code used in field. for the code information see REF_Veg_Taxonomytalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>temporary code used in field. for the code information see REF_Veg_Taxonomytalbe in 2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.5">
+          <attributeName>CoverPct</attributeName>
+          <attributeLabel>CoverPct</attributeLabel>
+          <attributeDefinition>%cover of species estimated within plot area</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.6">
+          <attributeName>Cover100</attributeName>
+          <attributeLabel>Cover100</attributeLabel>
+          <attributeDefinition>% cover of spp re-calculated to sum 100%, based on structure 100</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.7">
+          <attributeName>NotesFld</attributeName>
+          <attributeLabel>NotesFld</attributeLabel>
+          <attributeDefinition>typically identification or habiata notes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>typically identification or habiata notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.8">
+          <attributeName>Collected</attributeName>
+          <attributeLabel>Collected</attributeLabel>
+          <attributeDefinition>identifies plants collected for later identification in field or office, not nec retained as vouchers</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>identifies plants collected for later identification in field or office, not nec retained as vouchers</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.9">
+          <attributeName>Followup_temp</attributeName>
+          <attributeLabel>Followup_temp</attributeLabel>
+          <attributeDefinition>identifies data to be verified before table is finalized, should be deleted when table is completed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>identifies data to be verified before table is finalized, should be deleted when table is completed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att6.10">
+          <attributeName>Verifier</attributeName>
+          <attributeLabel>Verifier</attributeLabel>
+          <attributeDefinition>Name of botanist that verified or identified the voucher specimen</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of botanist that verified or identified the voucher specimen</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>449</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil.xlsx</entityName>
+      <entityDescription>An excel file with worksheets for metadata and data.</entityDescription>
+      <physical scope="document">
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil.xlsx</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Microsoft Excel</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/xlsfiles/2009-2011_MTJ_Thermokarst_Permafrost_Soil.xlsx</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Microsoft Excel file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</entityName>
+      <entityDescription>An Microsoft Access database file with data tables and code related tables.</entityDescription>
+      <physical scope="document">
+        <objectName>2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Microsoft Access</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.10461&amp;urlTail=thermokarst/soil/data/2009-2011_MTJ_Thermokarst_Permafrost_Soil_Database.mdb</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Microsoft Access file</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="percent" multiplierToSI="1" name="percent" parentSI="" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+        <unit id="microsiemenPerCentimeter" multiplierToSI="" name="microsiemenPerCentimeter" parentSI="" unitType="conductance">
+          <description>conductivity unit</description>
+        </unit>
+        <unit id="partPerThousand" multiplierToSI="1" name="partPerThousand" parentSI="" unitType="dimensionless">
+          <description>ratio of two quantities as parts per thousand (1:1000)</description>
+        </unit>
+        <unit id="gramPerCentimeterCubed" multiplierToSI="1000" name="gramPerCentimeterCubed" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <description>grams per cubic centimeter</description>
+        </unit>
+		<unit id="kilogramPerMeterSquared" multiplierToSI="" name="kilogramPerMeterSquared" parentSI="" unitType="arealMassDensity">
+			<description>kilograms per square meter</description>
+		</unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

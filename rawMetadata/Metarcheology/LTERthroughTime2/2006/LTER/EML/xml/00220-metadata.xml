@@ -1,0 +1,416 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.14.14" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF014">
+      <alternateIdentifier>HF014</alternateIdentifier>
+      <title>Massachusetts Historical Landcover and Census Data 1640-1999</title>
+      <creator>
+         <individualName>
+            <givenName>David</givenName>
+            <surName>Foster</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Brian</givenName>
+            <surName>Hall</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>John</givenName>
+            <surName>Burk</surName>
+         </individualName>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Glenn</givenName>
+            <surName>Motzkin</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Mindy</givenName>
+            <surName>Syfert</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2003</pubDate>
+      <abstract>
+         <section>
+            <title />
+            <para>An appreciation of historical landuse and its effects is crucial when interpreting the structure, composition, and spatial characteristics of modern forests. The Harvard Forest has compiled many different historical data sources in an ongoing effort to understand how anthropogenic disturbances have shaped our modern landscapes. Estimates of town land use and land cover were gathered from a variety of sources, including tax valuations (1801-1860) and state agricultural census records (1865-1905).  Data prior to 1801 rarely cover the entire state and are excluded from these datasets. Data on forest structure are available for several time periods, including 1885 and 1895 (Agricultural Censuses) and 1916-1920s (State Forester&#8217;s reports).</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>census</keyword>
+         <keyword>geographic information systems</keyword>
+         <keyword>history</keyword>
+         <keyword>land cover</keyword>
+         <keyword>land use</keyword>
+         <keyword>landscape</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf014</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Massachusetts</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-73.5</westBoundingCoordinate>
+               <eastBoundingCoordinate>-69.9</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.9</northBoundingCoordinate>
+               <southBoundingCoordinate>+41.3</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>0</altitudeMinimum>
+                  <altitudeMaximum>1065</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1640</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>1999</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>Brian</givenName>
+            <surName>Hall</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>brhall@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <title>Agricultural Census</title>
+                  <para>The data files contain the numbers and types of sheep and cattle from 1801 (cattle) and 1837 (sheep) to 1992 for the state. Prior to 1900 the data are at the town level. After 1900 data are only available at the county level.</para>
+                  <para>Data sources/location by years were as follows:</para>
+                  <para>1801 State House Archives - tax evaluation. 1831 State House Archives - tax evaluation. 1841 State House Archives - tax evaluation. 1850 State House Archives - tax evaluation. 1860 State House Archives - tax evaluation. 1837 UMASS Amherst - Mass. Census book. 1845 UMASS Amherst - Mass. Census book. 1865 UMASS Amherst - Mass. Census book. 1875 UMASS Amherst - Mass. Census book. 1885 UMASS Amherst - Mass. Census book. 1895 UMASS Amherst - Mass. Census book. 1905 UMASS Amherst - Mass. Census book - county level only. 1925 UMASS Amherst - Federal Census book - county level only. 1929 UMASS Amherst - Federal Census book - county level only. 1934 UMASS Amherst - Federal Census book - county level only. 1940 UMASS Amherst - Federal Census book - county level only. 1945 UMASS Amherst - Federal Census book - county level only. 1949 UMASS Amherst - Federal Census book - county level only. 1954 UMASS Amherst - Federal Census book - county level only. 1959 UMASS Amherst - Federal Census book - county level only. 1964 UMASS Amherst - Federal Census book - county level only. 1969 UMASS Amherst - Federal Census book - county level only. 1974 UMASS Amherst - Federal Census book - county level only. 1978 UMASS Amherst - Federal Census book - county level only. 1982 UMASS Amherst - Federal Census book - county level only. 1987 UMASS Amherst - Federal Census book - county level only. 1992 UMASS Amherst - Federal Census book - county level only.</para>
+               </section>
+               <section>
+                  <title>Town Settlement Dates</title>
+                  <para>Town settlement dates were compiled by Hugh Raup at the Harvard Forest and entered into the attribute table of modern town boundaries from MassGIS.</para>
+               </section>
+               <section>
+                  <title>Landuse Acreage</title>
+                  <para>We gathered estimates of the amount of land in different land-use categories from several sources including: tax evaluations (1801-1860 (housed in the State House Special Collections)), state agricultural census records (1865-1905 (housed at WEB Dubois Library at the University of Massachusetts, Amherst)), State Foresters&#8217; Reports (1920-26), Massachusetts MapDown project (1951, 1971; MacConnell, 1973), and MassGIS Land Use/Landcover GIS datalayers (1985, 1999; MassGIS, 2002). Landcover data prior to 1800 was incomplete and often inaccurate; therefore it is not included here. We also have not included the post-1950 data since it is available from the original sources. For the following years: 1801, 1830, 1860, 1885, and 1920s, we created ArcView shapefiles of the town boundaries and entered the acreages of selected landcover types. All data was originally listed in acres and left as acres to ease data additions and revisions. To convert acres to hectares, multiply acres by 0.4047. We created shapefiles for each of the 5 years listed above. It is not known exactly what was meant by the &#8220;Unimproved&#8221; and &#8220;Unimprovable&#8221; categories in the data sources, although it is clear that the definitions varied across the state and between years. See Hall, et al., 2003 for a complete discussion of this problem.</para>
+                  <para>The variable codes used in the attribute tables are as follows:</para>
+                  <para>1801: Cultivated = cultivated. Englishmow = English mowing (upland hay). Freshmeado = freshmeadow mown. PermPastur = permanent pasture, definition not clear. Roads = acres in roads. Saltmarshm = saltmarsh mown. Unimprovab = unimprovable. Unimproved = unimproved. Water = water. Woodland = woodland.</para>
+                  <para>1830: Till = land in tillage. Upmeadow = upland meadow mown. Freshmeadow = freshwater meadow mown. Pasture = pasture. Woodland = woodland. Saltmrsh = saltmarsh mown. Unimproved = unimproved. Unimprovab = unimprovable.</para>
+                  <para>1860: Orchards = orchard. Tilled = tilled. Pasture = pasture. Woodland = woodland. Unimproved = unimproved. Unimprovab = unimprovable. Upmeadow = upland meadow mown. Freshmeado = fresh meadow mown. Saltmarsh = saltmarsh mown.</para>
+                  <para>1885: Cranbery = cranberry bog. Marketgard = marketgardens (vegetables etc). Hayland = acres mown (we are not sure if it includes fresh and salt meadow). Orchard = orchards. Crophaytot = total cropland and hayland as recorded; &#8220;Cropland&#8221; was not recorded. Pasture = pasture. Unimprovab = unimprovable. Unimproved = unimproved. Uncult = uncultivated land in farms. Woodlt30yr = woodland less than 30-years old. Woodgt30yr = woodland greater than 30-years old. Woodseedl = woodland in seedling stage. Woodunclas = unclassified woodland. Woodtot = total woodland. Farmland = land on the farms. Cordfirewd = cords of firewood cut on farms.</para>
+                  <para>1905: Culttotal = total cultivated. Haytotal = total hayland mown. Permpast = permanent pasture. Unimproved = unimproved. Unimprovab = unimprovable. Woodlt30yr = woodland less than 30-years old. Woodgt30yr = woodland greater than 30-years old. Woodseedl = woodland in seedling stage. Woodunclas = unclassified woodland. Woodtot = total woodland. Farmland = land on the farms.</para>
+                  <para>1920s (From Massachusetts State Forester&#8217;s Reports 1920-1926; the user is cautioned that some categories were not reported for all towns): Totalfores = forest. Residentia = residential. Idle_land = idle land (no further information). Transition = transitional land. Idletransi = transitional land that is idle. Agricultur = agricultural land (no further information). Brush_past = brushy pasture. Open _pastu = open pasture. Pasture = pasture in towns where brushy vs. open is not specified. Tillage = tilled land.</para>
+                  <para />
+               </section>
+               <section>
+                  <title>1885 Forest Cutting</title>
+                  <para>These data came from: Wright, Carroll D. 1887. The Census of Massachusetts 1885: Volume 3 Agricultural Products and Property. Boston: Wright and Potter Printing Company. The book is housed at The WEB Dubois Library at The University Massachusetts, Amherst. This was the only year in which the census recorded detailed information on the forest types and ages of cutting operations. These data were recorded at the town level. Numbers in the table are absolute numbers not percentages.</para>
+                  <para>The variable codes used in the attribute tables are as follows:</para>
+                  <para>Code= Definition. Town = town name. County = county.   Notes = any additional information. Ncuts = number of cutting operations reported. Beech/Birch = number of cuts in beech/birch category. Chestnut = number of cuts in chestnut category. Maple = number of cuts in maple category. Oak = number of cuts in oak category.  Pine = number of cuts in pine category. All Others = number of cuts in others category. Lte15yrs = number cuts in stands less than or equal to 15 years old. 20yrs = number of cuts in stands 20 years old. Gte75yrs = number of cuts in stands greater than or equal to 75 years. Pcwoodfarm = percentage of woodland of farmland.</para>
+               </section>
+               <section>
+                  <title>1907 Forest Types</title>
+                  <para>These data come from: Rane, Frank W. 1908. Fourth annual report of the State Forester of Massachusetts for the year 1907. Boston: Wright and Potter Printing Company, State Printers. The shapefile table lists acreages of total forest by forest types for each town. Since the forest type categories were not consistent between counties, this data may be of limited use. A &#8220;-1&#8221; is used to signify acreages that were not reported.</para>
+                  <para>Most of the table fields are self explanatory, unclear ones are listed below:</para>
+                  <para>Code = Definition. Areaacres = town acreage. Forestacre = forest acreage. P_pine_hw = pitch pine and hardwood. P_pine_ced = pitch pine and cedar. Spru_hem = spruce and hemlock. Cedar_sw = cedar swamp.</para>
+               </section>
+               <section>
+                  <title>1920s Forest Acres</title>
+                  <para>These data were originally compiled between 1918 and 1933 (most were done in 1928-29) by the Massachusetts State Forester. The forest-type and size categories were not consistent between counties across the state, therefore this data is most appropriate for studies within a single county. Harvard Forest researchers have not used these data for state-wide analyses. Each forest type abbreviation is followed by a size-category number, there are 4 or 5 size categories for each forest type.</para>
+                  <para>The category definitions vary between counties and are as follows:</para>
+                  <para>Barnstable County: 1=10 inches+ dbh; 60-80' tall. 2=8-10 inches; 50-60'. 3='cordwood size'; 4 inchesaverage; 40-50'. 4='sproutland'; less than 2 inches; 10-15'.</para>
+                  <para>Berkshire County: 1=10 inches+ dbh; 60-80' tall. 2=8-10 inches; 50-60'. 3='cordwood size'; 4 inchesaverage; 40-50'. 4='sproutland'; less than 2 inches; 10-15'.</para>
+                  <para>Bristol County: 1=10 inches+ dbh. 2=6-9 inchesdbh; 30-50 ft. 3=2-5 inchesdbh. 4=less than 2; 15-20ft.</para>
+                  <para>Essex County: 1=10 inches+ dbh; 60-80' tall. 2=8-10 inches; 50-60'. 3='cordwood size'; 4 inchesaverage; 40-50'. 4='sproutland'; less than 2 inches; 10-15'.</para>
+                  <para>Franklin County: 1=10 inches+ dbh; 60-80' tall. 2=8-10 inches dbh; 50-60'. 3=4 inches average; 30-50'. 4=less than 2 inches; 10-25'.</para>
+                  <para>Hampden County: size classes not defined (or pages lost), although class 4 is cordwood size; conducted by same person who did Hampshire, Berkshire, Essex, Barnstable, Franklin, and Middlesex, so probably similar.</para>
+                  <para>Hampshire County: 1=10 inches+ dbh; 60-80' tall. 2=8-10 inchesdbh; 50-70'. 3=3 inchesaverage; 40-50'. 4=less than 2 inches; 10-15ft.</para>
+                  <para>Middlesex County: 1=12 inches+average; 75-80'. 2=8-12 inches; 50'average. 3=4 inchesdbh average; 30-50'. 4=less than 2 inches;10-20'.</para>
+                  <para>Norfolk County: 1=10 inches+ dbh; 60-80' tall. 2=8-10 inches; 50-60'. 3=3-8 inches; 20-50'. 4=less than 3 inches.</para>
+                  <para>Plymouth County: 1=10 inches+ dbh; 60-80' tall. 2=8-10 inchesdbh; 50-70'. 3=5 inches average; 40-50'. 4=2 inches; 30-40'. 5= less than 2 inches.</para>
+                  <para>Worcester County: 1=everything larger. 2=6-12dbh; 30-50'. 3= 2-6 inches; 20-35'. 4= less than 2 inches; 1-20'. </para>
+                  <para>The forest type codes and their definitions are as follows, remember types were not consistent between counties:</para>
+                  <para>Code = Definition. County = county, important to retain since categories vary between counties. Pn = pine. Pn/hd = pine/hardwood. Hem/hd = hemlock/hardwood. Oaksprout = oak sproutland. Norhds = northern hardwoods. Map/bir = maple/birch. Map/bir/bee = maple/birch/beech. Spr = spruce. Spr/hd = spruce/hardwood. Bir/oak/ma = birch/oak/maple. Hem = hemlock. Pn/hem = pine/hemlock. Larch = larch. Mischds = miscellaneous hardwoods. Oak = oak. Oakmapgb = oak/maple/gray birch. Ppn = pitch pine. Swampmap = maple swamp. Soak = scrub oak. Map = maple. Gbir = gray birch. Oak/map = oak/maple. Wcedar = white cedar. Pn/oak = pine/oak. Soak/ppn = scrub oak/pitch pine. Pn/map = pine/maple. Mischd/sf = misc hardwoods and softwoods. Others = others. Ppn/oak = pitch pine/oak. Chest = chestnut. Chest/oak = chestnut/oak. Wpn = white pine. Hd/wpn = hardwoods/white pine. Sfnotpn = softwoods, not pine. Bee = beech. Hickory = hickory. Brushpast = brush pasture. Brush = brushland. Idlelands = idlelands. Agric. = agricultural. Openpast = open pasture. Brushswamp = brush swamp. Resident = residential. Water = water. Saltmarsh = saltmarsh. Freshmarsh = freshmarsh. Marsh = marsh. Transtype = transitional type. Tillage = tilled. Alderswamp = alder swamp. Alder/brus = alder/brush swamp. Cranbog = cranberry bog.</para>
+                  <para>The values in the fields are acres of the forest or landcover type; a &#8220;-1&#8221; is used to denote non-entrees for a given type.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf014-01">
+         <entityName>hf014-01-census-pre1900.csv</entityName>
+         <entityDescription>agricultural census pre1900</entityDescription>
+         <physical id="1239997298386">
+            <objectName>hf014-01-census-pre1900.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf014/hf014-01-census-pre1900.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1239997300120">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year of census</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>year of census</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1239997300136">
+               <attributeName>County</attributeName>
+               <attributeDefinition>county name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>county name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1239997300151">
+               <attributeName>City.Town</attributeName>
+               <attributeDefinition>city or town name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>city or town name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1239997300167">
+               <attributeName>Animal</attributeName>
+               <attributeDefinition>animal type</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>animal type</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1239997300182">
+               <attributeName>Count</attributeName>
+               <attributeDefinition>number of animals</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>7818</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf014-02">
+         <entityName>hf014-02-census-post1900.csv</entityName>
+         <entityDescription>agricultural census post1900</entityDescription>
+         <physical id="1239997399489">
+            <objectName>hf014-02-census-post1900.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf014/hf014-02-census-post1900.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1239997400426">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year of census</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>year of census</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1239997400442">
+               <attributeName>County</attributeName>
+               <attributeDefinition>county name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>county name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1239997400457">
+               <attributeName>Animal</attributeName>
+               <attributeDefinition>animal type</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>animal type</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1239997400473">
+               <attributeName>Count</attributeName>
+               <attributeDefinition>number of animals</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>555</numberOfRecords>
+      </dataTable>
+      <otherEntity id="hf014-03">
+         <entityName>hf014-03-gis.zip</entityName>
+         <entityDescription>GIS data</entityDescription>
+         <physical>
+            <objectName>hf014-03-gis.zip</objectName>
+            <compressionMethod>zip</compressionMethod>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>ArcView shape files</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p01/hf014/hf014-03-gis.zip</url>
+               </online>
+            </distribution>
+         </physical>
+         <entityType>raster GIS</entityType>
+      </otherEntity>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>historical</researchTopic>
+            <researchTopic>regional</researchTopic>
+            <studyType>historical</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="1830 Map of Land Cover and Cultural Features in Massachusetts">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf122</url>
+            <url name="Massachusetts Growing Degree Day and Precipitation Maps">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf088</url>
+            <url name="Witness Tree Data in Southern New England and Long Island 1640-1999">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf087</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

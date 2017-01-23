@@ -1,0 +1,723 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-jrn.20020370.9818" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+
+<access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+    <principal>uid=JRN, o=lter, dc=ecoinformatics, dc=org</principal>
+    <permission>all</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <shortName>JornadaStudy_001_hydrology_runoff_plot_runoff_data</shortName>
+  <title>Hydrology natural runoff plots - runoff</title>
+  <creator>
+    <individualName>
+      <givenName>John</givenName>
+      <surName>Anderson</surName>
+    </individualName>
+    <organizationName>Jornada LTER</organizationName>
+    <address>
+      <deliveryPoint>
+	Jornada LTER
+
+	New Mexico State University
+
+	P.O. Box 30003, MSC 3JER
+</deliveryPoint>
+      <city>Las Cruces</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>88003</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>janderso@nmsu.edu</electronicMailAddress>
+  </creator>
+  <metadataProvider>
+    <organizationName>The Jornada</organizationName>
+    <address>
+      <deliveryPoint>2995 Knox Street</deliveryPoint>
+      <city>Las Cruces</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>88003-8003</postalCode>
+      <country>US</country>
+    </address>
+    <phone phonetype="voice">575-646-4842</phone>
+    <electronicMailAddress>datamanager@jornada-vmail.nmsu.edu</electronicMailAddress>
+    <onlineUrl>http://jornada.nmsu.edu</onlineUrl>
+  </metadataProvider>
+  <pubDate>1982</pubDate>
+  <language>english</language>
+  <abstract>
+    <section>
+      <para> OVERVIEW
+
+ This is the Jornada Long Term Ecological Research site data base for the
+ 2 x 2 meter natural rainfall-runoff plots. There are 4074 plot-events or
+ observations in the data set. Of those 4074 observations, 2745 contained
+ precipitation values greater than zero or contained precipitation values
+ greater than runoff values. Very few observations showed runoff values
+ greater than precipitation. All values are included here for completeness of
+ the data set. These data were collected and analyzed in the laboratory under
+ the supervision of John Anderson (primarily). Dr. Susan M. Bolton and
+ Dr. Tim J. Ward compiled and checked the data. Tim J. Ward is responsible
+ for the final input, checking and presentation of the data set presented
+ below. Questions about the data should be directed to Tim J. Ward through
+ the Jornada LTER.</para>
+    </section>
+  </abstract>
+  <keywordSet>
+    <keyword>carbon</keyword>
+    <keyword>completed</keyword>
+    <keyword>deposit</keyword>
+    <keyword>disturbance</keyword>
+    <keyword>hydrology</keyword>
+    <keyword>hydrology</keyword>
+    <keyword>hydrology</keyword>
+    <keyword>longterm</keyword>
+    <keyword>precipitation</keyword>
+    <keyword>runoff</keyword>
+    <keyword>sediment</keyword>
+    <keyword>signature</keyword>
+    <keywordThesaurus>Jornada Keywords</keywordThesaurus>
+  </keywordSet>
+  <additionalInfo>
+    <para>
+      <literalLayout> The 9 hydrology runoff plots begun in 1983 during LTER-I are
+ located in creosotebush zone. An additional 12 runoff plots have
+ been added in 1989. These additions consist of 4 each at C-CALI,
+ G-SUMM, and G-IBPE. G-SUMM and G-IBPE are blackgrama grassland
+ sites. Refer to LTER site map for locations.
+
+ C-TERM 8 plots in creosotebush zone about 100m west of Upper Trailer.
+ C-CALI 4 plots in creosotebush zone, caliche site, about 20m upslope
+ of C-CALI NPP site.
+ G-SUMM 4 plots in grassland zone, above powerline road and east of
+ LTER-I alternate control transect.
+ G-IBPE 4 plots in grassland zone, about 30m west of southwest corner
+ of IBP grassland exclosure located on USDA in Pasture 9 about
+ 1.5 miles south of West Well.
+
+ The CC, CT, CL, and GS plots (see variable description) are all
+ relatively close to one another on the Jornada LTER exclosure.
+ CC, CT and CL are on an alluvial fan (bajada) and GS is on the
+ alluvial apron at the base of Mt. Summerford. The GI plots are
+ located approximately 10 kilometers north of the other plots on
+ a different soil type.</literalLayout>
+    </para>
+  </additionalInfo>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>
+        <literalLayout>Objectives:
+The Jornada Basin LTER Information Management System (JIMS) provides protocol and services for data collection, verification, organization, archives, and distribution in accordance with recommendations and guidelines developed by the LTER Information Managers Committee (http://www.lternet.edu/data/netpolicy.html).
+
+Disclaimer:
+While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Jornada Basin LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.
+
+Quality Assurance Policy:
+Data managers interact with researchers during the entire scientific process--from the initial planning of sampling designs and field data collection to archiving and distribution of data. The goal of data management is to build and maintain an archive of Jornada Basin LTER data files that are fully documented, error free, and organized in useful ways. Our protocol for data collection and processing seeks maximum interaction between researchers and data management personnel to avoid confusion and potential loss of data or problems with integrity of data; e.g., identification of historical site treatments that may impact a proposed study or incomplete data set variable descriptions. Site and Data Manager involvement begins during the Project Design phase with the completion of the Jornada Notification of Research form by the researcher prior to the start of work; this alerts both Site and Data Manager to the new study and potential LTER data sets. Upon initiation of a new study, the researcher completes Project Documentation that provides the second level of "metadata" documentation.
+In the Data Collection phase, the data manager helps researchers design field and laboratory data sheets that facilitate data entry and analysis. Prior to JIMS data entry the investigator completes Data Set Documentation to provide the metadata that fully describe the data set. Both Project and Data set documentation are provided with the data set when it is requested or obtained from our Web site. JIMS data entry programs error-check and verify data as they are entered. Computer files are subjected to further verification by graphing and/or error-checking programs, and/or examination by field investigators. Final quality assurance of the data rests with the investigator who submits data for inclusion in the Data Management System. Direct communication with the Site Manager, or through a collaborating JRN P.I., is used to encourage the timely submission of documentation and of data by researchers.
+
+Error-checked data files are stored with associated documentation files on the file server. Archived data files are maintained in ASCII format on 30-yr magneto-optical (MO) disks, portable hard drives, CD-R media, and DVD media to guard against loss of data access that can result from changing technology. This may also include proprietary binary format files to facilitate recovery of working versions. Image data are archived on 8mm tape. Routine tape data backups of the file server are done daily, weekly, and monthly. One set of off-site copies are maintained elsewhere on the NMSU campus of routine backup tapes, MO disks, CD disks, and DVD disks with a second set of MO, CD and DVD disks maintained off-campus in case of a catastrophe on campus. The final responsibility for quality assurance (both in data and documentation content) rests with the principal investigator who submits the data for inclusion in the Jornada Basin LTER Information Management System. To facilitate quality assurance, the data manag ement staff will provide copies of data and documentation submitted by a principal investigator to that investigator upon request.
+
+The final responsibility for quality assurance (both in data and documentation content) rests with the principal investigator who submits the data for inclusion in the Jornada Basin LTER Information Management System. To facilitate quality assurance, the data management staff will provide copies of data and documentation submitted by a principal investigator to that investigator upon request.
+
+Policy on Submission of data:
+Data submission into JIMS is expected from LTER researchers, LTER collaborators, and their graduate students where data and information is derived from publicly funded research in the U.S. LTER Network, totally or partially from LTER funds from NSF, Institutional Cost-Share, or Partner Agency or Institution where a formal memorandum of understanding with LTER has been established. Other Jornada Basin researchers are encouraged to submit their documented data for inclusion within JIMS to provide them with an archived backup, ensure its longevity, and provide online access to encourage synthesis efforts. Minimally, for non-LTER associated researchers, we request that publications be provided of research conducted on the Jornada Basin.
+Initial documentation for a data set must be submitted to the Jornada Basin LTER data manager within 90 days of initiation of data collection. Documentation forms are available at http://jornada-www.nmsu.edu/site/dm/readme.php . These consist of Project Abstract and Data Set and Attribute documentation forms, which include objectives of the study, methods, as well as format and content of the data. All data collected during a calendar year should be submitted to the Jornada Basin LTER data manager prior to July first of the following year. First time data submissions must be submitted with updated standard Jornada Basin LTER forms previously submitted.
+
+Data Access Policy:
+Data will be made publicly available no later than 2 years after submission of the data unless an earlier date is specified by the principal investigator. In the event that an extension of the 2 year period is necessary, the principal investigator may petition the Jornada Basin LTER Executive Committee for a longer protected period. Graduate student research data will be available online after degree completion and they have the opportunity to publish their research.
+
+Policies for re-use, distribution, or the production of derivatives:
+Data re-use, distribution and production of derivative products are governed by the LTER Network data policies (http://www.lternet.edu/data/netpolicy.html) in the spirit of having the potential to increase communication, collaboration and synthesis within and among disciplines. Appropriate citation, acknowledgement, notification and collaboration are outlined and recommended. No commercial redistribution of data and derived products are allowed.
+
+Data Acknowledgment Policy:
+Please send notification to the Information Manager and Responsible Investigator(s) of the data sets you are downloading and your intended use.
+Individuals and institutions utilizing data from the Jornada Basin LTER database are requested to place the following acknowledgment in any publication in which these data are mentioned:
+Data sets were provided by the Jornada Basin Long-Term Ecological Research (LTER) project. Funding for these data was provided by the U.S. National Science Foundation (Grant DEB-0618210).
+
+Please send 1 copy of any publication that cites Jornada Basin LTER data to:
+     John P. Anderson
+     Jornada Experimental Range
+     P.O. Box 30003, MSC 3JER
+     New Mexico State University
+     Las Cruces, NM 88003-0003</literalLayout>
+      </para>
+    </section>
+  </intellectualRights>
+  <distribution>
+    <online>
+      <url function="download">http://jornada-data.nmsu.edu/files/dataset_packages/JornadaStudy_001_hydrology_runoff_plot_runoff_data.zip</url>
+    </online>
+  </distribution>
+  <coverage>
+    <temporalCoverage>
+      <rangeOfDates>
+        <beginDate>
+          <calendarDate>1982-09-09</calendarDate>
+        </beginDate>
+        <endDate>
+          <calendarDate>1994-10-15</calendarDate>
+        </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para>
+        <literalLayout> mm/dd/yyyy - Date of Comment
+ Int - Initials of person making Comment
+ JPA = John P. Anderson
+ TJW = Tim J. Ward
+ JL = Jim Lenz
+ KR = Ken Ramsey
+ Changes/Updates - List any changes made to document
+
+ mm/dd/yyyy Int Changes/Updates
+ ---------- --- -----------------------------------------------
+ 12/10/1989 TJW Form completed by investigator
+ 03/27/1997 TJW Form updated by investigator
+ 06/13/2002 JL Added Dataset ID and Project ID sections.
+ 02/27/2004 KR Changed format for Attributes and Associated
+ Files section.
+ Moved Dataset and Project IDs to top of form.
+ Removed Missing/Questionable data section and
+ incorporated into Attributes and comments section.
+ 07/25/2007 KR Updated Responsible Investigators and Researchers
+ sections to reflect dates associated with dataset.
+ 11/17/2011 JPA Changed responsible investigator for contact person
+ to John P Anderson per Deb Peters</literalLayout>
+      </para>
+    </description>
+  </maintenance>
+  <contact>
+    <individualName>
+      <givenName>Data</givenName>
+      <surName>Manager</surName>
+    </individualName>
+    <organizationName>Jornada LTER</organizationName>
+    <address>
+      <deliveryPoint>PO Box 30003, MSC 3JER</deliveryPoint>
+      <city>Las Cruces</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>88003</postalCode>
+      <country>US</country>
+    </address>
+    <electronicMailAddress>datamanager@jornada-vmail.nmsu.edu</electronicMailAddress>
+  </contact>
+  <pubPlace>The Jornada</pubPlace>
+  <methods>
+    <methodStep>
+      <description>
+        <section>
+          <para>
+            <literalLayout>field data sheets</literalLayout>
+          </para>
+        </section>
+        <section>
+          <para>
+            <literalLayout>See "Hydrology Procedure", HYDROLOG.PRO</literalLayout>
+          </para>
+        </section>
+      </description>
+    </methodStep>
+    <qualityControl>
+      <description>
+        <para>
+          <literalLayout> History of Responsible investigator(s):
+ Tim J. Ward
+ ****************************
+
+
+ SLOPES
+ Surface slopes on the plot were last surveyed in February 1996 using
+ a level and surveying rod. Slopes in the plots were controlled by the
+ runoff collection device so there was little change over time. The
+ slopes, in meters per meter, are given below.
+
+ Plot
+ ID 1 2 3 4 5
+ CC 0.065 0.050 0.034 0.039 -
+ CT 0.058 0.041 0.040 0.053 0.052
+ CL 0.051 0.074 0.058 0.046 -
+ GI 0.055 0.047 0.042 0.059 -
+ GS 0.091 0.099 0.086 0.097 -
+
+ SURFACE COVER
+ Plots were selected to provide a relatively strong contrast at each site
+ between high and low cover conditions. Vegetative cover varied from
+ season to season. Cover values ranged from about 10% (gravel and pebble
+ only) up to about 90% (vegetation and rock). Between four and six cover
+ observations were conducted by different personnel at each plot. These
+ data are not included here. The cover designations for the plots are:
+
+ Plot
+ ID 1 2 3 4 5
+ CC B B N N -
+ CT B B N N B
+ CL N B N B -
+ GI B N N B -
+ GS N N B B -
+
+ where B = creosote bush or relatively high cover, and
+ N = no creosote bush or relatively low cover
+
+ PERIOD OF RECORD AND HISTORY
+ The first plot-event was September 9, 1982. The last plot-event was
+ October 15, 1994. The collection period overlaps what are referred to
+ as LTER I and LTER II. In LTER I, only the CC and CT plots were in
+ operation. In LTER II, CC, CT, CL, GI, and GS plots were all sampled.
+ The first LTER II plot-event was on July 14, 1989. Up to that time, 846
+ plot-event observations had been taken. At the beginning of the LTER I
+ samples, only CC 1 and 2 and CT 1 and 2 plots were in operation. As of
+ the October 24, 1983, plot-event, CC 1 through 4 and CT 1 through 5 were
+ in operation. CT 5 was added because the data from CT 1 were believed to
+ be affected by a small rill/channel in the plot. Previous to
+ October 24, 1983, 60 plot-event observations were collected. The last
+ plot-event sampled at CT 1 was for October 24, 1988. Starting with the
+ July 22, 1992, plot-event, a new sampling rule was initiated. This rule
+ stated that plots were to be sampled only after the precipitation depth
+ as recorded at the LTER weather station equaled or exceeded 5 millimeters
+ (0.2 inches). Although in place to avoid excessive field travel (runoff
+ seldom if ever occurs when precipitation is less than 0.25 inches), the
+ records clearly show that significant runoff events are always associated
+ with single storms in excess of the rule amount. Even with the rule in
+ place, the field crew was extremely diligent and sampled and maintained
+ the plots even when the threshold precipitation was not reached. Light,
+ multiple storms have essentially no effect on the data. After the
+ July 22, 1992, plot-event, all CT plots were closed because the
+ differences between the CC and CT plots had become insignificant over
+ time. As of that date, 3262 plot-events had been collected.
+
+ MISSING OR QUESTIONABLE VALUES
+ Missing, Spurious, and No Runoff Values
+
+ Data fields for observations that contain a "." indicates that the data
+ were not collected, were not analyzed, were accidentally lost during
+ analysis, or did not make sense (i.e. could not be explained from the
+ sampling records). The remaining data for the observation appear to be
+ correct and, therefore, are listed. One group of spurious values that
+ have been retained are those that show runoff depths in excess of
+ corresponding precipitation depths. There were seven plot-events of this
+ type. These were, in chronological order:
+ DATE ID-Plot Precip., mm
+ October 15, 1984 CT 1 21.84
+ November 26, 1984 CT 1 21.26
+ November 22, 1986 CT 4 15.75
+ July 27, 1991 CC 3 20.32
+ July 27, 1991 CT 3 20.32
+ August 8, 1991 CL 3 24.64
+ September 5, 1991 GI 1 7.62
+
+ It is believed that the runoff appears to be larger than the precipitation
+ because of mechanical or human errors in the runoff measurements. Such
+ errors do occur but are very rare. In this case, 7 out of 2752 plot-events
+ with rainfall and runoff, or 0.25% were spurious. The rainfall and runoff
+ for the other plots on those same dates were reasonable and did not appear
+ to be in error. The other type of data that is listed in the data base are
+ those observations for which precipitation was zero or very low and no runoff
+ had occurred. In those cases, the plots were serviced and sampled on a
+ routine basis and only the deposits were collected. Deposits in the
+ collection device are a result of both water and wind transport. Some
+ runoff data are missing for large rainfall events because overland flow
+ extraneous to the plot entered the collection device and contaminated the
+ sample. Those events occurred early in the sampling period and the collection
+ device was modified to prevent further extraneous inflow.</literalLayout>
+        </para>
+      </description>
+    </qualityControl>
+  </methods>
+  <project>
+    <title>Jornada LTER</title>
+    <personnel>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Debra</givenName>
+        <surName>Peters</surName>
+      </individualName>
+      <organizationName>Jornada LTER</organizationName>
+      <address>
+        <deliveryPoint>USDA-ARS Jornada Experimental Range</deliveryPoint>
+        <deliveryPoint>P.O. Box 30003, MSC 3JER</deliveryPoint>
+        <deliveryPoint>New Mexico State University</deliveryPoint>
+        <city>Las Cruces</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>88003-8003</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">575-646-2777</phone>
+      <phone phonetype="fax">575-646-5889</phone>
+      <electronicMailAddress>debpeter@nmsu.edu</electronicMailAddress>
+      <role>Lead Principal Investigator</role>
+    </personnel>
+    <personnel>
+      <individualName>
+        <givenName>Data</givenName>
+        <surName>Manager</surName>
+      </individualName>
+      <organizationName>Jornada LTER</organizationName>
+      <address>
+        <deliveryPoint>USDA-ARS Jornada Experimental Range</deliveryPoint>
+        <deliveryPoint>P.O. Box 30003, MSC 3JER</deliveryPoint>
+        <deliveryPoint>New Mexico State University</deliveryPoint>
+        <city>Las Cruces</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>88003-8003</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>datamanager@jornada-vmail.nmsu.edu</electronicMailAddress>
+      <role>Information Manager</role>
+    </personnel>
+    <abstract>
+      <para>
+        <literalLayout>The Jornada Basin Long Term Ecological Research program, in collaboration with 
+                         the USDA ARS Jornada Experimental Range, studies the causes and consequences of 
+                         desertification: the broad scale expansion of woody plants into grasslands that 
+                         results in more "desert like" conditions. We are interested in spatial and 
+                         temporal variation in desertification dynamics, and how historic legacies, the 
+                         geomorphic template, transport vectors (wind, water, animals), and environmental 
+                         drivers (climate, land use, disturbance) interact with the patch structure of the 
+                         vegetation to determine past, present, and future ecosystem dynamics across 
+                         scales.
+                        
+                         Our study site is located in the northern Chihuahuan Desert, approximately 25 km 
+                         northeast of Las Cruces, New Mexico, USA (+32.5 N, -106.8 W, elevation 1188 m). 
+                         Annual precipitation is 24 cm and maximum temperatures average 13 C in January 
+                         and 36 C in June. Our study site includes the 78,000 ha Jornada Experimental 
+                         Range operated by the USDA Agricultural Research Service, and the 22,000 ha 
+                         Chihuahuan Desert Rangeland Research Center (CDRRC) operated by New Mexico State 
+                         University. The Jornada Basin LTER project was established in 1982, and is 
+                         administered by New Mexico State University. This site is a member of the LTER 
+                         Network, one of  more than 25 long term sites funded by the U.S. National Science 
+                         Foundation.</literalLayout>
+      </para>
+    </abstract>
+    <funding>
+      <para>
+        <literalLayout>U.S. National Science Foundation (Grant DEB-0618210)</literalLayout>
+      </para>
+    </funding>
+  </project>
+  <dataTable>
+    <entityName>JornadaStudy_001_hydrology_runoff_plot_runoff_data.csv</entityName>
+    <entityDescription>Data file information for the following Jornada data set: Hydrology natural runoff plots - runoff</entityDescription>
+    <physical>
+      <objectName>JornadaStudy_001_hydrology_runoff_plot_runoff_data.csv</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>30</numHeaderLines>
+          <numFooterLines>0</numFooterLines>
+          <recordDelimiter>\r\n</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+            <quoteCharacter>"</quoteCharacter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+      <distribution>
+        <online>
+          <url function="download">http://jornada-data.nmsu.edu/sites/jornada-data.nmsu.edu/files/data_files/JornadaStudy_001_hydrology_runoff_plot_runoff_data.csv</url>
+        </online>
+      </distribution>
+    </physical>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1982-09-09</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1994-10-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <attributeList>
+      <attribute>
+        <attributeName>OBS</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_obs</attributeLabel>
+        <attributeDefinition>Observation number assigned by the printing program
+</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>N/A</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>MONTH</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_month</attributeLabel>
+        <attributeDefinition>Month of observation</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>N/A</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">1</minimum>
+                <maximum exclusive="false">12</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>DAY</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_day</attributeLabel>
+        <attributeDefinition>Day of rainfall event (usually) or day of collection, used to identify event day
+</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>N/A</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">1</minimum>
+                <maximum exclusive="false">31</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>YEAR</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_year</attributeLabel>
+        <attributeDefinition>Year of observation</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>N/A</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">82</minimum>
+                <maximum exclusive="false">94</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>ID</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_id</attributeLabel>
+        <attributeDefinition>Identifies the plot location in one of five areas</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>CC </code>
+                  <definition> Creosotebush, not treated to remove termites (Control)</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>CT </code>
+                  <definition> Creosotebush, treated to remove termites (Treated)</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>CL </code>
+                  <definition> Creosotebush, growth retarded by caliche layer (caLiche)                  </definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>GI </code>
+                  <definition> Grassland, located near historic International Biosphere Project (IBP) site                  </definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>GS </code>
+                  <definition> Grassland at the base of Mt. Summerford</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>PLOT</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_plot</attributeLabel>
+        <attributeDefinition>Identification number of the plot. Range of acceptable values is 1 to 4 for all plots, except at CT where 5 plots were installed.
+</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>N/A</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">1</minimum>
+                <maximum exclusive="false">5</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>COV</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_cov</attributeLabel>
+        <attributeDefinition>Relative cover code</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>B </code>
+                  <definition> Bush or higher</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>N </code>
+                  <definition> No bush or lower</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+        <missingValueCode>
+          <code>. </code>
+          <codeExplanation> Indicates that the data were not collected, were not analyzed, were accidentally lost during analysis, or did not make sense (i.e. could not be explained from the sampling records)</codeExplanation>
+        </missingValueCode>
+      </attribute>
+      <attribute>
+        <attributeName>RUNOFF</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_runoff</attributeLabel>
+        <attributeDefinition>Millimeters of runoff depth from four square meters of area
+</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>mm</customUnit>
+            </unit>
+            <precision>0.001</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+        <missingValueCode>
+          <code>. </code>
+          <codeExplanation> Indicates that the data were not collected, were not analyzed, were accidentally lost during analysis, or did not make sense (i.e. could not be explained from the sampling records)</codeExplanation>
+        </missingValueCode>
+      </attribute>
+      <attribute>
+        <attributeName>SED</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_sed</attributeLabel>
+        <attributeDefinition>Suspended sediment concentration in runoff water</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>mg/L</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+        <missingValueCode>
+          <code>. </code>
+          <codeExplanation> Indicates that the data were not collected, were not analyzed, were accidentally lost during analysis, or did not make sense (i.e. could not be explained from the sampling records)</codeExplanation>
+        </missingValueCode>
+      </attribute>
+      <attribute>
+        <attributeName>PREC</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_prec</attributeLabel>
+        <attributeDefinition>Standard 8" (8 inch) can depth gage measurement of precipitation
+</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>mm</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+        <missingValueCode>
+          <code>. </code>
+          <codeExplanation> Indicates that the data were not collected, were not analyzed, were accidentally lost during analysis, or did not make sense (i.e. could not be explained from the sampling records)</codeExplanation>
+        </missingValueCode>
+      </attribute>
+      <attribute>
+        <attributeName>DEP</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_dep</attributeLabel>
+        <attributeDefinition>Dry grams of deposited sediment collected from the surfaces of the runoff collection system, not from the runoff water barrel
+</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>grams</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+        <missingValueCode>
+          <code>. </code>
+          <codeExplanation> Indicates that the data were not collected, were not analyzed, were accidentally lost during analysis, or did not make sense (i.e. could not be explained from the sampling records)</codeExplanation>
+        </missingValueCode>
+      </attribute>
+      <attribute>
+        <attributeName>CARB</attributeName>
+        <attributeLabel>variable_jornada_hydrology_runoff_carb</attributeLabel>
+        <attributeDefinition>Percent of the DEP sample, by dry weight, that was volatilized in a muffle furnace, i.e. percent carbon
+</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>%</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">100</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+        <missingValueCode>
+          <code>. </code>
+          <codeExplanation> Indicates that the data were not collected, were not analyzed, were accidentally lost during analysis, or did not make sense (i.e. could not be explained from the sampling records)</codeExplanation>
+        </missingValueCode>
+      </attribute>
+    </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+  <metadata>
+    <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+<ns2:unit id="N/A" />
+<ns2:unit id="mm" />
+<ns2:unit id="mg/L" />
+<ns2:unit abbreviation="" id="grams" name="grams" unitType=""><ns2:description /></ns2:unit>
+
+<ns2:unit id="%" />
+    </ns2:unitList>
+  </metadata>
+</additionalMetadata>
+</ns0:eml>

@@ -1,0 +1,481 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.206.13" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="206" system="VCR">
+   <alternateIdentifier>VCR12200</alternateIdentifier>
+   <title>Surface Elevation Table Lagoon Data for Wachapregue marshes and north Mockhorn Island of the Virginia Coast Reserve 2002-2014</title>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>R.</givenName>
+         <surName>Erwin</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Patuxent Wildlife Research Center, Department of Environmental Sciences, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-3207</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>rme5g@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">rerwin</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <salutation>Ms.</salutation>
+         <givenName>Diann</givenName>
+         <surName>Prosser</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>USGS Patuxent Wildlife Research Center, BARC-East, Bldg 308, 10300 Baltimore Ave.</deliveryPoint>
+         <city>Beltsville</city>
+         <administrativeArea>MD</administrativeArea>
+         <postalCode>20705</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">301-498-5914</phone>
+      <electronicMailAddress>dprosser@usgs.gov</electronicMailAddress>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2014-04-16</pubDate>
+   <abstract>
+  <para>Dataset consists of a subset of all the USGS-sponsored data collected using the USGS Patuxent Wildlife Research Center "old style" SET arm, which began in Fall 1998.&#160; Because of changes made to the type of pins used (switched from brass pins to fiberglass in 2002), we present only the post-2002 data here.&#160; Each datum under "ELEVTN" variable is the mean&#160;SET elevation measured from 36 pins.</para>
+  <para>In the Wachapreague marshes, three high marsh sites (short form Spartina alterniflora) were selected (Curlew Bay 1 (East)HM, Curlew Bay 2 (West)HM, and Gates BayHM), and three low-mid marsh sites (tall form Spartina)&#160;as well (same names, except MM as a suffix).&#160; About 20 miles south, at the north&#160;end of the Mockhorn Island Wildlife&#160;Management Area (state owned), only two low-mid marsh sites were selected - Mockhorn East and West.&#160;&#160;The dataset does not include elevations taken at unvegetated "pond" sites as measurements were curtailed after 2003.&#160;</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Organic Matter</keyword>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">SET</keyword>
+      <keyword keywordType="theme">salt marshes</keyword>
+      <keyword keywordType="theme">accretion</keyword>
+      <keyword keywordType="theme">lagoon</keyword>
+      <keyword keywordType="theme">lagoon</keyword>
+      <keyword keywordType="theme">sea-level rise</keyword>
+      <keyword keywordType="theme">sedimentation</keyword>
+      <keyword keywordType="theme">surface elevation table</keyword>
+      <keyword keywordType="theme">elevation</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+      <section>
+<title>Additional Conditions (copyright):</title>
+  <para>Because the data were collected by USGS personnel, there is no copyright protection for these data.</para>
+      </section>
+      <section>
+<title>Additional Conditions:</title>
+  <para>These are data collected with federal funding, therefore are open to the public. However, the scientists wish to be notified if the data are to be used in any publications.</para>
+      </section>
+      <section>
+<title>Additional Disclaimers:</title>
+  <para>After the 2012 spring field measurements, the duties of field measurements of the SETs will become the responsibilities of the University of Virginia's Virginia Coast Reserve LTER project.&#160;</para>
+      </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>CB1(E)HM - Curlew Bay East, High Marsh, Wachapreague</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.65833568572998</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.65833568572998</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.59202944700636</northBoundingCoordinate>
+            <southBoundingCoordinate>37.59202944700636</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>CB1(E)MM - Curlew Bay 1 East MidMarsh, Wachapreague</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.65829277038574</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.65829277038574</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.59185942168687</northBoundingCoordinate>
+            <southBoundingCoordinate>37.59185942168687</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>CB2(W)HM - Curlew Bay West High Marsh, Wachapreague</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.6601756811142</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.6601756811142</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.592003943233195</northBoundingCoordinate>
+            <southBoundingCoordinate>37.592003943233195</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>CB2(W)MM - Curlew Bay West Mid Marsh, Wachapreague</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.66024005413055</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.66024005413055</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.59192743186127</northBoundingCoordinate>
+            <southBoundingCoordinate>37.59192743186127</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>GATES_HM - Gates Bay High Marsh, Wachapreague</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.6690001487732</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.6690001487732</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.60574920969482</northBoundingCoordinate>
+            <southBoundingCoordinate>37.60574920969482</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>GATES_MM - Gates Bay Mid Marsh, Wachapreague</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.66892504692077</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.66892504692077</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.605655713059335</northBoundingCoordinate>
+            <southBoundingCoordinate>37.605655713059335</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>MOCK_ES - Mockhorn Island East Low Marsh (MOCK-E)</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>MOCK_WS - Mockhorn Island-West Low Marsh (MOCK-W)</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>2002-03-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2014-04-16</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>R.</givenName>
+         <surName>Erwin</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Patuxent Wildlife Research Center, Department of Environmental Sciences, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-3207</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>rme5g@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">rerwin</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <salutation>Ms.</salutation>
+         <givenName>Diann</givenName>
+         <surName>Prosser</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>USGS Patuxent Wildlife Research Center, BARC-East, Bldg. 308, 10300 Baltimore Ave.</deliveryPoint>
+         <city>Beltsville</city>
+         <administrativeArea>MD</administrativeArea>
+         <postalCode>20705</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">301-498-5914</phone>
+      <electronicMailAddress>dprosser@usgs.gov</electronicMailAddress>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para><emphasis>This section contains specific methods for this dataset.</emphasis></para>
+  <para>Current data collection method is to sample the SET sites each spring (late April to early June) and take measurements using the original SET arm at all sites.&#160; Current use is with fiberglass pins, which replaced the brass pins of the late 1990s.&#160; Sampling is best done at mid to low tides to ensure that the marsh site is not inundated.&#160; For access to the sampling point, we use two 8-ft boards and one 10 ft board to provide access for two people to the SET.&#160; One person does the measurements, the other records the data on field sheets or field notebook.&#160;</para>
+  <para>After the plate is leveled at each of 4 cardinal locations at the SET, the 9 pins are lowered until they just make contact with the marsh surface. Each pin is measured from the plate surface to the top of the pin using a meter stick. Data are recorded&#160;to the nearest tenth of a centimeter.</para>
+  <para>Detailed instructions on data collection and recording from Mike Erwin sent to David Boyd on 2012-06-01:</para>
+  <para>1. First, we are down to only the four SETs at Wachapreague, labeled CB1E (Curlew Bay East) with a HM high marsh, and a MM mid marsh SET; also the CB2W (Curlew Bay West) - also a HM and a MM SET. At Mockhorn Island WMA, there are two: we have a Mock-E and a Mock-W both of which are considered mid marsh. Gates Bay SET sites were abandoned as we have anomalous readings there.</para>
+  <para>2. Take one reading per SET in the spring, from late April to late May advised. Low or mid tide levels will ensure that no water is standing at the SETs when you take measurements. Low tide is critical at the CB sites for the mid marsh SETs.</para>
+  <para>3. Upon approaching each SET from the creek side, avoid stepping within a radius of 4-5 ft. of where the pipe is located.</para>
+  <para>4. After placing the three boards, place the SET arm in the slots such that the arm position is at the 900 position first, which is the A position. The 1200 position is B, 300 is C, and 600 is D.</para>
+  <para>5. Make sure the arm is level first before pins are dropped. 6. Lower each pin until it BARELY touches the sediment surface. 7. With meter stick, measure FROM THE PLATE to the top of the pin, recording in tenths of centimeters on the data sheets. 8. After returning to the office, calculate the means for each SET (N=36 pins) and record in the SET master file (Erwin SET file).</para>
+         </description>
+      </methodStep>
+   </methods>
+   <project id="VCR11091">
+      <title>Surface Elevation Tables on the Virginia Coast </title>
+      <personnel>
+         <individualName>
+            <salutation>Dr.</salutation>
+            <givenName>Linda</givenName>
+            <surName>Blum</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+            <city>Charlottesville</city>
+            <administrativeArea>VA</administrativeArea>
+            <postalCode>22903</postalCode>
+         </address>
+         <phone phonetype="voice">(434) 924-0560</phone>
+         <phone phonetype="facsimile">(434) 982-2137</phone>
+         <electronicMailAddress>lkb2e@virginia.edu</electronicMailAddress>
+         <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">lblum</userId>
+         <role>originator</role>
+      </personnel>
+   </project>
+   <dataTable>
+      <entityName>VCR12200_1</entityName>
+      <entityDescription>Surface Elevation Table Lagoon Data for Wachapregue marshes and north Mockhorn Island of the Virginia Coast Reserve 2002-2014</entityDescription>
+      <physical>
+         <objectName>VCR12200.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>27</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0D#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0D#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.206.13&amp;urlHeadID=2&amp;urlTail=1/VCR12200/VCR12200/VCR12200.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR12200.1.YEAR">
+            <attributeName>YEAR</attributeName>
+            <attributeLabel>YEAR OF SET COLLECTION</attributeLabel>
+            <attributeDefinition>YEAR - YEAR OF SET COLLECTION</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1998</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR12200.1.SITE">
+            <attributeName>SITE</attributeName>
+            <attributeLabel>Location of the individual SET in the lagoon</attributeLabel>
+            <attributeDefinition>SITE - Location of the individual SET in the lagoon</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Location of the individual SET in the lagoon</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR12200.1.ELEVTN">
+            <attributeName>ELEVTN</attributeName>
+            <attributeLabel>SET elevation mean (n=36 pins)</attributeLabel>
+            <attributeDefinition>ELEVTN - SET elevation mean (n=36 pins)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>cm</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">5</minimum>
+                        <maximum exclusive="false">100</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+      </attributeList>
+   </dataTable>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="cm" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-23</weight>
+         <projectId>VCR11091</projectId>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

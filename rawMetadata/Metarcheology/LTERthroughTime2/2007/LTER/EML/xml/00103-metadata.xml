@@ -1,0 +1,785 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.18.13" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset scope="document">
+		<title>MCR LTER: Coral Reef: Rates of benthic coral reef community metabolism</title>
+		<creator id="creator_mcr" scope="document">
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+			<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+		</creator>
+		<creator id="carpenter" scope="document">
+			<individualName>
+				<givenName>Robert</givenName>
+				<surName>Carpenter</surName>
+			</individualName>
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<positionName>Co-PI</positionName>
+			<address scope="document">
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>California State University</deliveryPoint>
+				<city>Northridge</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>91330-8303</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">818.677.3256</phone>
+			<electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+			<onlineUrl>http://www.csun.edu/biology/faculty/carpenter.htm</onlineUrl>
+		</creator>
+		<creator id="macintyre" scope="document">
+			<individualName>
+				<givenName>Sally</givenName>
+				<surName>MacIntyre</surName>
+			</individualName>
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<positionName>Principal Investigator</positionName>
+			<address scope="document">
+				<deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+				<deliveryPoint>University of California, Santa Barbara</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-9610</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">+1(805)893-3951</phone>
+			<phone phonetype="fax">+1(805)893-8062</phone>
+			<electronicMailAddress>sally@eri.ucsb.edu</electronicMailAddress>
+			<onlineUrl>http://www.lifesci.ucsb.edu/eemb/faculty/macintyre/</onlineUrl>
+		</creator>
+		<associatedParty id="fram" scope="document">
+			<individualName>
+				<givenName>Jon</givenName>
+				<surName>Fram</surName>
+			</individualName>
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<positionName>Post-Doc</positionName>
+			<address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California, Santa Barbara</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+			<electronicMailAddress>jfram@hawaii.edu</electronicMailAddress>
+			<role>Fluid Dynamics, Analysis</role>
+		</associatedParty>
+		<associatedParty id="vinnyMoriarty" scope="document">
+			<individualName>
+				<givenName>Vincent</givenName>
+				<surName>Moriarty</surName>
+			</individualName>
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<positionName>Lead Field Technician</positionName>
+			<address scope="document">
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>California State University</deliveryPoint>
+				<deliveryPoint>18111 Nordhoff St.</deliveryPoint>
+				<city>Northridge</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>91330-8303</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">503.310.0435</phone>
+			<electronicMailAddress>vmoriarty@csun.edu</electronicMailAddress>
+			<role>Field Technician</role>
+		</associatedParty>
+		<pubDate>2010-06-04</pubDate>
+		<abstract>
+			<para>The data presented here are rates of community primary production and respiration 
+				for two sites on the north shore of Moorea. Estimates are made from upstream-downstream 
+				sampling of dissolved oxygen, measurement of water column velocity, and in situ light (PAR) 
+				levels. Estimates are made yearly across approximately 160 m of the backreef community.</para>
+		</abstract>
+		<keywordSet>
+			<keyword keywordType="theme">Moorea Coral Reef</keyword>
+			<keyword keywordType="theme">MCR</keyword>
+			<keyword keywordType="theme">LTER</keyword>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="place">French Polynesia</keyword>
+			<keyword keywordType="place">Moorea</keyword>
+			<keyword keywordType="place">Backreef</keyword>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">benthic metabolism</keyword>
+			<keyword keywordType="theme">PAR</keyword>
+			<keyword keywordType="theme">community primary production</keyword>
+			<keyword keywordType="theme">community respiration</keyword>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Dissolved oxygen</keyword>
+			<keyword keywordType="theme">Respiration</keyword>
+			<keyword keywordType="theme">Primary production</keyword>
+			<keyword keywordType="theme">Solar radiation</keyword>
+			<keyword keywordType="theme">Coral Reefs</keyword>
+			<keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+		</keywordSet>
+	  <keywordSet>
+	    <keyword keywordType="theme">Marine</keyword>
+	    <keywordThesaurus>KNB</keywordThesaurus>
+	  </keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Primary Production</keyword>
+			<keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Time Series Program</keyword>
+			<keywordThesaurus>MCR Core Activity</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Ocean Acidification</keyword>
+			<keywordThesaurus>Research Theme</keywordThesaurus>
+		</keywordSet>
+		
+		<intellectualRights>
+			<para>Data collected under the auspices of the MCR LTER are available to the public
+				after primary publication, or at most two years after the completion of the study
+				unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+				acceptance of the following conditions: <itemizedlist>
+					<listitem><para>1. The user agrees to provide valid name and contact information
+						prior to downloading online data. This information will be used to
+						contact the user in case of changes to the data, and may also be used by
+						data set authors and MCR LTER project administrators to document data
+						usage.</para>
+					</listitem>
+					<listitem><para>2. The user agrees to cite the data set author and MCR LTER in
+						all publications in which the data are used, as per the instructions in
+						the data documentation. If no specific instructions are provided in the
+						data documentation, the user is requested to include the following
+						statement: "Data sets were provided by the Moorea Coral Reef
+						Ecosystem LTER, funded by the US National Science Foundation
+						(OCE-0417412)."</para>
+					</listitem>
+					<listitem><para>3. The user agrees to provide one copy of any manuscript based
+						on MCR LTER data to the data set author prior to submitting it for
+						publication.</para>
+					</listitem>
+					<listitem><para>4. The user agrees to send two hard copies of any published
+						manuscript based on MCR LTER data to the following address: Dr. Andrew
+						J. Brooks Deputy Program Director, MCR LTER Marine Science Institute
+						University of California Santa Barbara, CA 93106-6150 The user also
+						agrees to send one electronic copy (pdf format) to the following e-mail
+						address: brooks@msi.ucsb.edu</para>
+					</listitem>
+					<listitem><para>5. Users are prohibited from selling or redistributing any data
+						provided by MCR LTER without explicit prior permission.</para>
+					</listitem>
+					<listitem><para>6. Users are encouraged to contact original investigators
+						responsible for data. Where appropriate, researchers whose projects are
+						integrally dependent on MCR LTER data are encouraged to consider
+						collaboration and/or co-authorship with original investigators.</para>
+					</listitem>
+					<listitem><para>7. Extensive efforts are made to ensure that online data are
+						accurate and up to date, but the authors and the MCR LTER will not take
+						responsibility for any errors that may exist in data provided online.
+						Furthermore, the user assumes all responsibility for errors in analysis
+						or judgment resulting from use of the data.</para>
+					</listitem>
+					<listitem><para> 8. Any violation of the terms of this agreement will result in
+						immediate forfeiture of the data and loss of access privileges to other
+						MCR LTER data sets.</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</intellectualRights>
+		<coverage scope="document">
+			<geographicCoverage scope="document">
+				<geographicDescription>Moorea, French Polynesia</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-150.0</westBoundingCoordinate>
+					<eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+					<northBoundingCoordinate>-17.45</northBoundingCoordinate>
+					<southBoundingCoordinate>-17.62</southBoundingCoordinate>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<geographicCoverage id="MCR_LTER_1_poly_for_public" scope="document">
+				<geographicDescription>LTER 1 polygon including LTER 0</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-149.8455917</westBoundingCoordinate>
+					<eastBoundingCoordinate>-149.829821</eastBoundingCoordinate>
+					<northBoundingCoordinate>-17.47185366</northBoundingCoordinate>
+					<southBoundingCoordinate>-17.48641792</southBoundingCoordinate>
+					<boundingAltitudes>
+						<altitudeMinimum>-20.0</altitudeMinimum>
+						<altitudeMaximum>-1.0</altitudeMaximum>
+						<altitudeUnits>meter</altitudeUnits>
+					</boundingAltitudes>
+				</boundingCoordinates>
+				<datasetGPolygon>
+					<datasetGPolygonOuterGRing>
+						<gRing>
+							-149.845591714532,-17.47414056509442 -149.8444519643552,-17.48505989649701 -149.8383270457441,-17.48426840091165 -149.8338147432263,-17.48641791890627 -149.829821007306,-17.48494822551147 -149.8320709284201,-17.4740284807948 -149.832080184047,-17.47322775964911 -149.8320960734944,-17.47185366062079 -149.8453810009447,-17.47265313575251 -149.845591714532,-17.47414056509442
+						</gRing>
+					</datasetGPolygonOuterGRing>
+				</datasetGPolygon>
+			</geographicCoverage>
+			<geographicCoverage id="MCR_LTER_2_poly_for_public" scope="document">
+				<geographicDescription>LTER 2</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-149.8116849</westBoundingCoordinate>
+					<eastBoundingCoordinate>-149.7961685</eastBoundingCoordinate>
+					<northBoundingCoordinate>-17.46576169</northBoundingCoordinate>
+					<southBoundingCoordinate>-17.48131958</southBoundingCoordinate>
+					<boundingAltitudes>
+						<altitudeMinimum>-30.0</altitudeMinimum>
+						<altitudeMaximum>-1.0</altitudeMaximum>
+						<altitudeUnits>meter</altitudeUnits>
+					</boundingAltitudes>
+				</boundingCoordinates>
+				<datasetGPolygon>
+					<datasetGPolygonOuterGRing>
+						<gRing>
+							-149.8116848616027,-17.46714573056912 -149.8098855542298,-17.48075290854079 -149.8077576500829,-17.48063908230724 -149.8051572586888,-17.48109313281079 -149.8032635045001,-17.47984289373148 -149.802788348976,-17.47893280566117 -149.800666445604,-17.48131957607722 -149.7967627437853,-17.48063739528508 -149.7961685287123,-17.48006903867057 -149.7977614186906,-17.4665681148313 -149.7978767224803,-17.4657616891053 -149.8115671676133,-17.46645490408906 -149.8116848616027,-17.46714573056912 
+						</gRing>
+					</datasetGPolygonOuterGRing>
+				</datasetGPolygon>
+			</geographicCoverage>
+			<temporalCoverage scope="document">
+				
+			<rangeOfDates>
+				<beginDate>
+					<calendarDate>2009-05-25</calendarDate>
+				</beginDate>
+				<endDate>
+					<calendarDate>2009-05-30</calendarDate>
+				</endDate>
+			</rangeOfDates>
+				
+			</temporalCoverage>
+		</coverage>
+		<maintenance>
+			<description>
+				<para>This is an ongoing annual dataset. There is a delay
+					between collection of raw data and the analysis. Public release is not delayed
+					after data is processed.</para>
+			</description>
+		</maintenance>
+		<contact id="mcr-metacat-acct" scope="document">
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<positionName>Information Manager</positionName>
+			<address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">805.893.2071</phone>
+			<electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+			<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+		</contact>
+		<methods>
+			<methodStep>
+				<description>
+					<section>
+						<title>Sampling Locations:</title>
+						<para>Sampling occurs once each year simultaneously along transects at LTER sites 1 and 2 
+							on the north shore of Moorea. Each transect consists of an upstream benthic instrument 
+							mooring approximately 5 m shoreward of the reef crest and a downstream benthic 
+							instrument mooring approximately 160 m downstream.</para>
+					</section>
+					<section>
+						<title>Taxa:</title>
+						<para>These metabolism measurements are a community measure and include all taxa present at 
+							each site.</para>
+					</section>
+					<section>
+						<title>Sampling:</title>
+						<para>Community metabolism estimates are made yearly at each site over a period of 5-6 days. 
+							On Day 0, instruments are deployed at both upstream and downstream locations. Upstream 
+							instruments include a dissolved oxygen sensor (In Situ RDO) and ADP (Nortek, Aquadopp); 
+							downstream instruments include the aforementioned plus a scalar irradiance (PAR) sensor 
+							(Li-Cor 1400, 4? sensor). Sampling frequencies are: dissolved oxygen 0.02 Hz, 
+							velocity 25 Hz, PAR 1 Hz. Instruments are retrieved on Day 5 or 6 and data are downloaded 
+							and time aligned. Rates of net community primary production (during the day) and 
+							community respiration (at night) are computed from changes in dissolved oxygen between 
+							the upstream and downstream locations and are corrected for exchange across the air-sea 
+							interface. Hourly means (SD) are calculated for both community primary production 
+							and community respiration.</para>
+					</section>
+				</description>
+			</methodStep>
+		</methods>
+		<project scope="document">
+			<title>The Moorea Coral Reef (MCR) LTER</title>
+			<personnel id="RussID" scope="document">
+				<individualName>
+					<givenName>Russell</givenName>
+					<surName>Schmitt</surName>
+				</individualName>
+				<organizationName>Moorea Coral Reef LTER</organizationName>
+				<positionName>Lead Principal Investigator</positionName>
+				<address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+				<phone phonetype="fax">805.893.3777</phone>
+				<electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+				<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+				<role>Principal Investigator</role>
+			</personnel>
+			<personnel id="SallyID" scope="document">
+				<individualName>
+					<givenName>Sally</givenName>
+					<surName>Holbrook</surName>
+				</individualName>
+				<organizationName>Moorea Coral Reef LTER</organizationName>
+				<positionName>Principal Investigator</positionName>
+				<address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+				<phone phonetype="fax">805.893.3777</phone>
+				<electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+				<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+				<role>Principal Investigator</role>
+			</personnel>
+			<personnel id="PeteID" scope="document">
+				<individualName>
+					<givenName>Peter</givenName>
+					<surName>Edmunds</surName>
+				</individualName>
+				<organizationName>Moorea Coral Reef LTER</organizationName>
+				<positionName>Principal  Investigator</positionName>
+				<address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+				<phone phonetype="voice">818.677.2502</phone>
+				<electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+				<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+				<role>Principal Investigator</role>
+			</personnel>
+			<personnel id="BobID" scope="document">
+				<individualName>
+					<givenName>Robert</givenName>
+					<surName>Carpenter</surName>
+				</individualName>
+				<organizationName>Moorea Coral Reef LTER</organizationName>
+				<positionName>Principal  Investigator</positionName>
+				<address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+				<phone phonetype="voice">818-677-3256</phone>
+				<phone phonetype="fax">818-677-2034</phone>
+				<electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+				<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+				<role>Principal Investigator</role>
+			</personnel>
+			<funding>
+				<para>NSF (LTER)  OCE-0417412</para>
+			</funding>
+		</project>
+		
+		
+		<dataTable id="UpDnHourly" scope="document">
+			<entityName>Hourly_UpDownStream_PrimProd</entityName>
+			<entityDescription>Hourly Upstream-Downstream Net Primary Productivity and Respiration data.</entityDescription>
+			<physical scope="document">
+				<objectName>knb-lter-mcr.18_Hourly_UpDownStream_PrimProd.csv</objectName>
+			  <size unit="Kb">21</size>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>1</numHeaderLines>
+						<recordDelimiter>#x0A</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution id="entity_1" scope="document">
+					<online>
+						<url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.18&amp;entityindex=1</url>
+					</online>                                                                               
+					<access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+				</distribution>
+			</physical>
+			<additionalInfo>
+				<section>
+					<para>This data table is in comma-separated-value format.  It can be read by Excel or any text editor.</para>
+				</section>
+			</additionalInfo>
+			<attributeList>
+				<attribute id="site" scope="document">
+		
+					<attributeName>site</attributeName>
+					<attributeLabel>location</attributeLabel>
+					<attributeDefinition>The name of the physical location of the reef site where
+					the experiment was deployed.</attributeDefinition>					
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>location name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="deployment" scope="document">
+					<attributeName>deployment</attributeName>
+					<attributeLabel>deployment ID</attributeLabel>
+					<attributeDefinition>ID number of the deployment</attributeDefinition>					
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>identification number string</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="Year" scope="document">
+					<attributeName>Date</attributeName>
+					<attributeLabel>Year</attributeLabel>
+					<attributeDefinition>Calendar year of sample collection.</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>yyyy</formatString>
+							<dateTimePrecision>1</dateTimePrecision>
+						</dateTime>
+					</measurementScale>          
+				</attribute>
+				
+				<attribute id="month">
+					<attributeName>MONTH</attributeName>
+					<attributeLabel>Month</attributeLabel>
+					<attributeDefinition>Calendar month of data collection</attributeDefinition>
+					<storageType>integer</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>MM</formatString>
+							<dateTimePrecision>1</dateTimePrecision>
+						</dateTime>
+					</measurementScale>
+					
+				</attribute>				
+								
+				<attribute id="day">
+					<attributeName>DAY</attributeName>
+					<attributeLabel>day</attributeLabel>
+					<attributeDefinition>The day of the month</attributeDefinition>
+					<storageType>string</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>dd</formatString>
+							<dateTimePrecision>1</dateTimePrecision>
+						</dateTime>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>				
+				
+				<attribute id="hour">
+					<attributeName>HOUR</attributeName>
+					<attributeLabel>hour</attributeLabel>
+					<attributeDefinition>The hour of the day, in Moorea local time</attributeDefinition>
+					<storageType>string</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>dd</formatString>
+							<dateTimePrecision>1</dateTimePrecision>
+						</dateTime>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>				
+				
+				<attribute id="VelDWN">
+					<attributeName>Vel Downstream</attributeName>
+					<attributeLabel>Vel DWN</attributeLabel>
+					<attributeDefinition>Water column velocity downstream (m/s)</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>metersPerSecond</standardUnit>
+							</unit>
+							<precision>.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>								
+												
+				<attribute id="DepthDWN">
+					<attributeName>Depth Downstream</attributeName>
+					<attributeLabel>Depth DWN</attributeLabel>
+					<attributeDefinition>Depth downstream (m)</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<precision>.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				
+				
+				
+				<attribute id="DO DWN">
+					<attributeName>DO Downstream</attributeName>
+					<attributeLabel>DO DWN</attributeLabel>
+					<attributeDefinition>Dissolved Oxygen downstream (mg/L)</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>milligramsPerLiter</standardUnit>
+							</unit>
+							<precision>.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				
+				
+				<attribute id="VelUp">
+					<attributeName>Vel Upstream</attributeName>
+					<attributeLabel>Vel UP</attributeLabel>
+					<attributeDefinition>Water column velocity upstream (m/s)</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>metersPerSecond</standardUnit>
+							</unit>
+							<precision>.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="DepthUP">
+					<attributeName>Depth Upstream</attributeName>
+					<attributeLabel>Depth UP</attributeLabel>
+					<attributeDefinition>Depth upstream (m)</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<precision>.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				
+				<attribute id="DO UP">
+					<attributeName>DO Upstream</attributeName>
+					<attributeLabel>DO UP</attributeLabel>
+					<attributeDefinition>Dissolved Oxygen upstream (mg/L)</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>milligramsPerLiter</standardUnit>
+							</unit>
+							<precision>.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				
+				<attribute id="PAR" scope="document">
+					<attributeName>PAR</attributeName>
+					<attributeLabel>PAR</attributeLabel>
+					<attributeDefinition>Photosynthetically Active solar Radiation, scalar irradiance between 400 - 1100 nm?, in situ.</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>microEinsteinsPerSquareMeterPerSecond</customUnit>
+							</unit>
+							<precision>0.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="solarRad" scope="document">
+					<attributeName>Solar Radiation</attributeName>
+					<attributeLabel>Solar Rad</attributeLabel>
+					<attributeDefinition>Solar radiation averaged over 5 minutes from a originally 10 second sampling interval.</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>wattPerMeterSquared</customUnit>
+							</unit>
+							<precision>0.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				
+				<attribute id="windSpeed" scope="document">
+					<attributeName>Wind Speed</attributeName>
+					<attributeLabel>Wind Speed</attributeLabel>
+					<attributeDefinition>Wind speed averaged over 5 minutes from a originally 10 second sampling interval.</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>metersPerSecond</standardUnit>
+							</unit>
+							<precision>0.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				
+				<attribute id="primProd" scope="document">
+					<attributeName>Primary Productivity</attributeName>
+					<attributeLabel>Primary Productivity</attributeLabel>
+					<attributeDefinition>Hourly mean rate of net community primary production (day) or community respiration (night).</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>gramsPerMeterSquaredPerHour</customUnit>
+							</unit>
+							<precision>0.01</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99999</code>
+						<codeExplanation>value not recorded or not available</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				
+			</attributeList>
+			<caseSensitive>no</caseSensitive>
+			<numberOfRecords>258</numberOfRecords>
+		</dataTable>
+		
+	</dataset>
+	<additionalMetadata>
+	<metadata>
+		<unitList>
+			<unit abbreviation="g/m^2/h" id="gramsPerMeterSquaredPerHour" multiplerToSI="2.7EE-07" name="gramsPerMeterSquaredPerHour" parentSI="kilogramsPerMeterSquaredPerSecond" unitType="arealMassDensityRate">
+				<description>grams per square meter per hour</description>
+			</unit>
+			<unit id="wattPerMeterSquared" multiplierToSI="1" name="wattsPerSquareMeter" parentSI="meter" unitType="power">
+				<description>irradiance unit</description>
+			</unit>
+			
+			<unit abbreviation="&#65533;E/m^2/s" id="microEinsteinsPerSquareMeterPerSecond" multiplierToSI="1" name="microEinsteinsPerSquareMeterPerSecond" unitType="illuminance">
+				<description>micro Einsteins (1E-06 moles of photons) 
+					per square meter per second (radiant flux density)</description>
+			</unit>
+		</unitList>
+		
+			
+			
+	</metadata>
+	</additionalMetadata>
+</ns0:eml>

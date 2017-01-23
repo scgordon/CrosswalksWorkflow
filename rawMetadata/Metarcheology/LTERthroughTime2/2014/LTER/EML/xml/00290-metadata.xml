@@ -1,0 +1,1465 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-ntl.291.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="NTL-DEIMS">34025</alternateIdentifier>
+    <shortName>Historical Plat Maps of Dane County</shortName>
+    <title>Historical Plat Maps of Dane County Digitized and Converted to GIS (1962-2005)</title>
+    <creator>
+      <individualName>
+        <givenName>Kathryn</givenName>
+        <surName>Anderson</surName>
+      </individualName>
+      <organizationName>University of Wisonsin</organizationName>
+      <address>
+      <deliveryPoint>427 Lorch St</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+      <phone phonetype="voice">(608) 262-0699</phone>
+      <electronicMailAddress>kganderson@wisc.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2013</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>We constructed a time-series spatial dataset of parcel boundaries for the period
+        1962-2005, in roughly 4-year intervals, by digitizing historical plat maps for Dane County
+        and combining them with the 2005 GIS digital parcel dataset. The resulting datasets enable
+        the consistent tracking of subdivision and development for all parcels over a given time
+        frame. The process involved 1) dissolving and merging the 2005 digital Dane County parcel
+        dataset based on contiguity and name, 2) further merging 2005 parcels based on the hard copy
+        2005 Plat book, and then 3) the reverse chronological merging of parcels to reconstruct
+        previous years, at 4-year intervals, based on historical plat books. Additional land use
+        information such as 1) whether a structure was actually constructed (using the companion
+        digitized aerial photo dataset), 2) cover crop, and 3) permeable surface area, can be added
+        to these datasets at a later date. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>aboveground biomass</keyword>
+      <keyword>aquatic ecosystems</keyword>
+      <keyword>area</keyword>
+      <keyword>basins</keyword>
+      <keyword>biodiversity</keyword>
+      <keyword>biogeography</keyword>
+      <keyword>boundaries</keyword>
+      <keyword>buildings</keyword>
+      <keyword>canopy cover</keyword>
+      <keyword>classification</keyword>
+      <keyword>clearcutting</keyword>
+      <keyword>communities</keyword>
+      <keyword>crops</keyword>
+      <keyword>density</keyword>
+      <keyword>deposition</keyword>
+      <keyword>dimensions</keyword>
+      <keyword>dispersal</keyword>
+      <keyword>distance</keyword>
+      <keyword>distribution</keyword>
+      <keyword>ecosystems</keyword>
+      <keyword>elevation</keyword>
+      <keyword>environment</keyword>
+      <keyword>erosion</keyword>
+      <keyword>fertilization</keyword>
+      <keyword>fires</keyword>
+      <keyword>floodplain</keyword>
+      <keyword>floods</keyword>
+      <keyword>fluxes</keyword>
+      <keyword>foliage</keyword>
+      <keyword>forest disturbance</keyword>
+      <keyword>frequency</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>geographic information systems</keyword>
+      <keyword>gradient</keyword>
+      <keyword>grasses</keyword>
+      <keyword>grasslands</keyword>
+      <keyword>grazing</keyword>
+      <keyword>grids</keyword>
+      <keyword>growth</keyword>
+      <keyword>habitats</keyword>
+      <keyword>harvesting</keyword>
+      <keyword>hillslopes</keyword>
+      <keyword>historical</keyword>
+      <keyword>history</keyword>
+      <keyword>human disturbance</keyword>
+      <keyword>humans</keyword>
+      <keyword>hydrography</keyword>
+      <keyword>inventories</keyword>
+      <keyword>lakes</keyword>
+      <keyword>land cover</keyword>
+      <keyword>land use</keyword>
+      <keyword>land use history</keyword>
+      <keyword>landsat</keyword>
+      <keyword>landscape</keyword>
+      <keyword>landscape change</keyword>
+      <keyword>leaf area</keyword>
+      <keyword>leaves</keyword>
+      <keyword>light</keyword>
+      <keyword>locations</keyword>
+      <keyword>long term</keyword>
+      <keyword>long term ecological research</keyword>
+      <keyword>long term monitoring</keyword>
+      <keyword>mapping</keyword>
+      <keyword>maps</keyword>
+      <keyword>meadows</keyword>
+      <keyword>modeling</keyword>
+      <keyword>models</keyword>
+      <keyword>monitoring</keyword>
+      <keyword>percent cover</keyword>
+      <keyword>physical</keyword>
+      <keyword>plant cover</keyword>
+      <keyword>plants</keyword>
+      <keyword>population dynamics</keyword>
+      <keyword>productivity</keyword>
+      <keyword>remote sensing</keyword>
+      <keyword>revegetation</keyword>
+      <keyword>rivers</keyword>
+      <keyword>roads</keyword>
+      <keyword>sedimentation</keyword>
+      <keyword>shapefiles</keyword>
+      <keyword>soils</keyword>
+      <keyword>spatial variability</keyword>
+      <keyword>streams</keyword>
+      <keyword>surveys</keyword>
+      <keyword>terrestrial</keyword>
+      <keyword>thinning</keyword>
+      <keyword>trees</keyword>
+      <keyword>vegetation</keyword>
+      <keyword>water</keyword>
+      <keyword>watersheds</keyword>
+      <keyword>wetlands</keyword>
+      <keywordThesaurus>LTER Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>NTL related project</keyword>
+      <keyword>landuse</keyword>
+      <keyword>watershed</keyword>
+      <keyword>watershed characteristics</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is
+          released to the public and may be used for academic, educational, or commercial purposes
+          subject to the following restrictions: The Data User must realize that these data sets are
+          being actively used by others for ongoing research and that coordination may be necessary
+          to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal
+          Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where
+          appropriate, the Data User may be encouraged to consider collaboration and/or
+          co-authorship with original investigators.</para>
+        <para>The Data User must realize that the data may be misinterpreted if taken out of
+          context. We request that you provide the NTL lead Principal Investigator, ATTN: Data
+          Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St.,
+          Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed
+          and comments provided on the presentation of our data.</para>
+        <para>The Data User must acknowledge use of the data by an appropriate citation (see
+          Citation) of the NTL-LTER database. A generic citation for our databases is: name of data
+          set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for
+          data set, Center for Limnology, University of Wisconsin-Madison. The data set name and
+          contact person for each data set can be found in the metadata header of the online data
+          sets.</para>
+        <para>The Data User must send two reprints of any publications resulting from use of the
+          data to the address above. We would like to include such manuscripts in our LTER
+          publications list.</para>
+        <para>The Data User must not redistribute original data and documentation without permission
+          from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation,
+          complete accuracy of data sets cannot be guaranteed. All data are made available "as is".
+          The North Temperate Lakes LTER shall not be liable for damages resulting from any use or
+          misinterpretation of data sets. Data users should be aware that we periodically update
+          data sets.</para>
+        <para>Our goal is to release all long term data associated with core research areas within 2
+          years of collection. These data and accompanying metadata will be available for download
+          from the NTL-LTER web site.</para>
+        <para>By using these data, the Data User agrees to abide by the terms of this agreement.
+          Thank you for your cooperation. </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://lter.limnology.wisc.edu/node/34025</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Dane County, Wisconsin, USA
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.900</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.000</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.400</northBoundingCoordinate>
+          <southBoundingCoordinate>42.700</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1962-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2005-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>Our purpose was to forecast detailed empirical distributions of the spatial pattern of
+        land-use and ecosystem change and to test hypotheses about how economic variables affect
+        land development in the Yahara watershed. </para>
+    </purpose>
+    <maintenance>
+      <description>
+        <para>Completed </para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>NTL LTER Information Manager</positionName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <positionName>NTL LTER Lead PI</positionName>
+      <organizationName>Center for Limnology</organizationName>
+      <address>
+      <deliveryPoint>680 North Park Str.</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+      <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </publisher>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>Overview: Hard copy historical plat maps of Dane County in four year intervals
+              from 1962 to 2005 were digitized and converted to a GIS format using a process known
+              as rectification, whereby control points are set such that a point placed on the
+              scanned image takes on the coordinates of the point chosen from the earliest GIS
+              dataset, which for Dane County is from 2005. After a number of control points are set,
+              the map is assigned the coordinates of the 2005 GIS dataset. In this way, the scanned
+              plat map is now an image file with a distinct spatial location. Since the scanned plat
+              maps do not have any attributes associated with the parcels, the third step is to
+              assign attributes by working backwards from the 2005 GIS dataset. This process begins
+              by making a copy of the 2005 GIS dataset, then overlaying this new layer with the
+              rectified scanned image. A subdivision choice is identified where the parcel lines on
+              the GIS layer are not in agreement with the scanned plat maps. The last step is to
+              modify the copy of the 2005 GIS layer so that it matches the underlying plat map - in
+              effect creating a historical GIS layer corresponding to the year of the plat map. When
+              the lines that delineate a parcel appear in the GIS file but not the plat map, the
+              multiple small parcels in the 2005 GIS layer are merged together to represent the
+              pre-subdivision parcel. This process is repeated for each historical year that plat
+              maps are available. In the end, each time period-1974 through 2000 in 4 year
+              intervals-has a GIS file with all of the spatial attributes of the parcels. Land Atlas
+              - Plat Books: The Land Atlas plat books were obtained for Dane County from the Madison
+              Public Library, Stoughton Public Library and Robinson Map Library. With these
+              materials on loan the pages were scanned at 150ppi in grayscale format; this process
+              took place at the Robinson Map Library. Once scanned, these images were georeferenced
+              based on the 2000 digital parcel map. This process of rectification was done in
+              Russell Labs using ESRI ArcMap 9.3. Control points such as road intersections, were
+              chosen to accurately georeference the 1997 scanned parcel map (1973 was done in this
+              way as well). This process was done using a specific ArcGIS tool
+              (View/Toolbars/Georeferencing). For the other years the scanned images were
+              georeferenced based off the four corners of the 1997 georeferenced scanned images.
+              Georeferencing off the 1997 rectified image allows for easier and quicker
+              rectification but also facilitated detection of differences between the scanned plats.
+              The scanned image of the land ownership could be turned on and off for easy comparison
+              to the previous time set; these differences are the changes which were made on the
+              digital ownership map. We scanned and digitized the following years: Scanned plats:
+              1958, 1962, 1968, 1973, 1978, 1981, 1985, 1989, 1993, 1997, 2001, 2005 Digitized
+              plats: 1962, 1968, 1973, 1978, 1981, 1985, 1989, 1993, 1997, 2001, 2005 Prepping the
+              parcel Map: Digital parcel shapefiles for the years 2000 and 2005 were provided by the
+              Dane County Land Information Office
+              (http://www.countyofdane.com/lio/metadata/Parcels.htm) and were used as the starting
+              reference. These datasets needed to be prepared for use. Many single parcels were
+              represented by multiple contiguous polygons. These were dissolved. (Multi-part, or
+              non-contiguous polygons were not dissolved.) Here is the process to dissolve by
+              NAME_CONT (contact name): Many polygons do not have a contact name. The majority of
+              Madison and other towns do not have NAME_CONT, but most large parcels do. In order not
+              to dissolve all of the parcels for which NAME_CONT is blank we did the following: Open
+              the digital parcel shapefile and go to Selection/Select by Attributes. In this window
+              choose the correct layer, chose method 'create new selection', scroll and double click
+              'NAME_CONT, then in the bottom both make sure it says [ "NAME_CONT" ; '' ] (without
+              brackets). This will select all polygons which do not have an empty 'Name Contact'
+              attribute (empty value). From those polygons selected they were aggregated based on
+              the 'Name Contact' field (parcels with the same 'Name Contact' were combined), where
+              borders were contiguous. To do this the dissolve tool in Data Management
+              Tool/Generalization/Dissolve was used. Dissolve on field 'NAME_CONT' and enter every
+              other field into the statistical fields menu. This was done without the multipart
+              feature option checked, resulting in parcels only being combined when they share
+              border. Keep these dissolved polygons highlighted. Once the dissolve process is
+              complete use select by attributes tool again but this time choose method of Add to
+              Current Selection and say [ "NAME_CONT" = '']. This will provide a digital layer of
+              polygons aggregated by name as well as nameless polygons to be manually manipulated.
+              Parcel Map Manipulation: The goal from here was to, as accurately as possible,
+              recreate a digital replica of the scanned parcel map, and aggregate up parcels with
+              the same owner. This goal of replication is in regards to the linework as opposed to
+              the owner name or any other information in order to accurately capture the correct
+              area as parcel size changed. This process of moving boundaries was independent of
+              merging parcels. If individual scanned parcel boundaries are different from the
+              overlayed digital parcel shapefile, then the digital parcel linework must be changed.
+              As this project utilizes both parcel shape and area, the parcels must be accurate.
+              When merging parcels, parcels with the same owner name, same owner connected on the
+              plat map with an arrow, same owner but separated by a road, or same owner and share a
+              same point (two lots share a single point at the corner) were merged to create a
+              multi-part feature. Parcels with the same owner separated by another parcel of a
+              different owner with no points touching where not merged. This process of reverse
+              digitization was done using ArcMap. The already dissolved shapefile was copied to
+              create one file that was a historical record and one file to be edited to become the
+              previous year (the next year back in time). With the digital parcel shapefile loaded,
+              the rectified scanned plat maps were then added. Once open, turn on the Editor Toolbar
+              and 'Start Editing'. The tools to use are the sketch tool and the merge tool. Quick
+              keys where used (editor tool bar\customize) to speed this process. To edit, zoom to a
+              comfortable level (1:12,000) and slowly move across the townships in a pattern which
+              allows no areas to be missed (easiest to go township by township). When polygons
+              needed to be 'reconstructed' (the process of redrawing the parcel boundary linework),
+              this was done using the sketch tool with either 'the create new polygon' option or
+              'cut polygon' option in the editor toolbar. Using the sketch tool, with area
+              highlighted, you can redraw the boundaries by cutting the polygons. Areas can be
+              merged then recut to depict the underlying parcel map. If, for example, a new
+              development has gone in, many small parcels can be merged together to create a big
+              parcel, and then that large parcel can be broken into the parcels that were originally
+              combined to form the subdivision. We can do this because the names in the attribute
+              are not being preserved. This is a key note: THE OWNER NAME IS NOT A VARIABLE WE ARE
+              CREATING, PRESERVING, OR OTHERWISE REPRESENTING. Once you merge the parcels, they will
+              only maintain one of the names (and which name is maintained is pretty much random).
+              After the entire county is complete, go through again to check the new parcel
+              shapefile, there will be mistakes. Snake through, going across the bottom one row of
+              squares at a time. Examples of mistakes include primarily multi-part features that
+              were exploded to change one part, where the other parts would need to be re-merged.
+              Another common correction arose because we typically worked on one township at a time,
+              whereas ownership often crossed townships, so during this second pass, we corrected
+              cross-township ownership at the edges of the two scanned parcel maps. Finally, some
+              roads which had been built into parcels (driveways) needed to be removed and these
+              were not always caught during the first pass. Once the second run through is complete
+              copy this shapefile so that it also has a back up. </para>
+          </section>
+        </description>
+      </methodStep>
+      <qualityControl>
+        <description>
+          <para>Accuracy was double check by visually comparing against corresponding plat book
+            twice. </para>
+        </description>
+      </qualityControl>
+    </methods>
+    <project>
+      <title>IGERT: Human Dimensions of Social and Aquatic System Interactions</title>
+      <personnel>
+        <individualName>
+          <givenName>Stephen</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+        <phone phonetype="voice">(608) 262-3014</phone>
+        <phone phonetype="fax">(608) 265-2340</phone>
+        <electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Pete</givenName>
+          <surName>Nowak</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <address>
+        <deliveryPoint>550 N Park St</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+        <phone phonetype="voice">(608) 265-3581</phone>
+        <electronicMailAddress>pnowak@wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Emily</givenName>
+          <surName>Stanley</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+        <phone phonetype="voice">(608) 263-2567</phone>
+        <phone phonetype="fax">(608) 265-2340</phone>
+        <electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <abstract>
+        <para>This Integrative Graduate Education and Research Training (IGERT) initiative supports
+          the establishment of a broadly-based graduate training program that will equip students to
+          combine the social, economic and biological sciences in the study of environmental
+          problems presented by freshwater ecosystems.&#160; Problem areas emphasized include studies of
+          the economic value of environmental resources, the role of humans in the vulnerability of
+          ecosystems to natural change, the impact of irreversible environmental changes, and the
+          effect of ecosystem features on societal interactions.&#160; The project is a joint effort of
+          20 faculty from the Departments of Agriculture and Applied Economics, Civil and
+          Environmental Engineering, Forest Ecology and Management, Limnology, Rural Sociology, Soil
+          Science and Zoology.&#160; Educational opportunities center on three required IGERT seminar
+          courses, one on selected topics related to current IGERT faculty research, one on relevant
+          research methods, and one on team research during which student teams will test hypotheses
+          generated from the topics and methods seminars.&#160; In addition to its education and research
+          initiatives, the program undertook a continuous self-evaluation effort led by a faculty
+          member from the School of Education.&#160; IGERT provides an opportunity for the development of
+          new, well-focused multidisciplinary programs that bridge traditional organizational
+          barriers, uniting faculty from several departments or institutions to establish a
+          highly-interactive collaborative environment for both training and research. </para>
+      </abstract>
+    </project>
+    <spatialVector id="Dane County Parcels 1962">
+      <entityName>Dane County Parcels 1962</entityName>
+      <physical>
+        <objectName>DaneParcels1962</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_1_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 1968">
+      <entityName>Dane County Parcels 1968</entityName>
+      <physical>
+        <objectName>DaneParcels1968</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_2_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 1973">
+      <entityName>Dane County Parcels 1973</entityName>
+      <physical>
+        <objectName>DaneParcels1973</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_3_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 1978">
+      <entityName>Dane County Parcels 1978</entityName>
+      <physical>
+        <objectName>DaneParcels1978</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_4_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 1981">
+      <entityName>Dane County Parcels 1981</entityName>
+      <physical>
+        <objectName>DaneParcels1981</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_5_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 1985">
+      <entityName>Dane County Parcels 1985</entityName>
+      <physical>
+        <objectName>DaneParcels1985</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_6_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 1989">
+      <entityName>Dane County Parcels 1989</entityName>
+      <physical>
+        <objectName>DaneParcels1989</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_7_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 1993">
+      <entityName>Dane County Parcels 1993</entityName>
+      <physical>
+        <objectName>DaneParcels1993</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_8_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 1997">
+      <entityName>Dane County Parcels 1997</entityName>
+      <physical>
+        <objectName>DaneParcels1997</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_9_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 2001">
+      <entityName>Dane County Parcels 2001</entityName>
+      <physical>
+        <objectName>DaneParcels2001</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_10_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+    <spatialVector id="Dane County Parcels 2005">
+      <entityName>Dane County Parcels 2005</entityName>
+      <physical>
+        <objectName>DaneParcels2005</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.291&amp;urlTail=ntl/data/34025_11_v1.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeLabel>FID</attributeLabel>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeLabel>Shape</attributeLabel>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ParcelID</attributeName>
+          <attributeLabel>FIRST_PARC</attributeLabel>
+          <attributeDefinition>Parcel Identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Parcel Identifier.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD_1983_HARN_Adj_WI_Dane_Feet">
+          <projCoordSys>
+            <geogCoordSys name="GCS_NAD_1983_HARN_Adj_WI_Dane">
+              <datum name="D_NAD_1983_HARN_Adj_WI_DN" />
+              <spheroid denomFlatRatio="298.269876997368" name="GRS_1980_Adj_WI_DN" semiAxisMajor="6378407.621" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Conformal_Conic">
+              <parameter name="False_Easting" value="811000.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-89.42222222222223" />
+              <parameter name="Scale_Factor" value="1.0000384786" />
+              <parameter name="Latitude_Of_Origin" value="41.75" />
+              <unit name="Foot_US" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+    </spatialVector>
+  </dataset>
+</ns0:eml>

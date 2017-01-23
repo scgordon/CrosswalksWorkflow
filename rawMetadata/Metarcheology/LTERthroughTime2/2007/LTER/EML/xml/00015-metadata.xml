@@ -1,0 +1,243 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-bnz.6.18" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#10;				http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset>
+<shortName>knb-lter-bnz.6.18</shortName>
+<title>MODIS Leaf Area Index estimates for Alaska: 2002</title>
+<creator>
+<individualName>
+<givenName>Dave</givenName>
+<givenName>L.</givenName>
+<surName>Verbyla</surName>
+</individualName>
+<positionName>Senior Investigator</positionName>
+<address>
+<deliveryPoint>Department of Forest Sciences University of Alaska Fairbanks O'Neill Bldg</deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK </administrativeArea>
+<postalCode>99775</postalCode>
+<country>United States</country>
+</address>
+<phone phonetype="voice">(907) 474-5553</phone>
+<phone phonetype="fax">(907) 474-6184</phone>
+<electronicMailAddress>dlverbyla@alaska.edu</electronicMailAddress>
+<onlineUrl>http://www.uaf.edu/snras/departments/forestry/faculty/verbyla/</onlineUrl>
+</creator>
+<creator>
+<organizationName>Bonanza Creek LTER</organizationName>
+<address>
+<deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+<deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+<deliveryPoint>P.O. Box 756780 </deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99775</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">907-474-6364</phone>
+<phone phonetype="fax">907-474-6251</phone>
+<electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+<onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+</creator>
+<metadataProvider>
+<organizationName>Bonanza Creek LTER</organizationName>
+<positionName>Data Manager</positionName>
+<address>
+<deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+<deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+<deliveryPoint>P.O. Box 756780 </deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99775</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">907-474-6364</phone>
+<phone phonetype="fax">907-474-6251</phone>
+<electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+<onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+</metadataProvider>
+
+<pubDate>2003-08-01</pubDate>
+<abstract>
+<para> The MODIS Leaf Area Index (LAI) Product is a global product produced every 8 days. The Leaf Area Index is estimated by a radiative transfer model assuming a given distribution of biome types within each pixel. The LAI Product was evaluated for the period of May 2002 to September 2002. The temporal pattern of spring greenup and fall senescence appeared reasonable across a large latitudinal transect from the Kenai Peninsula to the Arctic Coastal Plain. The temporal pattern also appeared reasonable across an elevational transect from Bonanza Creek Experimental Forest to Caribou Poker Creek Research Watershed to Eagle Summit. The positional accuracy and spatial pattern LAI was judged excellent by comparing the M2002 maximum LAI for the Survey Line Burn with a Landsat ETM+ image. However, there were two consistent problems with the LAI index at all spatial scales. First, a dip in maximum LAI during the green-up period most likely indicated cloud contamination of pixels. Second, the maximum 2002 LAI estimate was unrealistically high (&gt;6.5) in many areas of Alaska. The accuracy of global estimates of leaf area and vegetation indices are suspect for high latitude areas due to several factors:
+1) There is no tundra or taiga biome used in the leaf area index radiative transfer model.
+2) Although a cloud-screen algorithm is applied on the front-end of processing, sub-pixel cloud contamination may occur over much of Alaska.
+3) Subpixel broadleaf shrubs may lead to an overestimate of leaf area index and inflate vegetation indices.This dataset contains MOD15 leaf area index (LAI)  and fraction of photosynthetically
+absorbed radiation (FPAR) for most of Alaska during the 2002 growing season.
+The data are in hdf format, with one file for each MODIS tile, for each 8-day composite 
+period.  The original quality control bits are included in each hdf file.  The data are in the
+integerized sinusoidal projection with approzimately 1-km pixel size.  
+
+The files were submitted in winzip format.  The naming convention is  
+productname.date.tile.  For example:  MOD15A2.A2002065.h10v02
+is product MOD15A2, composite period starting at 2002065, for tile h10v02.
+
+More metadata about each file is embedded in each hdf file and can be read 
+using any hdf browser.
+This dataset contains MOD15 leaf area index (LAI)  and fraction of photosynthetically
+absorbed radiation (FPAR) for most of Alaska during the 2002 growing season.
+The data are in hdf format, with one file for each MODIS tile, for each 8-day composite 
+period.  The original quality control bits are included in each hdf file.  The data are in the
+integerized sinusoidal projection with approzimately 1-km pixel size.  
+
+The files were submitted in winzip format.  The naming convention is  
+productname.date.tile.  For example:  MOD15A2.A2002065.h10v02
+is product MOD15A2, composite period starting at 2002065, for tile h10v02.
+
+More metadata about each file is embedded in each hdf file and can be read 
+using any hdf browser.
+</para>
+</abstract>
+<keywordSet>
+<keyword>leaf area index</keyword>
+<keywordThesaurus>GIS</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<section>
+<title>Access to Data</title>
+<para>While metadata will be freely available to those requesting it, the data manager will assure that any restrictions on access to data sets in the database will be enforced. Data will not be released without proper permission first being obtained from the investigator who generated the data. </para>
+</section>
+<section>
+<title>Use of data</title>
+<para> Researchers should receive adequate acknowledgment for the use of their data by others and should be provided with copies of publications using their data. Users of data from the data base must be aware that data is not to be sold or redistributed.</para>
+</section>
+<section>
+<title>Citing Bonanza Creek LTER Datasets</title>
+<para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. </para>
+</section>
+</intellectualRights>
+<distribution id="distributionReference">
+<online>
+<url function="information">http://www.lter.uaf.edu/data_detail.cfm?datafile_pkey=6</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage id="geoReference">
+<geographicDescription>Site information unavailable</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-180</westBoundingCoordinate>
+<eastBoundingCoordinate>-120</eastBoundingCoordinate>
+<northBoundingCoordinate>75</northBoundingCoordinate>
+<southBoundingCoordinate>50</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2002-01-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2002-12-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<maintenance>
+<description>
+<section>
+<title>Status</title>
+<para>Completed</para>
+</section>
+</description>
+</maintenance>
+<contact>
+<organizationName>Bonanza Creek LTER</organizationName>
+<positionName>Data Manager</positionName>
+<address>
+<deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+<deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+<deliveryPoint>P.O. Box 756780 </deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99775</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">907-474-6364</phone>
+<phone phonetype="fax">907-474-6251</phone>
+<electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+<onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+</contact>
+<publisher>
+<organizationName>Bonanza Creek LTER</organizationName>
+<address>
+<deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+<deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+<deliveryPoint>P.O. Box 756780 </deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99775</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">907-474-6364</phone>
+<phone phonetype="fax">907-474-6251</phone>
+</publisher>
+<pubPlace>Bonanza Creek LTER</pubPlace>
+<methods>
+<methodStep>
+<description>
+<section>
+<title>Experimental Design</title>
+<para>The accuracy of these products is being assessed by comparing the temporal patterns of leaf area index and veg indices values across an elevational and longitudinal gradient.</para>
+</section>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<coverage>
+<geographicCoverage>
+<references>geoReference</references>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2002-01-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2002-12-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+</studyExtent>
+<samplingDescription>
+<section>
+<title>Sampling Frequency</title>
+<para>The data are 16-day composites.</para>
+</section>
+</samplingDescription>
+</sampling>
+</methods>
+<otherEntity id="6_modis_veg.zip">
+<entityName>6_modis_veg.zip</entityName>
+<entityDescription>This is a collection of MODIS Swaths.</entityDescription>
+<physical>
+<objectName>6_modis_veg.zip</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>zip file</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url function="download">http://www.lter.uaf.edu/ascii/files/6_modis_veg.zip</url>
+</online>
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<entityType>zip file</entityType>
+</otherEntity>
+</dataset>
+</ns0:eml>

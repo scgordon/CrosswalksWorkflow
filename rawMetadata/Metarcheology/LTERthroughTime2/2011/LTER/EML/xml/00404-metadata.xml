@@ -1,0 +1,532 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.183.4" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF183">
+      <alternateIdentifier>HF183</alternateIdentifier>
+      <title>Canopy Phenology, Remote Sensing and Microclimate at Harvard Forest since 2006</title>
+      <creator>
+         <individualName>
+            <givenName>Mark</givenName>
+            <surName>Friedl</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Nathan</givenName>
+            <surName>Phillips</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Manish</givenName>
+            <surName>Verma</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Eli</givenName>
+            <surName>Melaas</surName>
+         </individualName>
+      </creator>
+      <pubDate>2011</pubDate>
+      <abstract>
+         <section>
+            <para>Our research at the Harvard Forest walk-up tower site examines how seasonality of canopy leaf area, or canopy phenology, influences, and is influenced by, local climate. As part of this activity we are studying methods for (and limits to) remote sensing of canopy phenology. To address this research topic, we have initiated measurements to quantify how radiation fluxes through a deciduous forest canopy are modified by seasonal canopy leaf dynamics. We continuously measure above- and below-canopy radiation fluxes at a variety of spectral bands (shortwave, photosynthetic) and with digital photography. These measurements provide a surrogate measures of canopy leaf area dynamics, and directly represent the radiation component of the surface energy balance. These measurements complement ongoing microclimate and eddy covariance measurements of water and carbon exchange at the EMS flux tower.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>phenology</keyword>
+         <keyword>photosynthetically active radiation</keyword>
+         <keyword>radiation</keyword>
+         <keyword>soil temperature</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf183</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.171478</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.171478</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.537755</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.537755</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>340</altitudeMinimum>
+                  <altitudeMaximum>340</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2006-01-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2011-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>Mark</givenName>
+            <surName>Friedl</surName>
+         </individualName>
+         <organizationName>Boston University</organizationName>
+         <address>
+            <deliveryPoint>Room 439</deliveryPoint>
+            <deliveryPoint>675 Commonwealth Avenue</deliveryPoint>
+            <city>Boston</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>02215</postalCode>
+            <country>USA</country>
+         </address>
+         <electronicMailAddress>friedl@bu.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Photosynthetically active radiation (PAR) is measured using LI190SB LI-COR quantum radiation sensors. A total of five below-canopy sensors measure downwelling PAR below the forest canopy.  The sensors are mounted on posts approximately 0.5 meters above the ground surface and are located roughly 20-m from the walk-up tower at equidistant spacing. Above-canopy quantum sensors (upwelling and downwelling) are mounted on a boom extended from the tower at a height of 23-m. Downwelling and upwelling solar radiation measurements are recorded using a Kipp and Zonen thermopile pyranometer, and global (total) and diffuse PAR measurements are measured using a BF3 sunshine sensor (both at 23-m). BF3 sensor photodiodes are cosine corrected and calibrated for the measurement of PAR quanta. Soil temperatures at 20-cm depth are measured with Campbell Scientific 107-L probes in four locations distributed around the walk-up tower and co-located with PAR sensors. Air temperatures are measured using a shaded CS107-L probe at 23-m.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf183-01">
+         <entityName>HF183-01-radiation.csv</entityName>
+         <entityDescription>radiation data</entityDescription>
+         <physical id="1323979658098">
+            <objectName>HF183-01-radiation.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p18/hf183/HF183-01-radiation.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1323980201129">
+               <attributeName>Dataset</attributeName>
+               <attributeDefinition>dataset ID</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>dataset ID</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1323980201145">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1323980201161">
+               <attributeName>DOY</attributeName>
+               <attributeDefinition>day of year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>DDD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1323980201176">
+               <attributeName>Hour</attributeName>
+               <attributeDefinition>hour</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>HHmm</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1323980201192">
+               <attributeName>TOC.d.PAR</attributeName>
+               <attributeDefinition>top-of-canopy downwelling PAR</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201208">
+               <attributeName>TOC.u.PAR</attributeName>
+               <attributeDefinition>top-of-canopy upwelling PAR</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201223">
+               <attributeName>BC.d.PAR1</attributeName>
+               <attributeDefinition>below-canopy downwelling PAR 1</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201239">
+               <attributeName>BC.d.PAR2</attributeName>
+               <attributeDefinition>below-canopy downwelling PAR 2</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201254">
+               <attributeName>BC.d.PAR3</attributeName>
+               <attributeDefinition>below-canopy downwelling PAR 3</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201270">
+               <attributeName>BC.d.PAR4</attributeName>
+               <attributeDefinition>below-canopy downwelling PAR 4</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201286">
+               <attributeName>BC.d.PAR5</attributeName>
+               <attributeDefinition>below-canopy downwelling PAR 5</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+                     </unit>
+                     <precision>0.000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201301">
+               <attributeName>TOC.d.Pyr</attributeName>
+               <attributeDefinition>top-of-canopy downwelling Pyranometer</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>wattPerMeterSquared</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201317">
+               <attributeName>TOC.u.Pyr</attributeName>
+               <attributeDefinition>top-of-canopy upwelling Pyranometer</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>wattPerMeterSquared</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201333">
+               <attributeName>Tsoil1</attributeName>
+               <attributeDefinition>soil temperature 1</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201348">
+               <attributeName>Tsoil2</attributeName>
+               <attributeDefinition>soil temperature 2</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201364">
+               <attributeName>Tsoil3</attributeName>
+               <attributeDefinition>soil temperature 3</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201379">
+               <attributeName>Tsoil4</attributeName>
+               <attributeDefinition>soil temperature 4</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201395">
+               <attributeName>Tair</attributeName>
+               <attributeDefinition>air temperature</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201411">
+               <attributeName>TSR</attributeName>
+               <attributeDefinition>total solar radiation</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>wattPerMeterSquared</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1323980201426">
+               <attributeName>DSR</attributeName>
+               <attributeDefinition>diffuse solar radiation</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>wattPerMeterSquared</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>89773</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>ongoing</status>
+            <researchTopic>atmosphere</researchTopic>
+            <studyType>long-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Canopy-Atmosphere Exchange of Carbon, Water and Energy at Harvard Forest EMS Tower since 1991">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf004</url>
+            <url name="Radiation Measurements at Harvard Forest EMS Tower since 1991">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf102</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <ns2:unitList convention="CML">
+            <ns2:unit constantToSI="0.0" id="micromolePerMeterSquaredPerSecond" multiplierToSI="0.0864" name="micromolePerMeterSquaredPerSecond" parentSI="kilogramsPerMeterSquaredPerSecond" unitType="arealMassDensityRate" />
+            <ns2:unit constantToSI="0.0" id="wattPerMeterSquared" multiplierToSI="0" name="wattPerMeterSquared" parentSI="watt" unitType="irradiance" />
+         </ns2:unitList>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

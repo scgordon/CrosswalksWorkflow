@@ -1,0 +1,147 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.28.9" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://data.gios.asu.edu/eml2_1_0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+            <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+            <principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+    <dataset id="28_1" system="gios_dataset">
+        <alternateIdentifier system="gios_dataset">28</alternateIdentifier>
+        <title>Digital Elevation Model (AZ 250,000:1)</title>
+        <creator>
+            <organizationName>USGS</organizationName>
+            <address />
+        </creator>
+        <pubDate>2002-06-03</pubDate>
+        <language>english</language>
+        <abstract>
+            <para>1:250000 scale Digital Elevation Model of Arizona. Digital Elevation Model (DEM) is the terminology adopted by the USGS to describe terrain elevation data sets in a digital raster form. The standard DEM consists of a regular array of elevations cast on a designated coordinate projection system. The DEM data are stored as a series of profiles in which the spacing of the elevations along and between each profile is in regular whole number intervals. The normal orientation of data is by columns and rows. Each column contains a series of elevations ordered from south to north with the order of the columns from west to east. The DEM is formatted as one ASCII header record (A-record), followed by a series of profile records (B-records) each of which include a short B-record header followed by a series of ASCII integer elevations per each profile. The last physical record of the DEM is an accuracy record (C-record). A 30-minute DEM (2- by 2-arc second data spacing) consists of four 15-by 15-minute DEM blocks. Two 30-minute DEM's provide the same coverage as a standard USGS 30- by 60-minute quadrangle. Saleable units are 30- by 30-minute blocks, that is, four 15- by 15-minute DEM's representing one half of a 1:100,000-scale map.</para>
+        </abstract><keywordSet><keyword keywordType="theme">Land-Use, Land-Cover and Land Architecture</keyword><keywordThesaurus>IPA and Core Area CAP Data Portal Controler</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="place">sonoran desert</keyword><keyword keywordType="place">phoenix</keyword><keyword keywordType="theme">urban</keyword><keyword keywordType="theme">metropolitan area</keyword><keyword keywordType="theme">gis</keyword><keyword keywordType="theme">informatics</keyword><keyword keywordType="theme">database remote sensing gis applications</keyword><keyword keywordType="theme">remote sensing</keyword><keyword keywordType="theme">250k</keyword><keyword keywordType="theme">dem</keyword><keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">geographic information systems</keyword><keyword keywordType="theme">maps</keyword><keyword keywordType="theme">remote sensing</keyword><keyword keywordType="theme">digital elevation model</keyword><keyword keywordType="theme">elevation</keyword><keyword keywordType="theme">modeling</keyword><keywordThesaurus>LTER Controlled Vocabulary Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">caplter</keyword><keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword><keyword keywordType="place">arizona</keyword><keyword keywordType="theme">caplter created</keyword><keyword keywordType="place">az</keyword><keyword keywordType="theme">cap</keyword><keyword keywordType="theme">arid land</keyword><keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus></keywordSet>
+        
+        <intellectualRights>
+            <section>
+                <para>Copyright Board of Regents, Arizona State University. This dataset is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+                <para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available "as is".</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+                        </listitem>
+                        <listitem>
+                            <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+            </section>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=28</url>
+            </online>
+        </distribution>
+        
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Arizona</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-115.026465</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-108.914028</eastBoundingCoordinate>
+                    <northBoundingCoordinate>37.039532</northBoundingCoordinate>
+                    <southBoundingCoordinate>31.277057</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <singleDateTime>
+                    <calendarDate>1998-01-01</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <purpose>
+            <para>DEM's can be used as source data for digital orthophotos, and, as layers in geographic information systems, for earth science analysis. DEM's can also serve as tools for volumetric analysis, for site location of towers, or for drainage basin delineation. These data were collected as part of the National Mapping Program.</para>
+        </purpose>
+        <contact>
+            <positionName>Information Manager</positionName>
+            <organizationName>Arizona State University</organizationName>
+            <address>
+                <deliveryPoint>Global Institute of Sustainability</deliveryPoint>
+                <deliveryPoint>POB 875402</deliveryPoint>
+                <city>TEMPE</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-5402</postalCode>
+            </address>
+            <phone phonetype="voice">(480) 965 2975</phone>
+            <phone phonetype="fax">(480) 965-8087</phone>
+            <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+        </contact>
+        <spatialRaster id="AZ_DEM_250,000-1">
+            <entityName>AZ_DEM_250,000-1</entityName>
+            <physical>
+                <objectName>AZ_DEM_250,000-1</objectName>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>Esri Grid</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url>http://data.gios.asu.edu/datasets/cap/28.zip</url>
+                    </online>
+                </distribution>
+                
+            </physical>
+            <attributeList id="AZ_DEM_250,000-1.attributeList">
+                <attribute id="AZ_DEM_250,000-1.Elevation">
+                    <attributeName>Elevation</attributeName>
+                    <attributeDefinition>Geographical hieght</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <spatialReference>
+                <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+            </spatialReference>
+            <horizontalAccuracy>
+                <accuracyReport>not available</accuracyReport>
+            </horizontalAccuracy>
+            <verticalAccuracy>
+                <accuracyReport>not available</accuracyReport>
+            </verticalAccuracy>
+            <cellSizeXDirection>84.45376</cellSizeXDirection>
+            <cellSizeYDirection>84.45376</cellSizeYDirection>
+            <numberOfBands>1</numberOfBands>
+            <rasterOrigin>Upper Left</rasterOrigin>
+            <rows>7493</rows>
+            <columns>6442</columns>
+            <verticals>1</verticals>
+            <cellGeometry>matrix</cellGeometry>
+        </spatialRaster>
+    </dataset>
+</ns0:eml>

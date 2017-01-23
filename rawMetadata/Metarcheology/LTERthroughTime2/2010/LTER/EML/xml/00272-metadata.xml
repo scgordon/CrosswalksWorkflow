@@ -1,0 +1,2429 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-ntl.263.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+
+<access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+    <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+    <permission>all</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <alternateIdentifier system="NTL-DEIMS">31076</alternateIdentifier>
+  <shortName>WILIMN1</shortName>
+  <title>Wisconsin Lake Historical Limnological Parameters 1925 - 2009</title>
+  <creator>
+    <individualName>
+      <givenName>Mona</givenName>
+      <surName>Papes</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+    <address>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>papes@wisc.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Jake</givenName>
+      <surName>Vander Zanden</surName>
+    </individualName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <phone phonetype="voice">(608) 262-9464</phone>
+    <phone phonetype="fax">(608) 265-2340</phone>
+    <electronicMailAddress>mjvanderzand@wisc.edu</electronicMailAddress>
+  </creator>
+  <metadataProvider>
+    <organizationName>North Temperate Lakes LTER</organizationName>
+    <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </metadataProvider>
+  <pubDate>2010</pubDate>
+  <language>english</language>
+  <abstract>
+    <para>This dataset is a compilation of ten sources of data representing physical and chemical properties of 13,093 Wisconsin lakes. The goal was to compile a comprehensive resource of historical and more recent lake information which would be accessible by querying a single database. Due to the wide temporal extent (1925-2009), methods used for measuring lake parameters in this dataset have varied. A careful look at the available metadata and background information is recommended.
+Sampling Frequency: varies
+Number of sites: 13,093
+</para>
+  </abstract>
+  <keywordSet>
+    <keyword>alkalinity</keyword>
+    <keyword>calcium</keyword>
+    <keyword>chlorophyll a</keyword>
+    <keyword>conductance</keyword>
+    <keyword>conductivity</keyword>
+    <keyword>dissolved organic carbon</keyword>
+    <keyword>ph</keyword>
+    <keyword>phosphorus</keyword>
+    <keyword>secchi depth</keyword>
+    <keyword>total phosphorus</keyword>
+    <keyword>turbidity</keyword>
+    <keywordThesaurus>LTER Keywords</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+    <keyword>DOC</keyword>
+    <keyword>NTL LTER</keyword>
+    <keyword>lake characteristics</keyword>
+    <keyword>lake color</keyword>
+    <keyword>lake order</keyword>
+    <keyword>water clarity</keyword>
+    <keywordThesaurus>NTL Keywords</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</para> <para>The Data User must realize that the data may be misinterpreted if taken out of context. We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</para> <para>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: name of data set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for data set, Center for Limnology, University of Wisconsin-Madison. The data set name and contact person for each data set can be found in the metadata header of the online data sets.</para> <para>The Data User must send two reprints of any publications resulting from use of the data to the address above. We would like to include such manuscripts in our LTER publications list.</para> <para>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para><para>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets.</para> <para>Our goal is to release all long term data associated with core research areas within 2 years of collection. These data and accompanying metadata will be available for download from the NTL-LTER web site.</para> <para>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.
+</para>
+    </section>
+  </intellectualRights>
+  <distribution>
+    <online>
+      <url function="information">http://lter.limnology.wisc.edu/node/31076</url>
+    </online>
+  </distribution>
+  <coverage>
+    <geographicCoverage>
+      <geographicDescription>Wisconsin, USA
+</geographicDescription>
+      <boundingCoordinates>
+        <westBoundingCoordinate>-92.871</westBoundingCoordinate>
+        <eastBoundingCoordinate>-86.855</eastBoundingCoordinate>
+        <northBoundingCoordinate>47.000</northBoundingCoordinate>
+        <southBoundingCoordinate>42.495</southBoundingCoordinate>
+      </boundingCoordinates>
+    </geographicCoverage>
+    <temporalCoverage>
+      <rangeOfDates>
+        <beginDate>
+          <calendarDate>1925-01-01</calendarDate>
+        </beginDate>
+        <endDate>
+          <calendarDate>2009-12-31</calendarDate>
+        </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para>complete
+</para>
+    </description>
+  </maintenance>
+  <contact>
+    <positionName>NTL LTER Lead PI</positionName>
+    <organizationName>Center for Limnology</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Str.</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <contact>
+    <positionName>NTL LTER Information Manager</positionName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <publisher>
+    <organizationName>North Temperate Lakes LTER</organizationName>
+    <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </publisher>
+  <pubPlace>North Temperate Lakes</pubPlace>
+  <methods>
+    <methodStep>
+      <description>
+        <section>
+          <para>1. Dataset: sr1 - Surface Water Resource Inventory (SWRI) Wisconsin. Temporal coverage: 1960-1980. Original description found in the preface of each Wisconsin Department of Natural Resources (WDNR) SWRI report, published by county.
+Data manipulation for incorporation into database: Original source of data is WDNR SWRI printed reports. An electronic version (MS Excel spreadsheet) of the data was available (the origin of this spreadsheet was unknown) and was used in preparation of this database. Some discrepancies observed between printed version and electronic version of the dataset: 1) in the printed reports, alkalinity is expressed either as methyl orange or methyl purple; varies from county to county. The electronic format does not contain any metadata or explanation regarding alkalinity. 2) in the printed reports, sometimes max depth provided, sometimes known depth, and sometimes Secchi depth- these values seem to have been transcribed as Secchi depth in the electronic dataset. 3) values of area, conductivity, alkalinity, and depth in electronic format have been rounded up from values in the books. 4) a field in the spreadsheet named "Cl" has no match in books and was not included in the final dataset. 5) color code was not defined in electronic format. It was deciphered and checked against a few lakes from different counties in the printed reports. Final color codes: 1 - Light brown. 2 - Medium brown. 3 - Dark brown. 4 - Clear. 5 - Turbid
+Issues specific to the electronic format: 13822 records originally. After eliminating all records without WBICs (Water Body Identification Code) or with duplicate WBICs, the dataset reduced to 12638 records with unique WBICs. Of these, 151 records (with area &gt;10 acres) had no or zero data for some chemical parameters. Checked these records using WDNR SWRI reports. Eliminated any record that couldn't be resolved using the books and WDNR WBICs file.. Most records contain both alkalinity and conductivity data, although some do not contain both parameters. Final dataset sr1 has 12383 records
+2. Dataset: sr2 - Pieter Johnson. Temporal coverage: not specified. Original description: Combination of WDNR Register of Waterbodies (ROW) file, Wisconsin Lakes Book (wilk), and SWRI. Selected lakes with areas &gt;= 10 acres, and lakes in at least 2 of the 3 datasets. Lakes with missing WBIC were not included. Lakes with missing surface area were not included.
+Data manipulation for incorporation into database: Received original dataset from Jake Vander Zanden (UW-Madison, Center Data manipulation for incorporation into database: Received original dataset from Jake Vander Zanden (UW-Madison, Center for Limnology). The dataset was used in the following publication: Johnson, P.T., J.D. Olden, M.J. Vander Zanden. 2008. Dam invaders: impoundments facilitate biological invasions in freshwaters. Frontiers in Ecology and the Environment 6:357-363. Original dataset contained 5213 records; . Eliminated 8 records without WBIC, legal (TRS) description, and no values for lake characteristics. Note: Many records are repeated from sr1 dataset. Final dataset sr2 has 5205 records.
+3. Dataset: sr3 - Biocomplexity Project. Temporal coverage: 2001-2004. Original description: Data Set Title: Biocomplexity; Coordinated Field Studies: Chemical Limnology. Investigators: Steve R. Carpenter, Jim Kitchell, Timothy K. Kratz, John J. Magnuson. Contact:NTL LTER Information Manager; Center for Limnology, 680 N Park St, Madison, WI, 53706-1492, USA;(phone) 608-262-2573;(fax) 608-265-2340;(email) infomgr@lter.limnology.wisc.edu; 62 Vilas County lakes were sampled from 2001-2004 (approximately 15 different lakes each year)
+Data manipulation for incorporation into database: Original dataset had 62 records. Replicate samples per lake averaged to single measurements. Two records represented a single lake (Little Rock, North and South basins); these were merged into one record. Final dataset sr3 has 61 records.
+4. Dataset: sr4 - Landscape Position Project. Temporal coverage: 1998. Original description: Data Set Title: Landscape Position Project: Chemical Limnology. Investigators: Ben Greenfield, Thomas Hrabik, Timothy K. Kratz, David Lewis, Amina Pollard, Karen Wilson. Contact: NTL LTER Information Manager; Center for Limnology, 680 N Park St, Madison, WI, 53706-1492, USA;(phone) 608-890-3446;(fax) 608-265-2340;(email) infomgr@lter.limnology.wisc.edu; Parameters characterizing the chemical limnology and spatial attributes of 51 lakes were surveyed as part of the Landscape Position Project.
+Data manipulation for incorporation into database: WBICs added. Ward Lake removed from data. Parameters values over multiple sampling events were averaged. Info regarding depth at which samples were taken was not retained. Final dataset sr4 has 50 records.
+5. Dataset: sr5 - Lillie and Mason. Temporal coverage: 1979. Original description: printed report WI DNR Technical Bulletin no.138. 1983. Limnological characteristics of Wisconsin Lakes
+Data manipulation for incorporation into database: Original file containing 667 records received from Paul Garrison (WDNR). 88 records lacked WBICs but 65 of these were assigned using WDNR lakes shapefile, matching names and areas of lakes. Final 23 records without WBICs were removed. Note: Since lake / impoundment classification doesn't seem to match Johnson's dataset (sr2), it was not included. Note from Richard Lathrop (WDNR): total P measurements are probably unreliable due to method used not being sensitive enough. Final dataset sr5 has 644 records.
+6.Dataset: sr6 - EPA- Eastern Lakes Survey (1984): Temporal coverage: 1984. Original description: Data Set Title: National Surface Water Survey: Eastern Lake Survey-Phase I. The Eastern Lake Survey-Phase I (ELS-I), conducted in the fall of 1984, was the first part of a long-term effort by the U.S. Environmental Protection Agency known as the National Surface Water Survey. It was designed to synoptically quantify the acid-base status of surface waters in the United States in areas expected to exhibit low buffering capacity. The effort was in support of the National Acid Precipitation Assessment Program (NAPAP). The survey involved a three-month field effort in which 1612 probability sample lakes and 186 special interest lakes in the northeast, southeast, and upper Midwest regions of the United States were sampled.
+Data manipulation for incorporation into database: Original dataset, downloaded from EPA website, has over 100 parameters. Only a small subset of interest was retained. Original documentation for full dataset available is available. Dataset includes 285 Wisconsin lakes. WBICs were assigned using geographic coordinates from dataset. WBIC for one lake could not be determined and was excluded.. Note regarding conductivity parameter: value represents calculated conductivity, as the sum of concentrations of each major cation and anion. It is not a parameter measured in the field or lab. Actual formula used to calculated conductivity was not discovered. Final dataset sr6 has 284 records
+7. Dataset: sr7 - Environmental Research Lab Duluth (ERLD). Temporal coverage: 1979-1982. Original description: ERLD Lake Survey. Contact(s): NTL LTER Information Manager; Center for Limnology, 680 N Park St, Madison, WI, 53706-1492, USA;(phone) 608-262-2573;(fax) 608-265-2340;(email) infomgr@lter.limnology.wisc.edu; Chemical survey of 832 lakes in Minnesota, Michigan, Wisconsin and Ontario conducted by ERL-Duluth and UMD between 1979 and 1982 for evaluation of trophic state and sensitivity to acid deposition Glass, G.E. and Sorenson, J.A. (1994) USEPA ERLD-UMD acid deposition gradient-susceptibility database. U.S. EPA Environmental Research Laboratory - Duluth and University of Minnesota at Duluth, MN.
+Data manipulation for incorporation into database: Dataset included 428 Wisconsin records for which WBICs were included. Note: Original dataset had several errors in WBIC assignment: 1179900 was assigned to three different water bodies; correct WBICs are: 1503000, 1502400, 1481100; also 1515800 changed to 1516000. Lake Clara had 5 different stations for most parameters sampled. First station that had values for all parameters was included in final dataset. Final dataset sr7 has 428 records.
+8. Dataset: sr8 - Birge-Juday Historical Dataset. Temporal coverage: 1925-1941. Original description: Birge-Juday Historical Lake Data. Investigator(s): Edward A. Birge, Chauncy Juday. Contact: NTL LTER Information Manager; Center for Limnology, 680 N Park St, Madison, WI, 53706-1492, USA;(phone) 608-262-2573;(fax) 608-265-2340;(email) infomgr@lter.limnology.wisc.edu; Data collected by Birge, Juday, and collaborators, mostly in north-central Wisconsin, from 1925 through 1941; generally one sample per lake during the summer, but on some lakes, especially around Trout Lake Station, samples were taken on several successive years. Note that not all variables were measured on all lakes (scarce data for nutrients and ions). Documentation: Johnson, M.D. (1984) Documentation and quality assurance of the computer files of historical water chemistry data from the Wisconsin Northern Highland Lake District (the Birge and Juday data).WDNR Technical Report. Number of sites: 608 (generally one sampling point per lake; occasionally, several sampling points per lake on multibasin, large lakes).
+Data manipulation for incorporation into database: Original dataset downloaded from UW-Madison, Center for Limnology LTER website. Values averaged for lakes with multiple samples. WBICs assigned to 577 lakes via GIS spatial join using site coordinates and WDNR lake shapefile. Note from Johnson, M.D. (1984): the units for alkalinity (fixed CO2) changed from cc/L to mg/L sometime between Aug 1926 and May 1927. 17 entries were originally cc/l. Thus there might be inconsistencies in the alkalinity data. Final dataset sr8 has 577 records.
+9. Dataset: sr9 - USGS National Water Inventory System (NWIS). Temporal coverage: 1969-2009. Original description: U.S. Geological Survey. This file contains selected water-quality data for stations in the National Water Information System water-quality database (http://nwis.waterdata.usgs.gov/nwis/). Explanation of codes found in this file are followed by the retrieved data. The data you have secured from the USGS NWIS Web database may include data that have not received Director's approval and as such are provisional and subject to revision. The data are released on the condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use.
+Data manipulation for incorporation into database: Data downloaded for 240 lakes for the following parameters: calcium, conductivity, alkalinity, pH. Original parameter codes (USGS NWIS schema): p00915 p00095 p00400 p00916 p29801 p39086 p90095. Data are averaged for multiple measurements. WBICs assigned via GIS spatial join using site coordinates and WDNR lake shapefile. Final dataset sr9 has 240 records.
+10. Dataset: sr10 - WI Department of Natural Resources (WDNR) Temporal coverage: 1969-2009 Original description: available at http://dnr.wi.gov/org/water/swims/
+Data manipulation for incorporation into database: Original data received from Jennifer Filbert (WDNR). Data were extracted from WDNR Surface Water Integrated Monitoring System (SWIMS) database (http://dnr.wi.gov/org/water/swims/). Lakes represented had one or more of the following parameters: Secchi depth, calcium, conductivity, alkalinity, pH, total P, turbidity,, chlorophyll a. Data were averaged where multiple measurements were available. Final dataset sr10 has 53 records.
+The Data Source data table contains a summary of the 10 data sources with information on temporal coverage and record counts. It also includes information on the availability of calcium and conductivity data from the data sources.
+</para>
+        </section>
+      </description>
+    </methodStep>
+  </methods>
+  <project>
+    <title>Impacts, dynamics, and prediction of aquatic invasive species</title>
+    <personnel>
+      <individualName>
+        <givenName>Jake</givenName>
+        <surName>Vander Zanden</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(608) 262-9464</phone>
+      <phone phonetype="fax">(608) 265-2340</phone>
+      <electronicMailAddress>mjvanderzand@wisc.edu</electronicMailAddress>
+      <role>project personnel</role>
+    </personnel>
+    <personnel>
+      <individualName>
+        <givenName>Mona</givenName>
+        <surName>Papes</surName>
+      </individualName>
+      <organizationName>NTL LTER</organizationName>
+      <address>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>papes@wisc.edu</electronicMailAddress>
+      <role>project personnel</role>
+    </personnel>
+    <abstract>
+      <para>Invasive species are a leading threat to aquatic biodiversity and ecosystems. Because invasions are among the most irreversible of human impacts, prevention is the most important approach for dealing with this problem. But with approximately 15,000 lakes in Wisconsin, how do we focus our efforts most effectively? We have been working with a variety of researchers on what we call 'smart prevention' projects. The idea is to identify lakes that are most likely to be invaded and most likely to be impacted by an invader.</para>
+    </abstract>
+  </project>
+  <dataTable>
+    <entityName>wi_lakes_limno_params</entityName>
+    <entityDescription>Wisconsin Lake Historical Limnological Parameters</entityDescription>
+    <physical>
+      <objectName>wilakeslimnoparams</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <recordDelimiter>\r\n</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+            <quoteCharacter>"</quoteCharacter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+      <distribution>
+        <online>
+          <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.263&amp;urlTail=ntl/data/31076_1_v1.csv</url>
+        </online>
+      </distribution>
+    </physical>
+    <attributeList>
+      <attribute>
+        <attributeName>wbic</attributeName>
+        <attributeLabel>WBIC</attributeLabel>
+        <attributeDefinition>Wisconsin Department of Natural Resources Water Body Identification Code.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>Wisconsin Department of Natural Resources Water Body Identification Code.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>latitude</attributeName>
+        <attributeLabel>latitude</attributeLabel>
+        <attributeDefinition>latitude - derived from GIS, using lake polygon centroids (datum WGS84)</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>degree</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">-90</minimum>
+                <maximum exclusive="false">90</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>longitude</attributeName>
+        <attributeLabel>longitude</attributeLabel>
+        <attributeDefinition>longitude - derived from GIS, using lake polygon centroids (datum WGS84)</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>degree</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">-90</minimum>
+                <maximum exclusive="false">90</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>county</attributeName>
+        <attributeLabel>county</attributeLabel>
+        <attributeDefinition>county</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>county</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_county</attributeName>
+        <attributeLabel>county</attributeLabel>
+        <attributeDefinition>county</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>county</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_county</attributeName>
+        <attributeLabel>county</attributeLabel>
+        <attributeDefinition>county</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>county</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_county</attributeName>
+        <attributeLabel>county</attributeLabel>
+        <attributeDefinition>county</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>county</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_county</attributeName>
+        <attributeLabel>county</attributeLabel>
+        <attributeDefinition>county</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>county</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_lake_name</attributeName>
+        <attributeLabel>lake name</attributeLabel>
+        <attributeDefinition>lake name</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>lake name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_lake_name</attributeName>
+        <attributeLabel>lake name</attributeLabel>
+        <attributeDefinition>lake name</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>lake name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_lake_name</attributeName>
+        <attributeLabel>lake name</attributeLabel>
+        <attributeDefinition>dnr lake name</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>dnr lake name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr4_lake_name</attributeName>
+        <attributeLabel>lake name</attributeLabel>
+        <attributeDefinition>lake name</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>lake name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_lake_name</attributeName>
+        <attributeLabel>lake name</attributeLabel>
+        <attributeDefinition>lake name</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>lake name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_lake_name</attributeName>
+        <attributeLabel>lake name</attributeLabel>
+        <attributeDefinition>lake name</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>lake name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_locality</attributeName>
+        <attributeLabel>locality - site name</attributeLabel>
+        <attributeDefinition>locality - site name</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>locality - site name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_township</attributeName>
+        <attributeLabel>township</attributeLabel>
+        <attributeDefinition>township</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>township</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_range</attributeName>
+        <attributeLabel>range</attributeLabel>
+        <attributeDefinition>range</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>range</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_ew</attributeName>
+        <attributeLabel>east-west code</attributeLabel>
+        <attributeDefinition>east-west code</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>east-west code</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_section</attributeName>
+        <attributeLabel>section</attributeLabel>
+        <attributeDefinition>section</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>section</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_trs</attributeName>
+        <attributeLabel>TRS legal description</attributeLabel>
+        <attributeDefinition>TRS (township, range, section) legal description</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>TRS (township, range, section) legal description</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_trs</attributeName>
+        <attributeLabel>TRS legal description</attributeLabel>
+        <attributeDefinition>TRS (township, range, section) legal description</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>TRS (township, range, section) legal description</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_latitude</attributeName>
+        <attributeLabel>latitude</attributeLabel>
+        <attributeDefinition>latitude</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>degree</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">-90</minimum>
+                <maximum exclusive="false">90</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_longitude</attributeName>
+        <attributeLabel>longitude</attributeLabel>
+        <attributeDefinition>longitude</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>degree</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">-90</minimum>
+                <maximum exclusive="false">90</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_number_of_samples</attributeName>
+        <attributeLabel>number of samples</attributeLabel>
+        <attributeDefinition>number of samples</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>number</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_surface_area</attributeName>
+        <attributeLabel>surface area</attributeLabel>
+        <attributeDefinition>surface area - originally in acres; converted to ha; values from DNR reports rounded</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>hectare</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_surface_area</attributeName>
+        <attributeLabel>surface area</attributeLabel>
+        <attributeDefinition>surface area - from Webster dataset; originally in acres; converted  to ha</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>hectare</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_surface_area</attributeName>
+        <attributeLabel>surface area</attributeLabel>
+        <attributeDefinition>surface area</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>hectare</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_surface_area</attributeName>
+        <attributeLabel>surface area</attributeLabel>
+        <attributeDefinition>surface area - originally in acres; converted to ha</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>hectare</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_surface_area</attributeName>
+        <attributeLabel>surface area</attributeLabel>
+        <attributeDefinition>surface area</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>hectare</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_surface_area</attributeName>
+        <attributeLabel>surface area</attributeLabel>
+        <attributeDefinition>surface area</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>hectare</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_perimeter</attributeName>
+        <attributeLabel>perimeter</attributeLabel>
+        <attributeDefinition>perimeter - originally in m; converted to km; derived from GIS (J. Maxted)</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>kilometer</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_perimeter</attributeName>
+        <attributeLabel>perimeter</attributeLabel>
+        <attributeDefinition>perimeter</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>kilometer</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_watershed_area</attributeName>
+        <attributeLabel>watershed area</attributeLabel>
+        <attributeDefinition>watershed area</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>hectare</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_hydrology_type</attributeName>
+        <attributeLabel>hydrology type</attributeLabel>
+        <attributeDefinition>hydrology type Note: Hydrology data inconsistent.  Basically, seepage lakes defined as no permanent inlets and no permanent or intermittent outlet.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>DE</code>
+                  <definition>drainage</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>DR</code>
+                  <definition>drained</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>SE</code>
+                  <definition>seepage</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>SP</code>
+                  <definition>spring</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_hydrology_type</attributeName>
+        <attributeLabel>hydrology type</attributeLabel>
+        <attributeDefinition>hydrology type</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>DG</code>
+                  <definition>Drainage lake with an inlet and an outlet</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>SE</code>
+                  <definition>Seepage lake with no inlet and no outlet</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>SP</code>
+                  <definition>Spring lake with an outlet but no inlet</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_hydrology_type</attributeName>
+        <attributeLabel>hydrology type</attributeLabel>
+        <attributeDefinition>hydrology type</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>1</code>
+                  <definition>seepage   /  no outlet or inlet</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>2</code>
+                  <definition>drained  /  intermittent outlet</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>3</code>
+                  <definition>drainage  /  inlet(s) and outlet(s)</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>4</code>
+                  <definition>spring  /  no inlet but has permanent outlet</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>5</code>
+                  <definition>impoundment</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_lake_type</attributeName>
+        <attributeLabel>lake type</attributeLabel>
+        <attributeDefinition>lake type: lake, pond, reservoir, etc.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>lake type: lake, pond, reservoir, etc.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_secchi</attributeName>
+        <attributeLabel>secchi depth</attributeLabel>
+        <attributeDefinition>secchi depth - originally in ft, converted to meters;  sometimes max depth, as reported by source 1</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_secchi</attributeName>
+        <attributeLabel>secchi depth</attributeLabel>
+        <attributeDefinition>secchi depth - originally in ft, converted to meters as reported by source 2</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_secchi_satellite</attributeName>
+        <attributeLabel>secchi depth - satellite</attributeLabel>
+        <attributeDefinition>secchi depth - originally in ft, converted to meter; derived from satellite data</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_secchi</attributeName>
+        <attributeLabel>secchi depth</attributeLabel>
+        <attributeDefinition>secchi depth - originally in ft, converted to meters, as reported by source 3</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_secchi_field</attributeName>
+        <attributeLabel>secchi depth - field</attributeLabel>
+        <attributeDefinition>secchi depth measured by biocomplexity field crew</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr4_secchi</attributeName>
+        <attributeLabel>secchi depth</attributeLabel>
+        <attributeDefinition>secchi depth as reported by source 4</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_secchi</attributeName>
+        <attributeLabel>secchi depth</attributeLabel>
+        <attributeDefinition>secchi depth - summer as reported by source 5</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_secchi</attributeName>
+        <attributeLabel>secchi depth</attributeLabel>
+        <attributeDefinition>secchi depth - mean depth as reported by source 6</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_secchi</attributeName>
+        <attributeLabel>secchi depth</attributeLabel>
+        <attributeDefinition>secchi depth as reported by source 8</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_secchi</attributeName>
+        <attributeLabel>secchi depth</attributeLabel>
+        <attributeDefinition>secchi depth as reported by source 10</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_max_depth</attributeName>
+        <attributeLabel>maximum depth</attributeLabel>
+        <attributeDefinition>maximum depth - originally in ft, converted to m</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_max_depth</attributeName>
+        <attributeLabel>maximum depth</attributeLabel>
+        <attributeDefinition>maximum depth - originally in ft, converted to m</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_max_depth</attributeName>
+        <attributeLabel>maximum depth</attributeLabel>
+        <attributeDefinition>maximum depth - originally in ft, converted to m</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_mean_depth</attributeName>
+        <attributeLabel>mean depth</attributeLabel>
+        <attributeDefinition>mean depth - originally in ft, converted to m</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_mean_depth</attributeName>
+        <attributeLabel>mean depth</attributeLabel>
+        <attributeDefinition>mean depth - originally in ft, converted to m</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_depth</attributeName>
+        <attributeLabel>depth</attributeLabel>
+        <attributeDefinition>depth</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_impound</attributeName>
+        <attributeLabel>impoundment</attributeLabel>
+        <attributeDefinition>impoundment -  includes true reservoirs, lakes with stabilizing dams, mill ponds, etc.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>0</code>
+                  <definition>lake  is not an impoundment</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>1</code>
+                  <definition>lake is an impoundment</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_access</attributeName>
+        <attributeLabel>lake access</attributeLabel>
+        <attributeDefinition>lake access from Webster</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>B</code>
+                  <definition>boat landing</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>N</code>
+                  <definition>navigable</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>Q</code>
+                  <definition>some public access</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>T</code>
+                  <definition>trail</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>W</code>
+                  <definition>wilderness</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>X</code>
+                  <definition>blank or none</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_land1</attributeName>
+        <attributeLabel>full boat landings</attributeLabel>
+        <attributeDefinition>number of full (or solid) boat landings from Wisconsin Gazetteer</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>number</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_land2</attributeName>
+        <attributeLabel>open boat landings</attributeLabel>
+        <attributeDefinition>number of open (or unimproved) boat landings from Wisconsin Gazetteer</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>number</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_land3</attributeName>
+        <attributeLabel>total boat landings</attributeLabel>
+        <attributeDefinition>total number of boat landings (improved or unimproved) from WI DNR</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>number</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_lake_access</attributeName>
+        <attributeLabel>lake access</attributeLabel>
+        <attributeDefinition>lake access</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>lake access</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr4_ca</attributeName>
+        <attributeLabel>calcium</attributeLabel>
+        <attributeDefinition>calcium concentration as reported by source 4</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_ca</attributeName>
+        <attributeLabel>calcium</attributeLabel>
+        <attributeDefinition>calcium concentration as reported by source 5</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_ca</attributeName>
+        <attributeLabel>calcium</attributeLabel>
+        <attributeDefinition>calcium concentration as reported by source 6</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_ca</attributeName>
+        <attributeLabel>calcium</attributeLabel>
+        <attributeDefinition>calcium</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_ca</attributeName>
+        <attributeLabel>calcium</attributeLabel>
+        <attributeDefinition>calcium</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_ca_filtered</attributeName>
+        <attributeLabel>calcium filtered</attributeLabel>
+        <attributeDefinition>calcium - mean of parameter 00915 -  water, filtered</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_calcium_unfiltered</attributeName>
+        <attributeLabel>calcium unfiltered</attributeLabel>
+        <attributeDefinition>calcium - mean of parameter 00916 -  water, unfiltered, recoverable,</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_ca</attributeName>
+        <attributeLabel>calcium</attributeLabel>
+        <attributeDefinition>calcium concentration as reported by source 10</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_coductance</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance - values from DNR reports rounded up</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr2_conductance</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance -  from SWRI, units are (uMHOS/CM (same as uS/cm))</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_conductance_field</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance - measured by field crew</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr3_conductance</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr4_conductance</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_conductance_calculated</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>calculated conductance1 as sum of the products of ion concentration x  equivalent conductance (cations summed: Ca, Mg, Na, K, NH4,  H; anions summed: SO4, HCO3, Cl, NO3, F, CO3, and OH) - EPA times equivalent conductance</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_conductance</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_conductance_60</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance - EPA procedure: if the temperature difference between top and bottom was lt 4 degrees C, the lake was classified as nonstratified. If stratified, measurements was taken at 60 percent of the site depth.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_conductance_calculated</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_conductance</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_conductance_unfiltered</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance - mean of parameter 00095 - water, unfiltered</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_conductance_lab</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance - mean of parameter 90095 - water, unfiltered,</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_conductance</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_conductance_field</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_conductance_20_degreesc</attributeName>
+        <attributeLabel>conductance</attributeLabel>
+        <attributeDefinition>conductance - these values may not be  comparable with the others because the measurements were done at 20 degreesC, not 25 degreesC (the standard procedure)</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemenPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_alkalinity</attributeName>
+        <attributeLabel>alkalinity</attributeLabel>
+        <attributeDefinition>alkalinity - methyl orange or methyl purple, varying by county; total alkalinity (hydroxides, carbonates and bicarbonates); DNR reports values rounded up in digital format</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr4_alkalinity</attributeName>
+        <attributeLabel>alkalinity</attributeLabel>
+        <attributeDefinition>alkalinity - originally in microEquivalentsPerLiter, converted using formula: mg CaCO3/L * 20 microeq/mg CaCo3 = 1 microeq/L</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_alkalinity</attributeName>
+        <attributeLabel>alkalinity</attributeLabel>
+        <attributeDefinition>alkalinity</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_alkalinity</attributeName>
+        <attributeLabel>alkalinity</attributeLabel>
+        <attributeDefinition>alkalinity - originally in microEquivalentsPerLiter, converted using formula: mg CaCO3/L * 20 microeq/mg CaCo3 = 1 microeq/L</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_alkalinity</attributeName>
+        <attributeLabel>alkalinity</attributeLabel>
+        <attributeDefinition>alkalinity - originally in microEquivalentsPerLiter, converted using formula: mg CaCO3/L * 20 microeq/mg CaCo3 = 1 microeq/L</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_alkalinity</attributeName>
+        <attributeLabel>alkalinity</attributeLabel>
+        <attributeDefinition>alkalinity - units for alkalinity (fixed CO2) changed from cc/L to mg/L</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_alkalinity_fixedendpoint</attributeName>
+        <attributeLabel>alkalinity -fixedendpoint</attributeLabel>
+        <attributeDefinition>alkalinity - mean of parameter 29801: water, filtered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbonate</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_alkalinity_titration</attributeName>
+        <attributeLabel>alkalinity -titration</attributeLabel>
+        <attributeDefinition>alkalinity - mean of parameter 39086 - water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter as calcium carbonate</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_alkalinity</attributeName>
+        <attributeLabel>alkalinity</attributeLabel>
+        <attributeDefinition>alkalinity - total CaCO3</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_ph</attributeName>
+        <attributeLabel>pH</attributeLabel>
+        <attributeDefinition>pH as reported by source 1</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>pH</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">14</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr4_ph</attributeName>
+        <attributeLabel>pH</attributeLabel>
+        <attributeDefinition>pH as reported by source 4</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>pH</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">14</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_ph</attributeName>
+        <attributeLabel>pH</attributeLabel>
+        <attributeDefinition>pH as reported by source 5</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>pH</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">14</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_ph</attributeName>
+        <attributeLabel>pH</attributeLabel>
+        <attributeDefinition>pH at surface (1.5 m), as reported by source 6</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>pH</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">14</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_ph</attributeName>
+        <attributeLabel>pH</attributeLabel>
+        <attributeDefinition>pH as reported by source 7</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>pH</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">14</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_ph</attributeName>
+        <attributeLabel>pH</attributeLabel>
+        <attributeDefinition>pH as reported by source 8</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>pH</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">14</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr9_ph</attributeName>
+        <attributeLabel>pH</attributeLabel>
+        <attributeDefinition>pH - mean of parameter 004009 - water, unfiltered, field, standard units, as reported by source 9</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>pH</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">14</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_ph</attributeName>
+        <attributeLabel>pH</attributeLabel>
+        <attributeDefinition>pH - field, as reported by source 10</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>pH</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">14</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_p</attributeName>
+        <attributeLabel>phosphorus</attributeLabel>
+        <attributeDefinition>phosphorus - this parameter not present in the DNR  reports; assumed to be in mg/l; only about 500 out of over 12,000 records have P value</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr4_p_total</attributeName>
+        <attributeLabel>phosphorus</attributeLabel>
+        <attributeDefinition>phosphorus - originally in micrograms per liter of total P unfiltered; converted to mg/L</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_p_total</attributeName>
+        <attributeLabel>phosphorus</attributeLabel>
+        <attributeDefinition>phosphorus - summer total P</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_p_total</attributeName>
+        <attributeLabel>phosphorus</attributeLabel>
+        <attributeDefinition>phosphorus - originally in micrograms per liter of total P unfiltered; converted to mg/L</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_p_total</attributeName>
+        <attributeLabel>phosphorus - total P</attributeLabel>
+        <attributeDefinition>phosphorus - total P</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_p_total_po4</attributeName>
+        <attributeLabel>phosphorus</attributeLabel>
+        <attributeDefinition>phosphorus - originally in micrograms per liter of total P unfiltered; converted to mg/L</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_p_dissolved</attributeName>
+        <attributeLabel>phosphorus - dissolved</attributeLabel>
+        <attributeDefinition>phosphorus - summer dissolved P</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_p_total</attributeName>
+        <attributeLabel>phosphorus - total P</attributeLabel>
+        <attributeDefinition>phosphorus - total P</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr1_color</attributeName>
+        <attributeLabel>color</attributeLabel>
+        <attributeDefinition>color</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>1</code>
+                  <definition>Light brown</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>2</code>
+                  <definition>Medium brown</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>3</code>
+                  <definition>Dark brown</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>4</code>
+                  <definition>Clear</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>5</code>
+                  <definition>Turbid</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_color</attributeName>
+        <attributeLabel>color</attributeLabel>
+        <attributeDefinition>color - (method: Hellige color compartitor)</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>color - (method: Hellige color compartitor)</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_color</attributeName>
+        <attributeLabel>color</attributeLabel>
+        <attributeDefinition>color - true color measured in the field laboratory by first centrifuging the sample to remove particles, then using an HACH Model CO-1 Comparator (EPA)</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>color - true color measured in the field laboratory by first centrifuging the sample to remove particles, then using an HACH Model CO-1 Comparator (EPA)</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_color</attributeName>
+        <attributeLabel>color</attributeLabel>
+        <attributeDefinition>color pt-co units</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>color pt-co units</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr8_color</attributeName>
+        <attributeLabel>color</attributeLabel>
+        <attributeDefinition>apparent color (mg Pt/L) [mg PT relative to color scale]</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr4_doc</attributeName>
+        <attributeLabel>dissolved organic carbon</attributeLabel>
+        <attributeDefinition>dissolved organic carbon</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_doc</attributeName>
+        <attributeLabel>dissolved organic carbon</attributeLabel>
+        <attributeDefinition>dissolved organic carbon - measured in the analytical laboratory in a filtered, acidified (H2SO4) aliquot (EPA method 415.2, infrared spectrophotometric detector).</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_stratification</attributeName>
+        <attributeLabel>stratification</attributeLabel>
+        <attributeDefinition>stratification - in Lillie and Mason DNR report: stratified;  questionable; mixed; unidentified, but dataset has only 1-3 values. Can't match code with DNR classes</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>stratification - in Lillie and Mason DNR report: stratified;  questionable; mixed; unidentified, but dataset has only 1-3 values. Can't match code with DNR classes</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_stratification</attributeName>
+        <attributeLabel>stratification</attributeLabel>
+        <attributeDefinition>stratification (mixed, weak, strong)</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>stratification (mixed, weak, strong)</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_turbidity</attributeName>
+        <attributeLabel>turbidity</attributeLabel>
+        <attributeDefinition>turbidity - JTU-Jackson Turbidity Units</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>Jackson turbidity unit</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr6_turbidity</attributeName>
+        <attributeLabel>turbidity</attributeLabel>
+        <attributeDefinition>turbidity - NTU - measured in the unfiltered sample in the field laboratory</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>nephelometric turbidity unit</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_turbidity</attributeName>
+        <attributeLabel>turbidity</attributeLabel>
+        <attributeDefinition>turbidity - NTU</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>nephelometric turbidity unit</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_turbidity</attributeName>
+        <attributeLabel>turbidity</attributeLabel>
+        <attributeDefinition>turbidity - FTU - EPA Formazin Turbidity Units</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>formazin turbidity unit</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr5_chlorophyll_a</attributeName>
+        <attributeLabel>chlorophyll-a</attributeLabel>
+        <attributeDefinition>chlorophyll-a</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr7_chlorophyll_a</attributeName>
+        <attributeLabel>chlorophyll-a</attributeLabel>
+        <attributeDefinition>chlorophyll-a (acid corrected)</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr10_chlorophyll_a</attributeName>
+        <attributeLabel>chlorophyll-a</attributeLabel>
+        <attributeDefinition>chlorophyll-a - fluorescence (Welschmayer 1994)</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+  <dataTable>
+    <entityName>wi_lakes_limno_source</entityName>
+    <entityDescription>Wisconsin Lake Historical Limnological Parameters - Data Source</entityDescription>
+    <physical>
+      <objectName>wilakeslimnosource</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <recordDelimiter>\r\n</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+            <quoteCharacter>"</quoteCharacter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+      <distribution>
+        <online>
+          <url function="download">
+http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.263&amp;urlTail=ntl/data/31076_2_v1.csv          </url>
+        </online>
+      </distribution>
+    </physical>
+    <attributeList>
+      <attribute>
+        <attributeName>datasource_code</attributeName>
+        <attributeLabel>Datasource_Code</attributeLabel>
+        <attributeDefinition>data source code</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>data source code</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>dataset_name</attributeName>
+        <attributeLabel>Dataset_Name</attributeLabel>
+        <attributeDefinition>dataset name</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>dataset name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>startyear_of_survey</attributeName>
+        <attributeLabel>Startyear_Of_Survey</attributeLabel>
+        <attributeDefinition>start year of lake survey</attributeDefinition>
+        <storageType>date</storageType>
+        <measurementScale>
+          <dateTime>
+            <formatString>YYYY</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>endyear_of_survey</attributeName>
+        <attributeLabel>Endyear_Of_Survey</attributeLabel>
+        <attributeDefinition>end year of lake survey</attributeDefinition>
+        <storageType>date</storageType>
+        <measurementScale>
+          <dateTime>
+            <formatString>YYYY</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+  <metadata>
+    <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+<ns2:unit abbreviation="mg/l" constantToSI="0" id="milligramPerLiter" multiplierToSI="0.001" name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity"><ns2:description>milligrams / liter</ns2:description></ns2:unit>
+
+<ns2:unit abbreviation="uS/cm" constantToSI="0" id="microSiemenPerCentimeter" multiplierToSI="0.0001" name="microSiemenPerCentimeter" parentSI="siemenPerMeter" unitType="conductivityPerLength"><ns2:description>conductivity unit</ns2:description></ns2:unit>
+
+<ns2:unit abbreviation="pH" id="pH" name="pH" unitType=""><ns2:description>pH</ns2:description></ns2:unit>
+
+<ns2:unit id="Jackson turbidity unit" />
+<ns2:unit id="nephelometric turbidity unit" />
+<ns2:unit id="formazin turbidity unit" />
+<ns2:unit abbreviation="&#181;g/l" constantToSI="0" id="microgramPerLiter" multiplierToSI="0.000001" name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity"><ns2:description>micrograms / liter</ns2:description></ns2:unit>
+
+    </ns2:unitList>
+  </metadata>
+</additionalMetadata>
+</ns0:eml>

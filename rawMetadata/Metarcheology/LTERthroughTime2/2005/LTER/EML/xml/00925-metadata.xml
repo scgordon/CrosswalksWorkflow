@@ -1,0 +1,605 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.26.20" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="26" system="VCR">
+   <alternateIdentifier>VCR97019</alternateIdentifier>
+   <title>Extratropical Storms (1885-1996) Count by  Month (USA)</title>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Bruce</givenName>
+         <surName>Hayden</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-0545</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>bph@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">bhayden</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>1996-12-31</pubDate>
+   <abstract>
+  <para> This data set consists of the monthly counts of the number of storms passing through designated 2.5-degree lat and 5.0 degree long. grid cells. The data are from the published tracks of the centers of cyclones across North America published by NOAA in Monthly Weather Review and Mariners Weather Log. Storm centers were defined by closed isobars that persisted for 6 or more hours. </para>
+  <para>The coordinates given for each counting cell define the northeast corner of the grid cell. Thus longitude 120 and LAT45 is the cell that extends from longitude -120 to -125 and latitude 42.5 to 45.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">storms</keyword>
+      <keyword keywordType="theme">climatology</keyword>
+      <keyword keywordType="theme">climate</keyword>
+      <keyword keywordType="theme">climate change</keyword>
+   </keywordSet>
+   <additionalInfo>
+<section>
+<title>Relevant URLs</title>
+<para><orderedlist>
+<listitem><para>
+Cyclones.dat data file for VCR97019) 
+URL=http://www.vcrlter.virginia.edu/data/public/VCR97019/Cyclones.dat
+</para></listitem>
+</orderedlist>
+</para>
+</section>
+
+   </additionalInfo>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>USA_STORM - USA Storm Tracking Cells</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-64.86328125</westBoundingCoordinate>
+            <eastBoundingCoordinate>-130.25390625</eastBoundingCoordinate>
+            <northBoundingCoordinate>49.496674527</northBoundingCoordinate>
+            <southBoundingCoordinate>25.165173368</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1885-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1996-12-31</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Bruce</givenName>
+         <surName>Hayden</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-0545</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>bph@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">bhayden</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <dataTable>
+      <entityName>VCR97019</entityName>
+      <entityDescription>Extratropical Storms (1885-1996) Count by  Month (USA)</entityDescription>
+      <physical>
+         <objectName>Cyclones.dat</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>22</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.26.20&amp;urlHeadID=2&amp;urlTail=1/VCR97019/VCR97019/Cyclones.dat</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR97019.SEQ">
+            <attributeName>SEQ</attributeName>
+            <attributeLabel>Sequence number</attributeLabel>
+            <attributeDefinition>SEQ - Sequence number</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1</minimum>
+                        <maximum exclusive="false">14</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.YEAR">
+            <attributeName>YEAR</attributeName>
+            <attributeLabel>Year of storm</attributeLabel>
+            <attributeDefinition>YEAR - Year of storm</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1885</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.MONTH">
+            <attributeName>MONTH</attributeName>
+            <attributeLabel>Month</attributeLabel>
+            <attributeDefinition>MONTH - Month</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1</minimum>
+                        <maximum exclusive="false">12</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LONG">
+            <attributeName>LONG</attributeName>
+            <attributeLabel>Longitude of NE corner</attributeLabel>
+            <attributeDefinition>LONG - Longitude of NE corner</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>degrees</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">60</minimum>
+                        <maximum exclusive="false">125</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT55">
+            <attributeName>LAT55</attributeName>
+            <attributeLabel>No. of storms Latitude 55-52.5</attributeLabel>
+            <attributeDefinition>LAT55 - No. of storms Latitude 55-52.5</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> The count of storms is the number of storms passing through the grid cell in the month indicated. A storm is specified by NOAA as a center of low pressure that has a closed isobar for at least 3 hours. </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR97019.LAT525">
+            <attributeName>LAT525</attributeName>
+            <attributeLabel>No. of storms Latitude 52.5-50</attributeLabel>
+            <attributeDefinition>LAT525 - No. of storms Latitude 52.5-50</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT50">
+            <attributeName>LAT50</attributeName>
+            <attributeLabel>No. of storms Latitude 50-47.5</attributeLabel>
+            <attributeDefinition>LAT50 - No. of storms Latitude 50-47.5</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT475">
+            <attributeName>LAT475</attributeName>
+            <attributeLabel>No. of storms Latitude 47.5-45</attributeLabel>
+            <attributeDefinition>LAT475 - No. of storms Latitude 47.5-45</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT45">
+            <attributeName>LAT45</attributeName>
+            <attributeLabel>No. of storms Latitude 45-42.5</attributeLabel>
+            <attributeDefinition>LAT45 - No. of storms Latitude 45-42.5</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT425">
+            <attributeName>LAT425</attributeName>
+            <attributeLabel>No. of storms Latitude 42.5-40</attributeLabel>
+            <attributeDefinition>LAT425 - No. of storms Latitude 42.5-40</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT40">
+            <attributeName>LAT40</attributeName>
+            <attributeLabel>No. of storms Latitude 40-37.5</attributeLabel>
+            <attributeDefinition>LAT40 - No. of storms Latitude 40-37.5</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT375">
+            <attributeName>LAT375</attributeName>
+            <attributeLabel>No. of storms Latitude 37.5-35</attributeLabel>
+            <attributeDefinition>LAT375 - No. of storms Latitude 37.5-35</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT35">
+            <attributeName>LAT35</attributeName>
+            <attributeLabel>No. of storms Latitude 35-32.5</attributeLabel>
+            <attributeDefinition>LAT35 - No. of storms Latitude 35-32.5</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT325">
+            <attributeName>LAT325</attributeName>
+            <attributeLabel>No. of storms Latitude 32.5-30</attributeLabel>
+            <attributeDefinition>LAT325 - No. of storms Latitude 32.5-30</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT30">
+            <attributeName>LAT30</attributeName>
+            <attributeLabel>No. of storms Latitude 30-27.5</attributeLabel>
+            <attributeDefinition>LAT30 - No. of storms Latitude 30-27.5</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT275">
+            <attributeName>LAT275</attributeName>
+            <attributeLabel>No. of storms Latitude 27.5-25</attributeLabel>
+            <attributeDefinition>LAT275 - No. of storms Latitude 27.5-25</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97019.LAT25">
+            <attributeName>LAT25</attributeName>
+            <attributeLabel>No. of storms Latitude 25-22.5</attributeLabel>
+            <attributeDefinition>LAT25 - No. of storms Latitude 25-22.5</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>count</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+      </attributeList>
+   </dataTable>
+   <otherEntity>
+      <entityName>AllStormPlotsAnnual.zip</entityName>
+      <entityDescription>
+Annual storm plots as PDFs for each of the 182 2.5x5-degree cells in the census area. 
+
+Included are plots based on calendar years and plots based on years defined as running from 1 July through 30 June. 
+      </entityDescription>
+      <physical>
+         <objectName>AllStormPlotsAnnual.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.26.20&amp;urlHeadID=2&amp;urlTail=2/VCR97019/AllStormPlotsAnnual.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="count" />
+      <ns2:unit id="degrees" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-51</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

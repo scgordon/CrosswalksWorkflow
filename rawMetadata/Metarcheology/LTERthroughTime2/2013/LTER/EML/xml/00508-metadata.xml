@@ -1,0 +1,525 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-ntl.286.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+
+<access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+    <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+    <permission>all</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <alternateIdentifier system="NTL-DEIMS">33079</alternateIdentifier>
+  <title>Fluxes project at North Temperate Lakes LTER: Hydrology Scenarios Model Output</title>
+  <creator>
+    <individualName>
+      <givenName>Matthew</givenName>
+      <surName>Van de Bogert</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+    <address>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>matthewvandebogert@gmail.com</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Stephen</givenName>
+      <surName>Carpenter</surName>
+    </individualName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <phone phonetype="voice">(608) 262-3014</phone>
+    <phone phonetype="fax">(608) 265-2340</phone>
+    <electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Paul</givenName>
+      <surName>Hanson</surName>
+    </individualName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city> Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <phone phonetype="voice">(608) 262-5953</phone>
+    <phone phonetype="fax">(608) 265-2340</phone>
+    <electronicMailAddress>pchanson@wisc.edu</electronicMailAddress>
+  </creator>
+  <metadataProvider>
+    <organizationName>North Temperate Lakes LTER</organizationName>
+    <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </metadataProvider>
+  <pubDate>2013</pubDate>
+  <language>english</language>
+  <abstract>
+    <para>A spatially-explicit simulation model of hydrologic flow-paths was developed by Matthew C. Van de Bogert and collaborators for his PhD project, " Aquatic ecosystem carbon cycling: From individual lakes to the landscape." The model is coupled with an in-lake carbon model and simulates hydrologic flow paths in groundwater, wetlands, lakes, uplands, and streams. The goal of this modeling effort was to compare aquatic carbon cycling in two climate scenarios for the North Highlands Lake District (NHLD) of northern Wisconsin: one based on the current climate and the other based on a scenario with warmer winters where lakes and uplands do not freeze, hereinafter referred to as the "no freeze" scenario. In modeling this "no freeze" scenario the same precipitation and temperature data as the current climate model was used, however temperature inputs were artificially floored at 0 degrees Celsius. While not discussed in his dissertation, Van de Bogert considered two other climate scenarios each using the same precipitation and temperature data as the current climate scenario. These scenarios involved running the model after artificially raising and lowering the current temperature data by 10 degrees Celsius. Thus, four scenarios were considered in this modeling effort, the current climate scenario, the "no freeze" scenario, the +10 degrees scenario, and the -10 degrees scenario. These data are the outputs of the model under the different scenarios and include average monthly temperature, average monthly rainfall, average monthly snowfall, total monthly precipitation, daily evapotranspiration, daily surface runoff, daily groundwater recharge, and daily total runoff. Note that the results of how temperature inputs influence aquatic carbon cycling under these different scenarios is not included in this data set, refer to Van de Bogert (2011) for this information.Documentation: Van de Bogert, M.C., 2011. Aquatic ecosystem carbon cycling: From individual lakes to the landscape. ProQuest Dissertations and Theses. The University of Wisconsin - Madison, United States -- Wisconsin, p. 156.
+</para>
+  </abstract>
+  <keywordSet>
+    <keyword>abiotic</keyword>
+    <keyword>air</keyword>
+    <keyword>air temperature</keyword>
+    <keyword>annual</keyword>
+    <keyword>aquatic</keyword>
+    <keyword>aquatic ecosystems</keyword>
+    <keyword>atmosphere</keyword>
+    <keyword>basins</keyword>
+    <keyword>biology</keyword>
+    <keyword>carbon</keyword>
+    <keyword>carbon assimilation</keyword>
+    <keyword>carbon dioxide</keyword>
+    <keyword>carbon fluxes</keyword>
+    <keyword>climate</keyword>
+    <keyword>climate change</keyword>
+    <keyword>climatology</keyword>
+    <keyword>deposition</keyword>
+    <keyword>depth</keyword>
+    <keyword>dissolved inorganic carbon</keyword>
+    <keyword>dissolved nutrients</keyword>
+    <keyword>dissolved organic carbon</keyword>
+    <keyword>distribution</keyword>
+    <keyword>ecology</keyword>
+    <keyword>ecosystems</keyword>
+    <keyword>emissions</keyword>
+    <keyword>environment</keyword>
+    <keyword>evaporation</keyword>
+    <keyword>evapotranspiration</keyword>
+    <keyword>exchange</keyword>
+    <keyword>fluxes</keyword>
+    <keyword>forest ecology</keyword>
+    <keyword>forest ecosystems</keyword>
+    <keyword>forests</keyword>
+    <keyword>freshwater</keyword>
+    <keyword>frost</keyword>
+    <keyword>gas flux</keyword>
+    <keyword>gradient</keyword>
+    <keyword>groundwater</keyword>
+    <keyword>heat flux</keyword>
+    <keyword>hillslopes</keyword>
+    <keyword>historical</keyword>
+    <keyword>human disturbance</keyword>
+    <keyword>humans</keyword>
+    <keyword>humidity</keyword>
+    <keyword>hydrology</keyword>
+    <keyword>ice</keyword>
+    <keyword>infiltration</keyword>
+    <keyword>inventories</keyword>
+    <keyword>lake level</keyword>
+    <keyword>lakes</keyword>
+    <keyword>land cover</keyword>
+    <keyword>land use</keyword>
+    <keyword>land use history</keyword>
+    <keyword>landscape</keyword>
+    <keyword>landscape change</keyword>
+    <keyword>limnology</keyword>
+    <keyword>locations</keyword>
+    <keyword>long term</keyword>
+    <keyword>long term ecological research</keyword>
+    <keyword>mass balance</keyword>
+    <keyword>maximum temperature</keyword>
+    <keyword>minimum temperature</keyword>
+    <keyword>modeling</keyword>
+    <keyword>models</keyword>
+    <keyword>moisture</keyword>
+    <keyword>nutrient cycles</keyword>
+    <keyword>nutrient cycling</keyword>
+    <keyword>nutrients</keyword>
+    <keyword>organic carbon</keyword>
+    <keyword>organic matter</keyword>
+    <keyword>percent carbon</keyword>
+    <keyword>percent organic carbon</keyword>
+    <keyword>phenology</keyword>
+    <keyword>physical</keyword>
+    <keyword>precipitation</keyword>
+    <keyword>production</keyword>
+    <keyword>rainfall</keyword>
+    <keyword>runoff</keyword>
+    <keyword>seasonality</keyword>
+    <keyword>snow</keyword>
+    <keyword>snow accumulation</keyword>
+    <keyword>snow depth</keyword>
+    <keyword>spatial variability</keyword>
+    <keyword>storms</keyword>
+    <keyword>temperature</keyword>
+    <keyword>terrestrial</keyword>
+    <keyword>total organic carbon</keyword>
+    <keyword>transpiration</keyword>
+    <keyword>water</keyword>
+    <keyword>water balance</keyword>
+    <keyword>water level</keyword>
+    <keyword>water table</keyword>
+    <keyword>water temperature</keyword>
+    <keyword>watersheds</keyword>
+    <keyword>weather</keyword>
+    <keyword>wetlands</keyword>
+    <keywordThesaurus>LTER Keywords</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+    <keyword>C</keyword>
+    <keyword>catchment</keyword>
+    <keyword>CO2</keyword>
+    <keyword>DIC</keyword>
+    <keyword>DOC</keyword>
+    <keyword>drivers</keyword>
+    <keyword>food web</keyword>
+    <keyword>ground water</keyword>
+    <keyword>ice duration</keyword>
+    <keyword>ice freeze date</keyword>
+    <keyword>ice phenology</keyword>
+    <keyword>ice thaw date</keyword>
+    <keyword>lake characteristics</keyword>
+    <keyword>lake density</keyword>
+    <keyword>long-term change</keyword>
+    <keyword>meteorological data</keyword>
+    <keyword>North Temperate Lakes - LTER</keyword>
+    <keyword>NTL LTER</keyword>
+    <keyword>NTL related project</keyword>
+    <keyword>physical limnology</keyword>
+    <keyword>sensible heat flux</keyword>
+    <keyword>TIC</keyword>
+    <keyword>TOC</keyword>
+    <keyword>total inorganic carbon</keyword>
+    <keyword>total particulate matter</keyword>
+    <keyword>watershed</keyword>
+    <keyword>watershed characteristics</keyword>
+    <keyword>wetland</keyword>
+    <keywordThesaurus>NTL Keywords</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</para> <para>The Data User must realize that the data may be misinterpreted if taken out of context. We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</para> <para>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: name of data set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for data set, Center for Limnology, University of Wisconsin-Madison. The data set name and contact person for each data set can be found in the metadata header of the online data sets.</para> <para>The Data User must send two reprints of any publications resulting from use of the data to the address above. We would like to include such manuscripts in our LTER publications list.</para> <para>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para><para>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets.</para> <para>Our goal is to release all long term data associated with core research areas within 2 years of collection. These data and accompanying metadata will be available for download from the NTL-LTER web site.</para> <para>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.
+</para>
+    </section>
+  </intellectualRights>
+  <distribution>
+    <online>
+      <url function="information">http://lter.limnology.wisc.edu/node/33079</url>
+    </online>
+  </distribution>
+  <coverage>
+    <geographicCoverage>
+      <geographicDescription>Northern Highland Lakes District of Wisconsin, USA
+</geographicDescription>
+      <boundingCoordinates>
+        <westBoundingCoordinate>-90.930</westBoundingCoordinate>
+        <eastBoundingCoordinate>-88.060</eastBoundingCoordinate>
+        <northBoundingCoordinate>46.720</northBoundingCoordinate>
+        <southBoundingCoordinate>45.030</southBoundingCoordinate>
+      </boundingCoordinates>
+    </geographicCoverage>
+    <temporalCoverage>
+      <rangeOfDates>
+        <beginDate>
+          <calendarDate>1948-01-01</calendarDate>
+        </beginDate>
+        <endDate>
+          <calendarDate>2000-12-31</calendarDate>
+        </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  <contact>
+    <individualName>
+      <givenName>Matthew</givenName>
+      <surName>Van de Bogert</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+    <address>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>matthewvandebogert@gmail.com</electronicMailAddress>
+  </contact>
+  <contact>
+    <positionName>NTL LTER Information Manager</positionName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <publisher>
+    <organizationName>North Temperate Lakes LTER</organizationName>
+    <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </publisher>
+  <pubPlace>North Temperate Lakes</pubPlace>
+  <methods>
+    <methodStep>
+      <description>
+        <section>
+          <para>The spatially explicit Lakes, Uplands, Wetlands Integrator (LUWI) model of the NHLD was used to explore the interactions among climate, watershed connections, hydrology and carbon cycling.See Cardille et al. 2007 and Cardille et al. 2009 for details on the LUWI model.See Van de Bogert (2011) for a discussion of how these model outputs are used in conjunction with LUWI to predict the effects on lake carbon cycling under the current and "no freeze" climate scenarios.
+The climate data used in this modeling effort, precipitation and temperature, were obtained from Minoqua, Wisconsin, USA from 1948-2000. In order to test the effect of a climate without freezing temperatures on lake water and carbon cycling the current climate was modeled in addition to a &#226;&#128;&#156;no freeze&#226;&#128;&#157; scenario where a minimum air temperature of 0 degrees Celsius was imposed on the model. Note that Van de Bogert (2011) only focuses on the current and &#226;&#128;&#156;no freeze&#226;&#128;&#157; climate scenarios, but these data are representative of four climate scenarios: the current climate (base_minoqua_precip), the scenario where the current climate is artificially floored to zero degrees Celsius (no_below_zero), and the scenarios where the current climate is increased and decreased by 10 degrees Celsius (minus_10_degrees and plus_10_degrees).
+Furthermore, the temperature and precipitation data that was used for the current climate model runs was broken up into aggregates.The aggregates are the length of the 1948-2000 Minoqua temperature and precipitation data that was used in model runs. A total of seven different aggregates were used for model runs under each of the four climate scenarios. The aggregates include temperature and precipitation data from Minoqua, WI, USA for 1. the complete record from 1948-2000 (1948_2000) 2. the driest year which was 1976 (1976_driest) 3. The wettest year which was 1953 (1953_wettest) 4. the five driest years on record from 1948-2000 (5_driest) 5. the five wettest years on record from 1948-2000 (5_wettest) 6. the five coldest years on record for December, January, and February from 1948-2000 (5_coldest_djf) 7. the five warmest years on record for December, January, and February from 1948-2000 (5_warmest_djf).
+The volume and timing of precipitation to the region were unchanged between scenarios.Evaporation rates were derived from values obtained from the NTL-LTER study site, Sparkling Lake (46.01, -89.70). Refer to Van de Bogert (2011) for a more complete discussion of model inputs and a discussion of the results of the model output.
+Documentation:
+Van de Bogert, M.C., 2011. Aquatic ecosystem carbon cycling: From individual lakes to the landscape. ProQuest Dissertations and Theses. The University of Wisconsin - Madison, United States -- Wisconsin, p. 156.
+Cardille, J.A., Carpenter, S.R., Coe, M.T., Foley, J.A., Hanson, P.C., Turner, M.G., Vano, J.A., 2007. Carbon and water cycling in lake-rich landscapes: Landscape connections, lake hydrology, and biogeochemistry. Journal of Geophysical Research-Biogeosciences 112.
+Cardille, J.A., Carpenter, S.R., Foley, J.A., Hanson, P.C., Turner, M.G., Vano, J.A., 2009. Climate change and lakes: Estimating sensitivities of water and carbon budgets. Journal of Geophysical Research-Biogeosciences 114.
+</para>
+        </section>
+      </description>
+    </methodStep>
+  </methods>
+  <dataTable>
+    <entityName>nhld_hydro_climate_scenarios</entityName>
+    <entityDescription>A spatially-explicit simulation model of hydrologic flow-paths was developed by Matthew C. Van de Bogert and collaborators for his Phd project, " Aquatic ecosystem carbon cycling: From individual lakes to the landscape." The model is coupled with an in-lake carbon model and simulates hydrologic flow paths in groundwater, wetlands, lakes, uplands, and streams. The goal of this modeling effort was to compare aquatic carbon cycling in two climate scenarios for the North Highlands Lake District (NHLD) of northern Wisconsin: one based on the current climate and the other based on a scenario with warmer winters where lakes and uplands do not freeze, hereinafter referred to as the "no freeze" scenario. In modeling this "no freeze scenario" the same precipitation and temperature data as the current climate model was used, however temperature inputs were artificially floored at 0 degrees Celsius. While not discussed in his dissertation, Van de Bogert considered two other climate scenarios each using the same precipitation and temperature data as the current climate scenario. These scenarios involved running the model after artificially raising and lowering the current temperature data by 10 degrees Celsius. Thus, four scenarios were considered in this modeling effort, the current climate scenario, the "no freeze" scenario, the +10 degrees scenario, and the -10 degrees scenario.</entityDescription>
+    <physical>
+      <objectName>nhld_hydro_climate_scenarios.csv</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <recordDelimiter>\r\n</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+            <quoteCharacter>"</quoteCharacter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+      <distribution>
+        <online>
+          <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.286&amp;urlTail=ntl/data/33079_1_v1.csv</url>
+        </online>
+      </distribution>
+    </physical>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1948-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2000-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <attributeList>
+      <attribute>
+        <attributeName>hydro_scenario</attributeName>
+        <attributeLabel>hydrology scenario</attributeLabel>
+        <attributeDefinition>the hydrology scenario modeled: base_minoqua_precip = current climate scenario under precipitation and temperature data from Minoqua, Wisconsin 1948-2000. no_below_zero= same as current climate scenario except temperature inputs were artificially floored at 0 degrees Celsius. minus_ten_degrees= same as current climate scenario except temperature inputs artificially lowered by 10 degrees Celsius. plus_ten_degrees= same as current climate scenario except temperature inputs artificially raised by 10 degrees Celsius.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>the hydrology scenario modeled: base_minoqua_precip = current climate scenario under precipitation and temperature data from Minoqua, Wisconsin 1948-2000. no_below_zero= same as current climate scenario except temperature inputs were artificially floored at 0 degrees Celsius. minus_ten_degrees= same as current climate scenario except temperature inputs artificially lowered by 10 degrees Celsius. plus_ten_degrees= same as current climate scenario except temperature inputs artificially raised by 10 degrees Celsius.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>aggregation</attributeName>
+        <attributeLabel>time period aggregation</attributeLabel>
+        <attributeDefinition>period of time over which values are aggregated. 7 possible aggregates all based on precipitation and temperature data from Minoqua, Wisconsin, USA: 1948-2000 (1948_2000), 1976 the driest year on record (1976_driest), 1953 the wettest year on record (1953_wettest), the 5 driest years on record (5_driest), the 5 wettest years on record (5_wettest), the 5 coldest years on record for December, January, and February (5_coldestdjf); and the 5 warmest years on record for December, January, and February (5_warmestdjf). </attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>period of time over which values are aggregated. 7 possible aggregates all based on precipitation and temperature data from Minoqua, Wisconsin, USA: 1948-2000 (1948_2000), 1976 the driest year on record (1976_driest), 1953 the wettest year on record (1953_wettest), the 5 driest years on record (5_driest), the 5 wettest years on record (5_wettest), the 5 coldest years on record for December, January, and February (5_coldestdjf); and the 5 warmest years on record for December, January, and February (5_warmestdjf). </definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>month</attributeName>
+        <attributeLabel>month of the year</attributeLabel>
+        <attributeDefinition>month of the year</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>nominalMonth</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>avgmo_temp</attributeName>
+        <attributeLabel>average monthly temperature </attributeLabel>
+        <attributeDefinition>the average monthly temperature over a given aggregation period</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>celcius</customUnit>
+            </unit>
+            <precision>1e-08</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>avgmo_rainfall</attributeName>
+        <attributeLabel>average monthly rainfall</attributeLabel>
+        <attributeDefinition>the average monthly rainfall over a particular aggregation period</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>millimeterPerDay</customUnit>
+            </unit>
+            <precision>1e-08</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>avgmo_snowfall</attributeName>
+        <attributeLabel>average monthly snowfall</attributeLabel>
+        <attributeDefinition>the average snowfall for the month over a particular aggregation period</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>millimeterPerDay</customUnit>
+            </unit>
+            <precision>1e-06</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>totmo_precip</attributeName>
+        <attributeLabel>total precipitation</attributeLabel>
+        <attributeDefinition>total precipitation for the month over a particular aggregation period</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>millimeterPerDay</customUnit>
+            </unit>
+            <precision>1e-06</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>actual_daily_et</attributeName>
+        <attributeLabel>actual evapotranspiration</attributeLabel>
+        <attributeDefinition>the actual monthly evapotranspiration rate over a particular aggregation period</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>millimeterPerDay</customUnit>
+            </unit>
+            <precision>1e-09</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>daily_surface_runoff</attributeName>
+        <attributeLabel>daily surface runoff</attributeLabel>
+        <attributeDefinition>surface runoff under a given aggregation period</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>millimeterPerDay</customUnit>
+            </unit>
+            <precision>1e-09</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>daily_recharge</attributeName>
+        <attributeLabel>daily groundwater reacharge</attributeLabel>
+        <attributeDefinition>the daily groundwater recharge rate over a particular aggregation period</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>millimeterPerDay</customUnit>
+            </unit>
+            <precision>1e-09</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>daily_total_runoff</attributeName>
+        <attributeLabel>daily total runoff</attributeLabel>
+        <attributeDefinition>the daily total runoff (surface runoff + recharge) over a particular aggregation period. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>millimeterPerDay</customUnit>
+            </unit>
+            <precision>1e-06</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+  <metadata>
+    <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+<ns2:unit abbreviation="" id="nominalMonth" name="nominalMonth" unitType=""><ns2:description /></ns2:unit>
+
+<ns2:unit abbreviation="" id="celcius" name="celcius" unitType=""><ns2:description /></ns2:unit>
+
+<ns2:unit id="millimeterPerDay" />
+    </ns2:unitList>
+  </metadata>
+</additionalMetadata>
+</ns0:eml>

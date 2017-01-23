@@ -1,0 +1,2590 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.33.24" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+    <access authSystem="knb" order="allowFirst" scope="document">
+        <allow>
+            <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+        </allow>
+        <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+        </allow>
+    </access>
+    <dataset scope="document">
+        <title>MCR LTER: Coral Reef: Ocean Currents and Biogeochemistry: Moored Thermistor String Data - CBYTS</title>
+        <creator id="MCR" scope="document">
+            <organizationName>Moorea Coral Reef LTER</organizationName>
+            <address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+            <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        </creator>
+        <creator id="lwashburn" scope="document">
+            <individualName>
+                <givenName>Libe</givenName>
+                <surName>Washburn</surName>
+            </individualName>
+            <organizationName>Moorea Coral Reef LTER</organizationName>
+            <positionName>Associated Investigator</positionName>
+            <address scope="document">
+				<deliveryPoint>Department Of Geography</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-4060</postalCode>
+				<country>USA</country>
+			</address>
+            <phone phonetype="voice">805.893.7367</phone>
+            <electronicMailAddress>washburn@geog.ucsb.edu</electronicMailAddress>
+            <onlineUrl>http://www.geog.ucsb.edu/people/faculty/libe-washburn.php</onlineUrl>
+        </creator>
+        <associatedParty id="cgotschalk" scope="document">
+            <individualName>
+                <givenName>Chris</givenName>
+                <surName>Gotschalk</surName>
+            </individualName>
+            <positionName>Data Analyst</positionName>
+            <organizationName>Moorea Coral Reef LTER</organizationName>
+            <address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+            <electronicMailAddress>gots@lifesci.ucsb.edu</electronicMailAddress>
+            <role>Data Analyst</role>
+        </associatedParty>
+        <associatedParty id="kseydel" scope="document">
+            <individualName>
+                <givenName>Keith</givenName>
+                <surName>Seydel</surName>
+            </individualName>
+            <organizationName>Moorea Coral Reef LTER</organizationName>
+            <positionName>Lead Field Technician</positionName>
+            <address scope="document">
+                <deliveryPoint>Marine Science Institute</deliveryPoint>
+                <deliveryPoint>University of California</deliveryPoint>
+                <city>Santa Barbara</city>
+                <administrativeArea>CA</administrativeArea>
+                <postalCode>93106-6150</postalCode>
+                <country>USA</country>
+            </address>
+            <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+            <role>Lead Field Technician</role>
+        </associatedParty>
+        <pubDate>2011-10-18</pubDate>
+        <abstract>
+            <para>A vertically moored thermistor string sampled year-round on the reef at
+                Cook's Bay in Moorea, French Polynesia. Sampling began in 2005 and ended in August 2011. All data have
+                been interpolated onto a 20 min grid. Thermistors were spaced vertically along the
+                mooring line 4, 8, 12, 16, and 20 meters above the bottom. Pressure measurements are
+                also provided from two of the instruments typically located at 4 and 20 meters above
+                the bottom.</para>
+        </abstract>
+        <keywordSet>
+            <keyword keywordType="place">Moorea Coral Reef</keyword>
+            <keyword keywordType="place">Cooks Bay</keyword>
+            <keyword keywordType="place">CBYTS</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">MCR</keyword>
+            <keyword keywordType="theme">LTER</keyword>          
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Ocean_biogeochemistry</keyword>
+            <keyword keywordType="theme">moorings</keyword>
+            <keyword keywordType="theme">Scattering</keyword>
+            <keyword keywordType="theme">Conductivity</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Ocean Currents</keyword>
+            <keyword keywordType="theme">Fluorescence</keyword>
+            <keyword keywordType="theme">Density</keyword>
+            <keyword keywordType="theme">Pressure</keyword>
+            <keyword keywordType="theme">Salinity</keyword>
+            <keyword keywordType="theme">Temperature</keyword>
+            <keyword keywordType="theme">Water Temperature</keyword>
+            <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Marine</keyword>
+            <keywordThesaurus>KNB</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Disturbance</keyword>
+            <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Time Series Program</keyword>
+            <keywordThesaurus>MCR Core Activity</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Bio-Physical Coupling</keyword>
+            <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>Data collected under the auspices of the MCR LTER are available to the public
+                after primary publication, or at most two years after the completion of the study
+                unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+                acceptance of the following conditions:<orderedlist>
+                    <listitem>
+                        <para>1. The user agrees to provide valid name and contact information prior
+                            to downloading online data. This information will be used to contact the
+                            user in case of changes to the data, and may also be used by data set
+                            authors and MCR LTER project administrators to document data
+                            usage.</para>
+                    </listitem>
+                    <listitem>
+                        <para>2. The user agrees to cite the data set author and MCR LTER in all
+                            publications in which the data are used, as per the instructions in the
+                            data documentation. If no specific instructions are provided in the data
+                            documentation, the user is requested to include the following statement:
+                            "Data sets were provided by the Moorea Coral Reef Ecosystem LTER,
+                            funded by the US National Science Foundation (OCE-0417412)".</para>
+                    </listitem>
+                    <listitem>
+                        <para>3. The user agrees to provide one copy of any manuscript based on MCR
+                            LTER data to the data set author prior to submitting it for
+                            publication.</para>
+                    </listitem>
+                    <listitem>
+                        <para>4. The user agrees to send two hard copies of any published manuscript
+                            based on MCR LTER data to the following address: Dr. Andrew J. Brooks
+                            Deputy Program Director, MCR LTER Marine Science Institute University of
+                            California Santa Barbara, CA 93106-6150 The user also agrees to send one
+                            electronic copy (pdf format) to the following e-mail address:
+                            brooks@msi.ucsb.edu</para>
+                    </listitem>
+                    <listitem>
+                        <para>5. Users are prohibited from selling or redistributing any data
+                            provided by MCR LTER without explicit prior permission.</para>
+                    </listitem>
+                    <listitem>
+                        <para>6. Users are encouraged to contact original investigators responsible
+                            for data. Where appropriate, researchers whose projects are integrally
+                            dependent on MCR LTER data are encouraged to consider collaboration
+                            and/or co-authorship with original investigators.</para>
+                    </listitem>
+                    <listitem>
+                        <para>7. Extensive efforts are made to ensure that online data are accurate
+                            and up to date, but the authors and the MCR LTER will not take
+                            responsibility for any errors that may exist in data provided online.
+                            Furthermore, the user assumes all responsibility for errors in analysis
+                            or judgment resulting from use of the data.</para>
+                    </listitem>
+                    <listitem>
+                        <para>8. Any violation of the terms of this agreement will result in
+                            immediate forfeiture of the data and loss of access privileges to other
+                            MCR LTER data sets.</para>
+                    </listitem>
+                </orderedlist>
+            </para>
+        </intellectualRights>
+        <distribution id="physoCoverage" scope="system" system="mcrlter">
+            <online>
+                <onlineDescription>Coverage diagram</onlineDescription>
+                <url function="information">http://mcr.lternet.edu/data/db/physoDataCoverage.php</url>
+            </online>
+        </distribution>
+        <coverage scope="document">
+            <temporalCoverage scope="document">
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>2005-01-01</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2011-08-23</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <geographicCoverage scope="document">
+                <geographicDescription>Moorea, French Polynesia, CBYTS in Cooks Bay</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-149.823</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-149.823</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-17.498</northBoundingCoordinate>
+                    <southBoundingCoordinate>-17.498</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para>This is an ongoing dataset. Data are added twice per year. There is a delay
+                    between collection of raw data and the analysis. Public release is not delayed
+                    after data is processed.</para>
+            </description>
+            <changeHistory>
+                <changeScope>temporalCoverage</changeScope>
+                <oldValue>ongoing</oldValue>
+                <changeDate>2012-08-14</changeDate>
+                <comment>Per Keith Seydel we've been informed this time series was terminated in August 2011.  
+                No further data updates will be apended to this dataset.</comment>
+            </changeHistory>
+        </maintenance>
+        <contact id="mcr-boilerplate-contact_MCR" scope="system" system="mcrlter">
+            <positionName>Information Manager, Moorea Coral Reef LTER</positionName>
+            <address scope="document">
+	            <deliveryPoint>Marine Science Institute</deliveryPoint>
+	            <deliveryPoint>University of California</deliveryPoint>
+	            <city>Santa Barbara</city>
+	            <administrativeArea>California</administrativeArea>
+	            <postalCode>93106-6150</postalCode>
+	            <country>United States</country>
+	        </address>
+            <phone phonetype="voice">805 893 2071</phone>
+            <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+            <onlineUrl>http://mcr.lternet.edu</onlineUrl>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Deployment and Maintenance:</title>
+                        <para> Moorings are visited periodically by SCUBA divers for routine
+                            maintenance and to upload data. Currently this is done twice per year;
+                            prior to 2010 this was done four times per year. </para>
+                    </section>
+                </description>
+                <protocol scope="document">
+                    <title>Mooring Time Series Protocol - Cooks Bay Thermistor String </title>
+                    <creator scope="document">
+                        <individualName>
+                            <surName>Seydel</surName>
+                        </individualName>
+                    </creator>
+                    <distribution scope="document">
+                        <online>
+                            <url function="download">http://mcr.lternet.edu/external/protocol/oceanographyMooring/MCR_LTER_Cooks_Bay_t-string_protocol.pdf</url>
+                        </online>
+                    </distribution>
+                </protocol>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Data Handling:</title>
+                        <para> Data are filtered and processed to derive calculated data products
+                            and for quality control. Raw data are recorded at a short time interval,
+                            then processed to remove noise and resampled at 3 points per hour.
+                        </para>
+                    </section>
+                </description>
+                <protocol scope="document">
+                    <title>Mooring Time Series Protocol - Matlab Data Processing</title>
+                    <creator scope="document">
+                        <individualName>
+                            <surName>Gotschalk</surName>
+                        </individualName>
+                    </creator>
+                    <distribution scope="document">
+                        <online>
+                            <url function="download">http://mcr.lternet.edu/external/protocol/oceanographyMooring/MCR_LTER_Monster_processing_steps.pdf</url>
+                        </online>
+                    </distribution>
+                </protocol>
+            </methodStep>
+            <qualityControl>
+                <description>
+                    <section>
+                        <title>Quality Assurance for aggregate completeness</title>
+                        <para>Data coverage fraction is between 0 and 1 and is defined as the number
+                            of measurements actually available divided by the number of measurements
+                            theoretically possible in the time aggregation bin. </para>
+                        <para>N_measurements_available / ( time_span / measurement_period ).</para>
+                    </section>
+                </description>
+            </qualityControl>
+        </methods>
+        <project scope="document">
+            <title>The Moorea Coral Reef (MCR) LTER</title>
+            <personnel id="RussID" scope="document">
+                <individualName>
+                    <givenName>Russell</givenName>
+                    <surName>Schmitt</surName>
+                </individualName>
+                <organizationName>Moorea Coral Reef LTER</organizationName>
+                <positionName>Lead Principal Investigator</positionName>
+                <address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+                <phone phonetype="fax">805.893.3777</phone>
+                <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+                <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+                <role>Principal Investigator</role>
+            </personnel>
+            <personnel id="SallyID" scope="document">
+                <individualName>
+                    <givenName>Sally</givenName>
+                    <surName>Holbrook</surName>
+                </individualName>
+                <organizationName>Moorea Coral Reef LTER</organizationName>
+                <positionName>Principal Investigator</positionName>
+                <address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+                <phone phonetype="fax">805.893.3777</phone>
+                <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+                <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+                <role>Principal Investigator</role>
+            </personnel>
+            <personnel id="PeteID" scope="document">
+                <individualName>
+                    <givenName>Peter</givenName>
+                    <surName>Edmunds</surName>
+                </individualName>
+                <organizationName>Moorea Coral Reef LTER</organizationName>
+                <positionName>Principal  Investigator</positionName>
+                <address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+                <phone phonetype="voice">818.677.2502</phone>
+                <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+                <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+                <role>Principal Investigator</role>
+            </personnel>
+            <personnel id="BobID" scope="document">
+                <individualName>
+                    <givenName>Robert</givenName>
+                    <surName>Carpenter</surName>
+                </individualName>
+                <organizationName>Moorea Coral Reef LTER</organizationName>
+                <positionName>Principal  Investigator</positionName>
+                <address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+                <phone phonetype="voice">818-677-3256</phone>
+                <phone phonetype="fax">818-677-2034</phone>
+                <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+                <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+                <role>Principal Investigator</role>
+            </personnel>
+            <funding>
+                <para>NSF (LTER) OCE-0417412</para>
+            </funding>
+        </project>
+
+        <dataTable scope="document">
+            <entityName>Moored Thermistor String Data - CBYTS</entityName>
+            <entityDescription>Moored Data from site CBYTS; 20 minute sampling.  This is a very large file.</entityDescription>
+            <physical scope="document">
+                <objectName>TString_CBYTS.txt</objectName>
+                <size unit="Mb">57</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>0</numHeaderLines>
+                        <numFooterLines>0</numFooterLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>#x20</fieldDelimiter> 
+                            <collapseDelimiters>yes</collapseDelimiters>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.33&amp;entityindex=1&amp;format=csv_xl</url>
+                    </online>                  
+                    <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+                </distribution>
+            </physical>
+            
+            
+            <attributeList>
+                
+                <attribute id="matlab_datenum1" scope="document">
+                    <attributeName>matlab_datenum</attributeName>
+                    <attributeLabel>matlab_datenum</attributeLabel>
+                    <attributeDefinition>day since jan 1 0000 + fractional day in UTC</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>nominalDay</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="year2" scope="document">
+                    <attributeName>year</attributeName>
+                    <attributeLabel>year</attributeLabel>
+                    <attributeDefinition>4 digit year in UTC</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>yyyy</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="month3" scope="document">
+                    <attributeName>month</attributeName>
+                    <attributeLabel>month</attributeLabel>
+                    <attributeDefinition>2 digit month in UTC</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>mm</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="decimal_day4" scope="document">
+                    <attributeName>decimal_day</attributeName>
+                    <attributeLabel>decimal_day</attributeLabel>
+                    <attributeDefinition>julian day plus fractional day in UTC</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>nominalDay</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                    <maximum exclusive="false">366</maximum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temp_01m_HeightAboveBottom92" scope="document">
+                    <attributeName>Temp_01m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_01m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_02m_HeightAboveBottom93" scope="document">
+                    <attributeName>Temp_02m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_02m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_03m_HeightAboveBottom94" scope="document">
+                    <attributeName>Temp_03m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_03m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_04m_HeightAboveBottom95" scope="document">
+                    <attributeName>Temp_04m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_04m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_05m_HeightAboveBottom96" scope="document">
+                    <attributeName>Temp_05m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_05m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_06m_HeightAboveBottom97" scope="document">
+                    <attributeName>Temp_06m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_06m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_07m_HeightAboveBottom98" scope="document">
+                    <attributeName>Temp_07m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_07m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_08m_HeightAboveBottom99" scope="document">
+                    <attributeName>Temp_08m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_08m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_09m_HeightAboveBottom100" scope="document">
+                    <attributeName>Temp_09m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_09m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_10m_HeightAboveBottom101" scope="document">
+                    <attributeName>Temp_10m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_10m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_11m_HeightAboveBottom102" scope="document">
+                    <attributeName>Temp_11m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_11m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_12m_HeightAboveBottom103" scope="document">
+                    <attributeName>Temp_12m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_12m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_13m_HeightAboveBottom104" scope="document">
+                    <attributeName>Temp_13m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_13m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_14m_HeightAboveBottom105" scope="document">
+                    <attributeName>Temp_14m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_14m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_15m_HeightAboveBottom106" scope="document">
+                    <attributeName>Temp_15m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_15m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_16m_HeightAboveBottom107" scope="document">
+                    <attributeName>Temp_16m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_16m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_17m_HeightAboveBottom108" scope="document">
+                    <attributeName>Temp_17m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_17m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_18m_HeightAboveBottom109" scope="document">
+                    <attributeName>Temp_18m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_18m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_19m_HeightAboveBottom110" scope="document">
+                    <attributeName>Temp_19m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_19m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Temp_20m_HeightAboveBottom111" scope="document">
+                    <attributeName>Temp_20m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temp_20m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_21m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_21m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_21m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (21) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_22m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_22m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_22m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (22) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_23m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_23m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_23m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (23) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_24m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_24m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_24m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (24) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_25m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_25m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_25m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (25) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_26m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_26m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_26m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (26) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_27m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_27m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_27m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (27) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_28m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_28m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_28m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (28) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_29m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_29m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_29m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (29) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Temperature_30m_HeightAboveBottom" scope="document">
+                    <attributeName>Temperature_30m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Temperature_30m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>temperature from SBE (30) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                
+                <attribute id="Pressure_01m_HeightAboveBottom112" scope="document">
+                    <attributeName>Pressure_01m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_01m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_02m_HeightAboveBottom113" scope="document">
+                    <attributeName>Pressure_02m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_02m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_03m_HeightAboveBottom114" scope="document">
+                    <attributeName>Pressure_03m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_03m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_04m_HeightAboveBottom115" scope="document">
+                    <attributeName>Pressure_04m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_04m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_05m_HeightAboveBottom116" scope="document">
+                    <attributeName>Pressure_05m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_05m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_06m_HeightAboveBottom117" scope="document">
+                    <attributeName>Pressure_06m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_06m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_07m_HeightAboveBottom118" scope="document">
+                    <attributeName>Pressure_07m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_07m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_08m_HeightAboveBottom119" scope="document">
+                    <attributeName>Pressure_08m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_08m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_09m_HeightAboveBottom120" scope="document">
+                    <attributeName>Pressure_09m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_09m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_10m_HeightAboveBottom121" scope="document">
+                    <attributeName>Pressure_10m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_10m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_11m_HeightAboveBottom122" scope="document">
+                    <attributeName>Pressure_11m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_11m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_12m_HeightAboveBottom123" scope="document">
+                    <attributeName>Pressure_12m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_12m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_13m_HeightAboveBottom124" scope="document">
+                    <attributeName>Pressure_13m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_13m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_14m_HeightAboveBottom125" scope="document">
+                    <attributeName>Pressure_14m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_14m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_15m_HeightAboveBottom126" scope="document">
+                    <attributeName>Pressure_15m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_15m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_16m_HeightAboveBottom127" scope="document">
+                    <attributeName>Pressure_16m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_16m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_17m_HeightAboveBottom128" scope="document">
+                    <attributeName>Pressure_17m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_17m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_18m_HeightAboveBottom129" scope="document">
+                    <attributeName>Pressure_18m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_18m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_19m_HeightAboveBottom130" scope="document">
+                    <attributeName>Pressure_19m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_19m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="Pressure_20m_HeightAboveBottom131" scope="document">
+                    <attributeName>Pressure_20m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_20m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE39 (n) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                
+                <attribute id="Pressure_21m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_21m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_21m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (21) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_22m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_22m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_22m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (22) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_23m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_23m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_23m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (23) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_24m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_24m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_24m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (24) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_25m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_25m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_25m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (25) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_26m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_26m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_26m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (26) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_27m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_27m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_27m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (27) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_28m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_28m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_28m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (28) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_29m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_29m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_29m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (29) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                
+                <attribute id="Pressure_30m_HeightAboveBottom" scope="document">
+                    <attributeName>Pressure_30m_HeightAboveBottom</attributeName>
+                    <attributeLabel>Pressure_30m_HeightAboveBottom</attributeLabel>
+                    <attributeDefinition>pressure from SBE (30) meters above bottom</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>decibar</customUnit>
+                            </unit>
+                            <precision>0.0001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>9999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+            </attributeList>           
+            <numberOfRecords>174676</numberOfRecords>
+        </dataTable>
+
+
+
+        
+
+        <dataTable scope="document">
+            <entityName>Daily Average Moored Thermistor String Data - CBYTS</entityName>
+            <entityDescription>Moored data from site CBYTS; daily average</entityDescription>
+            <physical scope="document">
+                <objectName>CBYTS_PhysoData_Daily_average.csv</objectName>
+                <size unit="Kb">170</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <numFooterLines>0</numFooterLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.33&amp;entityindex=2&amp;format=csv_xl</url>
+                    </online>                       
+                    <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="d_time_local" scope="document">
+                    <attributeName>time_local</attributeName>
+                    <attributeLabel>Moorea local time</attributeLabel>
+                    <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="d_time_utc" scope="document">
+                    <attributeName>time_utc</attributeName>
+                    <attributeLabel>Time UTC</attributeLabel>
+                    <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="d_upper_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>upper_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Upper water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Upper water column depth averaged temperature (&gt;13m height above bottom) (sbe39s only)
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="d_data_coverage_upper_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_upper_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for upper_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+                <attribute id="d_middle_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>middle_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Middle water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Middle water column depth averaged temperature (&gt;7m to &lt;12m height above bottom) (sbe39s only)                       
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="d_data_coverage_middle_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_middle_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for middle_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+                <attribute id="d_bottom_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>bottom_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Lower water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Lower water column depth averaged temperature ( &lt; 6m height above bottom) (sbe39s only)                       
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="d_data_coverage_bottom_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_bottom_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for bottom_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+
+            </attributeList>
+            <numberOfRecords>2191</numberOfRecords>
+        </dataTable>
+
+        <dataTable scope="document">
+            <entityName>Weekly Average Moored Thermistor String Data - CBYTS</entityName>
+            <entityDescription>Moored data from site CBYTS; weekly average</entityDescription>
+            <physical scope="document">
+                <objectName>CBYTS_PhysoData_Weekly_average.csv</objectName>
+                <size unit="Kb">25</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <numFooterLines>0</numFooterLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.33&amp;entityindex=3&amp;format=csv_xl</url>
+                    </online>                
+                    <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="w_time_local" scope="document">
+                    <attributeName>time_local</attributeName>
+                    <attributeLabel>Moorea local time</attributeLabel>
+                    <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="w_time_utc" scope="document">
+                    <attributeName>time_utc</attributeName>
+                    <attributeLabel>Time UTC</attributeLabel>
+                    <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+
+
+                <attribute id="w_upper_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>upper_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Upper water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Upper water column depth averaged temperature (&gt;13m height above bottom) (sbe39s only)
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="w_data_coverage_upper_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_upper_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for upper_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+                <attribute id="w_middle_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>middle_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Middle water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Middle water column depth averaged temperature (&gt;7m to &lt;12m height above bottom) (sbe39s only)                       
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="w_data_coverage_middle_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_middle_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for middle_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+                <attribute id="w_bottom_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>bottom_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Lower water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Lower water column depth averaged temperature ( &lt; 6m height above bottom) (sbe39s only)                       
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="w_data_coverage_bottom_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_bottom_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for bottom_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+            </attributeList>
+            <numberOfRecords>314</numberOfRecords>
+        </dataTable>
+
+        <dataTable scope="document">
+            <entityName>Monthly Average Moored Thermistor String Data - CBYTS</entityName>
+            <entityDescription>Moored data from site CBYTS; monthly average</entityDescription>
+            <physical scope="document">
+                <objectName>CBYTS_PhysoData_Monthly_average.csv</objectName>
+                <size unit="Kb">6.0</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <numFooterLines>0</numFooterLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.33&amp;entityindex=4&amp;format=csv_xl</url>
+                    </online>        
+                    <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="m_time_local" scope="document">
+                    <attributeName>time_local</attributeName>
+                    <attributeLabel>Moorea local time</attributeLabel>
+                    <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="m_time_utc" scope="document">
+                    <attributeName>time_utc</attributeName>
+                    <attributeLabel>Time UTC</attributeLabel>
+                    <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="m_upper_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>upper_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Upper water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Upper water column depth averaged temperature (&gt;13m height above bottom) (sbe39s only)
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="m_data_coverage_upper_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_upper_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for upper_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+                <attribute id="m_middle_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>middle_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Middle water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Middle water column depth averaged temperature (&gt;7m to &lt;12m height above bottom) (sbe39s only)                       
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="m_data_coverage_middle_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_middle_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for middle_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+                <attribute id="m_bottom_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>bottom_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Lower water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Lower water column depth averaged temperature ( &lt; 6m height above bottom) (sbe39s only)                       
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="m_data_coverage_bottom_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_bottom_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for bottom_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+
+            </attributeList>
+            <numberOfRecords>73</numberOfRecords>
+        </dataTable>
+
+        <dataTable scope="document">
+            <entityName>Yearly Average Moored Thermistor String Data - CBYTS</entityName>
+            <entityDescription>Moored data from site CBYTS; yearly average</entityDescription>
+            <physical scope="document">
+                <objectName>CBYTS_PhysoData_Yearly_average.csv</objectName>
+                <size unit="bytes">874</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <numFooterLines>0</numFooterLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.33&amp;entityindex=5&amp;format=csv_xl</url>
+                    </online>                          
+                    <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="y_time_local" scope="document">
+                    <attributeName>time_local</attributeName>
+                    <attributeLabel>Moorea local time</attributeLabel>
+                    <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="y_time_utc" scope="document">
+                    <attributeName>time_utc</attributeName>
+                    <attributeLabel>Time UTC</attributeLabel>
+                    <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="y_upper_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>upper_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Upper water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Upper water column depth averaged temperature (&gt;13m height above bottom) (sbe39s only)
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="y_data_coverage_upper_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_upper_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for upper_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+                <attribute id="y_middle_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>middle_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Middle water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Middle water column depth averaged temperature (&gt;7m to &lt;12m height above bottom) (sbe39s only)                       
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="y_data_coverage_middle_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_middle_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for middle_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+
+                </attribute>
+                <attribute id="y_bottom_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>bottom_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Lower water column depth averaged temperature</attributeLabel>
+                    <attributeDefinition>Lower water column depth averaged temperature ( &lt; 6m height above bottom) (sbe39s only)                       
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-999</code>
+                        <codeExplanation>not available</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+
+                <attribute id="y_data_coverage_bottom_watercolumn_temperature_sbe39_C" scope="document">
+                    <attributeName>data_coverage_bottom_watercolumn_temperature_sbe39_C</attributeName>
+                    <attributeLabel>Data coverage</attributeLabel>
+                    <attributeDefinition>Fraction of data points available out of those possible for bottom_watercolumn_temperature_sbe39_C
+                    </attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>fraction</customUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>7</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit abbreviation="o/o" id="percent" multiplerToSI=".01" name="percent" parentSI="gramsPerGram" unitType="massPerMass">
+                    <description>parts per hundred</description>
+                </unit>
+                <unit id="fraction" multiplerToSI="1" name="fraction">
+                    <description>fraction</description>
+                </unit>
+                <unit id="wattPerMeterSquared" multiplierToSI="1" name="wattsPerSquareMeter" parentSI="meter" unitType="power">
+                    <description>irradiance unit</description>
+                </unit>
+                <unit abbreviation="dbar" id="decibar" multiplerToSI="10,000" name="decibar" parentSI="pascal" unitType="pressure">
+                    <description>pressure</description>
+                </unit>
+                <unit abbreviation="S*m-1" id="siemensPerMeter" multiplerToSI="1" name="siemensPerMeter" parentSI="siemen" unitType="conductance">
+                    <description>conductivity unit, seawater</description>
+                </unit>
+                <unit abbreviation="kg*m-3" id="kilogramPerMeterCubed" name="kilogramPerMeterCubed" unitType="massDensity">
+                    <description>kilogram per cubic meter</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+</ns0:eml>

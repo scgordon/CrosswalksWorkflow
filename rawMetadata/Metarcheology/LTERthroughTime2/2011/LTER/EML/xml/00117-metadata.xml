@@ -1,0 +1,549 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.180.15" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="180" system="VCR">
+   <alternateIdentifier>VCR11172</alternateIdentifier>
+   <title>Ground surface elevation measurements for Surface Elevation Tables in the Brownsville Marsh on the Virginia Coast Reserve 1998</title>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Linda</givenName>
+         <surName>Blum</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+      </address>
+      <phone phonetype="voice">(434) 924-0560</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>lkb2e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">lblum</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Robert</givenName>
+         <surName>Christian</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>East Carolina University, Department of Biology</deliveryPoint>
+         <city>Greenville</city>
+         <administrativeArea>NC</administrativeArea>
+         <postalCode>27858-4353</postalCode>
+      </address>
+      <phone phonetype="voice">(252) 328-1835</phone>
+      <phone phonetype="facsimile">(252) 328-4178</phone>
+      <electronicMailAddress>christianr@ecu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">rchristian</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Mark</givenName>
+         <surName>Brinson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>East Carolina University, Biology Department</deliveryPoint>
+         <city>Greenville</city>
+         <administrativeArea>NC</administrativeArea>
+         <postalCode>27858-4353</postalCode>
+      </address>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">mbrinson</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2011-02-09</pubDate>
+   <abstract>
+  <para>This dataset contains detailed survey information regarding suface elevation table (SET) plots located in the Phillips Creek Marsh near Nassawadox, VA. It contains specific information about the relationship of the SET center-pipe and the adjoining marsh surface relative to sea level.</para>
+  <para> NOTE: These research plots are highly sensitive to disturbance and should not be approached by anyone not engaged in taking measurements. </para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>BROWNS - Brownsville Marsh, Eastern Shore</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.827000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.842100</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.470400</northBoundingCoordinate>
+            <southBoundingCoordinate>37.452400</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <singleDateTime>
+            <calendarDate>1998-09-25</calendarDate>
+         </singleDateTime>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Linda</givenName>
+         <surName>Blum</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+      </address>
+      <phone phonetype="voice">(434) 924-0560</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>lkb2e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">lblum</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <project id="VCR11091">
+      <title>Surface Elevation Tables on the Virginia Coast </title>
+      <personnel>
+         <individualName>
+            <salutation>Dr.</salutation>
+            <givenName>Linda</givenName>
+            <surName>Blum</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+            <city>Charlottesville</city>
+            <administrativeArea>VA</administrativeArea>
+            <postalCode>22903</postalCode>
+         </address>
+         <phone phonetype="voice">(434) 924-0560</phone>
+         <phone phonetype="facsimile">(434) 982-2137</phone>
+         <electronicMailAddress>lkb2e@virginia.edu</electronicMailAddress>
+         <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">lblum</userId>
+         <role>originator</role>
+      </personnel>
+   </project>
+   <dataTable>
+      <entityName>VCR11172_1</entityName>
+      <entityDescription>Ground surface elevation measurements for Surface Elevation Tables in the Brownsville Marsh on the Virginia Coast Reserve 1998</entityDescription>
+      <physical>
+         <objectName>SETMeasurements.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>23</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0D#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0D#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.180.15&amp;urlHeadID=2&amp;urlTail=1/VCR11172/VCR11172/SETMeasurements.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR11172.DATE">
+            <attributeName>DATE</attributeName>
+            <attributeLabel>Date of data collection</attributeLabel>
+            <attributeDefinition>DATE - Date of data collection</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Date of data collection</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.SITE">
+            <attributeName>SITE</attributeName>
+            <attributeLabel>SET location identifier</attributeLabel>
+            <attributeDefinition>SITE - SET location identifier</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>SET location identifier</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.POSITION">
+            <attributeName>POSITION</attributeName>
+            <attributeLabel>Location of measurement within a site</attributeLabel>
+            <attributeDefinition>POSITION - Location of measurement within a site</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Location of measurement within a site</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.OCTPIPE">
+            <attributeName>OCTPIPE</attributeName>
+            <attributeLabel>Top of pipe on 16 October 1998, MSL</attributeLabel>
+            <attributeDefinition>OCTPIPE - Top of pipe on 16 October 1998, MSL</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.DECPIPE">
+            <attributeName>DECPIPE</attributeName>
+            <attributeLabel>Top of pipe on 12 December 1998, MSL</attributeLabel>
+            <attributeDefinition>DECPIPE - Top of pipe on 12 December 1998, MSL</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.DECCOLLAR">
+            <attributeName>DECCOLLAR</attributeName>
+            <attributeLabel>Top of collar on 12 December 1998</attributeLabel>
+            <attributeDefinition>DECCOLLAR - Top of collar on 12 December 1998</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.PIPECOLLARDIFF">
+            <attributeName>PIPECOLLARDIFF</attributeName>
+            <attributeLabel>Difference between pipe top and collar top on 12 December 1998</attributeLabel>
+            <attributeDefinition>PIPECOLLARDIFF - Difference between pipe top and collar top on 12 December 1998</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.OCTPIPEDIFF">
+            <attributeName>OCTPIPEDIFF</attributeName>
+            <attributeLabel>Difference of Dec pipe and collar (PIPECOLLARDIFF) + Oct pipe top (OCTPIPE)</attributeLabel>
+            <attributeDefinition>OCTPIPEDIFF - Difference of Dec pipe and collar (PIPECOLLARDIFF) + Oct pipe top (OCTPIPE)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.SEPTSET">
+            <attributeName>SEPTSET</attributeName>
+            <attributeLabel>Average SET measurement, Sept 98</attributeLabel>
+            <attributeDefinition>SEPTSET - Average SET measurement, Sept 98</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.PINTOP">
+            <attributeName>PINTOP</attributeName>
+            <attributeLabel>Top of pin (MSL) = PIPECOLLAR DIFF + OCTPIPE&amp;DIFF</attributeLabel>
+            <attributeDefinition>PINTOP - Top of pin (MSL) = PIPECOLLAR DIFF + OCTPIPE&amp;DIFF</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.PINLENGTH">
+            <attributeName>PINLENGTH</attributeName>
+            <attributeLabel>Length of pin (constant)</attributeLabel>
+            <attributeDefinition>PINLENGTH - Length of pin (constant)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.MARSHMSL">
+            <attributeName>MARSHMSL</attributeName>
+            <attributeLabel>Mean sea level of marsh surface (PINTOP - PINLENGTH)</attributeLabel>
+            <attributeDefinition>MARSHMSL - Mean sea level of marsh surface (PINTOP - PINLENGTH)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.AVERAGEMSL">
+            <attributeName>AVERAGEMSL</attributeName>
+            <attributeLabel>Average marsh surface elevation relative to MSL for the SITE</attributeLabel>
+            <attributeDefinition>AVERAGEMSL - Average marsh surface elevation relative to MSL for the SITE</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.DATAQUALITY">
+            <attributeName>DATAQUALITY</attributeName>
+            <attributeLabel>Quality of Data, coded G (good) or P (poor)</attributeLabel>
+            <attributeDefinition>DATAQUALITY - Quality of Data, coded G (good) or P (poor)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Quality of Data, coded G (good) or P (poor)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.LATITUDE">
+            <attributeName>LATITUDE</attributeName>
+            <attributeLabel>GPS Location for site (Latitude) according to Google Earth</attributeLabel>
+            <attributeDefinition>LATITUDE - GPS Location for site (Latitude) according to Google Earth</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>decimal de</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR11172.LONGITUDE">
+            <attributeName>LONGITUDE</attributeName>
+            <attributeLabel>GPS Location for site (Longitude) according to Google Earth</attributeLabel>
+            <attributeDefinition>LONGITUDE - GPS Location for site (Longitude) according to Google Earth</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>decimal de</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+      </attributeList>
+   </dataTable>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="decimal de" />
+      <ns2:unit id="meters" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-17</weight>
+         <projectId>VCR11091</projectId>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

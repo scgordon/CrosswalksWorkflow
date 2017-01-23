@@ -1,0 +1,354 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.34.14" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="34" system="VCR">
+   <alternateIdentifier>VCR97025</alternateIdentifier>
+   <title>Bacterial dynamics in tidal marsh creeks of the Eastern Shore of Virginia 1992-1993</title>
+   <creator>
+      <individualName>
+         <givenName>Katherine</givenName>
+         <surName>MacMillin</surName>
+      </individualName>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Kathy</givenName>
+         <surName>MacMillin</surName>
+      </individualName>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>1996-01-01</pubDate>
+   <abstract>
+  <para> There are 4 summary text files with data in fixed-width columns and 3 archives of raw data stored in either QuatroPro or Lotus123 files pkzipped together. </para>
+  <para>The summary files are:</para>
+  <para><emphasis>conditio.txt</emphasis>: physical conditions of the creeks sampled during June91, July91, and Jan92. For each month, variables are: creek name, location : (U=upper reach L=lower reach), air teperature (degrees C), water temperature (degrees C),oxygen concentration (mg/L), salinity</para>
+  <para>(ppt)</para>
+  <para><emphasis>surveys.txt</emphasis>: bacterial parameters and aspects of water quality for three seaside and three bayside tidal marsh creeks during June91, July91, and Jan92. For each record, the variables are: Time (REALLY month),creek name : (seaside=phillips creek(PC), greens creek(GC), box tree creek(BT), bayside=hungars creek(HC), nassawadox creek(NC), cherrystone creek(CS)), location : (U=upper reach L=lower reach), bacterial abundance (cells/mL), bacterial biovolume (ng C/mL), bacterial productivity (cells/mL/hr), bacterial productivity (ng C/mL/hr), DOC (mg/L) : dissolved oxygen concentration, POC (mg/L) : TSS (mg/L) : total suspended solids, OM (mg/L) : organic matter, chlorophyll (ug/L), phosphate (uMz), ammonia (uM), nitrate (uM), nitrite (uM)</para>
+  <para><emphasis>enrich.txt</emphasis>: bacterial parameters and dissolved organic carbon concentrations when two different communities of bacteria were incubated with two different types of DOC. Mean values of all parameters measured in enrichment experiment. Values are mean of three replicate flasks. For each record, the variables are:</para>
+  <para>condition, coded as follows</para>
+  <para>PP = Phillips Creek bacteria, phytoplankton derived DOC PS = Phillips Creek bacteria, marsh grass derived DOC HP = Hungars Creek bacteria, phytoplankton derived DOC HS = Hungars Creek bacteria, marsh grass derived DOC</para>
+  <para>time (hours) Abundance (cells/mL) Biovolume (um^3) Biomass (ng C/mL) Productivity (ng C/mL/hr) Turnover (hr) DOC (mg/L)</para>
+  <para><emphasis>uptake.txt</emphasis>: bacterial uptake of carbon when two different communities of bacteria were incubated with two different types of DOC. Values for all parameters calculated for bacterial utilization of DOC. Values are the mean of three replicates. For each record, the variables are:</para>
+  <para>condition, coded as follows</para>
+  <para>PP = Phillips Creek bacteria, phytoplankton derived DOC PS = Phillips Creek bacteria, marsh grass derived DOC HP = Hungars Creek bacteria, phytoplankton derived DOC HS = Hungars Creek bacteria, marsh grass derived DOC</para>
+  <para>substrate added (mg/L) *missing value= "-"* DOC Mineralized (ng C/mL) DOC Assimilated (ng C/mL) total uptake (ng C/mL) percent assimulated (%)</para>
+  <para>The RAW DATA is stored in 3 sets of <emphasis>Quatro Pro WQ1</emphasis> or <emphasis>Lotus 123 WK1</emphasis> files that have been archived with <emphasis>PKZIP</emphasis>.</para>
+  <para>variables are explained in each file:</para>
+  <para><emphasis>july91.zip</emphasis>: bacterial biovolumes July 1991. raw files:</para>
+  <para>volpc.wq1, volgc.wq1, volbt.wq1, volhc.wq1, volnc.wq1, volcs.wq1</para>
+  <para><emphasis>jan92.zip</emphasis>: bacterial biovolumes Jan 1992. raw files:</para>
+  <para>volpc.wq1, volgc.wq1, volbt.wq1, volhc.wq1, volnc.wq1, volcs.wq1</para>
+  <para><emphasis>enrich.zip</emphasis>: distribution of bacterial biovolumes and carbon for the enrichment experiment. raw files:</para>
+  <para>volpp.wk1, volps.wk1, volhpb.wk1, volhpc.wk1, volhsb.wk1, volhsc.wk1</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keyword keywordType="theme">Populations</keyword>
+      <keyword keywordType="theme">Inorganic Nutrients</keyword>
+      <keyword keywordType="theme">Organic Matter</keyword>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <additionalInfo>
+<section>
+<title>Relevant URLs</title>
+<para><orderedlist>
+<listitem><para>) 
+URL=
+/wwwadmin/data/vcr97025/
+</para></listitem>
+</orderedlist>
+</para>
+</section>
+
+   </additionalInfo>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>mainland creeks: greens, phillips, box tree, nassawadox, hungars, cherrystone.</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1992-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1993-01-31</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Linda</givenName>
+         <surName>Blum</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+      </address>
+      <phone phonetype="voice">(434) 924-0560</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>lkb2e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">lblum</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <otherEntity>
+      <entityName>VCR97025</entityName>
+      <entityDescription>
+The VCR97025.zip file contains 4 summary text files with data in 
+fixed-width columns and 3 archives of raw data stored 
+comma-separated-value files. Also available are copies of the raw data 
+in their original spreadsheet format (either QuatroPro or Lotus123). 
+
+The summary files are:
+
+-- physical conditions of the creeks sampled 
+during June91, July91, and Jan92.  For each month, variables are:
+creek name, location : (U=upper reach L=lower reach), air teperature 
+(degrees C), water temperature (degrees C),oxygen concentration (mg/L), salinity 
+(ppt)
+
+--bacterial parameters and aspects of water
+quality for three seaside and three bayside tidal marsh creeks during 
+June91, July91, and Jan92.  For each record, the variables are: Time (REALLY 
+month),creek 
+
+--name : (seaside=phillips creek(PC), greens creek(GC), box tree
+creek(BT), bayside=hungars creek(HC), nassawadox creek(NC),
+cherrystone creek(CS))
+
+--location : (U=upper reach L=lower reach), bacterial abundance
+(cells/mL), bacterial biovolume (ng C/mL), bacterial productivity
+(cells/mL/hr), bacterial productivity (ng C/mL/hr), DOC (mg/L) :
+dissolved oxygen concentration, POC (mg/L) : TSS (mg/L) : total
+suspended solids, OM (mg/L) : organic matter, chlorophyll (ug/L),
+phosphate (uMz), ammonia (uM), nitrate (uM), nitrite (uM)
+
+--bacterial parameters and dissolved organic 
+carbon concentrations when two different communities of bacteria 
+were incubated with two different types of DOC.  Mean values of all 
+parameters measured in enrichment experiment. Values are mean of three 
+replicate flasks.  For each record, the variables are:
+condition, coded as follows
+PP = Phillips Creek bacteria, phytoplankton derived DOC,
+PS = Phillips Creek bacteria, marsh grass derived DOC,
+HP = Hungars Creek bacteria, phytoplankton derived DOC,
+HS = Hungars Creek bacteria, marsh grass derived DOC,
+
+time (hours)
+Abundance (cells/mL)
+Biovolume (um^3)
+Biomass (ng C/mL)
+Productivity (ng C/mL/hr)
+Turnover (hr)
+DOC (mg/L)
+
+
+-- bacterial uptake of carbon when two different communities of bacteria were incubated with two different types of  DOC.  Values for
+all parameters calculated for bacterial utilization of DOC.  Values are 
+the mean of three replicates.  For each record, 
+the variables are:
+
+condition, coded as follows
+PP = Phillips Creek bacteria, phytoplankton derived DOC
+PS = Phillips Creek bacteria, marsh grass derived DOC
+HP = Hungars Creek bacteria, phytoplankton derived DOC
+HS = Hungars Creek bacteria, marsh grass derived DOC
+
+substrate added (mg/L) *missing value= "-"*
+DOC Mineralized (ng C/mL)
+DOC Assimilated (ng C/mL)
+total uptake (ng C/mL)
+percent assimulated (%)
+
+
+The RAW DATA is stored in 3 directories as Comma-Separated-Value text 
+files. Zip files within those directories contain the original Quatro 
+Pro WQ1 or Lotus 123 WK1 files. 
+
+variables are explained in each file:
+
+-- bacterial biovolumes July 1991. raw files:
+volpc.wq1, volgc.wq1, volbt.wq1, volhc.wq1, volnc.wq1, volcs.wq1
+
+--bacterial biovolumes Jan 1992. raw files:
+volpc.wq1, volgc.wq1, volbt.wq1, volhc.wq1, volnc.wq1, volcs.wq1
+
+-- distribution of bacterial biovolumes and carbon for the 
+enrichment experiment.  raw files: volpp.wk1, volps.wk1, volhpb.wk1, volhpc.wk1, volhsb.wk1, volhsc.wk1 
+/p&gt;
+      </entityDescription>
+      <physical>
+         <objectName>VCR97025.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.34.14&amp;urlHeadID=2&amp;urlTail=1/VCR97025/VCR97025/VCR97025.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-26</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

@@ -1,0 +1,1701 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.19.13" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="19">
+    <alternateIdentifier>knb-lter-mcr.19</alternateIdentifier>
+    <shortName>Flume prim pro</shortName>
+    <title>MCR LTER: Coral Reef: Estimates of component primary production and respiration, ongoing since 2006</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <creator id="rcarpenter">
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology</deliveryPoint>
+        <deliveryPoint>California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">818.677.3256</phone>
+      <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/carpenter.htm</onlineUrl>
+    </creator>
+    <associatedParty id="vmoriarty">
+      <individualName>
+        <givenName>Vincent</givenName>
+        <surName>Moriarty</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Field Technician</positionName>
+      <address>
+        <deliveryPoint>Department of Biology</deliveryPoint>
+        <deliveryPoint>California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">818.677.4335</phone>
+      <electronicMailAddress>vmoriarty@csun.edu</electronicMailAddress>
+      <role>Field Technician</role>
+    </associatedParty>
+    <pubDate>2014-03-18</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Estimates of primary production and respiration of three representative components of the Moorea coral reef ecosystem are made yearly in a laboratory flume. The components are: algal turf communities, the macroalga Sargassum pacificum, and the common branching coral Pocillopora verrucosa. Metabolism estimates are made using changes in dissolved oxygen over time in a flume in unidirectional flow at saturating irradiances and dark. Rates are normalized to projected (planar) surface area (all components) and biomass (algal turfs, Sargassum).</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">algal turf</keyword>
+      <keyword keywordType="theme">flume</keyword>
+      <keyword keywordType="theme">macroalgae</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">MCR</keyword>
+      <keyword keywordType="theme">Moorea Coral Reef</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+      <keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keywordThesaurus>Institute, Organization, or Funding Agency</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">French Polynesia</keyword>
+      <keyword keywordType="place">Moorea</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">Pocillopora</keyword>
+      <keyword keywordType="taxonomic">Sargassum</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Marine</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Coral Reefs</keyword>
+      <keyword keywordType="theme">Dissolved oxygen</keyword>
+      <keyword keywordType="theme">Primary production</keyword>
+      <keyword keywordType="theme">Respiration</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Time Series Program</keyword>
+      <keywordThesaurus>MCR Core Activity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean Acidification</keyword>
+      <keywordThesaurus>MCR Research Theme</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public
+				after primary publication, or at most two years after the completion of the study
+				unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+				acceptance of the following conditions: <itemizedlist><listitem><para>1. The user agrees to provide valid name and contact information prior
+							to downloading online data. This information will be used to contact the
+							user in case of changes to the data, and may also be used by data set
+							authors and MCR LTER project administrators to document data
+							usage.</para></listitem><listitem><para>2. The user agrees to cite the data set author and MCR LTER in all
+							publications in which the data are used, as per the instructions in the
+							data documentation. If no specific instructions are provided in the data
+							documentation, the user is requested to include the following statement:
+							"Data sets were provided by the Moorea Coral Reef Ecosystem LTER,
+							funded by the US National Science Foundation (OCE-0417412)."</para></listitem><listitem><para>3. The user agrees to provide one copy of any manuscript based on MCR
+							LTER data to the data set author prior to submitting it for
+							publication.</para></listitem><listitem><para>4. The user agrees to send two hard copies of any published manuscript
+							based on MCR LTER data to the following address: Dr. Andrew J. Brooks
+							Deputy Program Director, MCR LTER Marine Science Institute University of
+							California Santa Barbara, CA 93106-6150 The user also agrees to send one
+							electronic copy (pdf format) to the following e-mail address:
+							brooks@msi.ucsb.edu</para></listitem><listitem><para>5. Users are prohibited from selling or redistributing any data
+							provided by MCR LTER without explicit prior permission.</para></listitem><listitem><para>6. Users are encouraged to contact original investigators responsible
+							for data. Where appropriate, researchers whose projects are integrally
+							dependent on MCR LTER data are encouraged to consider collaboration
+							and/or co-authorship with original investigators.</para></listitem><listitem><para>7. Extensive efforts are made to ensure that online data are accurate
+							and up to date, but the authors and the MCR LTER will not take
+							responsibility for any errors that may exist in data provided online.
+							Furthermore, the user assumes all responsibility for errors in analysis
+							or judgment resulting from use of the data.</para></listitem><listitem><para> 8. Any violation of the terms of this agreement will result in
+							immediate forfeiture of the data and loss of access privileges to other
+							MCR LTER data sets.</para></listitem></itemizedlist>
+			</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcr.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="moorea_generic_box">
+        <geographicDescription>Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006-05-18</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-06-06</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Ochrophyta</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Phaeophyceae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Fucales</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Sargassaceae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Sargassum</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>pacificum</taxonRankValue>
+                    <commonName>formerly known as S. mangarevense</commonName>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Cnidaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Anthozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Scleractinia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Pocilloporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Pocillopora</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>verrucosa</taxonRankValue>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>Algal Turf</commonName>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>This is an ongoing dataset. Experiments are repeated each year.
+      Data are appended after analysis.</description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>dataTable</changeScope>
+        <oldValue>GPP</oldValue>
+        <changeDate>2011-12-23</changeDate>
+        <comment>With revision 9 the values in the GPP column are revised for all years. Taxonomy updated. Table format revised.</comment>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>dataTable</changeScope>
+        <oldValue>single table</oldValue>
+        <changeDate>2012-03-29</changeDate>
+        <comment>With revision 10 the single table is split into a table for each component to allow more granular column description.</comment>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Data Files</changeScope>
+        <oldValue>N/A</oldValue>
+        <changeDate>2012-08-01</changeDate>
+        <comment>as of 2012 output has come out of R program</comment>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Data Files</changeScope>
+        <oldValue>N/A</oldValue>
+        <changeDate>2014-03-18</changeDate>
+        <comment>salinity correction to data.</comment>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sampling Locations:</title>
+            <para>Organisms are collected from the backreef zone of reefs on the north shore of
+              Moorea.</para>
+          </section>
+          <section>
+            <title>Taxa:</title>
+            <para>Three representative benthic coral reef cover components: 
+              <itemizedlist><listitem><para>Algal turfs of multiple species</para></listitem><listitem><para>The macroalga Sargassum pacificum (formerly known as S. mangarevense)</para></listitem><listitem><para>The branching coral Pocillopora verrucosa</para></listitem></itemizedlist></para>
+          </section>
+          <section>
+            <title>Sampling:</title>
+            <para>All organisms are collected from the backreef on the north shore of Moorea. Algal
+              turf communities used have developed on coral plates (10 x 10 x 1.5 cm) cut from
+              skeletons of the coral Porites lobata/lutea. Plates are attached to racks bolted to
+              the backreef at depths of 1-2 m. Algal turf communities have been established on the
+              plates for &gt;9-12 months. Sargassum pacificum individuals are removed with the holdfast intact
+              from bommies on the backreef. Small colonies (approximately 10 cm in diameter) of Pocillopora 
+              verrucosa are collected intact from the backreef. All samples (n=10 for each) are
+              returned in seawater to the lab and kept in running seawater tables at ambient light
+              until metabolism measurements are made (&lt; 24 h). Each experiment estimates the rate
+              of change in dissolved oxygen over a 30-60 minute incubation in the flume at
+              saturating irradiances (for primary production) or in the dark (respiration). Flow in
+              the flume is unidirectional at a velocity of 23 cm/s. 
+              Rates are normalized to planar
+              area based on measured areas (algal turfs) or digital photographs taken from above the
+              flume (Sargassum, Pocillopora). 
+              Rates are also provided normalized to ash free dry mass for algal turfs
+              and to dry mass for Sargassum.
+              </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) OCE-0417412 and OCE-1026851</para>
+      </funding>
+    </project>
+    <dataTable id="turf">
+      <entityName>Lab Flume Primary Production and Respiration for Turf</entityName>
+      <entityDescription>Respiration, Net Primary Production, and Gross Primary Production for one of three benthic reef components as measured in a flume in the lab each year. This table includes algal turf only.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Lab_Flume_PrimProd_Respir_Turf_20130719.csv</objectName>
+        <size unit="Kb">6.8</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/external/data/primaryProductivity/flume/MCR_LTER_Lab_Flume_PrimProd_Respir_Turf_20130719.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <additionalInfo>This data table is in comma-separated-value format. It can be read by Excel or any text editor and is suitable for loading into R.</additionalInfo>
+      <attributeList>
+        <attribute id="turf.date">
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurement, in the format YYYY-MM-DD.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 Day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="turf.component">
+          <attributeName>Component</attributeName>
+          <attributeLabel>Reef Component</attributeLabel>
+          <attributeDefinition>Benthic reef component (Algal Turf, Sargassum, or Coral).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Algal Turf</code>
+                    <definition>Algal Turf is multispecific</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Coral</code>
+                    <definition>Pocillopora verrucosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Macroalgae</code>
+                    <definition>Sargassum pacificum, formerly known as S. mangarevense, a macroalgae.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="turf.replicate">
+          <attributeName>Replicate</attributeName>
+          <attributeLabel>Replicate Number</attributeLabel>
+          <attributeDefinition>Number assigned to each replicate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>integer as text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="turf.area">
+          <attributeName>area</attributeName>
+          <attributeLabel>Area (m2)</attributeLabel>
+          <attributeDefinition>Measured Planar Area in square meters of turf sample.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>squareMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+        </missingValueCode>
+        </attribute>
+        <attribute id="turf.mass">
+          <attributeName>mass</attributeName>
+          <attributeLabel>Mass (g)</attributeLabel>
+          <attributeDefinition>Ash free dry weight in grams of the turf sample.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gram</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+        </missingValueCode>
+        </attribute>
+        <attribute id="turf.O2_slope_dark_perL">
+          <attributeName>O2_slope_dark_perL</attributeName>
+          <attributeLabel>Slope of dark O2 curve (mg/l/s)</attributeLabel>
+          <attributeDefinition>Slope of oxygen versus time curve, in the dark, per liter. Multiply by 41 liter tank volumne to get mg/s.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiterPerSecond</customUnit>
+              </unit>
+              <precision>1e-07</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.O2_slope_dark_r2">
+          <attributeName>r2_O2_slope_dark</attributeName>
+          <attributeLabel>r2 of dark slope</attributeLabel>
+          <attributeDefinition>Pearsons correllation coeficient, r-squared, for line fit to dark curve.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.O2_slope_light_perL">
+          <attributeName>O2_slope_light_perL</attributeName>
+          <attributeLabel>Slope of light O2 curve (mg/l/s)</attributeLabel>
+          <attributeDefinition>Slope of oxygen versus time curve, in the light, per liter. Multiply by 41 liter tank volumne to get mg/s.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiterPerSecond</customUnit>
+              </unit>
+              <precision>0.0000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.O2_slope_light_r2">
+          <attributeName>r2_O2_slope_light</attributeName>
+          <attributeLabel>r2 of light slope</attributeLabel>
+          <attributeDefinition>Pearsons correllation coeficient, r-squared, for line fit to light curve.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.resp_per_area">
+          <attributeName>resp_per_area</attributeName>
+          <attributeLabel>Respiration per area (g/m2/h)</attributeLabel>
+          <attributeDefinition>Respiration per area defined as grams oxygen production per planar area per hour in dark. Rate of change in dissolved oxygen in the flume in the dark per area per hour.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.resp_per_mass">
+          <attributeName>resp_per_mass</attributeName>
+          <attributeLabel>Respiration per mass (g/g/h)</attributeLabel>
+          <attributeDefinition>Respiration per mass defined as grams oxygen production per gram dry weight per hour, in dark. Rate of change in dissolved oxygen in the flume in the dark per gram per hour.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerGramPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.npp_per_area">
+          <attributeName>npp_per_area</attributeName>
+          <attributeLabel>Net PP per area (g/m2/h)</attributeLabel>
+          <attributeDefinition>Net primary production per area defined as grams oxygen production per square meter planar area per hour, in the light. Rate of change in dissolved oxygen in the flume at saturating irradiances (in light) per area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.npp_per_mass">
+          <attributeName>npp_per_mass</attributeName>
+          <attributeLabel>Net PP per mass (g/g/h)</attributeLabel>
+          <attributeDefinition>Net primary production per area defined as grams oxygen production per gram dry weight per hour, in the light. Rate of change in dissolved oxygen in the flume at saturating irradiances (in light) per mass.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerGramPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.gpp_per_area">
+          <attributeName>gpp_per_area</attributeName>
+          <attributeLabel>Gross Primary Production (g/m2/h)</attributeLabel>
+          <attributeDefinition>GPP = ABS(Respiration) + NPP</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="turf.gpp_per_mass">
+          <attributeName>gpp_per_mass</attributeName>
+          <attributeLabel>Gross Primary Production (g/g/h)</attributeLabel>
+          <attributeDefinition>GPP = ABS(Respiration) + NPP</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerGramPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <constraint>
+        <primaryKey>
+          <constraintName>turf_pk</constraintName>
+          <key>
+            <attributeReference>turf.date</attributeReference>
+            <attributeReference>turf.replicate</attributeReference>           
+          </key>
+        </primaryKey>
+      </constraint>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>60</numberOfRecords>
+    </dataTable>
+    <dataTable id="sargassum">
+      <entityName>Lab Flume Primary Production and Respiration for Sargassum</entityName>
+      <entityDescription>Respiration, Net Primary Production, and Gross Primary Production for one of three benthic reef components as measured in a flume in the lab each year. This table includes Sargassum only.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Lab_Flume_PrimProd_Respir_Sargassum_20130719.csv</objectName>
+        <size unit="Kb">7</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/external/data/primaryProductivity/flume/MCR_LTER_Lab_Flume_PrimProd_Respir_Sargassum_20130719.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <additionalInfo>This data table is in comma-separated-value format. It can be read by Excel or any text editor and is suitable for loading into R.</additionalInfo>
+      <attributeList>
+        <attribute id="sargassum.date">
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurement, in the format YYYY-MM-DD.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 Day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="sargassum.component">
+          <attributeName>Component</attributeName>
+          <attributeLabel>Reef Component</attributeLabel>
+          <attributeDefinition>Benthic reef component (Algal Turf, Sargassum, or Coral).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Algal Turf</code>
+                    <definition>Algal Turf is multispecific</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Coral</code>
+                    <definition>Pocillopora verrucosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Macroalgae</code>
+                    <definition>Sargassum pacificum, formerly known as S. mangarevense, a macroalgae.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sargassum.replicate">
+          <attributeName>Replicate</attributeName>
+          <attributeLabel>Replicate Number</attributeLabel>
+          <attributeDefinition>Number assigned to each replicate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>integer as text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sargassum.area">
+          <attributeName>area</attributeName>
+          <attributeLabel>Area (m2)</attributeLabel>
+          <attributeDefinition>Planar Area in square meters of sargassum sample, measured with digital photo taken from above.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>squareMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+        </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.mass">
+          <attributeName>mass</attributeName>
+          <attributeLabel>Mass (g)</attributeLabel>
+          <attributeDefinition>Dry weight in grams of the Sargassum sample.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gram</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+        </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.O2_slope_dark_perL">
+          <attributeName>O2_slope_dark_perL</attributeName>
+          <attributeLabel>Slope of dark O2 curve (mg/l/s)</attributeLabel>
+          <attributeDefinition>Slope of oxygen versus time curve, in the dark, per liter. Multiply by 41 liter tank volumne to get mg/s.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiterPerSecond</customUnit>
+              </unit>
+              <precision>0.0000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.O2_slope_dark_r2">
+          <attributeName>r2_O2_slope_dark</attributeName>
+          <attributeLabel>r2 of dark slope</attributeLabel>
+          <attributeDefinition>Pearsons correllation coeficient, r-squared, for line fit to dark curve.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.O2_slope_light_perL">
+          <attributeName>O2_slope_light_perL</attributeName>
+          <attributeLabel>Slope of light O2 curve (mg/l/s)</attributeLabel>
+          <attributeDefinition>Slope of oxygen versus time curve, in the light, per liter. Multiply by 41 liter tank volumne to get mg/s.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiterPerSecond</customUnit>
+              </unit>
+              <precision>0.0000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.O2_slope_light_r2">
+          <attributeName>r2_O2_slope_light</attributeName>
+          <attributeLabel>r2 of light slope</attributeLabel>
+          <attributeDefinition>Pearsons correllation coeficient, r-squared, for line fit to light curve.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.resp_per_area">
+          <attributeName>resp_per_area</attributeName>
+          <attributeLabel>Respiration per area (g/m2/h)</attributeLabel>
+          <attributeDefinition>Respiration per area defined as grams oxygen production per planar area per hour in dark. Rate of change in dissolved oxygen in the flume in the dark per area per hour.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.resp_per_mass">
+          <attributeName>resp_per_mass</attributeName>
+          <attributeLabel>Respiration per mass (g/g/h)</attributeLabel>
+          <attributeDefinition>Respiration per mass defined as grams oxygen production per gram dry weight per hour, in dark. Rate of change in dissolved oxygen in the flume in the dark per gram per hour.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerGramPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.npp_per_area">
+          <attributeName>npp_per_area</attributeName>
+          <attributeLabel>Net PP per area (g/m2/h)</attributeLabel>
+          <attributeDefinition>Net primary production per area defined as grams oxygen production per square meter planar area per hour, in the light. Rate of change in dissolved oxygen in the flume at saturating irradiances (in light) per area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.npp_per_mass">
+          <attributeName>npp_per_mass</attributeName>
+          <attributeLabel>Net PP per mass (g/g/h)</attributeLabel>
+          <attributeDefinition>Net primary production per area defined as grams oxygen production per gram dry weight per hour, in the light. Rate of change in dissolved oxygen in the flume at saturating irradiances (in light) per mass.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerGramPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.gpp_per_area">
+          <attributeName>gpp_per_area</attributeName>
+          <attributeLabel>Gross Primary Production (g/m2/h)</attributeLabel>
+          <attributeDefinition>GPP = ABS(Respiration) + NPP</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sargassum.gpp_per_mass">
+          <attributeName>gpp_per_mass</attributeName>
+          <attributeLabel>Gross Primary Production (g/g/h)</attributeLabel>
+          <attributeDefinition>GPP = ABS(Respiration) + NPP</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerGramPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <constraint>
+        <primaryKey>
+          <constraintName>sargassum_pk</constraintName>
+          <key>
+            <attributeReference>sargassum.date</attributeReference>
+            <attributeReference>sargassum.replicate</attributeReference>           
+          </key>
+        </primaryKey>
+      </constraint>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>60</numberOfRecords>
+    </dataTable>
+    <dataTable id="coral">
+      <entityName>Lab Flume Primary Production and Respiration for Coral</entityName>
+      <entityDescription>Respiration, Net Primary Production, and Gross Primary Production for one of three benthic reef components as measured in a flume in the lab each year. This table includes Pocillopora only.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Lab_Flume_PrimProd_Respir_coral_20130719.csv</objectName>
+        <size unit="Kb">6.8</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/external/data/primaryProductivity/flume/MCR_LTER_Lab_Flume_PrimProd_Respir_coral_20130719.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <additionalInfo>This data table is in comma-separated-value format. It can be read by Excel or any text editor and is suitable for loading into R.</additionalInfo>
+      <attributeList>
+        <attribute id="coral.date">
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurement, in the format YYYY-MM-DD.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 Day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="coral.component">
+          <attributeName>Component</attributeName>
+          <attributeLabel>Reef Component</attributeLabel>
+          <attributeDefinition>Benthic reef component (Algal Turf, Sargassum, or Coral).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Algal Turf</code>
+                    <definition>Algal Turf is multispecific</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Coral</code>
+                    <definition>Pocillopora verrucosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Macroalgae</code>
+                    <definition>Sargassum pacificum, formerly known as S. mangarevense, a macroalgae.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="coral.replicate">
+          <attributeName>Replicate</attributeName>
+          <attributeLabel>Replicate Number</attributeLabel>
+          <attributeDefinition>Number assigned to each replicate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>integer as text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="coral.planar_area">
+          <attributeName>planar_area</attributeName>
+          <attributeLabel>Planar Area (m2)</attributeLabel>
+          <attributeDefinition>Planar area in square meters, measured with digital photo taken from above.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>squareMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+        </missingValueCode>
+        </attribute>
+        <attribute id="coral.primary_branches">
+          <attributeName>primary_branches</attributeName>
+          <attributeLabel>Number of primary branches</attributeLabel>
+          <attributeDefinition>Number of primary branches used to calculate total area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+        </missingValueCode>
+        </attribute>
+        <attribute id="coral.secondary_branches">
+          <attributeName>secondary_branches</attributeName>
+          <attributeLabel>Number of secondary branches</attributeLabel>
+          <attributeDefinition>Number of secondary branches (branches of branches) used to calculate total area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+        </missingValueCode>
+        </attribute>
+        <attribute id="coral.calc_tot_area">
+          <attributeName>calc_tot_area</attributeName>
+          <attributeLabel>Calculated total area (m2)</attributeLabel>
+          <attributeDefinition>Area in square meters calculated from measured area and algorithm using numbers of branches. Also called real area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>squareMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+        </missingValueCode>
+        </attribute>
+        <attribute id="coral.O2_slope_dark_perL">
+          <attributeName>O2_slope_dark_perL</attributeName>
+          <attributeLabel>Slope of dark O2 curve (mg/l/s)</attributeLabel>
+          <attributeDefinition>Slope of oxygen versus time curve, in the dark, per liter. Multiply by 41 liter tank volumne to get mg/s.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiterPerSecond</customUnit>
+              </unit>
+              <precision>0.0000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.O2_slope_dark_r2">
+          <attributeName>r2_O2_slope_dark</attributeName>
+          <attributeLabel>r2 of dark slope</attributeLabel>
+          <attributeDefinition>Pearsons correllation coeficient, r-squared, for line fit to dark curve.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.O2_slope_light_perL">
+          <attributeName>O2_slope_light_perL</attributeName>
+          <attributeLabel>Slope of light O2 curve (mg/l/s)</attributeLabel>
+          <attributeDefinition>Slope of oxygen versus time curve, in the light, per liter. Multiply by 41 liter tank volumne to get mg/s.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiterPerSecond</customUnit>
+              </unit>
+              <precision>0.0000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.O2_slope_light_r2">
+          <attributeName>r2_O2_slope_light</attributeName>
+          <attributeLabel>r2 of light slope</attributeLabel>
+          <attributeDefinition>Pearsons correllation coeficient, r-squared, for line fit to light curve.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.resp_per_plane_area">
+          <attributeName>resp_per_planar_area</attributeName>
+          <attributeLabel>Respiration per planar area (g/m2/h)</attributeLabel>
+          <attributeDefinition>Respiration per area defined as grams oxygen production per planar area per hour, in the dark. Rate of change in dissolved oxygen in the flume in the dark per area per hour. Uses planar area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.resp_per_real_area">
+          <attributeName>resp_per_real_area</attributeName>
+          <attributeLabel>Respiration per total area (g/m2/h)</attributeLabel>
+          <attributeDefinition>Respiration per area defined as grams oxygen production per total real area per hour, in the dark. Rate of change in dissolved oxygen in the flume in the dark per area per hour. Uses calculated total area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.npp_per_planar_area">
+          <attributeName>npp_per_planar_area</attributeName>
+          <attributeLabel>Net PP per planar area (g/m2/h)</attributeLabel>
+          <attributeDefinition>Net primary production per area defined as grams oxygen production per planar area per hour, in the light. Rate of change in dissolved oxygen in the flume at saturating irradiances (in light) per area. Uses planar area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.npp_per_real_area">
+          <attributeName>npp_per_real_area</attributeName>
+          <attributeLabel>Net PP per total area (g/m2/h)</attributeLabel>
+          <attributeDefinition>Net primary production per area defined as grams oxygen production per planar area per hour, in the light. Rate of change in dissolved oxygen in the flume at saturating irradiances (in light) per area. Uses calculated total area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.gpp_per_planar_area">
+          <attributeName>gpp_per_planar_area</attributeName>
+          <attributeLabel>Gross Primary Production per planar area (g/m2/h)</attributeLabel>
+          <attributeDefinition>GPP = ABS(Respiration) + NPP</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="coral.gpp_per_real_area">
+          <attributeName>gpp_per_real_area</attributeName>
+          <attributeLabel>Gross Primary Production per total area (g/m2/h)</attributeLabel>
+          <attributeDefinition>GPP = ABS(Respiration) + NPP</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramsPerSquareMeterPerHour</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>No Data</code>
+            <codeExplanation>no measurement collected</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <constraint>
+        <primaryKey>
+          <constraintName>coral_pk</constraintName>
+          <key>
+            <attributeReference>coral.date</attributeReference>
+            <attributeReference>coral.replicate</attributeReference>           
+          </key>
+        </primaryKey>
+      </constraint>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>60</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <ns2:description>a designation asserting the absence of an associated unit</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="g" id="gram" multiplierToSI="0.001" name="gram" parentSI="kilogram" unitType="mass">
+          <ns2:description>0.001 kg</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="1/h" id="gramsPerGramPerHour" name="gramsPerGramPerHour" unitType="massPerMassRate">
+          <ns2:description>mass per mass per time</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="g/m2/h" id="gramsPerSquareMeterPerHour" name="gramsPerSquareMeterPerHour" unitType="arealMassDensityRate">
+          <ns2:description>mass per area per time</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="mg/l/s" id="milligramPerLiterPerSecond" name="milligramPerLiterPerSecond" parentSI="kilogramPerLiterPerSecond" unitType="massDensityRate">
+          <ns2:description>mass per volume per time</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="number" name="number" unitType="dimensionless">
+          <ns2:description>a number</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m&#178;" constantToSI="0" id="squareMeter" multiplierToSI="1" name="squareMeter" parentSI="meterSquared" unitType="area">
+          <ns2:description>square meters</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

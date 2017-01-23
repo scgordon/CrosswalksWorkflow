@@ -1,0 +1,610 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.1036.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+    <access authSystem="knb" order="allowFirst" scope="document">
+        <allow>
+            <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+        </allow>
+        <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+        </allow>
+    </access>
+    <dataset scope="document">
+        <shortName>North shore bathymetry</shortName>
+        <title>MCR LTER: Coral Reef: Bathymetry Grid for North Shore</title>
+        <creator id="MCR" scope="document">
+            <organizationName>Moorea Coral Reef LTER</organizationName>
+            <address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+            <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        </creator>
+
+        <creator id="jhench" scope="document">
+            <individualName>
+                <givenName>James</givenName>
+                <surName>Hench</surName>
+            </individualName>
+            <organizationName>Moorea Coral Reef LTER</organizationName>
+            <positionName>Investigator</positionName>
+            <address scope="document">
+				<deliveryPoint>Coastal Physical Oceanography Laboratory</deliveryPoint>
+                <deliveryPoint>Nicholas School of the Environment</deliveryPoint>
+				<deliveryPoint>Duke University</deliveryPoint>
+                <deliveryPoint>135 Duke Marine Lab Road</deliveryPoint>
+				<city>Beaufort</city>
+				<administrativeArea>NC</administrativeArea>
+				<postalCode>28512</postalCode>
+				<country>USA</country>
+			</address>
+            <phone phonetype="voice">650-759-6639</phone>
+            <electronicMailAddress>jim.hench@duke.edu</electronicMailAddress>
+            <onlineUrl>http://http://www.duke.edu/~jlh82/</onlineUrl>
+            
+        </creator>
+
+
+
+        <pubDate>2012-02-29</pubDate>
+        <language>english</language>
+        <abstract>
+            <para>These bathymetric data are a combined product of digitized SHOM nautical charts, SRTM30plus
+                bathymetry, small boat surveys, and bathymetry derived from Worldview-2 satellite
+                imagery. Satellite data were collected in collaboration with 
+                Le centre de L'Environment de Moorea 
+                <ulink url="http://criobe.wordpress.com/le-site-du-criobe-a-ete-deplace/language-english/the-criobe/">(CRIOBE)</ulink>. 
+                Data products are (x,y,z) point data and images in Coordinate system: UTM zone 6S
+                and Datum: WGS-84. </para>
+            
+        </abstract>
+        <keywordSet>
+            <keyword keywordType="place">Moorea Coral Reef</keyword>
+            <keyword keywordType="theme">MCR</keyword>
+            <keyword keywordType="theme">LTER</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Bathymetry</keyword>
+            <keyword keywordType="theme">Benthic environments</keyword>
+            <keyword keywordType="theme">Coral reefs</keyword>
+            <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Oceans: Bathymetry/Seafloor topography</keyword>
+            <keywordThesaurus>GCMD Keywords, Version 6.0.0.0.0: EARTH SCIENCE: Oceans:</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            
+            <keyword keywordType="theme">bathymetry</keyword>
+            <keyword keywordType="theme">depth</keyword>
+            <keyword keywordType="theme">digital elevation model</keyword>
+            <keyword keywordType="theme">elevation</keyword>
+            <keyword keywordType="theme">geographic information systems</keyword>
+            <keyword keywordType="theme">global positioning system</keyword>
+            <keyword keywordType="theme">landscape</keyword>
+            <keyword keywordType="theme">mapping</keyword>
+            <keyword keywordType="theme">surface elevation table</keyword>
+            <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Marine</keyword>
+            <keywordThesaurus>KNB</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Bio-Physical Coupling</keyword>
+            <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>Data collected under the auspices of the MCR LTER are available to the public
+                after primary publication, or at most two years after the completion of the study
+                unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+                acceptance of the following conditions:<orderedlist>
+                    <listitem>
+                        <para>1. The user agrees to provide valid name and contact information prior
+                            to downloading online data. This information will be used to contact the
+                            user in case of changes to the data, and may also be used by data set
+                            authors and MCR LTER project administrators to document data
+                            usage.</para>
+                    </listitem>
+                    <listitem>
+                        <para>2. The user agrees to cite the data set author and MCR LTER in all
+                            publications in which the data are used, as per the instructions in the
+                            data documentation. If no specific instructions are provided in the data
+                            documentation, the user is requested to include the following statement:
+                            "Data sets were provided by the Moorea Coral Reef Ecosystem LTER,
+                            funded by the US National Science Foundation (OCE-0417412 and
+                            OCE-1026851)".</para>
+                    </listitem>
+                    <listitem>
+                        <para>3. The user agrees to provide one copy of any manuscript based on MCR
+                            LTER data to the data set author prior to submitting it for
+                            publication.</para>
+                    </listitem>
+                    <listitem>
+                        <para>4. The user agrees to send two hard copies of any published manuscript
+                            based on MCR LTER data to the following address: Dr. Andrew J. Brooks
+                            Deputy Program Director, MCR LTER Marine Science Institute University of
+                            California Santa Barbara, CA 93106-6150 The user also agrees to send one
+                            electronic copy (pdf format) to the following e-mail address:
+                            brooks@msi.ucsb.edu</para>
+                    </listitem>
+                    <listitem>
+                        <para>5. Users are prohibited from selling or redistributing any data
+                            provided by MCR LTER without explicit prior permission.</para>
+                    </listitem>
+                    <listitem>
+                        <para>6. Users are encouraged to contact original investigators responsible
+                            for data. Where appropriate, researchers whose projects are integrally
+                            dependent on MCR LTER data are encouraged to consider collaboration
+                            and/or co-authorship with original investigators.</para>
+                    </listitem>
+                    <listitem>
+                        <para>7. Extensive efforts are made to ensure that online data are accurate
+                            and up to date, but the authors and the MCR LTER will not take
+                            responsibility for any errors that may exist in data provided online.
+                            Furthermore, the user assumes all responsibility for errors in analysis
+                            or judgment resulting from use of the data.</para>
+                    </listitem>
+                    <listitem>
+                        <para>8. Any violation of the terms of this agreement will result in
+                            immediate forfeiture of the data and loss of access privileges to other
+                            MCR LTER data sets.</para>
+                    </listitem>
+                </orderedlist>
+            </para>
+        </intellectualRights>
+
+        <coverage scope="document">
+            <temporalCoverage scope="document">
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>2010-01-01</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2011-01-01</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <geographicCoverage scope="document">
+                <geographicDescription>Moorea, French Polynesia</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-150.0</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+                    <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage id="MCR_LTER_1_poly_for_public" scope="document">
+                <geographicDescription>LTER 1 polygon including LTER 0</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-149.8455917</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-149.829821</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-17.47185366</northBoundingCoordinate>
+                    <southBoundingCoordinate>-17.48641792</southBoundingCoordinate>
+                    <boundingAltitudes>
+                        <altitudeMinimum>-20.0</altitudeMinimum>
+                        <altitudeMaximum>-1.0</altitudeMaximum>
+                        <altitudeUnits>meter</altitudeUnits>
+                    </boundingAltitudes>
+                </boundingCoordinates>
+                <datasetGPolygon>
+                    <datasetGPolygonOuterGRing>
+                        <gRing>
+                            -149.845591714532,-17.47414056509442 -149.8444519643552,-17.48505989649701 -149.8383270457441,-17.48426840091165 -149.8338147432263,-17.48641791890627 -149.829821007306,-17.48494822551147 -149.8320709284201,-17.4740284807948 -149.832080184047,-17.47322775964911 -149.8320960734944,-17.47185366062079 -149.8453810009447,-17.47265313575251 -149.845591714532,-17.47414056509442
+                        </gRing>
+                    </datasetGPolygonOuterGRing>
+                </datasetGPolygon>
+            </geographicCoverage>
+            <geographicCoverage id="MCR_LTER_2_poly_for_public" scope="document">
+                <geographicDescription>LTER 2</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-149.8116849</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-149.7961685</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-17.46576169</northBoundingCoordinate>
+                    <southBoundingCoordinate>-17.48131958</southBoundingCoordinate>
+                    <boundingAltitudes>
+                        <altitudeMinimum>-30.0</altitudeMinimum>
+                        <altitudeMaximum>-1.0</altitudeMaximum>
+                        <altitudeUnits>meter</altitudeUnits>
+                    </boundingAltitudes>
+                </boundingCoordinates>
+                <datasetGPolygon>
+                    <datasetGPolygonOuterGRing>
+                        <gRing>
+                            -149.8116848616027,-17.46714573056912 -149.8098855542298,-17.48075290854079 -149.8077576500829,-17.48063908230724 -149.8051572586888,-17.48109313281079 -149.8032635045001,-17.47984289373148 -149.802788348976,-17.47893280566117 -149.800666445604,-17.48131957607722 -149.7967627437853,-17.48063739528508 -149.7961685287123,-17.48006903867057 -149.7977614186906,-17.4665681148313 -149.7978767224803,-17.4657616891053 -149.8115671676133,-17.46645490408906 -149.8116848616027,-17.46714573056912 
+                        </gRing>
+                    </datasetGPolygonOuterGRing>
+                </datasetGPolygon>
+            </geographicCoverage>
+
+
+
+
+        </coverage>
+        <maintenance>
+            <description>
+                <para>This is a one-time dataset. </para>
+            </description>
+            <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact id="mcr-boilerplate-contact_MCR" scope="system" system="mcrlter">
+            <positionName>Information Manager, Moorea Coral Reef LTER</positionName>
+            <address scope="document">
+	            <deliveryPoint>Marine Science Institute</deliveryPoint>
+	            <deliveryPoint>University of California</deliveryPoint>
+	            <city>Santa Barbara</city>
+	            <administrativeArea>California</administrativeArea>
+	            <postalCode>93106-6150</postalCode>
+	            <country>United States</country>
+	        </address>
+            <phone phonetype="voice">805 893 2071</phone>
+            <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+            <onlineUrl>http://mcr.lternet.edu</onlineUrl>
+        </contact>
+        <publisher>
+            <references>MCR</references>
+        </publisher>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Gridded bathymetry for north shore of Moorea, version 1.0:</title>
+                        <para> Data are a combined product of digitized SHOM nautical charts,
+                            SRTM30plus bathymetry, small boat surveys, and bathymetry derived from
+                            Worldview-2 satellite imagery. </para>
+                        <para> Coordinate system: UTM zone 6S; Datum: WGS-84 </para>
+                        <para>revsion knb-lter-mcr.1036.3 replaces preliminary data table with full data table.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>The derivation of bathymetry data from satelite measurements is described in this publication, 
+                    submitted 9-Feb-2011 to Remote Sensing, in review as of Apr-2012.  The pdf will be posted here once published.</para>
+                    
+                </description>
+                <protocol>
+                    <title>Towards deeper measurements of tropical reefscape structure using the WorldView-2 spaceborne sensor.</title>
+                    <creator>
+                        <individualName>
+                            <surName>Collin</surName>
+                        </individualName>
+                        <individualName>
+                            <surName>Hench</surName>
+                        </individualName>
+                    </creator>
+                    
+                </protocol>
+                <instrumentation>WorldView-2 spaceborne sensor</instrumentation>
+            </methodStep>
+            
+        </methods>
+        <project scope="document">
+            <title>The Moorea Coral Reef (MCR) LTER</title>
+            <personnel id="rschmitt" scope="document">
+                <individualName>
+                    <givenName>Russell</givenName>
+                    <surName>Schmitt</surName>
+                </individualName>
+                <organizationName>Moorea Coral Reef LTER</organizationName>
+                <positionName>Lead Principal Investigator</positionName>
+                <address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+                <phone phonetype="fax">805.893.3777</phone>
+                <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+                <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+                <role>Principal Investigator</role>
+            </personnel>
+            <personnel id="sholbrook" scope="document">
+                <individualName>
+                    <givenName>Sally</givenName>
+                    <surName>Holbrook</surName>
+                </individualName>
+                <organizationName>Moorea Coral Reef LTER</organizationName>
+                <positionName>Principal Investigator</positionName>
+                <address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+                <phone phonetype="fax">805.893.3777</phone>
+                <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+                <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+                <role>Principal Investigator</role>
+            </personnel>
+            <personnel id="pedmunds" scope="document">
+                <individualName>
+                    <givenName>Peter</givenName>
+                    <surName>Edmunds</surName>
+                </individualName>
+                <organizationName>Moorea Coral Reef LTER</organizationName>
+                <positionName>Principal  Investigator</positionName>
+                <address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+                <phone phonetype="voice">818.677.2502</phone>
+                <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+                <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+                <role>Principal Investigator</role>
+            </personnel>
+            <personnel id="rcarpenter" scope="document">
+                <individualName>
+                    <givenName>Robert</givenName>
+                    <surName>Carpenter</surName>
+                </individualName>
+                <organizationName>Moorea Coral Reef LTER</organizationName>
+                <positionName>Principal  Investigator</positionName>
+                <address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+                <phone phonetype="voice">818-677-3256</phone>
+                <phone phonetype="fax">818-677-2034</phone>
+                <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+                <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+                <role>Principal Investigator</role>
+            </personnel>
+            <funding>
+                <para>NSF (LTER) OCE-0417412 and OCE-1026851</para>
+            </funding>
+        </project>
+
+        <otherEntity>
+            <alternateIdentifier>moorea_bathy_version_1.0.png</alternateIdentifier>
+            <entityName>Bathymetric map image</entityName>
+            <entityDescription>Bathymetry of the north shore of Moorea is shown on two color scales 
+            (a) from 0 to 1200 m depth and (b) from 0 to 50 m depth. The map is a png image file.</entityDescription>
+            <physical scope="document">
+                <objectName>MCR_LTER_Bathymetry_North_Shore_version1.0_colorscale_image_20111123.png</objectName>
+                <size unit="Kb">81</size>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>png image</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1036&amp;entityindex=1</url>
+                    </online>
+                </distribution>
+            </physical>
+            <entityType>png</entityType>
+
+        </otherEntity>
+
+        <dataTable id="sample" scope="document">
+            <alternateIdentifier>moorea_bathy_version_1.0_sample.txt</alternateIdentifier>
+            <entityName>Sample of bathymetry grid data</entityName>
+            <entityDescription>Table of point data as easting, northing and depth. Small sample of actual data file for preview.</entityDescription>
+            <physical scope="document">
+                <objectName>MCR_LTER_Bathymetry_Point_Data_North_Shore_version1.0_sample_20120229.txt</objectName>
+                <size unit="bytes">620</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <numFooterLines>0</numFooterLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>#x20</fieldDelimiter>
+                            <collapseDelimiters>yes</collapseDelimiters>
+                        </simpleDelimited>
+
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1036&amp;entityindex=2</url>
+                     </online>                                                                                  <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="sample.easting" scope="document">
+                    <attributeName>Easting</attributeName>
+                    <attributeLabel>Easting</attributeLabel>
+                    <attributeDefinition>Easting geographic coordinate in UTM zone 6S Datum WGS-84</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>10</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sample.northing" scope="document">
+                    <attributeName>Northing</attributeName>
+                    <attributeLabel>Northing</attributeLabel>
+                    <attributeDefinition>Northing geographic coordinate in UTM zone 6S Datum WGS-84</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>10</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sample.depth" scope="document">
+                    <attributeName>sensor_depth</attributeName>
+                    <attributeLabel>Depth</attributeLabel>
+                    <attributeDefinition>Depth; positive is down.</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+
+
+
+
+            </attributeList>
+            <numberOfRecords>20</numberOfRecords>
+        </dataTable>
+        <dataTable id="bathy_northing_easting_depth_NShore_v1.0" scope="document">
+            <alternateIdentifier>moorea_bathy_version_1.0.txt</alternateIdentifier>
+            <entityName>MCR_LTER_Bathymetry_Point_Data_North_Shore</entityName>
+            <entityDescription>Table of point data as easting, northing and depth.
+            </entityDescription>
+            <physical scope="document">
+                <objectName>MCR_LTER_Bathymetry_Point_Data_North_Shore_version1.0_20111123.csv</objectName>
+                <size unit="Mb">2.6</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>0</numHeaderLines>
+                        <numFooterLines>0</numFooterLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>#x20</fieldDelimiter>
+                            <collapseDelimiters>yes</collapseDelimiters>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1036&amp;entityindex=3</url>
+                     </online>                                                                                  <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="grid.easting" scope="document">
+                    <attributeName>Easting</attributeName>
+                    <attributeLabel>Easting</attributeLabel>
+                    <attributeDefinition>Easting geographic coordinate in UTM zone 6S Datum WGS-84</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>10</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="grid.northing" scope="document">
+                    <attributeName>Northing</attributeName>
+                    <attributeLabel>Northing</attributeLabel>
+                    <attributeDefinition>Northing geographic coordinate in UTM zone 6S Datum WGS-84</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>10</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="grid.depth" scope="document">
+                    <attributeName>sensor_depth</attributeName>
+                    <attributeLabel>Depth</attributeLabel>
+                    <attributeDefinition>Depth; positive is down.</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>0.01</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+
+
+
+
+            </attributeList>
+            <numberOfRecords>87277</numberOfRecords>
+        </dataTable>
+
+
+
+
+
+
+    </dataset>
+</ns0:eml>

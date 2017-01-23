@@ -1,0 +1,718 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.161.16" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="161" system="VCR">
+   <alternateIdentifier>VCR09150</alternateIdentifier>
+   <title>Nutrient concentrations in three small streams on the coast of the Delmarva Peninsula 2002-2009</title>
+   <creator>
+      <individualName>
+         <givenName>Iris</givenName>
+         <surName>Anderson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>College of William and Mary, Virginia Institute of Marine Science, School of Marine Science</deliveryPoint>
+         <city>Gloucester Point</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23062</postalCode>
+         <country>225</country>
+      </address>
+      <phone phonetype="voice">(804) 684-7242</phone>
+      <phone phonetype="facsimile">(804) 684-7179</phone>
+      <electronicMailAddress>iris@vims.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">ianderson</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <salutation>Ms.</salutation>
+         <givenName>Jennifer</givenName>
+         <surName>Stanhope</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Rt 1208 Greate Road</deliveryPoint>
+         <city>Gloucester Point</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23062</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">804-684-7132</phone>
+      <electronicMailAddress>jwu@vims.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jwu</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Kathleen</givenName>
+         <surName>Overman</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>31559 Pennyville Road</deliveryPoint>
+         <city>Painter</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23420</postalCode>
+      </address>
+      <phone phonetype="voice">757-331-4393</phone>
+      <electronicMailAddress>kmo8t@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">koverman</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2009-01-31</pubDate>
+   <abstract>
+  <para>This dataset contains dissolved nutrient measurements for three small creeks on the Atlantic side of the Delmarva Peninsula in Virginia.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Inorganic Nutrients</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">nitrate</keyword>
+      <keyword keywordType="theme">nitrite</keyword>
+      <keyword keywordType="theme">Ammonium</keyword>
+      <keyword keywordType="theme">phosphate</keyword>
+      <keyword keywordType="theme">streams</keyword>
+      <keyword keywordType="theme">dissolved organic carbon</keyword>
+      <keyword keywordType="theme">dissolved organic nitrogen</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>GARG - Gargatha Creek (near Modest Town)</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.497600</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.497600</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.813200</northBoundingCoordinate>
+            <southBoundingCoordinate>37.813200</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>GARGATHA - Gargatha Creek (near Modest Town) - non-tidal stream monitoring</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>GC - Greens Creek</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.807060</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.807060</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.484510</northBoundingCoordinate>
+            <southBoundingCoordinate>37.484510</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>GREENS - Greens Creek</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.80706</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.80706</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.48451</northBoundingCoordinate>
+            <southBoundingCoordinate>37.48451</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>NICKAWAMPUS - Nickawampus Creek, left branch - non-tidal stream monitoring</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>NICKAWAMPUSL - Nickawampus Creek #1, Left fork</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>2002-06-13</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2009-01-31</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>Iris</givenName>
+         <surName>Anderson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>College of William and Mary, Virginia Institute of Marine Science, School of Marine Science</deliveryPoint>
+         <city>Gloucester Point</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23062</postalCode>
+         <country>225</country>
+      </address>
+      <phone phonetype="voice">(804) 684-7242</phone>
+      <phone phonetype="facsimile">(804) 684-7179</phone>
+      <electronicMailAddress>iris@vims.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">ianderson</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <salutation>Ms.</salutation>
+         <givenName>Jennifer</givenName>
+         <surName>Stanhope</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Rt 1208 Greate Road</deliveryPoint>
+         <city>Gloucester Point</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23062</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">804-684-7132</phone>
+      <electronicMailAddress>jwu@vims.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jwu</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para>All samples collected with brown nalgene bottles (pre-rinsed with sample water 3 times) and kept on ice until filtered with Acrodisk filters (Pall Supor, 0.45um). Filtered samples were frozen pending analysis.</para>
+         </description>
+      </methodStep>
+   </methods>
+   <dataTable>
+      <entityName>VCR09150</entityName>
+      <entityDescription>Nutrient concentrations in three small streams on the coast of the Delmarva Peninsula 2002-2009</entityDescription>
+      <physical>
+         <objectName>streamchemistry.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>23</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0D#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0D#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.161.16&amp;urlHeadID=2&amp;urlTail=1/VCR09150/VCR09150/streamchemistry.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR09150.SITE">
+            <attributeName>SITE</attributeName>
+            <attributeLabel>Site name</attributeLabel>
+            <attributeDefinition>SITE - Site name</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Site name</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.SITE_R">
+            <attributeName>SITE_R</attributeName>
+            <attributeLabel>Site Replicate Identifier</attributeLabel>
+            <attributeDefinition>SITE_R - Site Replicate Identifier</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Site Replicate Identifier</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.DATE">
+            <attributeName>DATE</attributeName>
+            <attributeLabel>Date of sample collection</attributeLabel>
+            <attributeDefinition>DATE - Date of sample collection</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Date of sample collection</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.DISCHARGE_TYPE">
+            <attributeName>DISCHARGE_TYPE</attributeName>
+            <attributeLabel>Type of Discharge</attributeLabel>
+            <attributeDefinition>DISCHARGE_TYPE - Type of Discharge</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Type of Discharge</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.NO3">
+            <attributeName>NO3</attributeName>
+            <attributeLabel>Nitrate Concentration</attributeLabel>
+            <attributeDefinition>NO3 - Nitrate Concentration</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>uM N</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.NO2">
+            <attributeName>NO2</attributeName>
+            <attributeLabel>Nitrate Concentration</attributeLabel>
+            <attributeDefinition>NO2 - Nitrate Concentration</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>uM N</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.NH4">
+            <attributeName>NH4</attributeName>
+            <attributeLabel>Ammonium Concentration</attributeLabel>
+            <attributeDefinition>NH4 - Ammonium Concentration</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>uM N</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.DON">
+            <attributeName>DON</attributeName>
+            <attributeLabel>Dissolved Organic Nitrogen Concentration</attributeLabel>
+            <attributeDefinition>DON - Dissolved Organic Nitrogen Concentration</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>uM N</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.PO4">
+            <attributeName>PO4</attributeName>
+            <attributeLabel>Phosphate Concentration</attributeLabel>
+            <attributeDefinition>PO4 - Phosphate Concentration</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>uM P</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.DOC">
+            <attributeName>DOC</attributeName>
+            <attributeLabel>Dissolved Organic Carbon Concentration</attributeLabel>
+            <attributeDefinition>DOC - Dissolved Organic Carbon Concentration</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>uM C</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.NO3_QC">
+            <attributeName>NO3_QC</attributeName>
+            <attributeLabel>Nitrate quality code</attributeLabel>
+            <attributeDefinition>NO3_QC - Nitrate quality code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>D</code>
+                           <definition>data deleted due to QAQC checks (e.g., contaminated, diluted incorrectly)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>LS</code>
+                           <definition>Samples stored for long period of time, as noted in comments.</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>NS</code>
+                           <definition>No sample (e.g., sample lost or not collected)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>Q</code>
+                           <definition>Data questionable for reason provided in comment.</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>TB</code>
+                           <definition>To be analyzed</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.NO2_QC">
+            <attributeName>NO2_QC</attributeName>
+            <attributeLabel>Nitrite Quality Code</attributeLabel>
+            <attributeDefinition>NO2_QC - Nitrite Quality Code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Nitrite Quality Code</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.NH4_QC">
+            <attributeName>NH4_QC</attributeName>
+            <attributeLabel>Ammonium quality code</attributeLabel>
+            <attributeDefinition>NH4_QC - Ammonium quality code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Ammonium quality code</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.DON_QC">
+            <attributeName>DON_QC</attributeName>
+            <attributeLabel>Dissolved Organic Nitrogen Quality Code</attributeLabel>
+            <attributeDefinition>DON_QC - Dissolved Organic Nitrogen Quality Code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Dissolved Organic Nitrogen Quality Code</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.PO4_QC">
+            <attributeName>PO4_QC</attributeName>
+            <attributeLabel>Phosphate Quality Code</attributeLabel>
+            <attributeDefinition>PO4_QC - Phosphate Quality Code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Phosphate Quality Code</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.DOC_QC">
+            <attributeName>DOC_QC</attributeName>
+            <attributeLabel>Dissolved Organic Carbon Quality Code</attributeLabel>
+            <attributeDefinition>DOC_QC - Dissolved Organic Carbon Quality Code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Dissolved Organic Carbon Quality Code</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.LAB_ANALYZED">
+            <attributeName>LAB_ANALYZED</attributeName>
+            <attributeLabel>Lab where analysis was performed</attributeLabel>
+            <attributeDefinition>LAB_ANALYZED - Lab where analysis was performed</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Lab where analysis was performed</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR09150.COMMENTS">
+            <attributeName>COMMENTS</attributeName>
+            <attributeLabel>Comments</attributeLabel>
+            <attributeDefinition>COMMENTS - Comments</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Comments</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+      </attributeList>
+   </dataTable>
+   <otherEntity>
+      <entityName>VCR09150_extras.zip</entityName>
+      <entityDescription>
+Earlier versions of the data
+      </entityDescription>
+      <physical>
+         <objectName>VCR09150_extras.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.161.16&amp;urlHeadID=2&amp;urlTail=2/VCR09150/VCR09150_extras.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="uM C" />
+      <ns2:unit id="uM N" />
+      <ns2:unit id="uM P" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-17</weight>
+         <featuredDataGroup>Watersheds</featuredDataGroup>
+         <researchTheme>Fluxes Watershed&#8211;Bay&#8211;Ocean</researchTheme>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>
