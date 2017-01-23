@@ -1,0 +1,788 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.62.15" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF062">
+      <alternateIdentifier>HF062</alternateIdentifier>
+      <title>Canopy Chemistry Study at Harvard Forest 1992</title>
+      <creator>
+         <individualName>
+            <givenName>Mary</givenName>
+            <surName>Martin</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>John</givenName>
+            <surName>Aber</surName>
+         </individualName>
+      </creator>
+      <pubDate>1999</pubDate>
+      <abstract>
+         <section>
+            <para>As part of NASA's Accelerated Canopy Chemistry Program (ACCP) analyses were performed for the determination of carbon constituents and nitrogen content in fresh forest foliage. Samples were analyzed using a series of extraction's that yielded different carbon constituents: non-polar, polar, cellulose and lignin. Nitrogen analyses were conducted using a standard combustion procedure. Approximately 1000 leaf samples were collected from 5 geographically distinct sites and were analyzed at the University of New Hampshire to ensure consistency in analysis. Results were used as a calibration set for Visible/NIR reflectance and the estimation of  carbon and nitrogen concentrations at both the leaf and canopy level. The canopy level study uses high spectral resolution data from NASA's Airborne Visible/Infrared Imaging Spectrometer (AVIRIS) to estimate canopy level nitrogen and lignin concentration for the Harvard Forest and other study areas.</para>
+            <para>The current link to this data from the Harvard Forest LTER site is to an archive at the University of New Hampshire.  Additional information on this study, including, leaf level spectra and remote sensing data are available from a NASA DAAC site  (http://www-eosdis.ornl.gov/daacpages/accp.html).  Additional foliar chemistry data is also available on a searchable on-line database at http://www.folchem.sr.unh.edu.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>canopies</keyword>
+         <keyword>cellulose</keyword>
+         <keyword>nitrogen</keyword>
+         <keyword>remote sensing</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>primary production</keyword>
+         <keyword>inorganic nutrients</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf062</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Harvard Forest</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.23</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.16</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.55</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.45</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>205</altitudeMinimum>
+                  <altitudeMaximum>420</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1992-01-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>1992-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>Mary</givenName>
+            <surName>Martin</surName>
+         </individualName>
+         <organizationName>University of New Hampshire</organizationName>
+         <address>
+            <deliveryPoint>Institute for the Study of Earth, Oceans, and Space</deliveryPoint>
+            <city>Durham</city>
+            <administrativeArea>NH</administrativeArea>
+            <postalCode>03824 </postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(603) 862-0322</phone>
+         <electronicMailAddress>mary.martin@unh.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <title>Sample preparation</title>
+                  <para>Prior to analysis, samples were oven dried at 70 degrees C for 48 hours, ground to 20-mesh and homogenised.</para>
+               </section>
+               <section>
+                  <title>Proximate carbon fraction analysis</title>
+                  <para>Carbon constituent analyses were performed using a series of extraction's modified from those used by Ryan, et. al. Two grams of material were refluxed with 75 ml of dichloromethane for five hours to remove the non-polar component of the sample (fats, waxes, and other organic soluble materials) using a block digestor and condenser apparatus modified from a TAPPI procedure. Polar extractives such as phenols, simple sugars, starch and simple amino acids were removed by boiling a subsample (1.6 g) of tissue from the non-polar analysis for three hours in deionised water and then filtering. Sample size was increased from the recommended 0.5 g to 1.6 g to ensure sufficient post polar sample quantity for the acid digestion. Lignin and cellulose content were determined by a modified wood-products chemistry procedure.  A 0.5 g subsample of post polar material was digested in 72% sulphuric acid for 1 hour in a 30 degree C water bath. This was then diluted with water until a 28:1 water to acid ratio was formed to carry out secondary hydrolysis while boiling for 4 hours. To wet the sample thoroughly we used 1.5 ml of acid for each 100 mg of sample, a 0.5 ml increase in acid  over the quantity Effland recommended. At the end of this process the sample was filtered. Residual tissue was considered lignin and mass lost during digestion was considered cellulose. The percentages of the different constituents were determined gravimetrically. Oven-dried samples were temporarily stored in dessicators to prevent gaining moisture from the atmosphere before weighing.</para>
+               </section>
+               <section>
+                  <title>Calculations for carbon chemistry</title>
+                  <para>% non polar = (Pre non polar mass - post non polar mass)/ pre non polar
+mass; % polar = ((pre polar mass - post polar mass)/ pre polar mass) * (1-% non polar); % cellulose = ((pre digest mass - post digest mass)/ pre digest mass) * (1- % non polar - % polar); and % lignin = (post digest mass / pre digest mass) * (1- % non polar- % polar).</para>
+               </section>
+               <section>
+                  <title>Nitrogen analyses</title>
+                  <para>Nitrogen determination was performed using a Perkin-Elmer 2400 CHN Elemental Analyser. The CHN analyser combusts a sample to convert elements to gases (CO2, H2O, N2). The resulting data are weight percentage of carbon, hydrogen and nitrogen (CHN). In addition, a total Kjeldahl nitrogen (TKN) determination was performed on a subset of 100 samples. This method uses sulphuric acid and a digestion catalyst of potassium sulphate, cupric sulphate and selenium powder on ground leaf samples to generate a liquid sample for colorimetric analysis, and was included as a alternate method of nitrogen determination included for QA/QC as assessment. In addition, three replicate samples of each of the three standard materials were sent to Oregon State University for a similar Kjeldahl analysis. Finally, three National Bureau of Standards (NBS) 1.2% nitrogen pine foliage standards were included in each of four Kjeldhal runs.</para>
+               </section>
+               <section>
+                  <title>Analysis Methods</title>
+                  <para>Method ID: 1 Name: Near Infrared Spectroscopy. Description: Samples were dried at 70oC, and ground to pass a 1mm mesh screen. The dried and ground sample was scanned using a NIRSystems spectrophotometer. Foliar N, lignin and cellulose concentrations were predicted from the resulting spectral signatures. Citation: Bolster, K. L.; Martin, M. E., and Aber, J. A. 1996. Determination of carbon fraction and nitrogen concentration in tree foliage by near infrared reflectance: a comparison of statistical methods. Canadian Journal of Forest Research. 26(4):590-600.</para>
+                  <para>Method ID: 2. Name: ICP Analysis. Description: Digestate was analyzed for Al, Ca, Fe, K, Mg, Mn, P and Sr using an inductively coupled plasma spectrometer.</para>
+                  <para>Method ID: 3. Name: TKN digestion. Description: Samples were dried at 70oC, and ground to pass a 1mm mesh screen and digested using a modified TKN digestion using a selenium catalyst (Isaac and Johnson 1976). Citation: 	Isaac, R.A. and Johnson, W.C. 1976. Determination of total nitrogen in plant tissue using a block digestor. Journal of the AOAC 59: 98-100.</para>
+                  <para>Method ID: 4. Name: Microwave digestion. Description: Samples were dried at 70oC, and ground to pass a 1mm mesh screen. Dried and ground foliage was digested using a microwave assisted acid digestion procedure. Citation: 1996. EPA method 3052: Microwave assisted acid digestion of siliceous and organically based matrices. In Test methods for evaluating solid waste update (III). U.S. Environmental protection agency, Washington, DC.</para>
+                  <para>Method ID: 5. Name: TKN Analysis. Description: Analysis for the digestion of total foliar N was carried out using a Bran+Luebbe (Technicon) TRAACS 800 Autoanalyzer.</para>
+                  <para>Method ID: 6. Name: CHN Analysis</para>
+                  <para>Method ID: 7. Name: DCP Analysis. Description: Digestate was analyzed for Al, Ca, Fe, K, Mg, Mn, and P using a SpectraSpan III, ARL direct current plasma AES by Fisons Instruments Inc.. Citation: A.L. Page, R.H. Miller and D.R. Keeney (Eds), Methods of soil analysis chemical and microbiological properties, 2nd Edn, Vol. 2. America Society of Agronomy, Madison, WI (1982).</para>
+                  <para>Method ID: 8. Name: Dry Ash. Description: Foliage samples were dry ashed at 485 degrees C; taken up in 10% HCl. Citation: Munter, R.C. 1982. Current methods used by Research Analytical Laboratory University of Minnesota, St. Paul.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf062-01">
+         <entityName>hf062-01-plot.csv</entityName>
+         <entityDescription>plot data</entityDescription>
+         <physical id="1184180420980">
+            <objectName>hf062-01-plot.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p06/hf062/hf062-01-plot.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1184180421921">
+               <attributeName>Plot</attributeName>
+               <attributeDefinition>plot name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184180421941">
+               <attributeName>Species</attributeName>
+               <attributeDefinition>USDA Species ID code - look up at http://plants.usda.gov/</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>species id code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184180421961">
+               <attributeName>Lat</attributeName>
+               <attributeDefinition>latitude in decimal degrees</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>0.0001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184180421971">
+               <attributeName>Lon</attributeName>
+               <attributeDefinition>longitude in decimal degrees with - to indicate W</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>0.0001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184180421981">
+               <attributeName>Elev</attributeName>
+               <attributeDefinition>elevation of plot in meters</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184180421991">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184180422001">
+               <attributeName>cellulose</attributeName>
+               <attributeDefinition>percent cellulose</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184180422011">
+               <attributeName>lignin</attributeName>
+               <attributeDefinition>percent lignin</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184180422021">
+               <attributeName>carbon</attributeName>
+               <attributeDefinition>percent carbon</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184180422031">
+               <attributeName>hydrogen</attributeName>
+               <attributeDefinition>percent hydrogen</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184180422041">
+               <attributeName>nitrogen</attributeName>
+               <attributeDefinition>percent nitrogen</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>42</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf062-02">
+         <entityName>hf062-02-tree.csv</entityName>
+         <entityDescription>tree data</entityDescription>
+         <physical id="1184181220289">
+            <objectName>hf062-02-tree.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p06/hf062/hf062-02-tree.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1184181221451">
+               <attributeName>Plot</attributeName>
+               <attributeDefinition>plot name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184181221471">
+               <attributeName>Sample ID</attributeName>
+               <attributeDefinition>Unique sample id. Usually a combination of date,site, plot, species, and tree</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>unique sample id</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184181221491">
+               <attributeName>Species</attributeName>
+               <attributeDefinition>USDA Species ID code - look up at http://plants.usda.gov/</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>USDA species ID code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184181221501">
+               <attributeName>Lat</attributeName>
+               <attributeDefinition>latitude in decimal degrees</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>0.0001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184181221511">
+               <attributeName>Lon</attributeName>
+               <attributeDefinition>longitude in decimal degrees with - to indicate W</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>0.0001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184181221521">
+               <attributeName>Elev</attributeName>
+               <attributeDefinition>elevation of plot in meters</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184181221531">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184181221551">
+               <attributeName>cellulose</attributeName>
+               <attributeDefinition>percent cellulose</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184181221561">
+               <attributeName>cellulose Method</attributeName>
+               <attributeDefinition>code for method used to digest and/or analyze samples (see method codes)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>method code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184181221571">
+               <attributeName>lignin</attributeName>
+               <attributeDefinition>percent lignin</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184181221581">
+               <attributeName>lignin Method</attributeName>
+               <attributeDefinition>code for method used to digest and/or analyze samples (see method codes)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Near Infrared Spectroscopy</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>ICP Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>TNK digestion</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>4</code>
+                              <definition>Microwave digestion</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>5</code>
+                              <definition>TKN Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>6</code>
+                              <definition>CHN Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>7</code>
+                              <definition>DCP Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>8</code>
+                              <definition>Dry Ash</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184181221591">
+               <attributeName>carbon</attributeName>
+               <attributeDefinition>percent carbon</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184181221601">
+               <attributeName>carbon Method</attributeName>
+               <attributeDefinition>code for method used to digest and/or analyze samples (see method codes)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Near Infrared Spectroscopy</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>ICP Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>TKN digestion</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>4</code>
+                              <definition>Microwave digestion</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>5</code>
+                              <definition>TKN Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>6</code>
+                              <definition>CHN Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>7</code>
+                              <definition>DCP Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>8</code>
+                              <definition>Dry Ash</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184181221611">
+               <attributeName>hydrogen</attributeName>
+               <attributeDefinition>percent hydrogen</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184181221621">
+               <attributeName>hydrogen Method</attributeName>
+               <attributeDefinition>code for method used to digest and/or analyze samples (see method codes)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Near Infrared Spectroscopy</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>ICP Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>TKN digestion</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>4</code>
+                              <definition>Microwave digestion</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>5</code>
+                              <definition>TKN Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>6</code>
+                              <definition>CHN Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>7</code>
+                              <definition>DCP Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>8</code>
+                              <definition>Dry Ash</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1184181221631">
+               <attributeName>nitrogen</attributeName>
+               <attributeDefinition>percent nitrogen</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1184181221641">
+               <attributeName>nitrogen Method</attributeName>
+               <attributeDefinition>code for method used to digest and/or analyze samples (see method codes)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Near Infrared Spectroscopy</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>ICP Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>TKN digestion</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>4</code>
+                              <definition>Microwave digestion</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>5</code>
+                              <definition>TKN Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>6</code>
+                              <definition>CHN Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>7</code>
+                              <definition>DCP Analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>8</code>
+                              <definition>Dry Ash</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>192</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>community</researchTopic>
+            <studyType>short-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

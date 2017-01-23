@@ -1,0 +1,993 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.210.8" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="210" system="VCR">
+   <alternateIdentifier system="VCR">VCR13204</alternateIdentifier>
+   <title>Integrated Topography and Bathymetry for the Eastern Shore of Virginia</title>
+   <creator>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>George</givenName>
+         <surName>Oertel</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Oceanography</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23508</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4935</phone>
+      <phone phonetype="facsimile">(757) 683-5303</phone>
+      <electronicMailAddress>goertel@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">goertel</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Richard</givenName>
+         <surName>Zimmerman</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23529</postalCode>
+         <country>USA</country>
+      </address>
+      <electronicMailAddress>rzimmerm@odu.edu</electronicMailAddress>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Charles</givenName>
+         <surName>Carlson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Virginia Coast Reserve, LTER Laboratory, PO Box LTER</deliveryPoint>
+         <city>Oyster</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23419</postalCode>
+      </address>
+      <phone phonetype="voice">(804) 331-4323</phone>
+      <phone phonetype="facsimile">(804) 331-3952</phone>
+      <electronicMailAddress>crc7m@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">ccarlson</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Kathleen</givenName>
+         <surName>Overman</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>31559 Pennyville Road</deliveryPoint>
+         <city>Painter</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23420</postalCode>
+      </address>
+      <phone phonetype="voice">757-331-4393</phone>
+      <electronicMailAddress>kmo8t@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">koverman</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Charles</givenName>
+         <surName>Carlson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Eckerd College</deliveryPoint>
+         <city>Tampa</city>
+         <administrativeArea>FL</administrativeArea>
+         <country>USA</country>
+      </address>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2014-08-01</pubDate>
+   <abstract>
+  <para>VERSION 2.0 DEM</para>
+  <para>Description</para>
+  <para>This dataset integrates elevation and bathymetry data from multiple sources into a single mostly-seamless digital elevation model (DEM) that covers the entire Eastern Shore of Virginia and its surrounding coastal waters. Data sources include airborn LiDAR, VCRLTER and ODU bathymetric surveys, NOAA navigational data, NOS oceanographic surveys, USGS NED data plus contours and features from topo quad maps, and VGIN-VBMP aerial imagery.</para>
+  <para>Proposed uses for the dataset include deriving detailed watershed boundaries, hypsometric curves, tidal prisms, 3-D physical models, and input for numerical hydrodynamic simulation models.</para>
+  <para>The version 2.0 DEM (August 2014) is suitable for both local- and regional-scale analyses. It has a resolution matched to the LiDAR data (3.048 m. or 10 ft.), resulting in 31,152 x 46,002 cells (5.4 Gigabyte in ESRI GRID format). Users can aggregate to coarser cell resolutions as needed. The data is projected in UTM Zone 18 North coordinates relative to the WGS84 horizontal datum. All elevations are in meters relative to the NAVD88 vertical datum. Spatially modelled conversion factors between NAVD88 and local sea level datums (MSL, MLW, MHW, etc.) based on NOAA VDATUM data are available as a separate dataset (VCR13215).</para>
+  <para>See "METHODS" for full details on data sources and integration methodologies.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">elevation</keyword>
+      <keyword keywordType="theme">digital elevation model</keyword>
+      <keyword keywordType="theme">topography</keyword>
+      <keyword keywordType="theme">bathymetry</keyword>
+      <keyword keywordType="theme">LiDAR</keyword>
+      <keyword keywordType="theme">surveys</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>ESHORE - Eastern Shore</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.240000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-76.240000</eastBoundingCoordinate>
+            <northBoundingCoordinate>38.020000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.070000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>GARGBAY - Gargathy Bay</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.56027412414551</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.56027412414551</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.76581832548081</northBoundingCoordinate>
+            <southBoundingCoordinate>37.76581832548081</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>HOGBAY - Hog Island Bay</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.700000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.810000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.500000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.360000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>KEGOTBAY - Kegotank Bay</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.53130626678467</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.53130626678467</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.79658796826337</northBoundingCoordinate>
+            <southBoundingCoordinate>37.79658796826337</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>MAGOTHYBAY - Magothy Bay, between Smith Island and the Delmarva Peninsula</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.91964721679688</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.91964721679688</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.14634971813868</northBoundingCoordinate>
+            <southBoundingCoordinate>37.14634971813868</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>SOUTHBAY - South Bay, Northampton County, VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>VA_EASTERNSHORE - Eastern Shore of Virginia and surrounding waters</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1999-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2013-12-31</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para><emphasis>VERSION 2.0 DEM</emphasis></para>
+  <para><emphasis>Data Sources and Methods</emphasis></para>
+  <para>2010 LiDAR bare earth DEM elevation data from the Virginia Information Technology Agency (VITA), modeled at 10 ft. (3.048 m.) resolution, with hydro-flattened areas masked out (VCRLTER dataset VCR12194).</para>
+  <para>1/3 arc-second (~10m) National Elevation Dataset (NED) from USGS, for areas with elevation greater than 0 and not covered by LiDAR (some marshes, plus areas of southern MD, as well as some areas identified as interpolation error in the LiDAR data in the vicinity of the VA/MD border).</para>
+  <para>Marsh platforms (missed by both LiDAR due to tidal stage and by the NED [set to zero elevation]) were inferred based on 2006 NOAA CCAP marsh locations (30m raster resolution) and USGS NHD hydrology open water areas (vector) and set to +0.404 m. elevation NAVD88 based on CCAP marsh mean elevation in regions coincident with LiDAR data (see VCR12194-4 lidarwmarshmaskpoly description). In regions where the marsh platforms were adequately captured by LiDAR at lower tidal levels but the NHD marsh/water edge lies beyond the LiDAR-determined edge, the elevation of the fringing areas were assigned the NED elevation of zero NAVD88 (below the lowest LiDAR values). When producing intermediate models of inter- and subtidal areas, a lower marsh edge elevation of +0.405 m. MLW was used based on the empirical relationship of salt marsh lower limit, tidal range, and mean sea level found by McKee and Patrick (1988).</para>
+  <para>Fringing nearshore areas subject to erosion and presently too low to be captured by LiDAR but shown as elevated (&gt;0m NAVD88) in the NED data based on older shoreline positions from decades-old USGS topo maps were excluded from the NED dataset and either replaced with modeled bathymetry or set to the MLW value. On the seaside these areas were largely seaward of the current beaches and shorelines of the barrier islands. On the bayside, which was not prone to the same high tide inundation LiDAR issues as on the seaside, these areas included the outer fringe of mainland marshes as well as receding bluffs and beaches.</para>
+  <para>The artificial islands of the Chesapeake Bay Bridge Tunnel (CBBT) show up as being at either zero or MHW in the NED and PTWC datasets. Therefore, the supertidal portions of these islands were modeled by digitizing the wetted perimeter and structural features visible in 2013 aerial imagery from VGIN-VBMP and assigning elevations based on civil engineering descriptions (source: Virginia section of the American Society of Civil Engineers (VASCE) document on the history of the CBBT: http://www.roadstothefuture.com/VASCE-History/VASCE-CBBT.htm). The road deck/island general platform was assigned an elevation of 30 ft. above MLW, the top of the riprap/visible bottom of the concrete splash wall was assigned an elevation of 20 ft. above MSL, and the wave-wetted perimeter of the riprap above water level was assigned an elevation of +2 m. NAVD88.</para>
+  <para>Tidal flats were digitized from USGS 7.5 minute quadrangle topo maps and adjusted as needed based on the most recent (2013) NOAA Electronic Navigation Chart (ENC) GIS data showing the edge of navigation. The ENC zero MLW contour is not, in fact, zero MLW but instead corresponds exactly to the USGS-delimited tidal flat edge (as visible in aerial imagery) when more recent ENC data is not available. Based conservatively on the upper (higher) 33rd quantile elevation for USGS tidal flat areas in Hog Island Bay at least 100 m. distant from the flat/channel boundary (1000 random survey points and elevations from the VCRLTER Hog Island Bay model), this edge of navigation was modelled as -0.218 m. MLW.</para>
+  <para>Bathymetry Surveys by VCRLTER and ODU:</para>
+  <para><itemizedlist><listitem>
+      <para> * Hog Island Bay (1997-1999) by Oertel, Carlson, and Overman.</para>
+    </listitem>
+<listitem>
+      <para> * Oyster Harbor, Fishermans Inlet, Phillips Creek (1997-1999) by Carlson.</para>
+    </listitem>
+<listitem>
+      <para> * Magothy Bay, Gargathy and Kegotank Bays (2007-2009) by Oertel, Gomez, Overman, and Buck.</para>
+    </listitem>
+<listitem>
+      <para> * Spidercrab and northern South Bay (2011) by Zimmerman.</para>
+    </listitem>
+</itemizedlist></para>
+  <para>The original VCRLTER bathymetry survey point data (contained within VCR08145) for the VCRLTER Hog Island Bay bathymetry model (VCR05131) was combined with additional overlapping bathymetry survey point data from ODU (Zimmerman) plus the LiDAR edge or marsh-platform edge elevations and (for areas beyond the region covered by survey points in Spidercrab and Cobb Bays) tidal flat boundaries and USGS/ENC soundings and contours to build a new composite intermediate bathymetry model for this region.</para>
+  <para>The same was done for the northern portion of South Bay to combine the bathymetry survey point data from ODU (Zimmerman) with LiDAR/marsh edge elevations and tidal flat boundaries and USGS/ENC soundings and contours in surrounding areas of scarce survey data to build a new intermediate bathymetry model for this region.</para>
+  <para>The VCRLTER bathymetry model for Gargathy and Kegotank Bays (VCR09165) spanned areas captured by LiDAR at different tidal stages, resulting in the capture of varying marsh elevation and shallow creeks in some regions and nothing (no LiDAR, so inferred marsh platform) in others. In regions of the inferred marsh platform, the bathymetry model included depths for some smaller marsh creeks. The original model also used its own default marsh platform elevation. The model elevations were converted from MHW to NAVD88 and all areas covered by LiDAR data or the original model's default marsh platform were removed prior to ingestion.</para>
+  <para>The VCRLTER bathymetry model for southern Magothy Bay (VCR09164) did not include any marsh creek depths not captured by LiDAR or the inferred marsh platform. As a result, after conversion from MHW to NAVD88, all areas covered by either LiDAR or the inferred marsh platform were removed prior to ingestion.</para>
+  <para>VCRLTER bathymetry survey point data (contained within VCR08145) was found for Oyster Harbor, Fishermans Inlet, and Phillips Creek. Additionally, for Oyster Harbor, the edge of the marsh/creek/tidal flat was digitized from 2013 VGIN-VBMP aerial imagery and assigned to the MLW elevation. For Phillips Creek, a channel centerline was created connecting the survey points, and then depths between survey points along this centerline were interpolated using an intermediate DEM created solely from the bathymetry survey point data, with the result that elevations from opposite creek banks would not be used to estimate mid channel depths. These data were combined with the LiDAR edge elevations to create bathymetry models for each of the three regions.</para>
+  <para>Seaside lagoon bathymetry in absence of VCRLTER/ODU survey data was modelled using the most recent NOAA ENC soundings and contours, USGS topo map bathymetry contours when available, digitized channel centerlines with depths interpolated between ENC soundings, tidal flat edges, marsh platform lower limits, and the edge elevations of the LiDAR data.</para>
+  <para>Bayside nearshore and creek bathymetry was modeled using NOAA National Ocean Service (NOS) hydrographic survey data (XYZ point data, 1934-1982), digitized channel centerlines with depths interpolated between NOS soundings, and the edge elevations of the LiDAR data.</para>
+  <para>Offshore (Atlantic Ocean, Chesapeake Bay) and Chincoteague Bay bathymetry was modelled using NOAA NOS hydrographic survey data (XYZ point data, 1934-1982, and BAG raster data [0.5-4.0 m. resolution], 2006-present, representing 41 separate surveys) and Pacific Tsunami Warning Center (PTWC) MHW 30 m. resolution DEMs for Virginia Beach, VA and Ocean City, MD. Areas that exceeded MLW (and also zero NAVD88) after conversion from MHW to NAVD88 for PTWC data were set to MLW.</para>
+  <para><emphasis>Transitions between bathymetry models using different sources of data:</emphasis></para>
+  <para>Note that in nearshore bayside waters covered by the PTWC Virginia Beach grid and within 0.6-1.0 km of the Chesapeake Bay shoreline, including the creeks from to Elliots Creek to Nassawadox Creek, the modeled nearshore bathymetry using NOS soundings and digitized channel centerlines with depths interpolated between the soundings was used instead.</para>
+  <para>In regions of the seaside lagoons where the bathymetry was modeled as above using ENC and USGS topo data AND some PTWC data below MLW was available (Smith Island Inlet, South Bay, Sand Shoal Inlet, Hog Island bay close to Great Machipongo Inlet, Quinby Inlet and Sandy Island Channel, the Wachapreague Inlet ebb tide delta [from NOS data], and all the small bays and channels connecting Chincoteague Inlet with Bogues Bay and Chincoteague Bay [including Chincoteague, Assateague, and Queen Sound Channels] but excluding Chincoteague Inlet itself [where the ENC-only values were exclusively retained]), the deeper of the bathymetry values was used.</para>
+  <para>In lower Hog Island Bay, a section of Middle and Heather Channels between Hog and Rogue Islands with only a few crossing survey transects was modelled as a weighted average of 3/4 the new intermediate composite model for Hog Island Bay from survey data and 1/4 the deeper PTWC value so as to better capture the channels. A small section of mid-channel shoal in Gull Marsh Channel detoured around by the ODU Zimmerman survey but shown as shallow in the ENC data was modelled as 1/4 the deeper new Hog Island Bay model and 3/4 the depth of -1.0 NAVD88 whenever the ENC data showed the depth as shallower than -1.0 NAVD88. The Ramshorn creek was modelled as the average depth estimated from the new composite model and the ENC/USGS-derived model (1/2 each).</para>
+  <para>In middle Magothy Bay where the VCRLTER surveyed channel becomes increasingly undefined as one approaches the northern limit of the earlier model while the USGS topo sheets show quite detailed contour lines and a continuous deep channel, in order to allow a smooth transition between the VCR survey model and the ENC/USGS-derived model, three transition zones were defined. In Zone 1, the non-channel flats in this transition region, areas where the VCR model was deeper than 0 were modeled as a weighted average of 3/4 the VCR depth and 1/4 the ENC/USGS depth, otherwise the VCR depth was used. In Zone 3, the main Magothy Channel, the same formula was used but only when the VCR data was shallower than the ENC/USGS data. In Zone 2, which was the area surrounding a side branch of Magothy Channel draining Dunton Cove captured by the USGS data, the deeper of the two model values was used.</para>
+  <para><emphasis>References:</emphasis></para>
+  <para>McKee, K.L., and W.H. Patrick. 1988. The relationship of smooth cordgrass (Spartina alterniflora) to tidal datums: A review. Estuaries 11(3): 143-151.</para>
+  <para>Grothe, P.R., L.A. Taylor, B.W. Eakins, R.R. Warnken, K.S. Carignan, E. Lim, R.J. Caldwell, and D.Z. Friday, 2010. Digital Elevation Model of Ocean City, Maryland: Procedures, Data Sources and Analysis, NOAA Technical Memorandum NESDIS NGDC-37, Dept. of Commerce, Boulder, CO, 37 pp.</para>
+  <para>Taylor, L.A., B.W. Eakins, K.S. Carignan, R.R. Warnken, T. Sazonova, D.C. Schoolcraft, and G.F. Sharman, 2008. Digital Elevation Model of Virginia Beach, Virginia: Procedures, Data Sources and Analysis, NOAA Technical Memorandum NESDIS NGDC-7, National Geophysical Data Center, Boulder, CO, 34 pp.</para>
+  <para><emphasis>Additional processing details:</emphasis></para>
+  <para>NOAA CRM (U.S. Coastal Relief Model - Southeast Atlantic) at 3 arc-seconds (~90 m) resolution in unprojected NAD83 lat/lon coordinate system with assumed bathymetry in MLLW provided no additional bathymetry info at a fine enough spatial scale within the seaside lagoons to offer anything over what was provided by NOS and PTWC.</para>
+  <para>USGS NED 1/3rd arc-second (~10m) DEMs mosaicked together, reprojected to WGS84 UTM 18N, resampled to 3.048 m. (10 ft.) cell resolution (same size as and aligned to the VCR12194 LiDAR dataset grid cells), and finally clipped to the study area (roughly a box aligned along the axis of the lower Delmarva Peninsula and containing the Virginia Eastern shore plus parts of southeast Maryland).</para>
+  <para>USGS NHD hydrology data for VA and MD: vector dataset, extracted Chesapeake Bay and seaside water bodies (Estuary, BayInlet, SeaOcean, StreamRiver) to use to differential submerged tidal areas from marsh platforms (both often coded 0 elevation in NED elevation data) and combined with areas of NED zero elevation to create water and land masks used for processing.</para>
+  <para>NOAA CCAP 2006 Land Cover data for VA and MD, extracted cells with value of "18" ("Estuarine Emergent Wetland"), mosaicked-reprojected-resampled-and-clipped as with the USGS NED data.</para>
+  <para>Mean NED elevation of CCAP marshes where NED elevation &gt;0 (0 used for all water areas): 0.4697 m, very close to the 0.468 m mean elevation for CCAP marshes determined from LiDAR data (see methods for VCR13204). Very few cells at marsh margins contain non-marsh elevations (likely edge effect) of up to 20.5 m (50% &lt; 0.48 m; 80% &lt; 0.81m; 90% &lt; 1.05m; 95% &lt; 2.34 m), so EXCEPT where "striping" artifacts are present in the NED data (for instance, the Ramshorn), OK to use NED marsh elevations.</para>
+  <para>PTWC MHW DEMs for Virginia Beach, VA and Ocean City, MD (2009) provide integrated elevation and bathymetry for the southern and northeastern sections of the study area, relative to Mean High Water (MHW). Data used to create these DEMs include NOAA NOS bathymetry surveys spanning the time period 1880-2009. DEMS originally have a 1/3 arc-second (~10 meter) resolution and are originally in unprojected WGS84 lat/lon coordinates, which were then reprojected-resampled-and-clipped as with the USGS NED data. Elevations were converted from MHW to NAVD88 using 100m interpolated grids of the NOAA VDATUM conversion factors (VCR13215 dataset), except for where the average conversion factor for the 3 bays (Outlet, South, and Simoneaster Bays) was used instead as described later.</para>
+  <para>NOAA NOS (National Ocean Service) Hydrographic Survey Data in two formats: gridded BAG (Bathymetric Attributed Grid) raster data and ASCII x,y,z text file point data. BAG data is primarily from recent (2006+) surveys, in NAD83 UTM18N coordinates with a wide range of cell resolutions (0.5 to 4.0 meter), relative to MLLW, and may contain many BAG files to cover a single survey. BAG rasters were mosaicked-reprojected-resampled-and-clipped as with the USGS NED data to create a single BAG dataset. ASCII XYZ data files were processed with oXygen XML editor and SAS to extract the survey year and horizontal and vertical datums from each file&#226;&#8364;&#8482;s metadata record, append header info to each observation, and write out a combined file with all downloaded records. XYZ data was clipped to the study region, reprojected to WGS84 UTM18N coordinates, further clipped to exclude regions covered by the NOS BAG rasters or by the PTWC DEMs, and separated by vertical datum. All resulting XYZ data used were in NAD83 lon/lat coordinates, were collected between 1934 and 1982, and were relative to either MLLW or MLW. One area off the coast of Parramore Island was covered by two separate surveys, one from 1934 and a more recent one from 1982; where these overlapped only data from the 1982 survey was used.</para>
+  <para>Listing of 37 NOS surveys used to fill PTWC-DEM data gap: (XYZ): H05647, H05703, H05715, H05770, H07184, H07680, H07722, H07778, H07779, H07782, H07942, H07944, H07945, H07946, H08347, H08405, H08406, H08407, H08408, H08445, H08446, H08447, H08448, H08507, H09796, H09981, H10034, H10066, (BAG): H11504, H11505, H11535, H11656, H11657, H12044, H12045, H12336, H12338. + 4 more for bayside shoreline/nearshore within PTWC data: H07910, H07911, H08506.</para>
+  <para>Elevation conversion of bathymetry (NOAA NOS or PTWC DEMs) by VCRLTER to NAVD88 is straightforward for Chesapeake Bay and offshore areas that lie within NOAA VDatum grids, and is unimportant for marsh and upland areas with elevations &gt;0 NAVD88 as these will be replaced with NED or LiDAR data, but is problematic in the seaside coastal lagoons only partially covered by VDatum grids or not at all. IDW-interpolated grids (VCR13215) created to allow conversion of these areas should work well for lagoons with smooth nearly-constant conversion factors not containing sharp slope transitions, but may be problematic in bays interpolated across from many different directions. These include: Simoneaston Bay (near Chincoteague Inlet); Outlet Bay (behind Cobb Is.); and South Bay (most affected). For these three bays, it is probably better to use the "average" conversion factor from interpolated data excluding interpolations from sources not directly connected by open water (like interpolations across island from a farther away channel). This results in the following average conversion factors:</para>
+  <para><literalLayout>
+South Bay:             NAVD88 to MHW   = -0.458606 (meters)
+                        NAVD88 to MLW   = +0.632695
+                        NAVD88 to MLLW  = +0.685023
+                        NAVD88 to MSL   = not an issue, covered by VDatum  \
+grid
+
+Outlet Bay:             NAVD88 to MHW   = -0.528037
+(incl. Shallow &amp;    NAVD88 to MLW   = +0.742107
+Spidercrab Bays)        NAVD88 to MLLW  = +0.788842
+                        NAVD88 to MSL   = +0.104474
+
+Spidercrab Bay:         NAVD88 to MHW   = -0.527294
+(alone)                 NAVD88 to MLW   = +0.738383
+                        NAVD88 to MLLW  = +0.783019
+                        NAVD88 to MSL   = +0.105921
+
+Simoneaston Bay:        NAVD88 to MHW   = -0.205477
+                        NAVD88 to MLW   = +0.302816
+                        NAVD88 to MLLW  = +0.332797
+                        NAVD88 to MSL   = +0.0511535
+
+Hog Island Bay:         NAVD88 to MHW   = -0.488521
+(FYI)                   NAVD88 to MLW   = +0.7008
+                        NAVD88 to MLLW  = +0.746377
+                        NAVD88 to MSL   = +0.103252
+
+Magothy Bay:            NAVD88 to MHW   = -0.526005
+(FYI)                   NAVD88 to MLW   = +0.735704
+                        NAVD88 to MLLW  = +0.799019
+                        NAVD88 to MSL   = +0.113459
+
+Gargothy Bay:           NAVD88 to MHW   = -0.390576
+(FYI)                   NAVD88 to MLW   = +0.550119
+                        NAVD88 to MLLW  = +0.601885
+                        NAVD88 to MSL   = +0.0748953
+
+Kegotank Bay:           NAVD88 to MHW   = -0.432858
+(FYI)                   NAVD88 to MLW   = +0.590657
+                        NAVD88 to MLLW  = +0.636869
+                        NAVD88 to MSL   = +0.070494
+</literalLayout></para>
+  <para>NOS XYZ point data converted to NAVD88 using VDatum-derived conversion factors, and coastline edges plus the PTWC DEM edge values (after conversion to NAVD88) extracted as points (to enforce coherence between datasets), and NOS-less coastal bays excluded/masked. Also BAG edges. Area between DEMs used as the processing extent and mask. BAG grid data is often striped along survey lines, with nodata gaps between, so between gap areas filled with NOS points and/or interpolated across the gap.</para>
+  <para>Seaside lagoons with no NOS survey data were set to nodata rather than interpolate a zero elevation across the bays and creeks based on shorelines with no depths between.</para>
+  <para>As a result of the too-sharp IDW-transitions for the MHW-to-NAVD88 correction factors within interior sections of Simoneaston, Outlet, and south Bays noted above, the single average NAVD88 to MHW correction factor shown above for each bay was used for those portions of the three bays identified as being those bays in the "Seaside Waters" shapefile based on USGS NHD and 7.5 minute quadrangle data, instead of the interpolated values, when converting the PTWC DEM data from MHW to NAVD88 datum. Elsewhere, the interpolated Vdatum-derived correction factor was applied. Sharp transitions due to use off the interpolated value in upland island and mainland locations is not a problem because the LiDAR or USGS NED data will supplant the PTWC DEM data for all locations where LiDAR data exists or the NED elevation is greater than zero NAVD88.</para>
+  <para><emphasis>VERSION 1.0 DEM</emphasis></para>
+  <para>This layer integrates elevation data from several sources to create an integrated topographic and bathymetric data layer for the eastern coast of the Virginia portion of the Delmarva Peninsula. The layer is in the UTM zone 18 N projection using the WGS84 and NAVD88 horizontal and vertical datums with a cell size of 3.048 m (10 feet). Elevations are in meters. Specific data used (and modifications):</para>
+  <para>1) 2010 LiDAR from the Virginia Information Technology Agency (VITA) - water set to missing, additional marshes added based on NOAA CCAP 2005 land cover layer. New marsh areas were set to a mean marsh elevation of 0.468 m (1.536 feet) (based on the average of all the marshes that were in the LiDAR). Water (elevation less than -1 foot) was set to NODATA. Used VCR LTER Dataset: VCR12194.</para>
+  <para>2) Bathymetry data 1999-2009 from George Oertel and his collaborators. These were adjusted to approximate mean sea level/ NAVD88. VCR LTER datasets: VCR05131, VCR09164, VCR09165. Hogbay.dem is already relative to MSL. Magothy bay was originally in meters below Mean High Water so use -1*(val -.383) where .383 is the difference between MHW and MSL. Gargathy and Kegotank were originally in meters relative to Mean High water (negative numbers) so conversion is val+0.242 where 0.242 is the difference between MHW and MSL. Note these are all in meters.</para>
+  <para>The resulting layer was projected from State Plane to UTM coordinate systems and elevations converted from feet to meters.</para>
+         </description>
+      </methodStep>
+   </methods>
+      <spatialRaster id="V2itbathg">
+         <alternateIdentifier>VCR13204-2</alternateIdentifier>
+         <entityName>V2itbathg</entityName>
+         <entityDescription>    
+            ArcGIS GRID raster of Integrated Topography/Bathymetry Model (V2 DEM)
+         </entityDescription>
+         <physical>
+            <objectName>V2_topobathy_grid.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with gridded (raster) ARC/INFO GRID </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://www.vcrlter.virginia.edu/cgi-bin/fetchdataVCR.cgi/2/VCR13204/V2_topobathy_grid.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Virginia portion of the Delmarva Peninsula and surrounding
+                            waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-46.888599</minimum>
+                           <maximum exclusive="false">36.337822</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028235e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>North_American_Vertical_Datum_1988</altitudeDatumName>
+                  <altitudeResolution>unspecified</altitudeResolution>
+                  <altitudeDistanceUnits>Meter</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>unspecified</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>3.048000</cellSizeXDirection>
+         <cellSizeYDirection>3.048000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>46002</rows>
+         <columns>31152</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="V2_topobathy_img.img">
+         <alternateIdentifier>VCR13204-3</alternateIdentifier>
+         <entityName>V2_topobathy_img</entityName>
+         <entityDescription>
+            ERDAS Imagine raster of Integrated Topography/Bathymetry Model (V2 DEM)
+         </entityDescription>
+         <physical>
+            <objectName>V2_topobathy_img.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with Erdas IMAGINE Image file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://www.vcrlter.virginia.edu/cgi-bin/fetchdataVCR.cgi/3/VCR13204/V2_topobathy_img.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Virginia portion of the Delmarva Peninsula and surrounding
+                            waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Layer_1</attributeName>
+               <attributeDefinition>elevation</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-46.888599</minimum>
+                           <maximum exclusive="false">36.337822</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>North_American_Vertical_Datum_1988</altitudeDatumName>
+                  <altitudeResolution>unspecified</altitudeResolution>
+                  <altitudeDistanceUnits>Meter</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>unspecified</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>3.048000</cellSizeXDirection>
+         <cellSizeYDirection>3.048000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>46002</rows>
+         <columns>31152</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="V2_topobathy_tif.tif">
+         <alternateIdentifier>VCR13204-4</alternateIdentifier>
+         <entityName>V2_topobathy_tif</entityName>
+         <entityDescription>
+            GeoTIFF raster of Integrated Topography/Bathymetry Model (V2 DEM)         
+         </entityDescription>
+         <physical>
+            <objectName>V2_topobathy_tif.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://www.vcrlter.virginia.edu/cgi-bin/fetchdataVCR.cgi/4/VCR13204/V2_topobathy_tif.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Virginia portion of the Delmarva Peninsula and surrounding
+                            waters</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.290793</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.204005</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.134694</northBoundingCoordinate>
+                  <southBoundingCoordinate>36.864258</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>elevation</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-46.888599</minimum>
+                           <maximum exclusive="false">36.337822</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>386866.500619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4220780.113102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>481817.796619</xCoordinate>
+               <yCoordinate>4080566.017102</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>3.048000</cellSizeXDirection>
+         <cellSizeYDirection>3.048000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>46002</rows>
+         <columns>31152</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+   <otherEntity>
+      <alternateIdentifier>VCR13204_5</alternateIdentifier>
+      <entityName>VA_TopoBathy_gdb.zip</entityName>
+      <entityDescription>
+(Version 1)  Data is available as an ArcGIS Geodatabase. Alternative forms are also available. All are in .zip files so that associated files stay together and to reduce storage space. Compressed files run about 800 MB, but the uncompressed data requires over 3 GB. 
+
+      </entityDescription>
+      <physical>
+         <objectName>VA_TopoBathy_gdb.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://www.vcrlter.virginia.edu/cgi-bin/fetchdataVCR.cgi/5/VCR13204/VA_TopoBathy_gdb.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <alternateIdentifier>VCR13204_6</alternateIdentifier>
+      <entityName>va_topobathy_img.zip</entityName>
+      <entityDescription>
+(Version 1) Erdas Imagine image format of elevation raster for the Eastern Shore of Virginia
+      </entityDescription>
+      <physical>
+         <objectName>va_topobathy_img.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://www.vcrlter.virginia.edu/cgi-bin/fetchdataVCR.cgi/6/VCR13204/va_topobathy_img.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <alternateIdentifier>VCR13204_7</alternateIdentifier>
+      <entityName>va_topobathy_tif.zip</entityName>
+      <entityDescription>
+(Version 1) GeoTIFF image format of elevation raster for the Eastern Shore of Virginia
+      </entityDescription>
+      <physical>
+         <objectName>va_topobathy_tif.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://www.vcrlter.virginia.edu/cgi-bin/fetchdataVCR.cgi/7/VCR13204/va_topobathy_tif.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-66</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

@@ -1,0 +1,328 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cdr." scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+	<allow>
+		<principal>uid=CDR,o=lter,dc=ecoinformatics,dc=org</principal>
+		<permission>all</permission>
+	</allow>
+	<allow>
+		<principal>public</principal>
+		<permission>read</permission>
+	</allow>
+</access>
+<dataset>
+	<alternateIdentifier>knb-lter-cdr.clime080.1</alternateIdentifier>
+	<shortName>clime080</shortName>
+	<title>Hourly climate data: Meterologic Measurements at Cedar Creek Natural History Area</title>
+	<creator>
+		<individualName>
+			<givenName>Mark</givenName>
+			<surName>Seeley</surName>
+		</individualName>
+	</creator>
+		<metadataProvider>
+		<organizationName>Cedar Creek LTER</organizationName>
+			<address>
+				<deliveryPoint>Cedar Creek Ecosystem Science Reserve</deliveryPoint>
+				<deliveryPoint>100 Ecology Building</deliveryPoint>
+				<deliveryPoint>1987 Upper Buford Circle</deliveryPoint>
+				<city>Saint Paul</city>
+				<administrativeArea>MN</administrativeArea>
+				<postalCode>55108</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">612-625-5740</phone>
+			<phone phonetype="fax">612-624-6777</phone>
+			<electronicMailAddress>webmaster@cedarcreek.umn.edu</electronicMailAddress>
+			<onlineUrl>http://www.cedarcreek.umn.edu/</onlineUrl>
+		</metadataProvider>
+	<pubDate>2012-07-03</pubDate>
+	<abstract>
+		<para>Meteorological measurements include air temperature, precipitation, wind speed and direction, soil temperature, and relative humidity. These measurements are taken on an hourly basis.</para>
+	</abstract>
+	<keywordSet>
+		<keyword keywordType="theme">ecology</keyword>
+		<keyword keywordType="theme">ecosystems</keyword>
+		<keyword keywordType="theme">forests</keyword>
+		<keyword keywordType="theme">soil</keyword>
+		<keyword keywordType="theme">soil temperature</keyword>
+		<keyword keywordType="theme">temperature</keyword>
+	</keywordSet>
+	<coverage>
+		<geographicCoverage id="geoReferenceID">
+			<geographicDescription> The Cedar Creek Ecosystem Science Reserve is located in Anoka and Isanti counties, approximately 30 miles north of Saint Paul, MN. CCNHA lies at the boundary between prairie and forest. It is a mosaic of uplands dominated by oak savanna, prairie, hardwood forest, pine forests,and abandoned agricultural fields and of lowlands comprised of ash and cedar swamps, acid bogs, marshes, and sedge meadows. Large tracts of the pre-agricultural ecosystems of the region are preserved within its boundaries, as is a successional chronosequence of more than 80 old fields of known history.</geographicDescription>
+			<boundingCoordinates>
+				<westBoundingCoordinate>-93.22445</westBoundingCoordinate>
+				<eastBoundingCoordinate>-93.16289</eastBoundingCoordinate>
+				<northBoundingCoordinate>45.44138</northBoundingCoordinate>
+				<southBoundingCoordinate>45.384865</southBoundingCoordinate>
+			</boundingCoordinates>
+		</geographicCoverage>
+		<temporalCoverage>
+			<rangeOfDates>
+				<beginDate><calendarDate>1987</calendarDate></beginDate>
+				<endDate><calendarDate>2012</calendarDate></endDate>
+			</rangeOfDates>
+		</temporalCoverage>
+	</coverage>
+	<contact>
+		<individualName>
+			<givenName>Dan</givenName>
+			<surName>Bahauddin</surName>
+		</individualName>
+		<organizationName>Cedar Creek Ecosystem Science Reserve</organizationName>
+		<positionName>Information Manager</positionName>
+		<address>
+			<deliveryPoint>Ecology Evolution and Behaviour Dept. University Of Minnesota</deliveryPoint>
+			<deliveryPoint>100 Ecology Building</deliveryPoint>
+			<deliveryPoint>1987 Upper Buford Circle</deliveryPoint>
+			<city>Saint Paul</city>
+			<administrativeArea>MN</administrativeArea>
+			<postalCode>55108</postalCode>
+			<country>USA</country>
+		</address>
+		<phone phonetype="voice">612-625-5740</phone>
+		<phone phonetype="fax">612-624-6777</phone>
+		<electronicMailAddress>webmaster@cedarcreek.umn.edu</electronicMailAddress>
+	</contact>
+	<dataTable>
+		<entityName>e080_Hourly climate data</entityName>
+		<physical>
+			<objectName>e080_Hourly climate data.txt</objectName>
+			<size unit="rows">216347</size>
+			<characterEncoding>ASCCII</characterEncoding>
+			<dataFormat>
+				<textFormat>
+					<numHeaderLines>1</numHeaderLines>
+					<numFooterLines>0</numFooterLines>
+					<recordDelimiter>\r</recordDelimiter>
+					<attributeOrientation>column</attributeOrientation>
+					<simpleDelimited>
+						<fieldDelimiter>\t</fieldDelimiter>
+					</simpleDelimited>
+				</textFormat>
+			</dataFormat>
+		<distribution id="dist_knb-lter-cdr.">
+		<online>
+			<url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-cdr.&amp;urlTail=lno_data_request.php?input=clime080</url>
+		</online>
+		<access authSystem="knb" order="allowFirst" scope="document">
+			<allow>
+				<principal>uid=CDR,o=lter,dc=ecoinformatics,dc=org</principal>
+				<permission>all</permission>
+			</allow>
+			<allow>
+				<principal>public</principal>
+				<permission>read</permission>
+			</allow>
+		</access>
+		</distribution>
+	</physical>
+	<attributeList>
+		<attribute>
+			<attributeName>Date</attributeName>
+			<attributeDefinition>Date</attributeDefinition>
+			<measurementScale>
+				<dateTime>
+					<formatString>MM/DD/YYYY</formatString>
+				</dateTime>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>hour</attributeName>
+			<attributeDefinition>hour</attributeDefinition>
+			<measurementScale>
+				<dateTime>
+					<formatString>hhmm</formatString>
+				</dateTime>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>soilt1_c_10cm</attributeName>
+			<attributeDefinition>Soil Temperature (C) at 10 centimeters depth</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>celsius</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>soilt2_c_50cm</attributeName>
+			<attributeDefinition>Soil temperature (C) at 50 centimeters depth</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>celsius</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>soilt3_c_1m</attributeName>
+			<attributeDefinition>Soil temperature (C) at 1 meter depth</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>celsius</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>airt_c</attributeName>
+			<attributeDefinition>Air temperature (C)</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>celsius</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>rh</attributeName>
+			<attributeDefinition>Relative Humidity</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>percent</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>windspeed_ms</attributeName>
+			<attributeDefinition>windspeed in meters per second</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>metersPerSecond</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>winddir_deg</attributeName>
+			<attributeDefinition>wind direction in degrees</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>degree</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>precip_mm</attributeName>
+			<attributeDefinition>precipitation in millimeters</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>millimeter</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>barometricpressure_mmhg</attributeName>
+			<attributeDefinition>barometric pressure in millimetres of mercury</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>millimetres of mercury</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>Radiation (W/m2)</attributeName>
+			<attributeDefinition>Radiation (W/m2)</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>WattsPerMeterSquared</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>PAR(umol/m2/s)</attributeName>
+			<attributeDefinition>PAR (umol/m2/s)</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<customUnit>micromolesPerMeterSquaredPerSecond</customUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+		<attribute>
+			<attributeName>SaturationVaporPressure(KPA)</attributeName>
+			<attributeDefinition>Saturation Vapor Pressure in kilopascals</attributeDefinition>
+			<measurementScale>
+				<ratio>
+					<unit>
+						<standardUnit>kilopascal</standardUnit>
+					</unit>
+					<numericDomain>
+						<numberType>real</numberType>
+					</numericDomain>
+				</ratio>
+			</measurementScale>
+		</attribute>
+	</attributeList>
+	</dataTable>
+</dataset>
+<additionalMetadata>
+	<metadata>
+		<ns2:unitList>
+			<ns2:unit id="percent" name="percent">
+				<ns2:description>percent</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="millimetres of mercury" name="millimetres of mercury">
+				<ns2:description>millimetres of mercury</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="WattsPerMeterSquared" name="WattsPerMeterSquared">
+				<ns2:description>WattsPerMeterSquared</ns2:description>
+			</ns2:unit>
+			<ns2:unit id="micromolesPerMeterSquaredPerSecond" name="micromolesPerMeterSquaredPerSecond">
+				<ns2:description>micromolesPerMeterSquaredPerSecond</ns2:description>
+			</ns2:unit>
+		</ns2:unitList>
+	</metadata>
+</additionalMetadata>
+</ns0:eml>

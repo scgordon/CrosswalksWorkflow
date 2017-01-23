@@ -1,0 +1,539 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.96.15" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="96" system="VCR">
+   <alternateIdentifier>VCR05117</alternateIdentifier>
+   <title>Parramore Island of the Virginia Coast Reserve Permanent Plot Resurvey: Landcover Class Aggregation data 1996</title>
+   <creator>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>1999-01-01</pubDate>
+   <keywordSet>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>PARRAMORE_ISLAND_VA - Parramore Island, VA - entire island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1996-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1996-10-20</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para><emphasis>This section contains specific methods for this dataset.</emphasis></para>
+  <para> * LANDCOVER CLASS AGGREGATION DATA </para>
+  <para>To gauge the effect of spatial scale and aggregation on remotely-sensed land cover classifications across such locally heterogeneous and patchy ecosystems as barrier islands, data was collected inside and outside each plot in the four cardinal directions at set distances outward from plot center (0, 7.5, 15, 30, and 60 m) as to what the dominant woody and herbaceous canopy components were as well as the woody and herbaceous canopy heights. The dominant two species in terms of overhead tree/shrub canopy (in a subjective 2-3m radius zone) and herbaceous canopy (1 m radius) around the collection point was recorded as well as the average height of the primary dominant. The cover types were classified as being one of thirteen types: 1) low salt marsh, 2) upper salt marsh, 3) salt hay meadow [brackish-fresh marsh dominated by Spartina patens and/or Distichlis spicata], 4)reedy or scrub marsh [dominated by Phragmites, Typha, Juncus, or Iva], 5) evergreen conifer forest, 6) evergreen broadleaf forest, 7) deciduous broadleaf forest, 8) shrubland [mostly Myrica and/or Baccharis with varying amounts of Smilax briers], 9) beach/dune exposed sparsely vegetated sand, 10) open water, 11) upland or dune grassland, 12) mixed forest types, or 14) mudflat [with or without wrack]. The nine samples from within the permanent plot (0, 7.5, and 15 m distances) can be compared to the stem map of nearby trees and shrubs of different sizes to work out a more quantified description of just what constituted each forest or shrubland type.</para>
+         </description>
+      </methodStep>
+   </methods>
+   <project id="VCR05086">
+      <title>Parramore Permanent Plot Project</title>
+      <personnel>
+         <individualName>
+            <givenName>John</givenName>
+            <surName>Porter</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+            <city>Charlottesville</city>
+            <administrativeArea>VA</administrativeArea>
+            <postalCode>22903-4123</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">434-924-8999</phone>
+         <phone phonetype="facsimile">434-982-2137</phone>
+         <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+         <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+         <role>originator</role>
+      </personnel>
+   </project>
+   <dataTable>
+      <entityName>VCR05117</entityName>
+      <entityDescription>Parramore Island of the Virginia Coast Reserve Permanent Plot Resurvey: Landcover Class Aggregation data 1996</entityDescription>
+      <physical>
+         <objectName>96land.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>22</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0D#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0D#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.96.15&amp;urlHeadID=2&amp;urlTail=1/VCR05117/VCR05117/96land.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR05117.PLOT_N">
+            <attributeName>PLOT_N</attributeName>
+            <attributeLabel>plot number</attributeLabel>
+            <attributeDefinition>PLOT_N - plot number</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>plot number</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05117.AZIMUTH">
+            <attributeName>AZIMUTH</attributeName>
+            <attributeLabel>azimuth from plot center (0[N], 90[E], 180[S], or 270[W])</attributeLabel>
+            <attributeDefinition>AZIMUTH - azimuth from plot center (0[N], 90[E], 180[S], or 270[W])</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>azimuth from plot center (0[N], 90[E], 180[S], or 270[W])</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR05117.DIST">
+            <attributeName>DIST</attributeName>
+            <attributeLabel>distance from plot center ( 0, 7.5, 15, 30, or 60m)</attributeLabel>
+            <attributeDefinition>DIST - distance from plot center ( 0, 7.5, 15, 30, or 60m)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>distance from plot center ( 0, 7.5, 15, 30, or 60m)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR05117.CLASS">
+            <attributeName>CLASS</attributeName>
+            <attributeLabel>land cover class</attributeLabel>
+            <attributeDefinition>CLASS - land cover class</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>0</code>
+                           <definition>no data (usually when position was not not reachable)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>1</code>
+                           <definition>low salt marsh (dominated by tall- and medium-form Spartina alterniflora)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>10</code>
+                           <definition>open water</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>11</code>
+                           <definition>sparse to dense grasslands (dominated by grasses other than Spartina and Distichlis)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>12</code>
+                           <definition>extremely dense greenbrier (Smilax spp.) thicket associated with forest or shrub overstory</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>14</code>
+                           <definition>unvegetated and/or wrack-covered mudflats</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>2</code>
+                           <definition>upper salt marsh (dominated by short-form Spartina alterniflora and/or Salicornia spp.)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>3</code>
+                           <definition>brackish-fresh high "salt hay meadow" marsh (dominated by Spartina patens and Distichlis spicata)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>4</code>
+                           <definition>shrub/scrub marsh (dominated by Iva frutescens and Baccharis halimifolia) OR Phragmites/Typha marsh</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>5</code>
+                           <definition>evergreen conifer forest (dominated by Pinus taeda and/or Juniperus virginiana)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>6</code>
+                           <definition>hardwood forest (dominated by Prunus, Ilex, Persea, and/or Salix spp.)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>7</code>
+                           <definition>mixed forest (usually pine-hardwood or red cedar-hardwood)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>8</code>
+                           <definition>dense Myrica cerifera thicket</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>9</code>
+                           <definition>bare sand (beach, open dune areas)</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05117.HERBHGT">
+            <attributeName>HERBHGT</attributeName>
+            <attributeLabel>avg height of the dominant herbaceous spp in 1m radius</attributeLabel>
+            <attributeDefinition>HERBHGT - avg height of the dominant herbaceous spp in 1m radius</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>avg height of the dominant herbaceous spp in 1m radius</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR05117.HERB1">
+            <attributeName>HERB1</attributeName>
+            <attributeLabel>species ID of the 1st (most) dominant herbaceous spp.</attributeLabel>
+            <attributeDefinition>HERB1 - species ID of the 1st (most) dominant herbaceous spp.</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>species ID of the 1st (most) dominant herbaceous spp.</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05117.HERB2">
+            <attributeName>HERB2</attributeName>
+            <attributeLabel>species ID of the 2nd dominant herbaceous spp.</attributeLabel>
+            <attributeDefinition>HERB2 - species ID of the 2nd dominant herbaceous spp.</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>species ID of the 2nd dominant herbaceous spp.</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05117.WOODHGT">
+            <attributeName>WOODHGT</attributeName>
+            <attributeLabel>avg height of the dominant woody spp in 2-3m radius</attributeLabel>
+            <attributeDefinition>WOODHGT - avg height of the dominant woody spp in 2-3m radius</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>avg height of the dominant woody spp in 2-3m radius</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05117.WOOD1">
+            <attributeName>WOOD1</attributeName>
+            <attributeLabel>species ID of the 1st (most) dominant woody spp.</attributeLabel>
+            <attributeDefinition>WOOD1 - species ID of the 1st (most) dominant woody spp.</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>species ID of the 1st (most) dominant woody spp.</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05117.WOOD2">
+            <attributeName>WOOD2</attributeName>
+            <attributeLabel>species ID of the 2nd dominant woody spp.</attributeLabel>
+            <attributeDefinition>WOOD2 - species ID of the 2nd dominant woody spp.</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>species ID of the 2nd dominant woody spp.</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+      </attributeList>
+   </dataTable>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="cm" />
+      <ns2:unit id="degrees" />
+      <ns2:unit id="m" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-22</weight>
+         <projectId>VCR05086</projectId>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

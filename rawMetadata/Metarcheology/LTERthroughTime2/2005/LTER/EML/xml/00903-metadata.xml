@@ -1,0 +1,526 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.57.14" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="57" system="VCR">
+   <alternateIdentifier>VCR97049</alternateIdentifier>
+   <title>Hog Island Chronosequence Soil Eh, pH and Temperature 1991-1992</title>
+   <creator>
+      <individualName>
+         <givenName>Frank</givenName>
+         <surName>Day</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Biological Sciences</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23529-0266</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4198</phone>
+      <phone phonetype="facsimile">(757) 683-5283</phone>
+      <electronicMailAddress>fday@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">fday</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>1997-12-31</pubDate>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">soil redox potential</keyword>
+      <keyword keywordType="theme">soil pH</keyword>
+      <keyword keywordType="theme">soil temperature</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>HOG_DUNES - Seaside Dunes of North Hog Island (T1+2)</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.664184</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.665304</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.450403</northBoundingCoordinate>
+            <southBoundingCoordinate>37.444553</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>HOG_NORTH - North Hog Island (chronosequence)</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.657464</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.675944</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.453103</northBoundingCoordinate>
+            <southBoundingCoordinate>37.445453</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1991-03-12</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1992-02-16</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>Frank</givenName>
+         <surName>Day</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Biological Sciences</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23529-0266</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4198</phone>
+      <phone phonetype="facsimile">(757) 683-5283</phone>
+      <electronicMailAddress>fday@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">fday</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <dataTable>
+      <entityName>VCR97049</entityName>
+      <entityDescription>Hog Island Chronosequence Soil Eh, pH and Temperature 1991-1992</entityDescription>
+      <physical>
+         <objectName>environ.dat</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>20</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <complex>
+                  <textFixed>
+
+                     <fieldWidth>3</fieldWidth>
+                     <lineNumber>1</lineNumber>
+                     <fieldStartColumn>1</fieldStartColumn>
+                  </textFixed>
+                  <textFixed>
+
+                     <fieldWidth>2</fieldWidth>
+                     <lineNumber>1</lineNumber>
+                     <fieldStartColumn>4</fieldStartColumn>
+                  </textFixed>
+                  <textFixed>
+
+                     <fieldWidth>9</fieldWidth>
+                     <lineNumber>1</lineNumber>
+                     <fieldStartColumn>6</fieldStartColumn>
+                  </textFixed>
+                  <textFixed>
+
+                     <fieldWidth>3</fieldWidth>
+                     <lineNumber>1</lineNumber>
+                     <fieldStartColumn>15</fieldStartColumn>
+                  </textFixed>
+                  <textFixed>
+
+                     <fieldWidth>3</fieldWidth>
+                     <lineNumber>1</lineNumber>
+                     <fieldStartColumn>18</fieldStartColumn>
+                  </textFixed>
+                  <textFixed>
+
+                     <fieldWidth>6</fieldWidth>
+                     <lineNumber>1</lineNumber>
+                     <fieldStartColumn>21</fieldStartColumn>
+                  </textFixed>
+                  <textFixed>
+
+                     <fieldWidth>6</fieldWidth>
+                     <lineNumber>1</lineNumber>
+                     <fieldStartColumn>27</fieldStartColumn>
+                  </textFixed>
+                  <textFixed>
+
+                     <fieldWidth>3</fieldWidth>
+                     <lineNumber>1</lineNumber>
+                     <fieldStartColumn>33</fieldStartColumn>
+                  </textFixed>
+               </complex>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.57.14&amp;urlHeadID=2&amp;urlTail=1/VCR97049/VCR97049/environ.dat</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR97049.SITE">
+            <attributeName>SITE</attributeName>
+            <attributeLabel>Site designation</attributeLabel>
+            <attributeDefinition>SITE - Site designation</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>R1</code>
+                           <definition>6 year dune ridge</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>R2</code>
+                           <definition>24 year dune ridge</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>R3</code>
+                           <definition>36 year dune ridge</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>R4</code>
+                           <definition>120 year dune ridge</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>S1</code>
+                           <definition>6 year swale</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>S2</code>
+                           <definition>24 year swale</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>S3</code>
+                           <definition>36 year swale</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>S4</code>
+                           <definition>120 year swale</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97049.TREAT">
+            <attributeName>TREAT</attributeName>
+            <attributeLabel>Treatment: fertilization with nitrogen, no fertilization</attributeLabel>
+            <attributeDefinition>TREAT - Treatment: fertilization with nitrogen, no fertilization</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>C</code>
+                           <definition>not fertilized</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>F</code>
+                           <definition>Fertilized</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Fertilization with 60 g/m<superscript>2</superscript>/year N-urea </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR97049.DATE">
+            <attributeName>DATE</attributeName>
+            <attributeLabel>Sampling Dates</attributeLabel>
+            <attributeDefinition>DATE - Sampling Dates</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Sampling Dates</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97049.DEPTH">
+            <attributeName>DEPTH</attributeName>
+            <attributeLabel>Location of sample within soil profile</attributeLabel>
+            <attributeDefinition>DEPTH - Location of sample within soil profile</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>10</code>
+                           <definition>0-10 cm below soil surface</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>20</code>
+                           <definition>10-20 cm below soil surface</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>30</code>
+                           <definition>20-30 cm below soil surface</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>40</code>
+                           <definition>30-40 cm below soil surface</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97049.REP">
+            <attributeName>REP</attributeName>
+            <attributeLabel>Replicates</attributeLabel>
+            <attributeDefinition>REP - Replicates</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1</minimum>
+                        <maximum exclusive="false">4</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97049.EH">
+            <attributeName>EH</attributeName>
+            <attributeLabel>Soil redox potential</attributeLabel>
+            <attributeDefinition>EH - Soil redox potential</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>mV</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">-96</minimum>
+                        <maximum exclusive="false">944</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Buried platinum probes </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR97049.PH">
+            <attributeName>PH</attributeName>
+            <attributeLabel>Soil pH</attributeLabel>
+            <attributeDefinition>PH - Soil pH</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>pH</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">2</minimum>
+                        <maximum exclusive="false">12</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Field determination with 50:50 soil:water slurry </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR97049.TEMP">
+            <attributeName>TEMP</attributeName>
+            <attributeLabel>Soil temperature - gathered only at 0-10 and 20-30 cm</attributeLabel>
+            <attributeDefinition>TEMP - Soil temperature - gathered only at 0-10 and 20-30 cm</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>deg-C</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">4</minimum>
+                        <maximum exclusive="false">54</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+      </attributeList>
+   </dataTable>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="deg-C" />
+      <ns2:unit id="mo-dy-yr" />
+      <ns2:unit id="mV" />
+      <ns2:unit id="pH" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-23</weight>
+         <featuredDataGroup>Hog Island Chronosequence</featuredDataGroup>
+         <researchTheme>Landscape change analysis</researchTheme>
+         <researchTheme>State change barrier islands</researchTheme>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

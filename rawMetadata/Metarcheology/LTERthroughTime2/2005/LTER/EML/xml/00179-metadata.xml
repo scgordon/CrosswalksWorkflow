@@ -1,0 +1,599 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-pie.72.7" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=PIE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>MON-PR-MetDay.05</alternateIdentifier>
+    <title>Daily meteorological data (2000-2013) from PIE LTER weather stations located in Byfield/Newbury, MA</title>
+    <creator id="pers-1">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Anne</givenName>
+        <surName>Giblin</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Ecosystems Center</deliveryPoint>
+        <deliveryPoint>MBL</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Hap</givenName>
+        <surName>Garritt</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <pubDate>2001</pubDate>
+    <abstract>
+      <para>Meteorological data daily averages and daily fluxes for stations located at Governor's Academy and MBL Marshview Farm, Newbury, MA. Data includes air temeprature, precipitation, relative humidity, solar radiation, PAR, wind and air pressure measurements. Years 2000 to 2007 the station was located at Governor's Academy, Newbury, MA and was moved July 30, 2007 to the MBL Marshview Farm field station property where it is currently located.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>PIE LTER</keyword>
+      <keyword>primary production</keyword>
+      <keyword>Massachusetts</keyword>
+      <keyword>Byfield</keyword>
+      <keyword>Newbury</keyword>
+      <keyword>climate</keyword>
+      <keyword>meteorology</keyword>
+      <keyword>temperature</keyword>
+      <keyword>precipitation</keyword>
+      <keyword>rain</keyword>
+      <keyword>humidity</keyword>
+      <keyword>solar</keyword>
+      <keyword>radiation</keyword>
+      <keyword>PAR</keyword>
+      <keyword>wind</keyword>
+      <keyword>pressure</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Acceptance and utilization of PIE-LTER data requires that:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions.</para>
+          </listitem>
+          <listitem>
+            <para>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications</para>
+          </listitem>
+          <listitem>
+            <para>A copy of any resultant publications should be sent to: 
+            <literalLayout>
+Principal Investigator
+Ecosystems Center
+Marine Biological Laboratory
+Woods Hole, MA 02543
+</literalLayout></para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://ecosystems.mbl.edu/PIE/data/MON/MON-PR-MetDay.html</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="GEO-1">
+        <geographicDescription>PIE meteorological station at Governor's Academy, Byfield, MA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.902407</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.902407</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.751484</northBoundingCoordinate>
+          <southBoundingCoordinate>42.751484</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-2">
+        <geographicDescription>PIE meteorological station at MBL, Marshview Farm, Newbury, MA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.891366</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.891366</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.756971</northBoundingCoordinate>
+          <southBoundingCoordinate>42.756971</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2000-03-27</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Ongoing collection, data is updated at least once per year</para>
+        <para>01) 25Sep2007 added 2005, 2006 data, EML metadata level 4-5 compliant</para>
+        <para>02) 18Dec2009, added 2007, 2008 data, EML level 4-5</para>
+        <para>Version 03: January 19, 2012, updated data and metadata (2009, 2010, 2011) using MarcrosExportEML_HTML (working)pie_excel2007.xlsm 1/18/12 4:51 PM for QA/QC to EML 2.1.0</para>
+        <para>Version 04, 30May2013, new metadata and data to comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007.xlsm 3/14/13 12:02 PM for QA/QC to EML 2.1.0</para>
+        <para>Version 05: April 14, 2014, data and metadata updated to comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Sep2013.xlsm 9/30/13 02:57 PM for QA/QC to EML 2.1.0</para>
+      </description>
+    </maintenance>
+    <contact id="im" system="knb">
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout>
+The weather station is solar powered using a Solarex MSX-20 20 watt solar module including a 12V charger and regulator and 12 AH lead acid battery.  The system was supplied by Campbell Scientific Inc., contact Doug Bryson, 435-750-9549. 
+The data logger is supplied by Campbell Scientific CR10X-1M data logger with 1 megabyte memory storage module and PC208W Windows data logging software.
+The enclosure and tower is a Campbell Scientific ENC 12/14 (12&#8221; X 14&#8221; weather proof enclosure), CM10 (10&#8217; tripod, grounding kit and CM10 guy wire kit.
+Sensors used:
+Temperature and Humidity 
+Vaisala HMP45C temperature and humidity sensor with solar radiation shield.  Specifications: +/- 1% accuracy over &#8211; 40 to 60 &#176;C temperature range 
+Precipitation gauge
+Texas Electronic TE525WS-L, 8&#8221; rain gage with CS705 precipitation adapter for snow fall.  Specifications: +/- 1% accuracy up to 1 in./hr. 
+Pyranometer
+Solar radiation, 400-1100 nm, Licor LI200X-L pyranometer
+ Specifications: +/- 3% typical accuracy
+PAR
+ Photosynthetically active radiation, 400-700 nm, Licor LI190SB quantum sensor
+ Specifications: +/- 5% calibration, National Institute of Standards Technology
+Temperature and Humidity
+Vaisala HMP45C temperature and humidity sensor with solar radiation shield. Specifications: +/- 1% accuracy over &#8211; 40 to 60 &#176;C temperature range
+Wind speed and direction
+ RM Young 05103 Wind monitor
+Barometric pressure
+ Vaisala PTB101B
+ Specifications: +/- 4 mB @ -20oC to +45o C.
+
+
+On July 30, 2007, Julian Day 211, the weather station was moved from Governor Dummer Academy to the Marshview Farm field station off Rt 1, Newbury, approximately 1/2 mile away. The PAR sensor was also changed on July 30, 2007 and was found to be cracked which compromised measurements of PAR prior to July 30. PAR data from Jan 1 to July 30, 2007 at 1645 EST time has been estimated from a Pyranometer to PAR relationship where PAR (uM/m2-sec) = (pyranometer value (kW/m2) X 1982.2) + 1.0783, r2 =0.983.
+</literalLayout>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Plum Island Ecosystems Long-Term Ecological Research (PIE LTER) Program</title>
+      <personnel>
+        <individualName>
+          <givenName>Anne</givenName>
+          <surName>Giblin</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7488</phone>
+        <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hap</givenName>
+          <surName>Garritt</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7485</phone>
+        <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+        <role>Information Manager</role>
+      </personnel>
+      <abstract>
+        <para>
+          <literalLayout>
+The Plum Island Ecosystems (PIE) LTER is an integrated research, education and outreach program whose goal is to develop a predictive understanding of the long-term response of watershed and estuarine ecosystems at the land-sea interface to changes in climate, land use and sea level. The principal study site is the Plum Island Sound estuary, its coupled Parker, Rowley and Ipswich River watersheds and the adjacent coastal ocean, the Gulf of Maine. The PIE LTER focuses on how several aspects of global change influence organic matter and inorganic nutrient biogeochemistry and estuarine foodwebs. The inputs of organic matter and nutrients from land, ocean and marshes interact with the external drivers (climate, land use, river discharge, sea level) to dictate the extent and degree of nutrient and organic matter processing and determine the spatial patterns of estuarine productivity and trophic structure.
+</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under Grants OCE-9726921, OCE-0423565, OCE-1058747, OCE-1238212. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The Plum Island Ecosystems (PIE) LTER site, is located in northeastern Massachusetts, 42.72 N, 70.85 W. The PIE LTER lies at the interface of a thinly soiled, formerly glaciated New England land mass and the highly productive Gulf of Maine. Three watersheds comprise the estuarine drainage basin: Parker (155 km2), Rowley (26 km2) and Ipswich (404 km2). The Ipswich River watershed is highly urbanized with Boston "bedroom" communities encroaching in the headwater region while the Parker is less urbanized and retains a higher proportion of forest.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-71.2198</westBoundingCoordinate>
+              <eastBoundingCoordinate>-70.7568</eastBoundingCoordinate>
+              <northBoundingCoordinate>42.8276</northBoundingCoordinate>
+              <southBoundingCoordinate>42.4965</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>100</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </geographicCoverage>
+        </coverage>
+      </studyAreaDescription>
+    </project>
+    <dataTable>
+      <entityName>MON-PR-MetDay.csv</entityName>
+      <entityDescription>Daily meteorological data (2000-2013) from PIE LTER weather stations located in Byfield/Newbury, MA</entityDescription>
+      <physical>
+        <objectName>MON-PR-MetDay.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://ecosystems.mbl.edu/PIE/data/MON/data/MON-PR-MetDay.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att0.1">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>date and time (dd-mon-yyyy)</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD-MON-YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.2">
+          <attributeName>Station</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>Station name abbreviated, GDA for Governors Academy, MFM for Marshview Farm</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Station name abbreviated, GDA for Governors Academy, MFM for Marshview Farm</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.3">
+          <attributeName>Precip</attributeName>
+          <attributeLabel>Precip</attributeLabel>
+          <attributeDefinition>total precipitation (mm)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.4">
+          <attributeName>Pyranometer</attributeName>
+          <attributeLabel>Pyranometer</attributeLabel>
+          <attributeDefinition>total solar radiation (kW m-2)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.5">
+          <attributeName>PAR</attributeName>
+          <attributeLabel>PAR</attributeLabel>
+          <attributeDefinition>total quantum radiation (M m-2)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>molePerMeterSquaredPerDay</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.6">
+          <attributeName>Ave Temp</attributeName>
+          <attributeLabel>Ave Temp</attributeLabel>
+          <attributeDefinition>average temperature (celsius)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.7">
+          <attributeName>Min Temp</attributeName>
+          <attributeLabel>Min Temp</attributeLabel>
+          <attributeDefinition>minimum temperature (celsius)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.8">
+          <attributeName>T Min Temp</attributeName>
+          <attributeLabel>T Min Temp</attributeLabel>
+          <attributeDefinition>time of minimum temperature (hhmm)</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.9">
+          <attributeName>Max Temp</attributeName>
+          <attributeLabel>Max Temp</attributeLabel>
+          <attributeDefinition>maximum temperature (celsius)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.10">
+          <attributeName>T Max Temp</attributeName>
+          <attributeLabel>T Max Temp</attributeLabel>
+          <attributeDefinition>time of maximum temperature (hhmm)</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.11">
+          <attributeName>Ave RH</attributeName>
+          <attributeLabel>Ave RH</attributeLabel>
+          <attributeDefinition>average relative humidity (%)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.12">
+          <attributeName>Max Wind</attributeName>
+          <attributeLabel>Max Wind</attributeLabel>
+          <attributeDefinition>maximum wind speed (m sec-1)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.13">
+          <attributeName>T Max Wind</attributeName>
+          <attributeLabel>T Max Wind</attributeLabel>
+          <attributeDefinition>time of maximum wind (hhmm)</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.14">
+          <attributeName>Ave Wind</attributeName>
+          <attributeLabel>Ave Wind</attributeLabel>
+          <attributeDefinition>average wind speed (m sec-1)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.15">
+          <attributeName>Ave ATM</attributeName>
+          <attributeLabel>Ave ATM</attributeLabel>
+          <attributeDefinition>average atmospheric pressure (mB)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millibar</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.16">
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>comments about data</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments about data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5028</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="kilowattPerMeterSquared" multiplierToSI="" name="kilowattPerMeterSquared" parentSI="" unitType="power">
+          <description>Amount of energy per square meter surface</description>
+        </unit>
+        <unit id="molePerMeterSquaredPerDay" multiplierToSI="" name="molePerMeterSquaredPerDay" parentSI="" unitType="illuminance">
+          <description>Moles of substance per square meter per day</description>
+        </unit>
+        <unit id="percent" multiplierToSI="1" name="percent" parentSI="" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+        <unit id="meterPerSecond" multiplierToSI="" name="meterPerSecond" parentSI="" unitType="speed">
+          <description>meters per second</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

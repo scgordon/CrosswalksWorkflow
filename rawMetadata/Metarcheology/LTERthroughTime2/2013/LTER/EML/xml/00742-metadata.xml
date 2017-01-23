@@ -1,0 +1,1768 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-ntl.276.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+
+<access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+    <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+    <permission>all</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <alternateIdentifier system="NTL-DEIMS">32476</alternateIdentifier>
+  <shortName>TL-USGS-WEBB Data</shortName>
+  <title>Trout Lake USGS Water, Energy, and Biogeochemical Budgets (WEBB) Stream Data 1975-current</title>
+  <creator>
+    <individualName>
+      <givenName>John</givenName>
+      <surName>Walker</surName>
+    </individualName>
+    <organizationName>US Geological Survey</organizationName>
+    <address>
+      <deliveryPoint>8505 Research Way</deliveryPoint>
+      <city>Middleton</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53562</postalCode>
+    </address>
+    <phone phonetype="voice">(608) 821-3853</phone>
+    <electronicMailAddress>jfwalker@usgs.gov</electronicMailAddress>
+  </creator>
+  <metadataProvider>
+    <organizationName>North Temperate Lakes LTER</organizationName>
+    <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </metadataProvider>
+  <associatedParty>
+    <positionName>NTL LTER Information Manager</positionName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    <role>OP</role>
+  </associatedParty>
+  <language>english</language>
+  <abstract>
+    <para>&#194;&#160;This data was collected by the United States Geological Survey (USGS) for the Water, Energy, and Biogeochemical Budget Project. The data set is primarily composed of water chemistry variables, and was collected from four USGS stream gauge stations in the Northern Highland Lake District of Wisconsin, near Trout Lake. The four USGS stream gauge stations are Allequash Creek at County Highway M (USGS-05357215), Stevenson Creek at County Highway M (USGS-05357225), North Creek at Trout Lake (USGS-05357230), and the Trout River at Trout Lake (USGS-05357245), all near Boulder Junction, Wisconsin. &#194;&#160;The project has collected stream water chemistry data for a maximum of 36 different chemical parameters,. and three different physical stream parameters: temperature, discharge, and gauge height. All water chemistry samples are collected as grab samples and sent to the USGS National Water Quality Lab in Denver, Colorado. There is historic data for Stevenson Creek from 1975-1977, and then beginning again in 1991. The Trout Lake WEBB project began during the summer of 1991 and sampling of all four sites continues to date.&#194;&#160;
+</para>
+  </abstract>
+  <keywordSet>
+    <keyword>acid neutralizing capacity</keyword>
+    <keyword>acidic</keyword>
+    <keyword>alkalinity</keyword>
+    <keyword>ammonia</keyword>
+    <keyword>ammonium</keyword>
+    <keyword>aquatic ecosystems</keyword>
+    <keyword>bicarbonate</keyword>
+    <keyword>biogeochemistry</keyword>
+    <keyword>calcium</keyword>
+    <keyword>carbon</keyword>
+    <keyword>carbon assimilation</keyword>
+    <keyword>carbon cycling</keyword>
+    <keyword>carbon dioxide</keyword>
+    <keyword>carbon fluxes</keyword>
+    <keyword>carbon to nitrogen ratio</keyword>
+    <keyword>cations</keyword>
+    <keyword>chemistry</keyword>
+    <keyword>chloride</keyword>
+    <keyword>conductivity</keyword>
+    <keyword>dissolved inorganic carbon</keyword>
+    <keyword>dissolved nutrients</keyword>
+    <keyword>dissolved oxygen</keyword>
+    <keyword>ecology</keyword>
+    <keyword>ecosystems</keyword>
+    <keyword>environment</keyword>
+    <keyword>fluoride</keyword>
+    <keyword>freshwater</keyword>
+    <keyword>geomorphology</keyword>
+    <keyword>groundwater</keyword>
+    <keyword>hydrogen ions</keyword>
+    <keyword>hydrology</keyword>
+    <keyword>inorganic nutrients</keyword>
+    <keyword>ions</keyword>
+    <keyword>iron</keyword>
+    <keyword>isotopes</keyword>
+    <keyword>landscape</keyword>
+    <keyword>limnology</keyword>
+    <keyword>long term ecological research</keyword>
+    <keyword>long term monitoring</keyword>
+    <keyword>magnesium</keyword>
+    <keyword>manganese</keyword>
+    <keyword>mineralization</keyword>
+    <keyword>nitrate</keyword>
+    <keyword>nitrification</keyword>
+    <keyword>nitrite</keyword>
+    <keyword>nitrogen</keyword>
+    <keyword>nitrogen compounds</keyword>
+    <keyword>nitrogen content</keyword>
+    <keyword>nitrogen cycling</keyword>
+    <keyword>nitrogen deposition</keyword>
+    <keyword>nitrogen fixation</keyword>
+    <keyword>nitrogen mineralization</keyword>
+    <keyword>nutrient cycles</keyword>
+    <keyword>nutrient cycling</keyword>
+    <keyword>nutrients</keyword>
+    <keyword>organic carbon</keyword>
+    <keyword>organic content</keyword>
+    <keyword>organic matter</keyword>
+    <keyword>organic nitrogen</keyword>
+    <keyword>oxygen</keyword>
+    <keyword>ph</keyword>
+    <keyword>phosphate</keyword>
+    <keyword>phosphorus</keyword>
+    <keyword>potassium</keyword>
+    <keyword>rivers</keyword>
+    <keyword>salinity</keyword>
+    <keyword>sampling</keyword>
+    <keyword>silica</keyword>
+    <keyword>sodium</keyword>
+    <keyword>specific conductance</keyword>
+    <keyword>specific conductivity</keyword>
+    <keyword>stable isotopes</keyword>
+    <keyword>stage</keyword>
+    <keyword>stage height</keyword>
+    <keyword>stream</keyword>
+    <keyword>stream discharge</keyword>
+    <keyword>stream ecology</keyword>
+    <keyword>streamflow</keyword>
+    <keyword>strontium</keyword>
+    <keyword>sulfate</keyword>
+    <keyword>sulfide</keyword>
+    <keyword>sulfur</keyword>
+    <keyword>temperature</keyword>
+    <keyword>total nitrogen</keyword>
+    <keyword>total organic carbon</keyword>
+    <keyword>total phosphorus</keyword>
+    <keyword>turbidity</keyword>
+    <keyword>water</keyword>
+    <keyword>water chemistry</keyword>
+    <keyword>water level</keyword>
+    <keyword>water quality</keyword>
+    <keyword>water temperature</keyword>
+    <keywordThesaurus>LTER Keywords</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+    <keyword>ALK</keyword>
+    <keyword>ANC</keyword>
+    <keyword>C</keyword>
+    <keyword>C13</keyword>
+    <keyword>Cl</keyword>
+    <keyword>CO2</keyword>
+    <keyword>color</keyword>
+    <keyword>DIC</keyword>
+    <keyword>dissolved nitrogen</keyword>
+    <keyword>dissolved phophorus</keyword>
+    <keyword>dissolved silica</keyword>
+    <keyword>DO</keyword>
+    <keyword>DOC</keyword>
+    <keyword>F</keyword>
+    <keyword>Fe</keyword>
+    <keyword>field protocol</keyword>
+    <keyword>HCO3</keyword>
+    <keyword>isotope</keyword>
+    <keyword>K</keyword>
+    <keyword>major ions</keyword>
+    <keyword>Mg</keyword>
+    <keyword>Mn</keyword>
+    <keyword>N</keyword>
+    <keyword>NH4</keyword>
+    <keyword>nitrate + nitrite</keyword>
+    <keyword>nitrate + nitrite nitrogen</keyword>
+    <keyword>nitrate nitrogen</keyword>
+    <keyword>NO3</keyword>
+    <keyword>NTL related project</keyword>
+    <keyword>P</keyword>
+    <keyword>physical limnology</keyword>
+    <keyword>PO4</keyword>
+    <keyword>S</keyword>
+    <keyword>Si</keyword>
+    <keyword>SO4</keyword>
+    <keyword>Sr</keyword>
+    <keyword>stable isotope</keyword>
+    <keyword>stream chemistry</keyword>
+    <keyword>sulphate</keyword>
+    <keyword>TIC</keyword>
+    <keyword>TOC</keyword>
+    <keyword>total dissolved nitrogen</keyword>
+    <keyword>total dissolved phosphorus</keyword>
+    <keyword>total inorganic carbon</keyword>
+    <keyword>total particulate matter</keyword>
+    <keyword>TP</keyword>
+    <keyword>water pH</keyword>
+    <keywordThesaurus>NTL Keywords</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</para> <para>The Data User must realize that the data may be misinterpreted if taken out of context. We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</para> <para>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: name of data set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for data set, Center for Limnology, University of Wisconsin-Madison. The data set name and contact person for each data set can be found in the metadata header of the online data sets.</para> <para>The Data User must send two reprints of any publications resulting from use of the data to the address above. We would like to include such manuscripts in our LTER publications list.</para> <para>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para><para>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets.</para> <para>Our goal is to release all long term data associated with core research areas within 2 years of collection. These data and accompanying metadata will be available for download from the NTL-LTER web site.</para> <para>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.
+</para>
+    </section>
+  </intellectualRights>
+  <distribution>
+    <online>
+      <url function="information">http://lter.limnology.wisc.edu/node/32476</url>
+    </online>
+  </distribution>
+  <coverage>
+    <geographicCoverage>
+      <geographicDescription>All samples were collected from four gauging stations in the Northern Highland Lakes District of Wisconsin. These stations are near Trout Lake, and Boulder Junction, Wisconsin. The gauging stations and USGS codes are as follows: Allequash Creek at County Highway M (USGS-05357215), Stevenson Creek at County Highway M (USGS-05357225), North Creek at Trout Lake (USGS-05357230), Trout River at Trout Lake (USGS-05357245). Latitude and Longitude locations are as follows: Allequash Creek-(46.023888, -89.652777) Stevenson Creek-(46.0613888, -89.647222) North Creek-(46.03555, -89.70555) Trout River-(46.0786111, -89.667222)
+</geographicDescription>
+      <boundingCoordinates>
+        <westBoundingCoordinate>-89.708</westBoundingCoordinate>
+        <eastBoundingCoordinate>-89.646</eastBoundingCoordinate>
+        <northBoundingCoordinate>46.080</northBoundingCoordinate>
+        <southBoundingCoordinate>46.022</southBoundingCoordinate>
+      </boundingCoordinates>
+    </geographicCoverage>
+    <temporalCoverage>
+      <rangeOfDates>
+        <beginDate>
+          <calendarDate>1975-08-21</calendarDate>
+        </beginDate>
+        <endDate>
+          <calendarDate>2013-01-17</calendarDate>
+        </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para>Completed.
+</para>
+    </description>
+  </maintenance>
+  <contact>
+    <positionName>NTL LTER Information Manager</positionName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <contact>
+    <positionName>NTL LTER Lead PI</positionName>
+    <organizationName>Center for Limnology</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Str.</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <publisher>
+    <organizationName>North Temperate Lakes LTER</organizationName>
+    <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </publisher>
+  <pubPlace>North Temperate Lakes</pubPlace>
+  <methods>
+    <methodStep>
+      <description>
+        <section>
+          <para>&#194;&#160;
+DL is used to represent &#226;&#128;&#156;detection limit&#226;&#128;&#157; where known.
+NOTE (1):&#194;&#160; Each method listed below corresponds with a USGS Parameter Code, which is listed after the variable name.&#194;&#160;
+NOTE (2):&#194;&#160; If the NEMI method # is known, it is also specified at the end of each method description.
+NOTE (3): Some of the variables are calculated using algorithms within QWDATA. If this is the case see Appendix D of the NWIS User&#226;&#128;&#153;s Manual for additional information. &#194;&#160;However, appendix D does not list the algorithm used by the USGS. If a variable is calculated with an algorithm the term: algor, will be listed after the variable name.
+anc: 99431, Alkalinity is determined in the field by using the gran function plot methods, see TWRI Book 9 Chapter A6.
+1. anc_1: 90410 and 00410, Alkalinity is determined by titrating the water sample with a standard solution of a strong acid. The end point of the titration is selected as pH 4.5. See USGS TWRI 5-A1/1989, p 57, NEMI method #: I-2030-89.
+2. c13_c12_ratio: 82081, Exact method unknown. The following method is suspected: Automated dual inlet isotope ratio analysis with sample preparation by precipitation with ammoniacal strontium chloride solution, filtration, purification, acidified of strontium carbonate; sample size is greater than 25 micromoles of carbon; one-sigma uncertainty is approximately &#194;&#177; 0.1 &#226;&#128;&#176;. See USGS Determination of the delta13 C of Dissolved Inorganic Carbon in Water, RSIL Lab Code 1710. Chapter 18 of Section C, Stable Isotope-Ratio Methods Book 10, Methods of the Reston Stable Isotope Laboratory.
+3. ca, mg, mn, na, and sr all share the same method. The USGS parameter codes are listed first, then the method description with NEMI method #, and finally DL&#226;&#128;&#153;s:
+ca- 00915, mg- 00925, mn- 01056, na- 00930, sr- 01080
+All metals are determined simultaneously on a single sample by a direct reading emission spectrometric method using an inductively coupled argon plasma as an excitation source. Samples are pumped into a crossflow pneumatic nebulizer, and introduced into the plasma through a spray chamber and torch assembly. Each analysis is determined on the basis of the average of three replicate integrations, each of which is background corrected by a spectrum shifting technique except for lithium (670.7 nm) and sodium (589.0 nm). A series of five mixed-element standards and a blank are used for calibration. Method requires an autosampler and emission spectrometry system. &#194;&#160;See &#194;&#160;USGS OF 93-125, p 101, NEMI Method #: I-1472-87.
+DL&#226;&#128;&#153;s: ca- .02 mg/l, mg-.01 mg/l, mn-1.0 ug/l, na- .2 mg/l, sr- .5 ug/l
+4. cl, f, and so4 all share the same method. The USGS parameter codes are listed first, then the method description with NEMI method #, and finally DL&#226;&#128;&#153;s:
+cl- 00940, f-00950, so4-00945
+All three anions (chloride, flouride, and sulfate) are separated chromatographically following a single sample injection on an ion exchange column. Ions are separated on the basis of their affinity for the exchange sites of the resin. The separated anions in their acid form are measured using an electrical conductivity cell. Anions are identified on the basis of their retention times compared with known standards. 19 The peak height or area is measured and compared with an analytical curve generated from known standards to quantify the results. See USGS OF 93-125, p 19,&#194;&#160; NEMI method #: I-2057.
+DL&#226;&#128;&#153;s: cl-.2 mg/l, f-.1 mg/l, so4-.2 mg/l
+co2: 00405, algor, see NWIS User's Manual, QW System, Appendix D, Page 285.
+co3: 00445, algor.
+color: 00080,&#194;&#160; The color of the water is compared to that of the colored glass disks that have been calibrated to correspond to the platinum-cobalt scale of Hazen (1892), See USGS TWRI 5-A1 or1989, P.191, NEMI Method #: I-1250. DL: 1 Pt-Co color
+conductance_field: 00094 and 00095, specific conductance is determined in the field using a standard YSI multimeter, See USGS TWRI 9, 6.3.3.A, P. 13, NEMI method #: NFM 6.3.3.A-SW.
+conductance_lab: 90095, specific conductance is determined by using a wheat and one bridge in which a variable resistance is adjusted so that it is equal to the resistance of the unknown solution between platinized electrodes of a standardized conductivity cell, sample at 25 degrees celcius, See USGS TWRI 5-A1/1989, p 461, NEMI method #: I-1780-85.
+dic: 00691, &#194;&#160;This test method can be used to make independent measurements of IC and TC and can also determine TOC as the difference of TC and IC. The basic steps of the procedure are as follows:(1) Removal of IC, if desired, by vacuum degassing;(2) Conversion of remaining inorganic carbon to CO2&#194;&#160;by action of acid in both channels and oxidation of total carbon to CO2&#194;&#160;by action of ultraviolet (UV) radiation in the TC channel. For further information, See ASTM Standards, NEMI method #: D6317. DL: n/a
+dkn: 00623 and 99894, Organic nitrogen compounds are reduced to the ammonium ion by digestion with sulfuric acid in the presence of mercuric sulfate, which acts as a catalyst, and potassium sulfate. The ammonium ion produced by this digestion, as well as the ammonium ion originally present, is determined by reaction with sodium salicylate, sodium nitroprusside, and sodium hypochlorite in an alkaline medium. The resulting color is directly proportional to the concentration of ammonia &#194;&#160;present, see USGS TWRI 5-A1/1989, p 327, NEMI method #: 351.2. DL: .10 mg/L
+do: 0300, Dissolved oxygen is measured in the field with a standard YSI multimeter, NEMI Method #: NFM 6.2.1-Lum. DL: 1 mg/L.
+doc: 00681, The sample is acidified, purged to remove carbonates and bicarbonates, and the organic carbon is oxidized to carbon dioxide with persulfate, in the presence of an ultraviolet light. The carbon dioxide is measured by nondispersive infrared spectrometry, see USGS OF 92-480, NEMI Method #: O-1122-92. DL: .10 mg/L.
+don: 00607, algor, see NWIS User's Manual, QW System, Appendix D, page 291.
+dp: 00666 and 99893, All forms of phosphorus, including organic phosphorus, are converted to orthophosphate ions using reagents and reaction parameters identical to those used in the block digester procedure for determination of organic nitrogen plus ammonia, that is, sulfuric acid, potassium sulfate, and mercury (II) at a temperature of 370 deg, see USGS OF Report 92-146, or USGS TWRI 5-A1/1979, p 453, NEMI method #: I-2610-91. DL= .012 mg/L.
+fe: 01046, Iron is determined by atomic absorption spectrometry by direct aspiration of the sample solution into an air-acetylene flame, see USGS TWRI 5-A1/1985, NEMI method #: I-1381. DL= 10&#194;&#181;g/L.
+h_ion: 00191, algor.
+h20_hardness: 00900, algor.
+h20_hardness_2: 00902, algor.
+hco3: 00440, algor.
+k: 00935, Potassium is determined by atomic absorption spectrometry by direct aspiration of the sample solution into an air-acetylene flame , see &#194;&#160;USGS TWRI 5-A1/1989, p 393, NEMI method #: I-1630-85. DL= .01 mg/L.
+n_mixed: 00600, algor.
+n_mixed_1: 00602, algor.
+n_mixed_2: 71887, algor.
+nh3_nh4:&#194;&#160; 00608, Ammonia reacts with salicylate and hypochlorite ions in the presence of ferricyanide ions to form the salicylic acid analog of indophenol blue (Reardon and others, 1966; Patton and Crouch, 1977; Harfmann and Crouch, 1989). The resulting color is directly&#194;&#160; proportional to the concentration of ammonia present, See USGS OF 93-125, p 125/1986 (mg/l as N), NEMI Method #: I-2525. DL= .01 mg/L.
+nh3_nh4_1: 71846, algor.
+nh3_nh4_2: 00610, same method as 00608, except see USGS TWRI 5-A1/1989, p 321. DL = .01 mg/L.
+nh3_nh4_3: 71845, algor.
+no2: 00613, Nitrite ion reacts with sulfanilamide under acidic conditions to form a diazo compound which then couples with N-1-naphthylethylenediamine dihydrochloride to form a red compound, the absorbance of which is measured colorimetrically, see &#194;&#160;USGS TWRI 5-A1/1989, p 343, NEMI method #: I-2540-90. DL= .01 mg/L.
+no2_2: 71856, algor.
+no3: 00618, Nitrate is determined sequentially with six other anions by ion-exchange chromatography, see USGS TWRI 5-A1/1989, P. 339, NEMI method #: I-2057. DL= .05 mg/L.
+no3_2: 71851, algor.
+no32: 00630, An acidified sodium chloride extraction procedure is used to extract nitrate and nitrite from samples of bottom material for this determination(Jackson, 1958). Nitrate is reduced to nitrite by cadmium metal. Imidazole is used to buffer the analytical stream. The sample stream then is treated with sulfanilamide to yield a diazo compound, which couples with N-lnaphthylethylenediamine dihydrochloride to form an azo dye, the absorbance of which is measured colorimetrically. Procedure is used to extract nitrate and nitrite from bottom material for this determination (Jackson, 1958), see USGS TWRI 5-A1/1989, p 351. DL= .1 mg/L
+no32_2: 00631, same as description for no32, except see USGS OF 93-125, p 157. DL= .1 mg/L.
+o18_o16_ratio: 82085, Sample preparation by equilibration with carbon dioxide and automated analysis; sample size is 0.1 to 2.0 milliliters of water. For 2-mL samples, the 2-sigma uncertainties of oxygen isotopic measurement results are 0.2 &#226;&#128;&#176;. This means that if the same sample were resubmitted for isotopic analysis, the newly measured value would lie within the uncertainty bounds 95 percent of the time. Water is extracted from soils and plants by distillation with toluene; recommended sample size is 1-5 ml water per analysis, see USGS Determination of the Determination of the delta (18 O or 16O) of Water, RSIL Lab Code 489.
+o2sat: Dissolved oxygen is measured in the field with a standard YSI multimeter, which also measures % oxygen saturation, NEMI Method #: NFM 6.2.1-Lum.
+ph_field: 00400, pH determined in situ, using a standard YSI multimeter, see USGS Techniques of Water-Resources Investigations, book 9, Chaps. A1-A9, Chap. A6.4 "pH," NEMI method # NFM 6.4.3.A-SW. DL= .01 pH.
+ph_lab: 00403, involves use of laboratory pH meter, see USGS TWRI 5-A1/1989, p 363, NEMI method #: I-1586.
+po4: 00660, algor, see NWIS User's Manual, QW System, Appendix D, Page 286.
+po4_2: 00671, see &#194;&#160;USGS TWRI 5-A1/1989, NEMI method #:&#194;&#160; I-2602. DL= .01 mg/L.
+s: &#194;&#160;63719, cannot determine exact method used. USGS method code: 7704-34-9 is typically used to measure sulfur as a percentage, with an DL =.01 &#194;&#181;g/L. It is known that the units for sulfur measurements in this data set are micrograms per liter.
+sar: 00931, algor, see NWIS User's Manual, QW System, Appendix D, Page 288.
+si: 00955, Silica reacts with molybdate reagent in acid media to form a yellow silicomolybdate complex. This complex is reduced by ascorbic acid to form the molybdate blue color. The silicomolybdate complex may form either as an alpha or beta polymorph or as a mixture of both. Because the two polymorphic forms have absorbance maxima at different wavelengths, the pH of the mixture is kept below 2.5, a condition that favors formation of the beta polymorph (Govett, 1961; Mullen and Riley, 1955; Strickland, 1952), see USGS TWRI 5-A1/1989, p 417, NEMI method #: I-2700-85. DL= .10 mg/L.
+spc: 00932, algor, see NWIS User's Manual, QW System, Appendix D, Page 289.
+tds: 70300 and 70301, A well-mixed sample is filtered through a standard glass fiber filter. The filtrate is evaporated and dried to constant weight at 180 deg C, see " Filterable Residue by Drying Oven," NEMI method #: 160.1, DL= 10 mg/l. Note: despite DL values occur in the data set that are less than 10 mg/l.
+tds_1: 70301, algor, see NWIS User's Manual, QW System, Appendix D, Page 289.
+tds_2: 70303, algor, see NWIS User's Manual, QW System, Appendix D, Page 290.
+tkn: 00625 and 99892, Block digester procedure for determination of organic nitrogen plus ammonia, that is, sulfuric acid, potassium sulfate, and Mercury (II) at a temperature of 370&#194;&#176;C. See the USGS Open File Report 92-146 for further details. DL: .10 mg/L.
+toc: 00680, The sample is acidified, purged to remove carbonates and bicarbonates, and the organic carbon is oxidized to carbon dioxide with persulfate, in the presence of an ultraviolet light. The carbon dioxide is measured by nondispersive infrared spectrometry, see USGS TWRI 5-A3/1987, p 15, NEMI Method #: O-1122-92. DL=.10 mg/L.
+ton: 00605, algor, See NWIS User's Manual, QW System, Appendix D, page 286.
+tp: 00665 and 99891, This method may be used to analyze most water, wastewater, brines, and water-suspended sediment containing from 0.01 to 1.0 mg/L of phosphorus. Samples containing greater concentrations need to be diluted, see USGS TWRI 5-A1/1989, p 367, NEMI method #: I-4607.
+&#194;&#160;
+tp_2: 71886, algor.
+tpc: 00694, The basic steps of this test method are:1) Conversion of remaining IC to CO2 by action of acid, 2) Removal of IC, if desired, by vacuum degassing, 3) Split of flow into two streams to provide for separate IC and TC measurements, 4) Oxidation of TC to CO2 by action of acid-persulfate aided by ultraviolet (UV) radiation in the TC channel, 5) Detection of CO2 by passing each liquid stream over membranes that allow the specific passage of CO2 to high-purity water where change in conductivity is measured, and 6) Conversion of the conductivity detector signal to a display of carbon concentration in parts per million (ppm = mg/L) or parts per billion (ppb = ug/L). The IC channel reading is subtracted from the TC channel reading to give a TOC reading, see ASTM Standards, NEMI Method #: D5997. DL= .06 &#194;&#181;g/L.
+tpn: 49570, A weighed amount of dried particulate (from water) or sediment is combusted at a high temperature using an elemental analyzer. The combustion products are passed over a copper reduction tube to covert nitrogen oxides to molecular nitrogen. Carbon dioxide, nitrogen, and water vapor are mixed at a known volume, temperature, and pressure. The concentrations of nitrogen and carbon are determined using a series of thermal conductivity detectors/traps, measuring in turn by difference hydrogen (as water vapor), carbon (as carbon dioxide), and nitrogen (as molecular nitrogen). Procedures also are provided to differentiate between organic and inorganic carbon, if desired, see USEPA Method 440, NEMI method #: 440. DL= .01 mg/L.&#194;&#160;
+</para>
+        </section>
+      </description>
+    </methodStep>
+  </methods>
+  <project>
+    <title>The US Geological Survey&#226;&#128;&#153;s Water, Energy, and Biogeochemical Budgets (WEBB) Program</title>
+    <personnel>
+      <individualName>
+        <givenName>Randy</givenName>
+        <surName>Hunt</surName>
+      </individualName>
+      <organizationName>U.S. Geological Survey</organizationName>
+      <address>
+        <deliveryPoint>8505 Research Way</deliveryPoint>
+        <city>Middleton</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53562</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(608) 821-3847</phone>
+      <electronicMailAddress>rjhunt@usgs.gov</electronicMailAddress>
+      <role>project personnel</role>
+    </personnel>
+    <personnel>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Walker</surName>
+      </individualName>
+      <organizationName>US Geological Survey</organizationName>
+      <address>
+        <deliveryPoint>8505 Research Way</deliveryPoint>
+        <city>Middleton</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53562</postalCode>
+      </address>
+      <phone phonetype="voice">(608) 821-3853</phone>
+      <electronicMailAddress>jfwalker@usgs.gov</electronicMailAddress>
+      <role>project personnel</role>
+    </personnel>
+    <abstract>
+      <para>The WEBB program began in 1991 at five small watersheds to examine water, energy, and biogeochemical fluxes and determine the effects of atmospheric deposition, climatic variables, and human influences on watershed processes. The five sites are at Loch Vale, Colorado; Luquillo Experimental Forest, Puerto Rico; Panola Mountain, Georgia; Sleepers River, Vermont; and Trout Lake, Wisconsin. These sites are supported, in part, by other programs in the USGS, other Federal and State Agencies, and Universities.
+</para>
+    </abstract>
+  </project>
+  <dataTable>
+    <entityName>usgs_webb_stream_chemphys</entityName>
+    <entityDescription>USGS stream chemistry data from the USGS Trout Lake WEBB gauging stations. Data was collected from four different gauging stations, all water samples were grab samples. All analysis of water samples was done at the USGS National WQ Laboratory in Boulder, Colorado. </entityDescription>
+    <physical>
+      <objectName>webb_chem_phys_all_sites.csv</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <recordDelimiter>\r\n</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+            <quoteCharacter>"</quoteCharacter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+      <distribution>
+        <online>
+          <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.276&amp;urlTail=ntl/data/32476_1_v2.csv</url>
+        </online>
+      </distribution>
+    </physical>
+    <attributeList>
+      <attribute>
+        <attributeName>site_name</attributeName>
+        <attributeLabel> webb site name</attributeLabel>
+        <attributeDefinition>The name of the stream which is a site for the usgs webb project, four in total: allequash creek, north creek, stevenson creek, and the trout river.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The name of the stream which is a site for the usgs webb project, four in total: allequash creek, north creek, stevenson creek, and the trout river.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>usgs_site_id</attributeName>
+        <attributeLabel>usgs location number</attributeLabel>
+        <attributeDefinition>The number the usgs assigns to a given stream gauge</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The number the usgs assigns to a given stream gauge</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>hu</attributeName>
+        <attributeLabel>Hydrologic Unit</attributeLabel>
+        <attributeDefinition>Hydrologic unit as defined by the USGS. </attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>Hydrologic unit as defined by the USGS. </definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sampledate</attributeName>
+        <attributeLabel>sample date</attributeLabel>
+        <attributeDefinition>sample date</attributeDefinition>
+        <storageType>date</storageType>
+        <measurementScale>
+          <dateTime>
+            <formatString>yyyy-MM-dd</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sample_time</attributeName>
+        <attributeLabel>sample time</attributeLabel>
+        <attributeDefinition>time of day at which the sample was taken</attributeDefinition>
+        <storageType>date</storageType>
+        <measurementScale>
+          <dateTime>
+            <formatString>hh:mm:ss</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>time_zone</attributeName>
+        <attributeLabel>Time Zone</attributeLabel>
+        <attributeDefinition>Standard time zones that change with daylight savings.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>Standard time zones that change with daylight savings.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sampling_method</attributeName>
+        <attributeLabel>Stream chemistry sampling method</attributeLabel>
+        <attributeDefinition>Method used to collect sample from stream, for example, grab sampling, instantaneous with autosampler, or composite with autosampler.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>Method used to collect sample from stream, for example, grab sampling, instantaneous with autosampler, or composite with autosampler.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>anc</attributeName>
+        <attributeLabel>acid neutralizing capacity</attributeLabel>
+        <attributeDefinition>acid neutralizing capacity</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microEquivalentsPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>anc_1</attributeName>
+        <attributeLabel>acid neutralizing capacity</attributeLabel>
+        <attributeDefinition>The buffering capacity of a given water sample as measured by titration to pH endpoint of 4.5, units of mgPerLiter</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>c13_c12_ratio</attributeName>
+        <attributeLabel>Carbon-13 to Carbon-12 ratio</attributeLabel>
+        <attributeDefinition>The isotopic ratio of Carbon-13 to Carbon-12. Reported value is calculated relative to a standard of known composition and reported as "per mill."</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>dimensionless</standardUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>ca</attributeName>
+        <attributeLabel>Ca</attributeLabel>
+        <attributeDefinition>calcium</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>cl</attributeName>
+        <attributeLabel>chloride</attributeLabel>
+        <attributeDefinition>chloride concentration</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>co2</attributeName>
+        <attributeLabel>dissolved carbon dioxide</attributeLabel>
+        <attributeDefinition>Quantity of dissolved CO2 in a given sample.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>co3</attributeName>
+        <attributeLabel>carbonate</attributeLabel>
+        <attributeDefinition>The quantity of dissolved carbonate in a given sample.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>color</attributeName>
+        <attributeLabel>color (pt-co units)</attributeLabel>
+        <attributeDefinition>color (pt-co units)</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>color (pt-co units)</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>conductance_field</attributeName>
+        <attributeLabel>specific conductance, field</attributeLabel>
+        <attributeDefinition>A measure of how well water can carry an electrical current, a proxy for salinity. Measured in uS/cm @25C, NEMI method #: NFM 6.3.3.A-SW</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemensPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>conductance_lab</attributeName>
+        <attributeLabel>specific conductance, lab</attributeLabel>
+        <attributeDefinition>A measure of how well water can carry an electrical current, a proxy for salinity. Measured in uS/cm @25C, NEMI method #: I-1780-85. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microSiemensPerCentimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>dic</attributeName>
+        <attributeLabel>dissolved inorganic carbon</attributeLabel>
+        <attributeDefinition>dissolved inorganic carbon</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>dkn</attributeName>
+        <attributeLabel>dissolved kjeldahl nitrogen</attributeLabel>
+        <attributeDefinition>Dissolved quantity of kjeldahl nitrogen in a given sample, nh3 + nh4 + organic nitrogen.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>do</attributeName>
+        <attributeLabel>dissolved oxygen concentration</attributeLabel>
+        <attributeDefinition>dissolved oxygen concentration</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>doc</attributeName>
+        <attributeLabel>dissolved organic carbon</attributeLabel>
+        <attributeDefinition>dissolved organic carbon</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>don</attributeName>
+        <attributeLabel>dissolved organic nitrogen</attributeLabel>
+        <attributeDefinition>The quantity of dissolved organic nitrogen in a given sample, mgPerLiter.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>dp</attributeName>
+        <attributeLabel>dissolved phosphorus</attributeLabel>
+        <attributeDefinition>The quantity of phosphorus that is dissolved in a given sample, mgPerLiter as phosphorus. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>f</attributeName>
+        <attributeLabel>fluoride concentration</attributeLabel>
+        <attributeDefinition>Quantity of dissolved fluoride in a given sample.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>fe</attributeName>
+        <attributeLabel>Fe  iron</attributeLabel>
+        <attributeDefinition>Fe  iron</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>h_ion</attributeName>
+        <attributeLabel>hydrogen ion concentration</attributeLabel>
+        <attributeDefinition>Hydrogen ion concentration in a given sample.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>h2o_hardness</attributeName>
+        <attributeLabel>water hardness</attributeLabel>
+        <attributeDefinition>The total hardness of a given water sample, mgPerLiter as calcium carbonate. Computed from measured values (if available) of dissolved magnesium, calcium, barium, and strontium. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>h20_hardness_2</attributeName>
+        <attributeLabel>non-carbonate water hardness</attributeLabel>
+        <attributeDefinition>The non-carbonate hardness of a given water sample, mgPerLiter as calcium carbonate. Computed as total hardness (milliEquivalentsPerLiter) - alkalinity (milliEquivalentsPerLiter). </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>hco3</attributeName>
+        <attributeLabel>bicarbonate, hco3, mgPerLiter</attributeLabel>
+        <attributeDefinition>The quantity of dissolved bicarbonate in a given sample.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>k</attributeName>
+        <attributeLabel>potassium</attributeLabel>
+        <attributeDefinition>potassium concentration</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>mg</attributeName>
+        <attributeLabel>magnesium </attributeLabel>
+        <attributeDefinition>magnesium </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>mn</attributeName>
+        <attributeLabel>manganese concentration</attributeLabel>
+        <attributeDefinition>Quantity of dissolved manganese in a given sample.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>n_mixed</attributeName>
+        <attributeLabel>total mixed forms of nitrogen</attributeLabel>
+        <attributeDefinition>The total quantity of mixed forms of nitrogen (particulate and dissolved) in a given water sample. Includes: NH3, NH4, Organic, NO2, and NO3. Measured in mgPerLiter as nitrogen.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>n_mixed_1</attributeName>
+        <attributeLabel>Dissolved mixed forms of nitrogen</attributeLabel>
+        <attributeDefinition>The dissolved quantity of mixed forms of nitrogen in a given water sample. Includes: NH3, NH4, Organic, NO2, and NO3. Measured in mgPerLiter as nitrogen.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>n_mixed_2</attributeName>
+        <attributeLabel>total mixed forms of nitrogen</attributeLabel>
+        <attributeDefinition>The total quantity of mixed forms (particulate and dissolved) of nitrogen in a given water sample. Includes: NH3, NH4, Organic, NO2, and NO3. Measured in mgPerLiter as nitrate.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>na</attributeName>
+        <attributeLabel>Sodium</attributeLabel>
+        <attributeDefinition>Sodium concentration</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>nh3_nh4</attributeName>
+        <attributeLabel>dissolved ammonia + ammonium as Nitrogen</attributeLabel>
+        <attributeDefinition>Quantity of dissolved ammonia/ ammonium in a given sample, milligramPerLiter as Nitrogen.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>nh3_nh4_1</attributeName>
+        <attributeLabel>dissolved ammonia + ammonium as Ammonium</attributeLabel>
+        <attributeDefinition>Quantity of dissolved ammonia/ ammonium in a given sample, milligramPerLiter as Ammonium.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>nh3_nh4_2</attributeName>
+        <attributeLabel>total ammonia + ammonium as Nitrogen</attributeLabel>
+        <attributeDefinition>Total quantity (dissolved and particulate) of ammonia/ ammonium in a given sample, milligramPerLiter as Nitrogen.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>nh3_nh4_3</attributeName>
+        <attributeLabel>total ammonia + ammonium as ammonium</attributeLabel>
+        <attributeDefinition>Total quantity (dissolved and particulate) of ammonia/ ammonium in a given sample, milligramPerLiter as ammonium.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>no2</attributeName>
+        <attributeLabel>nitrite</attributeLabel>
+        <attributeDefinition>Quantity of dissolved nitrite in a given sample, mgPerLiter as nitrogen</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>no2_2</attributeName>
+        <attributeLabel>nitrite</attributeLabel>
+        <attributeDefinition>Quantity of dissolved nitrite in a given sample, mgPerLiter as nitrite</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>no3</attributeName>
+        <attributeLabel>nitrate</attributeLabel>
+        <attributeDefinition>nitrate</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>no3_2</attributeName>
+        <attributeLabel>nitrate</attributeLabel>
+        <attributeDefinition>The total dissolved quantity of nitrate in a given sample, mgPerLiter as nitrate</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>no32</attributeName>
+        <attributeLabel>total nitrate + nitrite</attributeLabel>
+        <attributeDefinition>The total quantity of nitrate + nitrite in a given sample, mgPerLiter as nitrogen. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>no32_2</attributeName>
+        <attributeLabel>dissolved nitrate + nitrite</attributeLabel>
+        <attributeDefinition>The dissolved quantity of nitrate + nitrite in a given sample, mgPerLiter as nitrogen. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>o18_o16_ratio</attributeName>
+        <attributeLabel>Oxygen-18 to Oxygen-16 Ratio</attributeLabel>
+        <attributeDefinition>The isotopic ratio of Oxygen-18 to Oxygen-16. Reported value is calculated relative to a standard of known composition and reported as "per mill."</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>dimensionless</standardUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>o2sat</attributeName>
+        <attributeLabel>percent oxygen saturation</attributeLabel>
+        <attributeDefinition>percent dissolved oxygen saturation</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>ph_field</attributeName>
+        <attributeLabel>pH, field</attributeLabel>
+        <attributeDefinition>The log base ten of hydrogen ion concentration, as determined by use of a  YSI multimeter. </attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The log base ten of hydrogen ion concentration, as determined by use of a  YSI multimeter. </definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>ph_lab</attributeName>
+        <attributeLabel>pH, lab</attributeLabel>
+        <attributeDefinition>The log base ten of hydrogen ion concentration, as determined by NEMI method #: I-1586. </attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The log base ten of hydrogen ion concentration, as determined by NEMI method #: I-1586. </definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>po4</attributeName>
+        <attributeLabel>dissolved phosphate</attributeLabel>
+        <attributeDefinition>The quantity of dissolved phosphate in a given sample, mgPerLiter as phosphate. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>po4_2</attributeName>
+        <attributeLabel>dissolved phosphate</attributeLabel>
+        <attributeDefinition>The quantity of dissolved phosphate in a given sample. Determined by NWIS algorithm, units of mgPerLiter as phosphorus.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>s</attributeName>
+        <attributeLabel>sulfur concentration</attributeLabel>
+        <attributeDefinition>The quantity of dissolved sulfur in a given sample. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sar</attributeName>
+        <attributeLabel>sodium adsorption ratio</attributeLabel>
+        <attributeDefinition>A calculated value which considers the concentration of sodium in relation to calcium and magnesium. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>si</attributeName>
+        <attributeLabel>silica</attributeLabel>
+        <attributeDefinition>silica</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>so4</attributeName>
+        <attributeLabel>sulfate</attributeLabel>
+        <attributeDefinition>sulfate concentration</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>spc</attributeName>
+        <attributeLabel>sodium, percent of total cations</attributeLabel>
+        <attributeDefinition>The percent of sodium out of all cations in a sample.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>dimensionless</standardUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sr</attributeName>
+        <attributeLabel>strontium concentration</attributeLabel>
+        <attributeDefinition>The quantity of dissolved strontium in a given sample. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tds</attributeName>
+        <attributeLabel>total dissolved solids concentration</attributeLabel>
+        <attributeDefinition>The total quantity of dissolved matter in a given sample. If a given sample was completely evaporated, the remaining solid mass. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter </customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tds_1</attributeName>
+        <attributeLabel>total dissolved solids concentration</attributeLabel>
+        <attributeDefinition>The total quantity of dissolved matter in a given sample. If a given sample was completely evaporated, the remaining solid mass. Measured as a rate (tons/day) specific to the site.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>tonsPerDay</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tds_2</attributeName>
+        <attributeLabel>total dissolved solids concentration</attributeLabel>
+        <attributeDefinition>The total quantity of dissolved matter in a given sample. If a given sample was completely evaporated, the remaining solid mass. Measured as a quantity per unit volume (tons/acre-ft). </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>tonsPerAcreFeet</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tkn</attributeName>
+        <attributeLabel>total kjeldahl nitrogen</attributeLabel>
+        <attributeDefinition>Total quantity of kjeldahl nitrogen in a given sample, nh3 + nh4 + organic nitrogen (dissolved and particulate). </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>toc</attributeName>
+        <attributeLabel>total organic carbon</attributeLabel>
+        <attributeDefinition>total organic carbon</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>ton</attributeName>
+        <attributeLabel>total organic nitrogen</attributeLabel>
+        <attributeDefinition>The quantity of dissolved and particulate organic nitrogen in a given sample, mgPerLiter.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tp</attributeName>
+        <attributeLabel>total phosphorus</attributeLabel>
+        <attributeDefinition>The total quantity of phosphorus in a given sample, particulate phosphorus + dissolved phosphorus. Measured as mgPerLiter as phosphorus.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tp_2</attributeName>
+        <attributeLabel>total phosphorus as phosphate</attributeLabel>
+        <attributeDefinition>The total quantity of phosphorus in a given sample, particulate phosphorus + dissolved phosphorus. Measured as mgPerLiter as phosphate.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tpc</attributeName>
+        <attributeLabel>total particulate carbon concentration</attributeLabel>
+        <attributeDefinition>Quantity of particulate carbon in a given sample, measures carbon associated with particulates suspended in the water column. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tpn</attributeName>
+        <attributeLabel>total particulate nitrogen concentration</attributeLabel>
+        <attributeDefinition>Total quantity of particulate nitrogen in a given sample. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milligramPerLiter</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+  <dataTable>
+    <entityName>usgs_webb_site_info.csv</entityName>
+    <entityDescription>Data on the four USGS-WEBB stream gauge stations in the Northern Highland Lake District of Wisconsin, near Trout Lake. Data includes site name, usgs codes, geographic information, gauge information, and information on the surrounding conditions. The four USGS stream gauge stations are Allequash Creek at County Highway M (USGS-05357215), Stevenson Creek at County Highway M (USGS-05357225), North Creek at Trout Lake (USGS-05357230), and the Trout River at Trout Lake (USGS-05357245), all near Boulder Junction, Wisconsin. </entityDescription>
+    <physical>
+      <objectName>32476_2_v2.csv</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <recordDelimiter>\r\n</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+            <quoteCharacter>"</quoteCharacter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+      <distribution>
+        <online>
+          <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.276&amp;urlTail=ntl/data/32476_2_v2.csv</url>
+        </online>
+      </distribution>
+    </physical>
+    <attributeList>
+      <attribute>
+        <attributeName>site_name</attributeName>
+        <attributeLabel> webb site name</attributeLabel>
+        <attributeDefinition>The name of the stream which is a site for the usgs webb project, four in total: allequash creek, north creek, stevenson creek, and the trout river.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The name of the stream which is a site for the usgs webb project, four in total: allequash creek, north creek, stevenson creek, and the trout river.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>usgs_site_id</attributeName>
+        <attributeLabel>usgs location number</attributeLabel>
+        <attributeDefinition>The number the usgs assigns to a given stream gauge</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The number the usgs assigns to a given stream gauge</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>hu</attributeName>
+        <attributeLabel>Hydrologic Unit</attributeLabel>
+        <attributeDefinition>Hydrologic unit as defined by the USGS. </attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>Hydrologic unit as defined by the USGS. </definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>drainage_area</attributeName>
+        <attributeLabel>drainage area</attributeLabel>
+        <attributeDefinition>Total area where runoff in a given region drains to a single point, usually a river. Delineated by topography, and synonymous with water basin or catchment area. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>mileSquared</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>lat_decimal</attributeName>
+        <attributeLabel>latitude decimal</attributeLabel>
+        <attributeDefinition>latitude decimal</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>degree</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>long_decimal</attributeName>
+        <attributeLabel>longitude decimal</attributeLabel>
+        <attributeDefinition>longitude decimal</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>degree</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>min_gauge</attributeName>
+        <attributeLabel>minimum instantaneous gauge height</attributeLabel>
+        <attributeDefinition>The minimum instantaneous reading which can be taken from the gauge. </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>feet</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>max_gauge</attributeName>
+        <attributeLabel>maximum instantaneous gauge height</attributeLabel>
+        <attributeDefinition>The maximum instantaneous reading which can be taken from the gauge.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>feet</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>aspect</attributeName>
+        <attributeLabel>aspect of plot</attributeLabel>
+        <attributeDefinition>aspect of plot</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>degree</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>dom_veg</attributeName>
+        <attributeLabel>dominant vegetation</attributeLabel>
+        <attributeDefinition>Dominant vegetation surrounding the gauge.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>Dominant vegetation surrounding the gauge.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>dom_geol</attributeName>
+        <attributeLabel>dominant geology</attributeLabel>
+        <attributeDefinition>The geology characteristic of the region within which the gauge is positioned.</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The geology characteristic of the region within which the gauge is positioned.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>notes</attributeName>
+        <attributeLabel>notes</attributeLabel>
+        <attributeDefinition>notes</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>notes</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+  <metadata>
+    <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+<ns2:unit abbreviation="ueq/L" id="microEquivalentsPerLiter" name="microEquivalentsPerLiter" unitType=""><ns2:description>Microequivalents per liter</ns2:description></ns2:unit>
+<ns2:unit abbreviation="mg/l" constantToSI="0" id="milligramPerLiter" multiplierToSI="0.001" name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity"><ns2:description>milligrams / liter</ns2:description></ns2:unit>
+
+<ns2:unit abbreviation="uS/cm" constantToSI="0" id="microSiemensPerCentimeter" multiplierToSI="0.000001" name="microSiemensPerCentimeter" parentSI="siemens" unitType=""><ns2:description>Derivative of the standard SI unit of electrical conductance (specific conductance).</ns2:description></ns2:unit>
+<ns2:unit abbreviation="&#181;g/l" constantToSI="0" id="microgramPerLiter" multiplierToSI="0.000001" name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity"><ns2:description>micrograms / liter</ns2:description></ns2:unit>
+
+<ns2:unit abbreviation="%" constantToSI="0" id="percent" multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless"><ns2:description>ratio of two quantities as percent composition (1:100)</ns2:description></ns2:unit>
+<ns2:unit id="milligramPerLiter " />
+<ns2:unit id="tonsPerDay" />
+<ns2:unit id="tonsPerAcreFeet" />
+<ns2:unit abbreviation="mile&#178;" constantToSI="0" id="mileSquared" multiplierToSI="2590000" name="mileSquared" parentSI="squareMeter" unitType="area"><ns2:description>1 mile squared</ns2:description></ns2:unit>
+
+<ns2:unit abbreviation="" id="feet" name="feet" unitType=""><ns2:description /></ns2:unit>
+
+    </ns2:unitList>
+  </metadata>
+</additionalMetadata>
+</ns0:eml>

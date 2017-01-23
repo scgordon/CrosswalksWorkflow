@@ -1,0 +1,670 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.143.19" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="143" system="VCR">
+   <alternateIdentifier>VCR05131</alternateIdentifier>
+   <title>Bathymetry of Hog Island Bay of the Virginia Coastal Reserve 1997-1999</title>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>George</givenName>
+         <surName>Oertel</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Oceanography</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23508</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4935</phone>
+      <phone phonetype="facsimile">(757) 683-5303</phone>
+      <electronicMailAddress>goertel@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">goertel</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Charles</givenName>
+         <surName>Carlson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Virginia Coast Reserve, LTER Laboratory, PO Box LTER</deliveryPoint>
+         <city>Oyster</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23419</postalCode>
+      </address>
+      <phone phonetype="voice">(804) 331-4323</phone>
+      <phone phonetype="facsimile">(804) 331-3952</phone>
+      <electronicMailAddress>crc7m@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">ccarlson</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Kathleen</givenName>
+         <surName>Overman</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>31559 Pennyville Road</deliveryPoint>
+         <city>Painter</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23420</postalCode>
+      </address>
+      <phone phonetype="voice">757-331-4393</phone>
+      <electronicMailAddress>kmo8t@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">koverman</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2000-09-01</pubDate>
+   <abstract>
+  <para>This dataset contains a grid describing the bathymetry of Hog Island Bay. It is based on interpolation of over 10,000 individual depth soundings. An Innerspace Technologies digital depth sounder provided the depth data. A GPS unit with real-time NAVbeacon corrections (est. accuracy 5 meters) was used to provide locations. Data was corrected for tidal changes to be relative to Mean Sea Level. Data is projected to UTM WGS84 zone 18.</para>
+  <para>For comparing to other datums, here are excerpts from the NOAA Benchmark Data Sheets for nearby stations:</para>
+  <para>Station ID: 8631044&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; PUBLICATION DATE:&#160; 04/21/2003</para>
+  <para> Name:&#160;&#160;&#160;&#160;&#160;&#160; WACHAPREAGUE, WACHAPREAGUE CHANNEL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;</para>
+  <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; VIRGINIA</para>
+  <para> NOAA Chart: 12210&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Latitude:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 37&#194;&#176; 36.4' N</para>
+  <para> USGS Quad:&#160; WACHAPREAGUE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Longitude:&#160;&#160;&#160;&#160;&#160;&#160;&#160; 75&#194;&#176; 41.2' W</para>
+  <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; T I D A L&#160;&#160; D A T U M S</para>
+  <para>Tidal datums at WACHAPREAGUE, WACHAPREAGUE CHANNEL based on:</para>
+  <para>&#160;&#160;&#160;&#160; LENGTH OF SERIES:&#160;&#160;&#160;&#160;&#160; 16 Years</para>
+  <para> &#160;&#160;&#160;&#160; TIME PERIOD:&#160;&#160;&#160;&#160;&#160;&#160; January 1983 - December 1998</para>
+  <para> &#160;&#160;&#160;&#160; TIDAL EPOCH:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 1983-2001</para>
+  <para> &#160;&#160;&#160;&#160; CONTROL TIDE STATION:&#160; 8638610 SEWELLS POINT, HAMPTON ROADS</para>
+  <para>Elevations of tidal datums referred to Mean Lower Low Water (MLLW), in METERS:</para>
+  <para> &#160;&#160;&#160;&#160; HIGHEST OBSERVED WATER LEVEL (02/05/1998)&#160;&#160;&#160; =&#160; 2.720</para>
+  <para> &#160;&#160;&#160;&#160; MEAN HIGHER HIGH WATER (MHHW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 1.375</para>
+  <para> &#160;&#160;&#160;&#160; MEAN HIGH WATER (MHW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 1.276</para>
+  <para> &#160;&#160;&#160;&#160; MEAN SEA LEVEL (MSL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.696</para>
+  <para> &#160;&#160;&#160;&#160; MEAN TIDE LEVEL (MTL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.664</para>
+  <para> &#160;&#160;&#160;&#160; MEAN LOW WATER (MLW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.051</para>
+  <para> &#160;&#160;&#160;&#160; MEAN LOWER LOW WATER (MLLW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.000</para>
+  <para> &#160;&#160; LOWEST&#160; OBSERVED WATER LEVEL (03/16/1980)&#160;&#160;&#160; = -0.860</para>
+  <para> Station ID: 8631542&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; PUBLICATION DATE:&#160; 04/29/2003</para>
+  <para> Name:&#160;&#160;&#160;&#160;&#160;&#160; SAND SHOAL INLET, COBB ISLAND&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;</para>
+  <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; VIRGINIA</para>
+  <para> NOAA Chart: 12224&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Latitude:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 37&#194;&#176; 18.1' N</para>
+  <para> USGS Quad:&#160; COBB ISLAND&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Longitude:&#160;&#160;&#160;&#160;&#160;&#160;&#160; 75&#194;&#176; 46.7' W</para>
+  <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; T I D A L&#160;&#160; D A T U M S</para>
+  <para> Tidal datums at SAND SHOAL INLET, COBB ISLAND based on:</para>
+  <para>&#160;&#160;&#160;&#160; LENGTH OF SERIES:&#160;&#160;&#160;&#160;&#160; 36 MONTHS</para>
+  <para> &#160;&#160;&#160;&#160; TIME PERIOD:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; October 1978 - September 1981</para>
+  <para> &#160;&#160;&#160;&#160; TIDAL EPOCH:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 1983-2001</para>
+  <para> &#160;&#160;&#160;&#160; CONTROL TIDE STATION:&#160; 8638610 SEWELLS POINT, HAMPTON ROADS</para>
+  <para> Elevations of tidal datums referred to Mean Lower Low Water (MLLW), in METERS:</para>
+  <para>&#160;&#160;&#160;&#160; MEAN HIGHER HIGH WATER (MHHW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 1.369</para>
+  <para> &#160;&#160;&#160;&#160; MEAN HIGH WATER (MHW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 1.268</para>
+  <para> &#160;&#160;&#160;&#160; MEAN TIDE LEVEL (MTL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.658</para>
+  <para> &#160;&#160;&#160;&#160; MEAN SEA LEVEL (MSL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.650</para>
+  <para> &#160;&#160;&#160;&#160; MEAN LOW WATER (MLW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.049</para>
+  <para> &#160;&#160;&#160;&#160; MEAN LOWER LOW WATER (MLLW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.000</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">bathymetry</keyword>
+      <keyword keywordType="theme">hypsometry</keyword>
+   </keywordSet>
+   <additionalInfo>
+<section>
+<title>Relevant URLs</title>
+<para><orderedlist>
+<listitem><para>
+RealPlayer video of data collection methods) 
+URL=http://www.vcrlter.virginia.edu/monitoring/bathym00.rm
+</para></listitem>
+<listitem><para>Loreto Herraiz Gomez Thesis, 2008 describing general data collection methods) 
+URL=http://amazon.evsc.virginia.edu/thesis/loretoherraizthesis.pdf
+</para></listitem>
+</orderedlist>
+</para>
+</section>
+
+   </additionalInfo>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>HOGBAY - Hog Island Bay</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.700000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.810000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.500000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.360000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1997-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1999-10-31</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>George</givenName>
+         <surName>Oertel</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Oceanography</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23508</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4935</phone>
+      <phone phonetype="facsimile">(757) 683-5303</phone>
+      <electronicMailAddress>goertel@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">goertel</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+      <spatialRaster id="hogbay2.tif">
+         <alternateIdentifier>VCR05131-2</alternateIdentifier>
+         <entityName>hogbay2</entityName>
+         <entityDescription>    
+Hog Island Bay bathymetry model in TIFF format with a TIFF world file.  Negative values represent depth below MSL (NAVD88 zero).
+</entityDescription>
+         <physical>
+            <objectName>hogbay_tiff.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.143.19&amp;urlHeadID=2&amp;urlTail=2/VCR05131/VCR05131/hogbay_tiff.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>authenticated</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Hog Island Bay, Virginia, USA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.895407</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.684505</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.636004</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.322504</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>Bathymetry (Depth relative to MSL, in meters)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-25.414307</minimum>
+                           <maximum exclusive="false">0.049594</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028235e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="NAD_1983_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_North_American_1983">
+                     <datum name="D_North_American_1983" />
+                     <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>420996.406240</xCoordinate>
+               <yCoordinate>4131022.499991</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>420996.406240</xCoordinate>
+               <yCoordinate>4165652.249691</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>439354.345840</xCoordinate>
+               <yCoordinate>4165652.249691</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>439354.345840</xCoordinate>
+               <yCoordinate>4131022.499991</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>59.603700</cellSizeXDirection>
+         <cellSizeYDirection>59.603700</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>581</rows>
+         <columns>308</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="hogbay3_dem">
+         <alternateIdentifier>VCR05131-3</alternateIdentifier>
+         <entityName>hogbay3_dem</entityName>
+         <entityDescription>      
+Hog Island Bay bathymetry model in ArcGIS GRID format (stored as an ARC/INFO E00 interchange file).  Negative values represent depth below MSL (NAVD88 zero).
+</entityDescription>
+         <physical>
+            <objectName>hogbay3_dem.e00</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with gridded (raster) ARC/INFO interchange file (.E00) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.143.19&amp;urlHeadID=2&amp;urlTail=3/VCR05131/VCR05131/hogbay3_dem.e00</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>authenticated</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Hog Island Bay, Virginia, USA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.895407</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.683832</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.636007</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.322504</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>hogbay3_dem</attributeName>
+               <attributeDefinition>Bathymetry (Depth relative to MSL, in meters)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-25.414307</minimum>
+                           <maximum exclusive="false">0.049555</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028235e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="NAD_1983_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_North_American_1983">
+                     <datum name="D_North_American_1983" />
+                     <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>420996.406250</xCoordinate>
+               <yCoordinate>4131022.500000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>420996.406250</xCoordinate>
+               <yCoordinate>4165652.238661</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>439413.943679</xCoordinate>
+               <yCoordinate>4165652.238661</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>439413.943679</xCoordinate>
+               <yCoordinate>4131022.500000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>59.603681</cellSizeXDirection>
+         <cellSizeYDirection>59.603681</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>581</rows>
+         <columns>309</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="hogbay1.dem">
+         <alternateIdentifier>VCR05131-4</alternateIdentifier>
+         <entityName>hogbay1</entityName>
+         <entityDescription>    
+Hog Island Bay bathymetry model in USGS digital elevation model (DEM) format.  Negative values represent depth below MSL (NAVD88 zero).
+</entityDescription>
+         <physical>
+            <objectName>hogbay_dem.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with USGSDEM raster file(s)</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.143.19&amp;urlHeadID=2&amp;urlTail=4/VCR05131/VCR05131/hogbay_dem.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>authenticated</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Hog Island Bay, Virginia, USA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.895409</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.683829</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.636193</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.322152</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>Bathymetry (Depth relative to MSL, in meters)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-32767</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="NAD_1983_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_North_American_1983">
+                     <datum name="D_North_American_1983" />
+                     <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>420996.406240</xCoordinate>
+               <yCoordinate>4130983.437750</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>420996.406240</xCoordinate>
+               <yCoordinate>4165672.791150</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>439413.949541</xCoordinate>
+               <yCoordinate>4165672.791150</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>439413.949541</xCoordinate>
+               <yCoordinate>4130983.437750</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>59.603700</cellSizeXDirection>
+         <cellSizeYDirection>59.603700</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>582</rows>
+         <columns>309</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-127</weight>
+         <featuredDataGroup>Lagoons</featuredDataGroup>
+         <researchTheme>State change coastal bays</researchTheme>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

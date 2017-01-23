@@ -1,0 +1,329 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.155.9" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF155">
+      <alternateIdentifier>HF155</alternateIdentifier>
+      <title>Harvard Forest Snow Pillow since 2009</title>
+      <creator>
+         <individualName>
+            <givenName>Emery</givenName>
+            <surName>Boose</surName>
+         </individualName>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Mark</givenName>
+            <surName>VanScoy</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2009</pubDate>
+      <abstract>
+         <section>
+            <para>Water storage in snowpack is a key factor in the hydrological cycle of central New England.  The Harvard Forest Snow Pillow provides continuous long-term measurements of the water content of snowpack (snow water equivalent) during the winter months.  The snow pillow is located in a mature mixed hardwood stand with scattered conifers about 50 m north of the Nelson Brook Big Weir. For current data, please see: http://harvardforest.fas.harvard.edu/meteorological-hydrological-stations. For a complete set of archived data, please see: http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf155.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>climate</keyword>
+         <keyword>hydrology</keyword>
+         <keyword>precipitation</keyword>
+         <keyword>snow</keyword>
+         <keyword>snow water equivalence</keyword>
+         <keyword>water balance</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf155</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.19</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.19</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.53</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.53</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>340</altitudeMinimum>
+                  <altitudeMaximum>340</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2009-12-05</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2015-01-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>data updated monthly</para>
+         </description>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>Emery</givenName>
+            <surName>Boose</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>boose@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Trees were removed to create a small opening (15 m) in the canopy to reduce snow interception by branches.  Leaf litter and the top 4 cm of organic soil were replaced with sand and graded to create a level surface 5 m in diameter.  The snow pillow (rubber, 3 m diameter) was installed on this surface, enclosed in a rubber liner and hardware cloth, and filled with 150 gallons of propylene glycol (75%) and water (25%).  A pressure transducer provides continuous measurements of the mass of snow on the pillow.  The sensor is scanned every 10 seconds and 15-minute average values are retained.  Instruments are disconnected in summer (June 1-Sep 30) to protect from lightning damage. All times are Eastern Standard Time.</para>
+                  <para>When snow pillow data are unavailable, snow water equivalent may be estimated from snowpack depth measured at the EMS Tower (HF004), using snow stakes visible from the EMS subcanopy camera (HF158, HF237), and an estimate of current snowpack density.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf155-01">
+         <entityName>hf155-01-daily.csv</entityName>
+         <entityDescription>daily</entityDescription>
+         <physical id="1260987410878">
+            <objectName>hf155-01-daily.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p15/hf155/hf155-01-daily.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1260987411894">
+               <attributeName>date</attributeName>
+               <attributeDefinition>date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1260987411910">
+               <attributeName>jd</attributeName>
+               <attributeDefinition>Julian day</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>nominalDay</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>               
+            </attribute>
+            <attribute id="1260987411925">
+               <attributeName>swe</attributeName>
+               <attributeDefinition>snow water equivalent.  Average of 10-second measurements.</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1260987411941">
+               <attributeName>f.swe</attributeName>
+               <attributeDefinition>flag for snow water equivalent</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>M</code>
+                              <definition>missing.  Instrument not installed, instrument not working correctly, or measured value out of range.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>estimated. Value estimated from incomplete measurements or from other sources.</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1884</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf155-02">
+         <entityName>hf155-02-15min.csv</entityName>
+         <entityDescription>15-minute</entityDescription>
+         <physical id="1260987599127">
+            <objectName>hf155-02-15min.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p15/hf155/hf155-02-15min.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1260987600221">
+               <attributeName>datetime</attributeName>
+               <attributeDefinition>date and time at end of sampling period</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DDThh:mm</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1260987600237">
+               <attributeName>jd</attributeName>
+               <attributeDefinition>Julian day</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>nominalDay</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>               
+            </attribute>
+            <attribute id="1260987600252">
+               <attributeName>swe</attributeName>
+               <attributeDefinition>snow water equivalent.  Average of 10-second measurements.</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1260987600268">
+               <attributeName>f.swe</attributeName>
+               <attributeDefinition>flag for snow water equivalent</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>M</code>
+                              <definition>missing.  Instrument not installed, instrument not working correctly, or measured value out of range.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>E</code>
+                              <definition>estimated. Value estimated from incomplete measurements or from other sources.</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>180865</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>ongoing</status>
+            <researchTopic>atmosphere</researchTopic>
+            <researchTopic>watershed</researchTopic>
+            <studyType>long-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Fisher Meteorological Station at Harvard Forest since 2001">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf001</url>
+            <url name="Prospect Hill Hydrological Stations at Harvard Forest since 2005">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf070</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

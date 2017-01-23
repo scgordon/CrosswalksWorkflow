@@ -1,0 +1,147 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.23.13" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF023">
+      <alternateIdentifier>HF023</alternateIdentifier>
+      <title>INTERPNT Software for Mapping Trees Using Distance Measurements</title>
+      <creator>
+         <individualName>
+            <givenName>Emery</givenName>
+            <surName>Boose</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Emery F.</givenName>
+            <surName>Boose</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Ann</givenName>
+            <surName>Lezberg</surName>
+         </individualName>
+      </creator>
+      <pubDate>1999</pubDate>
+      <abstract>
+         <section>
+            <para>The INTERPNT method can be used to produce accurate maps of trees based solely on tree diameter and tree-to-tree distance measurements.  For additional details on the technique please see the published paper (Boose, E. R., E. F. Boose and A. L. Lezberg. 1998. A practical method for mapping trees using distance measurements. Ecology 79: 819-827).  Additional information is contained in the documentation that accompanies the program.  The Abstract from the paper is reproduced below.</para>
+            <para>"Accurate maps of the locations of trees are useful for many ecological studies but are often difficult to obtain with traditional surveying methods because the trees hinder line of sight measurements. An alternative method, inspired by earlier work of F. Rohlf and J. Archie, is presented. This "Interpoint method" is based solely on tree diameter and tree-to-tree distance measurements. A computer performs the necessary triangulation and detects gross errors. The Interpoint method was used to map trees in seven long-term study plots at the Harvard Forest, ranging from 0.25 ha (200 trees) to 0.80 ha (889 trees). The question of accumulation of error was addressed though a computer simulation designed to model field conditions as closely as possible. The simulation showed that the technique is highly accurate and that errors accumulate quite slowly if measurements are made with reasonable care (e.g., average predicted location errors after 1,000 trees and after 10,000 trees were 9 cm and 15 cm, respectively, for measurement errors comparable to field conditions; similar values were obtained in an independent survey of one of the field plots). The technique requires only measuring tapes, a computer, and two or three field personnel. Previous field experience is not required. The Interpoint method is a good choice for mapping trees where a high level of accuracy is desired, especially where expensive surveying equipment and trained personnel are not available."</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>geographic information systems</keyword>
+         <keyword>mapping</keyword>
+         <keyword>surveys</keyword>
+         <keyword>tree maps</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>populations</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf023</url>
+         </online>
+      </distribution>
+      <contact>
+         <individualName>
+            <givenName>Emery</givenName>
+            <surName>Boose</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>boose@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Instructions for installing and using the INTERPNT program are contained in the accompanying Readme file.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <otherEntity id="HF023-01">
+         <entityName>hf023-01-interpnt.zip</entityName>
+         <entityDescription>zip file contains Interpnt program (Windows executable file and related files)</entityDescription>
+         <physical>
+            <objectName>hf023-01-interpnt.zip</objectName>
+            <compressionMethod>zip</compressionMethod>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p02/hf023/hf023-01-interpnt.zip</url>
+               </online>
+            </distribution>
+         </physical>
+         <entityType>zip</entityType>
+      </otherEntity>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>informatics</researchTopic>
+            <studyType>modeling</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="DIRT Litter Manipulation Experiment at Harvard Forest since 1990">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf007</url>
+            <url name="Hemlock Mapped Tree Plot at Harvard Forest since 1990">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf031</url>
+            <url name="Overstory Mapped Tree Plots at Harvard Forest since 1990">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf036</url>
+            <url name="Vegetation Response in Simulated Hurricane Experiment at Harvard Forest since 1990">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf002</url>
+            <url name="Barre Woods Soil Warming Experiment at Harvard Forest since 2001">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf018</url>
+            <url name="Prospect Hill Soil Warming Experiment at Harvard Forest since 1991">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf005</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

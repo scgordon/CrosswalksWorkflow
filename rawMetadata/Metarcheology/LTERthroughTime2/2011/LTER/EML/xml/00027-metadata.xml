@@ -1,0 +1,783 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.271.9" scope="system" system="ASU" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://data.gios.asu.edu/eml2_1_0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="271_1" scope="system" system="ASU">
+    <alternateIdentifier system="gios_dataset">271</alternateIdentifier>
+    <title>Hierarchical spatial modeling of multiple soil nutrients and carbon in heterogeneous landuse patches of the central Arizona-Phoenix research area, from 1999 to 2006.</title>
+    <creator>
+      <individualName>
+        <givenName>Jason</givenName>
+        <surName>Kaye</surName>
+      </individualName>
+      <organizationName>Global Institute of Sustainability, Arizona State
+                University</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Anandamayee</givenName>
+        <surName>Majumdar</surName>
+      </individualName>
+      <organizationName>Mathematics and Statistics, Arizona State
+                University</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Corinna</givenName>
+        <surName>Gries</surName>
+      </individualName>
+      <organizationName>Global Institute of Sustainability, Arizona State
+                University</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Nancy</givenName>
+        <givenName>B.</givenName>
+        <surName>Grimm</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>School of Life Sciences</deliveryPoint>
+        <deliveryPoint>Arizona State University</deliveryPoint>
+        <deliveryPoint>PO Box 874501</deliveryPoint>
+        <city>Tempe</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-4501</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Diane</givenName>
+        <surName>Hope</surName>
+      </individualName>
+      <organizationName>Global Institute of Sustainability, Arizona State
+                University</organizationName>
+    </creator>
+    <pubDate>2005</pubDate>
+    <intellectualRights>
+      <section>
+        <para>Copyright Board of Regents, Arizona State University. This dataset is released
+                    to the public and may be used for academic, educational, or commercial purposes
+                    subject to the following restrictions:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>While CAP LTER will make every effort possible to control and
+                                document the quality of the data it publishes, the data are made
+                                available "as is".</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER cannot assume responsibility for damages resulting from
+                                mis-use or mis-interpretation of datasets or from errors or
+                                omissions that may exist in the data.</para>
+            </listitem>
+            <listitem>
+              <para>It is considered a matter of professional ethics to acknowledge
+                                the work of other scientists that has resulted in data used in
+                                subsequent research.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER expects that any use of data from this server will be
+                                accompanied with the appropriate citations and
+                                acknowledgments.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER encourages users to contact the original investigator
+                                responsible for the data that they are accessing. Where appropriate,
+                                researchers whose projects are integrally dependent on CAP LTER data
+                                are encouraged to consider collaboration and/or co-authorship with
+                                original investigators.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users submit to the Global Institute of
+                                Sustainability, ASU, one copy of any publication resulting from the
+                                use of data obtained from this site.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users not redistribute data obtained from
+                                this site. However, links or references to this site may be freely
+                                posted.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=271</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-02-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2006-06-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <geographicCoverage>
+        <geographicDescription>Phoenix metropolitan area in Arizona,
+                    USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-112.794316</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.566698</eastBoundingCoordinate>
+          <northBoundingCoordinate>33.838010</northBoundingCoordinate>
+          <southBoundingCoordinate>33.198342</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Global Institute of Sustainability</deliveryPoint>
+        <deliveryPoint>Arizona State University</deliveryPoint>
+        <deliveryPoint>POB 875402</deliveryPoint>
+        <city>Tempe</city>
+        <postalCode>85287-5402</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(480) 965 2975</phone>
+      <phone phonetype="fax">(480) 965-8087</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Soil Core Sampling</title>
+            <para>Note: if sample point is paved or not safe to sample soil, move to the
+                            nearest possible position;be especially considerate of underground
+                            irrigation lines! record the sample position on the field sheet.</para>
+            <para>Samples for chemical analyses (Nitrogen, Carbon, moisture content,
+                            soil organic matter content). Sample soil 10 meter from the plot center
+                            at North, East, South, and West four directions using 1 inch diameter,
+                            12 inch deep slam hammer soil cores. Retrieve the plastic liner from
+                            metal core and cap both ends. Use Blue cap for Bottom end and red for
+                            the upper end.</para>
+            <para>Samples for pH, bulk density and texture determination. One meter
+                            north from the center, use 2 inch diameter, 6 inch long slam hammer soil
+                            core to take one intact soil core for bulk density analysis. [Note: you
+                            must obtain an intact core so you can get both the soil weight and soil
+                            volume. DO NOT push/compact the sample in any way when removing from
+                            corer.] RED cap on TOP; BLUE cap on BOTTOM</para>
+          </section>
+          <section>
+            <title>Chemical Analysis</title>
+            <para>soil is oven dried at 60 degrees C before KCl extraction and CHN
+                            analysis</para>
+            <para>for detailed protocols of chemical analysis please see:
+                            http://www.asu.edu/gel</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="kayepaper">
+      <entityName>27_kayepaper_1.csv</entityName>
+      <entityDescription>Data compiled from survey 200 for paper by Jason Kaye et
+                al.</entityDescription>
+      <physical>
+        <objectName>27_kayepaper_1.csv</objectName>
+        <size unit="bytes">57344</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0D#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/27_kayepaper_1.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList id="kayepaper.attributeList">
+        <attribute id="kayepaper.SITE_ID">
+          <attributeName>SITE_ID</attributeName>
+          <attributeLabel>Site ID</attributeLabel>
+          <attributeDefinition>site id number</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.lat_decimals">
+          <attributeName>lat_decimals</attributeName>
+          <attributeLabel>Lat decimals</attributeLabel>
+          <attributeDefinition>latitude in decimal degrees</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.long_decimal">
+          <attributeName>long_decimal</attributeName>
+          <attributeLabel>long decimal</attributeLabel>
+          <attributeDefinition>longitude in decimal degrees</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.LANDUSE_code">
+          <attributeName>LANDUSE_code</attributeName>
+          <attributeDefinition>land use code</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>land use code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.LANDUSE_label">
+          <attributeName>LANDUSE_label</attributeName>
+          <attributeDefinition>land use information that includes full title and
+                        description</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>land use information that includes full title and
+                                        description</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.LEVEL1">
+          <attributeName>LEVEL1</attributeName>
+          <attributeDefinition>highest level i.e. major land use
+                        type</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>highest level i.e. major land use type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.KayeLanduse">
+          <attributeName>KayeLanduse</attributeName>
+          <attributeDefinition>kaye land use level code</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Xeric</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Mesic</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Mixed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Non Residential/ Transportation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Riparian and water</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Open Desert</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Agricultural and Cropland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Mixed between major landuse
+                                            categories</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.elevationMeter">
+          <attributeName>elevationMeter</attributeName>
+          <attributeDefinition>elevation of land</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.slopeDegree">
+          <attributeName>slopeDegree</attributeName>
+          <attributeDefinition>slope of land</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.aspect">
+          <attributeName>aspect</attributeName>
+          <attributeDefinition>the direction the slope is pointing
+                        to</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.everInAg">
+          <attributeName>everInAg</attributeName>
+          <attributeDefinition>whether the land was farmed or not</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>whether the land was farmed or not</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.POP_DENSIT">
+          <attributeName>POP_DENSIT</attributeName>
+          <attributeDefinition>population density</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.INC_PR_CAP">
+          <attributeName>INC_PR_CAP</attributeName>
+          <attributeDefinition>income per capita</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.watering_main">
+          <attributeName>watering_main</attributeName>
+          <attributeDefinition>type of irrigation on plot - note that there are mulitple
+                        types for a few plots</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>type of irrigation on plot - note that there are
+                                        mulitple types for a few plots</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.percentImpervious">
+          <attributeName>percentImpervious</attributeName>
+          <attributeDefinition>percent of survey plot covered by impervious
+                        surface</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.lawnOfpervArea">
+          <attributeName>lawnOfpervArea</attributeName>
+          <attributeDefinition>percent of survey plot covered by lawn pervious
+                        surface</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.tressOfpervArea">
+          <attributeName>tressOfpervArea</attributeName>
+          <attributeDefinition>percent of survey plot covered by tree pervious
+                        surface</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.sandLTER27SURVEY200">
+          <attributeName>sandLTER27SURVEY200</attributeName>
+          <attributeDefinition>percent sand in 200 survey soil
+                        sample</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.clayLTER27SURVEY200">
+          <attributeName>clayLTER27SURVEY200</attributeName>
+          <attributeDefinition>percent clay in 200 survey soil
+                        sample</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.BotTotalCgm2">
+          <attributeName>BotTotalCgm2</attributeName>
+          <attributeDefinition>total carbon at 10 - 30 cm soil depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.BotInorgCgm2">
+          <attributeName>BotInorgCgm2</attributeName>
+          <attributeDefinition>inorganic carbon at 10 - 30 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.BotOrgCgm2">
+          <attributeName>BotOrgCgm2</attributeName>
+          <attributeDefinition>organic carbon at 10 - 30 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.BotTotalNgm2">
+          <attributeName>BotTotalNgm2</attributeName>
+          <attributeDefinition>total nitrogen at 10 - 30 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.BotExtractPgm2">
+          <attributeName>BotExtractPgm2</attributeName>
+          <attributeDefinition>extractable phosphorus at 10 - 30 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.BotOMgm2">
+          <attributeName>BotOMgm2</attributeName>
+          <attributeDefinition>organic matter at 10 - 30 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.BotorgCN">
+          <attributeName>BotorgCN</attributeName>
+          <attributeDefinition>organic carbon and nitrogen at 10 - 30 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.TopTotalCgm2">
+          <attributeName>TopTotalCgm2</attributeName>
+          <attributeDefinition>total carbon at 0 - 10 cm soil depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.TopInorgCgm2">
+          <attributeName>TopInorgCgm2</attributeName>
+          <attributeDefinition>inorganic carbon at 0 - 10 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.TopOrgCgm2">
+          <attributeName>TopOrgCgm2</attributeName>
+          <attributeDefinition>organic carbon at 0 - 10 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.TopTotalNgm2">
+          <attributeName>TopTotalNgm2</attributeName>
+          <attributeDefinition>total nitrogen at 0 - 10 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.TopPgm2">
+          <attributeName>TopPgm2</attributeName>
+          <attributeDefinition>phosphorus at 0 - 10 cm soil depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.TopOMgm2">
+          <attributeName>TopOMgm2</attributeName>
+          <attributeDefinition>organic matter at 0 - 10 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="kayepaper.ToporgCN">
+          <attributeName>ToporgCN</attributeName>
+          <attributeDefinition>organic carbon to nitrogen ratio at 0 - 10 cm soil
+                        depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</ns0:eml>

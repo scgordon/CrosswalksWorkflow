@@ -1,0 +1,1405 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.1037.4" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <title>MCR LTER: Coral Reef: Water Column: Offshore Ocean Acidification: Water Profiles, CTD, and Chemistry, from 2005 ongoing</title>
+    <creator id="mcrlter" scope="document">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>CA</administrativeArea><postalCode>93106-6150</postalCode><country>USA</country></address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <creator id="alldredge" scope="document">
+      <individualName>
+        <givenName>Alice</givenName>
+        <surName>Alldredge</surName>
+      </individualName>
+      <positionName>Principal Investigator</positionName>
+      <address scope="document"><deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint><deliveryPoint>University of California, Santa Barbara</deliveryPoint><city>Santa Barbara</city><administrativeArea>CA</administrativeArea><postalCode>93106-9610</postalCode><country>USA</country></address>
+      <phone phonetype="voice">+1(805)893-3997</phone>
+      <phone phonetype="fax">+1(805)893-2266</phone>
+      <electronicMailAddress>alldredg@lifesci.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://www.lifesci.ucsb.edu/eemb/faculty/alldredge/</onlineUrl>
+    </creator>
+
+    <associatedParty id="cgotschalk" scope="document">
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Gotschalk</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>CA</administrativeArea><postalCode>93106-6150</postalCode><country>USA</country></address>
+      <electronicMailAddress>gots@lifesci.ucsb.edu</electronicMailAddress>
+      <role>contentProvider</role>
+    </associatedParty>
+
+
+    <associatedParty id="kseydel" scope="document">
+      <individualName>
+        <givenName>Keith</givenName>
+        <surName>Seydel</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Lead Field Technician</positionName>
+      <address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+      <role>Field Technician</role>
+    </associatedParty>
+    <associatedParty id="jnielsen" scope="document">
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Nielsen</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Field Technician</positionName>
+      <address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+      <role>Field Technician</role>
+    </associatedParty>
+    <pubDate>2013-06-21</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>This data package contains water chemistry measurements taken 2 to 4 times per year at a
+        station 5 km offshore of the north shore of Moorea, French Polynesia. Measurements include
+        standard CTD parameters, phosphate, silicate, total alkalinity (TA) and total dissolved
+        inorganic carbon (DIC). Sampling began in August, 2005. All water samples were collected
+        with Niskin Bottles. This data includes excerpts from CTD data were collected with a SBE19-Plus Seacat Profiler. CTD and
+        bottle samples were taken on separate casts at each station. (For full CTD data refer to 
+        <ulink url="http://metacat.lternet.edu/knb/metacat/knb-lter-mcr.10/lter">knb-lter-mcr.10</ulink>.)
+      </para>
+      <para>All other parameters were calculated from temperature, pressure, nutrients, TA and DIC
+        with CO2Sys programs available at: <ulink url="http://cdiac.ornl.gov/oceans/co2rprt.html">http://cdiac.ornl.gov/oceans/co2rprt.html</ulink> (Lewis E. and D. Wallace Program
+        Developed for CO2 System Calculations) using constants K1, K2 from Mehrbach et al, 1973
+        refit by Dickson and Millero, 1987, Dickson KHSO4, and the Seawater pH scale (mol/kg-SW). If
+        users wish to use different constants and scales, they will need to recalculate using the
+        emperically collected data (TA and DIC).</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">Moorea</keyword>
+      <keyword keywordType="place">French Polynesia</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Moorea Coral Reef</keyword>
+      <keyword keywordType="theme">MCR</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">Long-term Time Series</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean_biogeochemistry</keyword>
+      <keyword keywordType="theme">profiles</keyword>
+      <keyword keywordType="theme">DIC</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Offshore 1</keyword>
+      <keywordThesaurus>MCR LTER Site</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Marine</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Carbon</keyword>
+      <keyword keywordType="theme">Vertical structure (water bodies)</keyword>
+      <keyword keywordType="theme">Water salinity</keyword>
+      <keyword keywordType="theme">Water temperature</keyword>
+      <keyword keywordType="theme">Alkalinity</keyword>
+      <keyword keywordType="theme">Sea water</keyword>
+      <keyword keywordType="theme">Oceanography</keyword>
+      <keyword keywordType="theme">Coral reefs</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">coral reefs</keyword>
+      <keyword keywordType="theme">carbon dioxide</keyword>
+      <keyword keywordType="theme">dissolved inorganic carbon</keyword>
+      <keyword keywordType="theme">alkalinity</keyword>
+      <keyword keywordType="theme">pH</keyword>
+      <keyword keywordType="theme">aquatic</keyword>
+      <keywordThesaurus>LTER Network Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean Temperature: Water Temperature</keyword>
+      <keyword keywordType="theme">Salinity/Density: Conductivity</keyword>
+      <keyword keywordType="theme">Salinity/Density: Density</keyword>
+      <keyword keywordType="theme">Salinity/Density: Salinity</keyword>
+      <keyword keywordType="theme">Water Pressure: Pressure</keyword>
+
+      <keyword keywordType="theme">Ocean Chemistry: Phosphate</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Silicate</keyword>
+
+      <keyword keywordType="theme">Ocean Chemistry: Inorganic Carbon</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Alkalinity</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Carbonate</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Carbon Dioxide</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: pH</keyword>
+      <keywordThesaurus>GCMD Keywords, Version 6.0.0.0.0: EARTH SCIENCE: Oceans:</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Inorganic Nutrients</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Time Series Program</keyword>
+      <keywordThesaurus>MCR Core Activity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Bio-Physical Coupling</keyword>
+      <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean Acidification</keyword>
+      <keywordThesaurus>MCR Research Theme</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public after
+        primary publication, or at most two years after the completion of the study unless
+        proprietary restrictions are warranted. Use of MCR LTER data is subject to acceptance of the
+        following conditions:<itemizedlist>
+          <listitem>
+            <para>1. The user agrees to provide valid name and contact information prior to
+              downloading online data. This information will be used to contact the user in case of
+              changes to the data, and may also be used by data set authors and MCR LTER project
+              administrators to document data usage.</para>
+          </listitem>
+          <listitem>
+            <para>2. The user agrees to cite the data set author and MCR LTER in all publications in
+              which the data are used, as per the instructions in the data documentation. If no
+              specific instructions are provided in the data documentation, the user is requested to
+              include the following statement: "Data sets were provided by the Moorea Coral
+              Reef Ecosystem LTER, funded by the US National Science Foundation (OCE-0417412 and
+              OCE-1026851)."</para>
+          </listitem>
+          <listitem>
+            <para>3. The user agrees to provide one copy of any manuscript based on MCR LTER data to
+              the data set author prior to submitting it for publication.</para>
+          </listitem>
+          <listitem>
+            <para>4. The user agrees to send two hard copies of any published manuscript based on
+              MCR LTER data to the following address: Dr. Andrew J. Brooks Deputy Program Director,
+              MCR LTER Marine Science Institute University of California Santa Barbara, CA
+              93106-6150 The user also agrees to send one electronic copy (pdf format) to the
+              following e-mail address: brooks@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>5. Users are prohibited from selling or redistributing any data provided by MCR
+              LTER without explicit prior permission.</para>
+          </listitem>
+          <listitem>
+            <para>6. Users are encouraged to contact original investigators responsible for data.
+              Where appropriate, researchers whose projects are integrally dependent on MCR LTER
+              data are encouraged to consider collaboration and/or co-authorship with original
+              investigators.</para>
+          </listitem>
+          <listitem>
+            <para>7. Extensive efforts are made to ensure that online data are accurate and up to
+              date, but the authors and the MCR LTER will not take responsibility for any errors
+              that may exist in data provided online. Furthermore, the user assumes all
+              responsibility for errors in analysis or judgment resulting from use of the
+              data.</para>
+          </listitem>
+          <listitem>
+            <para>8. Any violation of the terms of this agreement will result in immediate
+              forfeiture of the data and loss of access privileges to other MCR LTER data
+              sets.</para>
+          </listitem>
+        </itemizedlist></para>
+    </intellectualRights>
+    <coverage scope="document">
+      <geographicCoverage scope="document">
+        <geographicDescription>Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+
+      <geographicCoverage id="Oceanic 1 Water Column" scope="document">
+        <geographicDescription>Oceanic 1 Water Column</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.81375</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.81375</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.42708</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.42708</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-4000.0</altitudeMinimum>
+            <altitudeMaximum>0.0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage id="temporal_coverage" scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005-08-09</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-09-02</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is an ongoing dataset. DIC and Alkalinity were collected in 2005, 2006 and 2009 then
+          suspended until 2012. From 2012 on, data will be added 2 to 4 times per year. 
+        DIC analysis of samples is done less frequently, in batches.</para>
+      </description>
+      <maintenanceUpdateFrequency>biannually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="mcr-metacat-acct" scope="document">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>CA</administrativeArea><postalCode>93106-6150</postalCode><country>USA</country></address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <references>mcrlter</references>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>DIC methods</title>
+            <para>Samples were collected in glass bottles and preserved with mercuric chloride as
+              described in 'Handbook of Methods for the Analysis of the Various Parameters of the
+              Carbon Dioxide System in Sea Water, Version 2 (edited by Andrew Dickson and Catherine
+              Goyet) September 1994, U.S. Department of Energy.' (<ulink url="http://andrew.ucsd.edu/co2qc/index.html">http://andrew.ucsd.edu/co2qc/index.html</ulink>) These samples are analyzed in the
+              Laboratory of Dr. Andrew Dickon at Scripps Institute of Oceanography or Victoria Fabry
+              at California State University, San Marcos using standards from Dickson's lab.</para>
+          </section>
+          <section>
+            <title>Total dissolved inorganic carbon</title>
+            <para>The total dissolved inorganic carbon is assayed by the vacuum
+              extraction/manometric procedure. The weighed sample is acidified with phosphoric acid;
+              the CO2 evolved is then extracted under vacuum and condensed in a trap cooled by
+              liquid nitrogen. The water and CO2 are separated from one another by sublimation and
+              the CO2 is transferred into an electronic constant-volume manometer [ECM]. There its
+              pressure, volume and temperature are measured and the amount of CO2 separated is
+              computed from the virial equation of state.</para>
+          </section>
+          <section>
+            <title>Alkalinity</title>
+            <para>The total alkalinity was assayed by a two-stage, potentiometric, open-cell
+              titration using coulometrically analyzed hydrochloric acid. A weighed sample of
+              reference material is acidified to a pH between 3.5 and 4.0 with an aliquot of
+              titrant. The solution is stirred for a period of time to allow the evolved CO2 to
+              escape. The titration is then continued to a pH of about 3.0 and the equivalence point
+              evaluated from titration points in the pH region 3.0 - 3.5 using a modified Gran
+              procedure that corrects for the reactions with sulfate and fluoride ions.</para>
+          </section>
+        </description>
+      </methodStep>
+
+      <methodStep>
+        
+        <description>
+          <section>
+            <title>CO2sys info.doc</title>
+            <para>The program was written by Denis Pierrot of NOAA/AOML. If you use
+              co2sys_xls_program for calculations, please, cite the program as: </para>
+            <para> Pierrot, D. E. Lewis,and D. W. R. Wallace. 2006. MS Excel Program Developed for
+              CO2 System Calculations. ORNL/CDIAC-105a. Carbon Dioxide Information Analysis Center,
+              Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee. doi:
+              10.3334/CDIAC/otg.CO2SYS_XLS_CDIAC105a </para>
+            <para> Important: </para>
+            <para> The co2sys_xls_program directory consists of the new CO2SYS Program Developed for
+              CO2 System Calculations in MS Excel. The EXCEL Macro spreadsheet calculates the
+              concentrations of inorganic carbon system parameters if two of the parameters are
+              provided along with temperature, pressure, total phosphate concentration, and total
+              silicate concentration. The four inorganic carbon parameters are: <itemizedlist>
+                <listitem>
+                  <para>TA = total alkalinity</para>
+                </listitem>
+                <listitem>
+                  <para>TCO2 = total inorganic carbon</para>
+                </listitem>
+                <listitem>
+                  <para>pH = acidity</para>
+                </listitem>
+                <listitem>
+                  <para>pCO2 or fCO2 = partial pressure of CO2 or fugacity of CO2.</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </section>
+        </description>
+        <protocol>
+          <title>CO2SYS Program Developed for CO2 System Calculations in MS Excel</title>
+          <creator>
+            <individualName>
+              <surName>Pierrot</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="information">http://cdiac.ornl.gov/ftp/co2sys/CO2SYS_calc_XLS/</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      
+
+
+
+      <methodStep>
+        <description>
+          <section>
+            <para>Protocol documents are provided for each measurement. See links for more
+              information.</para>
+          </section>
+        </description>
+
+        <protocol scope="document">
+          <title>WATER COLUMN TIME SERIES PROTOCOL, DIC (Dissolved Inorganic Carbon) Sample
+            Collection</title>
+          <creator scope="document">
+            <individualName>
+              <surName>Alldredge</surName>
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/waterColumn/DIC_Sample_Collection_10.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+
+        <protocol scope="document">
+          <title>Water Column Boat Collection Protcol</title>
+          <creator scope="document">
+            <individualName>
+              <surName>Alldredge</surName>
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/waterColumn/Water_Column_Boat_Collection_Protocol_10.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <methodStep> 
+        <description>
+          <section>
+            <para>The standard cruise CTD protocol for Moorea.</para>
+          </section>
+        </description>
+        <protocol scope="document">
+          <title>CTD Deployment and Download</title>
+          <creator scope="document">
+            <individualName>
+              <surName>Alldredge</surName>
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/waterColumn/LTER_CTD_Instructions_10.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      
+      <methodStep> 
+        <description><section>
+            <title>Methods repeated from abstract</title>
+            <para>This data package contains water chemistry measurements taken 2 to 4 times per
+              year at a station 5 km offshore of the north shore of Moorea, French Polynesia.
+              Measurements include standard CTD parameters, phosphate, silicate, total alkalinity
+              (TA) and total dissolved inorganic carbon (DIC). Sampling began in August, 2005. All
+              water samples were collected with Niskin Bottles. CTD data were collected with a
+              SBE19-Plus Seacat Profiler. CTD and bottle samples were taken on separate casts at
+              each station. </para>
+            <para>All other parameters were calculated from temperature, pressure, nutrients, TA and
+              DIC with CO2Sys programs available at: <ulink url="http://cdiac.ornl.gov/oceans/co2rprt.html">http://cdiac.ornl.gov/oceans/co2rprt.html</ulink> (Lewis E. and D. Wallace Program
+              Developed for CO2 System Calculations) using constants K1, K2 from Mehrbach et al,
+              1973 refit by Dickson and Millero, 1987, Dickson KHSO4, and the Seawater pH scale
+              (mol/kg-SW). If users wish to use different constants and scales, they will need to
+              recalculate using the emperically collected data (TA and DIC).</para>
+          </section></description>
+
+      </methodStep>
+    </methods>
+    <project scope="document">
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID" scope="document">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>CA</administrativeArea><postalCode>93106-6150</postalCode><country>USA</country></address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID" scope="document">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>CA</administrativeArea><postalCode>93106-6150</postalCode><country>USA</country></address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID" scope="document">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address scope="document"><deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint><deliveryPoint>18111 Nordhoff Street</deliveryPoint><city>Northridge</city><administrativeArea>CA</administrativeArea><postalCode>91330</postalCode><country>USA</country></address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID" scope="document">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address scope="document"><deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint><deliveryPoint>18111 Nordhoff Street</deliveryPoint><city>Northridge</city><administrativeArea>CA</administrativeArea><postalCode>91330</postalCode><country>USA</country></address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) OCE-0417412 and OCE-1026851</para>
+      </funding>
+    </project>
+    
+    <dataTable id="bottle" scope="document">
+      <entityName>MCR_LTER_offshore_bottledata</entityName>
+      <entityDescription>Chemistry and other measures from Niskin bottles. 
+        CTD measurements (pressure bin, temperature, salinity, density anomaly) 
+        from depth bins corresponding to bottle depths are included here, extracted from the CTD data table. 
+        Emperical data are left columns and calculation output are right 14 columns.
+        </entityDescription>
+      <physical scope="document">
+        <objectName>MCR_LTER_offshore_bottledata_20120314.csv</objectName>
+        <size unit="Kb">7.2</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>2</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution id="LTER_timeseries_bottledata" scope="document">
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1037&amp;entityindex=1</url>
+           </online>
+          <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage scope="document">
+          <references>temporal_coverage</references>
+        </temporalCoverage>
+      </coverage>
+      <additionalInfo>
+        <section>
+          <para>This is a plain text file which may be opened in Excel but be aware Excel will alter the data format.</para>
+          <para>The referenced CTD file is in data package knb-lter-mcr.10</para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute id="bottle.Cruise" scope="document">
+          <attributeName>Cruise</attributeName>
+          <attributeLabel>Cruise</attributeLabel>
+          <attributeDefinition>Cruise type identifier.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>LTER bi-annual</code>
+                    <definition>LTER bi-annual</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="bottle.Cruise_code" scope="document">
+          <attributeName>Cruise_code</attributeName>
+          <attributeLabel>Cruise code</attributeLabel>
+          <attributeDefinition>Cruise code groups multiple cruise days into one nominal month-year code as CC_MonYYYY.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>MonYY as text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="bottle.Location" scope="document">
+          <attributeName>Location</attributeName>
+          <attributeLabel>Location</attributeLabel>
+          <attributeDefinition>Name of the location. Equivalent to 'Station 
+            Label'.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+
+                  <codeDefinition>
+                    <code>Oceanic 1 Water Column</code>
+                    <definition>Oceanic 1 Water Column: 5 km due north of LTER 1 on north shore of Moorea.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="bottle.Type" scope="document">
+          <attributeName>Type</attributeName>
+          <attributeLabel>Type</attributeLabel>
+          <attributeDefinition>Sample type, equivalent to 'Station Type'.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>CTD sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Niskin bottle sample</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+
+        </attribute>
+        <attribute id="bottle.Date" scope="document">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurement in YYYY-MM-DD format, Moorea local date, not UTC date.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 day</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2005-08-06</minimum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+
+          </measurementScale>
+
+        </attribute>
+        <attribute id="bottle.Time" scope="document">
+          <attributeName>Time</attributeName>
+          <attributeLabel>Time</attributeLabel>
+          <attributeDefinition>Time of measurement, Moorea local time. In
+            the format hh:mm, 24 hour.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not
+              available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+        <attribute id="bottle.Latitude" scope="document">
+          <attributeName>Latitude</attributeName>
+          <attributeLabel>Latitude Nominal (degN)</attributeLabel>
+          <attributeDefinition>Nominal Latitude at the Location. North is positive.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-90</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+
+        </attribute>
+        <attribute id="bottle.Longitude" scope="document">
+          <attributeName>Longitude</attributeName>
+          <attributeLabel>Longitude Nominal (degE)</attributeLabel>
+          <attributeDefinition>Nominal Longitude at the Location. East is positive.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+
+        </attribute>
+        <attribute id="bottle.Bottom Depth" scope="document">
+          <attributeName>Bottom_Depth</attributeName>
+          <attributeLabel>Bottom Depth</attributeLabel>
+          <attributeDefinition>Bottom Depth or Instrument Depth. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.Sample Depth" scope="document">
+          <attributeName>Sample_Depth</attributeName>
+          <attributeLabel>Sample Depth</attributeLabel>
+          <attributeDefinition>Depth the Niskin bottle was closed. Positive is
+            down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+
+        </attribute>
+        <attribute id="bottle.Sample_Number" scope="document">
+          <attributeName>Sample_Number</attributeName>
+          <attributeLabel>Sample Number</attributeLabel>
+          <attributeDefinition>Number assigned to all samples taken from this Niskin bottle for
+            various analyses.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>integer as text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+
+        </attribute>
+        <attribute id="bottle.pressure bin" scope="document">
+          <attributeName>Pressure_bins</attributeName>
+          <attributeLabel>Pressure bins [db]</attributeLabel>
+          
+          <attributeDefinition>Center of the pressure averaging interval. Taken from CTD
+            file.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not
+              available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.Temperature" scope="document">
+          <attributeName>Temperature</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>ITS-90, based on International Temperature Scale of 1990. Taken from
+            CTD column T00.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not
+              available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.Salinity" scope="document">
+          <attributeName>Salinity</attributeName>
+          <attributeLabel>Salinity [PSU]</attributeLabel>
+          <attributeDefinition>Salinity calculated according to the "Practical Salinity Scale
+            of 1978" [PSU]. Taken from CTD file.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not
+              available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.sigma theta" scope="document">
+          <attributeName>Sigma_theta</attributeName>
+          <attributeLabel>Density Anomaly</attributeLabel>
+          <attributeDefinition>Sigma-theta. Density anomaly calculated with in situ salinity,
+            potential temperature and pressure=0. sigmatheta = density[kg/m3] - 1000kg/m3.
+            (International Equation of State, Joint Panel on Oceanographic Tables and Standards,
+            1981). Taken from CTD file.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>kilogramPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not
+              available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+
+        <attribute id="Phosphate" scope="document">
+          <attributeName>Phosphate</attributeName>
+          <attributeLabel>Phosphate</attributeLabel>
+          <attributeDefinition>Concentration of reactive phosphate PO4.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="Silicate" scope="document">
+          <attributeName>Silicate</attributeName>
+          <attributeLabel>Silicate</attributeLabel>
+          <attributeDefinition>Concentration of reactive silicate, H3SIO4, or Silicic
+            Acid.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+
+        <attribute id="bottle.Total Alkalinity" scope="document">
+          <attributeName>Total_Alkalinity</attributeName>
+          <attributeLabel>Total Alkalinity</attributeLabel>
+          <attributeDefinition>Number of moles of hydrogen ion equivalent to the excess of proton
+          acceptors in one kilogram of sea water.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.Dissolved Inorganic Carbon" scope="document">
+          <attributeName>DIC</attributeName>
+          <attributeLabel>Dissolved Inorganic Carbon</attributeLabel>
+          <attributeDefinition>Concentration of Dissolved Inorganic Carbon (DIC), 
+          also called total inorganic carbon (TCO2).
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+
+
+
+        <attribute id="bottle.pH" scope="document">
+          <attributeName>pH_output</attributeName>
+          <attributeLabel>Calculated pH</attributeLabel>
+          <attributeDefinition>Calculated acidity on Seawater pH scale.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">14</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.fCO2" scope="document">
+          <attributeName>fCO2_output</attributeName>
+          <attributeLabel>Calculated fCO2</attributeLabel>
+          <attributeDefinition>Calculated fugacity of CO2 in micro atmospheres.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microatmosphere</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.pCO2" scope="document">
+          <attributeName>pCO2_output</attributeName>
+          <attributeLabel>Calculated pCO2</attributeLabel>
+          <attributeDefinition>Calculated CO2 partial pressure in micro atmospheres.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microatmosphere</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.HCO3" scope="document">
+          <attributeName>HCO3_output</attributeName>
+          <attributeLabel>Calculated HCO3</attributeLabel>
+          <attributeDefinition>Calculated bicarbonate (HCO3) micromoles per Kg seawater.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.CO3" scope="document">
+          <attributeName>CO3_output</attributeName>
+          <attributeLabel>Calculated CO3</attributeLabel>
+          <attributeDefinition>Calculated carbonate (CO3) micromoles per Kg seawater.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+        <attribute id="bottle.C02" scope="document">
+          <attributeName>CO2_output</attributeName>
+          <attributeLabel>Calculated CO2</attributeLabel>
+          <attributeDefinition>Calculated carbon dioxide (CO2) micromoles per Kg seawater.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+        <attribute id="bottle.B" scope="document">
+          <attributeName>B_output</attributeName>
+          <attributeLabel>Calculated Borate</attributeLabel>
+          <attributeDefinition>Calculated borate (B(OH)4) micromoles per Kg seawater.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+        <attribute id="bottle.OH" scope="document">
+          <attributeName>OH_output</attributeName>
+          <attributeLabel>Calculated Hydroxyl</attributeLabel>
+          <attributeDefinition>Calculated hydroxyl (OH) micromoles per Kg seawater.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+        <attribute id="bottle.PO4" scope="document">
+          <attributeName>PO4_output</attributeName>
+          <attributeLabel>Calculated Phosphate</attributeLabel>
+          <attributeDefinition>Calculated phosphate (PO4) micromoles per Kg seawater.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+        <attribute id="bottle.Si" scope="document">
+          <attributeName>SiO3_output</attributeName>
+          <attributeLabel>Calculated Si03</attributeLabel>
+          <attributeDefinition>Calculated silicate (SiO3) micromoles per Kg seawater.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+        <attribute id="bottle.Revelle" scope="document">
+          <attributeName>Revelle_output</attributeName>
+          <attributeLabel>Calculated Revelle factor</attributeLabel>
+          <attributeDefinition>The Revelle factor is a measure of the resistance to atmospheric carbon dioxide being absorbed by the ocean surface layer posed by bicarbonate chemistry.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>                
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+
+        <attribute id="bottle.omega_calc" scope="document">
+          <attributeName>omega_calcite_output</attributeName>
+          <attributeLabel>Calculated omega (calcite)</attributeLabel>
+          <attributeDefinition>Calculated saturation state, omega for calcite.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.omega_a" scope="document">
+          <attributeName>omega_arag_output</attributeName>
+          <attributeLabel>Calculated omega (aragonite)</attributeLabel>
+          <attributeDefinition>Calculated saturation state, omega for aragonite.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="bottle.xCO2" scope="document">
+          <attributeName>xCO2_output</attributeName>
+          <attributeLabel>Calculated xCO2</attributeLabel>
+          <attributeDefinition>Calculated xCO2 (dry at 1 atm) in parts per million.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partsPerMillion</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>No measurement collected at this time, or not available.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>pending</code>
+            <codeExplanation>sample collected but not analyzed yet</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <constraint>
+        <primaryKey>
+          <constraintName>bottle_data_pk</constraintName>
+          <key>
+            <attributeReference>bottle.Sample_Number</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>28</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit abbreviation="dbar" id="decibar" multiplierToSI="10000" name="decibar" parentSI="pascal" unitType="pressure">
+          <description>pressure</description>
+        </unit>
+        <unit id="numberPerMilliliter" multiplierToSI="1e-06" name="numberPerMilliliter" parentSI="numberPerMeterCubed" unitType="volumetricDensity">
+          <description>number of entities per milliliter</description>
+        </unit>
+        <unit abbreviation="ml/L" id="milliliterPerLiter" name="milliliterPerLiter" unitType="volumePerVolume">
+          <description>milliters of solution per 1 liter volume</description>
+        </unit>
+        <unit id="micromolesPerKilogram" multiplierToSI="0.001" name="micromolesPerKilogram" parentSI="mole" unitType="amountOfSubstanceConcentration">
+          <description>concentration</description>
+        </unit>
+        <unit abbreviation="m-1" id="reciprocalMeter" multiplerToSI="1" name="reciprocalMeter" parentSI="meter" unitType="lengthReciprocal">
+          <description>per meter, describes optical properties</description>
+        </unit>
+        <unit id="micromolesPerLiter" multiplerToSI=".001" name="micromolesPerLiter" parentSI="molesPerCubicMeter" unitType="amountOfSubstanceConcentration">
+          <description>concentration, same magnitude as micromolar (for a dissolved
+            constituent)</description>
+        </unit>
+        <unit abbreviation="S*m-1" id="siemensPerMeter" multiplerToSI="1" name="siemensPerMeter" parentSI="siemen" unitType="conductance">
+          <description>conductivity unit, seawater</description>
+        </unit>
+        <unit abbreviation="mg*m-3*d-1" id="milligramsPerCubicMeterPerDay" multiplerToSI="" name="milligramsPerCubicMeterPerDay" parentSI="" unitType="volumetricMassDensityRate">
+          <description>volumetric primary production rate, in a parcel of water</description>
+        </unit>
+        <unit abbreviation="&#181;atm" constantToSI="0" id="microatmosphere" multiplierToSI="0.101325" name="microatmosphere" parentSI="pascal" unitType="pressure">
+          <description>1 microAtmosphere = 0.000001 atmospheres = 1013.25 millibars = 0.101325
+            Pascals = 0.0000147 lb/sq.in</description>
+        </unit>
+        <unit abbreviation="ppm" id="partsPerMillion" name="partsPerMillion" unitType="dimensionless">
+          <description>ratio of two quantities as parts per million
+            (1:1000000)</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

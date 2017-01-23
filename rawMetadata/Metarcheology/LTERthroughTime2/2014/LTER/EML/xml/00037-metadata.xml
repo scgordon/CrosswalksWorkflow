@@ -1,0 +1,1272 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.226.2" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="226" system="VCR">
+   <alternateIdentifier>VCR14222</alternateIdentifier>
+   <title>Transportation GIS Layers for the Eastern Shore of Virginia 2013</title>
+   <creator>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2014-02-19</pubDate>
+   <abstract>
+  <para>This datasets contain GIS shapefiles related to the transportation infrastructure of Accomack and Northampton Counties on the Eastern Shore of Virginia.&#160; Included here are roads and highways, railroads, airfields and airstrips, boat ramps, and electrical transmission lines.&#160; Data was compiled from multiple sources. &#160;The primary purpose of this dataset is to provide VCRLTER researchers and students with a convenient up-to-date set of GIS data layers in one location that can be used as base layers for various map products and for planning research activities.&#160; A secondary purpose of this dataset is to extend transportation data coverage in the VCRLTER data catalog to include Accomack County and to supersede older USGS DLG data contained in the Northampton County GIS data package (VCRLTER dataset VCR14219).</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">geographic information systems</keyword>
+      <keyword keywordType="theme">transportation</keyword>
+      <keyword keywordType="theme">roads</keyword>
+      <keyword keywordType="theme">railroads</keyword>
+      <keyword keywordType="theme">airfields</keyword>
+      <keyword keywordType="theme">boat ramps</keyword>
+      <keyword keywordType="theme">transmission lines</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>ESHORE - Eastern Shore</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.240000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-76.240000</eastBoundingCoordinate>
+            <northBoundingCoordinate>38.020000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.070000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>2009-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2014-02-19</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para>As of February 2014, the most recent and best available large-scale (high resolution) road data from USGS via the National Map was generated from 2012 TIGER/Line data from the U.S. Census Bureau.&#160; For this reason, the 2013 TIGER/Line shapefiles (August 22, 2013 release) were downloaded directly from the USCB &#160;(http://www.census.gov/geo/maps-data/data/tiger-line.html#tab_2013).&#160; County-level road data, state-level landmark data (from which airfield point data were then extracted), and national-level rail data were downloaded.&#160; County-level road data were combined for Accomack and Northampton Counties, and those rail lines and airfields within the same two counties were extracted from the larger state- and national-level datasets.</para>
+  <para>Two attributes were added to the road data.&#160; One (FIPS) was the county FIPS code (51001 for Accomack, 51131 for Northampton).&#160; The second attribute (FEATURE) was added to provide a brief description of the Census Bureau's MAF/TIGER Feature Class Code (MTFCC) based on Appendix G of the 2013 TIGER/Line technical documentation (http://www.census.gov/geo/maps-data/data/pdfs/tiger/tgrshp2013/TGRSHP2013_TechDoc_G.pdf).&#160; There are no primary roads (i.e., Interstate highways) in this region.&#160; U.S. and state highways (e.g., U.S. Route 13) and major roads are included in the secondary road (MTFCC S1200) classification. &#160;Of note, the "local road" class (MTFCC S1400) includes both public and private roads by definition, and from observation includes many longer unpaved gravel and shell driveways and farm roads in this largely-rural region.&#160; Other types of farm roads and service roads are included with their own designations.&#160; Unpaved roads less than 50m long are generally not included; this includes most residential driveways.</para>
+  <para>Airfield point data was not modified in any additional way after extraction.&#160; All airports, airfields, and land strips are coded as MTFCC K2451.</para>
+  <para>The extracted national-level rail data appeared to have originated from 1:100,000 or smaller (coarser) scale data and exhibited numerous spatial inaccuracies.&#160; Therefore, the rail lines of the Eastern Shore (all listed as MTFCC R1011 and belonging to the Eastern Shore RR in the TIGER/Line data) were manually digitized based on VGIN-VBMP 2013 aerial imagery (1 ft. resolution, digitized at approximately 1:2000 scale or better).&#160; Sidings and spur lines that appear to still have rails and connect to the main trunk line were included, but these lines may not, in fact, still be actively used or have functioning rails.&#160; One purpose for including better located rail lines (and, by extension, the raised railroad beds) is to facilitate accurate modelling of surface hydrology by VCRLTER researchers.</para>
+  <para>Historically, large electrical transmission lines (not distribution lines) where included along with airport boundaries in the "Miscellaneous Transportation Features (MTF)" of USGS Digital Line Graph (DLG) data.&#160; While it appears that USGS no longer maintains this type of data for easy public download (the most recent archived DLG data in SDTS format for the two counties is circa 1968-1989, depending on the date of the most recent 7.5-minute quadrangle map revision), we have included transmission line data with other transportation-related base map data because it is useful for locating areas within the power line right-of-ways that are maintained in a perpetual non-forested state when conducting analyses involving landuse/landcover data.&#160; As a result, we digitized transmission lines based on VGIN-VBMP 2013 aerial imagery (1 ft. resolution, digitized at approximately 1:2000 scale or better) with the purpose to update and extend the transmission line data previously compiled from 1:100,000 scale USGS DLG data for Northampton County to now include data for Accomack County as well.</para>
+  <para>Finally, most of the public and/or state-owned boat ramps of the Eastern Shore of Virginia were included in this dataset because boat travel is an important mode of transportation in this coastal area.&#160; Potential boat access and distance from launch points is an important consideration when planning VCRLTER research activities in tidal wetland, submerged seagrass, barrier island, and other estuarine and lagoonal habitats.&#160; Multiple online data sources (listed below) were used in 2009 to identify and locate boat ramps in the area.&#160; Coordinates (if given) in source material were used to get approximate locations.&#160; Locations were then verified or relocated if necessary based on aerial imagery from VGIN-VBMP and Google Earth.&#160; Attribute information pertaining to ownership, structural type, and usage restrictions was inferred from source material and no attempt has been taken to confirm that the information collected is correct.</para>
+  <para>Source materials for boat ramp locations include:</para>
+  <para><itemizedlist><listitem>
+      <para> VA Department of Game and Inland Fisheries (DGIF) - Public Boat Access website (http://www.dgif.virginia.gov/boating/access/)</para>
+    </listitem>
+<listitem>
+      <para> Virginia Marine Resources Commission (VMRC) - List of Saltwater Access Projects</para>
+    </listitem>
+<listitem>
+      <para> Coastal Travel Guide (coastaltravelguide.com) - "Coastal Virginia Public Boat Ramps and Fishing Piers" webpage (http://www.coastaltravelguide.com/Virginia/Virginia/VirginiaPublicBoatRamps.htm)</para>
+    </listitem>
+<listitem>
+      <para> USFWS's Eastern Shore of Virginia National Wildlife Refuge - Information page for the Wise Point Boat Ramp (http://www.fws.gov/refuge/Eastern_Shore_of_Virginia/visit/boatlaunch.html)</para>
+    </listitem>
+<listitem>
+      <para> VA Department of Environmental Quality (DEQ) - Virginia Seaside Water Trail Map with Launch Sites (http://www.deq.state.va.us/Programs/CoastalZoneManagement/CZMIssuesInitiatives/SeasideWaterTrail/TrailMapwithLaunchSites.aspx)</para>
+    </listitem>
+<listitem>
+      <para> Various planning documents from Accomack and Northampton Counties</para>
+    </listitem>
+</itemizedlist></para>
+         </description>
+      </methodStep>
+   </methods>
+      <spatialVector id="acnh_t13_roads">
+         <alternateIdentifier>VCR14222-2</alternateIdentifier>
+         <entityName>acnh_t13_roads</entityName>
+         <entityDescription>Roads and highways of the Eastern Shore of Virginia (Accomack and Northampton Counties) 2013. Format: zip file containing ArcINFO shapefile. Source: U.S. Census Bureau TIGER/Line shapefiles (August 22, 2013 release). County-level data combined and descriptive attribute data added by VCRLTER.</entityDescription>
+         <physical>
+            <objectName>roads.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.226.2&amp;urlHeadID=2&amp;urlTail=2/VCR14222/roads.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.086072</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.245877</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.025586</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.030363</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+               <rangeOfDates>
+                  <beginDate>
+                     <calendarDate>2012</calendarDate>
+                  </beginDate>
+                  <endDate>
+                     <calendarDate>2013</calendarDate>
+                  </endDate>
+               </rangeOfDates>
+            </temporalCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LINEARID</attributeName>
+               <attributeLabel>LINEARID</attributeLabel>
+               <attributeDefinition>Linear feature identifier</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>unique USCB id</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FULLNAME</attributeName>
+               <attributeLabel>FULLNAME</attributeLabel>
+               <attributeDefinition>ROAD NAME. Concatenation of expanded text for prefix qualifier, prefix
+                    direction, prefix type, base name, suffix type, suffix direction, and suffix
+                    qualifier (as available) with a space between each expanded text field</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>road name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RTTYP</attributeName>
+               <attributeLabel>RTTYP</attributeLabel>
+               <attributeDefinition>Route type code</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>County</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>I</code>
+                              <definition>Interstate</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>M</code>
+                              <definition>Common Name</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>O</code>
+                              <definition>Other</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S</code>
+                              <definition>State recognized</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>U</code>
+                              <definition>U.S.</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>MTFCC</attributeName>
+               <attributeLabel>MTFCC</attributeLabel>
+               <attributeDefinition>MAF/TIGER feature class code</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>S1100</code>
+                              <definition>Primary Road</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1200</code>
+                              <definition>Secondary Road</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1400</code>
+                              <definition>Local Neighborhood Road, Rural Road, City Street</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1500</code>
+                              <definition>Vehicular Trail (4WD)</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1630</code>
+                              <definition>Ramp</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1640</code>
+                              <definition>Service Drive usually along a limited access highway</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1710</code>
+                              <definition>Walkway/Pedestrian Trail</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1720</code>
+                              <definition>Stairway</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1730</code>
+                              <definition>Alley</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1740</code>
+                              <definition>Private Road for service vehicles (logging, oil fields, ranches,
+                            etc.)</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1750</code>
+                              <definition>Private Driveway</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1780</code>
+                              <definition>Parking Lot Road</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1820</code>
+                              <definition>Bike Path or Trail</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1830</code>
+                              <definition>Bridle Path</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S2000</code>
+                              <definition>Road Median</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FIPS</attributeName>
+               <attributeLabel>FIPS</attributeLabel>
+               <attributeDefinition>County FIPS code identifier</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>51001</code>
+                              <definition>Accomack County, VA</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>51131</code>
+                              <definition>Northampton County, VA</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FEATURE</attributeName>
+               <attributeLabel>FEATURE</attributeLabel>
+               <attributeDefinition>Description of MTFCC class</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>The second attribute (FEATURE) was added to provide a brief description of
+                        the Census Bureau&#8217;s MAF/TIGER Feature Class Code (MTFCC) based on Appendix G
+                        of the 2013 TIGER/Line technical documentation
+                        (http://www.census.gov/geo/maps-data/data/pdfs/tiger/tgrshp2013/TGRSHP2013_TechDoc_G.pdf).
+                        There are no primary roads (i.e., Interstate highways) in this region. U.S.
+                        and state highways (e.g., U.S. Route 13) and major roads are included in the
+                        secondary road (MTFCC S1200) classification. Of note, the &#8220;local road&#8221; class
+                        (MTFCC S1400) includes both public and private roads by definition, and from
+                        observation includes many longer unpaved gravel and shell driveways and farm
+                        roads in this largely-rural region. Other types of farm roads and service
+                        roads are included with their own designations. Unpaved roads less than 50m
+                        long are generally not included; this includes most residential driveways.
+                    </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>LineString</geometry>
+         <geometricObjectCount>10985</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <horizontalAccuracy>
+            <accuracyReport>The Census Bureau uses Global Positioning System (GPS) coordinates at road
+                    centerline intersections to evaluate the horizontal spatial accuracy of source
+                    files that may be used to realign road features in the MAF/TIGER database and
+                    test the horizontal spatial accuracy of the road features in the TIGER/Line
+                    Shapefiles. The test compares a survey-grade GPS coordinate to its associated
+                    road centerline intersection in the TIGER/Line Shapefiles. The test is based on
+                    an independent collection of GPS coordinates for a random sample of road
+                    intersections from a centerline file that meet certain criteria. The points are
+                    referred to as the sample points and are gathered through a private contractor
+                    working for the Census Bureau. Since the collection method uses survey-quality
+                    GPS-based field techniques, the resulting control points are considered 'ground
+                    truth' against which the TIGER road centerline intersection coordinates are
+                    compared. The distances between the coordinates are calculated and the Census
+                    Bureau determines the Circular Error 95% (CE95). That is, the accuracy of the
+                    file in meters with 95% confidence. The CE95 can be calculated from the mean and
+                    standard deviation by using the formula: mean of differences plus (2.65 times
+                    the standard deviation). CE95 results reported for each file tested are
+                    determined using a spreadsheet with embedded statistical formula. The use and
+                    applicability of the spreadsheet and its embedded formula have been verified by
+                    Census Bureau statisticians. The basis of the calculation is the use of the root
+                    mean square error (RMSE). This is the method as stated in the U.S. Government's
+                    Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial
+                    Positioning Accuracy Standards. Part 3: National Standard for Spatial Data
+                    Accuracy. The results of using this measure of accuracy are in compliance with
+                    Federal Spatial Data requirements. In terms of the Census Bureau application,
+                    the dataset coordinate values are those taken from the centerline file and the
+                    coordinate values from an independent source of higher accuracy are those
+                    acquired through the Census Bureau's contractor. Please note that the horizontal
+                    spatial accuracy, where reported, refers only to the realigned road features
+                    identified as matched to the positionally accurate source file with that
+                    accuracy. It is not the spatial accuracy of the TIGER/Line Shapefile as a
+                    whole.</accuracyReport>
+            <quantitativeAccuracyReport>
+               <quantitativeAccuracyValue>3.164 meters for 1533</quantitativeAccuracyValue>
+               <quantitativeAccuracyMethod>The Census Bureau uses root mean square error (RMSE) as stated in the
+                        FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3:
+                        National Standard for Spatial Data Accuracy.</quantitativeAccuracyMethod>
+            </quantitativeAccuracyReport>
+         </horizontalAccuracy>
+      </spatialVector>
+      <spatialVector id="acnh_t13_airfields">
+         <alternateIdentifier>VCR14222-3</alternateIdentifier>
+         <entityName>acnh_t13_airfields</entityName>
+         <entityDescription>Airports, airfields, and airstrips of the Eastern Shore of Virginia (Accomack and Northampton Counties) 2013. Format: zip file containing ArcINFO shapefile. Source: U.S. Census Bureau TIGER/Line shapefile (August 22, 2013 release). State-level data clipped to just the Eastern Shore of VA and only the airfield landmarks (points coded as MTFCC K2451) retained by VCRLTER.</entityDescription>
+         <physical>
+            <objectName>airfields.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.226.2&amp;urlHeadID=2&amp;urlTail=3/VCR14222/airfields.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.999655</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.462145</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.990678</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.154586</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+               <rangeOfDates>
+                  <beginDate>
+                     <calendarDate>2012</calendarDate>
+                  </beginDate>
+                  <endDate>
+                     <calendarDate>2013</calendarDate>
+                  </endDate>
+               </rangeOfDates>
+            </temporalCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>STATEFP</attributeName>
+               <attributeLabel>STATEFP</attributeLabel>
+               <attributeDefinition>Current state Federal Information Processing Series (FIPS) code</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <externalCodeSet>
+                              <codesetName>INCITS.38-2009, Codes for the Identification of the States, the
+                            District of Columbia, Puerto Rico, and the Insular Areas of the United
+                            States (Formerly FIPS 5-2)</codesetName>
+                              <citation>
+                                 <title>The External Codeset Source</title>
+                                 <creator>
+                                    <organizationName>U.S. Census Bureau</organizationName>
+                                 </creator>
+                                 <generic>
+                                    <publisher>
+                                       <organizationName>U.S. Census Bureau</organizationName>
+                                    </publisher>
+                                 </generic>
+                              </citation>
+                           </externalCodeSet>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>ANSICODE</attributeName>
+               <attributeLabel>ANSICODE</attributeLabel>
+               <attributeDefinition>Current official code for the point landmark for use by federal agencies
+                    for data transfer and dissemination, if applicable</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <externalCodeSet>
+                              <codesetName>INCITS 446-2008, (GNIS) Identifying Attributes for Named Physical
+                            and Cultural Geographic Features (Except Roads and Highways) of the
+                            United States, Its Territories, Outlying Areas, and Freely Associated
+                            Areas, and the Waters of the Same to the Limit of the Twelve-Mile
+                            Statutory Zone</codesetName>
+                              <citation>
+                                 <title>The External Codeset Source</title>
+                                 <creator>
+                                    <organizationName>U.S. Geological Survey (USGS)</organizationName>
+                                 </creator>
+                                 <generic>
+                                    <publisher>
+                                       <organizationName>U.S. Geological Survey (USGS)</organizationName>
+                                    </publisher>
+                                 </generic>
+                              </citation>
+                           </externalCodeSet>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>POINTID</attributeName>
+               <attributeLabel>POINTID</attributeLabel>
+               <attributeDefinition>Point landmark identifier</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>USCB id</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>FULLNAME</attributeName>
+               <attributeLabel>FULLNAME</attributeLabel>
+               <attributeDefinition>FEATURE NAME. Concatenation of expanded text for prefix type, base name,
+                    and suffix type with a space between each expanded text field</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>airfield name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>MTFCC</attributeName>
+               <attributeLabel>MTFCC</attributeLabel>
+               <attributeDefinition>MAF/TIGER feature class code</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>K2451</code>
+                              <definition>Airport or Airfield</definition>
+                              <source>U.S. Census Bureau</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Point</geometry>
+         <geometricObjectCount>15</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+      <spatialVector id="railroads">
+         <alternateIdentifier>VCR14222-4</alternateIdentifier>
+         <entityName>railroads</entityName>
+         <entityDescription>    Railroads of the Eastern Shore of Virginia (Accomack and Northampton Counties) 2013. Format: zip file containing ArcINFO shapefile. Source    :     digitized based on VGIN-VBMP 2013 aerial imagery (1 ft. resolution, digitized at approximately 1:2000 scale or better).          </entityDescription>
+         <physical>
+            <objectName>railroads.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.226.2&amp;urlHeadID=2&amp;urlTail=4/VCR14222/railroads.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.021603</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.535801</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.011053</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.260600</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Id</attributeName>
+               <attributeLabel>Id</attributeLabel>
+               <attributeDefinition>internal id number</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>LineString</geometry>
+         <geometricObjectCount>79</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+      <spatialVector id="powerlines">
+         <alternateIdentifier>VCR14222-5</alternateIdentifier>
+         <entityName>powerlines</entityName>
+         <entityDescription>    Transmission power lines of the Eastern Shore of Virginia (Accomack and Northampton Counties) 2013. Format: zip file containing ArcINFO shapefile. Source    :     digitized based on VGIN-VBMP 2013 aerial imagery (1 ft. resolution, digitized at approximately 1:2000 scale or better).          </entityDescription>
+         <physical>
+            <objectName>powerlines.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.226.2&amp;urlHeadID=2&amp;urlTail=5/VCR14222/powerlines.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.967630</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.377921</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.021563</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.271601</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Id</attributeName>
+               <attributeLabel>Id</attributeLabel>
+               <attributeDefinition>internal id number</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>LineString</geometry>
+         <geometricObjectCount>22</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+      <spatialVector id="boatramps">
+         <alternateIdentifier>VCR14222-6</alternateIdentifier>
+         <entityName>boatramps</entityName>
+         <entityDescription>      Boat ramps and launches of the Eastern Shore of Virginia (Accomack and Northampton Counties) 2013. Format: zip file containing ArcINFO shapefile. Sources: VDGIF, VMRC, Coastal Travel Guide, USFWS, VDEQ, and Accomack and Northampton Counties, with location verification based on    VGIN-VBMP aerial imagery and Google Earth.     </entityDescription>
+         <physical>
+            <objectName>boatramps.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.226.2&amp;urlHeadID=2&amp;urlTail=6/VCR14222/boatramps.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.016526</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.349074</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.006820</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.127677</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>NAME</attributeName>
+               <attributeLabel>NAME</attributeLabel>
+               <attributeDefinition>name of boat ramp, launch, marina, or docks.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>name of boat ramp, launch, marina, or docks.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>VICINITY</attributeName>
+               <attributeLabel>VICINITY</attributeLabel>
+               <attributeDefinition>name of the nearest town in the immediate vicinity</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>name of the nearest town in the immediate vicinity</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>BAYSEA</attributeName>
+               <attributeLabel>BAYSEA</attributeLabel>
+               <attributeDefinition>whether ramp launches into waters of the Chesapeake Bay (bayside) or the
+                    Atlantic Ocean (seaside)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>whether ramp launches into waters of the Chesapeake Bay (bayside) or the
+                    Atlantic Ocean (seaside)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LON</attributeName>
+               <attributeLabel>LON</attributeLabel>
+               <attributeDefinition>longitude (degrees, WGS84 datum)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LAT</attributeName>
+               <attributeLabel>LAT</attributeLabel>
+               <attributeDefinition>latitude (degrees, WGS84 datum)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>DATUM</attributeName>
+               <attributeLabel>DATUM</attributeLabel>
+               <attributeDefinition>datum for the lat/lon values</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>datum for the lat/lon values</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>OWNERSHIP</attributeName>
+               <attributeLabel>OWNERSHIP</attributeLabel>
+               <attributeDefinition>type of [public] ownership of the boat ramp, if known. (federal, state,
+                    county, or township).</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>type of [public] ownership of the boat ramp, if known. (federal, state,
+                    county, or township).</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>OWNER</attributeName>
+               <attributeLabel>OWNER</attributeLabel>
+               <attributeDefinition>name of entity owning and managing the boat ramp</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>name of entity owning and managing the boat ramp</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RAMP</attributeName>
+               <attributeLabel>RAMP</attributeLabel>
+               <attributeDefinition>type of boat launch structure present (2009).</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>ramp</code>
+                              <definition>regular boat ramp, generally wide enough for most VCRLTER boats and
+                            trailers.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>small_ramp</code>
+                              <definition>small or narrow boat ramp, may not be suitable for launching larger
+                            boats such as the VCRLTER's Privateers, Boston Whalers, or
+                            skiffs.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>portage</code>
+                              <definition>paved ramp generally lacking, launch is over unconsolidated sediment
+                            or across other obstacles. Suitable for canoes and small boats
+                            only.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>docks_only</code>
+                              <definition>no ramps, docks and piers only</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>USE</attributeName>
+               <attributeLabel>USE</attributeLabel>
+               <attributeDefinition>usage type</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>free</code>
+                              <definition>free to use</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>FEE</code>
+                              <definition>fee for use</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>RESTRICTED</code>
+                              <definition>not open to public, for agency use only</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Point</geometry>
+         <geometricObjectCount>50</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_North_American_1983">
+               <geogCoordSys name="GCS_North_American_1983">
+                  <datum name="D_North_American_1983" />
+                  <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-16</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

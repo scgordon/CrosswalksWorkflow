@@ -1,0 +1,555 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.607.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd  eml://ecoinformatics.org/eml-2.1.1 http://caplter.asu.edu/php/eml2_1_1/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="607" system="gios_dataset">
+    <alternateIdentifier system="gios_dataset">607_1</alternateIdentifier>
+    <alternateIdentifier system="lterDoi_current">A_SYSTEM_NEED</alternateIdentifier>
+    <title>At-Satellite Brightness Temperature (Degrees Fahrenheit), Central Arizona Phoenix for years 2003, 2007, 2009 and 2011; Landsat TM image</title>
+    <creator>
+      <individualName>
+        <givenName>Jeffrey</givenName>
+        <surName>Ditgen</surName>
+      </individualName>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Jeffrey</givenName>
+        <surName>Ditgen</surName>
+      </individualName>
+    </metadataProvider>
+    <pubDate>2014-01-01</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>At-Satellite Brightness Temperature (Degrees Fahrenheit) for the CAP-LTER study region using Landsat Thematic Mapper data- years 2003, 2007, 2009 and 2011. This dataset can be used to predict land surface temperature and show patterns of climate change. User should note that brightness temperatures are affected by weather events that occured during the imagery capture time and date.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Land-Use, Land-Cover and Land Architecture</keyword>
+      <keyword keywordType="theme">disturbance patterns</keyword>
+      <keyword keywordType="theme">Climate, Ecosystems and People</keyword>
+      <keywordThesaurus>IPA and Core Area CAP Data Portal Controler</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">brightness temperature</keyword>
+      <keyword keywordType="theme">raster</keyword>
+      <keyword keywordType="theme">gis</keyword>
+      <keyword keywordType="theme">landsat</keyword>
+      <keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">caplter</keyword>
+      <keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword>
+      <keyword keywordType="place">arizona</keyword>
+      <keyword keywordType="theme">caplter created</keyword>
+      <keyword keywordType="place">az</keyword>
+      <keyword keywordType="theme">cap</keyword>
+      <keyword keywordType="theme">arid land</keyword>
+      <keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>Copyright Board of Regents, Arizona State University. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available 'as is.'</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+            </listitem>
+            <listitem>
+              <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <onlineDescription>CAPLTER Metadata URL</onlineDescription>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=607</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>(Default is the CAP LTER study area &#8211; see below. If your study area varies from this please edit accordingly.)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-113.34</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.59</eastBoundingCoordinate>
+          <northBoundingCoordinate>+34.01</northBoundingCoordinate>
+          <southBoundingCoordinate>+32.91</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>2003-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>2007-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>2009-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>2011-01-01</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This research has been concluded.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="info_manager_contact">
+      <positionName>Information Manager</positionName>
+      <organizationName>Global Institute of Sustainability, Arizona State University</organizationName>
+      <address>
+        <deliveryPoint>POB 875402</deliveryPoint>
+        <city>TEMPE</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-5402</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(480) 965 2975</phone>
+      <phone phonetype="fax">(480) 965-8087</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Arizona State University, Global Institute of Sustainability</organizationName>
+    </publisher>
+    <pubPlace>Tempe, Arizona</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Research Methods:</title>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>This brightness temperature dataset was created by performing multiple local raster operations on Landsat band 6 (thermal 10.4-12.5 micrometers) and has a resolution of 120 meters. Each mathematical operation was applied pixel by pixel. The first operation was to convert the raw pixel values to  Radiance using the following formula: RAD = (RadMul * BandValue) + RadAdd where RadMul is the Radiance Multiplier of band 6, BandValue is the raw pixel value of band 6 and RadAdd is the Radiance Add of band 6. The Radiance Multiplier and Radiance Add can be found in the metadata for every Landsat image; for this specific image the values used were 0.055 and 1.18243 respectively.</para>
+                </listitem>
+                <listitem>
+                  <para>The next operation preformed on the image was to convert from Radiance to degrees kelvin using this formula: DegK = K2 / ln(k1/RAD +1).  K2 and K1 are thermal constants and had values of 1260.56 and 607.76, respectively.</para>
+                </listitem>
+                <listitem>
+                  <para>The last operation preformed on the image was to convert from Degrees Kelvin to Degrees Fahrenheit using the following formula: DegF = 1.8(DegK &#8211; 273.15) +32.</para>
+                </listitem>
+                <listitem>
+                  <para>Methods are derived from:</para>
+                </listitem>
+                <listitem>
+                  <para>http://www.yale.edu/ceo/Documentation/DN_to_Kelvin.pdf</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <spatialRaster>
+      <entityName>2003 at-sateliite brightness temperature</entityName>
+      <entityDescription>This is an at-sateliite brightness temperature dataset of the CAP-LTER dataset created from band 6 of a 2003 Landsat image.</entityDescription>
+      <physical>
+        <objectName>temp_brightness_2003.tif</objectName>
+        <size unit="byte">6711504</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with arcinfo .e00 exchange file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/607_temp_brightness_2003.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>remote-sensing image</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are included as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  607-fgdc-temp_brightness_2003.xml</para>
+                <para>Bytes:  1616</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2003.tfw</para>
+                <para>Bytes:  92</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2003.tif</para>
+                <para>Bytes:  6711504</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2003.tif.aux.xml</para>
+                <para>Bytes:  1708</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2003.tif.ovr</para>
+                <para>Bytes:  1928035</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2003.tif.xml</para>
+                <para>Bytes:  7274</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>Pixel Value</attributeName>
+          <attributeDefinition>At-satellite brightness temperature in degrees fahrenheit</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>unknown</cellSizeXDirection>
+      <cellSizeYDirection>unknown</cellSizeYDirection>
+      <numberOfBands>unknown</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>2354</rows>
+      <columns>3724</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <entityName>2007 at-satellite brightness temperature</entityName>
+      <entityDescription>2007 At-satellite brightness temperature dataset of the CAP-LTER region.</entityDescription>
+      <physical>
+        <objectName>temp_brightness_2007.tif</objectName>
+        <size unit="byte">37360505</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with arcinfo .e00 exchange file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/607_temp_brightness_2007.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>remote-sensing image</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are included as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  607-fgdc-temp_brightness_2007.xml</para>
+                <para>Bytes:  1525</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2007.tfw</para>
+                <para>Bytes:  92</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2007.tif</para>
+                <para>Bytes:  37360505</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2007.tif.aux.xml</para>
+                <para>Bytes:  395</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2007.tif.xml</para>
+                <para>Bytes:  6837</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute id="Cell Value">
+          <attributeName>Cell Value</attributeName>
+          <attributeDefinition>At-Satellite Brightness Temperature in degrees fahrenheit</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>unknown</cellSizeXDirection>
+      <cellSizeYDirection>unknown</cellSizeYDirection>
+      <numberOfBands>unknown</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>2354</rows>
+      <columns>3724</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <entityName>2009 at-satellite brightness temperature</entityName>
+      <entityDescription>2009 At-satellite brightness temperature dataset of the CAP-LTER region.</entityDescription>
+      <physical>
+        <objectName>temp_brightness_2009.tif</objectName>
+        <size unit="byte">6531351</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with arcinfo .e00 exchange file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/607_temp_brightness_2009.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>remote-sensing image</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are included as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  607-fgdc-temp_brightness_2009.xml</para>
+                <para>Bytes:  1606</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2009.tfw</para>
+                <para>Bytes:  92</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2009.tif</para>
+                <para>Bytes:  6531351</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2009.tif.aux.xml</para>
+                <para>Bytes:  1699</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2009.tif.ovr</para>
+                <para>Bytes:  1879745</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2009.tif.xml</para>
+                <para>Bytes:  7206</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>Pixel Value</attributeName>
+          <attributeDefinition>At-satellite brightness temperature in degrees fahrenheit.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>unknown</cellSizeXDirection>
+      <cellSizeYDirection>unknown</cellSizeYDirection>
+      <numberOfBands>unknown</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>2354</rows>
+      <columns>3724</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <entityName>temp_brightness_2011.tif</entityName>
+      <entityDescription>2011 At-satellite brightness temperature dataset of the CAP-LTER region.</entityDescription>
+      <physical>
+        <objectName>temp_brightness_2011.tif</objectName>
+        <size unit="byte">37365935</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with arcinfo .e00 exchange file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/607_temp_brightness_2011.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>No geographic/area/plot description available. Sorry.</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-112.790756</westBoundingCoordinate>
+            <eastBoundingCoordinate>-111.565549</eastBoundingCoordinate>
+            <northBoundingCoordinate>33.850221</northBoundingCoordinate>
+            <southBoundingCoordinate>33.183753</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>remote-sensing image</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  607-fgdc-temp_brightness_2011.xml</para>
+                <para>Bytes:  1597</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2011.tfw</para>
+                <para>Bytes:  92</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2011.tif</para>
+                <para>Bytes:  37365935</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2011.tif.aux.xml</para>
+                <para>Bytes:  1691</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2011.tif.ovr</para>
+                <para>Bytes:  2105701</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  temp_brightness_2011.tif.xml</para>
+                <para>Bytes:  6822</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute id="Pixel Value">
+          <attributeName>Pixel Value</attributeName>
+          <attributeDefinition>At-satellite brightness temperature in degrees fahrenheit.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>unknown</cellSizeXDirection>
+      <cellSizeYDirection>unknown</cellSizeYDirection>
+      <numberOfBands>unknown</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>2421</rows>
+      <columns>3766</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+  </dataset>
+</ns0:eml>

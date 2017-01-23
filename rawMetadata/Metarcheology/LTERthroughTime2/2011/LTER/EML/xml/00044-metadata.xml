@@ -1,0 +1,314 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.220.9" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://data.gios.asu.edu/eml2_1_0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+            <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+            <principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+    <dataset id="220_1" system="gios_dataset">
+        <alternateIdentifier system="gios_dataset">220</alternateIdentifier>
+        <title>Database of Geographic Information: Topographic Map of Central Arizona</title>
+        <creator>
+            <individualName>
+                <givenName>Alexander</givenName>
+                <surName>Buyantuyev</surName>
+            </individualName>
+            <positionName>Graduate Student</positionName>
+            <organizationName>Arizona State University</organizationName>
+            <address>
+                <deliveryPoint>Global Institute of Sustainability, Arizona State University, POB 875402</deliveryPoint>
+                <deliveryPoint>School of Life Sciences</deliveryPoint>
+                <city>TEMPE</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-5402</postalCode>
+            </address>
+            <phone phonetype="voice">480-727-7360</phone>
+            <electronicMailAddress>Alexander.Buyantuyev@asu.edu</electronicMailAddress>
+        </creator>
+        <pubDate>2004</pubDate>
+        <abstract>
+            <para>This dataset has been created to meet the needs of the research community of
+                Arizona State University. Apart from purely vizualization purposes (i.e. displaying
+                the data on various maps) it can potentially be used for spatial modeling. The data
+                consist of engineering-quality contours, also known as isolines, created from the
+                NED 10-meter Digital Elevation Model subset to the extent somewhat exceeding Cetral
+                Arizona - Phoenix LTER. Contours ( lines connecting points of equal height above sea
+                level) are drawn at 15 meter intervals with the base set at 145 m of elevation.
+                Contours are an exact interpretation of the grid surface model and may sometimes
+                appear blocky looking, may cross, appear to intersect, or form an unclosed branching
+                line. All these are valid engineering-quality interpretations of the elevation
+                surface that cartographers typically modify (smooth) for aesthetic purposes.</para>
+        </abstract><keywordSet><keyword keywordType="theme">Land-Use, Land-Cover and Land Architecture</keyword><keywordThesaurus>IPA and Core Area CAP Data Portal Controler</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="place">sonoran desert</keyword><keyword keywordType="place">phoenix</keyword><keyword keywordType="theme">urban</keyword><keyword keywordType="theme">metropolitan area</keyword><keyword keywordType="theme">gis</keyword><keyword keywordType="theme">contours</keyword><keyword keywordType="theme">informatics</keyword><keyword keywordType="theme">database remote sensing gis applications</keyword><keyword keywordType="theme">remote sensing</keyword><keyword keywordType="theme">digital elevation model</keyword><keyword keywordType="theme">elevation</keyword><keyword keywordType="theme">isolines</keyword><keyword keywordType="theme">topographic</keyword><keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">urban</keyword><keyword keywordType="theme">geographic information systems</keyword><keyword keywordType="theme">maps</keyword><keyword keywordType="theme">deserts</keyword><keyword keywordType="theme">surveys</keyword><keyword keywordType="theme">remote sensing</keyword><keyword keywordType="theme">digital elevation model</keyword><keyword keywordType="theme">elevation</keyword><keyword keywordType="theme">modeling</keyword><keyword keywordType="theme">surface elevation table</keyword><keywordThesaurus>LTER Controlled Vocabulary Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">caplter</keyword><keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword><keyword keywordType="place">arizona</keyword><keyword keywordType="theme">caplter created</keyword><keyword keywordType="place">az</keyword><keyword keywordType="theme">cap</keyword><keyword keywordType="theme">arid land</keyword><keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus></keywordSet>
+        
+        <intellectualRights>
+            <section>
+                <para>Copyright Board of Regents, Arizona State University. This dataset is released
+                    to the public and may be used for academic, educational, or commercial purposes
+                    subject to the following restrictions:</para>
+                <para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>While CAP LTER will make every effort possible to control and
+                                document the quality of the data it publishes, the data are made
+                                available "as is".</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER cannot assume responsibility for damages resulting from
+                                mis-use or mis-interpretation of datasets or from errors or
+                                omissions that may exist in the data.</para>
+                        </listitem>
+                        <listitem>
+                            <para>It is considered a matter of professional ethics to acknowledge
+                                the work of other scientists that has resulted in data used in
+                                subsequent research.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER expects that any use of data from this server will be
+                                accompanied with the appropriate citations and
+                                acknowledgments.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER encourages users to contact the original investigator
+                                responsible for the data that they are accessing. Where appropriate,
+                                researchers whose projects are integrally dependent on CAP LTER data
+                                are encouraged to consider collaboration and/or co-authorship with
+                                original investigators.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users submit to the Global Institute of
+                                Sustainability, ASU, one copy of any publication resulting from the
+                                use of data obtained from this site.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users not redistribute data obtained from
+                                this site. However, links or references to this site may be freely
+                                posted.</para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+            </section>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=220</url>
+            </online>
+        </distribution>
+        
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Central Arizona Phoenix</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-113.291341</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-111.26736</eastBoundingCoordinate>
+                    <northBoundingCoordinate>33.909831</northBoundingCoordinate>
+                    <southBoundingCoordinate>32.888377</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>1954-01-01</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>1984-01-01</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+        </coverage>
+        <purpose>
+            <para>The purpose of this dataset is to provide a draft digital version of continuos
+                elevation contours for CAPLTER.</para>
+        </purpose>
+        <maintenance>
+            <description>
+                <para>This research has been concluded</para>
+            </description>
+            <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <positionName>Information Manager</positionName>
+            <organizationName>Global Institute of Sustainability, Arizona State
+                University</organizationName>
+            <address>
+                <deliveryPoint>Global Institute of Sustainability, Arizona State University, POB 875402</deliveryPoint>
+                <city>TEMPE</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-5402</postalCode>
+            </address>
+            <phone phonetype="voice">(480) 965 2975</phone>
+            <phone phonetype="fax">(480) 965-8087</phone>
+            <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>DEM preparation</title>
+                        <para>The U.S. Geological Survey National Elevation Dataset (NED), which is
+                            a seamless mosaic of best-available elevation data, was used to prepare
+                            the DEM. Three separate areas consisting of multiple USGS quads were
+                            obtained from the GIS lab and mosaicked in Erdas Imagine software. The
+                            resulting raster was reprojected to the North American Datum 27 UTM Zone
+                            12 coordinate system using bilinear interpolation resampling technique.
+                            The final extent was derived by subsetting to the rectangular area that
+                            runs from the Gila River on the south to the edge of the uplands (lower
+                            border of the rim) on the north. The extent covers parts of Maricopa,
+                            Yavapai, Gila, and Pinal counties. In an attempt to produce smoother
+                            contours the raster data were subject to two additional processing
+                            steps. Sinks were filled in ArcInfo to make sure that a drainage network
+                            is continuous. The next step was to adjust Z values so that a contour
+                            does no longer pass exactly through a mesh point. This was done by using
+                            ArcInfo FOCALSUM function with WEIGHT option. The following 3X3 kernel
+                            file was used: .005 .005 .005 .005 .960 .005 .005 .005 .005 Within this
+                            neighborhood each value in the initial DEM grid is first multiplied by
+                            the corresponding value and then summed up. The sum is then sent to the
+                            corresponding cell location (the middle cell) in the output grid</para>
+                    </section>
+                </description>
+                <dataSource id="221" system="gios_dataset">
+                    <alternateIdentifier system="gios_dataset">221</alternateIdentifier>
+                    <title>U.S. Geological Survey National Elevation Dataset (NED)</title>
+                    <creator>
+                        <organizationName>United States Geological Survey</organizationName>
+                        <address />
+                    </creator>
+                    
+                    <distribution>
+                        <online>
+                            <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=221</url>
+                        </online>
+                    </distribution>
+
+                    <contact>
+                        <organizationName>GIS lab, Arizona State University (Jana
+                            Hutchins)</organizationName>
+                        <address />
+                    </contact>
+                </dataSource>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Creating contours</title>
+                        <para>The vector coverage was created in ArcInfo by using CONTOUR function.
+                            The interval was set to 15 meters and the base was set to 145.0001
+                            meters. The .0001 offset is an additional approach that is employed to
+                            produce smoother contours. Because the offset is very small the accuracy
+                            of resulting contours is not significantly affected. An additional
+                            attribute, ELEV, was created in the arc attribute table (.aat). It is
+                            populated by initial grid values converted into integer format, i.e.
+                            rounded to the nearest integer value, and can be used for labeling
+                            purposes.</para>
+                    </section>
+                </description>
+            </methodStep>
+        </methods>
+        <spatialVector id="CAP_topo_15contour">
+            <entityName>CAP_topo_15contour</entityName>
+            <physical>
+                <objectName>CAP_topo_15contour</objectName>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>Shapefile</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url>http://data.gios.asu.edu/datasets/cap/220.zip</url>
+                    </online>
+                </distribution>
+                
+            </physical>
+            <attributeList id="CAP_topo_15contour.attributeList">
+                <attribute id="CAP_topo_15contour.FID">
+                    <attributeName>FID</attributeName>
+                    <attributeDefinition>Internal feature number.</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_topo_15contour.Shape">
+                    <attributeName>Shape</attributeName>
+                    <attributeDefinition>Feature geometry.</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Coordinates defining the features.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_topo_15contour.LENGTH">
+                    <attributeName>LENGTH</attributeName>
+                    <attributeDefinition>LENGTH</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_topo_15contour.CONTOUR">
+                    <attributeName>CONTOUR</attributeName>
+                    <attributeDefinition>Elevation in meters from cell values in the input DEM
+                        grid</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="CAP_topo_15contour.ELEV">
+                    <attributeName>ELEV</attributeName>
+                    <attributeDefinition>Elevation in meters converted to integer
+                        format.</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <geometry>MultiLineString</geometry>
+            <geometricObjectCount>100137</geometricObjectCount>
+            <spatialReference>
+                <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+            </spatialReference>
+        </spatialVector>
+    </dataset>
+</ns0:eml>

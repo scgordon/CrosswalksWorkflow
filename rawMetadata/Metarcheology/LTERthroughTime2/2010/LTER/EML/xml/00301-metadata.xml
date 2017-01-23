@@ -1,0 +1,803 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.40.8" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="40">
+    <alternateIdentifier>knb-lter-sbc.40</alternateIdentifier>
+    <shortName>Beach wrack cover</shortName>
+    <title>SBC LTER: Beach: Time series of wrack cover and biomass</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="jdugan">
+      <individualName>
+        <givenName>Jenifer</givenName>
+        <givenName>E</givenName>
+        <surName>Dugan</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-2675</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>j_dugan@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2012-03-28</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data decribe the composition, cover, depth, and wet biomass of macrophyte wrack accumulated in the intertidal zone measured on five selected sandy beaches of the mainland coast of the Santa Barbara Channel. Data collection began in 2008 and this dataset is updated annually.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">Santa Barbara Coastal</keyword>
+      <keyword keywordType="theme">SBC</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Beach</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ecosystem Processes</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Measurement Types</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Arroyo Burro Beach</keyword>
+      <keyword keywordType="place">Arroyo Quemado Beach</keyword>
+      <keyword keywordType="place">East UCSB Campus Beach</keyword>
+      <keyword keywordType="place">Isla Vista West Beach</keyword>
+      <keyword keywordType="place">Santa Claus Lane Beach</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Beaches</keyword>
+      <keyword keywordType="theme">Biomass</keyword>
+      <keywordThesaurus>Global Change Master Directory (GCMD) v6.0.0.0.0</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">biomass</keyword>
+      <keyword keywordType="theme">long term</keyword>
+      <keyword keywordType="theme">long term ecological research</keyword>
+      <keyword keywordType="theme">marine</keyword>
+      <keyword keywordType="theme">species</keyword>
+      <keyword keywordType="theme">transects</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">organic matter</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1: Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Beaches</keyword>
+      <keyword keywordType="theme">Collection (specimen gethering)</keyword>
+      <keyword keywordType="theme">Species</keyword>
+      <keywordThesaurus>NBII Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="ABBA">
+        <geographicDescription>Arroyo Burro Beach: Arroyo Burro Beach</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.74375</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.74375</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.40305</northBoundingCoordinate>
+          <southBoundingCoordinate>34.40305</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ABQA">
+        <geographicDescription>Arroyo Quemado Beach: Arroyo Quemado Beach</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.118617</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.118617</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.470467</northBoundingCoordinate>
+          <southBoundingCoordinate>34.470467</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="EUCBBA">
+        <geographicDescription>East UCSB Campus Beach: East UCSB Campus Beach</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.842017</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.842017</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.410767</northBoundingCoordinate>
+          <southBoundingCoordinate>34.410767</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="IVWBA">
+        <geographicDescription>Isla Vista West Beach: Isla Vista West Beach</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.87385</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.87385</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.409283</northBoundingCoordinate>
+          <southBoundingCoordinate>34.409283</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SCLBA">
+        <geographicDescription>Santa Claus Lane Beach: Santa Claus Lane Beach</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.551583</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.551583</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.408533</northBoundingCoordinate>
+          <southBoundingCoordinate>34.408533</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-09-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-03-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Wrack cover and biomass protocols.</para>
+        </description>
+        <protocol>
+          <title>Wrack cover and biomass protocols</title>
+          <creator>
+            <individualName>
+              <surName>Dugan</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://sbc.lternet.edu/external/Beach/Protocols/WrackCoverandBiomass.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="1274821672328">
+      <entityName>Beach wrack cover, all years</entityName>
+      <entityDescription>Wrack cover data</entityDescription>
+      <physical>
+        <objectName>Wrack_Cover_All_Years.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Beach/Data/Wrack_Cover_All_Years.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="year">
+          <attributeName>YEAR</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year of data collection</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="month">
+          <attributeName>MONTH</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Month of data collection</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="date">
+          <attributeName>DATE</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of data collection</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DDMonYYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="site">
+          <attributeName>SITE</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Physical location of field site</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>ABB</code>
+                    <definition>Arroyo Burro</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AQB</code>
+                    <definition>Arroyo Quemado</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EUCB</code>
+                    <definition>East Campus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IVWB</code>
+                    <definition>Isla Vista</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SCLB</code>
+                    <definition>Santa Claus Ln</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="transect">
+          <attributeName>TRANSECT</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Name of shore-normal transect. Distance between transects is randomly selected for each sample date but order relative to access point remains the same. Can be used as replicates.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Transect A</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Transect B</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Transect C</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="cover_type">
+          <attributeName>COVER_TYPE</attributeName>
+          <attributeLabel>Type of Cover</attributeLabel>
+          <attributeDefinition>These data represent a 1 to 4 letter code for the type of cover recorded along the transect. Can be types of wrack, debris, driftwood, carrion, tar, or substrate.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="dist_hts">
+          <attributeName>DIST_HTS</attributeName>
+          <attributeLabel>High Tide Series Distance</attributeLabel>
+          <attributeDefinition>Distance to high tide series, the 24 hour high tide strand line</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="dist_wto">
+          <attributeName>DIST_WTO</attributeName>
+          <attributeLabel>Water Table Outcrop Distance</attributeLabel>
+          <attributeDefinition>Distance to the water table outcrop.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="total_cover">
+          <attributeName>Total_Cover</attributeName>
+          <attributeLabel>Total Length of Cover</attributeLabel>
+          <attributeDefinition>Total length of the transect with cover of the "type" recorded.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="total_volume">
+          <attributeName>Total_Volume</attributeName>
+          <attributeLabel>Total Volume</attributeLabel>
+          <attributeDefinition>Total volume of the "type" recorded. Calculated from length, maximum depth, and 1 meter width for each "type".</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubicMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="total_biomass">
+          <attributeName>Total_Biomass</attributeName>
+          <attributeLabel>Total Wet Biomass</attributeLabel>
+          <attributeDefinition>Total wet biomass of the "type" recorded per meter of shoreline, centered on each transect.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gram</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="obs_code">
+          <attributeName>OBS_CODE</attributeName>
+          <attributeLabel>Observer Code</attributeLabel>
+          <attributeDefinition>Numeric code indicating the observer who collected the field data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="notes">
+          <attributeName>NOTES</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Text annotations to data observations.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="genus">
+          <attributeName>GENUS</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Generic name of observed species in Linnean taxonomic system.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="species">
+          <attributeName>SPECIES</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Species name of observed species in Linnean taxonomic system.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="description">
+          <attributeName>DESCRIPTION</attributeName>
+          <attributeLabel>Description</attributeLabel>
+          <attributeDefinition>Description of the "type" recorded.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="group">
+          <attributeName>functional_GROUP</attributeName>
+          <attributeLabel>Group</attributeLabel>
+          <attributeDefinition>Functional grouping term for observed species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>-99999</code>
+                    <definition>no data</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ALGAE</code>
+                    <definition>Algae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PLANT</code>
+                    <definition>Plant</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ANIMAL</code>
+                    <definition>Animal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUBSTRATE</code>
+                    <definition>Substrate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OTHER</code>
+                    <definition>Other</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Trash</code>
+                    <definition>Trash</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="survey">
+          <attributeName>SURVEY</attributeName>
+          <attributeLabel>Survey Type</attributeLabel>
+          <attributeDefinition>The survey method used to collect the data. All of this data was collected using a line-intercept method along each of three shore-normal transects per site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Wrack Cover</code>
+                    <definition>Wrack Cover Survey</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>-99999</code>
+                    <definition>no data</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OTHER</code>
+                    <definition>Other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="kingdom">
+          <attributeName>KINGDOM</attributeName>
+          <attributeLabel>Kindom</attributeLabel>
+          <attributeDefinition>Phylogenetic Kingdom of the observed species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="phylum">
+          <attributeName>PHYLUM</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>Phylogenetic Phylum of the observed species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="class">
+          <attributeName>CLASS</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>Phylogenetic Class of the observed species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="order">
+          <attributeName>taxon_ORDER</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>Phylogenetic Order of the observed species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="family">
+          <attributeName>FAMILY</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Phylogenetic Family of the observed species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="common_name">
+          <attributeName>COMMON_NAME</attributeName>
+          <attributeLabel>Common Name</attributeLabel>
+          <attributeDefinition>Common name of species when available.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="m&#179;" id="cubicMeter" multiplierToSI="1" name="cubicMeter" unitType="volume">
+          <ns2:description>cubic meter</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="g" id="gram" multiplierToSI="0.001" name="gram" parentSI="kilogram" unitType="mass">
+          <ns2:description>0.001 kg</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m" id="meter" multiplierToSI="1" name="meter" unitType="length">
+          <ns2:description>SI unit of length</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

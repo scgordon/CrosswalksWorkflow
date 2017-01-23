@@ -1,0 +1,513 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.35.18" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="35" system="VCR">
+   <alternateIdentifier>VCR97026</alternateIdentifier>
+   <title>Distribution of overwash disturbance on Hog Island of the Virginia Coast Reserve 1974</title>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Lenore</givenName>
+         <surName>Fahrig</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Dept of Biology, Carleton University, 212 TB (Tory Building</deliveryPoint>
+         <city>Ottawa</city>
+         <administrativeArea>ON</administrativeArea>
+         <postalCode>K1S5B6</postalCode>
+         <country>CA</country>
+      </address>
+      <phone phonetype="voice">520-2600 ext 3856</phone>
+      <electronicMailAddress>lenore_fahrig@carleton.ca</electronicMailAddress>
+   </creator>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Bruce</givenName>
+         <surName>Hayden</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-0545</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>bph@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">bhayden</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Robert</givenName>
+         <surName>Dolan</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+      </address>
+      <phone phonetype="voice">(804) 924-3809</phone>
+      <phone phonetype="facsimile">(804) 982-2137</phone>
+      <electronicMailAddress>rd5q@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">rdolan</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>1997-12-31</pubDate>
+   <abstract>
+  <para> Fahrig, L., B. Hayden and R. Dolan 1993. Distribution of barrier island plants in relation to overwash disturbance: A test of life history theory. J. Coastal Research. 9(2):403-412. </para>
+  <para>From lfahrig@ccs.carleton.ca Thu Jun 11 10:22:56 1992</para>
+  <para>I am sending a file that is actually a SAS program for reading in the dataset that I used in the calculations. The columns are:</para>
+  <para><emphasis>map</emphasis>: base map number (i.e., the map number that Dolan/Hayden used for their rectangular blocks of coastline)</para>
+  <para><emphasis>trans</emphasis>: transect number from south to north for that map</para>
+  <para>The remaining columns refer to a point on the transect at which there is a transition between vegetation communities (as defined by McCaffrey and digitized by LTER):</para>
+  <para><emphasis>utm1</emphasis>: first utm co-ord for transition point</para>
+  <para><emphasis>utm2</emphasis>: second utm co-ord for transition point</para>
+  <para><emphasis>unit</emphasis>: unit number for the vegetation community type that we are moving INTO. We are moving along the transect from the sea side to the mainland side of the island. The unit numbers are the numbers that you used when digitizing the map. For example, note that the first observation for every transect has unit number 7 since this is the number for sand.</para>
+  <para><emphasis>Editors note:</emphasis> Vegetation unit number refers to the mapping units used by McCaffrey, C.A. and R.D. Dueser. 1990. Plant associations on the Virginia Barrier Islands. Virginia Journal of Science 41(4A):282-299. The digital versions of the vegetation maps are also available on the VCR LTER information server.</para>
+  <para>Unit numbers are listed below along with the corresponding vegetation class.</para>
+  <para><literalLayout>
+GRID-CODE VEG_CODE VEG_CLASS
+      0        w        Water/background
+      1        A        Foredune Grassland
+      2        G        Dense Grassland
+      3        AG       Beachgrass Dunes/ Dense Grassland Dunes
+      4        g        Sparse Grassland
+      5        Ag       Foredune - Sparse Grassland Complex
+      6        At       Open Dunes - Thicket Complex
+      7        B        Beach
+      8        T        Tall Thicket
+      9        AT       Open Dunes - Thicket Complex
+     10        t        Low Thicket
+     11        J        Juniper Thicket
+     12        P        Pine Forest
+     13        H        Hardwood Forest
+     14        PH       Pine-Hardwood Forest Complex
+     15        m        Low Salt Marsh
+     16        Mm       Upper Low Salt Marsh
+     17        M        Brackish Marsh
+     18        s        Salt Flat
+     19        F        Fresh Marsh
+     20        w        Open Water
+     21        dr       Drift
+     22        b        Submerged Sand
+     23        uw       Underwater Flora (or Fauna)
+     24        peat     "Peat" Outcrops
+     25        wf       Wash Flat
+     26        mf       Mud Flat 
+
+</literalLayout></para>
+  <para><emphasis>dist</emphasis>: distance along the transect (from the sea) in m for that transition point</para>
+  <para><emphasis>prob</emphasis>: index of disturbance probability at that point (method of calculation in the ms)</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keyword keywordType="theme">Erosion</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>HOG - Hog Island, VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.650000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.730000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.460000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.370000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1974-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1974-12-31</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Bruce</givenName>
+         <surName>Hayden</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-0545</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>bph@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">bhayden</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para> See Fahrig, L., B. Hayden and R. Dolan 1993. Distribution of barrier island plants in relation to overwash disturbance: A test of life history theory. J. Coastal Research. 9(2):403-412. </para>
+         </description>
+      </methodStep>
+   </methods>
+   <dataTable>
+      <entityName>VCR97026</entityName>
+      <entityDescription>Distribution of overwash disturbance on Hog Island of the Virginia Coast Reserve 1974</entityDescription>
+      <physical>
+         <objectName>lenore.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>1</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0D#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0D#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.35.18&amp;urlHeadID=2&amp;urlTail=1/VCR97026/VCR97026/lenore.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR97026.MAP">
+            <attributeName>MAP</attributeName>
+            <attributeLabel>base map number (i.e.,map number that Dolan/Hayden used)</attributeLabel>
+            <attributeDefinition>MAP - base map number (i.e.,map number that Dolan/Hayden used)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> base map number (i.e., the map number that Dolan/Hayden used for their rectangular blocks of coastline) </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR97026.TRANS">
+            <attributeName>TRANS</attributeName>
+            <attributeLabel>transect number from south to north for that map</attributeLabel>
+            <attributeDefinition>TRANS - transect number from south to north for that map</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97026.UTM1">
+            <attributeName>UTM1</attributeName>
+            <attributeLabel>first utm co-ord for transition point (zone 18, NAD27)</attributeLabel>
+            <attributeDefinition>UTM1 - first utm co-ord for transition point (zone 18, NAD27)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97026.UTM2">
+            <attributeName>UTM2</attributeName>
+            <attributeLabel>second utm co-ord for transition point</attributeLabel>
+            <attributeDefinition>UTM2 - second utm co-ord for transition point</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR97026.UNIT">
+            <attributeName>UNIT</attributeName>
+            <attributeLabel>Vegetation mapping unit number</attributeLabel>
+            <attributeDefinition>UNIT - Vegetation mapping unit number</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Vegetation mapping unit number</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> unit: unit number for the vegetation community type that we are moving INTO. We are moving along the transect from the sea side to the mainland side of the island. The unit numbers are the numbers that you used when digitizing the map. For example, note that the first observation for every transect has unit number 7 since this is the number for sand. </para>
+  <para>Editors note: Vegetation unit number refers to the mapping units used by McCaffrey, C.A. and R.D. Dueser. 1990. Plant associations on the Virginia Barrier Islands. Virginia Journal of Science 41(4A):282-299. The digital versions of the vegetation maps are also available on the VCR LTER information server.</para>
+  <para>Unit numbers are listed below along with the corresponding vegetation class.</para>
+  <para><literalLayout>
+GRID-CODE VEG_CODE VEG_CLASS
+      0        w        Water/background
+      1        A        Foredune Grassland
+      2        G        Dense Grassland
+      3        AG       Beachgrass Dunes/ Dense Grassland Dunes
+      4        g        Sparse Grassland
+      5        Ag       Foredune - Sparse Grassland Complex
+      6        At       Open Dunes - Thicket Complex
+      7        B        Beach
+      8        T        Tall Thicket
+      9        AT       Open Dunes - Thicket Complex
+     10        t        Low Thicket
+     11        J        Juniper Thicket
+     12        P        Pine Forest
+     13        H        Hardwood Forest
+     14        PH       Pine-Hardwood Forest Complex
+     15        m        Low Salt Marsh
+     16        Mm       Upper Low Salt Marsh
+     17        M        Brackish Marsh
+     18        s        Salt Flat
+     19        F        Fresh Marsh
+     20        w        Open Water
+     21        dr       Drift
+     22        b        Submerged Sand
+     23        uw       Underwater Flora (or Fauna)
+     24        peat     "Peat" Outcrops
+     25        wf       Wash Flat
+     26        mf       Mud Flat 
+
+</literalLayout></para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR97026.DIST">
+            <attributeName>DIST</attributeName>
+            <attributeLabel>distance along the transect</attributeLabel>
+            <attributeDefinition>DIST - distance along the transect</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>meters</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> dist: distance along the transect (from the sea) in m for that transition point </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR97026.PROB">
+            <attributeName>PROB</attributeName>
+            <attributeLabel>index of disturbance
+ probability</attributeLabel>
+            <attributeDefinition>PROB - index of disturbance
+ probability</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">1</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+      </attributeList>
+   </dataTable>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="meters" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-33</weight>
+         <researchTheme>Landscape BI resilience</researchTheme>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

@@ -1,0 +1,2027 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.1035.9" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="1035">
+    <alternateIdentifier>knb-lter-mcr.1035</alternateIdentifier>
+    <shortName>Bottom-Mounted Thermistors</shortName>
+    <title>MCR LTER: Coral Reef: Benthic Water Temperature, ongoing since 2005</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="jleichter">
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Leichter</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Scripps Institution of Oceanography</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>San Diego</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>92093-0227 </postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">858.822.5330</phone>
+      <electronicMailAddress>jleichter@ucsd.edu</electronicMailAddress>
+      <onlineUrl>http://www.sio.ucsd.edu/Profile/jleichter</onlineUrl>
+    </creator>
+    <associatedParty id="kseydel">
+      <individualName>
+        <givenName>Keith</givenName>
+        <surName>Seydel</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Lead Field Technician</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <role>Lead Field Technician</role>
+    </associatedParty>
+    <associatedParty id="cgotschalk">
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Gotschalk</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Data Analyst</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>gots@lifesci.ucsb.edu</electronicMailAddress>
+      <role>Data Analyst</role>
+    </associatedParty>
+    <pubDate>2014-03-06</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>A continuous time series of water temperature is measured with bottom-mounted thermistors at six sites around the shores of Moorea, on the fringing reef, backreef, and forereef. The forereef temperature is recorded at 10, 20, 30 and 40 m, the backreef at 1 m and the fringing reef at 1 and 5 m. SBE 39s are deployed to the forereef and backreef. Onset HOBOs are deployed on the fringing reef. Temperature data are processed and resampled to a 20 minute time step.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Long-term Time Series</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">MCR</keyword>
+      <keyword keywordType="theme">Moorea Coral Reef</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">University of California San Diego</keyword>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Marine</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean Temperature: Water Temperature</keyword>
+      <keywordThesaurus>GCMD Keywords, Version 6.0.0.0.0: EARTH SCIENCE: Oceans:</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Benthic environments</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keyword keywordType="theme">Water Temperature</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Time Series Program</keyword>
+      <keywordThesaurus>MCR Core Activity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Bio-Physical Coupling</keyword>
+      <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public
+				after primary publication, or at most two years after the completion of the study
+				unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+				acceptance of the following conditions: <itemizedlist><listitem><para>1. The user agrees to provide valid name and contact information prior
+							to downloading online data. This information will be used to contact the
+							user in case of changes to the data, and may also be used by data set
+							authors and MCR LTER project administrators to document data
+							usage.</para></listitem><listitem><para>2. The user agrees to cite the data set author and MCR LTER in all
+							publications in which the data are used, as per the instructions in the
+							data documentation. If no specific instructions are provided in the data
+							documentation, the user is requested to include the following statement:
+							"Data sets were provided by the Moorea Coral Reef Ecosystem LTER,
+							funded by the US National Science Foundation (OCE-0417412)."</para></listitem><listitem><para>3. The user agrees to provide one copy of any manuscript based on MCR
+							LTER data to the data set author prior to submitting it for
+							publication.</para></listitem><listitem><para>4. The user agrees to send two hard copies of any published manuscript
+							based on MCR LTER data to the following address: Dr. Andrew J. Brooks
+							Deputy Program Director, MCR LTER Marine Science Institute University of
+							California Santa Barbara, CA 93106-6150 The user also agrees to send one
+							electronic copy (pdf format) to the following e-mail address:
+							brooks@msi.ucsb.edu</para></listitem><listitem><para>5. Users are prohibited from selling or redistributing any data
+							provided by MCR LTER without explicit prior permission.</para></listitem><listitem><para>6. Users are encouraged to contact original investigators responsible
+							for data. Where appropriate, researchers whose projects are integrally
+							dependent on MCR LTER data are encouraged to consider collaboration
+							and/or co-authorship with original investigators.</para></listitem><listitem><para>7. Extensive efforts are made to ensure that online data are accurate
+							and up to date, but the authors and the MCR LTER will not take
+							responsibility for any errors that may exist in data provided online.
+							Furthermore, the user assumes all responsibility for errors in analysis
+							or judgment resulting from use of the data.</para></listitem><listitem><para> 8. Any violation of the terms of this agreement will result in
+							immediate forfeiture of the data and loss of access privileges to other
+							MCR LTER data sets.</para></listitem></itemizedlist>
+			</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcr.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="moorea_generic_box">
+        <geographicDescription>Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_1_poly_for_public">
+        <geographicDescription>LTER 1 polygon including LTER 0 on north shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8455917</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.829821</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.47185366</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48641792</southBoundingCoordinate>
+                    <boundingAltitudes>
+                        <altitudeMinimum>-20.0</altitudeMinimum>
+                        <altitudeMaximum>-1.0</altitudeMaximum>
+                        <altitudeUnits>meter</altitudeUnits>
+        </boundingAltitudes>
+                </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.845591714532,-17.47414056509442 -149.8444519643552,-17.48505989649701 -149.8383270457441,-17.48426840091165 -149.8338147432263,-17.48641791890627 -149.829821007306,-17.48494822551147 -149.8320709284201,-17.4740284807948 -149.832080184047,-17.47322775964911 -149.8320960734944,-17.47185366062079 -149.8453810009447,-17.47265313575251 -149.845591714532,-17.47414056509442</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_2_poly_for_public">
+        <geographicDescription>LTER 2 polygon on north shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8116849</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7961685</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.46576169</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48131958</southBoundingCoordinate>
+                    <boundingAltitudes>
+                        <altitudeMinimum>-30.0</altitudeMinimum>
+                        <altitudeMaximum>-1.0</altitudeMaximum>
+                        <altitudeUnits>meter</altitudeUnits>
+        </boundingAltitudes>
+                </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.8116848616027,-17.46714573056912 -149.8098855542298,-17.48075290854079 -149.8077576500829,-17.48063908230724 -149.8051572586888,-17.48109313281079 -149.8032635045001,-17.47984289373148 -149.802788348976,-17.47893280566117 -149.800666445604,-17.48131957607722 -149.7967627437853,-17.48063739528508 -149.7961685287123,-17.48006903867057 -149.7977614186906,-17.4665681148313 -149.7978767224803,-17.4657616891053 -149.8115671676133,-17.46645490408906 -149.8116848616027,-17.46714573056912</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_3_poly_for_public">
+        <geographicDescription>LTER 3 polygon on southeast shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.7708619</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7519968</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.50382025</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.52087158</southBoundingCoordinate>
+                    <boundingAltitudes>
+                        <altitudeMinimum>-40.0</altitudeMinimum>
+                        <altitudeMaximum>-1.0</altitudeMaximum>
+                        <altitudeUnits>meter</altitudeUnits>
+        </boundingAltitudes>
+                </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.7651175463783,-17.50382025297242 -149.7678423598084,-17.50875380773254 -149.7667902177228,-17.51063544149844 -149.7669457242864,-17.51352653327354 -149.7680022773823,-17.51554750188549 -149.7696581238419,-17.51655737992495 -149.7708619294637,-17.51771051529938 -149.7570438798842,-17.52087157901452 -149.7519967916629,-17.50642816971748 -149.7651175463783,-17.50382025297242</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_4_poly_for_public">
+        <geographicDescription>LTER 4 polygon on southeast shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.7772857</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7566866</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.53305021</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.55064263</southBoundingCoordinate>
+                    <boundingAltitudes>
+                        <altitudeMinimum>-40.0</altitudeMinimum>
+                        <altitudeMaximum>-1.0</altitudeMaximum>
+                        <altitudeUnits>meter</altitudeUnits>
+        </boundingAltitudes>
+                </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.7622436536396,-17.55064263311045 -149.7566865755679,-17.54030521526718 -149.7725152866376,-17.53305020659341 -149.7738607602216,-17.53618639472932 -149.7729632073118,-17.53903159324447 -149.7772857215906,-17.54541678116018 -149.7622436536396,-17.55064263311045</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_5_poly_for_public">
+        <geographicDescription>LTER 5 polygon on southwest shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8869755</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8561009</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.56818162</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.59182383</southBoundingCoordinate>
+                    <boundingAltitudes>
+                        <altitudeMinimum>-20.0</altitudeMinimum>
+                        <altitudeMaximum>-1.0</altitudeMaximum>
+                        <altitudeUnits>meter</altitudeUnits>
+        </boundingAltitudes>
+                </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.8869754806263,-17.5791218519215 -149.8721550223573,-17.59182383151219 -149.8561009265408,-17.58082674989516 -149.857889567124,-17.57926925045853 -149.8629652034573,-17.57586562315693 -149.8697101743941,-17.56818162129872 -149.8869754806263,-17.5791218519215</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_6_poly_for_public">
+        <geographicDescription>LTER 6 polygon on southwest shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.934537</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.9115336</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.50735955</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.52839766</southBoundingCoordinate>
+                    <boundingAltitudes>
+                        <altitudeMinimum>-40.0</altitudeMinimum>
+                        <altitudeMaximum>-1.0</altitudeMaximum>
+                        <altitudeUnits>meter</altitudeUnits>
+        </boundingAltitudes>
+                </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.9345370155986,-17.51082689018308 -149.926650263849,-17.52839766454106 -149.911533605555,-17.52424708128931 -149.9123038125004,-17.521372978089 -149.9121789695375,-17.51762943552821 -149.9138547197788,-17.51474296559537 -149.9153872941645,-17.5112724943681 -149.9163231743256,-17.50735954783784 -149.9345370155986,-17.51082689018308</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005-06-02</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-01-26</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+            <description>
+                <para>This is an ongoing dataset. There is an aproximate 3 month delay between
+                    collection of raw data and the analysis. Public release is not delayed after
+                    data is processed for all depths above 30 m. </para>
+            </description>
+            <maintenanceUpdateFrequency>biannually</maintenanceUpdateFrequency>
+            <changeHistory>
+                <changeScope>data</changeScope>
+                <oldValue>na</oldValue>
+                <changeDate>2012-08-15</changeDate>
+                <comment>New data recieved 2012-02-28, replaces sites 1-6, but not site 0.</comment>
+            </changeHistory>
+            <changeHistory>
+                <changeScope>data</changeScope>
+                <oldValue>na</oldValue>
+                <changeDate>2012-10-24</changeDate>
+                <comment>Bottom mounted thermistor deployments from some sites were found to have been improperly adjusted 
+                    from Moorea Local Time to GMT.  There was a 10 day instead of 10 hour offset applied to many of the first deployments.  
+                    The error appears to have not affected deployments after mid 2006 except for some 30m and 40m 2009 deployments at FOR03 
+                    and FOR06.  Please see item (31) in the MCR_LTER_PhysOcean_processing_log.txt for a detailed list of adjusted data files.</comment>
+            </changeHistory>
+        </maintenance>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Deployment and Maintenance:</title>
+            <para> Thermistors are serviced every 6 months by SCUBA divers for routine
+                            maintenance and to upload data.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>HOBO thermistor technical specifications</para>
+        </description>
+        <protocol>
+          <title>HOBO Pro v2 Water Temperature Data Logger - U22-001</title>
+          <creator>
+            <individualName>
+              <surName>Onset Computer Corporation</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/oceanographyBottomMounted/10366-D-MAN-U22-001.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <instrumentation>64K HOBO Pro v2 Water Temperature Data Logger - U22-001 with a range of -40 to 70 degrees Celsius, manufactured
+                    by Onset Computer Corporation</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>SBE 39 Temperature Recorder technical specifications</para>
+        </description>
+        <protocol>
+          <title>Temperature (&amp;Pressure) Recorder SBE 39</title>
+          <creator>
+            <individualName>
+              <surName>Sea-Bird Electronics, Inc.</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/oceanographyBottomMounted/39brochureJan10.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <instrumentation>64M SeaBird Water Temperature Recorder with a range of -5 to 35 degrees Celsius, manufactured
+                    by Sea-Bird Electronics, Inc.</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Data Handling:</title>
+            <para> Data are filtered and processed to derive calculated data products
+                            and for quality control. Raw data are recorded at a short time interval,
+                            then processed to remove noise and resampled at 3 points per hour.
+                        </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Revisions:</title>
+            
+            <para>Bottom mounted thermistor deployments from some sites were found to
+                            have been improperly adjusted from Moorea Local Time to GMT. There was a
+                            10 day instead of 10 hour offset applied to many of the first
+                            deployments. The error appears to have not affected deployments after
+                            mid 2006 except for some 30m and 40m 2009 deployments at FOR03 and
+                            FOR06. Please see item (31) in the MCR_LTER_PhysOcean_processing_log.txt
+                            for a detailed list of adjusted data files.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) OCE-0417412 and OCE-1026851</para>
+      </funding>
+    </project>
+    <dataTable id="LTER01">
+      <entityName>MCR_LTER01_BottomMountThermistors</entityName>
+      <entityDescription>Temperature data from bottom-mounted thermistors at site LTER 1</entityDescription>
+      <physical>
+        <objectName>MCR_LTER01_BottomMountThermistors_20140306.csv</objectName>
+        <size unit="Mb">32</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1035&amp;entityindex=1</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="site_1">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of field site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER00</code>
+                    <definition>LTER00 is within the LTER 1 public polygon; North shore. LTER00 FOR is 300m west of the FOR01 mooring.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER01</code>
+                    <definition>Within the LTER 1 site; North shore. LTER01 FOR is at the FOR01 mooring.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER02</code>
+                    <definition>Within the LTER 2 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER03</code>
+                    <definition>Within the LTER 3 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER04</code>
+                    <definition>Within the LTER 4 site; Southeast shore. LTER04 FOR is at the FOR04 mooring.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER05</code>
+                    <definition>Within the LTER 5 site; Southwest shore. LTER05 FOR is at the FOR05 mooring.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER06</code>
+                    <definition>Within the LTER 6 site; Southwest shore.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>MCR_LTER_1_poly_for_public</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_local_1">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2005-06-10</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-01-21</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_utc_1">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="reef_type_code_1">
+          <attributeName>reef_type_code</attributeName>
+          <attributeLabel>Reef habitat</attributeLabel>
+          <attributeDefinition>The type of reef habitat: Fringing reef, Backreef, or Forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Frin</code>
+                    <definition>Fringing Reef. Nearest to shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BAK</code>
+                    <definition>Backreef. Toward the island side of the reef crest.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FOR</code>
+                    <definition>Forereef. Faces open ocean.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sensor_type_1">
+          <attributeName>sensor_type</attributeName>
+          <attributeLabel>Sensor Type</attributeLabel>
+          <attributeDefinition>Model of thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>hobo</code>
+                    <definition>HOBO thermistor. Accuracy 0.2 celsius.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sb39</code>
+                    <definition>SeaBird SBE 39 temperature recorder. Accuracy 0.002 celsius.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_1">
+          <attributeName>sensor_depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of thermistor. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_1">
+          <attributeName>temperature_c</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Ambient water temperature, measured with thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+
+                    <accuracy>
+                        <attributeAccuracyReport>http://www.onsetcomp.com/products/data-loggers/u22-001 and http://www.seabird.com/products/spec_sheets/39data.htm</attributeAccuracyReport>
+                        <quantitativeAttributeAccuracyAssessment>
+                            <attributeAccuracyValue>HOBO: +/-0.2 celsius over 0 to 50 celsius and SBE 39: +/-0.002 celsius</attributeAccuracyValue>
+                            <attributeAccuracyExplanation>HOBO: Resolution 0.02 celsius at 20 to 30 celsius and SBE 39: 0.0001 celsius</attributeAccuracyExplanation>
+        </quantitativeAttributeAccuracyAssessment>
+
+                    </accuracy>
+                </attribute>
+      </attributeList>
+      <numberOfRecords>507790</numberOfRecords>
+    </dataTable>
+    <dataTable id="LTER02">
+      <entityName>MCR_LTER02_BottomMountThermistors</entityName>
+      <entityDescription>Temperature data from bottom-mounted thermistors at site LTER 2</entityDescription>
+      <physical>
+        <objectName>MCR_LTER02_BottomMountThermistors_20140306.csv</objectName>
+        <size unit="Mb">65</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1035&amp;entityindex=2</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="site_2">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of field site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER01</code>
+                    <definition>Within the LTER 1 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER02</code>
+                    <definition>Within the LTER 2 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER03</code>
+                    <definition>Within the LTER 3 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER04</code>
+                    <definition>Within the LTER 4 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER05</code>
+                    <definition>Within the LTER 5 site; Southwest shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER06</code>
+                    <definition>Within the LTER 6 site; Southwest shore.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>MCR_LTER_2_poly_for_public</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_local_2">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2005-06-02</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-01-21</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_utc_2">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="reef_type_code_2">
+          <attributeName>reef_type_code</attributeName>
+          <attributeLabel>Reef habitat</attributeLabel>
+          <attributeDefinition>The type of reef habitat: Fringing reef, Backreef, or Forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Frin</code>
+                    <definition>Fringing Reef. Nearest to shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BAK</code>
+                    <definition>Backreef. Toward the island side of the reef crest.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FOR</code>
+                    <definition>Forereef. Faces open ocean.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sensor_type_2">
+          <attributeName>sensor_type</attributeName>
+          <attributeLabel>Sensor Type</attributeLabel>
+          <attributeDefinition>Model of thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>hobo</code>
+                    <definition>HOBO thermistor. Accuracy 0.2 celsius.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sb39</code>
+                    <definition>SeaBird SBE 39 temperature recorder. Accuracy 0.002 celsius.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_2">
+          <attributeName>sensor_depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of thermistor. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_2">
+          <attributeName>temperature_c</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Ambient water temperature, measured with thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1016998</numberOfRecords>
+    </dataTable>
+    <dataTable id="LTER03">
+      <entityName>MCR_LTER03_BottomMountThermistors</entityName>
+      <entityDescription>Temperature data from bottom-mounted thermistors at site LTER 3</entityDescription>
+      <physical>
+        <objectName>MCR_LTER03_BottomMountThermistors_20140306.csv</objectName>
+        <size unit="Mb">65</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1035&amp;entityindex=3</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="site_3">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of field site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER01</code>
+                    <definition>Within the LTER 1 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER02</code>
+                    <definition>Within the LTER 2 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER03</code>
+                    <definition>Within the LTER 3 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER04</code>
+                    <definition>Within the LTER 4 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER05</code>
+                    <definition>Within the LTER 5 site; Southwest shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER06</code>
+                    <definition>Within the LTER 6 site; Southwest shore.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>MCR_LTER_3_poly_for_public</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_local_3">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2005-06-03</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-01-25</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_utc_3">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="reef_type_code_3">
+          <attributeName>reef_type_code</attributeName>
+          <attributeLabel>Reef habitat</attributeLabel>
+          <attributeDefinition>The type of reef habitat: Fringing reef, Backreef, or Forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Frin</code>
+                    <definition>Fringing Reef. Nearest to shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BAK</code>
+                    <definition>Backreef. Toward the island side of the reef crest.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FOR</code>
+                    <definition>Forereef. Faces open ocean.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sensor_type_3">
+          <attributeName>sensor_type</attributeName>
+          <attributeLabel>Sensor Type</attributeLabel>
+          <attributeDefinition>Model of thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>hobo</code>
+                    <definition>HOBO thermistor. Accuracy 0.2 celsius.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sb39</code>
+                    <definition>SeaBird SBE 39 temperature recorder. Accuracy 0.002 celsius.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_3">
+          <attributeName>sensor_depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of thermistor. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_3">
+          <attributeName>temperature_c</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Ambient water temperature, measured with thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1012488</numberOfRecords>
+    </dataTable>
+    <dataTable id="LTER04">
+      <entityName>MCR_LTER04_BottomMountThermistors</entityName>
+      <entityDescription>Temperature data from bottom-mounted thermistors at site LTER 4</entityDescription>
+      <physical>
+        <objectName>MCR_LTER04_BottomMountThermistors_20140306.csv</objectName>
+        <size unit="Mb">66</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1035&amp;entityindex=4</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="site_4">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of field site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER01</code>
+                    <definition>Within the LTER 1 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER02</code>
+                    <definition>Within the LTER 2 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER03</code>
+                    <definition>Within the LTER 3 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER04</code>
+                    <definition>Within the LTER 4 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER05</code>
+                    <definition>Within the LTER 5 site; Southwest shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER06</code>
+                    <definition>Within the LTER 6 site; Southwest shore.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>MCR_LTER_4_poly_for_public</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_local_4">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2006-04-08</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-01-25</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_utc_4">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="reef_type_code_4">
+          <attributeName>reef_type_code</attributeName>
+          <attributeLabel>Reef habitat</attributeLabel>
+          <attributeDefinition>The type of reef habitat: Fringing reef, Backreef, or Forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Frin</code>
+                    <definition>Fringing Reef. Nearest to shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BAK</code>
+                    <definition>Backreef. Toward the island side of the reef crest.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FOR</code>
+                    <definition>Forereef. Faces open ocean.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sensor_type_4">
+          <attributeName>sensor_type</attributeName>
+          <attributeLabel>Sensor Type</attributeLabel>
+          <attributeDefinition>Model of thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>hobo</code>
+                    <definition>HOBO thermistor. Accuracy 0.2 celsius.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sb39</code>
+                    <definition>SeaBird SBE 39 temperature recorder. Accuracy 0.002 celsius.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_4">
+          <attributeName>sensor_depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of thermistor. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_4">
+          <attributeName>temperature_c</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Ambient water temperature, measured with thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+
+                    <accuracy>
+                        <attributeAccuracyReport>http://www.onsetcomp.com/products/data-loggers/u22-001 and http://www.seabird.com/products/spec_sheets/39data.htm</attributeAccuracyReport>
+                        <quantitativeAttributeAccuracyAssessment>
+                            <attributeAccuracyValue>HOBO: +/-0.2 celsius over 0 to 50 celsius and SBE 39: +/-0.002 celsius</attributeAccuracyValue>
+                            <attributeAccuracyExplanation>HOBO: Resolution 0.02 celsius at 20 to 30 celsius and SBE 39: 0.0001 celsius</attributeAccuracyExplanation>
+        </quantitativeAttributeAccuracyAssessment>
+
+                    </accuracy>
+                </attribute>
+      </attributeList>
+      <numberOfRecords>1032328</numberOfRecords>
+    </dataTable>
+    <dataTable id="LTER05">
+      <entityName>MCR_LTER05_BottomMountThermistors</entityName>
+      <entityDescription>Temperature data from bottom-mounted thermistors at site LTER 5</entityDescription>
+      <physical>
+        <objectName>MCR_LTER05_BottomMountThermistors_20140306.csv</objectName>
+        <size unit="Mb">51</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1035&amp;entityindex=5</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="site_5">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of field site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER01</code>
+                    <definition>Within the LTER 1 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER02</code>
+                    <definition>Within the LTER 2 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER03</code>
+                    <definition>Within the LTER 3 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER04</code>
+                    <definition>Within the LTER 4 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER05</code>
+                    <definition>Within the LTER 5 site; Southwest shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER06</code>
+                    <definition>Within the LTER 6 site; Southwest shore.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>MCR_LTER_5_poly_for_public</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_local_5">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2006-04-09</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-01-23</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_utc_5">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="reef_type_code_5">
+          <attributeName>reef_type_code</attributeName>
+          <attributeLabel>Reef habitat</attributeLabel>
+          <attributeDefinition>The type of reef habitat: Fringing reef, Backreef, or Forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Frin</code>
+                    <definition>Fringing Reef. Nearest to shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BAK</code>
+                    <definition>Backreef. Toward the island side of the reef crest.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FOR</code>
+                    <definition>Forereef. Faces open ocean.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sensor_type_5">
+          <attributeName>sensor_type</attributeName>
+          <attributeLabel>Sensor Type</attributeLabel>
+          <attributeDefinition>Model of thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>hobo</code>
+                    <definition>HOBO thermistor. Accuracy 0.2 celsius.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sb39</code>
+                    <definition>SeaBird SBE 39 temperature recorder. Accuracy 0.002 celsius.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_5">
+          <attributeName>sensor_depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of thermistor. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_5">
+          <attributeName>temperature_c</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Ambient water temperature, measured with thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+
+                    <accuracy>
+                        <attributeAccuracyReport>http://www.onsetcomp.com/products/data-loggers/u22-001 and http://www.seabird.com/products/spec_sheets/39data.htm</attributeAccuracyReport>
+                        <quantitativeAttributeAccuracyAssessment>
+                            <attributeAccuracyValue>HOBO: +/-0.2 celsius over 0 to 50 celsius and SBE 39: +/-0.002 celsius</attributeAccuracyValue>
+                            <attributeAccuracyExplanation>HOBO: Resolution 0.02 celsius at 20 to 30 celsius and SBE 39: 0.0001 celsius</attributeAccuracyExplanation>
+        </quantitativeAttributeAccuracyAssessment>
+
+                    </accuracy>
+                </attribute>
+      </attributeList>
+      <numberOfRecords>802956</numberOfRecords>
+    </dataTable>
+    <dataTable id="LTER06">
+      <entityName>MCR_LTER06_BottomMountThermistors</entityName>
+      <entityDescription>Temperature data from bottom-mounted thermistors at site LTER 6</entityDescription>
+      <physical>
+        <objectName>MCR_LTER06_BottomMountThermistors_20140306.csv</objectName>
+        <size unit="Mb">59</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1035&amp;entityindex=6</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="site_6">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of field site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER01</code>
+                    <definition>Within the LTER 1 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER02</code>
+                    <definition>Within the LTER 2 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER03</code>
+                    <definition>Within the LTER 3 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER04</code>
+                    <definition>Within the LTER 4 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER05</code>
+                    <definition>Within the LTER 5 site; Southwest shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER06</code>
+                    <definition>Within the LTER 6 site; Southwest shore.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>MCR_LTER_6_poly_for_public</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_local_6">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2005-08-16</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-01-23</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_utc_6">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="reef_type_code_6">
+          <attributeName>reef_type_code</attributeName>
+          <attributeLabel>Reef habitat</attributeLabel>
+          <attributeDefinition>The type of reef habitat: Fringing reef, Backreef, or Forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Frin</code>
+                    <definition>Fringing Reef. Nearest to shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BAK</code>
+                    <definition>Backreef. Toward the island side of the reef crest.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FOR</code>
+                    <definition>Forereef. Faces open ocean.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sensor_type_6">
+          <attributeName>sensor_type</attributeName>
+          <attributeLabel>Sensor Type</attributeLabel>
+          <attributeDefinition>Model of thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>hobo</code>
+                    <definition>HOBO thermistor. Accuracy 0.2 celsius.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sb39</code>
+                    <definition>SeaBird SBE 39 temperature recorder. Accuracy 0.002 celsius.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_6">
+          <attributeName>sensor_depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of thermistor. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_6">
+          <attributeName>temperature_c</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Ambient water temperature, measured with thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+
+                    <accuracy>
+                        <attributeAccuracyReport>http://www.onsetcomp.com/products/data-loggers/u22-001 and http://www.seabird.com/products/spec_sheets/39data.htm</attributeAccuracyReport>
+                        <quantitativeAttributeAccuracyAssessment>
+                            <attributeAccuracyValue>HOBO: +/-0.2 celsius over 0 to 50 celsius and SBE 39: +/-0.002 celsius</attributeAccuracyValue>
+                            <attributeAccuracyExplanation>HOBO: Resolution 0.02 celsius at 20 to 30 celsius and SBE 39: 0.0001 celsius</attributeAccuracyExplanation>
+        </quantitativeAttributeAccuracyAssessment>
+
+                    </accuracy>
+                </attribute>
+      </attributeList>
+      <numberOfRecords>924264</numberOfRecords>
+    </dataTable>
+    <dataTable id="LTER00">
+      <entityName>MCR_LTER00_BottomMountThermistors</entityName>
+      <entityDescription>Temperature data from bottom-mounted thermistors at site LTER 0</entityDescription>
+      <physical>
+        <objectName>MCR_LTER00_BottomMountThermistors_20140306.csv</objectName>
+        <size unit="Mb">18</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1035&amp;entityindex=7</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="site_0">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of field site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER00</code>
+                    <definition>LTER00 is within the LTER 1 public polygon; North shore. LTER00 FOR is 300m west of the FOR01 mooring.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER01</code>
+                    <definition>Within the LTER 1 site; North shore. LTER01 FOR is at the FOR01 mooring.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER02</code>
+                    <definition>Within the LTER 2 site; North shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER03</code>
+                    <definition>Within the LTER 3 site; Southeast shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER04</code>
+                    <definition>Within the LTER 4 site; Southeast shore. LTER04 FOR is at the FOR04 mooring.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER05</code>
+                    <definition>Within the LTER 5 site; Southwest shore. LTER05 FOR is at the FOR05 mooring.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER06</code>
+                    <definition>Within the LTER 6 site; Southwest shore.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>MCR_LTER_1_poly_for_public</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_local_0">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Moorea local time</attributeLabel>
+          <attributeDefinition>Moorea local time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2010-03-13</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2011-07-15</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="date_time_utc_0">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>Time UTC</attributeLabel>
+          <attributeDefinition>UTC time string (YYYY-MM-DD hh:mm:ss) at start of bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="reef_type_code_0">
+          <attributeName>reef_type_code</attributeName>
+          <attributeLabel>Reef habitat</attributeLabel>
+          <attributeDefinition>The type of reef habitat: Fringing reef, Backreef, or Forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Frin</code>
+                    <definition>Fringing Reef. Nearest to shore.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BAK</code>
+                    <definition>Backreef. Toward the island side of the reef crest.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FOR</code>
+                    <definition>Forereef. Faces open ocean.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="sensor_type_0">
+          <attributeName>sensor_type</attributeName>
+          <attributeLabel>Sensor Type</attributeLabel>
+          <attributeDefinition>Model of thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>hobo</code>
+                    <definition>HOBO thermistor. Accuracy 0.2 celsius.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sb39</code>
+                    <definition>SeaBird SBE 39 temperature recorder. Accuracy 0.002 celsius.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_0">
+          <attributeName>sensor_depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of thermistor. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_0">
+          <attributeName>temperature_c</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>Ambient water temperature, measured with thermistor.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <accuracy>
+                        <attributeAccuracyReport>http://www.onsetcomp.com/products/data-loggers/u22-001 and http://www.seabird.com/products/spec_sheets/39data.htm</attributeAccuracyReport>
+                        <quantitativeAttributeAccuracyAssessment>
+                            <attributeAccuracyValue>HOBO: +/-0.2 celsius over 0 to 50 celsius and SBE 39: +/-0.002 celsius</attributeAccuracyValue>
+                            <attributeAccuracyExplanation>HOBO: Resolution 0.02 celsius at 20 to 30 celsius and SBE 39: 0.0001 celsius</attributeAccuracyExplanation>
+
+                        </quantitativeAttributeAccuracyAssessment>
+
+           </accuracy>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>280874</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="C" constantToSI="273.18" id="celsius" multiplierToSI="1" name="celsius" parentSI="kelvin">
+          <ns2:description>A common unit of temperature</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m" id="meter" multiplierToSI="1" name="meter" unitType="length">
+          <ns2:description>SI unit of length</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

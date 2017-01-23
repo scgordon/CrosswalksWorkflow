@@ -1,0 +1,658 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.145.8" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF145">
+      <alternateIdentifier>HF145</alternateIdentifier>
+      <title>Hydrocarbon Concentrations at Harvard Forest EMS Tower 1992-2001</title>
+      <creator>
+         <individualName>
+            <givenName>William</givenName>
+            <surName>Munger</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Steven</givenName>
+            <surName>Wofsy</surName>
+         </individualName>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Allen</givenName>
+            <surName>Goldstein</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Ben</givenName>
+            <surName>Lee</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2009</pubDate>
+      <abstract>
+         <section>
+            <para>Hydrocarbons are products of incomplete combustion and also emitted by vegetation. Hydrocarbons are important precursors for photochemical ozone formation. A system to quantify concentrations of several low-molecular weight hydrocarbons was installed at the EMS tower in the summer of 1992. The measurements were intended to help resolve questions about the potential reactivity in rural New England atmosphere and identify and quantify biogenic hydrocarbon emissions. </para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>air pollution</keyword>
+         <keyword>hydrocarbons</keyword>
+         <keyword>organic carbon</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>primary production</keyword>
+         <keyword>inorganic nutrients</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf145</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.171478 </westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.171478 </eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.537755 </northBoundingCoordinate>
+               <southBoundingCoordinate>+42.537755 </southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>340</altitudeMinimum>
+                  <altitudeMaximum>340</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1992-07-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2001-10-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>J. William</givenName>
+            <surName>Munger</surName>
+         </individualName>
+         <organizationName>Harvard University</organizationName>
+         <address>
+            <deliveryPoint>DEAS</deliveryPoint>
+            <deliveryPoint>29 Oxford Street</deliveryPoint>
+            <city>Cambridge</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>02138</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(617) 495-5361</phone>
+         <electronicMailAddress>jwm@io.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Air was drawn continuously from two inlets (24 and 29 m).  Samples for analysis were extracted from the inlet lines, and passed through glass cold traps at -20 C and  Ascarite II (Thomas Scientific) traps to remove H2O, O3, and CO2.  Samples were  cryogenically preconcentrated on dual traps (40 ml min-1 of air for 10 minutes onto fused  silica lined 1/16" OD stainless steel tube, Silcosteel), and injected into a gas  chromatograph with dual Flame Ionization Detectors (Hewlett Packard 5890 series II). Chromatographic separation was accomplished using 30 meter PLOT GS-Alumina Megabore capillary columns (J+W Scientific). Every fifth pair of samples was taken from the same altitude (29 m) by switching a valve near the inlet of the 24 m sampling line in order to determine the NULL for the observed concentration gradient. The measurement system could operate continuously and unattended for more than two weeks, although data were normally downloaded at six day intervals. Concentrations for most hydrocarbons were determined using relative response referenced to an internal neohexane standard (Scott-Marrin, NIST traceable * 2%) added to every sample near the sample inlet by dynamic dilution. Response factors for isoprene were determined from dynamic dilution of isoprene standards (Scott-Marrin, NIST traceable * 2%) added to ambient air samples near the sample inlet periodically from May to November 1995.</para>
+                  <para>The accuracy of the system was estimated to be better than * 18% for hexane and for hydrocarbons eluting before hexane, based on the cumulative uncertainty of the neohexane standard, measurements of standard addition flows, the integrity of individual compounds in the sampling and analysis process, and relative response factors. Accuracy of the isoprene measurements was estimated to be better than * 8% (more accurate than other species because the uncertainty of the relative response factor was eliminated).  Measurement precision was approximately 3% at 1 ppbv, 5% at 0.5 ppbv, 10% at 0.2 ppbv, and 20% for concentrations less than 0.1 ppbv, as determined by the variance between measurements taken from the same level every fifth injection. The detection limit for these compounds was approximately 0.01 ppbv.</para>
+                  <para>The analytical system was checked for contamination daily by running zero-air blanks. In addition, the Teflon sampling tubes were checked for contamination and memory effects by introducing zero-air at the sample inlets on top of the tower. No contamination or memory effects were detected for isoprene.</para>
+                  <para>Concentration gradients of CO2 were measured simultaneously with the hydrocarbon gradients using a differential infrared gas analyzer (LICOR 6251), with air from 29 meters passed through the reference cell and air from 24 meters through the sample cell. Water vapor was removed from the air samples using nafion dryers, and the samples were assumed to be at a common temperature before analyzing for CO2. The NULL gradient was measured after every sampling period by filling both cells with air from 29 meters. Instrument gain was determined by standard addition of CO2 selectively to both the sample and reference air. The standard deviations of the zero gradient measurements were determined by comparing the NULL gradient measured every fifth sampling period (when hydrocarbon NULL gradients were determined) to the zero measurement directly following that period. The standard deviation in the zero measurements for CO2 (0.18 ppm) was much greater than 20 % of the mean midday gradients (-0.9 ppm CO2). Flux determinations were not attempted when observed gradients were very small, i.e. within 1 standard deviation of zero. The CO2 fluxes and gradients, and all the NMHC measurements are reported as mole fractions relative to dry air at a common temperature, avoiding the need for density corrections due to gradients in temperature or H2O. </para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf145-01">
+         <entityName>hf145-01-hydrocarbon.csv</entityName>
+         <entityDescription>hydrocarbons</entityDescription>
+         <physical id="1244640849575">
+            <objectName>hf145-01-hydrocarbon.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p14/hf145/hf145-01-hydrocarbon.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1244640850434">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1244640850450">
+               <attributeName>Day</attributeName>
+               <attributeDefinition>day of year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>DDD</formatString>
+                     <dateTimePrecision>0.001</dateTimePrecision>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1244640850466">
+               <attributeName>ethane</attributeName>
+               <attributeDefinition>concentration of ethane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850481">
+               <attributeName>ethene</attributeName>
+               <attributeDefinition>concentration of ethene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850497">
+               <attributeName>propane</attributeName>
+               <attributeDefinition>concentration of propane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850512">
+               <attributeName>propene</attributeName>
+               <attributeDefinition>concentration of propene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850528">
+               <attributeName>isobutane</attributeName>
+               <attributeDefinition>concentration of isobutane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850544">
+               <attributeName>butane</attributeName>
+               <attributeDefinition>concentration of butane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850559">
+               <attributeName>acetylene</attributeName>
+               <attributeDefinition>concentration of acetylene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850575">
+               <attributeName>1-butene</attributeName>
+               <attributeDefinition>concentration of 1-butene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850591">
+               <attributeName>cyclopentane</attributeName>
+               <attributeDefinition>concentration of cyclopentane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850606">
+               <attributeName>2-methylbutane</attributeName>
+               <attributeDefinition>concentration of 2-methylbutane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850622">
+               <attributeName>pentane</attributeName>
+               <attributeDefinition>concentration of pentane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850637">
+               <attributeName>1;3-butadiene</attributeName>
+               <attributeDefinition>concentration of 1;3-butadiene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850653">
+               <attributeName>propyne</attributeName>
+               <attributeDefinition>concentration of propyne in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850669">
+               <attributeName>3-methyl-1-butene</attributeName>
+               <attributeDefinition>concentration of 3-methyl-1-butene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850684">
+               <attributeName>t-2-pentene</attributeName>
+               <attributeDefinition>concentration of t-2-pentene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850700">
+               <attributeName>2-methyl-2-butene</attributeName>
+               <attributeDefinition>concentration of 2-methyl-2-butene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850716">
+               <attributeName>cyclohexane</attributeName>
+               <attributeDefinition>concentration of cyclohexane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850731">
+               <attributeName>methylcyclopentane</attributeName>
+               <attributeDefinition>concentration of methylcyclopentane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850747">
+               <attributeName>hexane</attributeName>
+               <attributeDefinition>concentration of hexane in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1244640850762">
+               <attributeName>isoprene</attributeName>
+               <attributeDefinition>concentration of isoprene in parts per billion by volume (ppbv)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.00001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>52155</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf145-02">
+         <entityName>hf145-02-isoprene.csv</entityName>
+         <entityDescription>isoprene</entityDescription>
+         <physical id="1244641018232">
+            <objectName>hf145-02-isoprene.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p14/hf145/hf145-02-isoprene.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1244641019982">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1244641019998">
+               <attributeName>Day</attributeName>
+               <attributeDefinition>day of year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>DDD</formatString>
+                     <dateTimePrecision>0.001</dateTimePrecision>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1244641020014">
+               <attributeName>FIsop</attributeName>
+               <attributeDefinition>isoprene flux</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>micromolePerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>3871</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>atmosphere</researchTopic>
+            <studyType>long-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Project Website">http://atmos.seas.harvard.edu/lab/</url>
+            <url name="Canopy-Atmosphere Exchange of Carbon, Water and Energy at Harvard Forest EMS Tower since 1991">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf004</url>
+            <url name="Concentrations and Surface Exchange of Air Pollutants at Harvard Forest EMS Tower since 1990">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf066</url>
+            <url name="CFCs and Radiatively Important Trace Species at Harvard Forest EMS Tower 1996-2005">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf067</url>
+            <url name="EMS - Methane Data">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf060</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <ns2:unitList convention="CML">
+            <ns2:unit constantToSI="0.0" id="micromolePerMeterSquaredPerHour" multiplierToSI="0.000000000277777778" name="micromolePerMeterSquaredPerHour" parentSI="molePerMeterSquaredPerSecond" unitType="arealMassDensityRate" />
+         </ns2:unitList>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

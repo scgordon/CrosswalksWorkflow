@@ -1,0 +1,1512 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.2005.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=MCM,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset>
+		<shortName>glcrweq</shortName>
+		<title>McMurdo Dry Valleys Glacier Mass Balance Summaries</title>
+		<creator>
+			<individualName>
+				<givenName>Andrew</givenName>
+				<givenName>G.</givenName>
+				<surName>Fountain</surName>
+			</individualName>
+			<address>
+				<deliveryPoint>  Department of Geology</deliveryPoint>
+				<deliveryPoint> 17 Cramer Hall</deliveryPoint>
+				<deliveryPoint> 1721 SW Broadway</deliveryPoint>
+				<deliveryPoint>   Portland State University </deliveryPoint>
+				<city>Portland</city>
+				<administrativeArea>OR</administrativeArea>
+				<postalCode> 97207-0751
+            </postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">(503)725-3022</phone>
+			<electronicMailAddress>fountaina@pdx.edu</electronicMailAddress>
+		</creator>
+		<metadataProvider>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</metadataProvider>
+		<associatedParty>
+			<individualName>
+				<givenName>Hassan</givenName>
+				<surName>Basagic</surName>
+			</individualName>
+			<address>
+				<deliveryPoint> Department of Geology</deliveryPoint>
+				<deliveryPoint>   Portland State University </deliveryPoint>
+				<city>Portland</city>
+				<administrativeArea>OR</administrativeArea>
+				<postalCode> 97207-0751
+            </postalCode>
+				<country>USA</country>
+			</address>
+			<electronicMailAddress>basagic@pdx.edu</electronicMailAddress>
+			<role>Associated Researcher</role>
+		</associatedParty>
+		<abstract>
+			<section>
+				<para>As part of the Long Term Ecological Research (LTER) project in the McMurdo Dry Valleys 
+of Antarctica, a systematic sampling program has been undertaken to monitor mass balance and meltwater flow 
+from the Taylor Valley glaciers. This dataset contains mass balance changes at each stake measured on the 
+glaciers of Taylor Valley. The values are the result of an analysis of the raw data presented in other data files
+(glacier stake heights and snow depths, and glacier snow densities). Included here for each stake is the total 
+ water equivalent mass change. The standard deviation or the range for each total is given.
+</para>
+			</section>
+		</abstract>
+		<keywordSet>
+			<keyword keywordType="theme"> glacier</keyword>
+			<keyword keywordType="theme"> mass balance</keyword>
+			<keyword keywordType="theme"> water equivalent</keyword>
+			<keyword keywordType="theme"> Antarctica</keyword>
+			<keyword keywordType="theme"> McMurdo Dry Valleys</keyword>
+			<keyword keywordType="theme"> dry valleys</keyword>
+			<keyword keywordType="place">McMurdo Dry Valleys</keyword>
+			<keyword keywordType="theme">MCM</keyword>
+		</keywordSet>
+		<additionalInfo>
+			<section>
+				<title>A Note about measurement timing</title>
+				<para>
+					<literalLayout> The goal of each summer season is to take measurements in early spring (Oct/Nov) and
+                    late summer (late January). This provides a measure of seasonal winter/summer changes of glacier mass.
+                    In some circumstances we have the opportunity or need to measure the glaciers in mid-season (Dec). 
+                    View the dates the measurements were made at the following URL: http://www.mcmlter.org/data/glaciers/timing/weqdates.pdf
+                </literalLayout>
+				</para>
+			</section>
+			<section>
+				<title>A Note about Stake names</title>
+				<para>
+					<literalLayout> A stake with an H or V indicates a stake along the ice cliff that forms the boundary of the 
+                    glacier terminus. An H is a horizontal stake placed into the vertical wall of the glacier terminus, and V 
+                    is a stake placed into the ice apron at the base of the ice cliff. The vertical stakes were installed to 
+                    support the horizontal stakes and provide a nearby measure of ablation for a surface with a much 
+                    different slope.
+                </literalLayout>
+				</para>
+			</section>
+			<section>
+				<title>A Note about Standard Deviation Calculations</title>
+				<para>
+					<literalLayout> During the early years only one or two measurements of surface height were taken at 
+                    each stake. If two measurements were taken, the average was used and the range expressed as
+                    the error; note of this was made in "comments" field. If greater than 2 measurements of surface 
+                    height and snow depth were taken, standard deviation of Total WEQ Change was based on a 
+                    calculation of errors.</literalLayout>
+				</para>
+			</section>
+			<section>
+				<title>Notes</title>
+				<para>
+					<literalLayout> Data contained in these files has been subjected to quality control standards
+                    imposed by the investigator. The user of this data should be aware that, while efforts have
+                    been taken to ensure that these data are of the highest quality, there is no guarantee of
+                    perfection for the data contained herein and the possibility of errors exists. If you
+                    encounter questionable data, please contact the MCM LTER data manager so that the 
+                    data can be corrected or qualified. Thus, these data may be modified
+                    and future data will be appended.</literalLayout>
+				</para>
+			</section>
+		</additionalInfo>
+		<intellectualRights>
+			<section>
+				<title>MCM LTER data may be used freely with the following restrictions:</title>
+				<para>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<literalLayout>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions. </literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications.</literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>A copy of any resultant publications should be sent to the McMurdo data manager and principal investigator.</literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>The end-user follow the guidelines set forth in the LTER Network Data Access Policy, Data Access Requirements, and General Data Use Agreement found at http://www.mcmlter.org/data_guidelines.htm</literalLayout>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</para>
+			</section>
+		</intellectualRights>
+		<distribution>
+			<online>
+				<connectionDefinition>
+					<schemeName>http://www.mcmlter.org/queries/glacier_results.jsp</schemeName>
+					<description>
+						<para>
+							<literalLayout> You can build your own query for to retrieve Mass Balance summaries for all glaciers using the URL
+                            http://www.mcmlter.org/queries/glacier_results.jsp and the described parameters below, or you can just
+                            visit the URL http://www.mcmlter.org/queries/glacier_queries.jsp and simply use the online form to build your
+                            own glacier query for all the availabe glaciers and parameters (ie. average stake height, stake height,  snow depth,
+                            snow and ice mass changes, snow density, mass balance summary). Using the form is the easiest method. </literalLayout>
+						</para>
+						<para>
+							<literalLayout> Here is an example to query for the mass balance summary from December 1998 to
+                           January 2000 on Taylor Glacier:
+                            http://www.mcmlter.org/queries/glacier_results.jsp?begDate=12/01/1998&amp;endDate=01/01/2000&amp;metStation=TAY&amp;dataType=WEQ
+                        </literalLayout>
+						</para>
+						<para>
+							<literalLayout>variable (dataType) abbreviations for glacier data:</literalLayout>
+						</para>
+						<para>
+							<itemizedlist>
+								<listitem>
+									<para>
+										<literalLayout>AVGLSTK (Average Stake Height)</literalLayout>
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<literalLayout>GLSNDPT (Snow Depths)</literalLayout>
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<literalLayout>GLSTKHT (Stake Heights)</literalLayout>
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<literalLayout>MSCHNG (Snow and Ice Mass Changes)</literalLayout>
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<literalLayout>SNWDNS (Snow Densities)</literalLayout>
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<literalLayout>WEQ (Mass Balance Summary)</literalLayout>
+									</para>
+								</listitem>
+							</itemizedlist>
+						</para>
+					</description>
+					<parameterDefinition>
+						<name>begDate</name>
+						<definition>Desired begin date for the data, use format MM/DD/YYYY</definition>
+					</parameterDefinition>
+					<parameterDefinition>
+						<name>endDate</name>
+						<definition>Desired End Date for the data query</definition>
+					</parameterDefinition>
+					<parameterDefinition>
+						<name>metStation</name>
+						<definition>This is the shorthand code for the name of the glacier, as follows: Canada=CAN, Commonwealth=COM, Howard=HOW, Hughes=HUGH, 
+                    Suess=SUES, Taylor=TAY</definition>
+					</parameterDefinition>
+					<parameterDefinition>
+						<name>dataType</name>
+						<definition>variable abbreviation for the parameter of interest, such as snow and ice mass changes, or mass balance summaries. 
+                        For a list of the used abbreviations, see the abbreviation section above</definition>
+					</parameterDefinition>
+				</connectionDefinition>
+			</online>
+		</distribution>
+		<coverage>
+			<geographicCoverage>
+				<geographicDescription>  Data was collected from the Canada,
+Commonwealth, Howard, Hughes, Suess and Taylor glaciers, located
+in the Taylor Valley of Antarctica. Specific latitudes, longitudes, and
+elevations of the stakes from which information was gathered can be
+found in the glacier stake locations file.
+</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>162</westBoundingCoordinate>
+					<eastBoundingCoordinate>163.6</eastBoundingCoordinate>
+					<northBoundingCoordinate>-77.2</northBoundingCoordinate>
+					<southBoundingCoordinate>-77.8</southBoundingCoordinate>
+					<boundingAltitudes>
+						<altitudeMinimum>0</altitudeMinimum>
+						<altitudeMaximum>2000</altitudeMaximum>
+						<altitudeUnits>meter</altitudeUnits>
+					</boundingAltitudes>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage>
+				<rangeOfDates>
+					<beginDate>
+						<calendarDate>1993</calendarDate>
+					</beginDate>
+					<endDate>
+						<calendarDate>2013</calendarDate>
+					</endDate>
+				</rangeOfDates>
+			</temporalCoverage>
+		</coverage>
+		<maintenance>
+			<description>
+				<section>
+					<para>
+						<literalLayout>
+                        Data for the glacier mass balance summaries was submitted by Andrew G. Fountain to the data 
+                        manager in August, 1997. The column showing "file name" identifies the original file containing that 
+                        record. These are ascii text files and can be found on the PC in the McMurdo LTER data manager's 
+                        office at INSTAAR. Once submitted to INSTAAR, the data manager used Microsoft Excel and Access
+                        software to produce files that were in more of a relational mode.
+                        
+                        In March, 2000, Thomas Nylen revised the existing data, and added new data from the more recent 
+                        seasons. Instead of lumping all of the mass balance results for each glacier under one file, they were
+                        separated into files for each glacier. Results for Hughes and Suess glaciers were also added. Metadata
+                        fields were also completed at this time.
+                        
+                        In April, 2000, Denise Steigerwald added fields for dataset code and glstkid. Dataset code would allow 
+                        the data to be linked to the metadata in a relational database. Glstkid is a code that ties stake records to
+                        points on a GIS base map being developed by Michael Prentice at the University of New Hampshire.     
+                    </literalLayout>
+					</para>
+				</section>
+			</description>
+		</maintenance>
+		<contact>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</contact>
+		<publisher>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</publisher>
+		<methods>
+			<methodStep>
+				<description>
+					<para>
+						<literalLayout> The methods of data collection are described in the glacier stake heights, snow depths and  glacier snow density 
+metadata files. To convert the data to mass values, the total change in ice  height (usually negative) and snow height (depth for snow covered ice) 
+at each stake are multiplied by their respective densities. The density for ice is 0.9 g/cm3 and the density for snow is measured in nearby snowpits.
+The final error of the mass balance measurement is based on the errors in the stake heights and snow depths found by replicated measurements.
+The errors were carried through the calculations based on Baird, D.C., 1962. Experimentation: An Introduction to Measurement Theory and Experiment
+Design. Prentice Hall, Englewood. We assume no error in the snow density measurements.
+</literalLayout>
+					</para>
+				</description>
+			</methodStep>
+		</methods>
+		
+		<dataTable>
+			<entityName>COM_WEQUnits_and_Column_Descriptions</entityName>
+			<physical>
+				<objectName>COM_WEQUnits_and_Column_Descriptions</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>27</numHeaderLines>
+						<numFooterLines>1</numFooterLines>
+						<recordDelimiter>\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/993&amp;endDate=04/01/2994&amp;metStation=COM&amp;dataType=WEQ</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>DATASET CODE</attributeName>
+					<attributeDefinition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>GLACIER</attributeName>
+					<attributeDefinition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STAKE</attributeName>
+					<attributeDefinition> Unique number for each stake on glacier</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition> Unique number for each stake on glacier</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>PERIOD COVERED</attributeName>
+					<attributeDefinition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STARTING DATE</attributeName>
+					<attributeDefinition>  BEGINNING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>ENDING DATE</attributeName>
+					<attributeDefinition>  ENDING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY </formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ</attributeName>
+					<attributeDefinition>  TOTAL MASS IN TERMS OF WATER EQUIVALENT (SUM OF ICE WEQ AND SNOW WEQ; ICE DENSITY = 0.9g/Cm3)</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>Cm3/Cm2</customUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0</minimum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code> NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ_STD_DEV</attributeName>
+					<attributeDefinition> STANDARD DEVIATION OF WEQ</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>CmWEQ</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>COMMENTS</attributeName>
+					<attributeDefinition>  NOTES ON WATER EQUIVALENT MEASUREMENTS</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>NOTES ON WATER EQUIVALENT MEASUREMENTS</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>GLSTKID</attributeName>
+					<attributeDefinition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>FILE NAME</attributeName>
+					<attributeDefinition>  RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  RAW DATA FILE CONTAINING INFORMATION</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+		</dataTable>
+		
+				<dataTable>
+			<entityName>HOW_WEQUnits_and_Column_Descriptions</entityName>
+			<physical>
+				<objectName>hOW_WEQUnits_and_Column_Descriptions</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>27</numHeaderLines>
+						<numFooterLines>1</numFooterLines>
+						<recordDelimiter>\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/993&amp;endDate=04/01/2994&amp;metStation=HOW&amp;dataType=WEQ</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>DATASET CODE</attributeName>
+					<attributeDefinition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>GLACIER</attributeName>
+					<attributeDefinition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STAKE</attributeName>
+					<attributeDefinition> Unique number for each stake on glacier</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition> Unique number for each stake on glacier</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>PERIOD COVERED</attributeName>
+					<attributeDefinition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STARTING DATE</attributeName>
+					<attributeDefinition>  BEGINNING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>ENDING DATE</attributeName>
+					<attributeDefinition>  ENDING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY </formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ</attributeName>
+					<attributeDefinition>  TOTAL MASS IN TERMS OF WATER EQUIVALENT (SUM OF ICE WEQ AND SNOW WEQ; ICE DENSITY = 0.9g/Cm3)</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>Cm3/Cm2</customUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0</minimum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code> NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ_STD_DEV</attributeName>
+					<attributeDefinition> STANDARD DEVIATION OF WEQ</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>CmWEQ</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>COMMENTS</attributeName>
+					<attributeDefinition>  NOTES ON WATER EQUIVALENT MEASUREMENTS</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>NOTES ON WATER EQUIVALENT MEASUREMENTS</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>GLSTKID</attributeName>
+					<attributeDefinition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>FILE NAME</attributeName>
+					<attributeDefinition>  RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  RAW DATA FILE CONTAINING INFORMATION</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+		</dataTable>
+		
+				<dataTable>
+			<entityName>SUES_WEQUnits_and_Column_Descriptions</entityName>
+			<physical>
+				<objectName>SUES_WEQUnits_and_Column_Descriptions</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>27</numHeaderLines>
+						<numFooterLines>1</numFooterLines>
+						<recordDelimiter>\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/993&amp;endDate=04/01/2994&amp;metStation=SUES&amp;dataType=WEQ</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>DATASET CODE</attributeName>
+					<attributeDefinition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>GLACIER</attributeName>
+					<attributeDefinition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STAKE</attributeName>
+					<attributeDefinition> Unique number for each stake on glacier</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition> Unique number for each stake on glacier</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>PERIOD COVERED</attributeName>
+					<attributeDefinition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STARTING DATE</attributeName>
+					<attributeDefinition>  BEGINNING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>ENDING DATE</attributeName>
+					<attributeDefinition>  ENDING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY </formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ</attributeName>
+					<attributeDefinition>  TOTAL MASS IN TERMS OF WATER EQUIVALENT (SUM OF ICE WEQ AND SNOW WEQ; ICE DENSITY = 0.9g/Cm3)</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>Cm3/Cm2</customUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0</minimum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code> NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ_STD_DEV</attributeName>
+					<attributeDefinition> STANDARD DEVIATION OF WEQ</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>CmWEQ</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>COMMENTS</attributeName>
+					<attributeDefinition>  NOTES ON WATER EQUIVALENT MEASUREMENTS</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>NOTES ON WATER EQUIVALENT MEASUREMENTS</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>GLSTKID</attributeName>
+					<attributeDefinition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>FILE NAME</attributeName>
+					<attributeDefinition>  RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  RAW DATA FILE CONTAINING INFORMATION</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+		</dataTable>
+		
+				<dataTable>
+			<entityName>CAN_WEQUnits_and_Column_Descriptions</entityName>
+			<physical>
+				<objectName>CAN_WEQUnits_and_Column_Descriptions</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>27</numHeaderLines>
+						<numFooterLines>1</numFooterLines>
+						<recordDelimiter>\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/993&amp;endDate=04/01/2994&amp;metStation=CAN&amp;dataType=WEQ</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>DATASET CODE</attributeName>
+					<attributeDefinition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>GLACIER</attributeName>
+					<attributeDefinition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STAKE</attributeName>
+					<attributeDefinition> Unique number for each stake on glacier</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition> Unique number for each stake on glacier</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>PERIOD COVERED</attributeName>
+					<attributeDefinition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STARTING DATE</attributeName>
+					<attributeDefinition>  BEGINNING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>ENDING DATE</attributeName>
+					<attributeDefinition>  ENDING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY </formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ</attributeName>
+					<attributeDefinition>  TOTAL MASS IN TERMS OF WATER EQUIVALENT (SUM OF ICE WEQ AND SNOW WEQ; ICE DENSITY = 0.9g/Cm3)</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>Cm3/Cm2</customUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0</minimum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code> NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ_STD_DEV</attributeName>
+					<attributeDefinition> STANDARD DEVIATION OF WEQ</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>CmWEQ</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>COMMENTS</attributeName>
+					<attributeDefinition>  NOTES ON WATER EQUIVALENT MEASUREMENTS</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>NOTES ON WATER EQUIVALENT MEASUREMENTS</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>GLSTKID</attributeName>
+					<attributeDefinition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>FILE NAME</attributeName>
+					<attributeDefinition>  RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  RAW DATA FILE CONTAINING INFORMATION</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+		</dataTable>
+		
+		<dataTable>
+			<entityName>HUGH_WEQUnits_and_Column_Descriptions</entityName>
+			<physical>
+				<objectName>HUGH_WEQUnits_and_Column_Descriptions</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>27</numHeaderLines>
+						<numFooterLines>1</numFooterLines>
+						<recordDelimiter>\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/993&amp;endDate=04/01/2994&amp;metStation=HUGH&amp;dataType=WEQ</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>DATASET CODE</attributeName>
+					<attributeDefinition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>GLACIER</attributeName>
+					<attributeDefinition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STAKE</attributeName>
+					<attributeDefinition> Unique number for each stake on glacier</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition> Unique number for each stake on glacier</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>PERIOD COVERED</attributeName>
+					<attributeDefinition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STARTING DATE</attributeName>
+					<attributeDefinition>  BEGINNING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>ENDING DATE</attributeName>
+					<attributeDefinition>  ENDING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY </formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ</attributeName>
+					<attributeDefinition>  TOTAL MASS IN TERMS OF WATER EQUIVALENT (SUM OF ICE WEQ AND SNOW WEQ; ICE DENSITY = 0.9g/Cm3)</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>Cm3/Cm2</customUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0</minimum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code> NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ_STD_DEV</attributeName>
+					<attributeDefinition> STANDARD DEVIATION OF WEQ</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>CmWEQ</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>COMMENTS</attributeName>
+					<attributeDefinition>  NOTES ON WATER EQUIVALENT MEASUREMENTS</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>NOTES ON WATER EQUIVALENT MEASUREMENTS</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>GLSTKID</attributeName>
+					<attributeDefinition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>FILE NAME</attributeName>
+					<attributeDefinition>  RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  RAW DATA FILE CONTAINING INFORMATION</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+		</dataTable>
+		
+				<dataTable>
+			<entityName>TAY_WEQUnits_and_Column_Descriptions</entityName>
+			<physical>
+				<objectName>TAY_WEQUnits_and_Column_Descriptions</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>27</numHeaderLines>
+						<numFooterLines>1</numFooterLines>
+						<recordDelimiter>\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/993&amp;endDate=04/01/2994&amp;metStation=TAY&amp;dataType=WEQ</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>DATASET CODE</attributeName>
+					<attributeDefinition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>CODE REPRESENTING GLACIER MASS BALANCE SUMMARY DATASET - Glacier name plus 'WEQ'</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>GLACIER</attributeName>
+					<attributeDefinition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  NAME OF GLACIER WHERE MEASUREMENT WAS MADE</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STAKE</attributeName>
+					<attributeDefinition> Unique number for each stake on glacier</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition> Unique number for each stake on glacier</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>PERIOD COVERED</attributeName>
+					<attributeDefinition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  LENGTH OF PERIOD MEASURED (EITHER YEAR, WINTER, SUMMER OR A PART OF A SEASON)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STARTING DATE</attributeName>
+					<attributeDefinition>  BEGINNING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>ENDING DATE</attributeName>
+					<attributeDefinition>  ENDING DATE OF DATA MEASUREMENT</attributeDefinition>
+					<storageType typeSystem="  DATE" />
+					<measurementScale>
+						<dateTime>
+							<formatString>MM/DD/YYYY </formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ</attributeName>
+					<attributeDefinition>  TOTAL MASS IN TERMS OF WATER EQUIVALENT (SUM OF ICE WEQ AND SNOW WEQ; ICE DENSITY = 0.9g/Cm3)</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>Cm3/Cm2</customUnit>
+							</unit>
+							<precision>0.1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0</minimum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code> NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>WEQ_STD_DEV</attributeName>
+					<attributeDefinition> STANDARD DEVIATION OF WEQ</attributeDefinition>
+					<storageType typeSystem="NUMBER" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>CmWEQ</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>COMMENTS</attributeName>
+					<attributeDefinition>  NOTES ON WATER EQUIVALENT MEASUREMENTS</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>NOTES ON WATER EQUIVALENT MEASUREMENTS</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>GLSTKID</attributeName>
+					<attributeDefinition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+					<storageType typeSystem="TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>FILE NAME</attributeName>
+					<attributeDefinition>  RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+					<storageType typeSystem="  TEXT" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>  RAW DATA FILE CONTAINING INFORMATION</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>NULL</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+		</dataTable>
+	</dataset>
+	<additionalMetadata>
+		<metadata>
+			<unitList>
+				<unit id="Cm3/Cm2" />
+				<unit id="CmWEQ" />
+			</unitList>
+		</metadata>
+	</additionalMetadata>
+</ns0:eml>

@@ -1,0 +1,872 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.6.19" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF006">
+      <alternateIdentifier>HF006</alternateIdentifier>
+      <title>Soil Respiration, Temperature and Moisture at Harvard Forest EMS Tower since 1995</title>
+      <creator>
+         <individualName>
+            <givenName>Eric</givenName>
+            <surName>Davidson</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Kathleen</givenName>
+            <surName>Savage</surName>
+         </individualName>
+      </creator>
+      <pubDate>1999</pubDate>
+      <abstract>
+         <section>
+            <para>We have been making long-term soil respiration measurements at our transect sites since the summer of 1995. The rainfall exclusion experiment began in May of 2001 and autochamber measurements began in 2003.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>precipitation</keyword>
+         <keyword>soil moisture</keyword>
+         <keyword>soil respiration</keyword>
+         <keyword>soil temperature</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>inorganic nutrients</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf006</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.17</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.17</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.54</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.54</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>340</altitudeMinimum>
+                  <altitudeMaximum>365</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1995-01-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2010-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>data updated 2011-05-11</para>
+         </description>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>Eric</givenName>
+            <surName>Davidson</surName>
+         </individualName>
+         <organizationName>The Woods Hole Research Center</organizationName>
+         <address>
+            <deliveryPoint>P.O. Box 296</deliveryPoint>
+            <city>Woods Hole</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>02543</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(508) 540-9900</phone>
+         <electronicMailAddress>edavidson@whrc.org</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <title>Long Term Soil Respiration Monitoring at the Transect Sites</title>
+                  <para>There are 6 sites located along a northwest and southwest transect from the EMS tower on the Prospect Hill tract of the Harvard forest.  Sites ranged from very poorly drained swamp to well drained uplands.  Measurements were collected at approximately weekly intervals during the summer and biweekly for the remainder of the season.  Soil respiration was measured using a dynamic chamber system.  Soil CO2 flux is measured by placing a chamber over fixed collars in the soil.  The change in CO2 concentration within the chamber headspace is recorded every 12s for 4.5 min.  A linear regression of the increasing chamber headspace concentration is used to calculate a flux rate and converted to units of mg C m-2 hr-1.  Soil temperature and volumetric soil moisture were collected concurrent with soil respiration measurements.  Soil temperature is taken using a 10cm probe inserted vertically from the surface. Volumetric water content is determined with 15 cm TDR probes inserted vertically in the soil.   Soil profile CO2 concentrations are also measured at the same time scale as soil respiration rates.</para>
+               </section>
+               <section>
+                  <title>Rainfall Exclusion Experiment</title>
+                  <para>We selected 3 well drained upland sites (20m x 20m) approximately 400 ft southwest of the EMS tower.  Within each site we selected a treatment (n=3) and control plot (n=3).  Corrugated plastic roof panels (5m x 5m) were used to construct a roof at each of the treatment plots.  Control plot were located adjacent to each treatment plot.  Four soil respiration collars were placed in each of the treatment and control plots and measured at weekly intervals during the summer and biweekly to monthly for the rest of the season.  Fluxes were calculated using the same method as for our long term soil respiration sites.  Quantative pits were dug at each of the 3 sites.  Each pit was located between a control and treatment plot such that when we instrumented the pits one side was within the control plot and one side was within the treatment plot.  The pits were instrumented with soil temperature, tdr moisture probes and soil CO2 concentration sampling probes.  Litter layer water content was measured using DC-halfbridge sensors (see Borken et al. 2003 for description).</para>
+               </section>
+               <section>
+                  <title>Autochamber measurements</title>
+                  <para>Soil CO2 Flux (mg C m-2 h-1) is measured by an automated soil respiration system which automatically places a chamber over collars (that are left in place) in the soil.  Air from the chamber headspace is pumped into an Infrared Gas Analyzer (LICOR 6252) at a rate of 0.7L/min for a 5 minute period.  The change in headspace CO2 concentration is recorded every 12s for 4.5 minutes a Campbell Scientific CR10X logger.  A linear regression on the change in headspace concentration over time, along with air temperature, atmospheric pressure and chamber surface area are used to convert these measurements to units of mg C m-2 hr-1. For more details of the automated system see: Savage et al. 2008. A conceptual and practical approach to data quality and analysis procedures for high-frequency soil respiration. Functional Ecology 22: 1000-1007.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf006-01">
+         <entityName>hf006-01-soil-respiration.csv</entityName>
+         <entityDescription>soil respiration</entityDescription>
+         <physical id="1225310494523">
+            <objectName>hf006-01-soil-respiration.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p00/hf006/hf006-01-soil-respiration.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1225310496102">
+               <attributeName>Date</attributeName>
+               <attributeDefinition>date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1225310496117">
+               <attributeName>JD</attributeName>
+               <attributeDefinition>Julian date</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>nominalDay</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+            </attribute>
+            <attribute id="1225310496133">
+               <attributeName>DOY</attributeName>
+               <attributeDefinition>sequential day of year over multiple years</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>nominalDay</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1225310496148">
+               <attributeName>Flux</attributeName>
+               <attributeDefinition>CO2 flux (mg C m-2 h-1)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1225310496164">
+               <attributeName>SE</attributeName>
+               <attributeDefinition>standard error of CO2 flux (mg C m-2 h-1)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1225310496180">
+               <attributeName>SoilT</attributeName>
+               <attributeDefinition>soil temperature at 10cm depth (deg C)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1225310496195">
+               <attributeName>VSM</attributeName>
+               <attributeDefinition>volumetric soil moisture over the top 15cm of soil (g H2O/g soil)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gramsPerGram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1225310496211">
+               <attributeName>Time</attributeName>
+               <attributeDefinition>time of sampling (hh:mm)</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm</formatString>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1225310496227">
+               <attributeName>Site</attributeName>
+               <attributeDefinition>site name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>site name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1225310496242">
+               <attributeName>Drainage</attributeName>
+               <attributeDefinition>drainage class</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>drainage class</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>4281</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf006-02">
+         <entityName>hf006-02-rain-exclusion.csv</entityName>
+         <entityDescription>rainfall exclusion</entityDescription>
+         <physical id="1180981845027">
+            <objectName>hf006-02-rain-exclusion.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>3</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p00/hf006/hf006-02-rain-exclusion.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1180981847190">
+               <attributeName>Date</attributeName>
+               <attributeDefinition>date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1180981847200">
+               <attributeName>JD</attributeName>
+               <attributeDefinition>Julian date</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>nominalDay</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+            </attribute>
+            <attribute id="1180981847210">
+               <attributeName>Mean Flux</attributeName>
+               <attributeDefinition>CO2 flux (mg C m-2 h-1)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1180981847220">
+               <attributeName>S.E.</attributeName>
+               <attributeDefinition>standard error (mg C m-2 h-1)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1180981847230">
+               <attributeName>Mean Flux</attributeName>
+               <attributeDefinition>mean CO2 flux (mg C m-2 h-1)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1180981847240">
+               <attributeName>S.E.</attributeName>
+               <attributeDefinition>standard errorof mean flux (mg C m-2 h-1)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1180981847250">
+               <attributeName>soil tempFlux</attributeName>
+               <attributeDefinition>soil temperature at 10cm depth (deg C)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1180981847260">
+               <attributeName>Mean soil temp</attributeName>
+               <attributeDefinition>mean soil temperature at 10cm depth (deg C)</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>81</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf006-03">
+         <entityName>hf006-03-autochamber.csv</entityName>
+         <entityDescription>autochamber</entityDescription>
+         <physical id="1243018996480">
+            <objectName>hf006-03-autochamber.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p00/hf006/hf006-03-autochamber.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1243018997793">
+               <attributeName>YR</attributeName>
+               <attributeDefinition>year</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997808">
+               <attributeName>DOY</attributeName>
+               <attributeDefinition>day of year</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>nominalDay</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997824">
+               <attributeName>Time</attributeName>
+               <attributeDefinition>time of sampling</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hhmm</formatString>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997839">
+               <attributeName>Flux-1</attributeName>
+               <attributeDefinition>soil respiration measured at collar 1</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997855">
+               <attributeName>Flux-2</attributeName>
+               <attributeDefinition>soil respiration measured at collar 2</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997871">
+               <attributeName>Flux-3</attributeName>
+               <attributeDefinition>soil respiration measured at collar 3</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997886">
+               <attributeName>Flux-4</attributeName>
+               <attributeDefinition>soil respiration measured at collar 4</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997902">
+               <attributeName>Flux-5</attributeName>
+               <attributeDefinition>soil respiration measured at collar 5</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997918">
+               <attributeName>Flux-6</attributeName>
+               <attributeDefinition>soil respiration measured at collar 6</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997933">
+               <attributeName>Temp-LL</attributeName>
+               <attributeDefinition>soil temperature measured in leaf litter</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997949">
+               <attributeName>Temp-3</attributeName>
+               <attributeDefinition>soil temperature measured at 3 cm</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997964">
+               <attributeName>Temp-4.5</attributeName>
+               <attributeDefinition>soil temperature measured at 4.5 cm</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997980">
+               <attributeName>Temp-7</attributeName>
+               <attributeDefinition>soil temperature measured at 7 cm</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018997996">
+               <attributeName>Temp-8.5</attributeName>
+               <attributeDefinition>soil temperature measured at 8.5 cm</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018998011">
+               <attributeName>Temp-12</attributeName>
+               <attributeDefinition>soil temperature measured at 12 cm</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018998027">
+               <attributeName>Temp-14</attributeName>
+               <attributeDefinition>soil temperature measured at 14 cm</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018998043">
+               <attributeName>Temp-36</attributeName>
+               <attributeDefinition>soil temperature measured at 36 cm</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1243018998058">
+               <attributeName>Mois-5</attributeName>
+               <attributeDefinition>soil moisture measured at 5cm depth (volumetric)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>8562</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>ongoing</status>
+            <researchTopic>soil</researchTopic>
+            <studyType>long-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Canopy-Atmosphere Exchange of Carbon, Water and Energy at Harvard Forest EMS Tower since 1991">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf004</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <ns2:unitList convention="CML">
+            <ns2:unit constantToSI="0.0" id="milligramPerMeterSquaredPerHour" multiplierToSI="0.000000000277777778" name="milligramPerMeterSquaredPerHour" parentSI="kilogramPerMeterSquaredPerSecond" unitType="arealMassDensityRate" />
+         </ns2:unitList>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

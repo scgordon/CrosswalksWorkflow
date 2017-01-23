@@ -1,0 +1,1193 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.6.13" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="6">
+    <alternateIdentifier>knb-lter-sbc.6</alternateIdentifier>
+    <shortName>Stream Chemistry</shortName>
+    <title>SBC LTER: Land: Stream chemistry in the Santa Barbara Coastal drainage area</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="jmelack">
+      <individualName>
+        <givenName>John</givenName>
+        <givenName>M</givenName>
+        <surName>Melack</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Department of Ecology, Evolution and Marine Biology</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-9620</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-3879</phone>
+      <phone phonetype="fax">805-893-4724</phone>
+      <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2012-11-09</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>This data package contains stream water chemistry measurements taken in Santa Barbara area watersheds, beginning in 2000. As of 2012, this dataset is ongoing, and data will be added approximately annually. Stream water samples are collected weekly during non-storm flows in winter, and bi-weekly during summer. During winter storms, samples are collected hourly (rising limb) or at 2-4 hour intervals (falling limb). Analytes sampled in the SB CLTER watersheds include dissolved nitrogen (nitrate, ammonium, total dissolved nitrogen); soluble reactive phosphorus (SRP); particulate organic carbon, nitrogen and phosphorus; total suspended sediments; and conductivity.</para>
+      <para>There are two tables in this dataset. Samples from "registered stations" (see geographic coverage) are in the first data table (see table name). Many other samples have been collected ad hoc, or as "stations of opportunity". These have been collected in a second table, designated "non-registered". The station codes for these samples may have been reused, and are not recorded in metadata (but station codes can be found in data).</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">ongoing</keyword>
+      <keyword keywordType="theme">Santa Barbara Coastal</keyword>
+      <keyword keywordType="theme">stream chemistry</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Watershed</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Biogeochemistry</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Measurement Types</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Carbon</keyword>
+      <keyword keywordType="theme">Freshwater</keyword>
+      <keyword keywordType="theme">Nitrate</keyword>
+      <keyword keywordType="theme">Nutrients</keyword>
+      <keyword keywordType="theme">Terrestrial</keyword>
+      <keywordThesaurus>Knowledge Network for Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Nitrogen Compounds</keyword>
+      <keyword keywordType="theme">Nutrients</keyword>
+      <keyword keywordType="theme">Organic Matter</keyword>
+      <keyword keywordType="theme">Surface Water Chemistry</keyword>
+      <keyword keywordType="theme">Suspended Solids</keyword>
+      <keywordThesaurus>Global Change Master Directory (GCMD) v6.0.0.0.0</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">ammonium</keyword>
+      <keyword keywordType="theme">carbon</keyword>
+      <keyword keywordType="theme">chemistry</keyword>
+      <keyword keywordType="theme">nitrate</keyword>
+      <keyword keywordType="theme">nitrogen</keyword>
+      <keyword keywordType="theme">phosphorus</keyword>
+      <keyword keywordType="theme">soluble reactive phosphorus</keyword>
+      <keyword keywordType="theme">streams</keyword>
+      <keyword keywordType="theme">total nitrogen</keyword>
+      <keyword keywordType="theme">total phosphorus</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Inorganic nutrients</keyword>
+      <keyword keywordType="theme">Organic matter</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1: Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="AB00">
+        <geographicDescription>Arroyo Burro, Arroyo Burro at Cliff Drive: Arroyo Burro, Arroyo Burro at Cliff Drive</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.74021</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.74021</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.40505027</northBoundingCoordinate>
+          <southBoundingCoordinate>34.40505027</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AT07">
+        <geographicDescription>Atascadero Creek at Puente Street: Atascadero Creek, Atascadero at Puente</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.78414</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.78414</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.43226</northBoundingCoordinate>
+          <southBoundingCoordinate>34.43226</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BC02">
+        <geographicDescription>Bell Canyon Creek at Winchester Canyon Road culvert: BC02, Bell Canyon Creek, Bell Canyon Creek at Winchester Canyon Road culvert</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.90563</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.90563</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.43854</northBoundingCoordinate>
+          <southBoundingCoordinate>34.43854</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="DV01">
+        <geographicDescription>Devereaux Creek at Devereaux Slough inflow: DV01, Devereaux Creek, Devereaux Creek at Devereaux Slough inflow</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.87406</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.87406</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.41761</northBoundingCoordinate>
+          <southBoundingCoordinate>34.41761</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GV01">
+        <geographicDescription>GV01, Gaviota Creek, Gaviota at Hwy 101 South Rest Stop Exit: GV01, Gaviota Creek, Gaviota at Hwy 101 South Rest Stop Exit</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.22917</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.22917</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4855</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4855</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="HO00">
+        <geographicDescription>HO00, Arroyo Hondo Creek, Arroyo Hondo at Upstream Side of 101 Bridge: HO00, Arroyo Hondo Creek, Arroyo Hondo at Upstream Side of 101 Bridge</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.14122</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.14122</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4752858</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4752858</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MC00">
+        <geographicDescription>MC00, Mission Creek, Mission at Montecito St: MC00, Mission Creek, Mission at Montecito St</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.69499</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.69499</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.41307303</northBoundingCoordinate>
+          <southBoundingCoordinate>34.41307303</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MC06">
+        <geographicDescription>Mission Creek at Rocky Nook, USGS 11119745: Mission Creek at Rocky Nook, USGS 11119745</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.71244</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.71244</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.44072</northBoundingCoordinate>
+          <southBoundingCoordinate>34.44072</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ON02">
+        <geographicDescription>ON02, San Onofre Creek, San Onofre Creek at Highway 101 North culvert: ON02, San Onofre Creek, San Onofre Creek at Highway 101 North culvert</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.28885</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.28885</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.472</northBoundingCoordinate>
+          <southBoundingCoordinate>34.472</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="RG01">
+        <geographicDescription>RG01, Refugio Creek, Refugio at Hwy 101 Bridge: RG01, Refugio Creek, Refugio at Hwy 101 Bridge</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.06932</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.06932</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.46573164</northBoundingCoordinate>
+          <southBoundingCoordinate>34.46573164</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="RS02">
+        <geographicDescription>RS02, Rattlesnake Creek, Rattlesnake at Las Canoas Bridge: RS02, Rattlesnake Creek, Rattlesnake at Las Canoas Bridge</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.69222</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.69222</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.45761111</northBoundingCoordinate>
+          <southBoundingCoordinate>34.45761111</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SP02">
+        <geographicDescription>San Pedro Creek at Stow Canyon Park, , USGS 11120520: San Pedro Creek at Stow Canyon Park, , USGS 11120520</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.84028</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.84028</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.44861</northBoundingCoordinate>
+          <southBoundingCoordinate>34.44861</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TO02">
+        <geographicDescription>TO02, Tecolote Creek at Vereda Galeria, Goleta: TO02, Tecolote Creek at Vereda Galeria, Goleta</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.917915</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.917915</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.440614</northBoundingCoordinate>
+          <southBoundingCoordinate>34.440614</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2000-10-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-09-28</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Stream Chemistry Sample Collection</title>
+            <para>Samples for stream chemistry are collected according to the following
+              protocol</para>
+          </section>
+        </description>
+        <protocol scope="document">
+          <title>Stream Chemistry - Sample Collection Protocol</title>
+          <creator scope="document">
+            <individualName>
+              <surName>Melack</surName>
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Land/Protocols/Stream_Chemistry/Melack_20090526_SBCLTER_Stream_Chemistry_Sample_Collection.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Laboratory Processing</title>
+            <para>Samples for stream chemistry are processed according to the following
+              protocol</para>
+          </section>
+        </description>
+        <protocol scope="document">
+          <title>Stream Chemistry Sample - Laboratory Analysis Protocol</title>
+          <creator scope="document">
+            <individualName>
+              <surName>Melack</surName>
+            </individualName>
+          </creator>
+          <creator scope="document">
+            <individualName>
+              <surName>Schimel</surName>
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Land/Protocols/Stream_Chemistry/Melack_Schimel_20090529_SBCLTER_Laboratory_Analyses.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="sbclter_stream_chemistry_allyears_registered_stations">
+      <entityName>Stream chemistry, registered stations, all years</entityName>
+      <entityDescription>stream water chemistry at REGISTERED SBC stations. Registered stations are geo-located in metadata.</entityDescription>
+      <physical>
+        <objectName>sbclter_stream_chemistry_allyears_registered_stations_20120229.csv</objectName>
+        <size unit="byte">1005083</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Land/Data/Stream_Chemistry/sbclter_stream_chemistry_allyears_registered_stations_20120229.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="sbclter_stream_chemistry_allyears_registered_stations.sitecode">
+          <attributeName>site_code</attributeName>
+          <attributeLabel>SBC Waypoint Code</attributeLabel>
+          <attributeDefinition>2 letter site ID + 2-numbers reflecting relative distance upstream</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>AB00</code>
+                    <definition>Arroyo Burro, Arroyo Burro at Cliff Drive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AT07</code>
+                    <definition>Atascadero Creek, Atascadero at Puente</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BC02</code>
+                    <definition>Bell Canyon Creek, Bell Canyon Creek at Winchester Canyon Road culvert</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DV01</code>
+                    <definition>Devereaux Creek, Devereaux Creek at Devereaux Slough inflow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GV01</code>
+                    <definition>Gaviota, Gaviota at Hwy 101 South Rest Stop Exit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HO00</code>
+                    <definition>Arroyo Hondo, Arroyo Hondo at Upstream Side of 101 Bridge</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MC00</code>
+                    <definition>Mission Creek, Mission at Montecito St</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MC06</code>
+                    <definition>Mission Creek, Mission at Rocky Nook. Site established by the USGS</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ON02</code>
+                    <definition>San Onofre Creek, San Onofre Creek at Highway 101 North culvert</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RG01</code>
+                    <definition>Refugio Creek, Refugio at Hwy 101 Bridge</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS02</code>
+                    <definition>Rattlesnake Creek, Rattlesnake at Las Canoas Bridge</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SP02</code>
+                    <definition>San Pedro Creek at Stow Canyon Park, Goleta. Site established by the USGS</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TO02</code>
+                    <definition>Tecolote Creek, at Vereda Galeria, Goleta</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NO SAMPLE</code>
+            <codeExplanation>no sample</codeExplanation>
+          </missingValueCode>
+          <coverage>
+            <geographicCoverage>
+              <references>AB00</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>AT07</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>BC02</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>DV01</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>GV01</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>HO00</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>MC00</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>MC06</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>ON02</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>RG01</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>RS02</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>SP02</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>TO02</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="sbclter_stream_chemistry_allyears_registered_stations.timestamp_local">
+          <attributeName>timestamp_local</attributeName>
+          <attributeLabel>Timestamp Local (PST)</attributeLabel>
+          <attributeDefinition>Date sample was collected in Pacific Standard Time. offset to UTC is -08:00</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DDThh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2000-10-01T00:00:00-08:00</minimum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>9997-04-06T00:00:00-08:00</code>
+            <codeExplanation>no date available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sbclter_stream_chemistry_allyears_registered_stations.NH4_uM">
+          <attributeName>NH4_uM</attributeName>
+          <attributeLabel>NH4 uM</attributeLabel>
+          <attributeDefinition>Ammonium (measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0</minimum>
+                  <maximum exclusive="false">250</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="sbclter_stream_chemistry_allyears_registered_stations.NO3_uM">
+          <attributeName>NO3_uM</attributeName>
+          <attributeLabel>NO3 uM</attributeLabel>
+          <attributeDefinition>Nitrate (measured as nitrite + nitrate measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att5">
+          <attributeName>PO4_uM</attributeName>
+          <attributeLabel>PO4 uM</attributeLabel>
+          <attributeDefinition>Phosphorus (measured as soluble reactive phosphorus SRP measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0</minimum>
+                  <maximum exclusive="false">200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att6">
+          <attributeName>TDN_uM</attributeName>
+          <attributeLabel>Total Dissolved Nitrogen uM</attributeLabel>
+          <attributeDefinition>Total dissolved nitrogen (dissolved organic nitrogen plus nitrate and nitrate plus ammonium measured in micro-moles per leter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att7">
+          <attributeName>TDP_uM</attributeName>
+          <attributeLabel>Total Dissolved Phosphorus uM</attributeLabel>
+          <attributeDefinition>Total dissolved phosphorus (dissolved organic phosphorus plus phosphate measured in micro-moles per leter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att8">
+          <attributeName>TPC_uM</attributeName>
+          <attributeLabel>Total Particulate Carbon micromolesPerLiter</attributeLabel>
+          <attributeDefinition>Total particulate carbon (particulate organic carbon measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">70000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att9">
+          <attributeName>TPN_uM</attributeName>
+          <attributeLabel>Total Particulate Nitrogen micromolesPerLiter</attributeLabel>
+          <attributeDefinition>Total particulate nitrogen (which can be assumed to be particulate organic nitrogen measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att10">
+          <attributeName>TPP_uM</attributeName>
+          <attributeLabel>TPP micromolesPerLiter</attributeLabel>
+          <attributeDefinition>Total particulate phosphorus (measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att11">
+          <attributeName>TSS_mg_per_L</attributeName>
+          <attributeLabel>Total Suspended Solids</attributeLabel>
+          <attributeDefinition>Total suspended solids measured in milligrams per liter (mg/L)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">50</minimum>
+                  <maximum exclusive="false">70000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att12">
+          <attributeName>Spec_Cond_uS_per_cm</attributeName>
+          <attributeLabel>Spec_Cond_uS/cm</attributeLabel>
+          <attributeDefinition>Specific conductivity (measured at 25 deg C in micro-Siemens per cm, uS/cm, (equivalent in magnitude to the older unit, umhos/cm)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerCentimeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">50</minimum>
+                  <maximum exclusive="false">11000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>12714</numberOfRecords>
+    </dataTable>
+    <dataTable id="sbclter_stream_chemistry_allyears_non_registered_stations">
+      <entityName>Stream chemistry, non-registered stations, all years</entityName>
+      <entityDescription>stream water chemistry at NON_REGISTERED stations</entityDescription>
+      <physical>
+        <objectName>sbclter_stream_chemistry_allyears_non_registered_stations_20120229.csv</objectName>
+        <size unit="byte">1083924</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Land/Data/Stream_Chemistry/sbclter_stream_chemistry_allyears_non_registered_stations_20120229.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ent2.att1">
+          <attributeName>site_code</attributeName>
+          <attributeLabel>SBC Waypoint Code</attributeLabel>
+          <attributeDefinition>2 letter site ID + 2-numbers reflecting relative distance upstream</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>amy text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NO SAMPLE</code>
+            <codeExplanation>no sample</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att2">
+          <attributeName>timestamp_local</attributeName>
+          <attributeLabel>Timestamp Local (PST)</attributeLabel>
+          <attributeDefinition>Date sample was collected in Pacific Standard Time. ISO format, with offset to UTC included</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DDThh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2000-10-01T00:00:00</minimum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>9997-04-06T00:00:00</code>
+            <codeExplanation>no date available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att3">
+          <attributeName>NH4_uM</attributeName>
+          <attributeLabel>NH4 uM</attributeLabel>
+          <attributeDefinition>Ammonium (measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0</minimum>
+                  <maximum exclusive="false">250</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att4">
+          <attributeName>NO3_uM</attributeName>
+          <attributeLabel>NO3 uM</attributeLabel>
+          <attributeDefinition>Nitrate (measured as nitrite + nitrate measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att5">
+          <attributeName>PO4_uM</attributeName>
+          <attributeLabel>PO4 uM</attributeLabel>
+          <attributeDefinition>Phosphorus (measured as soluble reactive phosphorus SRP measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0</minimum>
+                  <maximum exclusive="false">200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att6">
+          <attributeName>TDN_uM</attributeName>
+          <attributeLabel>Total Dissolved Nitrogen uM</attributeLabel>
+          <attributeDefinition>Total dissolved nitrogen (dissolved organic nitrogen plus nitrate and nitrate plus ammonium measured in micro-moles per leter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att7">
+          <attributeName>TDP_uM</attributeName>
+          <attributeLabel>Total Dissolved Phosphorus uM</attributeLabel>
+          <attributeDefinition>Total dissolved phosphorus (dissolved organic phosphorus plus phosphate measured in micro-moles per leter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att8">
+          <attributeName>TPC_uM</attributeName>
+          <attributeLabel>Total Particulate Carbon micromolesPerLiter</attributeLabel>
+          <attributeDefinition>Total particulate carbon (particulate organic carbon measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">70000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att9">
+          <attributeName>TPN_uM</attributeName>
+          <attributeLabel>Total Particulate Nitrogen micromolesPerLiter</attributeLabel>
+          <attributeDefinition>Total particulate nitrogen (which can be assumed to be particulate organic nitrogen measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att10">
+          <attributeName>TPP_uM</attributeName>
+          <attributeLabel>TPP micromolesPerLiter</attributeLabel>
+          <attributeDefinition>Total particulate phosphorus (measured in micro-moles per liter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att11">
+          <attributeName>TSS_mg_per_L</attributeName>
+          <attributeLabel>Total Suspended Solids</attributeLabel>
+          <attributeDefinition>Total suspended solids measured in milligrams per liter (mg/L)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">50</minimum>
+                  <maximum exclusive="false">70000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.0</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att12">
+          <attributeName>Spec_Cond_uS_per_cm</attributeName>
+          <attributeLabel>Spec_Cond_uS/cm</attributeLabel>
+          <attributeDefinition>Specific conductivity (measured at 25 deg C in micro-Siemens per cm, uS/cm, (equivalent in magnitude to the older unit, umhos/cm)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerCentimeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">50</minimum>
+                  <maximum exclusive="false">11000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>13654</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit constantToSI="0" id="micromolePerLiter" name="micromolePerLiter" parentSI="molePerMeterCubed" unitType="amountOfSubstanceConcentration">
+          <ns2:description>commonly used for concentration of some chemical constituents of natural water bodies, e.g., nutrients. It has the same magnitude as micromolar, but micromolar can only be used for a dissolved constituent</ns2:description>
+        </ns2:unit>
+        <ns2:unit constantToSI="0" id="milligramPerLiter" name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="volumetricMassDensity">
+          <ns2:description>concentration unit, sometimes used for pigments in natural waters</ns2:description>
+        </ns2:unit>
+        <ns2:unit constantToSI="0" id="siemensPerCentimeter" name="siemensPerCentimeter" parentSI="siemensPerMeter" unitType="conductance">
+          <ns2:description>conductivity unit, seawater, A siemems is equal to one ampere per volt.</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

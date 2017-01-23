@@ -1,0 +1,1316 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-knz.3.8" scope="system" system="KNB" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=KNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+  <dataset>
+    <alternateIdentifier>ANA01</alternateIdentifier>
+    <title>ANA01: Weekly Measurement of Precipitation Volume and Chemistry Collected as Part of the National Atmospheric Deposition Program</title>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <givenName>M.</givenName>
+        <surName>Blair</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66502</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>
+        785-532-7065
+      </phone>
+      <electronicMailAddress>jblair@ksu.edu</electronicMailAddress>
+    </creator>
+    <abstract>
+      <section>
+        <para>Data set contains results of chemical analysis of wetfall on Konza Prairie. Analysis
+          done by the Central Analytical Lab (CAL), Champaign, IL as part of the National
+          Atmospheric Deposition Program (NADP). Data is coordinated by the NADP/NTN Coordination
+          Office at Fort Collins, CO. Data products from that office include: Annual Data Summaries,
+          Semiannual Data Reports, Annual and Seasonal Averages, Monthly Averages, and Weekly data.
+          Konza Prairie LTER maintains the weekly data in electronic form (file name NADP in
+          subdirectory nutrient) while other summaries are available via hard copy.</para>
+      </section>
+    </abstract>
+  	<keywordSet>
+  		<keyword keywordType="place">LTER</keyword>
+  		<keyword keywordType="place">KNZ</keyword>
+  		<keyword keywordType="place">Konza Prairie Biological Station</keyword>
+  		<keyword keywordType="place">Kansas</keyword>
+  	</keywordSet>
+  	<keywordSet>
+  		<keyword>wetfall</keyword>
+    	<keyword>precipitation</keyword>
+    	<keyword>precipitation chemistry</keyword>
+    	<keyword>NADP</keyword>
+    	<keyword>Ca</keyword>
+      <keyword>Mg</keyword>
+      <keyword>K</keyword>
+      <keyword>Na</keyword>
+      <keyword>NH4</keyword>
+      <keyword>NO3</keyword>
+    	<keyword>Cl</keyword>
+    	<keyword>SO4</keyword>
+    	<keyword>pH</keyword>
+    	<keyword>conductance</keyword>
+    </keywordSet>
+    <distribution>
+      <online>
+        <url>http://www.konza.ksu.edu/KNZ/pages/data/Knzdsdetail.aspx?datasetCode=ANA01</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1982-08-17</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate> 2012-10-01 </calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="im">
+      <positionName>KNZ-LTER Data Manager</positionName>
+      <address>
+        <deliveryPoint>Division of Biology</deliveryPoint>
+        <deliveryPoint>Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+      </address>
+      <phone phonetype="voice">(785)532-6729</phone>
+      <phone phonetype="fax">(785)532-6653</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://www.konza.ksu.edu</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout> Method manual is available at http://www.konza.ksu.edu/KNZ/datasets/textfiles/MM2011_1.pdf</literalLayout>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <alternateIdentifier>ANA011</alternateIdentifier>
+      <entityName>Monthly precipitation-weighted mean concentrations</entityName>
+      <entityDescription>Monthly precipitation-weighted mean concentrations</entityDescription>
+      <physical>
+        <objectName>ANA011</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://www.konza.ksu.edu/harvest/PASTA/ANA011.CSV</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>calcode</attributeName>
+          <attributeDefinition>Alpha-numeric site identification code, first two characters of which
+            are the abbreviation of the state in which the site is located (Konza Prairie Cal code
+            is KS31)</attributeDefinition>
+          <storageType>nvarchar(255)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alpha-numeric site identification code, first two characters of which
+                    are the abbreviation of the state in which the site is located (Konza Prairie
+                    Cal code is KS31)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dateOn</attributeName>
+          <attributeDefinition>Date sample bucket was installed on the collector, reported in
+            Greenwich mean time (GMT) (yymmdd)</attributeDefinition>
+          <storageType>datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"> </minimum>
+                  <maximum exclusive="false"> </maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dateOff</attributeName>
+          <attributeDefinition>Date sample bucket was removed from the collector, reported in
+            Greenwich mean time (GMT) (yymmdd)</attributeDefinition>
+          <storageType>datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"> </minimum>
+                  <maximum exclusive="false"> </maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampleNo</attributeName>
+          <attributeDefinition>Sample number assigned by the laboratory, given as a sequence letter
+            followed by a 4-digit number.</attributeDefinition>
+          <storageType>nvarchar(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sample number assigned by the laboratory, given as a sequence letter
+                    followed by a 4-digit number.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>limitCA</attributeName>
+          <attributeDefinition>Limit of Detection Symbol for CA</attributeDefinition>
+          <storageType>bit</storageType>
+          <measurementScale>
+            <nominal>
+            	<nonNumericDomain>
+            		<textDomain>
+            			<definition>limit of detection symbol for CA</definition>
+            		</textDomain>
+            	</nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conCA</attributeName>
+          <attributeDefinition>Ca concentration</attributeDefinition>
+          <storageType>numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>limitMg</attributeName>
+          <attributeDefinition>Limit of detection symbol for Mg</attributeDefinition>
+          <storageType>bit</storageType>
+          <measurementScale>
+          	<nominal>
+          		<nonNumericDomain>
+          			<textDomain>
+          				<definition>limit of detection symbol for Mg</definition>
+          			</textDomain>
+          		</nonNumericDomain>
+          	</nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conMg</attributeName>
+          <attributeDefinition>Mg concentration</attributeDefinition>
+          <storageType>numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>limitK</attributeName>
+          <attributeDefinition>Limitof detection symbol for K</attributeDefinition>
+          <storageType>bit</storageType>
+          <measurementScale>
+          	<nominal>
+          		<nonNumericDomain>
+          			<textDomain>
+          				<definition>limit of detection symbol for K</definition>
+          			</textDomain>
+          		</nonNumericDomain>
+          	</nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conK</attributeName>
+          <attributeDefinition>K concentration</attributeDefinition>
+          <storageType>numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>limtNa</attributeName>
+          <attributeDefinition>Limite of detection symbol for Na</attributeDefinition>
+          <storageType>bit</storageType>
+          <measurementScale>
+          	<nominal>
+          		<nonNumericDomain>
+          			<textDomain>
+          				<definition>limit of detection symbol for Na</definition>
+          			</textDomain>
+          		</nonNumericDomain>
+          	</nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conNa</attributeName>
+          <attributeDefinition>Na concentration</attributeDefinition>
+          <storageType>numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>limitNH4</attributeName>
+          <attributeDefinition>Limit of detection symbol for NH4</attributeDefinition>
+          <storageType>bit</storageType>
+          <measurementScale>
+          	<nominal>
+          		<nonNumericDomain>
+          			<textDomain>
+          				<definition>limit of detection symbol for NH4</definition>
+          			</textDomain>
+          		</nonNumericDomain>
+          	</nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conNH4</attributeName>
+          <attributeDefinition>NH4 concentration</attributeDefinition>
+          <storageType>numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>limitNO3</attributeName>
+          <attributeDefinition>limit ofdetection symbol for NO3</attributeDefinition>
+          <storageType>bit</storageType>
+          <measurementScale>
+          	<nominal>
+          		<nonNumericDomain>
+          			<textDomain>
+          				<definition>limit of detection symbol for NO3</definition>
+          			</textDomain>
+          		</nonNumericDomain>
+          	</nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conNO3</attributeName>
+          <attributeDefinition>NO3 concentration</attributeDefinition>
+          <storageType>numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>limitCl</attributeName>
+          <attributeDefinition>limit of detection symbol for Cl</attributeDefinition>
+          <storageType>bit</storageType>
+          <measurementScale>
+          	<nominal>
+          		<nonNumericDomain>
+          			<textDomain>
+          				<definition>limit of detection symbol for Cl</definition>
+          			</textDomain>
+          		</nonNumericDomain>
+          	</nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conCl</attributeName>
+          <attributeDefinition>Cl concentration</attributeDefinition>
+          <storageType>numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>limitSO4</attributeName>
+          <attributeDefinition>limit of detection symbol for SO4</attributeDefinition>
+          <storageType>bit</storageType>
+          <measurementScale>
+          	<nominal>
+          		<nonNumericDomain>
+          			<textDomain>
+          				<definition>limit of detection symbol for SO4</definition>
+          			</textDomain>
+          		</nonNumericDomain>
+          	</nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conSO4</attributeName>
+          <attributeDefinition>SO4 concentration</attributeDefinition>
+          <storageType>numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>labpH</attributeName>
+          <attributeDefinition>pH of precipitation sample as measured at CAL</attributeDefinition>
+          <storageType>numeric(4,2)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fieldpH</attributeName>
+          <attributeDefinition>pH of the precipitation sample as measured on site (Bushnell
+            Hall)</attributeDefinition>
+          <storageType>numeric(4,2)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pHFV</attributeName>
+          <attributeDefinition>field pH indicator</attributeDefinition>
+          <storageType>nvarchar(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>the field measurement fails to pass all of the screening
+                      criteria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>i</code>
+                    <definition>incomplete information</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>p</code>
+                    <definition>the field measurement passes all of the screening
+                      criteria</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>labConduct</attributeName>
+          <attributeDefinition>conductivity of the percipitation sample as measured at
+            CAL</attributeDefinition>
+          <storageType>numeric(6,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fieldConduct</attributeName>
+          <attributeDefinition>conductivity of the precipitation sample as measured on site
+            (Bushnell Hall)</attributeDefinition>
+          <storageType>numeric(6,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conductFV</attributeName>
+          <attributeDefinition>field conductance value indicator</attributeDefinition>
+          <storageType>nvarchar(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>the field measurement fails to pass all of the screening
+                      criteria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>i</code>
+                    <definition>incomplete information</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>p</code>
+                    <definition>the field measurement passes all of the screening
+                      criteria</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampVolume</attributeName>
+          <attributeDefinition>volume of sample captured by the sample bucket in
+            milliters</attributeDefinition>
+          <storageType>numeric(7,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>prcpRG</attributeName>
+          <attributeDefinition>precipitation amount as measured by the rain gauge in millimeters.
+            Trace amounts are indicated by -7.00</attributeDefinition>
+          <storageType>numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>subPPT</attributeName>
+          <attributeDefinition>precipitation amount used by NADP/NTN in calculating weighted-mean
+            concentrations, depositions and precipitation totals.</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>labType</attributeName>
+          <attributeDefinition>A code indicating the condition of the sample upon arrival at
+            CAL</attributeDefinition>
+          <storageType>nvarchar(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>da</code>
+                    <definition>dry sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>qa</code>
+                    <definition>quality assurance sample submitted in lieu of a wet-side sample
+                      bucket for a week during which no precipitation occurred.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>t</code>
+                    <definition>trace amount of less than approx. 10 ml; analyses are
+                      incomplete.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>w</code>
+                    <definition>sample volume of approximately 35ml or more</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wa</code>
+                    <definition>sample volume less than 35 ml; dilution was required.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>valCode</attributeName>
+          <attributeDefinition>A code which indicated whether a sample is considered valid according
+            to NADP/NTN data validation rules.</attributeDefinition>
+          <storageType>nvarchar(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>invalid sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>d</code>
+                    <definition>valid dry collection period</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>t</code>
+                    <definition>valid trace sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>w</code>
+                    <definition>valid sample of lab type w</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wa</code>
+                    <definition>valid sample of lab type wa</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>invalCode</attributeName>
+          <attributeDefinition>A code which indicated whether a sample is considered invalid
+            according to NADP/NTN data validation rules.</attributeDefinition>
+          <storageType>nvarchar(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>b</code>
+                    <definition>bulk sample (collector was open continuously)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>c</code>
+                    <definition>contaminated sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>e</code>
+                    <definition>extended sampling interval (&gt; 8 days)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>filed protocol departure</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>i</code>
+                    <definition>incomplete chemical analysis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>l</code>
+                    <definition>lab error</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>no sample collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>p</code>
+                    <definition>precipitation amount unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>s</code>
+                    <definition>short sampling interval (&lt; 6 days)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>u</code>
+                    <definition>undefined sample (collector was open for &gt; 6 hours and less than
+                      the entire sampling period when no precipitation was occuring.)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>v</code>
+                    <definition>inadequate volume for analysis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>x</code>
+                    <definition>reasons other than described above</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeDefinition>Coded summary of the CAL screening codes and remarks written on the
+            Field Observer Report Form by field personnel, CAL staff, and coordination office
+            staff.</attributeDefinition>
+          <storageType>nvarchar(9)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>bu</code>
+                    <definition>bulk sample. Sample was continuously exposed to both wetfall and
+                      dryfall. (collector was open continuously.)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>na</code>
+                    <definition>results are not yet available (predominantly dry
+                      samples)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>nn</code>
+                    <definition>information was never reported and will never be
+                      available.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ns</code>
+                    <definition>no chemistry data will be reported because of extreme
+                      contaminations, undefined sampling protocol, leakage, loss in the mail,
+                      etc.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sp</code>
+                    <definition>samples was collected at a nonapproved sampling site or with
+                      nonapproval equipment.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <alternateIdentifier>ANA012</alternateIdentifier>
+      <entityName>Seasonal total wet deposition</entityName>
+      <entityDescription>Seasonal total wet deposition</entityDescription>
+      <physical>
+        <objectName>ANA012</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://www.konza.ksu.edu/harvest/PASTA/ANA012.CSV</url> 
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1982-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-12-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>rowID</attributeName>
+          <attributeDefinition>Record identifier</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteID</attributeName>
+          <attributeDefinition>Site identification code, first two characters of which are the
+            abbreviation of the state in which the site is located.</attributeDefinition>
+          <storageType>varchar(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>da</code>
+                    <definition>dry sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>qa</code>
+                    <definition>quality assurance sample submitted in lieu of a wet-side sample
+                      bucket for a week during which no precipitation occurred.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>t</code>
+                    <definition>trace amount of less than approx. 10 ml; analyses are
+                      incomplete.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>w</code>
+                    <definition>sample volume of approximately 35ml or more</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wa</code>
+                    <definition>sample volume less than 35 ml; dilution was required.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Season</attributeName>
+          <attributeDefinition>Season of summary period</attributeDefinition>
+          <storageType>varchar(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>winter</code>
+                    <definition>Dec-Feb</definition>
+                  </codeDefinition>
+                	<codeDefinition>
+                		<code>spring</code>
+                		<definition>Mar-May</definition>
+                	</codeDefinition>
+                	<codeDefinition>
+                		<code>summer</code>
+                		<definition>Jun-Aug</definition>
+                	</codeDefinition>
+                	<codeDefinition>
+                		<code>fall</code>
+                		<definition>Sep-Nov</definition>
+                	</codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeDefinition>Year of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+          	<dateTime>
+          		<formatString>YYYY</formatString>
+          		<dateTimePrecision>1</dateTimePrecision>
+          		<dateTimeDomain>
+          			<bounds>
+          				<minimum exclusive="false"> </minimum>
+          				<maximum exclusive="false"> </maximum>
+          			</bounds>
+          		</dateTimeDomain>
+          	</dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Crit1</attributeName>
+          <attributeDefinition>Data percentage of the summary period for which there are valid
+            samples.</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Crit2</attributeName>
+          <attributeDefinition>Percentage of the summary period for which precipitation amounts are
+            available either from the rain gage or from the sample volume.</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Crit3</attributeName>
+          <attributeDefinition>Percentage of the total measured precipitation associated with valid
+            samples</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Crit4</attributeName>
+          <attributeDefinition>Collection efficiency. This is the sum of the sample bucket depths
+            (in centimeters) for all valid samples where (in centimeters) for all valid samples
+            where both values are available.</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ca</attributeName>
+          <attributeDefinition>Calcium concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mg</attributeName>
+          <attributeDefinition>Magnesium concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>K</attributeName>
+          <attributeDefinition>Potassium concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Na</attributeName>
+          <attributeDefinition>Sodium concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4</attributeName>
+          <attributeDefinition>Ammonium concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NO3</attributeName>
+          <attributeDefinition>Nitrate concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Inorg_N</attributeName>
+          <attributeDefinition>Inorganic nitrogen concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cl</attributeName>
+          <attributeDefinition>Chloride concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SO4</attributeName>
+          <attributeDefinition>Sulfate concentration</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H_lab</attributeName>
+          <attributeDefinition>H+ in lab</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H_field</attributeName>
+          <attributeDefinition>H+ in field</attributeDefinition>
+          <storageType>numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Svol</attributeName>
+          <attributeDefinition>Total volume of precipitation collected</attributeDefinition>
+          <storageType>numeric(8,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ppt</attributeName>
+          <attributeDefinition>Total amount of precipitation</attributeDefinition>
+          <storageType>numeric(8,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ppt_percent</attributeName>
+          <attributeDefinition>The percentage of the total measured precipitation (Ppt) represented
+            by the field means</attributeDefinition>
+          <storageType>numeric(5,2)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Valid_L</attributeName>
+          <attributeDefinition>Number of samples used in calculating the laborator
+            means</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Valid_F</attributeName>
+          <attributeDefinition>Number of samples used in calculating the field
+            means</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Days</attributeName>
+          <attributeDefinition>Number of days included in the summary period</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Start_date</attributeName>
+          <attributeDefinition>The beginning date of the first sample included in the summary
+            period</attributeDefinition>
+          <storageType>datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MMDDYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"> </minimum>
+                  <maximum exclusive="false"> </maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>End_date</attributeName>
+          <attributeDefinition>The end date of the last sample included in the summary
+            period</attributeDefinition>
+          <storageType>datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MMDDYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"> </minimum>
+                  <maximum exclusive="false"> </maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+   <metadata> <ns2:unitList>
+      <ns2:unit id="month of year" multiplierToSI="1&#10;       " name="month of year" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"> </ns2:unit>
+      <ns2:unit id="year (yyyy)" multiplierToSI="1&#10;       " name="year (yyyy)" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"> </ns2:unit>
+      <ns2:unit id="date as month, day, year" multiplierToSI="1&#10;       " name="date as month, day, year" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"> </ns2:unit>
+    </ns2:unitList></metadata>
+  </additionalMetadata>
+</ns0:eml>

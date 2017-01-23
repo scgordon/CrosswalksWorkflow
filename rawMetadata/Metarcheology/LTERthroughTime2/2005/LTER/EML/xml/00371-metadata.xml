@@ -1,0 +1,604 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.144.18" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="144" system="VCR">
+   <alternateIdentifier>VCR05132</alternateIdentifier>
+   <title>Historical shorelines on Wreck Island of the Virginia Coast Reserve 1888-2003</title>
+   <creator>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2005-09-09</pubDate>
+   <abstract>
+  <para> This dataset consists of two components. An ArcGIS "shapefile" containing digitized boundary lines for the shoreline of Wreck Island for the years 1888 (partial), 1911 (partial), 1942, 1959, 1980 obtained from a NOAA coastal change map (1:24,000), 1994 (from USGS orthophotos) and October 2003 (after hurricane Isabel, from ETM+ Landsat 7 image). A mosaic of the 1994 orthophotos is also included as a GeoTIFF formated image. </para>
+  <para>All data is in UTM zone 18N and uses the NAD83 datum.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">landscape change</keyword>
+      <keyword keywordType="theme">Wreck Island</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>WRECK - Barrier Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.790000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.820000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.300000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.240000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1888-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2003-10-20</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para> Data for 1888-1980 were digitized using a GTCO digitizing tablet with an RMS &lt;0.000 degrees. Data for 1994 and 2004 were digitized off the screen using ArcGIS from rectified imagery. </para>
+         </description>
+      </methodStep>
+   </methods>
+   <otherEntity>
+      <entityName>VCR05132</entityName>
+      <entityDescription>
+Data are stored in a .zip file that contains the ArcGIS Shapefiles for digitized data and a GEOTIFF image (1994 USGS Orthophoto Mosaic). Additional metadata in ESRI XML format is included in the shapefile.To ease downloading the shapefiles have been compressed into a single .ZIP file. Use unzip, WinZip or similar programs to extract the raw files.
+
+
+
+
+
+
+      </entityDescription>
+      <physical>
+         <objectName>wreck_arc.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.144.18&amp;urlHeadID=2&amp;urlTail=1/VCR05132/VCR05132/wreck_arc.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>wreck94image.zip</entityName>
+      <entityDescription>
+Contains a TIFF file and associated files from ArcGIS. 
+      </entityDescription>
+      <physical>
+         <objectName>wreck94image.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.144.18&amp;urlHeadID=2&amp;urlTail=2/VCR05132/wreck94image.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+       <spatialVector id="wreckutm83_arc">
+         <alternateIdentifier>VCR05132-3</alternateIdentifier>
+         <entityName>wreckutm83_arc</entityName>
+         <entityDescription>Shoreline Changes in Wreck Island, Virginia. This dataset consists of two components. An ArcGIS "shapefile" containing digitized boundary lines for the shoreline of Wreck Island for the years 1888 (partial), 1911 (partial), 1942, 1959, 1980 obtained from a NOAA coastal change map (1:24,000), 1994 (from USGS orthophotos) and October 2003 (after hurricane Isabel, from ETM+ Landsat 7 image). A mosaic of the 1994 orthophotos is also included as a GeoTIFF formated image.All data is in UTM zone 18N and uses the NAD83 datum.</entityDescription>
+         <physical>
+            <objectName>wreck_arc.zip </objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.144.18&amp;urlHeadID=2&amp;urlTail=3/VCR05132/wreck_arc.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Wreck Island, VA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.812836</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.784420</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.297738</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.239390</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+               <rangeOfDates>
+                  <beginDate>
+                     <calendarDate>1888-01-01</calendarDate>
+                  </beginDate>
+                  <endDate>
+                     <calendarDate>2003-10-20</calendarDate>
+                  </endDate>
+               </rangeOfDates>
+            </temporalCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>LENGTH</attributeName>
+               <attributeLabel>LENGTH</attributeLabel>
+               <attributeDefinition>Internal autogenerated ArcInfo coverage attribute: 
+length (m)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>YEAR</attributeName>
+               <attributeLabel>YEAR</attributeLabel>
+               <attributeDefinition>Year of Survey</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>calendar year</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>WRECK_ID</attributeName>
+               <attributeLabel>WRECK_ID</attributeLabel>
+               <attributeDefinition>legacy internal line segment id</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">SmallInteger</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>LineString</geometry>
+         <geometricObjectCount>66</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="NAD_1983_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_North_American_1983">
+                     <datum name="D_North_American_1983" />
+                     <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+      <spatialRaster id="wreck94a.tif.vat">
+         <alternateIdentifier>VCR05132-4</alternateIdentifier>
+         <entityName>wreck94a</entityName>
+         <entityDescription>    This mosaic of the 1994 (black-and-white) orthophotos is also included as a GeoTIFF formated image.       All data is in UTM zone 18N and uses the NAD83 datum.    </entityDescription>
+         <physical>
+            <objectName>wreck94image.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.144.18&amp;urlHeadID=2&amp;urlTail=4/VCR05132/wreck94image.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Wreck Island, VA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.812382</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.786924</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.297806</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.236349</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>Mosaic of the 1994 black-and-white orthophotos for Wreck Island, VA,
+                1994</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <customUnit>stretched grayscale spectral brightness</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.000000</minimum>
+                           <maximum exclusive="false">255.000000</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Band_2</attributeName>
+               <attributeDefinition>Mosaic of the 1994 black-and-white orthophotos for Wreck Island, VA,
+                1994</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <customUnit>stretched grayscale spectral brightness</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.000000</minimum>
+                           <maximum exclusive="false">254.000000</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Band_3</attributeName>
+               <attributeDefinition>Mosaic of the 1994 black-and-white orthophotos for Wreck Island, VA,
+                1994</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <customUnit>stretched grayscale spectral brightness</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">0.000000</minimum>
+                           <maximum exclusive="false">255.000000</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="NAD_1983_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_North_American_1983">
+                     <datum name="D_North_American_1983" />
+                     <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>427999.500000</xCoordinate>
+               <yCoordinate>4121400.500000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>427999.500000</xCoordinate>
+               <yCoordinate>4128200.500000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>430199.500000</xCoordinate>
+               <yCoordinate>4128200.500000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>430199.500000</xCoordinate>
+               <yCoordinate>4121400.500000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>1.000000</cellSizeXDirection>
+         <cellSizeYDirection>1.000000</cellSizeYDirection>
+         <numberOfBands>3</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>6800</rows>
+         <columns>2200</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="calendar year" />
+      <ns2:unit id="stretched grayscale spectral brightness" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-42</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

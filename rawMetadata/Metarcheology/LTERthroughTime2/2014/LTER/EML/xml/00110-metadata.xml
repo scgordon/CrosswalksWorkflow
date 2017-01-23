@@ -1,0 +1,1038 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.608.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd  eml://ecoinformatics.org/eml-2.1.1 http://caplter.asu.edu/php/eml2_1_1/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="608" system="gios_dataset">
+    <alternateIdentifier system="gios_dataset">608_1</alternateIdentifier>
+    <title>Land Cover Classification of the CAP area using Landsat Thematic Mapper &#8211; years 2003, 2007, 2009 and 2011</title>
+    <creator>
+      <individualName>
+        <givenName>Jeffrey</givenName>
+        <surName>Ditgen</surName>
+      </individualName>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Jeffrey</givenName>
+        <surName>Ditgen</surName>
+      </individualName>
+    </metadataProvider>
+    <pubDate>2014-01-01</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>This dataset is a Land cover classification time series for years 2003, 2007, 2009 and 2011. They were produced from Landsat Thematic Mapper imagery using a supervised classification method. The dataset should help show a pattern of urban sprawl and decrease in agricultural land.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Land-Use, Land-Cover and Land Architecture</keyword>
+      <keyword keywordType="theme">disturbance patterns</keyword>
+      <keyword keywordType="theme">Climate, Ecosystems and People</keyword>
+      <keywordThesaurus>IPA and Core Area CAP Data Portal Controler</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">land cover</keyword>
+      <keyword keywordType="theme">gis</keyword>
+      <keyword keywordType="theme">raster</keyword>
+      <keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">caplter</keyword>
+      <keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword>
+      <keyword keywordType="place">arizona</keyword>
+      <keyword keywordType="theme">caplter created</keyword>
+      <keyword keywordType="place">az</keyword>
+      <keyword keywordType="theme">cap</keyword>
+      <keyword keywordType="theme">arid land</keyword>
+      <keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>Copyright Board of Regents, Arizona State University. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available 'as is.'</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+            </listitem>
+            <listitem>
+              <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <onlineDescription>CAPLTER Metadata URL</onlineDescription>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=608</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>(Default is the CAP LTER study area &#8211; see below. If your study area varies from this please edit accordingly.)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-113.34</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.59</eastBoundingCoordinate>
+          <northBoundingCoordinate>+34.01</northBoundingCoordinate>
+          <southBoundingCoordinate>+32.91</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>2003-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>2007-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>2009-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>2011-01-01</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This research has been concluded.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="info_manager_contact">
+      <positionName>Information Manager</positionName>
+      <organizationName>Global Institute of Sustainability, Arizona State University</organizationName>
+      <address>
+        <deliveryPoint>POB 875402</deliveryPoint>
+        <city>TEMPE</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-5402</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(480) 965 2975</phone>
+      <phone phonetype="fax">(480) 965-8087</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Arizona State University, Global Institute of Sustainability</organizationName>
+    </publisher>
+    <pubPlace>Tempe, Arizona</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Research Methods:</title>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>The Landsat images were taken on July 9th, 2003; June 18th, 2007; July 9th, 2009 and June 13, 2011 (courtesy of the U.S. Geological Survey). The images were preliminarily clipped to the CAP-LTER region. This dataset was produced using supervised classification from Landsat Thematic Mapper imagery. Supervised classification algorithms are based on user-defined training regions that represent a specific class. The algorithm used for this classification was maximum likelihood which assumes a Gaussian distribution of pixel values with each training class. Multiple sets of training pixels were taken for each class and areas and were merged together to get average spectral values for the class which the algorithm used to classify the pixels. Six classes were created: agricultural soil, residential/urban/disturbed, water, vegetation, desert/undisturbed, and asphalt.</para>
+                </listitem>
+                <listitem>
+                  <para>For accuracy purposes 300 test pixels were place randomly on the images. These pixels were verified using google earth historic air photography in their respective year. The test pixels actual classification was compared to the classified image pixels and an error report was generated. The 2003 classification has an overall accuracy of 77.5%; the kappa statistic was 0.6276. The 2007 classification had an overall accuracy of 87%; the kappa statistic was 0.7559. The 2009 classification had an overall accuracy of 89.67%; the kappa statistic was 0.8210. The 2011 classification had an overall accuracy of 80%; the kappa statistic was 0.68.  Erdas Imagine software was used to run all analyses.</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <spatialRaster>
+      <entityName>2003 land cover classification of the CAP-LTER region</entityName>
+      <entityDescription>This raster  is a land cover classification of the CAP-LTER region using a 2003 Landsat image. </entityDescription>
+      <physical>
+        <objectName>CAP_LandCoverLandsat_2003.tif</objectName>
+        <size unit="byte">1079487</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with arcinfo .e00 exchange file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/608_CAP_LandCoverLandsat_2003.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>raster digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  608-fgdc-CAP_LandCoverLandsat_2003.xml</para>
+                <para>Bytes:  3162</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2003.aux</para>
+                <para>Bytes:  5375</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2003.tfw</para>
+                <para>Bytes:  92</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2003.tif</para>
+                <para>Bytes:  1079487</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2003.tif.aux.xml</para>
+                <para>Bytes:  46861</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2003.tif.ovr</para>
+                <para>Bytes:  483772</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2003.tif.vat.dbf</para>
+                <para>Bytes:  92162</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2003.tif.xml</para>
+                <para>Bytes:  9855</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>OID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeDefinition>This is the coded value for the land cover classification types</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Compacted Soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Residential/Urban/Disturbed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Water</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>Vegetation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>Desert/Undisturbed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>Asphalt</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeDefinition>Number of pixels in the respective class</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Red</attributeName>
+          <attributeDefinition>Red</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Green</attributeName>
+          <attributeDefinition>Green</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Blue</attributeName>
+          <attributeDefinition>Blue</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Opacity</attributeName>
+          <attributeDefinition>Opacity</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Class_Name</attributeName>
+          <attributeDefinition>Land cover classification name</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>unknown</cellSizeXDirection>
+      <cellSizeYDirection>unknown</cellSizeYDirection>
+      <numberOfBands>unknown</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>2354</rows>
+      <columns>3724</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <entityName>2007 land cover classification of the CAP-LTER region</entityName>
+      <entityDescription>2007 land cover classification of the CAP-LTER region using a 2007 landsat image.</entityDescription>
+      <physical>
+        <objectName>CAP_LandCoverLandsat_2007.tif</objectName>
+        <size unit="byte">795987</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with arcinfo .e00 exchange file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/608_CAP_LandCoverLandsat_2007.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>raster digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  608-fgdc-CAP_LandCoverLandsat_2007.xml</para>
+                <para>Bytes:  3093</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2007.tfw</para>
+                <para>Bytes:  92</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2007.tif</para>
+                <para>Bytes:  795987</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2007.tif.aux.xml</para>
+                <para>Bytes:  11117</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2007.tif.clr</para>
+                <para>Bytes:  140</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2007.tif.ovr</para>
+                <para>Bytes:  354060</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2007.tif.vat.dbf</para>
+                <para>Bytes:  18926</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2007.tif.xml</para>
+                <para>Bytes:  9695</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>OID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Value</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Unclassified</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Agricultural Soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Undisturbed/Desert</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Asphalt</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Water</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Disturbed/Urban</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Vegetation</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeDefinition>Number of pixels in the respective class</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Red</attributeName>
+          <attributeDefinition>Red</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Green</attributeName>
+          <attributeDefinition>Green</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Blue</attributeName>
+          <attributeDefinition>Blue</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Opacity</attributeName>
+          <attributeDefinition>Opacity</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Class_Name</attributeName>
+          <attributeDefinition>Class name of the land cover</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>unknown</cellSizeXDirection>
+      <cellSizeYDirection>unknown</cellSizeYDirection>
+      <numberOfBands>unknown</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>2354</rows>
+      <columns>3724</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <entityName>2009 land cover classification of the CAP-LTER region</entityName>
+      <entityDescription>This dataset is a 2009 land cover classification of the CAP-LTER region created from a Landsat image.</entityDescription>
+      <physical>
+        <objectName>CAP_LandCoverLandsat_2009.tif</objectName>
+        <size unit="byte">927901</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with arcinfo .e00 exchange file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/608_CAP_LandCoverLandsat_2009.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>raster digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  608-fgdc-CAP_LandCoverLandsat_2009.xml</para>
+                <para>Bytes:  3243</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2009.tfw</para>
+                <para>Bytes:  92</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2009.tif</para>
+                <para>Bytes:  927901</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2009.tif.aux.xml</para>
+                <para>Bytes:  33429</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2009.tif.ovr</para>
+                <para>Bytes:  423856</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2009.tif.vat.dbf</para>
+                <para>Bytes:  77474</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2009.tif.xml</para>
+                <para>Bytes:  9202</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>OID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeDefinition>This is the coded value for the land cover classification types. </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Unclassified </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Agricultural Soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Water</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Undisturbed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Cultivated Vegetation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Riverbed/Dirt Trail</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Vegetation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Disturbed/Urban</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Asphalt</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Opacity</attributeName>
+          <attributeDefinition>Opacity</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Class_Name</attributeName>
+          <attributeDefinition>Class name of the land cover</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeDefinition>Number of pixels in the respective class</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>unknown</cellSizeXDirection>
+      <cellSizeYDirection>unknown</cellSizeYDirection>
+      <numberOfBands>unknown</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>2354</rows>
+      <columns>3724</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <entityName>CAP_LandCoverLandsat_2011.tif</entityName>
+      <entityDescription>This raster is a land cover classification of the CAP-LTER region using a 2011 Landsat image. </entityDescription>
+      <physical>
+        <objectName>CAP_LandCoverLandsat_2011.tif</objectName>
+        <size unit="byte">1007273</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with arcinfo .e00 exchange file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/608_CAP_LandCoverLandsat_2011.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>No geographic/area/plot description available. Sorry.</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-112.783759</westBoundingCoordinate>
+            <eastBoundingCoordinate>-111.572366</eastBoundingCoordinate>
+            <northBoundingCoordinate>33.840990</northBoundingCoordinate>
+            <southBoundingCoordinate>33.192775</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>raster digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  608-fgdc-CAP_LandCoverLandsat_2011.xml</para>
+                <para>Bytes:  3369</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2011.tfw</para>
+                <para>Bytes:  92</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2011.tif</para>
+                <para>Bytes:  1007273</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2011.tif.aux.xml</para>
+                <para>Bytes:  5887</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2011.tif.ovr</para>
+                <para>Bytes:  454598</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2011.tif.vat.dbf</para>
+                <para>Bytes:  3130</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  CAP_LandCoverLandsat_2011.tif.xml</para>
+                <para>Bytes:  10195</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute id="OID">
+          <attributeName>OID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>This is the coded value for the land cover classification types</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Agricultural Soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Water</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Undisturbed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Cultivated Vegetation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Riverbed/ Dirt Trail</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Vegetation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Disturbed/Urban</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Asphalt</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Count">
+          <attributeName>Count</attributeName>
+          <attributeDefinition>Number of pixels in the respective class</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Red">
+          <attributeName>Red</attributeName>
+          <attributeDefinition>Red</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Green">
+          <attributeName>Green</attributeName>
+          <attributeDefinition>Green</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Blue">
+          <attributeName>Blue</attributeName>
+          <attributeDefinition>Blue</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Opacity">
+          <attributeName>Opacity</attributeName>
+          <attributeDefinition>Opacity</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Class_Name">
+          <attributeName>Class_Name</attributeName>
+          <attributeDefinition>Land cover classification name</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>unknown</cellSizeXDirection>
+      <cellSizeYDirection>unknown</cellSizeYDirection>
+      <numberOfBands>unknown</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>2354</rows>
+      <columns>3724</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+  </dataset>
+</ns0:eml>

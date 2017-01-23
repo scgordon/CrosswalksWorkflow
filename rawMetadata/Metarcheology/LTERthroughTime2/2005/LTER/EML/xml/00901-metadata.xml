@@ -1,0 +1,972 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.94.14" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="94" system="VCR">
+   <alternateIdentifier>VCR05118</alternateIdentifier>
+   <title>Parramore Island of the Virginia Coast Reserve Permanent Plot Resurvey: Subplot data 1996</title>
+   <creator>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3263</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>1999-01-01</pubDate>
+   <keywordSet>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>
+Parramore Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1996-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1996-10-20</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3263</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para><emphasis>This section contains specific methods for this dataset.</emphasis></para>
+  <para> * SUBPLOT DATA </para>
+  <para>Subplots coordinates DO NOT MATCH the same coordinates from 1992-1993, but were once again chosen from a list of random azimuths and distances designed not to over sample the central portion of radial plots. When a tidal creek was present within 10 or 20 m of the subplot, the distance ( in m) to the creek was noted. The identity of major herbaceous and woody species present in the subplot were noted (regardless of whether or not they were sampled in the ground cover point counts).</para>
+  <para>A Decagon brand ceptometer was used to measure Photosynthetically-Active Radiation (PAR) in umole/m2/s. Ceptometer readings (when instrument was operational) were undertaken at only three heights of 20 cm and 137cm (DBH) and in the open full sun. This differs from readings done in 1992-93 when ceptometer readings were taken at 0,20,40,60,80,100,120,160, and 200 cm heights above ground surface. Open readings were collected from nearby outside the plot locations when vegetation canopy height in the subplot exceeded 2m., or else from fully within a large sunfleck or canopy gap if it was too difficult to get beyond the forest or shrub canopy within a reasonable amount of time. Time of day and weather conditions were noted. Ceptometer readings were collected during the initial site visit regardless of weather and time of day because of logistical limits that prevented collection during only optimal conditions (in this way similar to initial 1992-93 readings).</para>
+  <para>Ground cover point counts were collected at each subplot in a method similar but not identical to that used in 1992-93. Whereas in 1992-93 a 2m-long pole with holes every 20cm was laid radially and tangentially across the subplot in a "+" pattern (thus skipping the duplicated center hole for a total of 20 points), two methods of making the counts were used in 1996, utilizing the 50x50cm (1/4 m2) quadrats used for biomass clipping samples which had been marked 5 times spaced 10 cm apart on each side, for a total of 20 points. By setting down the quadrat in opposite corners so its sides were arranged radially and tangentially, a 1m across "+" pattern thru the subplot center (50cm on each side of the subplot center) that duplicated the 1992-93 pattern was created and sampled, albeit covering a 1 m2 footprint rather than the original 4 m2 footprint. This was the "subplot-outer" pattern. Additionally, to correspond to with the biomass clippings being collected, a "subplot-inner" pattern was sampled wherein the 50x50 cm quadrat was centered over the subplot (thus only a 0.25 m2 footprint) and all 20 points were tallied. In all cases, directly under/over each sample mark, the identity of the vegetation (if any) was noted with preference being given to the overlying vegetation if more than one species' leaves overlapped. The ground cover thus counted was NOT identified to species but rather to growth-form category: 1) grasses, 2) rushes &amp; reeds (includes Phragmites), 3) vines, 4) woody tree saplings/seedlings or shrubs, 5) miscellaneous herbaceous plants, 6) bare ground, or 7) standing water. The average height of the plants in each category was measured to the nearest 5 cm.</para>
+         </description>
+      </methodStep>
+   </methods>
+   <project id="VCR05086">
+      <title>Parramore Permanent Plot Project</title>
+      <personnel>
+         <individualName>
+            <givenName>John</givenName>
+            <surName>Porter</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+            <city>Charlottesville</city>
+            <administrativeArea>VA</administrativeArea>
+            <postalCode>22903-4123</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">434-924-8999</phone>
+         <phone phonetype="facsimile">434-982-2137</phone>
+         <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+         <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+         <role>originator</role>
+      </personnel>
+   </project>
+   <dataTable>
+      <entityName>VCR05118</entityName>
+      <entityDescription>Parramore Island of the Virginia Coast Reserve Permanent Plot Resurvey: Subplot data 1996</entityDescription>
+      <physical>
+         <objectName>96subplots.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>22</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0D#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0D#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.94.14&amp;urlHeadID=2&amp;urlTail=1/VCR05118/VCR05118/96subplots.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR05118.PLOT_N">
+            <attributeName>PLOT_N</attributeName>
+            <attributeLabel>plot number</attributeLabel>
+            <attributeDefinition>PLOT_N - plot number</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>plot number</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.SUBPLOT">
+            <attributeName>SUBPLOT</attributeName>
+            <attributeLabel>subplot number</attributeLabel>
+            <attributeDefinition>SUBPLOT - subplot number</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>subplot number</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.SESSION">
+            <attributeName>SESSION</attributeName>
+            <attributeLabel>session (visit) number</attributeLabel>
+            <attributeDefinition>SESSION - session (visit) number</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>session (visit) number</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR05118.AZIMUTH">
+            <attributeName>AZIMUTH</attributeName>
+            <attributeLabel>azimuth from plot center</attributeLabel>
+            <attributeDefinition>AZIMUTH - azimuth from plot center</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>azimuth from plot center</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.DIST">
+            <attributeName>DIST</attributeName>
+            <attributeLabel>distance from plot center (to nearest  1 m)</attributeLabel>
+            <attributeDefinition>DIST - distance from plot center (to nearest  1 m)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>distance from plot center (to nearest  1 m)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.CREKDIS">
+            <attributeName>CREKDIS</attributeName>
+            <attributeLabel>shortest distance to the nearest creekbank from subplot</attributeLabel>
+            <attributeDefinition>CREKDIS - shortest distance to the nearest creekbank from subplot</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>shortest distance to the nearest creekbank from subplot</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.CEPTDBH">
+            <attributeName>CEPTDBH</attributeName>
+            <attributeLabel>PAR ceptometer reading at Breast Height</attributeLabel>
+            <attributeDefinition>CEPTDBH - PAR ceptometer reading at Breast Height</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>PAR ceptometer reading at Breast Height</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.CEPT20">
+            <attributeName>CEPT20</attributeName>
+            <attributeLabel>PAR ceptometer reading at  20cm above ground/water level</attributeLabel>
+            <attributeDefinition>CEPT20 - PAR ceptometer reading at  20cm above ground/water level</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>PAR ceptometer reading at  20cm above ground/water level</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.CEPTOPN">
+            <attributeName>CEPTOPN</attributeName>
+            <attributeLabel>open sun PAR ceptometer reading</attributeLabel>
+            <attributeDefinition>CEPTOPN - open sun PAR ceptometer reading</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>open sun PAR ceptometer reading</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.CPTTIME">
+            <attributeName>CPTTIME</attributeName>
+            <attributeLabel>time of ceptometer readings</attributeLabel>
+            <attributeDefinition>CPTTIME - time of ceptometer readings</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>time of ceptometer readings</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.SPPPRES">
+            <attributeName>SPPPRES</attributeName>
+            <attributeLabel>list of species ID codes for the dominant species present</attributeLabel>
+            <attributeDefinition>SPPPRES - list of species ID codes for the dominant species present</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>list of species ID codes for the dominant species present</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.BARE_IN">
+            <attributeName>BARE_IN</attributeName>
+            <attributeLabel>"inner" BARREN ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>BARE_IN - "inner" BARREN ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" BARREN ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.BARE_ON">
+            <attributeName>BARE_ON</attributeName>
+            <attributeLabel>"outer" BARREN ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>BARE_ON - "outer" BARREN ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" BARREN ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.H2O_IN">
+            <attributeName>H2O_IN</attributeName>
+            <attributeLabel>"inner" WATER ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>H2O_IN - "inner" WATER ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" WATER ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.H2O_ON">
+            <attributeName>H2O_ON</attributeName>
+            <attributeLabel>"outer" WATER ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>H2O_ON - "outer" WATER ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" WATER ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.GRAS_IN">
+            <attributeName>GRAS_IN</attributeName>
+            <attributeLabel>"inner" GRASS ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>GRAS_IN - "inner" GRASS ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" GRASS ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.GRAS_ON">
+            <attributeName>GRAS_ON</attributeName>
+            <attributeLabel>"outer" GRASS ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>GRAS_ON - "outer" GRASS ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" GRASS ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.GRAS_IH">
+            <attributeName>GRAS_IH</attributeName>
+            <attributeLabel>"inner" GRASS average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>GRAS_IH - "inner" GRASS average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" GRASS average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.GRAS_OH">
+            <attributeName>GRAS_OH</attributeName>
+            <attributeLabel>"outer" GRASS average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>GRAS_OH - "outer" GRASS average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" GRASS average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.REED_IN">
+            <attributeName>REED_IN</attributeName>
+            <attributeLabel>"inner" REED ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>REED_IN - "inner" REED ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" REED ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.REED_ON">
+            <attributeName>REED_ON</attributeName>
+            <attributeLabel>"outer" REED ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>REED_ON - "outer" REED ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" REED ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.REED_IH">
+            <attributeName>REED_IH</attributeName>
+            <attributeLabel>"inner" REED average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>REED_IH - "inner" REED average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" REED average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.REED_OH">
+            <attributeName>REED_OH</attributeName>
+            <attributeLabel>"outer" REED average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>REED_OH - "outer" REED average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" REED average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.HERB_IN">
+            <attributeName>HERB_IN</attributeName>
+            <attributeLabel>"inner" HERBACEOUS ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>HERB_IN - "inner" HERBACEOUS ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" HERBACEOUS ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.HERB_ON">
+            <attributeName>HERB_ON</attributeName>
+            <attributeLabel>"outer" HERBACEOUS ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>HERB_ON - "outer" HERBACEOUS ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" HERBACEOUS ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.HERB_IH">
+            <attributeName>HERB_IH</attributeName>
+            <attributeLabel>"inner" HERBACEOUS average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>HERB_IH - "inner" HERBACEOUS average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" HERBACEOUS average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.HERB_OH">
+            <attributeName>HERB_OH</attributeName>
+            <attributeLabel>"outer" HERBACEOUS average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>HERB_OH - "outer" HERBACEOUS average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" HERBACEOUS average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.VINE_IN">
+            <attributeName>VINE_IN</attributeName>
+            <attributeLabel>"inner" VINE ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>VINE_IN - "inner" VINE ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" VINE ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.VINE_ON">
+            <attributeName>VINE_ON</attributeName>
+            <attributeLabel>"outer" VINE ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>VINE_ON - "outer" VINE ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" VINE ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.VINE_IH">
+            <attributeName>VINE_IH</attributeName>
+            <attributeLabel>"inner" VINE average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>VINE_IH - "inner" VINE average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" VINE average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.VINE_OH">
+            <attributeName>VINE_OH</attributeName>
+            <attributeLabel>"outer" VINE average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>VINE_OH - "outer" VINE average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" VINE average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.WOOD_IN">
+            <attributeName>WOOD_IN</attributeName>
+            <attributeLabel>"inner" WOODY ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>WOOD_IN - "inner" WOODY ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" WOODY ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.WOOD_ON">
+            <attributeName>WOOD_ON</attributeName>
+            <attributeLabel>"outer" WOODY ground cover point count (out of 20)</attributeLabel>
+            <attributeDefinition>WOOD_ON - "outer" WOODY ground cover point count (out of 20)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" WOODY ground cover point count (out of 20)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.WOOD_IH">
+            <attributeName>WOOD_IH</attributeName>
+            <attributeLabel>"inner" WOODY average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>WOOD_IH - "inner" WOODY average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"inner" WOODY average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR05118.WOOD_OH">
+            <attributeName>WOOD_OH</attributeName>
+            <attributeLabel>"outer" WOODY average height (to nearest 5 or 10cm)</attributeLabel>
+            <attributeDefinition>WOOD_OH - "outer" WOODY average height (to nearest 5 or 10cm)</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>"outer" WOODY average height (to nearest 5 or 10cm)</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+      </attributeList>
+   </dataTable>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="cm" />
+      <ns2:unit id="degrees" />
+      <ns2:unit id="HH:MM" />
+      <ns2:unit id="m" />
+      <ns2:unit id="umol/m2/s" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-16</weight>
+         <projectId>VCR05086</projectId>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

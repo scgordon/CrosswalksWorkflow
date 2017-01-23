@@ -1,0 +1,83 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-bes.485.56 " system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 ./eml-2.0.1/eml.xsd"> 
+<dataset>
+<title>Land Cover, Baltimore County BES ID 485-</title>
+<creator>
+<individualName>
+<surName>UVM Spatial Analysis Lab, Grove, J.M, O'Neil-Dunne, J.</surName>
+</individualName>
+</creator>
+<pubDate>2009-09-01</pubDate>
+<abstract><para>
+High resolution land cover dataset for Baltimore County, MD.  Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads, and (7) other paved surfaces. The minimum mapping unit for the delineation of features was set at 8 square meters.   The primary sources used to derive this land cover layer were color infrared aerial imagery acquired in 2007 as part of the National Agricultural Imagery Program (NAIP), a normalized Digital Surface Model (nDSM) derived from 2005 LiDAR data, LiDAR intensity data resulting from the 2005 acquisition, building footprints, road polygons, and water polygons.
+
+This land cover dataset is considered current as of August, 2007. Object-based image analysis techniques (OBIA) were employed to extract land cover information using the best available remotely sensed and vector GIS datasets. OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets. Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process. A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. No accuracy assessment was conducted, but the dataset was subject to a thorough manual quality control. Over 16,000 corrections were made to the classification.
+</para></abstract>
+<keywordSet>
+<keyword keywordType="theme">Biophysical Resources,  Land,  LULC,  Land Use,  Land Cover,  Structures,  terrain</keyword>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="place">Baltimore Metropolitan Statistical Area, MSA, Maryland, Baltimore County</keyword>
+</keywordSet>
+<distribution>
+<online>
+<url>http://beslter.org/data_http/land_cover/BACO/LandCover_BACO_2007.zip</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Baltimore Ecosystem Study ultimately will conduct research and educational activities throughout the Baltimore metropolitan area. This large area includes Baltimore City, Baltimore County, and the counties of Ann Arundel, Carrol, Harford, Howard, and Montgomery. Gwynns Falls includes agricultural lands, recently suburbanized areas, established suburbs, and dense urban areas having residential, commercial and open spaces. In addition, a reference area has been established in a forested catchment of the Gunpowder drainage in Oregon Ridge County Park. </geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-77.314183</westBoundingCoordinate>
+<eastBoundingCoordinate>-76.012008</eastBoundingCoordinate>
+<northBoundingCoordinate>39.724847</northBoundingCoordinate>
+<southBoundingCoordinate>38.708367</southBoundingCoordinate>
+<boundingAltitudes>
+<altitudeMinimum>50</altitudeMinimum>
+<altitudeMaximum>700</altitudeMaximum>
+<altitudeUnits>feet</altitudeUnits>
+</boundingAltitudes>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Jonathan</givenName>
+<surName>Walsh</surName>
+</individualName>
+<organizationName>Cary Institute of Ecosystem Studies</organizationName>
+<positionName>Information Manager</positionName>
+<address>
+<deliveryPoint>IES</deliveryPoint>
+<deliveryPoint>Box AB, 65 Sharon Tpke</deliveryPoint>
+<city>Millbrook</city>
+<administrativeArea>NY</administrativeArea>
+<postalCode>12545</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">845-677-7600</phone>
+<phone phonetype="fax">  </phone>
+<electronicMailAddress>walshj@ecostudies.org</electronicMailAddress>
+</contact>
+<publisher>
+<organizationName>J. Morgan Grove The scientists, the BES-LTER Program, and the Cary Institute of Ecosystem Studies must receive adequate acknowledgement for the use of data by other scientists, and the BES LTER program must receive two copies of any publication using that data. USDA Forest Service joneildu@uvm.edu Baltimore Ecosystem Study</organizationName>
+<address>
+<deliveryPoint>Room 134 TRC Building</deliveryPoint>
+<deliveryPoint> University of Maryland, Baltimore County</deliveryPoint>
+<deliveryPoint> 5200 Westland Blvd</deliveryPoint>
+<city>Baltimore</city>
+<administrativeArea>MD</administrativeArea>
+<postalCode>21227</postalCode>
+</address>
+</publisher>
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid="BES",o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</dataset>
+</ns0:eml>

@@ -1,0 +1,906 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.3.12" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="3">
+    <alternateIdentifier>knb-lter-sbc.3</alternateIdentifier>
+    <shortName>SBCounty PWD precipitation</shortName>
+    <title>SBC LTER: Land: Hydrology: Daily precipitation from Santa Barbara County Flood Control (Public Works Department)</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="jmelack">
+      <individualName>
+        <givenName>John</givenName>
+        <givenName>M</givenName>
+        <surName>Melack</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Department of Ecology, Evolution and Marine Biology</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-9620</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-3879</phone>
+      <phone phonetype="fax">805-893-4724</phone>
+      <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2010-06-14</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These daily total precipitation data represent legacy data obtained by SBC LTER from the the Santa Barbara County Flood Control District for several coastal watersheds draining into the Santa Barbara Channel (California, USA). Starting in 2001, SBC also began archive high-frequency data from County stations with active data loggers which are available in other SBC data packages.</para>
+      <para>These data were collected in accordance with current industry standards. The data are contained in 3 tables, for stations with active data loggers and tipping gaguges, active stations with other types of gauges, and inactive stations. Only data collected with tipping gauges and data loggers can be interpolated to to the resolution required by SBC's research objectives, and so only this data table will be updated (annually, at the end of the water year).</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">hydrology</keyword>
+      <keyword keywordType="theme">precipitation</keyword>
+      <keyword keywordType="theme">rainfall</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Freshwater</keyword>
+      <keyword keywordType="theme">Precipitation</keyword>
+      <keywordThesaurus>Knowledge Network for Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Precipitation Amount</keyword>
+      <keywordThesaurus>GCMD v6.0.0.0.0 Atmosphere</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="sbc-boilerplate-geoCov_SBC">
+        <geographicDescription>Santa Barbara Coastal LTER bounding box: The Santa Barbara Coastal LTER research area extends from Point Conception (W) to the mouth of the Santa Clara River (E) and from the Santa Ynez Mountains (N) to the north shores of the Channel Islands (S), California, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.475</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.255</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.531</northBoundingCoordinate>
+          <southBoundingCoordinate>34</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1900-01-02</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2005-09-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>See protocol/distribution/online</para>
+          </section>
+        </description>
+        <protocol scope="document">
+          <title />
+          <creator scope="document">
+            <individualName>
+              <surName />
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Land/Protocols/</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="SBCFC_Precip_Daily_active_logger">
+      <entityName>Santa Barbara Co. Flood Control Dist. Daily precipitation, active loggers</entityName>
+      <entityDescription>precipitation from SB County stations with data loggers which were active as of 2005</entityDescription>
+      <physical>
+        <objectName>SBCFC_Precip_Daily_active_logger.csv</objectName>
+        <size unit="byte">2008826</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>#x20</fieldDelimiter>
+              <collapseDelimiters>yes</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Land/Data/Precipitation/SBCFC_Precip_Daily_active_logger.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ent1.att1">
+          <attributeName>Station</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>SBCPWD Station ID</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att2">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurement: yyyy-mm-dd</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att3">
+          <attributeName>Daily_Precipitation_Total_inch</attributeName>
+          <attributeLabel>Daily_Precipitation_Total_inch</attributeLabel>
+          <attributeDefinition>Daily total precipitation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inch</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0</minimum>
+                  <maximum exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att4">
+          <attributeName>Flag_Daily_Precipitation_Total_inch</attributeName>
+          <attributeLabel>Flag_Daily_Precipitation_Total_inch</attributeLabel>
+          <attributeDefinition>Data flags for precipitation data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Prorated from nearby gauge: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated using other nearby network gauges: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA</code>
+                    <definition>Prorated using the nearest ALERT gauge data: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Snow and/or snow melt has caused us to estimated amount</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace amount under 0.01 inches</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E####</code>
+                    <definition>Prorated from another nearby gauge: gauge ID ####</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P####</code>
+                    <definition>Prorated from another nearby gauge whose number is ####</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no code</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>24898</numberOfRecords>
+    </dataTable>
+    <dataTable id="SBCFC_Precip_Daily_active_other">
+      <entityName>Santa Barbara Co. Flood Control Dist. Daily precipitation, active non-logging</entityName>
+      <entityDescription>precipitation from SB County stations with other (non-logging) collector types which were active as of 2005</entityDescription>
+      <physical>
+        <objectName>SBCFC_Precip_Daily_active_other.csv</objectName>
+        <size unit="byte">2008826</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>#x20</fieldDelimiter>
+              <collapseDelimiters>yes</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Land/Data/Precipitation/SBCFC_Precip_Daily_active_other.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ent2.att1">
+          <attributeName>Station</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>SBCPWD Station ID</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att2">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurement: yyyy-mm-dd</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att3">
+          <attributeName>Daily_Precipitation_Total_inch</attributeName>
+          <attributeLabel>Daily_Precipitation_Total_inch</attributeLabel>
+          <attributeDefinition>Daily total precipitation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inch</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0</minimum>
+                  <maximum exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att4">
+          <attributeName>Flag_Daily_Precipitation_Total_inch</attributeName>
+          <attributeLabel>Flag_Daily_Precipitation_Total_inch</attributeLabel>
+          <attributeDefinition>Data flags for precipitation data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Prorated from nearby gauge: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated using other nearby network gauges: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA</code>
+                    <definition>Prorated using the nearest ALERT gauge data: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Snow and/or snow melt has caused us to estimated amount</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace amount under 0.01 inches</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E####</code>
+                    <definition>Prorated from another nearby gauge: gauge ID ####</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P####</code>
+                    <definition>Prorated from another nearby gauge whose number is ####</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no code</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>48716</numberOfRecords>
+    </dataTable>
+    <dataTable id="SBCFC_Precip_Daily_inactive">
+      <entityName>Santa Barbara Co. Flood Control Dist. Daily precipitation, inactive loggers</entityName>
+      <entityDescription>precipitation from inactive SB County stations.</entityDescription>
+      <physical>
+        <objectName>SBCFC_Precip_Daily_inactive.csv</objectName>
+        <size unit="byte">2008826</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>#x20</fieldDelimiter>
+              <collapseDelimiters>yes</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Land/Data/Precipitation/SBCFC_Precip_Daily_inactive.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ent3.att1">
+          <attributeName>Station</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>SBCPWD Station ID</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att2">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurement: yyyy-mm-dd</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2000.0</minimum>
+                  <maximum exclusive="false">2002.0</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att3">
+          <attributeName>Daily_Precipitation_Total_inch</attributeName>
+          <attributeLabel>Daily_Precipitation_Total_inch</attributeLabel>
+          <attributeDefinition>Daily total precipitation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inch</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0</minimum>
+                  <maximum exclusive="false">250.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no data availble</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att4">
+          <attributeName>Flag_Daily_Precipitation_Total_inch</attributeName>
+          <attributeLabel>Flag_Daily_Precipitation_Total_inch</attributeLabel>
+          <attributeDefinition>Data flags for precipitation data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Prorated from nearby gauge: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated using other nearby network gauges: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA</code>
+                    <definition>Prorated using the nearest ALERT gauge data: nearby gauge not listed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Snow and/or snow melt has caused us to estimated amount</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace amount under 0.01 inches</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E####</code>
+                    <definition>Prorated from another nearby gauge: gauge ID ####</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P####</code>
+                    <definition>Prorated from another nearby gauge whose number is ####</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>no code</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>10226</numberOfRecords>
+    </dataTable>
+    <dataTable id="SBCFC_Precip_Daily_station_locations">
+      <entityName>Santa Barbara Co. Flood Control Dist. Precipitation station locations</entityName>
+      <entityDescription>Stations sampled by the Santa Barbara County Flood Control District (Public Works Department)</entityDescription>
+      <physical>
+        <objectName>SBCFC_Precip_Daily_station_locations.csv</objectName>
+        <size unit="byte">6437</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Land/Data/Precipitation/SBCFC_Precip_Daily_station_locations.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ent4.att1">
+          <attributeName>Station</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>SBCPWD Station ID</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent4.att2">
+          <attributeName>Station_Name</attributeName>
+          <attributeLabel>Station_Name</attributeLabel>
+          <attributeDefinition>Station name</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent4.att3">
+          <attributeName>Latitude</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>Station location: latitude</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">34.39805556</minimum>
+                  <maximum exclusive="false">34.81944444</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent4.att4">
+          <attributeName>Longitude</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>Station location: longitude</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-121.01666667</minimum>
+                  <maximum exclusive="false">-119.49972222</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent4.att5">
+          <attributeName>Elevation_m</attributeName>
+          <attributeLabel>Elevation_m</attributeLabel>
+          <attributeDefinition>Station location: elevation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0</minimum>
+                  <maximum exclusive="false">1307.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent4.att6">
+          <attributeName>Active</attributeName>
+          <attributeLabel>Active</attributeLabel>
+          <attributeDefinition>Gauge status</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>TRUE</code>
+                    <definition>Gauge is active</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FALSE</code>
+                    <definition>Gauge is not active</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent4.att7">
+          <attributeName>Start_Year</attributeName>
+          <attributeLabel>Start_Year</attributeLabel>
+          <attributeDefinition>Start year of data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1868</minimum>
+                  <maximum exclusive="false">2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent4.att8">
+          <attributeName>End_Year</attributeName>
+          <attributeLabel>End_Year</attributeLabel>
+          <attributeDefinition>End year of data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1953</minimum>
+                  <maximum exclusive="false">2002</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>90</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="&#176;" id="degree" multiplierToSI="0.0174532924" name="degree" parentSI="radian" unitType="angle">
+          <ns2:description>360 degrees comprise a unit circle.</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="in" id="inch" multiplierToSI="0.0254" name="inch" parentSI="meter">
+          <ns2:description>An imperial measure of length</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m" id="meter" multiplierToSI="1" name="meter" unitType="length">
+          <ns2:description>SI unit of length</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="number" name="number" unitType="dimensionless">
+          <ns2:description>a number</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

@@ -1,0 +1,713 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.287.7" scope="system" system="ASU" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://data.gios.asu.edu/eml2_1_0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+            <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+            <principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+    <dataset id="287_1" scope="system" system="ASU">
+        <alternateIdentifier system="gios_dataset">287</alternateIdentifier>
+        <title>Throughfall</title>
+        <creator id="149" system="ASU">
+            <individualName>
+                <givenName>Nancy</givenName>
+                <givenName>B.</givenName>
+                <surName>Grimm</surName>
+            </individualName>
+            <address>
+                <deliveryPoint>School of Life Sciences</deliveryPoint>
+                <deliveryPoint>Arizona State University</deliveryPoint>
+                <deliveryPoint>PO Box 874501</deliveryPoint>
+                <city>Tempe</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-4501</postalCode>
+                <country>USA</country>
+            </address>
+        </creator>
+        <pubDate>2005</pubDate>
+        
+        <intellectualRights>
+            <section>
+                <para>Copyright Board of Regents, Arizona State University. This dataset is released
+                    to the public and may be used for academic, educational, or commercial purposes
+                    subject to the following restrictions:</para>
+                <para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>While CAP LTER will make every effort possible to control and
+                                document the quality of the data it publishes, the data are made
+                                available "as is".</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER cannot assume responsibility for damages resulting from
+                                mis-use or mis-interpretation of datasets or from errors or
+                                omissions that may exist in the data.</para>
+                        </listitem>
+                        <listitem>
+                            <para>It is considered a matter of professional ethics to acknowledge
+                                the work of other scientists that has resulted in data used in
+                                subsequent research.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER expects that any use of data from this server will be
+                                accompanied with the appropriate citations and
+                                acknowledgments.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER encourages users to contact the original investigator
+                                responsible for the data that they are accessing. Where appropriate,
+                                researchers whose projects are integrally dependent on CAP LTER data
+                                are encouraged to consider collaboration and/or co-authorship with
+                                original investigators.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users submit to the Global Institute of
+                                Sustainability, ASU, one copy of any publication resulting from the
+                                use of data obtained from this site.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users not redistribute data obtained from
+                                this site. However, links or references to this site may be freely
+                                posted.</para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+            </section>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=287</url>
+            </online>
+        </distribution>
+        <contact>
+            <positionName>Information Manager</positionName>
+            <address>
+                <deliveryPoint>Global Institute of Sustainability</deliveryPoint>
+                <deliveryPoint>Arizona State University</deliveryPoint>
+                <deliveryPoint>POB 875402</deliveryPoint>
+                <city>Tempe</city>
+                <postalCode>85287-5402</postalCode>
+                <country>USA</country>
+            </address>
+            <phone phonetype="voice">(480) 965 2975</phone>
+            <phone phonetype="fax">(480) 965-8087</phone>
+            <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+        </contact>
+        <dataTable id="collector_sites">
+            <entityName>131_collector_sites_1.csv</entityName>
+            <entityDescription>Sites where samples were collected</entityDescription>
+            <physical>
+                <objectName>131_collector_sites_1.csv</objectName>
+                <size unit="bytes">4096</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0D#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                            <quoteCharacter>"</quoteCharacter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url>http://data.gios.asu.edu/datasets/cap/131_collector_sites_1.csv</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList id="collector_sites.attributeList">
+                <attribute id="collector_sites.collector_id">
+                    <attributeName>collector_id</attributeName>
+                    <attributeDefinition>Id of the collector</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>site ID</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="collector_sites.foliage_ht_m">
+                    <attributeName>foliage_ht_m</attributeName>
+                    <attributeDefinition>Height of the foliage around sample
+                        site</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="collector_sites.location_description">
+                    <attributeName>location_description</attributeName>
+                    <attributeDefinition>Description of the locations</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Text</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="collector_sites.site">
+                    <attributeName>site</attributeName>
+                    <attributeDefinition>Site name</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>The site used for each sample.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="collector_sites.CAPsite_id">
+                    <attributeName>CAPsite_id</attributeName>
+                    <attributeDefinition>Site Id used by CAP LTER</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>CAP LTER site id.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+        </dataTable>
+        <dataTable id="Runoff">
+            <entityName>131_runoff_1.csv</entityName>
+            <entityDescription>chemical concentrations in the Runoff</entityDescription>
+            <physical>
+                <objectName>131_runoff_1.csv</objectName>
+                <size unit="bytes">12288</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0D#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                            <quoteCharacter>"</quoteCharacter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url>http://data.gios.asu.edu/datasets/cap/131_runoff_1.csv</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList id="Runoff.attributeList">
+                <attribute id="Runoff.ID">
+                    <attributeName>ID</attributeName>
+                    <attributeDefinition>Sample id</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Sample identification.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.sample_date">
+                    <attributeName>sample_date</attributeName>
+                    <attributeDefinition>Date the sample was taken</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>MM/DD/YYYY</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                            <dateTimeDomain>
+                                <bounds>
+                                    <minimum exclusive="false">07/20/2001</minimum>
+                                    <maximum exclusive="false">03/07/2005</maximum>
+                                </bounds>
+                            </dateTimeDomain>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.collector_id">
+                    <attributeName>collector_id</attributeName>
+                    <attributeDefinition>Identification of the collector</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>site ID</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="Runoff.NO3_ppm">
+                    <attributeName>NO3_ppm</attributeName>
+                    <attributeDefinition>Results for the NO3 test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.NH4_ppm">
+                    <attributeName>NH4_ppm</attributeName>
+                    <attributeDefinition>Results for the NH4 test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.Cl_ppm">
+                    <attributeName>Cl_ppm</attributeName>
+                    <attributeDefinition>Results for the Cl test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.PO4_ppb">
+                    <attributeName>PO4_ppb</attributeName>
+                    <attributeDefinition>Results for the PO4 test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.DOC_ppm">
+                    <attributeName>DOC_ppm</attributeName>
+                    <attributeDefinition>Results for the DOC test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.Mg_ppm">
+                    <attributeName>Mg_ppm</attributeName>
+                    <attributeDefinition>Results for the Mg test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.Ca_ppm">
+                    <attributeName>Ca_ppm</attributeName>
+                    <attributeDefinition>Results for the Ca test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.Na_ppm">
+                    <attributeName>Na_ppm</attributeName>
+                    <attributeDefinition>Results for the Na test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.K_ppm">
+                    <attributeName>K_ppm</attributeName>
+                    <attributeDefinition>Results for the K test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.pH">
+                    <attributeName>pH</attributeName>
+                    <attributeDefinition>Results for the pH test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Runoff.comments">
+                    <attributeName>comments</attributeName>
+                    <attributeDefinition>Comments made during the tests</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Free Text</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+        </dataTable>
+        <dataTable id="Thrughfall">
+            <entityName>131_throughfall_1.csv</entityName>
+            <entityDescription>Throughfall Results</entityDescription>
+            <physical>
+                <objectName>131_throughfall_1.csv</objectName>
+                <size unit="bytes">45056</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0D#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                            <quoteCharacter>"</quoteCharacter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url>http://data.gios.asu.edu/datasets/cap/131_throughfall_1.csv</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList id="Thrughfall.attributeList">
+                <attribute id="Thrughfall.ID">
+                    <attributeName>ID</attributeName>
+                    <attributeDefinition>Sample Identification</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.sample_date">
+                    <attributeName>sample_date</attributeName>
+                    <attributeDefinition>Date the samples were taken</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">datetime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>MM/DD/YYYY</formatString>
+                            <dateTimePrecision>1</dateTimePrecision>
+                            <dateTimeDomain>
+                                <bounds>
+                                    <minimum exclusive="false">07/20/2001</minimum>
+                                    <maximum exclusive="false">03/07/2005</maximum>
+                                </bounds>
+                            </dateTimeDomain>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.collector_id">
+                    <attributeName>collector_id</attributeName>
+                    <attributeDefinition>Collector's identification</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>site ID</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                
+                <attribute id="Thrughfall.NO3_ppm">
+                    <attributeName>NO3_ppm</attributeName>
+                    <attributeDefinition>Results for the NO3 test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.NH4_ppm">
+                    <attributeName>NH4_ppm</attributeName>
+                    <attributeDefinition>Results for the NH4 test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.Cl_ppm">
+                    <attributeName>Cl_ppm</attributeName>
+                    <attributeDefinition>Results for the Cl test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.PO4_ppb">
+                    <attributeName>PO4_ppb</attributeName>
+                    <attributeDefinition>Results for the PO4 test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.DOC_ppm">
+                    <attributeName>DOC_ppm</attributeName>
+                    <attributeDefinition>Results for the DOC test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.Mg_ppm">
+                    <attributeName>Mg_ppm</attributeName>
+                    <attributeDefinition>Results for the Mg test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.Ca_ppm">
+                    <attributeName>Ca_ppm</attributeName>
+                    <attributeDefinition>Results for the Ca test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.Na_ppm">
+                    <attributeName>Na_ppm</attributeName>
+                    <attributeDefinition>Results for the Na test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.K_ppm">
+                    <attributeName>K_ppm</attributeName>
+                    <attributeDefinition>Results for the K test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.pH">
+                    <attributeName>pH</attributeName>
+                    <attributeDefinition>Results for the pH test, measured in
+                        ppms</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Thrughfall.comments">
+                    <attributeName>comments</attributeName>
+                    <attributeDefinition>Comments made during the tests</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Free Text.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+        </dataTable>
+    </dataset>
+</ns0:eml>
